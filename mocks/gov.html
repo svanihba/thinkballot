@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ThinkBallot — For election officials (mock)</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Public+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</head>
+<body>
+<div class="mock-ribbon">Mock · placeholder data · not real ballot information · ThinkBallot demo</div>
+<header class="site-header"><div class="inner">
+  <a class="brand" href="index.html"><span class="mark">✓</span>ThinkBallot</a>
+  <nav class="site-nav">
+    <a href="ballot.html">My ballot</a>
+    <a href="search.html">Search</a>
+    <a href="qa.html">Ask</a>
+    <a href="methodology.html">Methodology</a>
+    <a id="auth-chip" class="auth-chip" href="account.html">sign in</a>
+  </nav>
+</div></header>
+
+<main>
+  <div class="eyebrow">Government intake · partner portal</div>
+  <h1>Push your ballot data to us</h1>
+  <p class="lede">County registrars and state election offices can push measures, races, and official
+  arguments directly into ThinkBallot's pipeline — authenticated, provenance-stamped, and staged.
+  Nothing publishes without passing the same grounding checks and human review as every other source.</p>
+
+  <h2>How a push flows</h2>
+  <div class="pipeline">
+    <div class="step"><h4>1 · Push</h4><p>Your system POSTs to <span class="inline-code">/intake/v1</span> with partner credentials.</p></div>
+    <div class="step"><h4>2 · Staging</h4><p>The record lands in staging — never the live dataset. Your office is recorded as its source.</p></div>
+    <div class="step"><h4>3 · Pipeline</h4><p>The same grounding pass and cite-or-omit checks run on your content.</p></div>
+    <div class="step"><h4>4 · Review</h4><p>A human reviews the generated card against your submission.</p></div>
+    <div class="step"><h4>5 · Published</h4><p>A new dataset version goes live, your office cited on every field.</p></div>
+  </div>
+
+  <h2>Your submissions (mock partner: Santa Clara County ROV)</h2>
+  <table class="doc-table">
+    <tr><th>Record</th><th>Pushed</th><th>Provenance</th><th>Status</th></tr>
+    <tr><td>Measure A: Transit Connectivity Sales Tax</td><td>Jun 12, 2026</td><td><span class="inline-code">scc-rov · api-push</span></td><td><span class="status-pill published">published</span></td></tr>
+    <tr><td>Measure B: Library Parcel Tax Renewal</td><td>Jun 12, 2026</td><td><span class="inline-code">scc-rov · api-push</span></td><td><span class="status-pill published">published</span></td></tr>
+    <tr><td>Measure C: Fire District Consolidation</td><td>Jun 28, 2026</td><td><span class="inline-code">scc-rov · api-push</span></td><td><span class="status-pill review">in review</span></td></tr>
+    <tr><td>Local ordinance argument texts (batch)</td><td>Jul 1, 2026</td><td><span class="inline-code">scc-rov · api-push</span></td><td><span class="status-pill staged">staged</span></td></tr>
+    <tr><td>Corrected fiscal note, Measure A</td><td>Jul 2, 2026</td><td><span class="inline-code">scc-rov · api-push</span></td><td><span class="status-pill received">received</span></td></tr>
+  </table>
+
+  <h2>Sample push payload</h2>
+  <pre class="code">POST /intake/v1/measures · Authorization: Bearer &lt;partner-token&gt;
+
+{
+  <span class="k">"jurisdiction"</span>: "county:06085",
+  <span class="k">"election"</span>: "2026-11-03-ca-general",
+  <span class="k">"title"</span>: "Measure C: Fire District Consolidation",
+  <span class="k">"official_text_url"</span>: "https://vote.example.gov/measures/c.pdf",
+  <span class="k">"arguments"</span>: { "for_url": "…", "against_url": "…" }
+}</pre>
+
+  <div class="notice calm">Interested in a partnership, or in a <a href="instance.html">dedicated hosted
+  instance for your jurisdiction</a>? This portal is a mock — the real intake API ships after the core
+  product.</div>
+</main>
+
+<footer class="site-footer"><div class="inner">
+  <span>ThinkBallot · mock demo</span>
+  <span class="spacer"></span>
+  <a href="api.html">API for developers</a>
+  <a href="gov.html">For election officials</a>
+  <a href="instance.html">Hosted instance demo</a>
+  <a href="methodology.html">How we stay neutral</a>
+</div></footer>
+</body>
+</html>

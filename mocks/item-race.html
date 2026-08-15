@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ThinkBallot — Race (mock)</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Public+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</head>
+<body>
+<div class="mock-ribbon">Mock · placeholder data · not real ballot information · ThinkBallot demo</div>
+<header class="site-header"><div class="inner">
+  <a class="brand" href="index.html"><span class="mark">✓</span>ThinkBallot</a>
+  <nav class="site-nav">
+    <a href="ballot.html" class="active">My ballot</a>
+    <a href="search.html">Search</a>
+    <a href="qa.html">Ask</a>
+    <a href="methodology.html">Methodology</a>
+    <a id="auth-chip" class="auth-chip" href="account.html">sign in</a>
+  </nav>
+</div></header>
+
+<main id="item-main"></main>
+
+<footer class="site-footer"><div class="inner">
+  <span>ThinkBallot · mock demo</span>
+  <span class="spacer"></span>
+  <a href="api.html">API for developers</a>
+  <a href="gov.html">For election officials</a>
+  <a href="instance.html">Hosted instance demo</a>
+  <a href="methodology.html">How we stay neutral</a>
+</div></footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const id = TBApp.param("id", "us-house-17");
+  const r = TB.findItem(id);
+  const main = document.getElementById("item-main");
+  if (!r || r.type !== "race") {
+    main.innerHTML = `<div class="notice">Unknown race. <a href="ballot.html">Back to your ballot.</a></div>`;
+    return;
+  }
+  document.title = "ThinkBallot — " + r.office + " (mock)";
+
+  main.innerHTML = `
+    <div class="eyebrow">${TBApp.esc(r.scope)} · ${TBApp.esc(TB.election.name)}</div>
+    <h1>${TBApp.esc(r.office)}</h1>
+    <p class="equal-note">${TBApp.esc(r.summaryNote)}</p>
+
+    ${r.candidates.map((c) => `
+      <div class="candidate">
+        <div class="row"><h3>${TBApp.esc(c.name)}</h3><span class="party">${TBApp.esc(c.party)}</span></div>
+        <p>${TBApp.esc(c.summary)} ${TBApp.srcChip(c.src)}</p>
+      </div>`).join("")}
+
+    <div class="sources-block">
+      <div class="eyebrow">Sources — every field above traces to one of these</div>
+      <ul>${r.sources.map((s) => `<li><span class="mono">[${s.replace("src-", "")}]</span> ${TBApp.esc(TB.sources[s].label)}</li>`).join("")}</ul>
+    </div>
+
+    <p style="margin-top:1.6rem"><a class="btn ghost small" href="ballot.html">← Back to your ballot</a></p>
+
+    ${TBApp.communityZone(r.id)}
+  `;
+});
+</script>
+</body>
+</html>

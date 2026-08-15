@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SCC Ballot Guide — powered by ThinkBallot (mock)</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Public+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</head>
+<body class="instance-county">
+<div class="mock-ribbon">Mock · placeholder data · hosted-instance demo · powered by ThinkBallot</div>
+<header class="site-header"><div class="inner">
+  <a class="brand" href="instance.html"><span class="mark">✓</span>SCC Ballot Guide
+    <span class="instance-tag">Santa Clara County instance</span></a>
+  <nav class="site-nav">
+    <a href="index.html">← back to ThinkBallot demo</a>
+  </nav>
+</div></header>
+
+<main>
+  <div class="eyebrow">November 3, 2026 · Santa Clara County</div>
+  <h1>Every measure on your county ballot, explained.</h1>
+  <p class="lede">This is a demo of a <strong>dedicated hosted instance</strong>: the same ThinkBallot
+  engine — grounding pipeline, cite-or-omit checks, neutral cards — configured and branded for a single
+  jurisdiction. A county, a state, or a district can run its own. Nothing about the trust model changes;
+  only the scope and the nameplate do.</p>
+
+  <div class="section-head"><span class="sec-num">COUNTY MEASURES</span><h2>Santa Clara County</h2></div>
+  <div id="county-cards"></div>
+
+  <div class="notice calm">Statewide propositions and district races appear here too in a full instance —
+  this demo shows the county slice. Configuration decides scope; the engine is identical.
+  <a href="gov.html">Election officials: how data gets in →</a></div>
+</main>
+
+<footer class="site-footer"><div class="inner">
+  <span>SCC Ballot Guide · a ThinkBallot hosted instance (mock)</span>
+  <span class="spacer"></span>
+  <a href="methodology.html">How we stay neutral</a>
+  <a href="index.html">ThinkBallot</a>
+</div></footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("county-cards").innerHTML =
+    TB.countyMeasures.map((m) => TBApp.measureCard(m)).join("");
+});
+</script>
+</body>
+</html>

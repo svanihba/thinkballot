@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ThinkBallot — Public API (mock)</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Public+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</head>
+<body>
+<div class="mock-ribbon">Mock · placeholder data · not real ballot information · ThinkBallot demo</div>
+<header class="site-header"><div class="inner">
+  <a class="brand" href="index.html"><span class="mark">✓</span>ThinkBallot</a>
+  <nav class="site-nav">
+    <a href="ballot.html">My ballot</a>
+    <a href="search.html">Search</a>
+    <a href="qa.html">Ask</a>
+    <a href="methodology.html">Methodology</a>
+    <a id="auth-chip" class="auth-chip" href="account.html">sign in</a>
+  </nav>
+</div></header>
+
+<main>
+  <div class="eyebrow">Developers · journalists · researchers</div>
+  <h1>The ballot, as an API</h1>
+  <p class="lede">The same grounded, cited dataset that powers this site — versioned, documented, and free.
+  ThinkBallot is civic data infrastructure: build voter tools, run analyses, embed ballot cards. Keys are
+  free; limits are generous; citations come with every field.</p>
+
+  <h2>Endpoints (v1)</h2>
+  <table class="doc-table">
+    <tr><th>Endpoint</th><th>Returns</th></tr>
+    <tr><td><code>GET /api/v1/elections</code></td><td>Elections available in this instance's dataset</td></tr>
+    <tr><td><code>GET /api/v1/ballot?address=…</code></td><td>Resolved districts + the ballot items in scope (address is resolved, never stored)</td></tr>
+    <tr><td><code>GET /api/v1/items/{id}</code></td><td>One full card: summary, yes/no, arguments, fiscal, candidates — every field with source ids</td></tr>
+    <tr><td><code>GET /api/v1/search?q=…&amp;topic=…&amp;feature=…</code></td><td>Filtered + full-text search over the grounded dataset</td></tr>
+  </table>
+
+  <h2>Sample response</h2>
+  <pre class="code">GET /api/v1/items/prop-61 · 200 OK
+
+{
+  <span class="k">"id"</span>: "prop-61",
+  <span class="k">"election"</span>: "2026-11-03-ca-general",
+  <span class="k">"type"</span>: "measure",
+  <span class="k">"title"</span>: "Proposition 61: Community College Facilities Bond",
+  <span class="k">"plain_summary"</span>: "Authorizes $8 billion in state bonds…",
+  <span class="k">"yes_means"</span>: "The state may borrow $8 billion…",
+  <span class="k">"fiscal_impact"</span>: { "text": "About $460 million per year…", "source": "src-lao" },
+  <span class="k">"sources"</span>: [
+    { "id": "src-sos", "label": "Official Voter Information Guide", "url": "https://…" },
+    { "id": "src-lao", "label": "Legislative Analyst's Office", "url": "https://…" }
+  ]
+}</pre>
+  <p class="hint">Every generated field carries a source id — the cite-or-omit guarantee is part of the API
+  contract, not just the website.</p>
+
+  <h2>Get a key</h2>
+  <div class="panel">
+    <label for="k-email">Email</label>
+    <input id="k-email" type="email" placeholder="you@newsroom.org">
+    <label for="k-use">What are you building?</label>
+    <input id="k-use" type="text" placeholder="e.g. county ballot explainer for our readers">
+    <p style="margin-top:1rem"><button class="btn" onclick="alert('Mock only — a real key flow would email you a free, rate-limited API key.')">Request free key (mock)</button></p>
+    <p class="hint">Free forever for civic use. Rate-limited per key; versioned so your integration doesn't break.</p>
+  </div>
+</main>
+
+<footer class="site-footer"><div class="inner">
+  <span>ThinkBallot · mock demo</span>
+  <span class="spacer"></span>
+  <a href="api.html">API for developers</a>
+  <a href="gov.html">For election officials</a>
+  <a href="instance.html">Hosted instance demo</a>
+  <a href="methodology.html">How we stay neutral</a>
+</div></footer>
+</body>
+</html>

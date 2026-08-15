@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ThinkBallot — How we stay neutral (mock)</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Public+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</head>
+<body>
+<div class="mock-ribbon">Mock · placeholder data · not real ballot information · ThinkBallot demo</div>
+<header class="site-header"><div class="inner">
+  <a class="brand" href="index.html"><span class="mark">✓</span>ThinkBallot</a>
+  <nav class="site-nav">
+    <a href="ballot.html">My ballot</a>
+    <a href="search.html">Search</a>
+    <a href="qa.html">Ask</a>
+    <a href="methodology.html" class="active">Methodology</a>
+    <a id="auth-chip" class="auth-chip" href="account.html">sign in</a>
+  </nav>
+</div></header>
+
+<main>
+  <div class="eyebrow">Methodology</div>
+  <h1>How we stay neutral</h1>
+  <p class="lede">ThinkBallot never tells you how to vote. Neutrality isn't a promise we make —
+  it's a property of how the system is built. Here's the whole pipeline, in plain terms.</p>
+
+  <h2>The pipeline</h2>
+  <div class="pipeline">
+    <div class="step"><h4>1 · Official sources</h4><p>State voter guide, Legislative Analyst's Office, county registrars. Aggregators only fill gaps.</p></div>
+    <div class="step"><h4>2 · Ingestion</h4><p>Parsers turn source documents into raw records. No AI involved at this step.</p></div>
+    <div class="step"><h4>3 · Grounded AI pass</h4><p>An AI rewrites the official text in plain language. It may only reorganize what's in the source — never add facts.</p></div>
+    <div class="step"><h4>4 · Grounding check</h4><p>Every generated sentence must trace to a source. If it can't, it's dropped and labeled "not available."</p></div>
+    <div class="step"><h4>5 · Your ballot</h4><p>What you read is a fast lookup over that checked dataset. No AI runs while you browse.</p></div>
+  </div>
+
+  <h2>The rules</h2>
+  <table class="doc-table">
+    <tr><th>Rule</th><th>What it means</th></tr>
+    <tr><td><strong>Cite or omit</strong></td><td>No sentence appears without a source you can click. Missing citation → the field is omitted with a visible note, never invented.</td></tr>
+    <tr><td><strong>Symmetry by construction</strong></td><td>Arguments for and against come from the official ballot arguments and get equal prominence. Every candidate gets the same fields, same length budget, same tone.</td></tr>
+    <tr><td><strong>The AI transforms, it never authors</strong></td><td>The model only rewrites official source text handed to it. It runs at build time — not while you browse (the one exception: signed-in Q&amp;A, which must cite or refuse).</td></tr>
+    <tr><td><strong>Community content is separate</strong></td><td>Comments and community facts live in a visibly distinct zone, on separate infrastructure, and can never modify the official cards. Moderation is viewpoint-neutral.</td></tr>
+    <tr><td><strong>Your address is never stored</strong></td><td>It's converted to your county and districts, then discarded — even if you have an account.</td></tr>
+  </table>
+
+  <h2>What we will never do</h2>
+  <p class="lede" style="font-size:.95rem">No endorsements. No predictions. No "how you should vote."
+  No partisan framing in our own voice. No fabricated facts. No login required to read. These aren't
+  policies we might revisit — they're the boundary that makes everything else trustworthy.</p>
+
+  <div class="notice calm" style="margin-top:2rem">Questions about the method? The full founding spec is
+  public in the project repository, including the decisions and their reasons.</div>
+</main>
+
+<footer class="site-footer"><div class="inner">
+  <span>ThinkBallot · mock demo</span>
+  <span class="spacer"></span>
+  <a href="api.html">API for developers</a>
+  <a href="gov.html">For election officials</a>
+  <a href="instance.html">Hosted instance demo</a>
+  <a href="methodology.html">How we stay neutral</a>
+</div></footer>
+</body>
+</html>

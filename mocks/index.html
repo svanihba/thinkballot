@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ThinkBallot — Understand your ballot (mock)</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Public+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</head>
+<body>
+<div class="mock-ribbon">Mock · placeholder data · not real ballot information · ThinkBallot demo</div>
+<header class="site-header"><div class="inner">
+  <a class="brand" href="index.html"><span class="mark">✓</span>ThinkBallot</a>
+  <nav class="site-nav">
+    <a href="ballot.html">My ballot</a>
+    <a href="search.html">Search</a>
+    <a href="qa.html">Ask</a>
+    <a href="methodology.html">Methodology</a>
+    <a id="auth-chip" class="auth-chip" href="account.html">sign in</a>
+  </nav>
+</div></header>
+
+<main>
+  <section class="hero">
+    <div class="eyebrow">November 3, 2026 · California General Election</div>
+    <h1>Your ballot, explained. <em>Nothing more.</em></h1>
+    <p class="lede">Enter your address and see every proposition, race, and measure you'll actually vote on —
+    in plain language, strictly nonpartisan, with the official sources one click away. We never tell you how
+    to vote. No account needed, ever, to read.</p>
+
+    <form class="address-form" onsubmit="event.preventDefault(); location.href='ballot.html?addr=cupertino';">
+      <input type="text" placeholder="Your California home address…" aria-label="Home address">
+      <button class="btn" type="submit">See my ballot</button>
+    </form>
+    <p class="hint">Just exploring? Try a sample address:
+      <a href="ballot.html?addr=cupertino">Cupertino (full coverage)</a> ·
+      <a href="ballot.html?addr=eureka">Eureka (low local coverage)</a>
+    </p>
+  </section>
+
+  <div class="pillars">
+    <div class="pillar"><span class="num">01</span><h3>Grounded, not generated</h3>
+      <p>Every sentence traces to an official source — the state voter guide, the Legislative Analyst,
+      your county registrar. No citation, not shown. Ever.</p></div>
+    <div class="pillar"><span class="num">02</span><h3>Neutral by construction</h3>
+      <p>Arguments for and against get equal prominence. Every candidate gets the same fields, the same
+      length, the same tone. <a href="methodology.html">See how it works.</a></p></div>
+    <div class="pillar"><span class="num">03</span><h3>Actually <i>your</i> ballot</h3>
+      <p>Your address resolves to your county and districts, so you see the races and measures you'll
+      really vote on — not a generic list.</p></div>
+    <div class="pillar"><span class="num">04</span><h3>Open civic infrastructure</h3>
+      <p>Journalists, researchers, and developers can build on the same dataset through our
+      <a href="api.html">public API</a>. Election officials can <a href="gov.html">push data directly</a>.</p></div>
+  </div>
+</main>
+
+<footer class="site-footer"><div class="inner">
+  <span>ThinkBallot · mock demo</span>
+  <span class="spacer"></span>
+  <a href="api.html">API for developers</a>
+  <a href="gov.html">For election officials</a>
+  <a href="instance.html">Hosted instance demo</a>
+  <a href="methodology.html">How we stay neutral</a>
+</div></footer>
+</body>
+</html>
