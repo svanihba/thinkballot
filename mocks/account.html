@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ThinkBallot — Account (mock)</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Public+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</head>
+<body>
+<div class="mock-ribbon">Mock · placeholder data · not real ballot information · ThinkBallot demo</div>
+<header class="site-header"><div class="inner">
+  <a class="brand" href="index.html"><span class="mark">✓</span>ThinkBallot</a>
+  <nav class="site-nav">
+    <a href="ballot.html">My ballot</a>
+    <a href="search.html">Search</a>
+    <a href="qa.html">Ask</a>
+    <a href="methodology.html">Methodology</a>
+    <a id="auth-chip" class="auth-chip" href="account.html">sign in</a>
+  </nav>
+</div></header>
+
+<main id="account-main"></main>
+
+<footer class="site-footer"><div class="inner">
+  <span>ThinkBallot · mock demo</span>
+  <span class="spacer"></span>
+  <a href="api.html">API for developers</a>
+  <a href="gov.html">For election officials</a>
+  <a href="instance.html">Hosted instance demo</a>
+  <a href="methodology.html">How we stay neutral</a>
+</div></footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const main = document.getElementById("account-main");
+  const u = TBApp.user();
+
+  if (!u) {
+    main.innerHTML = `
+      <div class="eyebrow">Account · optional, always</div>
+      <h1>Sign in to interact</h1>
+      <p class="lede">Reading ThinkBallot never requires an account. Sign in only if you want to join
+      discussions, submit facts, ask the grounded Q&amp;A, or get election reminders. We never store your
+      street address — only your districts.</p>
+      <div class="panel">
+        <label for="u">Display name (mock sign-in)</label>
+        <input id="u" type="text" placeholder="e.g. first_time_voter">
+        <p class="hint" style="margin-top:.6rem">In production: email magic-link or OAuth — an open item in
+        the spec. This demo just remembers a name in your browser.</p>
+        <p style="margin-top:1rem"><button class="btn" onclick="TBApp.signIn(document.getElementById('u').value.trim() || 'demo_voter')">Sign in (mock)</button></p>
+      </div>`;
+    return;
+  }
+
+  main.innerHTML = `
+    <div class="eyebrow">Account</div>
+    <h1>Hi, @${TBApp.esc(u)}</h1>
+    <p class="lede">Your account unlocks interaction. It never changes what you can read.</p>
+
+    <h2>Subscriptions &amp; notifications</h2>
+    <div class="panel" style="max-width:36rem">
+      <div class="toggle-row"><div><div class="t-label">Election reminders</div><div class="t-sub">Registration deadlines, vote-by-mail dates, election day</div></div><input type="checkbox" checked></div>
+      <div class="toggle-row"><div><div class="t-label">Email ballot summary</div><div class="t-sub">One digest of your full ballot when the dataset for your election is published</div></div><input type="checkbox" checked></div>
+      <div class="toggle-row"><div><div class="t-label">Followed-item updates</div><div class="t-sub">When a measure or race you follow gains new grounded content or vetted community facts</div></div><input type="checkbox"></div>
+      <div class="toggle-row"><div><div class="t-label">Weekly digest</div><div class="t-sub">Community-discussion highlights from items on your ballot</div></div><input type="checkbox"></div>
+      <p class="hint" style="margin-top:.8rem">Mock only — toggles don't persist. Production: double opt-in,
+      one-click unsubscribe, mobile push once the apps ship.</p>
+    </div>
+
+    <h2>What we store</h2>
+    <p style="max-width:42rem;font-size:.92rem">Your display name, email (for notifications), and derived
+    district IDs (<span class="inline-code">CD-17 · SD-13 · AD-24</span>) — <strong>never your street
+    address</strong>. All account data lives in a separate community service, physically apart from the
+    ballot dataset.</p>
+
+    <p style="margin-top:1.6rem"><button class="btn ghost" onclick="TBApp.signOut()">Sign out</button></p>`;
+});
+</script>
+</body>
+</html>

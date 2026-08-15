@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ThinkBallot — Your ballot (mock)</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Public+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</head>
+<body>
+<div class="mock-ribbon">Mock · placeholder data · not real ballot information · ThinkBallot demo</div>
+<header class="site-header"><div class="inner">
+  <a class="brand" href="index.html"><span class="mark">✓</span>ThinkBallot</a>
+  <nav class="site-nav">
+    <a href="ballot.html" class="active">My ballot</a>
+    <a href="search.html">Search</a>
+    <a href="qa.html">Ask</a>
+    <a href="methodology.html">Methodology</a>
+    <a id="auth-chip" class="auth-chip" href="account.html">sign in</a>
+  </nav>
+</div></header>
+
+<main id="ballot-main">
+  <div class="eyebrow">Your ballot</div>
+  <h1 id="ballot-title">November 3, 2026 California General Election</h1>
+  <div class="ballot-meta" id="ballot-meta"></div>
+  <div id="ballot-body"></div>
+</main>
+
+<footer class="site-footer"><div class="inner">
+  <span>ThinkBallot · mock demo</span>
+  <span class="spacer"></span>
+  <a href="api.html">API for developers</a>
+  <a href="gov.html">For election officials</a>
+  <a href="instance.html">Hosted instance demo</a>
+  <a href="methodology.html">How we stay neutral</a>
+</div></footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const key = TBApp.param("addr", "cupertino");
+  const b = TB.ballotFor(key);
+  const d = b.address.districts;
+
+  document.getElementById("ballot-meta").innerHTML = `
+    <span class="addr">${TBApp.esc(b.address.label)}</span>
+    <span class="chip accent">${TBApp.esc(b.address.county)}</span>
+    <span class="chip">${d.cd}</span><span class="chip">${d.sd}</span><span class="chip">${d.ad}</span>
+    <a href="index.html" style="font-size:.78rem;margin-left:auto">change address</a>`;
+
+  let html = "";
+
+  html += `<div class="section-head"><span class="sec-num">SECTION 1</span><h2>Statewide propositions</h2></div>`;
+  html += b.measures.map((m) => TBApp.measureCard(m)).join("");
+
+  html += `<div class="section-head"><span class="sec-num">SECTION 2</span><h2>Federal &amp; state races</h2></div>`;
+  if (b.races.length) {
+    html += b.races.map((r) => TBApp.raceCard(r)).join("");
+  } else {
+    html += `<div class="notice">Race cards for your districts aren't composed in this demo. In the real
+      product your ${d.cd}, ${d.sd}, and ${d.ad} races would appear here with equal, sourced candidate cards.</div>`;
+  }
+
+  html += `<div class="section-head"><span class="sec-num">SECTION 3</span><h2>County &amp; local measures</h2></div>`;
+  if (b.county.length) {
+    html += b.county.map((m) => TBApp.measureCard(m)).join("");
+  } else {
+    html += `<div class="notice">We don't yet cover local measures for <strong>${TBApp.esc(b.address.county)}</strong>.
+      Your statewide items above are complete; local coverage expands county by county — honestly labeled,
+      never guessed.</div>`;
+  }
+
+  html += `<div class="notice calm" style="margin-top:2.4rem">Every card above is generated from official
+    sources with a cite-or-omit rule — anything we can't trace to a source is left out and labeled, never
+    invented. <a href="methodology.html">How we stay neutral →</a></div>`;
+
+  document.getElementById("ballot-body").innerHTML = html;
+});
+</script>
+</body>
+</html>

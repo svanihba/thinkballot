@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ThinkBallot — Ask (mock)</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Public+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</head>
+<body>
+<div class="mock-ribbon">Mock · placeholder data · not real ballot information · ThinkBallot demo</div>
+<header class="site-header"><div class="inner">
+  <a class="brand" href="index.html"><span class="mark">✓</span>ThinkBallot</a>
+  <nav class="site-nav">
+    <a href="ballot.html">My ballot</a>
+    <a href="search.html">Search</a>
+    <a href="qa.html" class="active">Ask</a>
+    <a href="methodology.html">Methodology</a>
+    <a id="auth-chip" class="auth-chip" href="account.html">sign in</a>
+  </nav>
+</div></header>
+
+<main>
+  <div class="eyebrow">Grounded Q&amp;A · signed-in feature</div>
+  <h1>Ask about your ballot</h1>
+  <p class="lede">Answers come only from the grounded, cited dataset — every answer carries its sources,
+  and questions we can't ground get an honest refusal, not a guess. <strong>Cite or refuse.</strong></p>
+
+  <div id="qa-area"></div>
+</main>
+
+<footer class="site-footer"><div class="inner">
+  <span>ThinkBallot · mock demo</span>
+  <span class="spacer"></span>
+  <a href="api.html">API for developers</a>
+  <a href="gov.html">For election officials</a>
+  <a href="instance.html">Hosted instance demo</a>
+  <a href="methodology.html">How we stay neutral</a>
+</div></footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const area = document.getElementById("qa-area");
+  if (!TBApp.user()) {
+    area.innerHTML = `<div class="locked" style="margin-top:2rem">Q&amp;A is a signed-in feature (it costs
+      real compute). Reading your ballot never requires an account — but to ask questions,
+      <a href="account.html">sign in</a>. Generous usage caps; never a paywall on reading.</div>`;
+    return;
+  }
+
+  area.innerHTML = `
+    <div class="canned" id="canned"></div>
+    <div class="chat">
+      <div class="chat-log" id="log">
+        <div class="msg bot">Hi! Ask me anything about the measures and races on your mock ballot.
+        I only answer from the grounded dataset, with citations. Try a suggested question above.</div>
+      </div>
+      <div class="chat-input">
+        <input id="q-in" type="text" placeholder="Ask about a measure or race…">
+        <button class="btn small" id="q-send">Ask</button>
+      </div>
+    </div>
+    <p class="hint">Mock: suggested questions get canned grounded answers; anything else demonstrates the
+    refusal path. Usage this month: <span class="inline-code">3 / 200 questions</span> (generous cap).</p>`;
+
+  const canned = document.getElementById("canned");
+  canned.innerHTML = TB.qa
+    .map((p, i) => `<button class="filter-chip" data-i="${i}">${TBApp.esc(p.q)}</button>`)
+    .join("");
+
+  const log = document.getElementById("log");
+  function add(cls, html) {
+    const div = document.createElement("div");
+    div.className = "msg " + cls;
+    div.innerHTML = html;
+    log.appendChild(div);
+    log.scrollTop = log.scrollHeight;
+  }
+
+  function answer(text) {
+    const hit = TB.qa.find((p) => p.q.toLowerCase() === text.toLowerCase());
+    add("user", TBApp.esc(text));
+    setTimeout(() => {
+      if (hit) {
+        add("bot", TBApp.esc(hit.a) + " " + hit.cites.map((c) => TBApp.srcChip(c)).join(" "));
+      } else {
+        add("bot refusal", TBApp.esc(TB.qaRefusal));
+      }
+    }, 350);
+  }
+
+  canned.querySelectorAll("button").forEach((b) =>
+    b.addEventListener("click", () => answer(TB.qa[b.dataset.i].q))
+  );
+  document.getElementById("q-send").addEventListener("click", () => {
+    const v = document.getElementById("q-in").value.trim();
+    if (v) { answer(v); document.getElementById("q-in").value = ""; }
+  });
+  document.getElementById("q-in").addEventListener("keydown", (e) => {
+    if (e.key === "Enter") document.getElementById("q-send").click();
+  });
+});
+</script>
+</body>
+</html>

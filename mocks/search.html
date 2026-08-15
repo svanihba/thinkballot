@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ThinkBallot — Search (mock)</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Public+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</head>
+<body>
+<div class="mock-ribbon">Mock · placeholder data · not real ballot information · ThinkBallot demo</div>
+<header class="site-header"><div class="inner">
+  <a class="brand" href="index.html"><span class="mark">✓</span>ThinkBallot</a>
+  <nav class="site-nav">
+    <a href="ballot.html">My ballot</a>
+    <a href="search.html" class="active">Search</a>
+    <a href="qa.html">Ask</a>
+    <a href="methodology.html">Methodology</a>
+    <a id="auth-chip" class="auth-chip" href="account.html">sign in</a>
+  </nav>
+</div></header>
+
+<main>
+  <div class="eyebrow">Search the grounded dataset · anonymous, always</div>
+  <h1>Find any measure or race</h1>
+  <p class="lede">Full-text search plus filters — by geography, type, topic, sponsor, and civic feature.
+  In production this runs on a dedicated search service; the interface stays the same as it gets smarter.</p>
+
+  <div class="search-bar">
+    <input id="q" type="search" placeholder="Try “housing”, “bond”, “water”, “Delgado”…" aria-label="Search">
+  </div>
+  <div class="filters" id="filters"></div>
+  <div class="result-count" id="count"></div>
+  <div id="results"></div>
+</main>
+
+<footer class="site-footer"><div class="inner">
+  <span>ThinkBallot · mock demo</span>
+  <span class="spacer"></span>
+  <a href="api.html">API for developers</a>
+  <a href="gov.html">For election officials</a>
+  <a href="instance.html">Hosted instance demo</a>
+  <a href="methodology.html">How we stay neutral</a>
+</div></footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const FILTERS = [
+    { key: "type:measure", label: "measures", test: (i) => i.type === "measure" },
+    { key: "type:race", label: "races", test: (i) => i.type === "race" },
+    { key: "geo:statewide", label: "statewide", test: (i) => i.scope === "Statewide" },
+    { key: "geo:county", label: "santa clara co.", test: (i) => i.scope === "Santa Clara County" },
+    { key: "feat:tax", label: "tax", test: (i) => (i.civicFeatures || []).includes("tax") },
+    { key: "feat:bond", label: "bond", test: (i) => (i.civicFeatures || []).includes("bond") },
+    { key: "topic:housing", label: "housing", test: (i) => (i.topics || []).includes("housing") },
+    { key: "topic:education", label: "education", test: (i) => (i.topics || []).includes("education") },
+    { key: "topic:environment", label: "environment", test: (i) => (i.topics || []).includes("environment") },
+  ];
+  const active = new Set();
+
+  const filtersEl = document.getElementById("filters");
+  filtersEl.innerHTML = FILTERS.map(
+    (f) => `<button class="filter-chip" data-key="${f.key}">${f.label}</button>`
+  ).join("");
+  filtersEl.querySelectorAll("button").forEach((b) =>
+    b.addEventListener("click", () => {
+      const k = b.dataset.key;
+      active.has(k) ? active.delete(k) : active.add(k);
+      b.classList.toggle("on");
+      render();
+    })
+  );
+
+  function haystack(i) {
+    return [
+      i.title, i.office, i.summary, i.scope,
+      (i.topics || []).join(" "),
+      (i.civicFeatures || []).join(" "),
+      (i.sponsors || []).join(" "),
+      (i.candidates || []).map((c) => c.name + " " + c.party + " " + c.summary).join(" "),
+    ].filter(Boolean).join(" ").toLowerCase();
+  }
+
+  function render() {
+    const q = document.getElementById("q").value.trim().toLowerCase();
+    let items = TB.allItems();
+    if (q) items = items.filter((i) => haystack(i).includes(q));
+    for (const k of active) {
+      const f = FILTERS.find((f) => f.key === k);
+      items = items.filter(f.test);
+    }
+    document.getElementById("count").textContent =
+      items.length + " item" + (items.length === 1 ? "" : "s") + " · " + TB.election.name;
+    document.getElementById("results").innerHTML =
+      items.map((i) => (i.type === "measure" ? TBApp.measureCard(i) : TBApp.raceCard(i))).join("") ||
+      `<div class="notice">No items match. Clear a filter or try another term.</div>`;
+  }
+
+  document.getElementById("q").addEventListener("input", render);
+  render();
+});
+</script>
+</body>
+</html>
