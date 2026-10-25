@@ -14,23 +14,27 @@ def _env(name, default):
     return os.environ.get(name, default)
 
 
-# Where this process is reachable; the services find each other through these base URLs.
-# Each service can later move to its own host by changing only its URL.
-PUBLIC_BASE = _env("TB_BASE_URL", "http://127.0.0.1:8000")
+# The site's public address (share links, preview cards, secure cookies).
+PUBLIC_BASE = _env("TB_PUBLIC_URL", "http://127.0.0.1:8000")
+# Where the services find each other. Either http://host:port or, on the server, the process's own
+# unix socket as unix:/run/thinkballot/app.sock. Each service can later move by changing only its URL.
+INTERNAL_BASE = _env("TB_INTERNAL_URL", PUBLIC_BASE)
 SERVICE_URLS = {
-    "ballot": _env("TB_BALLOT_URL", PUBLIC_BASE + "/svc/ballot"),
-    "geo": _env("TB_GEO_URL", PUBLIC_BASE + "/svc/geo"),
-    "ask": _env("TB_ASK_URL", PUBLIC_BASE + "/svc/ask"),
-    "bias": _env("TB_BIAS_URL", PUBLIC_BASE + "/svc/bias"),
-    "search": _env("TB_SEARCH_URL", PUBLIC_BASE + "/svc/search"),
-    "community": _env("TB_COMMUNITY_URL", PUBLIC_BASE + "/svc/community"),
+    "ballot": _env("TB_BALLOT_URL", INTERNAL_BASE + "/svc/ballot"),
+    "geo": _env("TB_GEO_URL", INTERNAL_BASE + "/svc/geo"),
+    "ask": _env("TB_ASK_URL", INTERNAL_BASE + "/svc/ask"),
+    "bias": _env("TB_BIAS_URL", INTERNAL_BASE + "/svc/bias"),
+    "search": _env("TB_SEARCH_URL", INTERNAL_BASE + "/svc/search"),
+    "community": _env("TB_COMMUNITY_URL", INTERNAL_BASE + "/svc/community"),
 }
 
 # Services that only other ThinkBallot services may call (they need this shared token).
 INTERNAL_TOKEN = os.environ.get("TB_INTERNAL_TOKEN") or secrets.token_hex(32)
 SECRET_KEY = os.environ.get("TB_SECRET_KEY") or secrets.token_hex(32)  # signs sign-in cookies
 
+# Official data: rebuilt from the release's own files on every deploy, so it lives with the release.
 DB_PATH = Path(_env("TB_DB_PATH", str(ROOT / "instance" / "thinkballot.sqlite3")))
+REPORT_PATH = Path(_env("TB_REPORT_PATH", str(ROOT / "reports" / "bias-report.json")))
 # The community service keeps its own database, so it can never change the official data.
 COMMUNITY_DB_PATH = Path(_env("TB_COMMUNITY_DB_PATH", str(ROOT / "instance" / "community.sqlite3")))
 ZIP_TABLE_PATH = Path(_env("TB_ZIP_TABLE", str(ROOT / "data" / "zip_districts.json")))

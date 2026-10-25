@@ -93,3 +93,4 @@ details.composer summary { list-style: none; display: inline-block; margin-top: 
 .analysis { margin: 1.4rem 0; border: 1px solid var(--line); background: #fffdf8; padding: 0.8rem 1rem; }
 .analysis summary { cursor: pointer; font-family: var(--serif); font-weight: 600; font-size: 1.05rem; }
 .analysis-text { white-space: pre-line; font-size: 0.9rem; margin: 0.8rem 0; max-width: 46rem; }
+.gap { margin-top: 2rem; }

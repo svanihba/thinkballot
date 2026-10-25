@@ -8,7 +8,7 @@ from ... import config
 from ...servicekit import make_service
 from . import engine
 
-REPORT_PATH = config.ROOT / "reports" / "bias-report.json"
+REPORT_PATH = config.REPORT_PATH
 
 MODES = {"verify", "audit", "enforce", "wording"}
 

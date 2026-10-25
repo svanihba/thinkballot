@@ -12,12 +12,10 @@ Nothing is loaded if step 1 or 3 fails. A report goes to reports/bias-report.jso
 import argparse
 import json
 import sys
-import threading
 from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
-from werkzeug.serving import make_server
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
@@ -29,7 +27,7 @@ from thinkballot.services.ballot import db  # noqa: E402
 from thinkballot.services.web.app import FIELD_HEADINGS, SUGGESTED_QUESTIONS  # noqa: E402
 
 DEFAULT_DATA = config.ROOT / "data" / "measures.json"
-REPORT_PATH = config.ROOT / "reports" / "bias-report.json"
+REPORT_PATH = config.REPORT_PATH
 
 
 def page_text(entry, cache, live=False):
@@ -47,25 +45,38 @@ def page_text(entry, cache, live=False):
     return cache[key]
 
 
+class _InProcessBias:
+    """The bias service app called through WSGI in this process (same JSON API, no listener)."""
+
+    def __init__(self):
+        from thinkballot.services.bias.app import create_app
+        self.client = create_app().test_client()
+        self.headers = {"X-TB-Internal": config.INTERNAL_TOKEN}
+
+    def get(self, path, **params):
+        return self.client.get(path, query_string=params, headers=self.headers).get_json()
+
+    def post(self, path, payload):
+        resp = self.client.post(path, json=payload, headers=self.headers)
+        if resp.status_code >= 400:
+            raise ServiceError("bias", f"HTTP {resp.status_code}", resp.status_code)
+        return resp.get_json()
+
+
 def bias_client():
-    """Use the running bias service; if none is running, start one just for this script."""
-    client = ServiceClient("bias")
+    """Use the running bias service; if none is running (e.g. during a deploy), run it in-process."""
+    client = ServiceClient("bias", timeout=5)
     try:
         client.get("/health")
-        return client, None
+        return client
     except ServiceError:
-        from thinkballot.services.bias.app import create_app
-        import logging
-        logging.getLogger("werkzeug").setLevel(logging.WARNING)
-        server = make_server("127.0.0.1", 0, create_app(), threaded=True)
-        threading.Thread(target=server.serve_forever, daemon=True).start()
-        print(f"(started a local bias service on port {server.server_port})")
-        return ServiceClient("bias", f"http://127.0.0.1:{server.server_port}"), server
+        print("(bias service not running; using it in-process)")
+        return _InProcessBias()
 
 
 def main(path, live=False):
     data = json.loads(Path(path).read_text())
-    bias, server = bias_client()
+    bias = bias_client()
     cache, report = {}, {"verify": [], "audit": [], "labels": []}
     failures = 0
 
@@ -108,13 +119,11 @@ def main(path, live=False):
         "labels_checked": len(labels),
         "audit_findings": len(report["audit"]),
     }
-    REPORT_PATH.parent.mkdir(exist_ok=True)
+    REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
     REPORT_PATH.write_text(json.dumps(report, indent=2) + "\n")
-    if server:
-        server.shutdown()
 
     if failures:
-        print(f"Not loaded: {failures} check(s) failed. See {REPORT_PATH.relative_to(config.ROOT)}.")
+        print(f"Not loaded: {failures} check(s) failed. See {REPORT_PATH}.")
         return 1
     db.replace_all(db.connect(), data["election"], data["measures"])
     print(f"Loaded {len(data['measures'])} measures. {report['summary']}")

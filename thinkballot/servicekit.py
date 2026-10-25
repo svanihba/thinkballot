@@ -2,9 +2,13 @@
 
 import hmac
 import logging
+import socket
 import time
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.connection import HTTPConnection
+from urllib3.connectionpool import HTTPConnectionPool
 
 from flask import Flask, abort, jsonify, request
 from werkzeug.exceptions import HTTPException
@@ -24,12 +28,57 @@ class ServiceError(Exception):
         self.status = status
 
 
+class _UnixConnection(HTTPConnection):
+    def __init__(self, socket_path, *args, **kwargs):
+        super().__init__("localhost", *args, **kwargs)
+        self.socket_path = socket_path
+
+    def connect(self):
+        self.sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
+        self.sock.settimeout(self.timeout if isinstance(self.timeout, (int, float)) else None)
+        self.sock.connect(self.socket_path)
+
+
+class _UnixPool(HTTPConnectionPool):
+    def __init__(self, socket_path, **kwargs):
+        super().__init__("localhost", **kwargs)
+        self.socket_path = socket_path
+
+    def _new_conn(self):
+        return _UnixConnection(self.socket_path, timeout=self.timeout.connect_timeout)
+
+
+class _UnixAdapter(HTTPAdapter):
+    """Sends plain HTTP over a unix socket (the server binds one instead of a TCP port)."""
+
+    def __init__(self, socket_path):
+        super().__init__()
+        self.pool = _UnixPool(socket_path, maxsize=16)
+
+    def get_connection_with_tls_context(self, request, verify, proxies=None, cert=None):
+        return self.pool
+
+    def request_url(self, request, proxies):
+        return request.path_url
+
+
+def _session_for(base_url):
+    """(session, http base url). "unix:/run/x.sock/svc/ballot" -> requests over that socket."""
+    session = requests.Session()
+    if base_url.startswith("unix:"):
+        path = base_url[len("unix:"):]
+        sock, _, rest = path.partition(".sock")
+        session.mount("http://localhost", _UnixAdapter(sock + ".sock"))
+        return session, "http://localhost" + rest
+    return session, base_url
+
+
 class ServiceClient:
     """Calls one service's JSON API by HTTP. Logs one line per call (path and timing, never bodies)."""
 
     def __init__(self, name, base_url=None, timeout=None):
         self.name = name
-        self.base_url = (base_url or config.SERVICE_URLS[name]).rstrip("/")
+        self.session, self.base_url = _session_for((base_url or config.SERVICE_URLS[name]).rstrip("/"))
         self.timeout = timeout or config.SERVICE_TIMEOUT_SECONDS
 
     def get(self, path, **params):
@@ -43,7 +92,7 @@ class ServiceClient:
         started = time.monotonic()
         headers = {"X-TB-Internal": config.INTERNAL_TOKEN}
         try:
-            resp = requests.request(method, url, timeout=self.timeout, headers=headers, **kwargs)
+            resp = self.session.request(method, url, timeout=self.timeout, headers=headers, **kwargs)
         except requests.RequestException as exc:
             log.warning("svc %s %s %s failed: %s", self.name, method, path, type(exc).__name__)
             raise ServiceError(self.name, "unreachable") from exc
