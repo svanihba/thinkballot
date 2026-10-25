@@ -8,10 +8,12 @@
   how to vote.</p>
 
   <form class="address-form" method="post" action="/ballot">
+    <input type="hidden" name="csrf" value="{{ csrf_token() }}">
     <input type="text" name="address" placeholder="Your California address or ZIP code" aria-label="Address or ZIP code" required>
     <button class="btn" type="submit">See my ballot</button>
   </form>
   <form method="post" action="/ballot" class="sample-form">
+    <input type="hidden" name="csrf" value="{{ csrf_token() }}">
     <input type="hidden" name="address" value="{{ sample_address }}">
     <span class="hint">Just exploring?</span>
     <button class="linklike" type="submit">Try a sample address: {{ sample_address }}</button>

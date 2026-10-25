@@ -6,13 +6,10 @@ Question text is never logged.
 """
 
 import re
-import threading
-import time
-from collections import defaultdict, deque
 
 from flask import abort, jsonify, request
 
-from ... import ai, config
+from ... import ai, config, ratelimit
 from ...servicekit import ServiceClient, ServiceError, make_service
 
 FIELD_LABELS = {
@@ -35,7 +32,10 @@ HOW_TO_VOTE_RE = re.compile(
     r"who is right|which side)\b", re.IGNORECASE)
 HOW_TO_VOTE_REPLY = ("ThinkBallot never tells anyone how to vote. Read what a YES vote and a NO vote mean, "
                      "and both official arguments, then decide for yourself.")
+NOT_COVERED_REPLY = ("The official guide doesn't answer that question, so ThinkBallot won't guess. "
+                     "Try asking about what a YES or NO vote does, the cost, or who supports or opposes it.")
 MAX_QUESTION_CHARS = 300
+MEASURE_ID_RE = re.compile(r"^prop-[a-z0-9]{1,8}$")
 
 ANSWER_SYSTEM = """You answer a voter's question about one California ballot measure for ThinkBallot,
 a nonpartisan guide. Use ONLY the OFFICIAL SOURCE passages given. Never use outside knowledge.
@@ -61,45 +61,28 @@ def _stub_answer(user):
     return {"refused": False, "points": [{"claim": "The official text says: " + first, "quote": first}]}
 
 
-class RateLimiter:
-    """Allows `limit` requests per minute per key. In memory only; keys are never logged."""
-
-    def __init__(self, limit):
-        self.limit = limit
-        self.hits = defaultdict(deque)
-        self.lock = threading.Lock()
-
-    def allow(self, key):
-        now = time.monotonic()
-        with self.lock:
-            q = self.hits[key]
-            while q and now - q[0] > 60:
-                q.popleft()
-            if len(q) >= self.limit:
-                return False
-            q.append(now)
-            return True
-
-
 def create_app():
     app = make_service("ask", internal=True)
     ballot = ServiceClient("ballot")
     bias = ServiceClient("bias")
-    limiter = RateLimiter(config.ASK_RATE_LIMIT_PER_MINUTE)
 
     @app.post("/ask")
     def ask():
         body = request.get_json(silent=True) or {}
         measure_id, question = body.get("measure_id"), body.get("question")
-        if not isinstance(measure_id, str) or not isinstance(question, str) or not question.strip():
-            abort(400, "measure_id and question are required")
+        if not isinstance(measure_id, str) or not MEASURE_ID_RE.match(measure_id):
+            abort(400, "unknown measure")
+        if not isinstance(question, str) or not question.strip():
+            abort(400, "question is required")
         question = question.strip()[:MAX_QUESTION_CHARS]
-        client_key = body.get("client") or request.remote_addr or "unknown"
-        if not limiter.allow(client_key):
-            abort(429, "Too many questions in a minute. Please wait a moment.")
+        client = ratelimit.client_key(body.get("client") or request.remote_addr)
+        if not ratelimit.allow("ask", client, config.ASK_LIMITS_PER_CLIENT):
+            abort(429, "Too many questions. Please wait a moment.")
 
         if HOW_TO_VOTE_RE.search(question):
             return jsonify(status="refused", reason=HOW_TO_VOTE_REPLY, points=[], findings=[])
+        if not ratelimit.allow("ask", None, config.ASK_LIMITS_SITEWIDE):  # protects the AI quota
+            abort(429, "ThinkBallot is answering a lot of questions right now. Please try again later.")
 
         try:
             measure = ballot.get(f"/measures/{measure_id}")
@@ -118,8 +101,8 @@ def create_app():
         except ai.AIError:
             abort(503, "The question service is busy right now. Please try again in a minute.")
         if draft.get("refused"):
-            reason = str(draft.get("reason") or "The official text does not answer this question.")
-            return jsonify(status="refused", reason=reason, points=[], findings=[])
+            # Fixed wording: the model's own explanation is never shown to voters.
+            return jsonify(status="refused", reason=NOT_COVERED_REPLY, points=[], findings=[])
 
         points = [p for p in draft.get("points", []) if isinstance(p, dict)]
         try:

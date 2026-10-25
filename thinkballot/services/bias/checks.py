@@ -17,7 +17,6 @@ BALANCE_MIN_RATIO = 0.5
 
 _QUOTES = str.maketrans({"‘": "'", "’": "'", "“": '"', "”": '"',
                          "–": "-", "—": "-", " ": " "})
-_NUMBER_RE = re.compile(r"\$?\d[\d,]*(?:\.\d+)?%?")
 
 
 def normalize(text):
@@ -25,17 +24,45 @@ def normalize(text):
     return re.sub(r"\s+", " ", (text or "").translate(_QUOTES)).strip().lower()
 
 
-def source_index(quote, sources):
-    """Index of the source that contains the quote word for word, or None.
+# A quote must be long enough to actually support a claim ("the" is in every source).
+MIN_QUOTE_WORDS = 6
 
-    '...' may join parts of one passage.
+# Fixed, user-facing finding messages. Model-written text is never shown to voters.
+MESSAGES = {
+    "quote": "Removed a point whose quote could not be found word for word in the official text.",
+    "number": "Removed a point with a number that does not appear in the official text.",
+    "loaded_words": "Removed a point that used persuasive wording not found in its quote.",
+    "balance": "YES and NO are not covered equally.",
+    "ai_review": "The neutrality review reworded a point.",
+}
+
+
+def _padded(text):
+    return " " + normalize(text) + " "
+
+
+def source_index(quote, sources):
+    """Index of the source that contains the quote word for word (whole words, parts in order), or None.
+
+    '...' may join parts of one passage. Quotes shorter than MIN_QUOTE_WORDS count only if they are a
+    whole source passage (e.g. "Legislative Statute.").
     """
-    parts = [p.strip(" .,;:\"'") for p in re.split(r"\.\.\.|…", normalize(quote))]
+    parts = [p.strip(" .,;:\"'") for p in re.split(r"\.\.\.|\u2026", normalize(quote))]
     parts = [p for p in parts if p]
     if not parts:
         return None
+    words = sum(len(p.split()) for p in parts)
     for i, s in enumerate(sources):
-        if all(p in normalize(s) for p in parts):
+        src = _padded(s)
+        if words < MIN_QUOTE_WORDS and normalize(quote).strip(" .") != normalize(s).strip(" ."):
+            continue
+        pos = 0
+        for p in parts:
+            m = re.search(r"(?<![\w$])" + re.escape(p) + r"(?!\w)", src[pos:])
+            if not m:
+                break
+            pos += m.end()
+        else:
             return i
     return None
 
@@ -44,34 +71,45 @@ def quote_found(quote, sources):
     return source_index(quote, sources) is not None
 
 
+def text_on_page(text, page):
+    """Seed verification: the whole field appears on its page word for word (any length)."""
+    t = normalize(text)
+    return bool(t) and re.search(r"(?<![\w$])" + re.escape(t) + r"(?!\w)", _padded(page)) is not None
+
+
+_SCALES = ("thousand", "million", "billion", "trillion")
+
+
 def numbers_in(text):
-    """Numbers as plain digits: "$1,500" -> "1500", "12.5%" -> "12.5"."""
-    return {n.strip("$%").replace(",", "").rstrip(".") for n in _NUMBER_RE.findall(text or "")}
+    """Numbers with their scale word: "$1,500" -> "1500", "$5 billion" -> "5 billion", "12.5%" -> "12.5"."""
+    out = set()
+    for m in re.finditer(r"\$?(\d[\d,]*(?:\.\d+)?)%?(?:\s+(" + "|".join(_SCALES) + r"))?", normalize(text)):
+        num = m.group(1).replace(",", "").rstrip(".")
+        out.add(f"{num} {m.group(2)}" if m.group(2) else num)
+    return out
 
 
 def check_quote(quote, sources):
-    if not quote or not quote.strip():
-        return [{"check": "quote", "detail": "no quote from the official text supports this"}]
-    if not quote_found(quote, sources):
-        return [{"check": "quote", "detail": f'quote not found in the official text: "{quote}"'}]
+    if not quote or not quote.strip() or not quote_found(quote, sources):
+        return [{"check": "quote", "detail": MESSAGES["quote"]}]
     return []
 
 
 def check_numbers(text, sources):
     allowed = set().union(*(numbers_in(s) for s in sources)) if sources else set()
-    return [{"check": "number", "detail": f"number {n} does not appear in the official text"}
-            for n in sorted(numbers_in(text) - allowed)]
+    missing = numbers_in(text) - allowed
+    return [{"check": "number", "detail": MESSAGES["number"], "value": n} for n in sorted(missing)]
 
 
 def check_loaded_words(text, sources):
-    """Flag persuasive words, unless the official text itself uses them."""
+    """Flag persuasive words, unless the given source text itself uses them."""
     t = normalize(text)
     source_text = " ".join(normalize(s) for s in sources)
     findings = []
     for word in LOADED_WORDS:
         pattern = r"\b" + re.escape(word) + r"\b"
         if re.search(pattern, t) and not re.search(pattern, source_text):
-            findings.append({"check": "loaded_words", "detail": f'persuasive wording: "{word}"'})
+            findings.append({"check": "loaded_words", "detail": f'persuasive wording: "{word}"', "word": word})
     return findings
 
 
@@ -86,8 +124,14 @@ def check_balance(yes_text, no_text):
 
 
 def check_point(point, sources):
-    """All deterministic checks for one claim of an answer."""
-    claim = point.get("claim", "")
-    return (check_quote(point.get("quote"), sources)
-            + check_numbers(claim, sources)
-            + check_loaded_words(claim, sources))
+    """All deterministic checks for one claim of an answer.
+
+    Persuasive words are allowed only if the point's OWN quote uses them, so an answer cannot borrow
+    campaign wording from the official arguments and present it as neutral.
+    """
+    claim, quote = point.get("claim", ""), point.get("quote") or ""
+    problems = check_quote(quote, sources)
+    if problems:
+        return problems
+    words = [dict(f, detail=MESSAGES["loaded_words"]) for f in check_loaded_words(claim, [quote])]
+    return check_numbers(claim, sources) + words

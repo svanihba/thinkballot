@@ -776,49 +776,57 @@
       "measure": "prop-2",
       "field": "argument_for",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"vote yes\""
+      "detail": "persuasive wording: \"vote yes\"",
+      "word": "vote yes"
     },
     {
       "measure": "prop-2",
       "field": "argument_against",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"vote no\""
+      "detail": "persuasive wording: \"vote no\"",
+      "word": "vote no"
     },
     {
       "measure": "prop-3",
       "field": "argument_for",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"vote yes\""
+      "detail": "persuasive wording: \"vote yes\"",
+      "word": "vote yes"
     },
     {
       "measure": "prop-4",
       "field": "argument_for",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"special interests\""
+      "detail": "persuasive wording: \"special interests\"",
+      "word": "special interests"
     },
     {
       "measure": "prop-4",
       "field": "argument_for",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"vote yes\""
+      "detail": "persuasive wording: \"vote yes\"",
+      "word": "vote yes"
     },
     {
       "measure": "prop-5",
       "field": "argument_for",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"corrupt\""
+      "detail": "persuasive wording: \"corrupt\"",
+      "word": "corrupt"
     },
     {
       "measure": "prop-5",
       "field": "argument_for",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"vote yes\""
+      "detail": "persuasive wording: \"vote yes\"",
+      "word": "vote yes"
     },
     {
       "measure": "prop-5",
       "field": "argument_against",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"taxpayer-funded\""
+      "detail": "persuasive wording: \"taxpayer-funded\"",
+      "word": "taxpayer-funded"
     },
     {
       "measure": "prop-37",
@@ -830,25 +838,29 @@
       "measure": "prop-39",
       "field": "argument_against",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"vote no\""
+      "detail": "persuasive wording: \"vote no\"",
+      "word": "vote no"
     },
     {
       "measure": "prop-39",
       "field": "analysis",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"best\""
+      "detail": "persuasive wording: \"best\"",
+      "word": "best"
     },
     {
       "measure": "prop-40",
       "field": "argument_for",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"vote yes\""
+      "detail": "persuasive wording: \"vote yes\"",
+      "word": "vote yes"
     },
     {
       "measure": "prop-40",
       "field": "argument_against",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"scheme\""
+      "detail": "persuasive wording: \"scheme\"",
+      "word": "scheme"
     },
     {
       "measure": "prop-41",
@@ -860,55 +872,64 @@
       "measure": "prop-41",
       "field": "argument_against",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"extreme\""
+      "detail": "persuasive wording: \"extreme\"",
+      "word": "extreme"
     },
     {
       "measure": "prop-41",
       "field": "argument_against",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"vote no\""
+      "detail": "persuasive wording: \"vote no\"",
+      "word": "vote no"
     },
     {
       "measure": "prop-42",
       "field": "argument_against",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"extreme\""
+      "detail": "persuasive wording: \"extreme\"",
+      "word": "extreme"
     },
     {
       "measure": "prop-42",
       "field": "argument_against",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"vote no\""
+      "detail": "persuasive wording: \"vote no\"",
+      "word": "vote no"
     },
     {
       "measure": "prop-43",
       "field": "argument_for",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"special interests\""
+      "detail": "persuasive wording: \"special interests\"",
+      "word": "special interests"
     },
     {
       "measure": "prop-43",
       "field": "argument_for",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"vote yes\""
+      "detail": "persuasive wording: \"vote yes\"",
+      "word": "vote yes"
     },
     {
       "measure": "prop-43",
       "field": "argument_against",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"vote no\""
+      "detail": "persuasive wording: \"vote no\"",
+      "word": "vote no"
     },
     {
       "measure": "prop-44",
       "field": "argument_for",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"wasteful\""
+      "detail": "persuasive wording: \"wasteful\"",
+      "word": "wasteful"
     },
     {
       "measure": "prop-44",
       "field": "argument_against",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"dangerous\""
+      "detail": "persuasive wording: \"dangerous\"",
+      "word": "dangerous"
     },
     {
       "measure": "prop-45",
@@ -920,13 +941,15 @@
       "measure": "prop-45",
       "field": "argument_for",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"vote yes\""
+      "detail": "persuasive wording: \"vote yes\"",
+      "word": "vote yes"
     },
     {
       "measure": "prop-45",
       "field": "argument_against",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"vote no\""
+      "detail": "persuasive wording: \"vote no\"",
+      "word": "vote no"
     }
   ],
   "labels": [
@@ -1102,7 +1125,7 @@
     }
   ],
   "summary": {
-    "checked_at": "2026-10-25 22:18 UTC",
+    "checked_at": "2026-10-25 22:26 UTC",
     "data_file": "data/measures.json",
     "verified_against": "live official pages",
     "fields_verified": 154,
