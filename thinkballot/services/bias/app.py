@@ -10,7 +10,7 @@ from . import engine
 
 REPORT_PATH = config.ROOT / "reports" / "bias-report.json"
 
-MODES = {"verify", "audit", "enforce"}
+MODES = {"verify", "audit", "enforce", "wording"}
 
 
 def _sources(body):
@@ -21,7 +21,7 @@ def _sources(body):
 
 
 def create_app():
-    app = make_service("bias")
+    app = make_service("bias", internal=True)
 
     @app.post("/check/answer")
     def check_answer():

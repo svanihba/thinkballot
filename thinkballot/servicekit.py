@@ -1,10 +1,12 @@
 """Shared plumbing: how services call each other over HTTP, and how each service app is built."""
 
+import hmac
 import logging
 import time
 
 import requests
-from flask import Flask, jsonify
+
+from flask import Flask, abort, jsonify, request
 from werkzeug.exceptions import HTTPException
 
 from . import config
@@ -17,6 +19,7 @@ class ServiceError(Exception):
 
     def __init__(self, service, message, status=502):
         super().__init__(f"{service}: {message}")
+        self.detail = message
         self.service = service
         self.status = status
 
@@ -38,8 +41,9 @@ class ServiceClient:
     def _call(self, method, path, **kwargs):
         url = self.base_url + path
         started = time.monotonic()
+        headers = {"X-TB-Internal": config.INTERNAL_TOKEN}
         try:
-            resp = requests.request(method, url, timeout=self.timeout, **kwargs)
+            resp = requests.request(method, url, timeout=self.timeout, headers=headers, **kwargs)
         except requests.RequestException as exc:
             log.warning("svc %s %s %s failed: %s", self.name, method, path, type(exc).__name__)
             raise ServiceError(self.name, "unreachable") from exc
@@ -48,13 +52,29 @@ class ServiceClient:
         if resp.status_code == 404:
             return None
         if resp.status_code >= 400:
-            raise ServiceError(self.name, f"HTTP {resp.status_code}", resp.status_code)
+            detail = resp.json().get("detail") if resp.headers.get("content-type", "").startswith(
+                "application/json") else None
+            raise ServiceError(self.name, detail or f"HTTP {resp.status_code}", resp.status_code)
         return resp.json()
 
 
-def make_service(name):
-    """A Flask app for one JSON service, with errors always returned as JSON."""
+def make_service(name, internal=False):
+    """A Flask app for one JSON service, with errors always returned as JSON.
+
+    internal=True: only other ThinkBallot services may call it (shared token), because it spends AI
+    credits or acts on behalf of signed-in users.
+    """
     app = Flask(f"thinkballot.{name}")
+
+    if internal:
+        @app.before_request
+        def require_internal_token():
+            if request.path == "/health":
+                return None
+            sent = request.headers.get("X-TB-Internal", "")
+            if not hmac.compare_digest(sent, config.INTERNAL_TOKEN):
+                abort(403, "internal service")
+            return None
 
     @app.errorhandler(HTTPException)
     def http_error(exc):

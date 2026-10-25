@@ -1,6 +1,7 @@
 """Settings for every ThinkBallot service, read from environment variables (and .env)."""
 
 import os
+import secrets
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -22,9 +23,16 @@ SERVICE_URLS = {
     "ask": _env("TB_ASK_URL", PUBLIC_BASE + "/svc/ask"),
     "bias": _env("TB_BIAS_URL", PUBLIC_BASE + "/svc/bias"),
     "search": _env("TB_SEARCH_URL", PUBLIC_BASE + "/svc/search"),
+    "community": _env("TB_COMMUNITY_URL", PUBLIC_BASE + "/svc/community"),
 }
 
+# Services that only other ThinkBallot services may call (they need this shared token).
+INTERNAL_TOKEN = os.environ.get("TB_INTERNAL_TOKEN") or secrets.token_hex(32)
+SECRET_KEY = os.environ.get("TB_SECRET_KEY") or secrets.token_hex(32)  # signs sign-in cookies
+
 DB_PATH = Path(_env("TB_DB_PATH", str(ROOT / "instance" / "thinkballot.sqlite3")))
+# The community service keeps its own database, so it can never change the official data.
+COMMUNITY_DB_PATH = Path(_env("TB_COMMUNITY_DB_PATH", str(ROOT / "instance" / "community.sqlite3")))
 ZIP_TABLE_PATH = Path(_env("TB_ZIP_TABLE", str(ROOT / "data" / "zip_districts.json")))
 
 # AI provider: "openrouter" for real calls, "stub" for offline development and tests.

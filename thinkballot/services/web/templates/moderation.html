@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Moderation · ThinkBallot{% endblock %}
+{% macro act(kind, id, action, label) %}
+<form method="post" class="inline"><input type="hidden" name="csrf" value="{{ csrf_token() }}">
+  <input type="hidden" name="kind" value="{{ kind }}"><input type="hidden" name="id" value="{{ id }}">
+  <button class="btn ghost small" name="action" value="{{ action }}">{{ label }}</button></form>
+{% endmacro %}
+{% block main %}
+<div class="eyebrow">Moderators only</div>
+<h1>Moderation queue</h1>
+<p class="lede">Judge conduct, never viewpoint. Hide a comment only if it breaks a <a href="/neutral#conduct">community
+  rule</a>. Publish a fact only if its citation really supports it.</p>
+
+<h2>Flagged comments</h2>
+{% for c in q.comments %}
+<div class="comment"><div class="who">@{{ c.username }} · {{ c.measure_id }} · {{ c.flags }} flag{{ '' if c.flags == 1 else 's' }}
+  {% if c.hidden %}· hidden{% endif %}</div><p>{{ c.text }}</p>
+  {{ act('comments', c.id, 'restore', 'Keep (restore)') }} {{ act('comments', c.id, 'hide', 'Hide') }}</div>
+{% else %}<p class="hint">Nothing flagged.</p>{% endfor %}
+
+<h2>Community facts</h2>
+{% for f in q.facts %}
+<div class="fact"><span class="status {{ f.status }}">{{ 'bridging reached' if f.status == 'bridged' else 'pending ratings' }}</span>
+  <p>{{ f.text }}</p>
+  <div class="meta">@{{ f.username }} · {{ f.measure_id }} · <a href="{{ f.citation_url }}" target="_blank" rel="noopener nofollow">{{ f.citation_url }}</a>{% if f.official_source %} <span class="official">✓ official source</span>{% endif %}</div>
+  {% if f.status == 'bridged' %}{{ act('facts', f.id, 'publish', 'Publish as vetted') }}{% endif %}
+  {{ act('facts', f.id, 'reject', 'Reject') }}</div>
+{% else %}<p class="hint">No facts waiting.</p>{% endfor %}
+{% endblock %}

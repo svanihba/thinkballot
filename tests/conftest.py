@@ -17,10 +17,11 @@ def server(tmp_path_factory):
     tmp = tmp_path_factory.mktemp("tb")
     config.AI_PROVIDER = "stub"
     config.DB_PATH = tmp / "test.sqlite3"
+    config.COMMUNITY_DB_PATH = tmp / "community.sqlite3"
     srv = make_server("127.0.0.1", 0, lambda e, s: app(e, s), threaded=True)
     base = f"http://127.0.0.1:{srv.server_port}"
     config.PUBLIC_BASE = base
-    config.SERVICE_URLS.update({n: f"{base}/svc/{n}" for n in ("ballot", "geo", "ask", "bias")})
+    config.SERVICE_URLS.update({n: f"{base}/svc/{n}" for n in config.SERVICE_URLS})
 
     from thinkballot.services.ballot import db
     data = json.loads((config.ROOT / "data" / "dummy" / "measures.json").read_text())

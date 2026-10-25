@@ -1,0 +1,73 @@
+<section class="community" id="community">
+  <div class="zone-label">▚ Community discussion — separate from the official content above · post-moderated · viewpoint-neutral <a href="/neutral#conduct">rules</a></div>
+  {% if zone is none %}
+    <p class="hint">The discussion is unavailable right now. The official card above is unaffected.</p>
+  {% else %}
+    {% for c in zone.comments %}
+    <div class="comment">
+      <div class="who">@{{ c.username }} · {{ c.created_at[:10] }}
+        {% if user and not c.flagged_by_me %}
+        <form method="post" action="/prop/{{ m.id }}/comment/{{ c.id }}/flag" class="inline">
+          <input type="hidden" name="csrf" value="{{ csrf_token() }}">
+          <button class="linklike small" type="submit">flag</button></form>
+        {% elif c.flagged_by_me %}<span class="hint">· flagged</span>{% endif %}
+      </div>
+      <p>{{ c.text }}</p>
+    </div>
+    {% else %}
+    <p class="hint">No comments yet. Start the conversation.</p>
+    {% endfor %}
+
+    {% if user %}
+    <form method="post" action="/prop/{{ m.id }}/comment" class="composer">
+      <input type="hidden" name="csrf" value="{{ csrf_token() }}">
+      <textarea name="text" maxlength="1000" required placeholder="Join the discussion as @{{ user.username }}. Be civil: disagree with ideas, not people."></textarea>
+      <button class="btn small" type="submit">Post comment</button>
+    </form>
+    {% endif %}
+
+    <div class="zone-label" style="margin-top:1.6rem">▚ Community-submitted facts — cited, vetted (bridging consensus), human-reviewed</div>
+    <p class="hint">A fact must link to its source; government sources are marked ✓. It's published only after people who lean YES and people
+      who lean NO both rate it helpful, and a moderator reviews it.</p>
+    {% for f in zone.facts %}
+    <div class="fact">
+      <span class="status {{ f.status }}">{{ {'vetted': 'vetted', 'bridged': 'awaiting review', 'pending': 'pending'}[f.status] }}</span>
+      <p>{{ f.text }}</p>
+      <div class="meta">by @{{ f.username }} · <a href="{{ f.citation_url }}" target="_blank" rel="noopener nofollow">citation</a>{% if f.official_source %}
+        <span class="official" title="Government website">✓ official source</span>{% endif %}
+        · {{ f.helpful }} helpful · {{ f.not_helpful }} not helpful</div>
+      {% if user and f.status != 'vetted' and not f.rated_by_me and f.username != user.username %}
+      <form method="post" action="/prop/{{ m.id }}/fact/{{ f.id }}/rate" class="rate">
+        <input type="hidden" name="csrf" value="{{ csrf_token() }}">
+        <label>On this measure I'm
+          <select name="leaning" required>
+            <option value="" disabled selected>choose…</option>
+            <option value="yes">leaning YES</option>
+            <option value="no">leaning NO</option>
+            <option value="undecided">undecided</option>
+          </select></label>
+        <button class="btn ghost small" name="helpful" value="1" type="submit">Helpful</button>
+        <button class="btn ghost small" name="helpful" value="0" type="submit">Not helpful</button>
+      </form>
+      {% endif %}
+    </div>
+    {% else %}
+    <p class="hint">No community facts yet.</p>
+    {% endfor %}
+
+    {% if user %}
+    <details class="composer">
+      <summary class="btn ghost small">Submit a fact (requires a source link)</summary>
+      <form method="post" action="/prop/{{ m.id }}/fact">
+        <input type="hidden" name="csrf" value="{{ csrf_token() }}">
+        <textarea name="text" maxlength="400" required placeholder="State one fact, neutrally. Bias Buster checks the wording."></textarea>
+        <input type="url" name="citation_url" required placeholder="https://… link to your source (government sources get a ✓)">
+        <button class="btn small" type="submit">Submit fact</button>
+      </form>
+    </details>
+    {% else %}
+    <div class="locked">Reading is always open. <a href="/signin?next={{ request.path|urlencode }}">Sign in</a> to comment,
+      submit facts or rate them. Accounts exist only for taking part.</div>
+    {% endif %}
+  {% endif %}
+</section>

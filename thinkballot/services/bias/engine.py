@@ -95,6 +95,11 @@ def check_text(text, sources, mode, sides=None):
             {"check": "quote", "detail": "text does not appear word for word on its source page"}]
         return {"verdict": "fail" if findings else "pass", "text": text, "findings": findings}
 
+    if mode == "wording":  # community facts: neutral wording only (their numbers are checked by people)
+        findings = checks.check_loaded_words(text, [])
+        return {"verdict": "blocked" if findings else "pass", "text": text if not findings else None,
+                "findings": findings}
+
     # In audit mode the source is the text itself, so loaded words are flagged without the source exemption.
     word_sources = [] if mode == "audit" else sources
     findings = checks.check_numbers(text, sources) + checks.check_loaded_words(text, word_sources)
