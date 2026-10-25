@@ -8,7 +8,7 @@ SOURCE = ("A YES vote means the state could sell $1.5 billion in bonds for parks
 
 def test_quote_found_ignores_case_quotes_and_spacing():
     assert checks.quote_found("the state could  sell $1.5 BILLION in bonds", [SOURCE])
-    assert checks.quote_found("A YES vote means … for parks", [SOURCE])
+    assert checks.quote_found("A YES vote means the state could … for parks", [SOURCE])
 
 
 def test_invented_quote_is_caught():
@@ -28,6 +28,7 @@ def test_number_scale_matters():
 
 def test_tiny_or_out_of_order_quotes_do_not_count():
     assert not checks.quote_found("the", [SOURCE])
+    assert not checks.quote_found("the ... the ... to ... the ... the ... the", [SOURCE])
     assert not checks.quote_found("for parks ... A YES vote means the state", [SOURCE])
     assert not checks.quote_found("ld sell $1.5 billion in bonds for parks", [SOURCE])  # not whole words
     assert checks.quote_found("Legislative Statute.", ["Legislative Statute."])  # a whole short passage

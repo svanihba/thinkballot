@@ -74,7 +74,8 @@ def create_app():
         # Every HTML form carries a per-session token; JSON calls are same-origin by browser rules.
         if request.method == "POST" and not request.is_json:
             expected = session.get("csrf")
-            if not expected or not secrets.compare_digest(request.form.get("csrf", ""), expected):
+            sent = request.form.get("csrf", "").encode()
+            if not expected or not secrets.compare_digest(sent, expected.encode()):
                 abort(400)
 
     def require_user():
@@ -192,7 +193,7 @@ def create_app():
     @app.route("/signin", methods=["GET", "POST"])
     def signin():
         next_url = request.values.get("next") or "/"
-        if not SAFE_NEXT_RE.match(next_url):
+        if not SAFE_NEXT_RE.fullmatch(next_url):
             next_url = "/"  # only redirect to a path on this site
         if request.method == "POST":
             form = request.form

@@ -51,10 +51,11 @@ def source_index(quote, sources):
     parts = [p for p in parts if p]
     if not parts:
         return None
-    words = sum(len(p.split()) for p in parts)
+    # At least one unbroken part must be MIN_QUOTE_WORDS long, so "the ... the ... to" can't pass.
+    longest = max(len(p.split()) for p in parts)
     for i, s in enumerate(sources):
         src = _padded(s)
-        if words < MIN_QUOTE_WORDS and normalize(quote).strip(" .") != normalize(s).strip(" ."):
+        if longest < MIN_QUOTE_WORDS and normalize(quote).strip(" .") != normalize(s).strip(" ."):
             continue
         pos = 0
         for p in parts:
