@@ -79,7 +79,7 @@ class RateLimiter:
 
 
 def create_app():
-    app = make_service("ask")
+    app = make_service("ask", internal=True)
     ballot = ServiceClient("ballot")
     bias = ServiceClient("bias")
     limiter = RateLimiter(config.ASK_RATE_LIMIT_PER_MINUTE)

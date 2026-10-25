@@ -1,6 +1,8 @@
 """web service: the pages voters see. It reads data only through the other services' APIs."""
 
-from flask import Flask, abort, jsonify, render_template, request
+import secrets
+
+from flask import Flask, abort, flash, jsonify, redirect, render_template, request, session, url_for
 
 from ... import config
 from ...servicekit import ServiceClient, ServiceError
@@ -29,16 +31,43 @@ SUGGESTED_QUESTIONS = [
 
 def create_app():
     app = Flask(__name__)
+    app.secret_key = config.SECRET_KEY
+    app.config.update(SESSION_COOKIE_SAMESITE="Lax", SESSION_COOKIE_HTTPONLY=True,
+                      SESSION_COOKIE_SECURE=config.PUBLIC_BASE.startswith("https://"))
     ballot = ServiceClient("ballot")
     geo = ServiceClient("geo")
     ask_svc = ServiceClient("ask")
     bias = ServiceClient("bias")
     search_svc = ServiceClient("search")
+    community = ServiceClient("community")
+
+    # ---------- sign-in state and form protection ----------
+    def current_user():
+        return session.get("user")  # {"id", "username", "is_mod"} or None
+
+    def csrf_token():
+        if "csrf" not in session:
+            session["csrf"] = secrets.token_urlsafe(24)
+        return session["csrf"]
+
+    @app.before_request
+    def check_csrf():
+        # Every HTML form carries a per-session token; JSON calls are same-origin by browser rules.
+        if request.method == "POST" and not request.is_json:
+            if request.form.get("csrf") != session.get("csrf"):
+                abort(400)
+
+    def require_user():
+        u = current_user()
+        if not u:
+            flash("Please sign in first.")
+            abort(redirect(url_for("signin", next=request.referrer or "/")))
+        return u
 
     @app.context_processor
     def globals_():
         return {"base_url": config.PUBLIC_BASE, "headings": FIELD_HEADINGS,
-                "suggested_questions": SUGGESTED_QUESTIONS}
+                "suggested_questions": SUGGESTED_QUESTIONS, "user": current_user(), "csrf_token": csrf_token}
 
     def load_ballot():
         try:
@@ -82,7 +111,13 @@ def create_app():
             if f["source_url"] not in [s["url"] for s in sources]:
                 sources.append({"url": f["source_url"], "label": f["source_label"]})
         chip = {s["url"]: i + 1 for i, s in enumerate(sources)}
-        return render_template("measure.html", election=election, m=measure, sources=sources, chip=chip)
+        u = current_user()
+        try:
+            zone = community.get(f"/measures/{measure_id}", viewer=u["id"] if u else None)
+        except ServiceError:
+            zone = None  # the official card still works if the community service is down
+        return render_template("measure.html", election=election, m=measure, sources=sources, chip=chip,
+                               zone=zone)
 
     @app.post("/api/ask")
     def api_ask():
@@ -112,6 +147,91 @@ def create_app():
         election, measures = load_ballot()
         chosen = request.args.get("measure") or (measures[0]["id"] if measures else None)
         return render_template("ask.html", election=election, measures=measures, chosen=chosen)
+
+    # ---------- accounts ----------
+    @app.route("/signin", methods=["GET", "POST"])
+    def signin():
+        next_url = request.values.get("next") or "/"
+        if not next_url.startswith("/") or next_url.startswith("//"):
+            next_url = "/"  # only redirect within this site
+        if request.method == "POST":
+            form = request.form
+            try:
+                if form.get("action") == "signup":
+                    u = community.post("/users", {"email": form.get("email"), "username": form.get("username"),
+                                                  "password": form.get("password")})
+                else:
+                    u = community.post("/login", {"email": form.get("email"), "password": form.get("password")})
+            except ServiceError as exc:
+                flash(exc.detail if exc.status < 500 else "Sign-in is unavailable right now.")
+                return redirect(url_for("signin", next=next_url))
+            session.clear()
+            session["user"] = {"id": u["id"], "username": u["username"], "is_mod": u["is_mod"]}
+            return redirect(next_url)
+        return render_template("signin.html", next=next_url)
+
+    @app.post("/signout")
+    def signout():
+        session.clear()
+        return redirect("/")
+
+    # ---------- community ----------
+    def community_action(path, payload, measure_id, ok_message=None):
+        try:
+            result = community.post(path, payload)
+            if ok_message:
+                flash(ok_message)
+        except ServiceError as exc:
+            flash(exc.detail if exc.status < 500 else "The community service is unavailable right now.")
+            result = None
+        return result, redirect(url_for("measure_page", measure_id=measure_id) + "#community")
+
+    @app.post("/prop/<measure_id>/comment")
+    def post_comment(measure_id):
+        u = require_user()
+        return community_action("/comments", {"user_id": u["id"], "measure_id": measure_id,
+                                              "text": request.form.get("text")}, measure_id)[1]
+
+    @app.post("/prop/<measure_id>/fact")
+    def submit_fact(measure_id):
+        u = require_user()
+        return community_action("/facts", {"user_id": u["id"], "measure_id": measure_id,
+                                           "text": request.form.get("text"),
+                                           "citation_url": request.form.get("citation_url")},
+                                measure_id, "Thanks! Your fact is pending until people who lean both ways rate it "
+                                            "helpful, and a moderator reviews it.")[1]
+
+    @app.post("/prop/<measure_id>/comment/<int:comment_id>/flag")
+    def flag_comment(measure_id, comment_id):
+        u = require_user()
+        return community_action(f"/comments/{comment_id}/flag", {"user_id": u["id"]}, measure_id,
+                                "Thanks. A moderator will take a look.")[1]
+
+    @app.post("/prop/<measure_id>/fact/<int:fact_id>/rate")
+    def rate_fact(measure_id, fact_id):
+        u = require_user()
+        payload = {"user_id": u["id"], "helpful": request.form.get("helpful") == "1",
+                   "leaning": request.form.get("leaning")}
+        return community_action(f"/facts/{fact_id}/rate", payload, measure_id, "Thanks for rating.")[1]
+
+    @app.route("/moderation", methods=["GET", "POST"])
+    def moderation():
+        u = current_user()
+        if not u or not u.get("is_mod"):
+            abort(404)
+        if request.method == "POST":
+            kind, item, action = request.form.get("kind"), request.form.get("id"), request.form.get("action")
+            if kind in ("comments", "facts") and (item or "").isdigit():
+                try:
+                    community.post(f"/moderation/{kind}/{item}", {"user_id": u["id"], "action": action})
+                except ServiceError as exc:
+                    flash(exc.detail)
+            return redirect(url_for("moderation"))
+        try:
+            q = community.get("/moderation", user_id=u["id"])
+        except ServiceError:
+            abort(503)
+        return render_template("moderation.html", q=q)
 
     @app.get("/neutral")
     def neutral():
