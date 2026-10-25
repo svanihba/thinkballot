@@ -3,25 +3,47 @@
 {% block main %}
 <div class="eyebrow">Methodology</div>
 <h1>How we stay neutral</h1>
-<p class="lede">ThinkBallot never tells you how to vote. These are the rules every page follows.</p>
+<p class="lede">ThinkBallot never tells you how to vote. Neutrality isn't a promise we make; it's how the system is
+built. Here's the whole pipeline, in plain terms.</p>
+
+<h2>The pipeline</h2>
+<div class="pipeline">
+  <div class="step"><h4>1 · Official sources</h4><p>The Secretary of State's Official Voter Information Guide and the
+    Legislative Analyst's Office. Nothing else.</p></div>
+  <div class="step"><h4>2 · Copy, word for word</h4><p>Each field is copied exactly, with a link to the page it came
+    from. No AI writes the cards.</p></div>
+  <div class="step"><h4>3 · Bias Buster verifies</h4><p>Every field must be found word for word on its source page, or
+    nothing is published. Our own labels must pass every check.</p></div>
+  <div class="step"><h4>4 · Your ballot</h4><p>What you read is a fast lookup over that checked data. No AI runs while
+    you browse.</p></div>
+</div>
+<p>One exception: when you ask a question, an AI drafts an answer from the official text only, with quotes, and
+Bias Buster checks it before you see it.</p>
+<div class="pipeline">
+  <div class="step"><h4>Your question</h4><p>"How should I vote?" gets a fixed answer: that's your call.</p></div>
+  <div class="step"><h4>Grounded draft</h4><p>The AI may only use this proposition's official text, and must quote it.</p></div>
+  <div class="step"><h4>Bias Buster</h4><p>Quote, number, loaded-word and balance checks, an AI review, then the checks again.</p></div>
+  <div class="step"><h4>Answer</h4><p>Shown with its quotes, its sources and Bias Buster's result.</p></div>
+</div>
 
 <h2>The rules</h2>
-<ol class="rules">
-  <li><strong>Official sources only.</strong> Everything comes from the California Secretary of State's Official
-    Voter Information Guide and the Legislative Analyst's Office. No news, no social media.</li>
-  <li><strong>Their words, not ours.</strong> Summaries, YES and NO meanings, fiscal effects and arguments are
-    shown word for word, with a link to the exact page. We do not use AI to write them.</li>
-  <li><strong>Both sides, equally.</strong> YES always comes before NO, in the same layout, style and colour.
-    The arguments for and against sit side by side.</li>
-  <li><strong>If it isn't in the source, we don't show it.</strong> A missing field says "Not available in the
-    official guide" instead of being filled in.</li>
-  <li><strong>Your privacy.</strong> We use only the ZIP code from your address to find your likely districts.
-    Addresses and questions are never stored or logged. Stars and reading progress stay in your own browser.</li>
-</ol>
+<table class="doc-table">
+  <tr><th>Rule</th><th>What it means</th></tr>
+  <tr><td>Official sources only</td><td>Everything comes from the official voter guide and the Legislative Analyst. No
+    news, no social media.</td></tr>
+  <tr><td>Their words, not ours</td><td>Summaries, YES and NO meanings, fiscal effects and arguments are shown word for
+    word, each with a link to the exact page.</td></tr>
+  <tr><td>Both sides, equally</td><td>YES always comes before NO, in the same layout, style and colour. The official
+    arguments for and against sit side by side.</td></tr>
+  <tr><td>Quote it or skip it</td><td>A field we can't source says "Not available in the official guide." An answer
+    we can't ground is held back.</td></tr>
+  <tr><td>Your address is never stored</td><td>We use only the ZIP code to find your likely districts, then discard it.
+    Questions aren't logged. Stars and reading progress stay in your own browser.</td></tr>
+</table>
 
 <h2 id="bias-buster">Bias Buster</h2>
-<p>Bias Buster is the part of ThinkBallot that checks every piece of text we write and every AI answer before
-you see it. It has two jobs: <strong>no bias</strong> and <strong>no made-up facts</strong>.</p>
+<p>Bias Buster checks every piece of text we write and every AI answer before you see it. Two jobs:
+<strong>no bias</strong> and <strong>no made-up facts</strong>.</p>
 <ol class="rules">
   <li><strong>Quote check.</strong> Every point in an answer must quote the official text, and the quote must be
     found there word for word. If it isn't, the point is removed.</li>
@@ -35,15 +57,13 @@ you see it. It has two jobs: <strong>no bias</strong> and <strong>no made-up fac
     vote, and claims the source doesn't support. Its edits go through checks 1 to 4 again. If the review can't
     run, the answer is held back.</li>
 </ol>
-<p>Before any data goes live, Bias Buster also confirms that every official field we stored appears word for
-word on its source page, which catches copying mistakes.</p>
 {% if report %}
 <div class="notice calm">Latest data check ({{ report.checked_at }}): {{ report.fields_verified }} official fields
   verified word for word against their source pages; {{ report.labels_checked }} ThinkBallot labels passed;
-  {{ report.audit_findings }} audit notes recorded on official text (official text is never changed).</div>
+  {{ report.audit_findings }} audit note{{ '' if report.audit_findings == 1 else 's' }} recorded on official text
+  (official text is never changed).</div>
 {% endif %}
 
-<h2>Where AI is used</h2>
-<p>Only for answering your questions, and only from the official text, with quotes you can check. AI does not
-write the cards.</p>
+<h2>What we will never do</h2>
+<p class="never">No endorsements. No predictions. No "how you should vote."</p>
 {% endblock %}

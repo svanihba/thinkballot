@@ -1,11 +1,12 @@
 """SQLite storage for measures. Every text field is stored with the official page it came from."""
 
+import json
 import sqlite3
 
 from ... import config
 
 # The fields a measure card can show, in display order. YES always comes before NO.
-FIELDS = ["summary", "yes_means", "no_means", "fiscal_effect", "argument_for", "argument_against"]
+FIELDS = ["measure_type", "summary", "yes_means", "no_means", "fiscal_effect", "argument_for", "argument_against"]
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS election (
@@ -19,6 +20,7 @@ CREATE TABLE IF NOT EXISTS measure (
     number TEXT NOT NULL,          -- as printed on the ballot
     title TEXT NOT NULL,
     title_source_url TEXT NOT NULL,
+    topics TEXT NOT NULL,          -- JSON list of ThinkBallot topic labels (checked by Bias Buster)
     position INTEGER NOT NULL      -- ballot order
 );
 CREATE TABLE IF NOT EXISTS field (
@@ -51,9 +53,10 @@ def replace_all(conn, election, measures):
                      (election["id"], election["name"], election["date"]))
         for pos, m in enumerate(measures):
             conn.execute(
-                "INSERT INTO measure (id, election_id, number, title, title_source_url, position) "
-                "VALUES (?, ?, ?, ?, ?, ?)",
-                (m["id"], election["id"], m["number"], m["title"]["text"], m["title"]["source_url"], pos))
+                "INSERT INTO measure (id, election_id, number, title, title_source_url, topics, position) "
+                "VALUES (?, ?, ?, ?, ?, ?, ?)",
+                (m["id"], election["id"], m["number"], m["title"]["text"], m["title"]["source_url"],
+                 json.dumps(m.get("topics", [])), pos))
             for name in FIELDS:
                 f = m["fields"].get(name)
                 if f:  # unsourced fields are simply absent
@@ -70,9 +73,10 @@ def election(conn):
 
 def list_measures(conn):
     rows = conn.execute(
-        "SELECT m.id, m.number, m.title, f.text AS summary FROM measure m "
-        "LEFT JOIN field f ON f.measure_id = m.id AND f.name = 'summary' ORDER BY m.position").fetchall()
-    return [dict(r) for r in rows]
+        "SELECT m.id, m.number, m.title, m.topics, f.text AS summary, t.text AS measure_type FROM measure m "
+        "LEFT JOIN field f ON f.measure_id = m.id AND f.name = 'summary' "
+        "LEFT JOIN field t ON t.measure_id = m.id AND t.name = 'measure_type' ORDER BY m.position").fetchall()
+    return [dict(r, topics=json.loads(r["topics"])) for r in rows]
 
 
 def get_measure(conn, measure_id):
@@ -88,6 +92,7 @@ def get_measure(conn, measure_id):
         "number": row["number"],
         "title": row["title"],
         "title_source_url": row["title_source_url"],
+        "topics": json.loads(row["topics"]),
         "fields": fields,
         "missing": [name for name in FIELDS if name not in fields],
     }

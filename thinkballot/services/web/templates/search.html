@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Search · ThinkBallot{% endblock %}
+{% block main %}
+<div class="eyebrow">Search · no account needed</div>
+<h1>Find any proposition</h1>
+<p class="lede">Search the official text of every statewide proposition, or filter by topic.</p>
+
+<form class="search-bar" method="get" action="/search">
+  <input name="q" type="search" value="{{ r.query }}" placeholder="Try “bonds”, “parks”, “tax”…" aria-label="Search">
+  {% if r.topic %}<input type="hidden" name="topic" value="{{ r.topic }}">{% endif %}
+</form>
+<div class="filters">
+  <a class="filter-chip {% if not r.topic %}on{% endif %}" href="/search?q={{ r.query|urlencode }}">All topics</a>
+  {% for t in r.topics %}
+  <a class="filter-chip {% if r.topic == t %}on{% endif %}" href="/search?q={{ r.query|urlencode }}&topic={{ t|urlencode }}">{{ t }}</a>
+  {% endfor %}
+</div>
+<div class="result-count">{{ r.results|length }} result{{ '' if r.results|length == 1 else 's' }}</div>
+{% for m in r.results %}
+<article class="card measure">
+  <div class="top"><span class="tag">Prop {{ m.number }}</span>
+    {% for t in m.topics %}<span class="chip">{{ t }}</span>{% endfor %}</div>
+  <h3><a href="/prop/{{ m.id }}">{{ m.title }}</a></h3>
+  <p class="summary">{{ m.snippet }}</p>
+</article>
+{% else %}
+<div class="notice">No proposition matches that search. Try a shorter word, or clear the topic filter.</div>
+{% endfor %}
+{% endblock %}

@@ -9,6 +9,7 @@ SAMPLE_ADDRESS = "Mango Park, Sunnyvale, 94087"
 
 # Card field headings, in display order. YES and NO always use the same layout.
 FIELD_HEADINGS = {
+    "measure_type": "Measure type",
     "summary": "Official summary",
     "yes_means": "What a YES vote means",
     "no_means": "What a NO vote means",
@@ -18,16 +19,26 @@ FIELD_HEADINGS = {
 }
 
 
+# Starter questions shown as buttons next to every Ask box. Checked by Bias Buster in the seed script.
+SUGGESTED_QUESTIONS = [
+    "What would change if this passes?",
+    "What does it cost the state?",
+    "What do supporters and opponents say?",
+]
+
+
 def create_app():
     app = Flask(__name__)
     ballot = ServiceClient("ballot")
     geo = ServiceClient("geo")
     ask_svc = ServiceClient("ask")
     bias = ServiceClient("bias")
+    search_svc = ServiceClient("search")
 
     @app.context_processor
     def globals_():
-        return {"base_url": config.PUBLIC_BASE, "headings": FIELD_HEADINGS}
+        return {"base_url": config.PUBLIC_BASE, "headings": FIELD_HEADINGS,
+                "suggested_questions": SUGGESTED_QUESTIONS}
 
     def load_ballot():
         try:
@@ -87,6 +98,20 @@ def create_app():
                            reason=messages.get(exc.status, "The question service is busy. Please try again.")), \
                 exc.status if exc.status in messages else 503
         return jsonify(result)
+
+    @app.get("/search")
+    def search_page():
+        try:
+            result = search_svc.get("/search", q=request.args.get("q", ""), topic=request.args.get("topic", ""))
+        except ServiceError:
+            abort(503)
+        return render_template("search.html", r=result)
+
+    @app.get("/ask")
+    def ask_page():
+        election, measures = load_ballot()
+        chosen = request.args.get("measure") or (measures[0]["id"] if measures else None)
+        return render_template("ask.html", election=election, measures=measures, chosen=chosen)
 
     @app.get("/neutral")
     def neutral():

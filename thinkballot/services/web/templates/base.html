@@ -21,9 +21,12 @@
 <header class="site-header"><div class="inner">
   <a class="brand" href="/"><span class="mark">✓</span>ThinkBallot</a>
   <nav class="site-nav">
-    <a href="/ballot" {% if request.path.startswith('/ballot') or request.path.startswith('/prop') %}class="active"{% endif %}>My ballot</a>
-    <a href="/neutral" {% if request.path == '/neutral' %}class="active"{% endif %}>How we stay neutral</a>
-    <a href="/about" {% if request.path == '/about' %}class="active"{% endif %}>About</a>
+    {% set p = request.path %}
+    <a href="/ballot" {% if p.startswith('/ballot') or p.startswith('/prop') %}class="active"{% endif %}>My ballot</a>
+    <a href="/search" {% if p == '/search' %}class="active"{% endif %}>Search</a>
+    <a href="/ask" {% if p == '/ask' %}class="active"{% endif %}>Ask</a>
+    <a href="/neutral" {% if p == '/neutral' %}class="active"{% endif %}>Methodology</a>
+    <a href="/about" {% if p == '/about' %}class="active"{% endif %}>About</a>
   </nav>
 </div></header>
 

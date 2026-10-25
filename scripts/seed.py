@@ -27,7 +27,7 @@ from thinkballot import config  # noqa: E402
 from thinkballot.servicekit import ServiceClient, ServiceError  # noqa: E402
 from thinkballot.services.ask.app import FIELD_LABELS as ASK_LABELS  # noqa: E402
 from thinkballot.services.ballot import db  # noqa: E402
-from thinkballot.services.web.app import FIELD_HEADINGS  # noqa: E402
+from thinkballot.services.web.app import FIELD_HEADINGS, SUGGESTED_QUESTIONS  # noqa: E402
 
 DEFAULT_DATA = config.ROOT / "data" / "dummy" / "measures.json"
 REPORT_PATH = config.ROOT / "reports" / "bias-report.json"
@@ -113,7 +113,9 @@ def main(path):
             for f in a["findings"]:
                 report["audit"].append({"measure": m["id"], "field": name, **f})
 
-    labels = sorted(set(FIELD_HEADINGS.values()) | set(ASK_LABELS.values()))
+    topics = {t for m in data["measures"] for t in m.get("topics", [])}
+    labels = sorted(set(FIELD_HEADINGS.values()) | set(ASK_LABELS.values()) | topics
+                    | set(SUGGESTED_QUESTIONS))
     for label in labels:
         r = bias.post("/check/text", {"text": label, "sources": [], "mode": "enforce"})
         report["labels"].append({"label": label, "verdict": r["verdict"], "findings": r["findings"]})
