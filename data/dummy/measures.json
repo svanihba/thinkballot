@@ -1,0 +1,98 @@
+{
+  "_note": "DUMMY DEVELOPMENT DATA. Not real ballot information. Replaced by data/measures.json from the official guide.",
+  "election": {
+    "id": "ca-2026-11-03",
+    "name": "November 3, 2026 California General Election",
+    "date": "2026-11-03"
+  },
+  "measures": [
+    {
+      "id": "prop-a",
+      "number": "A",
+      "title": {
+        "text": "Sample Library Funding Measure",
+        "source_url": "https://example.invalid/placeholder/prop-a",
+        "source_snapshot": "data/dummy/sources/prop-a.txt"
+      },
+      "fields": {
+        "summary": {
+          "text": "Placeholder text. Raises the state library grant to $50 per student for five years.",
+          "source_url": "https://example.invalid/placeholder/prop-a",
+          "source_label": "Placeholder source page",
+          "source_snapshot": "data/dummy/sources/prop-a.txt"
+        },
+        "yes_means": {
+          "text": "A YES vote on this placeholder measure means libraries receive $50 per student each year for five years.",
+          "source_url": "https://example.invalid/placeholder/prop-a",
+          "source_label": "Placeholder source page",
+          "source_snapshot": "data/dummy/sources/prop-a.txt"
+        },
+        "no_means": {
+          "text": "A NO vote on this placeholder measure means library grants stay at the current $30 per student.",
+          "source_url": "https://example.invalid/placeholder/prop-a",
+          "source_label": "Placeholder source page",
+          "source_snapshot": "data/dummy/sources/prop-a.txt"
+        },
+        "fiscal_effect": {
+          "text": "Placeholder analysis. Increased state costs of about $200 million each year for five years.",
+          "source_url": "https://example.invalid/placeholder/prop-a",
+          "source_label": "Placeholder source page",
+          "source_snapshot": "data/dummy/sources/prop-a.txt"
+        },
+        "argument_for": {
+          "text": "Placeholder argument. Libraries are a common-sense investment in every student.",
+          "source_url": "https://example.invalid/placeholder/prop-a",
+          "source_label": "Placeholder source page",
+          "source_snapshot": "data/dummy/sources/prop-a.txt"
+        },
+        "argument_against": {
+          "text": "Placeholder argument. The state should fund existing programs before adding new costs.",
+          "source_url": "https://example.invalid/placeholder/prop-a",
+          "source_label": "Placeholder source page",
+          "source_snapshot": "data/dummy/sources/prop-a.txt"
+        }
+      }
+    },
+    {
+      "id": "prop-b",
+      "number": "B",
+      "title": {
+        "text": "Sample Park Bond",
+        "source_url": "https://example.invalid/placeholder/prop-b",
+        "source_snapshot": "data/dummy/sources/prop-b.txt"
+      },
+      "fields": {
+        "summary": {
+          "text": "Placeholder text. Authorizes $1.5 billion in bonds for state and local parks.",
+          "source_url": "https://example.invalid/placeholder/prop-b",
+          "source_label": "Placeholder source page",
+          "source_snapshot": "data/dummy/sources/prop-b.txt"
+        },
+        "yes_means": {
+          "text": "A YES vote on this placeholder measure means the state could sell $1.5 billion in bonds for parks.",
+          "source_url": "https://example.invalid/placeholder/prop-b",
+          "source_label": "Placeholder source page",
+          "source_snapshot": "data/dummy/sources/prop-b.txt"
+        },
+        "no_means": {
+          "text": "A NO vote on this placeholder measure means the state could not sell these bonds for parks.",
+          "source_url": "https://example.invalid/placeholder/prop-b",
+          "source_label": "Placeholder source page",
+          "source_snapshot": "data/dummy/sources/prop-b.txt"
+        },
+        "fiscal_effect": {
+          "text": "Placeholder analysis. State costs of about $90 million each year for 30 years to repay the bonds.",
+          "source_url": "https://example.invalid/placeholder/prop-b",
+          "source_label": "Placeholder source page",
+          "source_snapshot": "data/dummy/sources/prop-b.txt"
+        },
+        "argument_for": {
+          "text": "Placeholder argument. Parks give families safe places to play.",
+          "source_url": "https://example.invalid/placeholder/prop-b",
+          "source_label": "Placeholder source page",
+          "source_snapshot": "data/dummy/sources/prop-b.txt"
+        }
+      }
+    }
+  ]
+}

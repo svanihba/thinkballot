@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block title %}Your ballot · ThinkBallot{% endblock %}
+{% block main %}
+<div class="eyebrow">Your ballot</div>
+<h1>{{ election.name }}</h1>
+
+{% if place %}
+  {% if place.found %}
+  <div class="ballot-meta">
+    <span class="addr">Your likely districts, based on ZIP code {{ place.zip }}</span>
+    <span class="chip accent">{{ place.county }} County</span>
+    <span class="chip">Congressional District {{ place.districts.congressional }}</span>
+    <span class="chip">State Senate District {{ place.districts.state_senate }}</span>
+    <span class="chip">Assembly District {{ place.districts.assembly }}</span>
+    <a href="/" class="change">change</a>
+  </div>
+  <p class="hint">A ZIP code can cross district lines. Your county elections office has your exact districts.</p>
+  {% else %}
+  <div class="notice">We couldn't match {% if place.zip %}ZIP code {{ place.zip }}{% else %}a California ZIP code in that address{% endif %}
+    to districts yet. Every Californian votes on the same statewide propositions, so your list below is complete.</div>
+  {% endif %}
+{% endif %}
+
+<div class="progress" data-total="{{ measures|length }}">
+  <div class="progress-text"><span id="read-count">0</span> of {{ measures|length }} propositions read</div>
+  <div class="progress-bar"><span id="read-bar"></span></div>
+  <div class="ready" id="ballot-ready" hidden>Ballot ready ✓ You've read every proposition.</div>
+</div>
+
+<section id="starred" hidden>
+  <div class="section-head"><span class="sec-num">STARRED</span><h2>Your starred propositions</h2></div>
+  <ul class="starred-list" id="starred-list"></ul>
+</section>
+
+<div class="section-head"><span class="sec-num">STATEWIDE</span><h2>Propositions</h2></div>
+{% for m in measures %}
+<article class="card measure" data-measure="{{ m.id }}" data-title="Prop {{ m.number }}: {{ m.title }}">
+  <div class="top">
+    <span class="tag">Prop {{ m.number }}</span>
+    <span class="read-tick" hidden>read ✓</span>
+    <button class="star" type="button" aria-pressed="false" aria-label="Star Prop {{ m.number }}">☆ Star</button>
+  </div>
+  <h3><a href="/prop/{{ m.id }}">{{ m.title }}</a></h3>
+  {% if m.summary %}<p class="summary">{{ m.summary }}</p>{% endif %}
+  <div class="foot"><a class="btn ghost small" href="/prop/{{ m.id }}">Read the full card →</a></div>
+</article>
+{% endfor %}
+
+<div class="notice calm" style="margin-top:2.4rem">Every card comes from the official voter guide and the
+  Legislative Analyst. <a href="/neutral">How we stay neutral →</a></div>
+{% endblock %}

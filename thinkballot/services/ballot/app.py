@@ -1,0 +1,41 @@
+"""ballot service: read-only JSON API over the measures in SQLite."""
+
+from flask import abort, g, jsonify
+
+from ...servicekit import make_service
+from . import db
+
+
+def create_app(db_path=None):
+    app = make_service("ballot")
+
+    def conn():
+        if "conn" not in g:
+            g.conn = db.connect(db_path)
+        return g.conn
+
+    @app.teardown_appcontext
+    def close(_exc):
+        c = g.pop("conn", None)
+        if c is not None:
+            c.close()
+
+    @app.get("/election")
+    def election():
+        e = db.election(conn())
+        if not e:
+            abort(404, "No election loaded. Run scripts/seed.py.")
+        return jsonify(e)
+
+    @app.get("/measures")
+    def measures():
+        return jsonify(measures=db.list_measures(conn()))
+
+    @app.get("/measures/<measure_id>")
+    def measure(measure_id):
+        m = db.get_measure(conn(), measure_id)
+        if not m:
+            abort(404, "Unknown measure.")
+        return jsonify(m)
+
+    return app

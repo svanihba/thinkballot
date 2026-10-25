@@ -1,0 +1,122 @@
+{
+  "verify": [
+    {
+      "measure": "prop-a",
+      "field": "title",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-a",
+      "field": "summary",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-a",
+      "field": "yes_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-a",
+      "field": "no_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-a",
+      "field": "fiscal_effect",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-a",
+      "field": "argument_for",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-a",
+      "field": "argument_against",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-b",
+      "field": "title",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-b",
+      "field": "summary",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-b",
+      "field": "yes_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-b",
+      "field": "no_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-b",
+      "field": "fiscal_effect",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-b",
+      "field": "argument_for",
+      "verdict": "pass"
+    }
+  ],
+  "audit": [
+    {
+      "measure": "prop-a",
+      "field": "argument_for",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"common-sense\""
+    }
+  ],
+  "labels": [
+    {
+      "label": "Fiscal effect",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "Fiscal effect (Legislative Analyst)",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "Official argument against",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "Official argument in favor",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "Official summary",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "What a NO vote means",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "What a YES vote means",
+      "verdict": "pass",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "checked_at": "2026-10-25 21:08 UTC",
+    "data_file": "data/dummy/measures.json",
+    "fields_verified": 13,
+    "fields_failed": 0,
+    "labels_checked": 7,
+    "audit_findings": 1
+  }
+}

@@ -1,0 +1,54 @@
+/* Additions to the mock's style.css for the live app. Neutral colours only: nothing red or blue. */
+
+.linklike {
+  background: none; border: none; padding: 0; cursor: pointer;
+  font: inherit; font-size: 0.85rem; color: var(--poppy-deep); text-decoration: underline;
+}
+.sample-form { margin-top: 0.8rem; display: flex; gap: 0.4rem; align-items: baseline; flex-wrap: wrap; }
+.hint { font-size: 0.82rem; color: var(--ink-soft); margin-top: 0.4rem; }
+.ballot-meta .change { font-size: 0.78rem; margin-left: auto; }
+
+/* reading progress */
+.progress { margin: 1.4rem 0 0.4rem; max-width: 28rem; }
+.progress-text { font-family: var(--mono); font-size: 0.78rem; margin-bottom: 0.3rem; }
+.progress-bar { height: 8px; background: var(--paper-deep); border: 1px solid var(--line); border-radius: 4px; overflow: hidden; }
+.progress-bar span { display: block; height: 100%; width: 0; background: var(--teal); transition: width 0.4s; }
+.ready { margin-top: 0.5rem; font-weight: 700; color: var(--teal); }
+
+/* stars and read ticks */
+.star {
+  margin-left: auto; cursor: pointer; font: inherit; font-size: 0.8rem;
+  background: transparent; border: 1px solid var(--line); border-radius: 3px; padding: 0.2rem 0.6rem; color: var(--ink);
+}
+.star[aria-pressed="true"] { border-color: var(--poppy-deep); color: var(--poppy-deep); }
+.read-tick { font-family: var(--mono); font-size: 0.72rem; color: var(--teal); }
+.starred-list { margin-left: 1.2rem; }
+.starred-list li { margin: 0.3rem 0; }
+
+/* measure page */
+.actions { display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap; margin: 0.4rem 0 1rem; }
+.actions .star { margin-left: 0; }
+.measure-page .src { display: inline-block; margin-top: 0.4rem; text-decoration: none; }
+.missing { font-style: italic; color: var(--ink-soft); }
+.args .col p { font-size: 0.9rem; white-space: pre-line; }
+
+/* ask */
+.ask { margin-top: 2.5rem; border-top: 3px double var(--line-strong); padding-top: 0.5rem; }
+.ask-form { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-top: 0.8rem; max-width: 40rem; }
+.ask-form input {
+  flex: 1 1 16rem; font: inherit; padding: 0.75rem 1rem;
+  border: 2px solid var(--ink); background: #fffdf8; border-radius: 3px;
+}
+.ask-result { margin-top: 1rem; max-width: 46rem; }
+.answer { background: #fffdf8; border: 1px solid var(--line); padding: 1rem 1.2rem; }
+.answer .points { list-style: none; }
+.answer .points li { margin-bottom: 0.9rem; }
+.answer blockquote { border-left: 3px solid var(--teal); padding-left: 0.8rem; margin-top: 0.3rem; font-size: 0.88rem; color: var(--ink-soft); }
+.verdict { font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--teal); }
+.verdict.blocked { color: var(--ink-soft); }
+.findings { font-size: 0.82rem; color: var(--ink-soft); margin: 0.4rem 0 0 1.2rem; }
+.thinking { animation: pulse 1.2s ease-in-out infinite; }
+@keyframes pulse { 50% { opacity: 0.5; } }
+
+.rules { margin: 0.6rem 0 1rem 1.3rem; max-width: 46rem; }
+.rules li { margin: 0.5rem 0; }

@@ -1,0 +1,49 @@
+# Persuasive or emotionally loaded words. Flagged when they appear in ThinkBallot or AI-written text
+# but not in the official source. One word or phrase per line; matched as whole words, case-insensitive.
+radical
+extreme
+extremist
+disastrous
+disaster
+catastrophic
+reckless
+dangerous
+outrageous
+shameful
+scheme
+scam
+giveaway
+handout
+boondoggle
+job-killing
+job killer
+common-sense
+common sense
+commonsense
+no-brainer
+obviously
+clearly
+undeniably
+unfortunately
+fortunately
+sadly
+thankfully
+best
+worst
+great
+terrible
+amazing
+smart
+foolish
+wasteful
+greedy
+corrupt
+socialist
+woke
+special interests
+fat cats
+taxpayer-funded
+you should vote
+vote yes
+vote no
+we recommend
