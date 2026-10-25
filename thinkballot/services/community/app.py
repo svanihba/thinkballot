@@ -18,7 +18,10 @@ from werkzeug.security import check_password_hash, generate_password_hash
 from ...servicekit import ServiceClient, ServiceError, make_service
 from . import db
 
-FLAGS_TO_HIDE = 3
+FLAGS_TO_HIDE = 5
+# Flags and fact ratings count only from accounts at least this old, so a burst of throwaway
+# accounts can't hide a comment or fake bridging consensus.
+MIN_ACCOUNT_AGE = "-1 hour"
 USERNAME_RE = re.compile(r"^[A-Za-z0-9_]{3,24}$")
 EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 MAX_COMMENT = 1000
@@ -68,6 +71,12 @@ def create_app(db_path=None):
         if not row:
             abort(401, "Please sign in.")
         return row
+
+    def established(u):
+        old = conn().execute("SELECT created_at <= datetime('now', ?) FROM user WHERE id = ?",
+                             (MIN_ACCOUNT_AGE, u["id"])).fetchone()[0]
+        if not old:
+            abort(403, "New accounts can flag and rate after their first hour.")
 
     def moderator(user_id):
         u = user(user_id)
@@ -150,6 +159,7 @@ def create_app(db_path=None):
     @app.post("/comments/<int:comment_id>/flag")
     def flag_comment(comment_id):
         u = user(body().get("user_id"))
+        established(u)
         c = conn().execute("SELECT * FROM comment WHERE id = ?", (comment_id,)).fetchone()
         if not c:
             abort(404, "No such comment.")
@@ -187,6 +197,7 @@ def create_app(db_path=None):
     def rate_fact(fact_id):
         b = body()
         u = user(b.get("user_id"))
+        established(u)
         leaning = b.get("leaning")
         if leaning not in LEANINGS or b.get("helpful") not in (True, False):
             abort(400, "helpful (true/false) and leaning (yes/no/undecided) are required")

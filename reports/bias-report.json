@@ -1125,9 +1125,9 @@
     }
   ],
   "summary": {
-    "checked_at": "2026-10-25 22:26 UTC",
+    "checked_at": "2026-10-25 22:29 UTC",
     "data_file": "data/measures.json",
-    "verified_against": "live official pages",
+    "verified_against": "saved copies of the official pages",
     "fields_verified": 154,
     "fields_failed": 0,
     "labels_checked": 34,

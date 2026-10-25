@@ -13,8 +13,14 @@ def svc(server):
     return ServiceClient("community")
 
 
-def make_user(svc, name):
-    return svc.post("/users", {"email": f"{name}@example.com", "username": name, "password": "password123"})
+def make_user(svc, name, established=True):
+    u = svc.post("/users", {"email": f"{name}@example.com", "username": name, "password": "password123"})
+    if established:  # flags and ratings count only from accounts older than an hour
+        from thinkballot import config
+        from thinkballot.services.community import db
+        with db.connect(config.COMMUNITY_DB_PATH) as conn:
+            conn.execute("UPDATE user SET created_at = datetime('now', '-2 hours') WHERE id = ?", (u["id"],))
+    return u
 
 
 def test_community_service_rejects_outside_callers(server):
@@ -32,15 +38,23 @@ def test_signup_login_and_email_is_never_shown(svc, server):
     assert "alex@example.com" not in requests.get(server + "/prop/prop-a").text
 
 
-def test_three_flags_hide_a_comment_until_a_moderator_restores_it(svc):
+def test_new_accounts_cannot_flag(svc):
+    author, fresh = make_user(svc, "author0"), make_user(svc, "fresh0", established=False)
+    cid = svc.post("/comments", {"user_id": author["id"], "measure_id": "prop-a", "text": "Hi"})["id"]
+    with pytest.raises(ServiceError) as exc:
+        svc.post(f"/comments/{cid}/flag", {"user_id": fresh["id"]})
+    assert exc.value.status == 403
+
+
+def test_five_flags_hide_a_comment_until_a_moderator_restores_it(svc):
     author = make_user(svc, "author1")
-    flaggers = [make_user(svc, f"flagger{i}") for i in range(3)]
+    flaggers = [make_user(svc, f"flagger{i}") for i in range(5)]
     cid = svc.post("/comments", {"user_id": author["id"], "measure_id": "prop-b", "text": "Hot take"})["id"]
     visible = lambda: [c["id"] for c in svc.get("/measures/prop-b")["comments"]]  # noqa: E731
-    for f in flaggers[:2]:
+    for f in flaggers[:4]:
         svc.post(f"/comments/{cid}/flag", {"user_id": f["id"]})
     assert cid in visible()
-    svc.post(f"/comments/{cid}/flag", {"user_id": flaggers[2]["id"]})
+    svc.post(f"/comments/{cid}/flag", {"user_id": flaggers[4]["id"]})
     assert cid not in visible()
 
     from thinkballot import config

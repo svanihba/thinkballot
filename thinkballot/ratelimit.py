@@ -42,6 +42,13 @@ def allow(action, key, limits):
     """
     bucket = action + ":" + (hashlib.sha256(key.encode()).hexdigest()[:24] if key else "*")
     now = time.time()
+    try:
+        return _record(bucket, now, limits)
+    except sqlite3.OperationalError:  # e.g. "database is locked": refuse rather than fail
+        return False
+
+
+def _record(bucket, now, limits):
     with _lock, _connect() as conn:
         conn.execute("DELETE FROM hit WHERE ts < ?", (now - 86400,))
         for max_hits, window in limits:
