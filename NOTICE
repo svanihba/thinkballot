@@ -1,0 +1,12 @@
+ThinkBallot
+Copyright (C) 2026 Abhinav Shirbhate
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero
+General Public License as published by the Free Software Foundation, version 3 (see LICENSE).
+
+Additional term under section 7(b) of the license: the attribution "ThinkBallot, created by Abhinav
+Shirbhate" and a link to https://github.com/svanihba/thinkballot must be preserved in the source code
+notices and in the "About" page (or an equivalent place visible to users) of any modified version.
+
+Proposition text in data/ is copied from the California Secretary of State's Official Voter Information
+Guide (voterguide.sos.ca.gov), including analyses by the Legislative Analyst's Office.
