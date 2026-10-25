@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}ThinkBallot{% endblock %}</title>
+<meta name="description" content="{% block description %}Your California ballot in plain English: both sides equally, straight from the official source.{% endblock %}">
+<meta property="og:site_name" content="ThinkBallot">
+<meta property="og:title" content="{{ self.title() }}">
+<meta property="og:description" content="{{ self.description() }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ base_url }}{{ request.path }}">
+<meta property="og:image" content="{{ base_url }}{{ url_for('static', filename='og-card.png') }}">
+<meta name="twitter:card" content="summary_large_image">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Public+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+<script src="{{ url_for('static', filename='app.js') }}" defer></script>
+</head>
+<body>
+<header class="site-header"><div class="inner">
+  <a class="brand" href="/"><span class="mark">✓</span>ThinkBallot</a>
+  <nav class="site-nav">
+    <a href="/ballot" {% if request.path.startswith('/ballot') or request.path.startswith('/prop') %}class="active"{% endif %}>My ballot</a>
+    <a href="/neutral" {% if request.path == '/neutral' %}class="active"{% endif %}>How we stay neutral</a>
+    <a href="/about" {% if request.path == '/about' %}class="active"{% endif %}>About</a>
+  </nav>
+</div></header>
+
+<main>{% block main %}{% endblock %}</main>
+
+<footer class="site-footer"><div class="inner">
+  <span>ThinkBallot · nonpartisan · official sources only</span>
+  <span class="spacer"></span>
+  <a href="/neutral">How we stay neutral</a>
+  <a href="/about">About</a>
+</div></footer>
+</body>
+</html>

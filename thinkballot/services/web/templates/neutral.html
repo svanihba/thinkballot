@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}How we stay neutral · ThinkBallot{% endblock %}
+{% block main %}
+<div class="eyebrow">Methodology</div>
+<h1>How we stay neutral</h1>
+<p class="lede">ThinkBallot never tells you how to vote. These are the rules every page follows.</p>
+
+<h2>The rules</h2>
+<ol class="rules">
+  <li><strong>Official sources only.</strong> Everything comes from the California Secretary of State's Official
+    Voter Information Guide and the Legislative Analyst's Office. No news, no social media.</li>
+  <li><strong>Their words, not ours.</strong> Summaries, YES and NO meanings, fiscal effects and arguments are
+    shown word for word, with a link to the exact page. We do not use AI to write them.</li>
+  <li><strong>Both sides, equally.</strong> YES always comes before NO, in the same layout, style and colour.
+    The arguments for and against sit side by side.</li>
+  <li><strong>If it isn't in the source, we don't show it.</strong> A missing field says "Not available in the
+    official guide" instead of being filled in.</li>
+  <li><strong>Your privacy.</strong> We use only the ZIP code from your address to find your likely districts.
+    Addresses and questions are never stored or logged. Stars and reading progress stay in your own browser.</li>
+</ol>
+
+<h2 id="bias-buster">Bias Buster</h2>
+<p>Bias Buster is the part of ThinkBallot that checks every piece of text we write and every AI answer before
+you see it. It has two jobs: <strong>no bias</strong> and <strong>no made-up facts</strong>.</p>
+<ol class="rules">
+  <li><strong>Quote check.</strong> Every point in an answer must quote the official text, and the quote must be
+    found there word for word. If it isn't, the point is removed.</li>
+  <li><strong>Number check.</strong> Every number, dollar amount, percentage or date must appear in the official
+    text.</li>
+  <li><strong>Loaded-word check.</strong> Persuasive words like "disastrous" or "common-sense" are caught unless
+    the official text itself uses them.</li>
+  <li><strong>Balance check.</strong> When both sides are covered, YES and NO must both be there, at similar
+    length.</li>
+  <li><strong>AI review.</strong> A second AI model reviews each answer for one-sided framing, hints about how to
+    vote, and claims the source doesn't support. Its edits go through checks 1 to 4 again. If the review can't
+    run, the answer is held back.</li>
+</ol>
+<p>Before any data goes live, Bias Buster also confirms that every official field we stored appears word for
+word on its source page, which catches copying mistakes.</p>
+{% if report %}
+<div class="notice calm">Latest data check ({{ report.checked_at }}): {{ report.fields_verified }} official fields
+  verified word for word against their source pages; {{ report.labels_checked }} ThinkBallot labels passed;
+  {{ report.audit_findings }} audit notes recorded on official text (official text is never changed).</div>
+{% endif %}
+
+<h2>Where AI is used</h2>
+<p>Only for answering your questions, and only from the official text, with quotes you can check. AI does not
+write the cards.</p>
+{% endblock %}

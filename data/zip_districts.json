@@ -1,0 +1,9 @@
+{
+  "_note": "Placeholder ZIP -> district table for development. Values are unverified and must be checked against official district maps before release. A ZIP can span several districts; the app labels results as 'likely'.",
+  "zips": {
+    "94087": {"city": "Sunnyvale", "county": "Santa Clara", "congressional": "17", "state_senate": "13", "assembly": "26"},
+    "94086": {"city": "Sunnyvale", "county": "Santa Clara", "congressional": "17", "state_senate": "13", "assembly": "26"},
+    "95014": {"city": "Cupertino", "county": "Santa Clara", "congressional": "17", "state_senate": "13", "assembly": "26"},
+    "95054": {"city": "Santa Clara", "county": "Santa Clara", "congressional": "17", "state_senate": "15", "assembly": "26"}
+  }
+}
