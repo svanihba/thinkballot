@@ -28,12 +28,13 @@
 /* measure page */
 .actions { display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap; margin: 0.4rem 0 1rem; }
 .actions .star { margin-left: 0; }
-.measure-page .src { display: inline-block; margin-top: 0.4rem; text-decoration: none; }
+.measure-page .src { text-decoration: none; }
+.measure-page .actions { margin-top: 1rem; }
 .missing { font-style: italic; color: var(--ink-soft); }
 .args .col p { font-size: 0.9rem; white-space: pre-line; }
 
 /* ask */
-.ask { margin-top: 2.5rem; border-top: 3px double var(--line-strong); padding-top: 0.5rem; }
+.ask { margin-top: 2.5rem; border-top: 2px dashed var(--ink-soft); padding-top: 0.5rem; }
 .ask-form { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-top: 0.8rem; max-width: 40rem; }
 .ask-form input {
   flex: 1 1 16rem; font: inherit; padding: 0.75rem 1rem;
