@@ -100,8 +100,10 @@ def create_app(db_path=None):
                 cur = conn().execute("INSERT INTO user (email, username, pw_hash) VALUES (?, ?, ?)",
                                      (email, username, generate_password_hash(password)))
         except sqlite3.IntegrityError as exc:
-            taken = "That email already has an account." if "email" in str(exc) else "That display name is taken."
-            abort(409, taken)
+            # Don't reveal whether an email has an account; display names are public anyway.
+            if "username" in str(exc):
+                abort(409, "That display name is taken. Please choose another.")
+            abort(409, "Couldn't create that account. If you already have one, sign in instead.")
         return jsonify(id=cur.lastrowid, username=username, is_mod=False), 201
 
     @app.post("/login")

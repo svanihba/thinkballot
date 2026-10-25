@@ -20,7 +20,7 @@ import requests
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from thinkballot import config  # noqa: E402
-from thinkballot.servicekit import ServiceClient, ServiceError  # noqa: E402
+from thinkballot.servicekit import ServiceError  # noqa: E402
 from thinkballot.sourcetext import html_to_text  # noqa: E402
 from thinkballot.services.ask.app import FIELD_LABELS as ASK_LABELS  # noqa: E402
 from thinkballot.services.ballot import db  # noqa: E402
@@ -64,14 +64,8 @@ class _InProcessBias:
 
 
 def bias_client():
-    """Use the running bias service; if none is running (e.g. during a deploy), run it in-process."""
-    client = ServiceClient("bias", timeout=5)
-    try:
-        client.get("/health")
-        return client
-    except ServiceError:
-        print("(bias service not running; using it in-process)")
-        return _InProcessBias()
+    """Always the bias service in-process: the seed never depends on (or talks to) any listener."""
+    return _InProcessBias()
 
 
 def main(path, live=False):

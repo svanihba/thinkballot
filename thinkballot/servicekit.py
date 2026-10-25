@@ -62,8 +62,42 @@ class _UnixAdapter(HTTPAdapter):
         return request.path_url
 
 
+# The whole ThinkBallot WSGI app, registered by thinkballot.app.create_app for "inproc" calls.
+_inproc_app = None
+
+
+def register_inproc_app(app):
+    global _inproc_app
+    _inproc_app = app
+
+
+class _InprocResponse:
+    def __init__(self, resp):
+        self.status_code = resp.status_code
+        self.headers = resp.headers
+        self._resp = resp
+
+    def json(self):
+        return self._resp.get_json()
+
+
+class _InprocSession:
+    """Hands each HTTP request straight to this process's WSGI app: same API, same status codes,
+    but no socket round trip, so a request never waits for a second worker thread."""
+
+    def request(self, method, url, timeout=None, headers=None, params=None, json=None):
+        from werkzeug.test import Client
+        if _inproc_app is None:
+            raise requests.ConnectionError("in-process app not registered")
+        params = {k: v for k, v in (params or {}).items() if v is not None}
+        resp = Client(_inproc_app).open(url, method=method, headers=headers, query_string=params, json=json)
+        return _InprocResponse(resp)
+
+
 def _session_for(base_url):
     """(session, http base url). "unix:/run/x.sock/svc/ballot" -> requests over that socket."""
+    if base_url.startswith("inproc"):
+        return _InprocSession(), base_url[len("inproc"):]
     session = requests.Session()
     if base_url.startswith("unix:"):
         path = base_url[len("unix:"):]
@@ -101,8 +135,8 @@ class ServiceClient:
         if resp.status_code == 404:
             return None
         if resp.status_code >= 400:
-            detail = resp.json().get("detail") if resp.headers.get("content-type", "").startswith(
-                "application/json") else None
+            body = resp.json() if resp.headers.get("content-type", "").startswith("application/json") else None
+            detail = body.get("detail") if isinstance(body, dict) else None
             raise ServiceError(self.name, detail or f"HTTP {resp.status_code}", resp.status_code)
         return resp.json()
 

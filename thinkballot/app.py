@@ -16,13 +16,14 @@ from .services.community.app import create_app as community_app
 from .services.geo.app import create_app as geo_app
 from .services.search.app import create_app as search_app
 from .services.web.app import create_app as web_app
+from .servicekit import register_inproc_app
 
 
 def create_app():
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(name)s %(message)s")
     # Werkzeug's own access log prints full URLs; keep it quiet so nothing personal is logged.
     logging.getLogger("werkzeug").setLevel(logging.WARNING)
-    app = DispatcherMiddleware(web_app(), {
+    services = DispatcherMiddleware(web_app(), {
         "/svc/ballot": ballot_app(),
         "/svc/geo": geo_app(),
         "/svc/ask": ask_app(),
@@ -30,4 +31,5 @@ def create_app():
         "/svc/search": search_app(),
         "/svc/community": community_app(),
     })
-    return ProxyFix(app, x_for=1, x_proto=1, x_host=1)  # trust one proxy: Caddy
+    register_inproc_app(services)  # for TB_INTERNAL_URL=inproc
+    return ProxyFix(services, x_for=1, x_proto=1, x_host=1)  # trust one proxy: Caddy

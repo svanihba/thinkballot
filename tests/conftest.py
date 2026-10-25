@@ -18,6 +18,7 @@ def server(tmp_path_factory):
     config.AI_PROVIDER = "stub"
     config.DB_PATH = tmp / "test.sqlite3"
     config.COMMUNITY_DB_PATH = tmp / "community.sqlite3"
+    config.RATE_DB_PATH = tmp / "ratelimit.sqlite3"
     srv = make_server("127.0.0.1", 0, lambda e, s: app(e, s), threaded=True)
     base = f"http://127.0.0.1:{srv.server_port}"
     config.PUBLIC_BASE = base

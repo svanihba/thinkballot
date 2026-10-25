@@ -48,8 +48,12 @@ def ai_review(points, sources):
             + "\n\nANSWER:\n" + json.dumps({"points": points}, ensure_ascii=False))
     reply = ai.chat_json(config.REVIEW_MODEL, REVIEW_SYSTEM, user, stub=_stub_review)
     new_points = [p for p in reply.get("points", []) if isinstance(p, dict) and p.get("claim")]
-    findings = [{"check": "ai_review", "detail": str(f.get("detail", ""))}
-                for f in reply.get("findings", []) if isinstance(f, dict)]
+    # The reviewer's own words are logged, never shown: voters see only fixed messages.
+    findings = []
+    for f in reply.get("findings", []):
+        if isinstance(f, dict):
+            log.info("bias ai_review finding (not shown): %s", str(f.get("detail", ""))[:200])
+            findings.append({"check": "ai_review", "detail": checks.MESSAGES["ai_review"]})
     return new_points, findings
 
 
@@ -91,7 +95,7 @@ def check_answer(points, sources, use_ai=True):
 def check_text(text, sources, mode, sides=None):
     """verify / audit / enforce for a single piece of text."""
     if mode == "verify":
-        findings = [] if checks.quote_found(text, sources) else [
+        findings = [] if any(checks.text_on_page(text, s) for s in sources) else [
             {"check": "quote", "detail": "text does not appear word for word on its source page"}]
         return {"verdict": "fail" if findings else "pass", "text": text, "findings": findings}
 

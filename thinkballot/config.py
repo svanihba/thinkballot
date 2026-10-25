@@ -16,8 +16,9 @@ def _env(name, default):
 
 # The site's public address (share links, preview cards, secure cookies).
 PUBLIC_BASE = _env("TB_PUBLIC_URL", "http://127.0.0.1:8000")
-# Where the services find each other. Either http://host:port or, on the server, the process's own
-# unix socket as unix:/run/thinkballot/app.sock. Each service can later move by changing only its URL.
+# Where the services find each other: "inproc" (HTTP requests handed straight to this process's
+# WSGI app, used on the server), http://host:port, or unix:/path.sock. Each service can later move
+# to its own process or host by changing only its URL.
 INTERNAL_BASE = _env("TB_INTERNAL_URL", PUBLIC_BASE)
 SERVICE_URLS = {
     "ballot": _env("TB_BALLOT_URL", INTERNAL_BASE + "/svc/ballot"),
@@ -35,6 +36,7 @@ SECRET_KEY = os.environ.get("TB_SECRET_KEY") or secrets.token_hex(32)  # signs s
 # Official data: rebuilt from the release's own files on every deploy, so it lives with the release.
 DB_PATH = Path(_env("TB_DB_PATH", str(ROOT / "instance" / "thinkballot.sqlite3")))
 REPORT_PATH = Path(_env("TB_REPORT_PATH", str(ROOT / "reports" / "bias-report.json")))
+RATE_DB_PATH = Path(_env("TB_RATE_DB_PATH", str(ROOT / "instance" / "ratelimit.sqlite3")))
 # The community service keeps its own database, so it can never change the official data.
 COMMUNITY_DB_PATH = Path(_env("TB_COMMUNITY_DB_PATH", str(ROOT / "instance" / "community.sqlite3")))
 ZIP_TABLE_PATH = Path(_env("TB_ZIP_TABLE", str(ROOT / "data" / "zip_districts.json")))
@@ -48,4 +50,6 @@ AI_TIMEOUT_SECONDS = float(_env("TB_AI_TIMEOUT", "45"))
 AI_RETRIES = int(_env("TB_AI_RETRIES", "2"))
 
 SERVICE_TIMEOUT_SECONDS = float(_env("TB_SERVICE_TIMEOUT", "120"))
-ASK_RATE_LIMIT_PER_MINUTE = int(_env("TB_ASK_RATE_LIMIT", "6"))
+# AI questions: per client, and site-wide so one person cannot use up the model quota for everyone.
+ASK_LIMITS_PER_CLIENT = [(6, 60), (60, 86400)]
+ASK_LIMITS_SITEWIDE = [(40, 60), (int(_env("TB_ASK_DAILY_CAP", "800")), 86400)]

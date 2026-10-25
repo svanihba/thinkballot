@@ -1,5 +1,7 @@
 """The services working together over HTTP, as they run in production."""
 
+import re
+
 import requests
 
 from thinkballot.services.geo.app import extract_zip
@@ -23,14 +25,22 @@ def test_missing_field_is_labelled_not_invented(server):
     assert "Not available in the official guide." in html
 
 
+def session_with_token(server):
+    s = requests.Session()
+    token = re.search(r'name="csrf" value="([^"]+)"', s.get(server + "/").text).group(1)
+    return s, token
+
+
 def test_sample_address_shows_likely_districts(server):
-    html = requests.post(server + "/ballot", data={"address": "Mango Park, Sunnyvale, 94087"}).text
+    s, token = session_with_token(server)
+    html = s.post(server + "/ballot", data={"csrf": token, "address": "Mango Park, Sunnyvale, 94087"}).text
     assert "Your likely districts, based on ZIP code 94087" in html
     assert "Congressional District 17" in html
 
 
 def test_unknown_zip_still_shows_statewide_ballot(server):
-    html = requests.post(server + "/ballot", data={"address": "somewhere 96000"}).text
+    s, token = session_with_token(server)
+    html = s.post(server + "/ballot", data={"csrf": token, "address": "somewhere 96000"}).text
     assert "couldn't match" in html and "Sample Park Bond" in html
 
 
@@ -52,3 +62,23 @@ def test_search_matches_text_and_filters_by_topic(server):
     r = requests.get(server + "/svc/search/search", params={"topic": "libraries"}).json()
     assert [m["id"] for m in r["results"]] == ["prop-a"]
     assert "parks" in r["topics"]
+
+
+def test_forms_without_a_session_token_are_rejected(server):
+    assert requests.post(server + "/ballot", data={"address": "94087"}).status_code == 400
+    assert requests.post(server + "/ballot", data={"csrf": "", "address": "94087"}).status_code == 400
+
+
+def test_sign_in_redirect_stays_on_this_site(server):
+    s, token = session_with_token(server)
+    for bad in ["//evil.com", "/\\evil.com", "https://evil.com", "/\tevil.com"]:
+        r = s.post(server + "/signin", data={"csrf": token, "action": "signin", "email": "x@example.com",
+                                             "password": "nope", "next": bad}, allow_redirects=False)
+        assert "evil.com" not in r.headers.get("Location", ""), bad
+
+
+def test_measure_ids_are_validated(server):
+    assert requests.get(server + "/prop/x%3Fviewer=5").status_code == 404
+    r = requests.post(server + "/api/ask", json={"measure_id": "../../community/moderation?user_id=1",
+                                                 "question": "hi"})
+    assert r.status_code == 400

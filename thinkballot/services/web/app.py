@@ -1,13 +1,16 @@
 """web service: the pages voters see. It reads data only through the other services' APIs."""
 
+import re
 import secrets
 
 from flask import Flask, abort, flash, jsonify, redirect, render_template, request, session, url_for
 
-from ... import config
+from ... import config, ratelimit
 from ...servicekit import ServiceClient, ServiceError
 
 SAMPLE_ADDRESS = "Mango Park, Sunnyvale, 94087"
+MEASURE_ID_RE = re.compile(r"^prop-[a-z0-9]{1,8}$")
+SAFE_NEXT_RE = re.compile(r"^/(?![/\\])[A-Za-z0-9._~!$&'()*+,;=:@%/?-]*$")  # same-site path, no //host
 
 # Card field headings, in display order. YES and NO always use the same layout.
 FIELD_HEADINGS = {
@@ -70,7 +73,8 @@ def create_app():
     def check_csrf():
         # Every HTML form carries a per-session token; JSON calls are same-origin by browser rules.
         if request.method == "POST" and not request.is_json:
-            if request.form.get("csrf") != session.get("csrf"):
+            expected = session.get("csrf")
+            if not expected or not secrets.compare_digest(request.form.get("csrf", ""), expected):
                 abort(400)
 
     def require_user():
@@ -124,6 +128,12 @@ def create_app():
                     place = {"found": False, "zip": None, "error": True}
         return render_template("ballot.html", election=election, measures=measures, place=place)
 
+    @app.url_value_preprocessor
+    def check_measure_id(_endpoint, values):
+        # Measure ids end up in service URLs; allow only the real shape ("prop-45").
+        if values and "measure_id" in values and not MEASURE_ID_RE.match(values["measure_id"]):
+            abort(404)
+
     @app.get("/prop/<measure_id>")
     def measure_page(measure_id):
         try:
@@ -150,6 +160,8 @@ def create_app():
     @app.post("/api/ask")
     def api_ask():
         body = request.get_json(silent=True) or {}
+        if not isinstance(body.get("measure_id"), str) or not MEASURE_ID_RE.match(body["measure_id"]):
+            return jsonify(status="error", reason="Unknown proposition."), 400
         payload = {"measure_id": body.get("measure_id"), "question": body.get("question"),
                    "client": request.remote_addr}
         try:
@@ -180,10 +192,15 @@ def create_app():
     @app.route("/signin", methods=["GET", "POST"])
     def signin():
         next_url = request.values.get("next") or "/"
-        if not next_url.startswith("/") or next_url.startswith("//"):
-            next_url = "/"  # only redirect within this site
+        if not SAFE_NEXT_RE.match(next_url):
+            next_url = "/"  # only redirect to a path on this site
         if request.method == "POST":
             form = request.form
+            client = ratelimit.client_key(request.remote_addr)
+            limits = [(5, 3600)] if form.get("action") == "signup" else [(10, 600)]
+            if not ratelimit.allow("signin-" + str(form.get("action")), client, limits):
+                flash("Too many attempts. Please wait a few minutes and try again.")
+                return redirect(url_for("signin", next=next_url))
             try:
                 if form.get("action") == "signup":
                     u = community.post("/users", {"email": form.get("email"), "username": form.get("username"),
@@ -205,6 +222,9 @@ def create_app():
 
     # ---------- community ----------
     def community_action(path, payload, measure_id, ok_message=None):
+        if not ratelimit.allow("community", f"user:{payload['user_id']}", [(10, 60), (100, 86400)]):
+            flash("You're posting very quickly. Please wait a minute.")
+            return None, redirect(url_for("measure_page", measure_id=measure_id) + "#community")
         try:
             result = community.post(path, payload)
             if ok_message:
