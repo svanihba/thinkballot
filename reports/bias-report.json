@@ -1,90 +1,940 @@
 {
   "verify": [
     {
-      "measure": "prop-a",
+      "measure": "prop-1",
       "field": "title",
       "verdict": "pass"
     },
     {
-      "measure": "prop-a",
+      "measure": "prop-1",
       "field": "measure_type",
       "verdict": "pass"
     },
     {
-      "measure": "prop-a",
+      "measure": "prop-1",
       "field": "summary",
       "verdict": "pass"
     },
     {
-      "measure": "prop-a",
+      "measure": "prop-1",
       "field": "yes_means",
       "verdict": "pass"
     },
     {
-      "measure": "prop-a",
+      "measure": "prop-1",
       "field": "no_means",
       "verdict": "pass"
     },
     {
-      "measure": "prop-a",
+      "measure": "prop-1",
       "field": "fiscal_effect",
       "verdict": "pass"
     },
     {
-      "measure": "prop-a",
+      "measure": "prop-1",
       "field": "argument_for",
       "verdict": "pass"
     },
     {
-      "measure": "prop-a",
+      "measure": "prop-1",
       "field": "argument_against",
       "verdict": "pass"
     },
     {
-      "measure": "prop-b",
+      "measure": "prop-1",
+      "field": "supporters",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-1",
+      "field": "opponents",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-1",
+      "field": "analysis",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-2",
       "field": "title",
       "verdict": "pass"
     },
     {
-      "measure": "prop-b",
+      "measure": "prop-2",
       "field": "measure_type",
       "verdict": "pass"
     },
     {
-      "measure": "prop-b",
+      "measure": "prop-2",
       "field": "summary",
       "verdict": "pass"
     },
     {
-      "measure": "prop-b",
+      "measure": "prop-2",
       "field": "yes_means",
       "verdict": "pass"
     },
     {
-      "measure": "prop-b",
+      "measure": "prop-2",
       "field": "no_means",
       "verdict": "pass"
     },
     {
-      "measure": "prop-b",
+      "measure": "prop-2",
       "field": "fiscal_effect",
       "verdict": "pass"
     },
     {
-      "measure": "prop-b",
+      "measure": "prop-2",
       "field": "argument_for",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-2",
+      "field": "argument_against",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-2",
+      "field": "supporters",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-2",
+      "field": "opponents",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-2",
+      "field": "analysis",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-3",
+      "field": "title",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-3",
+      "field": "measure_type",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-3",
+      "field": "summary",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-3",
+      "field": "yes_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-3",
+      "field": "no_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-3",
+      "field": "fiscal_effect",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-3",
+      "field": "argument_for",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-3",
+      "field": "argument_against",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-3",
+      "field": "supporters",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-3",
+      "field": "opponents",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-3",
+      "field": "analysis",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-4",
+      "field": "title",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-4",
+      "field": "measure_type",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-4",
+      "field": "summary",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-4",
+      "field": "yes_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-4",
+      "field": "no_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-4",
+      "field": "fiscal_effect",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-4",
+      "field": "argument_for",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-4",
+      "field": "argument_against",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-4",
+      "field": "supporters",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-4",
+      "field": "opponents",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-4",
+      "field": "analysis",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-5",
+      "field": "title",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-5",
+      "field": "measure_type",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-5",
+      "field": "summary",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-5",
+      "field": "yes_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-5",
+      "field": "no_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-5",
+      "field": "fiscal_effect",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-5",
+      "field": "argument_for",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-5",
+      "field": "argument_against",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-5",
+      "field": "supporters",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-5",
+      "field": "opponents",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-5",
+      "field": "analysis",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-37",
+      "field": "title",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-37",
+      "field": "measure_type",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-37",
+      "field": "summary",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-37",
+      "field": "yes_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-37",
+      "field": "no_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-37",
+      "field": "fiscal_effect",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-37",
+      "field": "argument_for",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-37",
+      "field": "argument_against",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-37",
+      "field": "supporters",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-37",
+      "field": "opponents",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-37",
+      "field": "analysis",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-38",
+      "field": "title",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-38",
+      "field": "measure_type",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-38",
+      "field": "summary",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-38",
+      "field": "yes_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-38",
+      "field": "no_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-38",
+      "field": "fiscal_effect",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-38",
+      "field": "argument_for",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-38",
+      "field": "argument_against",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-38",
+      "field": "supporters",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-38",
+      "field": "opponents",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-38",
+      "field": "analysis",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-39",
+      "field": "title",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-39",
+      "field": "measure_type",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-39",
+      "field": "summary",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-39",
+      "field": "yes_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-39",
+      "field": "no_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-39",
+      "field": "fiscal_effect",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-39",
+      "field": "argument_for",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-39",
+      "field": "argument_against",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-39",
+      "field": "supporters",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-39",
+      "field": "opponents",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-39",
+      "field": "analysis",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-40",
+      "field": "title",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-40",
+      "field": "measure_type",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-40",
+      "field": "summary",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-40",
+      "field": "yes_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-40",
+      "field": "no_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-40",
+      "field": "fiscal_effect",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-40",
+      "field": "argument_for",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-40",
+      "field": "argument_against",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-40",
+      "field": "supporters",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-40",
+      "field": "opponents",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-40",
+      "field": "analysis",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-41",
+      "field": "title",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-41",
+      "field": "measure_type",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-41",
+      "field": "summary",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-41",
+      "field": "yes_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-41",
+      "field": "no_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-41",
+      "field": "fiscal_effect",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-41",
+      "field": "argument_for",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-41",
+      "field": "argument_against",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-41",
+      "field": "supporters",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-41",
+      "field": "opponents",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-41",
+      "field": "analysis",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-42",
+      "field": "title",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-42",
+      "field": "measure_type",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-42",
+      "field": "summary",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-42",
+      "field": "yes_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-42",
+      "field": "no_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-42",
+      "field": "fiscal_effect",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-42",
+      "field": "argument_for",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-42",
+      "field": "argument_against",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-42",
+      "field": "supporters",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-42",
+      "field": "opponents",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-42",
+      "field": "analysis",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-43",
+      "field": "title",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-43",
+      "field": "measure_type",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-43",
+      "field": "summary",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-43",
+      "field": "yes_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-43",
+      "field": "no_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-43",
+      "field": "fiscal_effect",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-43",
+      "field": "argument_for",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-43",
+      "field": "argument_against",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-43",
+      "field": "supporters",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-43",
+      "field": "opponents",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-43",
+      "field": "analysis",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-44",
+      "field": "title",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-44",
+      "field": "measure_type",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-44",
+      "field": "summary",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-44",
+      "field": "yes_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-44",
+      "field": "no_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-44",
+      "field": "fiscal_effect",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-44",
+      "field": "argument_for",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-44",
+      "field": "argument_against",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-44",
+      "field": "supporters",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-44",
+      "field": "opponents",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-44",
+      "field": "analysis",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-45",
+      "field": "title",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-45",
+      "field": "measure_type",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-45",
+      "field": "summary",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-45",
+      "field": "yes_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-45",
+      "field": "no_means",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-45",
+      "field": "fiscal_effect",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-45",
+      "field": "argument_for",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-45",
+      "field": "argument_against",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-45",
+      "field": "supporters",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-45",
+      "field": "opponents",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-45",
+      "field": "analysis",
       "verdict": "pass"
     }
   ],
   "audit": [
     {
-      "measure": "prop-a",
+      "measure": "prop-2",
       "field": "argument_for",
       "check": "loaded_words",
-      "detail": "persuasive wording: \"common-sense\""
+      "detail": "persuasive wording: \"vote yes\""
+    },
+    {
+      "measure": "prop-2",
+      "field": "argument_against",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"vote no\""
+    },
+    {
+      "measure": "prop-3",
+      "field": "argument_for",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"vote yes\""
+    },
+    {
+      "measure": "prop-4",
+      "field": "argument_for",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"special interests\""
+    },
+    {
+      "measure": "prop-4",
+      "field": "argument_for",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"vote yes\""
+    },
+    {
+      "measure": "prop-5",
+      "field": "argument_for",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"corrupt\""
+    },
+    {
+      "measure": "prop-5",
+      "field": "argument_for",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"vote yes\""
+    },
+    {
+      "measure": "prop-5",
+      "field": "argument_against",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"taxpayer-funded\""
+    },
+    {
+      "measure": "prop-37",
+      "field": "yes_means",
+      "check": "balance",
+      "detail": "YES has 43 words and NO has 20; lengths differ a lot"
+    },
+    {
+      "measure": "prop-39",
+      "field": "argument_against",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"vote no\""
+    },
+    {
+      "measure": "prop-39",
+      "field": "analysis",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"best\""
+    },
+    {
+      "measure": "prop-40",
+      "field": "argument_for",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"vote yes\""
+    },
+    {
+      "measure": "prop-40",
+      "field": "argument_against",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"scheme\""
+    },
+    {
+      "measure": "prop-41",
+      "field": "yes_means",
+      "check": "balance",
+      "detail": "YES has 71 words and NO has 27; lengths differ a lot"
+    },
+    {
+      "measure": "prop-41",
+      "field": "argument_against",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"extreme\""
+    },
+    {
+      "measure": "prop-41",
+      "field": "argument_against",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"vote no\""
+    },
+    {
+      "measure": "prop-42",
+      "field": "argument_against",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"extreme\""
+    },
+    {
+      "measure": "prop-42",
+      "field": "argument_against",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"vote no\""
+    },
+    {
+      "measure": "prop-43",
+      "field": "argument_for",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"special interests\""
+    },
+    {
+      "measure": "prop-43",
+      "field": "argument_for",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"vote yes\""
+    },
+    {
+      "measure": "prop-43",
+      "field": "argument_against",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"vote no\""
+    },
+    {
+      "measure": "prop-44",
+      "field": "argument_for",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"wasteful\""
+    },
+    {
+      "measure": "prop-44",
+      "field": "argument_against",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"dangerous\""
+    },
+    {
+      "measure": "prop-45",
+      "field": "yes_means",
+      "check": "balance",
+      "detail": "YES has 47 words and NO has 22; lengths differ a lot"
+    },
+    {
+      "measure": "prop-45",
+      "field": "argument_for",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"vote yes\""
+    },
+    {
+      "measure": "prop-45",
+      "field": "argument_against",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"vote no\""
     }
   ],
   "labels": [
+    {
+      "label": "Analysis by the Legislative Analyst",
+      "verdict": "pass",
+      "findings": []
+    },
     {
       "label": "Fiscal effect",
       "verdict": "pass",
@@ -92,6 +942,11 @@
     },
     {
       "label": "Fiscal effect (Legislative Analyst)",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "Legislative Analyst's analysis",
       "verdict": "pass",
       "findings": []
     },
@@ -112,6 +967,16 @@
     },
     {
       "label": "Official summary",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "Opponents",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "Supporters",
       "verdict": "pass",
       "findings": []
     },
@@ -151,7 +1016,22 @@
       "findings": []
     },
     {
+      "label": "campaign finance",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "development",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
       "label": "education",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "elections",
       "verdict": "pass",
       "findings": []
     },
@@ -161,22 +1041,73 @@
       "findings": []
     },
     {
-      "label": "libraries",
+      "label": "health care",
       "verdict": "pass",
       "findings": []
     },
     {
-      "label": "parks",
+      "label": "housing",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "loans",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "local government",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "medical research",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "nonprofits",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "property",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "recall",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "state finances",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "taxes",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "veterans",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "voter ID",
       "verdict": "pass",
       "findings": []
     }
   ],
   "summary": {
-    "checked_at": "2026-10-25 21:17 UTC",
-    "data_file": "data/dummy/measures.json",
-    "fields_verified": 15,
+    "checked_at": "2026-10-25 21:35 UTC",
+    "data_file": "data/measures.json",
+    "verified_against": "live official pages",
+    "fields_verified": 154,
     "fields_failed": 0,
-    "labels_checked": 17,
-    "audit_findings": 1
+    "labels_checked": 34,
+    "audit_findings": 26
   }
 }

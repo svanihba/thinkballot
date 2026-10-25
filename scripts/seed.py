@@ -9,13 +9,11 @@
 Nothing is loaded if step 1 or 3 fails. A report goes to reports/bias-report.json.
 """
 
-import html
+import argparse
 import json
-import re
 import sys
 import threading
 from datetime import datetime, timezone
-from html.parser import HTMLParser
 from pathlib import Path
 
 import requests
@@ -25,49 +23,27 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from thinkballot import config  # noqa: E402
 from thinkballot.servicekit import ServiceClient, ServiceError  # noqa: E402
+from thinkballot.sourcetext import html_to_text  # noqa: E402
 from thinkballot.services.ask.app import FIELD_LABELS as ASK_LABELS  # noqa: E402
 from thinkballot.services.ballot import db  # noqa: E402
 from thinkballot.services.web.app import FIELD_HEADINGS, SUGGESTED_QUESTIONS  # noqa: E402
 
-DEFAULT_DATA = config.ROOT / "data" / "dummy" / "measures.json"
+DEFAULT_DATA = config.ROOT / "data" / "measures.json"
 REPORT_PATH = config.ROOT / "reports" / "bias-report.json"
 
 
-class _TextExtractor(HTMLParser):
-    """Visible text of an HTML page (skips scripts and styles)."""
-
-    def __init__(self):
-        super().__init__()
-        self.parts, self._skip = [], 0
-
-    def handle_starttag(self, tag, attrs):
-        if tag in ("script", "style", "noscript"):
-            self._skip += 1
-
-    def handle_endtag(self, tag):
-        if tag in ("script", "style", "noscript") and self._skip:
-            self._skip -= 1
-
-    def handle_data(self, data):
-        if not self._skip:
-            self.parts.append(data)
-
-
-def page_text(entry, cache):
-    """Text of the source page for a field: a saved snapshot if given, else the live page."""
-    key = entry.get("source_snapshot") or entry["source_url"]
+def page_text(entry, cache, live=False):
+    """Text of the source page for a field: the live page with --live, else the saved snapshot if any."""
+    use_snapshot = entry.get("source_snapshot") and not (live and entry["source_url"].startswith("https://"))
+    key = entry["source_snapshot"] if use_snapshot else entry["source_url"]
     if key not in cache:
-        if entry.get("source_snapshot"):
+        if use_snapshot:
             raw = (config.ROOT / entry["source_snapshot"]).read_text()
         else:
             resp = requests.get(entry["source_url"], timeout=30, headers={"User-Agent": "ThinkBallot seed"})
             resp.raise_for_status()
-            raw = resp.text
-        if "<" in raw and ">" in raw:
-            parser = _TextExtractor()
-            parser.feed(raw)
-            raw = " ".join(parser.parts)
-        cache[key] = re.sub(r"\s+", " ", html.unescape(raw))
+            raw = resp.content.decode("utf-8")  # the guide is UTF-8; its headers don't say so
+        cache[key] = html_to_text(raw) if "<" in raw and ">" in raw else raw
     return cache[key]
 
 
@@ -87,7 +63,7 @@ def bias_client():
         return ServiceClient("bias", f"http://127.0.0.1:{server.server_port}"), server
 
 
-def main(path):
+def main(path, live=False):
     data = json.loads(Path(path).read_text())
     bias, server = bias_client()
     cache, report = {}, {"verify": [], "audit": [], "labels": []}
@@ -96,7 +72,7 @@ def main(path):
     for m in data["measures"]:
         entries = [("title", m["title"])] + list(m["fields"].items())
         for name, entry in entries:
-            source = page_text(entry, cache)
+            source = page_text(entry, cache, live)
             v = bias.post("/check/text", {"text": entry["text"], "sources": [source], "mode": "verify"})
             report["verify"].append({"measure": m["id"], "field": name, "verdict": v["verdict"]})
             if v["verdict"] != "pass":
@@ -126,6 +102,7 @@ def main(path):
     report["summary"] = {
         "checked_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "data_file": str(Path(path).resolve().relative_to(config.ROOT)),
+        "verified_against": "live official pages" if live else "saved copies of the official pages",
         "fields_verified": sum(1 for v in report["verify"] if v["verdict"] == "pass"),
         "fields_failed": sum(1 for v in report["verify"] if v["verdict"] != "pass"),
         "labels_checked": len(labels),
@@ -145,4 +122,8 @@ def main(path):
 
 
 if __name__ == "__main__":
-    sys.exit(main(sys.argv[1] if len(sys.argv) > 1 else DEFAULT_DATA))
+    parser = argparse.ArgumentParser()
+    parser.add_argument("data", nargs="?", default=DEFAULT_DATA)
+    parser.add_argument("--live", action="store_true", help="verify against the live official pages")
+    args = parser.parse_args()
+    sys.exit(main(args.data, args.live))

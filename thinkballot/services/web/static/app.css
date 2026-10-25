@@ -88,3 +88,8 @@ details.composer summary { list-style: none; display: inline-block; margin-top: 
 .rate select { font: inherit; padding: 0.25rem 0.4rem; }
 @media (max-width: 640px) { .signin-grid { grid-template-columns: 1fr; } }
 .official { font-family: var(--mono); font-size: 0.66rem; color: var(--good); border: 1px solid var(--good); border-radius: 999px; padding: 0.05rem 0.45rem; margin-left: 0.3rem; }
+.args.who .col p { font-size: 0.85rem; color: var(--ink-soft); }
+.args.who h4 { border-bottom-width: 1px; }
+.analysis { margin: 1.4rem 0; border: 1px solid var(--line); background: #fffdf8; padding: 0.8rem 1rem; }
+.analysis summary { cursor: pointer; font-family: var(--serif); font-weight: 600; font-size: 1.05rem; }
+.analysis-text { white-space: pre-line; font-size: 0.9rem; margin: 0.8rem 0; max-width: 46rem; }

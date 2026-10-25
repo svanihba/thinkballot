@@ -18,6 +18,9 @@ FIELD_HEADINGS = {
     "fiscal_effect": "Fiscal effect",
     "argument_for": "Official argument in favor",
     "argument_against": "Official argument against",
+    "supporters": "Supporters",
+    "opponents": "Opponents",
+    "analysis": "Analysis by the Legislative Analyst",
 }
 
 
@@ -107,7 +110,8 @@ def create_app():
             abort(404)
         # Number each distinct source page once, for the [1] [2] chips and the sources list.
         sources = []
-        for f in measure["fields"].values():
+        ordered = [measure["fields"][n] for n in FIELD_HEADINGS if n in measure["fields"]]
+        for f in ordered:  # in the order they appear on the page
             if f["source_url"] not in [s["url"] for s in sources]:
                 sources.append({"url": f["source_url"], "label": f["source_label"]})
         chip = {s["url"]: i + 1 for i, s in enumerate(sources)}
@@ -182,6 +186,8 @@ def create_app():
             if ok_message:
                 flash(ok_message)
         except ServiceError as exc:
+            if exc.status == 401:  # the account behind this sign-in no longer exists
+                session.clear()
             flash(exc.detail if exc.status < 500 else "The community service is unavailable right now.")
             result = None
         return result, redirect(url_for("measure_page", measure_id=measure_id) + "#community")

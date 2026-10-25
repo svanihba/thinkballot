@@ -32,11 +32,24 @@
     <div class="col"><h4>{{ headings.argument_for }}</h4>{{ field("argument_for") }}</div>
     <div class="col"><h4>{{ headings.argument_against }}</h4>{{ field("argument_against") }}</div>
   </div>
-  <p class="equal-note">Both arguments are printed word for word from the official voter guide, in the same
-    layout. ThinkBallot does not edit or rank them.</p>
+  <div class="args who">
+    <div class="col"><h4>{{ headings.supporters }}</h4>{{ field("supporters") }}</div>
+    <div class="col"><h4>{{ headings.opponents }}</h4>{{ field("opponents") }}</div>
+  </div>
+  <p class="equal-note">Both arguments are printed word for word from the official voter guide's summary page, in
+    the same layout. ThinkBallot does not edit or rank them.{% if m.arguments_url %}
+    <a href="{{ m.arguments_url }}" target="_blank" rel="noopener">Read the full arguments and rebuttals</a>.{% endif %}</p>
 
   <h2>{{ headings.fiscal_effect }}</h2>
   {{ field("fiscal_effect") }}
+
+  {% if m.fields.analysis %}
+  <details class="analysis">
+    <summary>{{ headings.analysis }} <span class="hint">(the nonpartisan Legislative Analyst's full explanation)</span></summary>
+    <div class="analysis-text">{{ m.fields.analysis.text }}</div>
+    {{ src(m.fields.analysis) }}
+  </details>
+  {% endif %}
 
   <div class="sources-block">
     <div class="eyebrow">Sources — every field above links to one of these</div>

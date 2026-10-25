@@ -23,6 +23,9 @@ FIELD_LABELS = {
     "fiscal_effect": "Fiscal effect (Legislative Analyst)",
     "argument_for": "Official argument in favor",
     "argument_against": "Official argument against",
+    "supporters": "Supporters",
+    "opponents": "Opponents",
+    "analysis": "Legislative Analyst's analysis",
 }
 
 # Questions asking us to pick a side are answered with the same fixed reply, before any AI call.
