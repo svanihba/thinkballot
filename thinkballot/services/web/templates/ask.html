@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Ask · ThinkBallot{% endblock %}
+{% block main %}
+<div class="eyebrow">Ask · answered only from the official text</div>
+<h1>Ask about your ballot</h1>
+<p class="lede">Every answer quotes the official voter guide, and every answer is checked by
+  <a href="/neutral#bias-buster">Bias Buster</a>. If the official text doesn't answer it, we say so instead
+  of guessing. <strong>Quote it or skip it.</strong></p>
+
+<form class="pick" method="get" action="/ask">
+  <label for="measure">Proposition</label>
+  <select id="measure" name="measure" onchange="this.form.submit()">
+    {% for m in measures %}<option value="{{ m.id }}" {% if m.id == chosen %}selected{% endif %}>Prop {{ m.number }}: {{ m.title }}</option>{% endfor %}
+  </select>
+  <noscript><button class="btn small" type="submit">Choose</button></noscript>
+</form>
+<section class="ask">
+  {% with measure_id = chosen %}{% include "_ask_widget.html" %}{% endwith %}
+</section>
+<p class="hint">We never answer "how should I vote?" That's your call.</p>
+{% endblock %}

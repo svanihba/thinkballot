@@ -1,0 +1,8 @@
+<form class="ask-form" data-measure="{{ measure_id }}">
+  <input type="text" name="question" maxlength="300" placeholder="Type a question about this proposition" aria-label="Your question" required>
+  <button class="btn" type="submit">Ask</button>
+</form>
+<div class="canned">
+  {% for q in suggested_questions %}<button type="button" class="suggest">{{ q }}</button>{% endfor %}
+</div>
+<div class="ask-result" aria-live="polite"></div>

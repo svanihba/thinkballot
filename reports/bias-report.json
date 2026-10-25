@@ -7,6 +7,11 @@
     },
     {
       "measure": "prop-a",
+      "field": "measure_type",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-a",
       "field": "summary",
       "verdict": "pass"
     },
@@ -38,6 +43,11 @@
     {
       "measure": "prop-b",
       "field": "title",
+      "verdict": "pass"
+    },
+    {
+      "measure": "prop-b",
+      "field": "measure_type",
       "verdict": "pass"
     },
     {
@@ -86,6 +96,11 @@
       "findings": []
     },
     {
+      "label": "Measure type",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
       "label": "Official argument against",
       "verdict": "pass",
       "findings": []
@@ -109,14 +124,59 @@
       "label": "What a YES vote means",
       "verdict": "pass",
       "findings": []
+    },
+    {
+      "label": "What do supporters and opponents say?",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "What does it cost the state?",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "What would change if this passes?",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "bonds",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "budget",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "education",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "environment",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "libraries",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "parks",
+      "verdict": "pass",
+      "findings": []
     }
   ],
   "summary": {
-    "checked_at": "2026-10-25 21:08 UTC",
+    "checked_at": "2026-10-25 21:17 UTC",
     "data_file": "data/dummy/measures.json",
-    "fields_verified": 13,
+    "fields_verified": 15,
     "fields_failed": 0,
-    "labels_checked": 7,
+    "labels_checked": 17,
     "audit_findings": 1
   }
 }

@@ -21,6 +21,7 @@ SERVICE_URLS = {
     "geo": _env("TB_GEO_URL", PUBLIC_BASE + "/svc/geo"),
     "ask": _env("TB_ASK_URL", PUBLIC_BASE + "/svc/ask"),
     "bias": _env("TB_BIAS_URL", PUBLIC_BASE + "/svc/bias"),
+    "search": _env("TB_SEARCH_URL", PUBLIC_BASE + "/svc/search"),
 }
 
 DB_PATH = Path(_env("TB_DB_PATH", str(ROOT / "instance" / "thinkballot.sqlite3")))

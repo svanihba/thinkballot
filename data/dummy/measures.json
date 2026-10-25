@@ -15,6 +15,12 @@
         "source_snapshot": "data/dummy/sources/prop-a.txt"
       },
       "fields": {
+        "measure_type": {
+          "text": "Placeholder initiative statute.",
+          "source_url": "https://example.invalid/placeholder/prop-a",
+          "source_label": "Placeholder source page",
+          "source_snapshot": "data/dummy/sources/prop-a.txt"
+        },
         "summary": {
           "text": "Placeholder text. Raises the state library grant to $50 per student for five years.",
           "source_url": "https://example.invalid/placeholder/prop-a",
@@ -51,7 +57,12 @@
           "source_label": "Placeholder source page",
           "source_snapshot": "data/dummy/sources/prop-a.txt"
         }
-      }
+      },
+      "topics": [
+        "education",
+        "libraries",
+        "budget"
+      ]
     },
     {
       "id": "prop-b",
@@ -62,6 +73,12 @@
         "source_snapshot": "data/dummy/sources/prop-b.txt"
       },
       "fields": {
+        "measure_type": {
+          "text": "Placeholder bond act.",
+          "source_url": "https://example.invalid/placeholder/prop-b",
+          "source_label": "Placeholder source page",
+          "source_snapshot": "data/dummy/sources/prop-b.txt"
+        },
         "summary": {
           "text": "Placeholder text. Authorizes $1.5 billion in bonds for state and local parks.",
           "source_url": "https://example.invalid/placeholder/prop-b",
@@ -92,7 +109,12 @@
           "source_label": "Placeholder source page",
           "source_snapshot": "data/dummy/sources/prop-b.txt"
         }
-      }
+      },
+      "topics": [
+        "parks",
+        "bonds",
+        "environment"
+      ]
     }
   ]
 }

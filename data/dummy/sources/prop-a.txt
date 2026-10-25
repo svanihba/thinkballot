@@ -1,4 +1,5 @@
 PLACEHOLDER SOURCE PAGE FOR DEVELOPMENT. NOT REAL BALLOT INFORMATION.
+Measure type: Placeholder initiative statute.
 Proposition A. Sample Library Funding Measure.
 Official summary: Placeholder text. Raises the state library grant to $50 per student for five years.
 What your vote means. YES: A YES vote on this placeholder measure means libraries receive $50 per student each year for five years.

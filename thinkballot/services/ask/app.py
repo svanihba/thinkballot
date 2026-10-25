@@ -16,6 +16,7 @@ from ... import ai, config
 from ...servicekit import ServiceClient, ServiceError, make_service
 
 FIELD_LABELS = {
+    "measure_type": "Measure type",
     "summary": "Official summary",
     "yes_means": "What a YES vote means",
     "no_means": "What a NO vote means",
@@ -54,7 +55,7 @@ def _stub_answer(user):
     """Offline stand-in: quote the first sentence of the first source passage."""
     passage = user.split("OFFICIAL SOURCE:\n", 1)[1].split("\n", 1)[1]
     first = re.split(r"(?<=\.)\s", passage.strip(), maxsplit=1)[0]
-    return {"refused": False, "points": [{"claim": "The official summary says: " + first, "quote": first}]}
+    return {"refused": False, "points": [{"claim": "The official text says: " + first, "quote": first}]}
 
 
 class RateLimiter:

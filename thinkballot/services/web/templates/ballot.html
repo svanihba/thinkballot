@@ -37,6 +37,7 @@
 <article class="card measure" data-measure="{{ m.id }}" data-title="Prop {{ m.number }}: {{ m.title }}">
   <div class="top">
     <span class="tag">Prop {{ m.number }}</span>
+    {% if m.measure_type %}<span class="chip">{{ m.measure_type }}</span>{% endif %}
     <span class="read-tick" hidden>read ✓</span>
     <button class="star" type="button" aria-pressed="false" aria-label="Star Prop {{ m.number }}">☆ Star</button>
   </div>
@@ -45,6 +46,16 @@
   <div class="foot"><a class="btn ghost small" href="/prop/{{ m.id }}">Read the full card →</a></div>
 </article>
 {% endfor %}
+
+<div class="section-head"><span class="sec-num">DISTRICT</span><h2>Federal &amp; state races</h2></div>
+<div class="notice">Candidate races aren't covered yet.{% if place and place.found %} Your ballot also includes races
+  for Congressional District {{ place.districts.congressional }}, State Senate District {{ place.districts.state_senate }}
+  and Assembly District {{ place.districts.assembly }}.{% endif %} Your county's sample ballot lists every candidate.</div>
+
+<div class="section-head"><span class="sec-num">LOCAL</span><h2>County &amp; local measures</h2></div>
+<div class="notice">County, city and school district measures aren't covered yet{% if place and place.found %}
+  for {{ place.county }} County{% endif %}. The statewide propositions above are complete. Local coverage comes
+  next, county by county, and we'll label it honestly rather than guess.</div>
 
 <div class="notice calm" style="margin-top:2.4rem">Every card comes from the official voter guide and the
   Legislative Analyst. <a href="/neutral">How we stay neutral →</a></div>

@@ -121,7 +121,7 @@ function initAsk() {
   const form = document.querySelector(".ask-form");
   if (!form) return;
   const out = document.querySelector(".ask-result");
-  const measureId = document.querySelector(".measure-page").dataset.measure;
+  const measureId = form.dataset.measure;
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
     const question = form.question.value.trim();
@@ -142,6 +142,11 @@ function initAsk() {
       button.disabled = false;
     }
   });
+  // Suggested questions: fill the box and ask straight away.
+  document.querySelectorAll(".suggest").forEach((b) => b.addEventListener("click", () => {
+    form.question.value = b.textContent;
+    form.requestSubmit();
+  }));
 }
 
 document.addEventListener("DOMContentLoaded", () => {

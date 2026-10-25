@@ -10,6 +10,8 @@
 <article class="measure-page" data-measure="{{ m.id }}" data-title="Prop {{ m.number }}: {{ m.title }}">
   <div class="eyebrow">Statewide proposition · {{ election.name }}</div>
   <h1>Prop {{ m.number }}: {{ m.title }}</h1>
+  <p class="hint meta-line">{% if m.fields.measure_type %}{{ m.fields.measure_type.text }} {{ src(m.fields.measure_type) }} ·{% endif %}
+    Topics: {% for t in m.topics %}<a class="chip" href="/search?topic={{ t|urlencode }}">{{ t }}</a> {% endfor %}</p>
   {% if m.fields.summary %}
   <p class="lede">{{ m.fields.summary.text }} {{ src(m.fields.summary) }}</p>
   {% else %}
@@ -47,11 +49,7 @@
     <h2>Ask about Prop {{ m.number }}</h2>
     <p class="hint">Answers come only from the official text above, with quotes, and are checked by
       <a href="/neutral#bias-buster">Bias Buster</a> before you see them.</p>
-    <form class="ask-form">
-      <input type="text" name="question" maxlength="300" placeholder="e.g. Who pays for this?" aria-label="Your question" required>
-      <button class="btn" type="submit">Ask</button>
-    </form>
-    <div class="ask-result" aria-live="polite"></div>
+    {% with measure_id = m.id %}{% include "_ask_widget.html" %}{% endwith %}
   </section>
 
   <p style="margin-top:2rem"><a class="btn ghost small" href="/ballot">← All propositions</a></p>
