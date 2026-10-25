@@ -32,11 +32,24 @@ SUGGESTED_QUESTIONS = [
 ]
 
 
+CSP = ("default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; "
+       "font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; form-action 'self'; "
+       "frame-ancestors 'none'; base-uri 'none'; object-src 'none'")
+
+
 def create_app():
     app = Flask(__name__)
     app.secret_key = config.SECRET_KEY
     app.config.update(SESSION_COOKIE_SAMESITE="Lax", SESSION_COOKIE_HTTPONLY=True,
-                      SESSION_COOKIE_SECURE=config.PUBLIC_BASE.startswith("https://"))
+                      SESSION_COOKIE_SECURE=config.PUBLIC_BASE.startswith("https://"),
+                      MAX_CONTENT_LENGTH=64 * 1024)  # no uploads; forms and questions are small
+
+    @app.after_request
+    def security_headers(resp):
+        # CSP and anti-framing belong to the app (the shared proxy sets HSTS, nosniff, Referrer-Policy).
+        resp.headers.setdefault("Content-Security-Policy", CSP)
+        resp.headers.setdefault("X-Frame-Options", "DENY")
+        return resp
     ballot = ServiceClient("ballot")
     geo = ServiceClient("geo")
     ask_svc = ServiceClient("ask")
@@ -80,6 +93,17 @@ def create_app():
         if not election:  # no data loaded yet
             abort(503)
         return election, listing["measures"]
+
+    @app.get("/api/health")
+    def health():
+        """Proves the web service AND the ballot service and its data are serving."""
+        try:
+            election = ballot.get("/election")
+        except ServiceError:
+            election = None
+        if not election:
+            return jsonify(status="degraded"), 503
+        return jsonify(status="ok")
 
     @app.get("/")
     def landing():

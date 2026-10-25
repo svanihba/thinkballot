@@ -9,7 +9,7 @@
 
 <form class="pick" method="get" action="/ask">
   <label for="measure">Proposition</label>
-  <select id="measure" name="measure" onchange="this.form.submit()">
+  <select id="measure" name="measure" class="autosubmit">
     {% for m in measures %}<option value="{{ m.id }}" {% if m.id == chosen %}selected{% endif %}>Prop {{ m.number }}: {{ m.title }}</option>{% endfor %}
   </select>
   <noscript><button class="btn small" type="submit">Choose</button></noscript>

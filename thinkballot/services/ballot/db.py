@@ -37,11 +37,20 @@ CREATE TABLE IF NOT EXISTS field (
 
 
 def connect(path=None):
+    """Read-write connection, used only by the seed script."""
     path = path or config.DB_PATH
     path.parent.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(path)
     conn.row_factory = sqlite3.Row
     conn.executescript(SCHEMA)
+    return conn
+
+
+def connect_readonly(path=None):
+    """The ballot service only reads; the release tree is read-only on the server."""
+    path = path or config.DB_PATH
+    conn = sqlite3.connect(f"file:{path}?mode=ro&immutable=1", uri=True, check_same_thread=False)
+    conn.row_factory = sqlite3.Row
     return conn
 
 

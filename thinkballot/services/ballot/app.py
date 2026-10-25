@@ -11,7 +11,7 @@ def create_app(db_path=None):
 
     def conn():
         if "conn" not in g:
-            g.conn = db.connect(db_path)
+            g.conn = db.connect_readonly(db_path)
         return g.conn
 
     @app.teardown_appcontext

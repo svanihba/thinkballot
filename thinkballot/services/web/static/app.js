@@ -150,6 +150,8 @@ function initAsk() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  // Choosing a proposition on the Ask page reloads it for that proposition (no inline handlers: CSP).
+  document.querySelectorAll("select.autosubmit").forEach((s) => s.addEventListener("change", () => s.form.submit()));
   markRead();
   initStars();
   paintProgress();
