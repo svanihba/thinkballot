@@ -65,7 +65,13 @@ def create_app():
             abort(503)
         if not measure:
             abort(404)
-        return render_template("measure.html", election=election, m=measure)
+        # Number each distinct source page once, for the [1] [2] chips and the sources list.
+        sources = []
+        for f in measure["fields"].values():
+            if f["source_url"] not in [s["url"] for s in sources]:
+                sources.append({"url": f["source_url"], "label": f["source_label"]})
+        chip = {s["url"]: i + 1 for i, s in enumerate(sources)}
+        return render_template("measure.html", election=election, m=measure, sources=sources, chip=chip)
 
     @app.post("/api/ask")
     def api_ask():
