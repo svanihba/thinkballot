@@ -11,6 +11,7 @@ edited text goes through the deterministic checks again, so the AI is never the 
 
 import json
 import logging
+import time
 
 from ... import ai, config
 from . import checks
@@ -42,11 +43,11 @@ def _stub_review(user):
     return {"findings": [], "points": json.loads(user.split("ANSWER:\n", 1)[1])["points"]}
 
 
-def ai_review(points, sources):
+def ai_review(points, sources, deadline=None):
     points = [{"claim": p["claim"], "quote": p["quote"]} for p in points]
     user = ("OFFICIAL SOURCE:\n" + "\n---\n".join(sources)
             + "\n\nANSWER:\n" + json.dumps({"points": points}, ensure_ascii=False))
-    reply = ai.chat_json(config.REVIEW_MODEL, REVIEW_SYSTEM, user, stub=_stub_review)
+    reply = ai.chat_json(config.REVIEW_MODEL, REVIEW_SYSTEM, user, stub=_stub_review, deadline=deadline)
     new_points = [p for p in reply.get("points", []) if isinstance(p, dict) and p.get("claim")]
     # The reviewer's own words are logged, never shown: voters see only fixed messages.
     for f in reply.get("findings", []):
@@ -71,16 +72,17 @@ def _keep_passing(points, sources, findings):
     return kept
 
 
-def check_answer(points, sources, use_ai=True):
-    """Enforce mode for an AI answer made of {claim, quote} points."""
+def check_answer(points, sources, use_ai=True, deadline=None):
+    """Enforce mode for an AI answer made of {claim, quote} points. `deadline`: time.monotonic() limit."""
     findings = []
     kept = _keep_passing(points, sources, findings)
     if use_ai and kept:
         try:
-            reviewed, ai_findings = ai_review(kept, sources)
-            if not reviewed:  # the reviewer sometimes returns no points without saying why: ask once more
+            reviewed, ai_findings = ai_review(kept, sources, deadline)
+            # The reviewer sometimes returns no points without saying why: ask once more if there is time.
+            if not reviewed and (deadline is None or deadline - time.monotonic() > 20):
                 log.info("bias ai review returned no points; retrying once")
-                reviewed, ai_findings = ai_review(kept, sources)
+                reviewed, ai_findings = ai_review(kept, sources, deadline)
         except ai.AIError as exc:
             log.warning("bias ai review failed: %s", exc)
             return {"verdict": "blocked", "points": [], "findings": findings + [

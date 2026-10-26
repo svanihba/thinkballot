@@ -22,10 +22,11 @@ class AIError(Exception):
     """The model could not be reached or did not return usable JSON."""
 
 
-def chat_json(model, system, user, stub=None):
+def chat_json(model, system, user, stub=None, deadline=None):
     """Send one chat request and return the reply parsed as a JSON object.
 
     `stub` is a function(user) -> dict used when the provider is "stub".
+    `deadline` (time.monotonic() value): no attempt starts or runs past it.
     """
     if config.AI_PROVIDER == "stub":
         if stub is None:
@@ -45,9 +46,15 @@ def chat_json(model, system, user, stub=None):
     last_error = "no attempt"
     for attempt in range(config.AI_RETRIES + 1):
         started = time.monotonic()
+        timeout = config.AI_TIMEOUT_SECONDS
+        if deadline is not None:
+            timeout = min(timeout, deadline - started)
+            if timeout < 5:
+                log.info("ai model=%s attempt=%d skipped: out of time", model, attempt + 1)
+                last_error = "out of time"
+                break
         try:
-            resp = requests.post(OPENROUTER_URL, json=payload, headers=headers,
-                                 timeout=config.AI_TIMEOUT_SECONDS)
+            resp = requests.post(OPENROUTER_URL, json=payload, headers=headers, timeout=timeout)
             ms = (time.monotonic() - started) * 1000
             log.info("ai model=%s attempt=%d status=%s %.0f ms", model, attempt + 1, resp.status_code, ms)
             if resp.status_code == 200:

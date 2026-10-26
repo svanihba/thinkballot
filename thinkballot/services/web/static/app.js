@@ -132,16 +132,22 @@ function initAsk() {
     const button = form.querySelector("button");
     button.disabled = true;
     out.innerHTML = `<p class="hint thinking">Reading the official text and running Bias Buster…</p>`;
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 110000);
     try {
       const resp = await fetch("/api/ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ measure_id: measureId, question }),
+        signal: ctrl.signal,
       });
       out.innerHTML = renderAnswer(await resp.json());
-    } catch {
-      out.innerHTML = renderAnswer({ status: "error", reason: "Couldn't reach ThinkBallot. Check your connection." });
+    } catch (err) {
+      out.innerHTML = renderAnswer({ status: "error", reason: err.name === "AbortError"
+        ? "That took too long. Please try again."
+        : "Couldn't reach ThinkBallot. Check your connection." });
     } finally {
+      clearTimeout(timer);
       button.disabled = false;
     }
   });
