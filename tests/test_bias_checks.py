@@ -90,6 +90,28 @@ def test_ai_edits_are_checked_again(monkeypatch):
     assert engine.check_answer(points, [SOURCE])["verdict"] == "blocked"
 
 
+
+def test_review_saying_no_changes_is_not_an_edit(monkeypatch):
+    points = [{"claim": "YES lets the state sell bonds.", "quote": "the state could sell $1.5 billion in bonds"}]
+    monkeypatch.setattr(engine.ai, "chat_json", lambda *_a, **_k: {
+        "findings": [{"detail": "No changes needed."}], "points": [dict(p) for p in points]})
+    result = engine.check_answer(points, [SOURCE])
+    assert result["verdict"] == "pass" and result["findings"] == []
+
+
+def test_empty_review_is_retried_once(monkeypatch):
+    points = [{"claim": "YES lets the state sell bonds.", "quote": "the state could sell $1.5 billion in bonds"}]
+    replies = [{"findings": [], "points": []}, {"findings": [], "points": [dict(p) for p in points]}]
+    monkeypatch.setattr(engine.ai, "chat_json", lambda *_a, **_k: replies.pop(0))
+    assert engine.check_answer(points, [SOURCE])["verdict"] == "pass"
+
+
+def test_review_that_stays_empty_blocks(monkeypatch):
+    calls = []
+    monkeypatch.setattr(engine.ai, "chat_json", lambda *_a, **_k: calls.append(1) or {"points": []})
+    points = [{"claim": "YES lets the state sell bonds.", "quote": "the state could sell $1.5 billion in bonds"}]
+    assert engine.check_answer(points, [SOURCE])["verdict"] == "blocked" and len(calls) == 2
+
 def test_verify_and_audit_modes():
     assert engine.check_text("could sell $1.5 billion in bonds", [SOURCE], "verify")["verdict"] == "pass"
     assert engine.check_text("could sell $2 billion in bonds", [SOURCE], "verify")["verdict"] == "fail"

@@ -49,11 +49,13 @@ def ai_review(points, sources):
     reply = ai.chat_json(config.REVIEW_MODEL, REVIEW_SYSTEM, user, stub=_stub_review)
     new_points = [p for p in reply.get("points", []) if isinstance(p, dict) and p.get("claim")]
     # The reviewer's own words are logged, never shown: voters see only fixed messages.
-    findings = []
     for f in reply.get("findings", []):
         if isinstance(f, dict):
             log.info("bias ai_review finding (not shown): %s", str(f.get("detail", ""))[:200])
-            findings.append({"check": "ai_review", "detail": checks.MESSAGES["ai_review"]})
+    # It counts as an edit only if the points actually changed ("no changes needed" is not an edit).
+    before = [(p["claim"], p["quote"]) for p in points]
+    after = [(p.get("claim"), p.get("quote")) for p in new_points]
+    findings = [] if after == before else [{"check": "ai_review", "detail": checks.MESSAGES["ai_review"]}]
     return new_points, findings
 
 
@@ -76,6 +78,9 @@ def check_answer(points, sources, use_ai=True):
     if use_ai and kept:
         try:
             reviewed, ai_findings = ai_review(kept, sources)
+            if not reviewed:  # the reviewer sometimes returns no points without saying why: ask once more
+                log.info("bias ai review returned no points; retrying once")
+                reviewed, ai_findings = ai_review(kept, sources)
         except ai.AIError as exc:
             log.warning("bias ai review failed: %s", exc)
             return {"verdict": "blocked", "points": [], "findings": findings + [
