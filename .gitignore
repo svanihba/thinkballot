@@ -6,3 +6,4 @@ instance/
 *.sqlite3
 build/
 HANDOFF.local.md
+!data/raw/crawl.sqlite3
