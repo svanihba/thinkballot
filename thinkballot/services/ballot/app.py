@@ -1,6 +1,6 @@
 """ballot service: read-only JSON API over the measures in SQLite."""
 
-from flask import abort, g, jsonify
+from flask import abort, g, jsonify, request
 
 from ...servicekit import make_service
 from . import db
@@ -29,7 +29,11 @@ def create_app(db_path=None):
 
     @app.get("/measures")
     def measures():
-        return jsonify(measures=db.list_measures(conn()))
+        """?level=state|local and ?county=Santa Clara filter the list."""
+        rows = db.list_measures(conn())
+        level, county = request.args.get("level"), request.args.get("county")
+        rows = [m for m in rows if (not level or m["level"] == level) and (not county or m["county"] == county)]
+        return jsonify(measures=rows)
 
     @app.get("/measures/<measure_id>")
     def measure(measure_id):

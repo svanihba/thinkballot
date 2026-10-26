@@ -63,8 +63,11 @@ function paintProgress() {
   const box = document.querySelector(".progress");
   if (!box) return;
   const read = store.get("tb_read");
-  const cards = document.querySelectorAll(".card[data-measure]");
+  const cards = document.querySelectorAll(".card[data-measure]:not(.local)");  // the meter counts statewide props
   let n = 0;
+  document.querySelectorAll(".card.local[data-measure]").forEach((card) => {
+    card.querySelector(".read-tick").hidden = !read[card.dataset.measure];
+  });
   cards.forEach((card) => {
     const done = !!read[card.dataset.measure];
     card.querySelector(".read-tick").hidden = !done;

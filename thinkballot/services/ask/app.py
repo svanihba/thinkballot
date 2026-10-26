@@ -23,6 +23,8 @@ FIELD_LABELS = {
     "supporters": "Supporters",
     "opponents": "Opponents",
     "analysis": "Legislative Analyst's analysis",
+    "district": "Jurisdiction",
+    "ballot_question": "Ballot question (as printed on the ballot)",
 }
 
 # Questions asking us to pick a side are answered with the same fixed reply, before any AI call.
@@ -35,7 +37,7 @@ HOW_TO_VOTE_REPLY = ("ThinkBallot never tells anyone how to vote. Read what a YE
 NOT_COVERED_REPLY = ("The official guide doesn't answer that question, so ThinkBallot won't guess. "
                      "Try asking about what a YES or NO vote does, the cost, or who supports or opposes it.")
 MAX_QUESTION_CHARS = 300
-MEASURE_ID_RE = re.compile(r"^prop-[a-z0-9]{1,8}$")
+MEASURE_ID_RE = re.compile(r"^(prop|local)-[a-z0-9-]{1,24}$")
 
 ANSWER_SYSTEM = """You answer a voter's question about one California ballot measure for ThinkBallot,
 a nonpartisan guide. Use ONLY the OFFICIAL SOURCE passages given. Never use outside knowledge.

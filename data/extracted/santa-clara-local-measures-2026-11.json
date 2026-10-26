@@ -1,0 +1,1306 @@
+[
+  {
+    "id": "local-sc-rtm",
+    "number": "RTM",
+    "title": {
+      "text": "Connect Bay Area Transit Initiative",
+      "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+      "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+      "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "fetched_at": "2026-10-26T00:21:09Z",
+      "fetched_by": "capture"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Santa Clara",
+      "name": "Public Transit Revenue Measure District"
+    },
+    "topics": [],
+    "documents": [
+      {
+        "label": "Primary Argument In-Favo",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-rtm-public-transit-revenue-measure-district-ptrmd-primary-argument-in-favor_redacted-v2.pdf?VersionId=FBDTu_1K0LMmN.2IMphKQbS1dR0uN8CL"
+      },
+      {
+        "label": "Rebuttal Argument to Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-rtm-public-transit-revenue-measure-district-ptrmd-rebuttal-to-primary-argument-in-favor_redactedv4.pdf?VersionId=6kncX4Y7DA3JmiIEZjIcMeVTQBY61Pn8"
+      },
+      {
+        "label": "Primary Argument Against",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-rtm-public-transit-revenue-measure-district-ptrmd-primary-argument-against_redacted_0.pdf?VersionId=Vk_5lJsWeSRkZSkQ8_LGH9crG.rYroJW"
+      },
+      {
+        "label": "Rebuttal Argument to Primary Argument Against",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-rtm-public-transit-revenue-measure-district-ptrmd-rebuttal-to-primary-argument-against_redactedv1.pdf?VersionId=Tc8EXKdZPuMJXV6xGCPIoYZHdxgaBE1C"
+      },
+      {
+        "label": "Impartial Analysis",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/public-transit-revenue-measure-district_ia_final-v1_redacted.pdf?VersionId=TbIVC.CrPBgVjFsTCN79UCBLbXA81Cuy"
+      }
+    ],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "Majority Vote Required",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "district": {
+        "text": "Public Transit Revenue Measure District",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "ballot_question": {
+        "text": "To prevent major service cuts to BART and other transit, avoid increased traffic, and reduce pollution by: Preserving BART, Caltrain, VTA, SamTrans, AC Transit, Muni, other transit for everyone, including workers, students, seniors, persons with disabilities; Supporting transit safety, cleanliness, affordability, reliability; Repairing targeted roads/potholes; Requiring financial transparency, oversight, accountability; shall the measure enacting a 0.5% (Alameda, Contra Costa, San Mateo, Santa Clara counties) and 1% (San Francisco) sales tax for 14 years generating approximately $980,000,000 annually, be adopted?",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      }
+    }
+  },
+  {
+    "id": "local-sc-a",
+    "number": "A",
+    "title": {
+      "text": "City Treasurer Change from Elective to Appointive Office",
+      "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+      "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+      "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "fetched_at": "2026-10-26T00:21:09Z",
+      "fetched_by": "capture"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Santa Clara",
+      "name": "City of Morgan Hill"
+    },
+    "topics": [],
+    "documents": [
+      {
+        "label": "Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-a-city-of-morgan-hill-appointing-city-treasurer-in-favor_08112026_redacted.pdf?VersionId=TDqxTMEGrMiI.yyiP0rQvBaHERf..PPr"
+      },
+      {
+        "label": "Impartial Analysis",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-a-city-of-morgan-hill-city-treasurer-ia_08-18-2026_redacted.pdf?VersionId=mTJIuz4UVVSs4UnPLrbcfAeLpwQOq_FK"
+      }
+    ],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "Majority Vote Required",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "district": {
+        "text": "City of Morgan Hill",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "ballot_question": {
+        "text": "Shall the office of the City Treasurer be appointive?",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      }
+    }
+  },
+  {
+    "id": "local-sc-b",
+    "number": "B",
+    "title": {
+      "text": "Transient Occupancy Tax",
+      "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+      "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+      "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "fetched_at": "2026-10-26T00:21:09Z",
+      "fetched_by": "capture"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Santa Clara",
+      "name": "City of Gilroy"
+    },
+    "topics": [],
+    "documents": [
+      {
+        "label": "Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-b-city-of-gilroy_primary-argument_in-favor_8.7.26_redacted.pdf?VersionId=fKmrUi4QmLWMKIy3u2QPjWk0yCILXAyF"
+      },
+      {
+        "label": "Primary Argument Against",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-b-city-of-gilroy-transient-occupancy-tax-argument_against-08-11-2026_redacted.pdf?VersionId=MpsyyyTbgjNbKJne0ckSUj4EJux9g5D7"
+      },
+      {
+        "label": "Rebuttal Argument to Primary Argument Against",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-b-city-of-gilroy-tot-rebuttal-against-08-17-2026_redacted.pdf?VersionId=wGUTQ0tzxKYXdkb6x8psC20syq3fRc5r"
+      },
+      {
+        "label": "Impartial Analysis",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-b-city-of-gilroy_ia_8.7.26_redacted.pdf?VersionId=7XiKfX17ZSRj5ai0wLH64KNsqzxW_Zvm"
+      }
+    ],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "Majority Vote Required",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "district": {
+        "text": "City of Gilroy",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "ballot_question": {
+        "text": "To maintain critical City services such as street/pothole repair, park and recreation programs, emergency preparedness for storms, flooding and wildfires, and police and fire response shall the City of Gilroy measure raising the Transient Occupancy Tax (hotel tax) rate from 9% to a maximum of 13%, set by Council resolution, providing $700,000 annually paid only by hotel/lodging guests, with annual independent audits, that cannot be taken by Sacramento, until ended by voters, be adopted?",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      }
+    }
+  },
+  {
+    "id": "local-sc-c",
+    "number": "C",
+    "title": {
+      "text": "Public Works Charter Amendment",
+      "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+      "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+      "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "fetched_at": "2026-10-26T00:21:09Z",
+      "fetched_by": "capture"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Santa Clara",
+      "name": "City of Santa Clara"
+    },
+    "topics": [],
+    "documents": [
+      {
+        "label": "Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-c-city-of-santa-clara-public-works-charter-amendment-in-favor_07282026_redacted.pdf?VersionId=r6gh1TJ7KNKWG0OFdJR7QDFaL3IyoNWj"
+      },
+      {
+        "label": "Impartial Analysis",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/meaure-c-city-of-santa-clara-public-works-impartial-analysis_08072026_redacted.pdf?VersionId=_vbcPTy9CR3BaxGxQYH9QtqijQ_sF3bL"
+      }
+    ],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "Majority Vote Required",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "district": {
+        "text": "City of Santa Clara",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "ballot_question": {
+        "text": "Shall the measure proposing to amend the City Charter to update rules for public works contracting, setting the threshold for Council approval and formal bidding at $250,000, retaining provisions for awards of standard contracts to the lowest responsive and responsible bidder, and also allowing for competitive \"best value\" contracting to improve project quality, expedite project completion, and minimize risks, all as set forth in a City ordinance approved at a public meeting, be adopted?",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      }
+    }
+  },
+  {
+    "id": "local-sc-d",
+    "number": "D",
+    "title": {
+      "text": "Citizen-Sponsored Initiative",
+      "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+      "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+      "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "fetched_at": "2026-10-26T00:21:09Z",
+      "fetched_by": "capture"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Santa Clara",
+      "name": "City of Los Altos"
+    },
+    "topics": [],
+    "documents": [
+      {
+        "label": "Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-d-city-of-los-altos-citizen-sponsored-intiiative_argument-in-favor_08102026_redacted.pdf?VersionId=FEcrxiTC7tVhlab9X0L6UHfh48TbIf_Y"
+      },
+      {
+        "label": "Rebuttal Argument to Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-d-city-of-los-altos-rebuttal-to-argument-in-favor-08-18-2026_redacted-v2.pdf?VersionId=rAEx8hBCX.ZdtHsDeDjFIdzDVH01rwlv"
+      },
+      {
+        "label": "Primary Argument Against",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-d-city-of-los-altos-citizen-sponsored-intiiative_argument-against_08102026_redacted.pdf?VersionId=3MxH9W7uHxOyo7kmFAAzfc1O62YxFnoD"
+      },
+      {
+        "label": "Rebuttal Argument to Primary Argument Against",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-d-city-of-los-altos-rebuttal-to-argument-against-08-18-2026_redacted.pdf?VersionId=i1M4S6TreVIiiM0UmGiGUUsNaSQEZDRE"
+      },
+      {
+        "label": "Impartial Analysis",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-d-city-of-los-altos-ia-08-18-2026_redacted.pdf?VersionId=XrX.nePE_qdiz_JRkVxctYHfM_7pelnZ"
+      }
+    ],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "Majority Vote Required",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "district": {
+        "text": "City of Los Altos",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "ballot_question": {
+        "text": "Shall the Ordinance, which prohibits the City of Los Altos from selling, leasing, conveying, or declaring as surplus land the ten City-owned Downtown Parking Plazas for any reason, or from authorizing new uses or physical alterations that would diminish protected trees or parking availability, access, or convenience, unless separately approved by a majority of voters, except that two Parking Plazas may be developed for affordable housing without a vote, be adopted?",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      }
+    }
+  },
+  {
+    "id": "local-sc-e",
+    "number": "E",
+    "title": {
+      "text": "City Charter Amendment - Modernizing Provisions",
+      "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+      "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+      "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "fetched_at": "2026-10-26T00:21:09Z",
+      "fetched_by": "capture"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Santa Clara",
+      "name": "City of Mountain View"
+    },
+    "topics": [],
+    "documents": [
+      {
+        "label": "Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-e-city-of-mountain-view-charter-amendment-in-favor_08112026_redacted.pdf?VersionId=673LWFWdbCirTw.va07ovrQbiHjsBCsS"
+      },
+      {
+        "label": "Impartial Analysis",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-e-city-of-mountain-view-ia_charter_07-16-2026_redacted.pdf?VersionId=AX25FETrYQ.b_GefKxGABRqSerE74cOd"
+      }
+    ],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "Majority Vote Required",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "district": {
+        "text": "City of Mountain View",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "ballot_question": {
+        "text": "Shall the measure amending the City Charter to modernize provisions by replacing gender-specific terms with gender-neutral language; extending the time to take action to fill a council vacancy from 30 to 60 days; eliminating the requirement to read ordinances and resolutions in full; authorizing Council to establish qualifications for legislatively created boards, commissions, and committees; updating outdated terminology; improving internal consistency, and making clarifying edits to align with State law and current practices, be adopted?",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      }
+    }
+  },
+  {
+    "id": "local-sc-f",
+    "number": "F",
+    "title": {
+      "text": "Transient Occupancy Tax",
+      "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+      "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+      "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "fetched_at": "2026-10-26T00:21:09Z",
+      "fetched_by": "capture"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Santa Clara",
+      "name": "City of Mountain View"
+    },
+    "topics": [],
+    "documents": [
+      {
+        "label": "Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-f-transient-occupy-tax-primary-arguemnt-in-favor_redacted.pdf?VersionId=IyOx3CK9E.wK8OfEiC0QfQCcisZh4qHx"
+      },
+      {
+        "label": "Impartial Analysis",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-f-city-of-mountain-view-tot-ia07-16-2026_redacted.pdf?VersionId=_fU6E.scTxBoTQBBx_XXrlxN0X0ISHaj"
+      }
+    ],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "Majority Vote Required",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "district": {
+        "text": "City of Mountain View",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "ballot_question": {
+        "text": "Shall the measure to provide locally controlled funding for repairing potholes, streets and sidewalks, improving police, fire, and 911 emergency response services, supporting affordable housing, and adding new parks, and other general government services by authorizing City Council to increase the City of Mountain View's existing Transient Occupancy Tax paid by hotel and short­-term rental guests from 10% up to 15%, generating up to $5,200,000 annually until ended by voters, with independent audits, be adopted?",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      }
+    }
+  },
+  {
+    "id": "local-sc-g",
+    "number": "G",
+    "title": {
+      "text": "City Charter Amendment - Public Works Contracting",
+      "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+      "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+      "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "fetched_at": "2026-10-26T00:21:09Z",
+      "fetched_by": "capture"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Santa Clara",
+      "name": "City of Sunnyvale"
+    },
+    "topics": [],
+    "documents": [
+      {
+        "label": "Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-g-city-charter-amendment-public-works-contract-primary-arguemnt-in-favor_redacted.pdf?VersionId=KV4agcxsN4.yMpIY7Db2XOef2kwosl_g"
+      },
+      {
+        "label": "Rebuttal Argument to Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-g-city-charter-amendment-public-works-contract-rebuttal-to-primary-argument-in-favor_redacted.pdf?VersionId=pqz0M7KFXVsc_UCf_8vykMh5YJaA.cBP"
+      },
+      {
+        "label": "Primary Argument Against",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-g-city-charter-amendment-public-works-contract-primary-arguemnt-against_redacted.pdf?VersionId=nnyacvTwkcq9LkYgiZ...YKPKcbNPPHP"
+      },
+      {
+        "label": "Rebuttal Argument to Primary Argument Against",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-g-city-charter-amendment-public-works-contract-rebuttal-to-primary-argument-against_redacted.pdf?VersionId=u2mBGahV2DCuUeyiR8FGjPOkZetodC1R"
+      },
+      {
+        "label": "Impartial Analysis",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-g-city-of-sunnyvale_charter-amendment-ia_08-18-2026_redacted.pdf?VersionId=2FIpf3MHgfhEG7rneDG2smFwbjLrc5SX"
+      }
+    ],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "Majority Vote Required",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "district": {
+        "text": "City of Sunnyvale",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "ballot_question": {
+        "text": "Shall Section 1309 of the City Charter be amended to allow the City Council to adopt an ordinance giving the City more options for delivery of public works construction projects by authorizing use of any purchasing or contracting method allowed by California law to select contractors for such projects, and to make clarifying changes to the wording of Section 1309 that do not alter the meaning of the section?",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      }
+    }
+  },
+  {
+    "id": "local-sc-h",
+    "number": "H",
+    "title": {
+      "text": "City Charter Amendment - City Manager's Authority to Settle Claims",
+      "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+      "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+      "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "fetched_at": "2026-10-26T00:21:09Z",
+      "fetched_by": "capture"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Santa Clara",
+      "name": "City of Sunnyvale"
+    },
+    "topics": [],
+    "documents": [
+      {
+        "label": "Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-h-city-charter-amenedment-city-manager-settlement-authority-argument-in-favor_08112026_redacted-v2.pdf?VersionId=ag4SPlW2c4p4QFfzTuFRVjFSN1uX.BEX"
+      },
+      {
+        "label": "Impartial Analysis",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-h-city-of-sunnyvale_charter-amendment_city-manager-settlement-ia_08-18-2026_redacted.pdf?VersionId=u0NQH_OffrKMK0muimLYT_.EANViwaMs"
+      }
+    ],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "Majority Vote Required",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "district": {
+        "text": "City of Sunnyvale",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "ballot_question": {
+        "text": "Shall Section 1314 of the City Charter be amended to authorize the City Council to adopt an ordinance establishing the maximum amount the City Manager may approve to settle legal claims against the City, instead of the current $50,000 limit established by state law and unchanged since 1989, while retaining City Council approval authority for settlements exceeding the amount set by the ordinance?",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      }
+    }
+  },
+  {
+    "id": "local-sc-i",
+    "number": "I",
+    "title": {
+      "text": "City Charter Amendment - City Council Vacancies",
+      "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+      "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+      "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "fetched_at": "2026-10-26T00:21:09Z",
+      "fetched_by": "capture"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Santa Clara",
+      "name": "City of Sunnyvale"
+    },
+    "topics": [],
+    "documents": [
+      {
+        "label": "Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-i-appointed-incumbent-to-serve-until-sucessor-is-elected-primary-arguemnt-in-favor_redacted-v2.pdf?VersionId=3.MYtyA3I7uBQtnUxJFeUjx.Li3au6mt"
+      },
+      {
+        "label": "Rebuttal Argument to Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-i-city-charter-amendment-appointed-incumbent-to-serve-until-successor-is-elected-rebuttal-to-primary-argument-in-favor_redacted.pdf?VersionId=up1VsX4SHiK24xt6k.NOn_ec2jGo03Hp"
+      },
+      {
+        "label": "Primary Argument Against",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-i-appointed-incumbent-to-serve-until-sucessor-is-elected-primary-arguemnt-against_redacted.pdf?VersionId=EvC4AVSBsSDH070dSBnOLrdjCrF7mwrs"
+      },
+      {
+        "label": "Rebuttal Argument to Primary Argument Against",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-i-city-charter-amendment-appointed-incumbent-to-serve-until-successor-is-elected-rebuttal-to-primary-argument-against_redacted_0.pdf?VersionId=4Q52bzbAOM3KbsWqUF4HQ0wVrtsaNj7K"
+      },
+      {
+        "label": "Impartial Analysis",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-i-city-of-sunnyvale_charter-amendment-appointed-incumbent-to-serve-ia_08-18-2026_redacted.pdf?VersionId=imvy7ZqTTofyfOsTOOMxSr3kVQoj46UK"
+      }
+    ],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "Majority Vote Required",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "district": {
+        "text": "City of Sunnyvale",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "ballot_question": {
+        "text": "Shall Section 606 of the City Charter be amended to require that a person appointed to fill a vacancy on the City Council serve until a successor is elected at the next General Municipal Election (November of even-numbered years), rather than until an earlier election date that could be consolidated with a statewide election?",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      }
+    }
+  },
+  {
+    "id": "local-sc-j",
+    "number": "J",
+    "title": {
+      "text": "Transactions and Use Tax",
+      "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+      "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+      "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "fetched_at": "2026-10-26T00:21:09Z",
+      "fetched_by": "capture"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Santa Clara",
+      "name": "City of Palo Alto"
+    },
+    "topics": [],
+    "documents": [
+      {
+        "label": "Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-j-transportation-use-tax-primary-argument-in-favor_redacted-v2.pdf?VersionId=pjS1UK3Dd5URQ0FEfon6S.wurJ7a7.MU"
+      },
+      {
+        "label": "Rebuttal Argument to Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-j_city-of-palo-alto_transactions-and-use-tax_rebuttal-to-in-favor_redacted.pdf?VersionId=c0AjwidDq6Y1MjfFiE6r.Xq9K48h_35O"
+      },
+      {
+        "label": "Primary Argument Against",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-j_transportation-use-tax_primary-argument-against_redacted.pdf?VersionId=Orv.tUAWIGyw1P_Ug1KW9ouzZkaOAZ91"
+      },
+      {
+        "label": "Rebuttal Argument to Primary Argument Against",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-j_city-of-palo-alto_transactions-and-use-tax_rebuttal-to-against_redacted.pdf?VersionId=1KqVX2uEudN_V5bgnUptZwAbpDjAKWT4"
+      },
+      {
+        "label": "Impartial Analysis",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-j_city-of-palo-alto_transactions-and-use-tax_ia_redacted.pdf?VersionId=p7XgaCyq8nw9nJKnRGkOCZx7QMfAXfBX"
+      }
+    ],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "Majority Vote Required",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "district": {
+        "text": "City of Palo Alto",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "ballot_question": {
+        "text": "City of Palo Alto Community Safety/Services Measure. To provide general city services including repairing Cubberley Community Center for current safety, earthquake, accessibility standards; upgrading deteriorating electrical systems, wiring, plumbing; acquiring outdoor space/sites; maintaining streets, safe, clean downtown/commercial cores; preparing for natural disasters; repairing deteriorating community spaces, libraries, shall City of Palo Alto’s measure enacting a 0.5% (1/2¢) sales tax, providing approximately $15,600,000 annually until ended by voters, with published financial audits, all funds used locally, be adopted?",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      }
+    }
+  },
+  {
+    "id": "local-sc-k",
+    "number": "K",
+    "title": {
+      "text": "Local Funding -Business Tax Update",
+      "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+      "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+      "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "fetched_at": "2026-10-26T00:21:09Z",
+      "fetched_by": "capture"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Santa Clara",
+      "name": "City of Milpitas"
+    },
+    "topics": [],
+    "documents": [
+      {
+        "label": "Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-k-business-tax-modernization-primary-argument-in-favor_redacted-v2.pdf?VersionId=ihwB8UiUkEN6oQjtsUqKSrfSzujBAeh2"
+      },
+      {
+        "label": "Rebuttal Argument to Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-k-city-of-milpitas-business-tax-rebuttal-to-the-argument-in-favor-20260818_redacted.pdf?VersionId=LX3Bmed2TeCLV7sjNgzam0NJ3ZdrkQRE"
+      },
+      {
+        "label": "Primary Argument Against",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-k-city-of-milpitas-against_v2_redacted_0.pdf?VersionId=itnuJx4YnAVoubSQTxMaY5pGIvp9Z.VM"
+      },
+      {
+        "label": "Rebuttal Argument to Primary Argument Against",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-k-city-of-milpitas-business-tax-rebuttal-to-the-argument-against-20260825_redactedv2.pdf?VersionId=maSkioxaQ2Q8ZcJvSpzjPzIFtPJ_Vbmg"
+      },
+      {
+        "label": "Impartial Analysis",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-k-city-of-milpitas-ia-20260818_redacted.pdf?VersionId=kA9GJeyV15SUui1pbwtsvqP05mEhCD0K"
+      }
+    ],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "Majority Vote Required",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "district": {
+        "text": "City of Milpitas",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "ballot_question": {
+        "text": "City of Milpitas Local Funding Measure. Shall an ordinance to update City of Milpitas's 50-year-old business tax be adopted, with no tax increase to residents, so small businesses pay less than larger businesses, with all paying an annual flat rate, plus 0.025% to 0.035% of gross receipts for larger businesses, providing approximately $3,000,000 annually for general city services such as maintaining fiscal stability, neighborhood safety /cleanliness; requiring public disclosure, all funds invested locally, until ended by voters?",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      }
+    }
+  },
+  {
+    "id": "local-sc-l",
+    "number": "L",
+    "title": {
+      "text": "General Plan Amendment",
+      "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+      "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+      "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "fetched_at": "2026-10-26T00:21:09Z",
+      "fetched_by": "capture"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Santa Clara",
+      "name": "City of Cupertino"
+    },
+    "topics": [],
+    "documents": [
+      {
+        "label": "Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-l-cupertino-initiative-ordinance-amendment-argument-in-favor_redacted-v2.pdf?VersionId=8HXPKA4VQlnpF1GtLfwp5YOPF0pEQOUL"
+      },
+      {
+        "label": "Impartial Analysis",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-l-cupertino-initiative-ordinance-amendment-impartial-analysis_redacted.pdf?VersionId=KRVrrYaLOec9VgWpYSX.nmjosKv9r0dI"
+      }
+    ],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "Majority Vote Required",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "district": {
+        "text": "City of Cupertino",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "ballot_question": {
+        "text": "Shall an ordinance amending the City of Cupertino General Plan be adopted to mandate that any attempt to rezone parks, parklands or open space to residential, commercial or industrial uses, or any proposal for residential, commercial or industrial development in parks, parkland or open space, must be placed before Cupertino voters and secure two-thirds support in the City's next general election?",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      }
+    }
+  },
+  {
+    "id": "local-sc-m",
+    "number": "M",
+    "title": {
+      "text": "School Bonds",
+      "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+      "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+      "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "fetched_at": "2026-10-26T00:21:09Z",
+      "fetched_by": "capture"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Santa Clara",
+      "name": "Gilroy Unified School District"
+    },
+    "topics": [],
+    "documents": [
+      {
+        "label": "Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-m-gilroy-bond-primary-argument-in-favor_redacted-v2_0.pdf?VersionId=wjlgx7BcZyubyHE7MPjnmiMHO64l6Rhr"
+      },
+      {
+        "label": "Rebuttal Argument to Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-m-gilroy-bond-rebuttal-to-in-favor-position_redacted.pdf?VersionId=TX3tnueiM8u2yN2MEK4_Hq6xX4.jPxm."
+      },
+      {
+        "label": "Primary Argument Against",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-m-gilroy-bond-primary-argument-in-opposition_redacted-v2.pdf?VersionId=Szyew.DzaMIW0Ts1u1QeBP89lgCR46lL"
+      },
+      {
+        "label": "Rebuttal Argument to Primary Argument Against",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-m-gilroy-bond-rebuttal-to-opposition_redacted.pdf?VersionId=S5ah2tR5KMCTxkuJNQJbY376N9AnfcUu"
+      },
+      {
+        "label": "Impartial Analysis",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-m-impartial-analysis-gilroy-unified_redacted.pdf?VersionId=scFxKaSFWmw__kvplf8DbZI0FCWlXCZh"
+      }
+    ],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "55% Vote Required",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "district": {
+        "text": "Gilroy Unified School District",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "ballot_question": {
+        "text": "To improve the quality of education; construct, upgrade, and modernize classrooms, restrooms, and school facilities; make safety and security improvements; renovate or construct career technical education classrooms; and replace leaky roofs; shall Gilroy Unified School District's measure authorizing $295,000,000 in bonds, at legal rates, and levying approximately $59 per $100,000 of assessed value (raising $18,300,000 annually) while bonds are outstanding, be adopted, with annual audits, independent oversight, NO money for teacher/administrator salaries and all money spent locally?",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      }
+    }
+  },
+  {
+    "id": "local-sc-n",
+    "number": "N",
+    "title": {
+      "text": "School Bonds",
+      "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+      "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+      "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "fetched_at": "2026-10-26T00:21:09Z",
+      "fetched_by": "capture"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Santa Clara",
+      "name": "Los Gatos-Saratoga Union High School District"
+    },
+    "topics": [],
+    "documents": [
+      {
+        "label": "Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure_n-los_gatos-saratoga_uhsd-primary-argument_in-favor_8.7.26_redacted.pdf?VersionId=TWZkgE1ARTCuSEJr0mbOOM1zoObkGpBb"
+      },
+      {
+        "label": "Rebuttal Argument to Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-n-rebuttal-to-argument-in-favor-los-gatos-saratoga-uhsd_redacted.pdf?VersionId=nAnWKAU4N_WhzuvjqVavTnS1VkznVXFJ"
+      },
+      {
+        "label": "Primary Argument Against",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure_n-los_gatos-saratoga_uhsd-primary-argument_against_8.11.26_redacted.pdf?VersionId=OOGgjL74el2O1q.DUkdF2_N_7C_4ZJun"
+      },
+      {
+        "label": "Rebuttal Argument to Primary Argument Against",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-n_rebuttal-to-argument-against_los-gatos-saratoga-uhsd_redacted-v2.pdf?VersionId=Udn6vuoKLaMr5vnDBNLyw91Lm9hv832t"
+      },
+      {
+        "label": "Impartial Analysis",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/ia-measure-n-lg-saratoga-union-hsd-bonds-stamped_redacted.pdf?VersionId=sGpQcuU_H2eGu3tXHIzgxBwlNbeQR1sm"
+      }
+    ],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "55% Vote Required",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "district": {
+        "text": "Los Gatos-Saratoga Union High School District",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "ballot_question": {
+        "text": "To maintain quality academic facilities at Los Gatos High School and Saratoga High School by replacing leaky roofs and failing restrooms, plumbing, electrical, heating/ cooling systems; improving school safety; updating, repairing and equipping schools including science, technology, engineering, arts, math, robotics, and career/ college readiness classrooms/ labs; shall Los Gatos­ Saratoga Union High School District's measure be adopted, authorizing $321,000,000 in bonds at legal rates, levying approximately $30 per $100,000 assessed value ($23,000,000 annually) while bonds are outstanding, with oversight, annual audits, and local control?",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      }
+    }
+  },
+  {
+    "id": "local-sc-o",
+    "number": "O",
+    "title": {
+      "text": "Parcel Tax",
+      "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+      "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+      "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "fetched_at": "2026-10-26T00:21:09Z",
+      "fetched_by": "capture"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Santa Clara",
+      "name": "Alum Rock Union Elementary School District"
+    },
+    "topics": [],
+    "documents": [
+      {
+        "label": "Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-o_alum-rock-union-parcel-tax_primary-argument-in-favor_redacted-v2.pdf?VersionId=9m4sTqWxdYduiXYQPaX0BOLDHPIvQjyc"
+      },
+      {
+        "label": "Impartial Analysis",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/ia-measure-o-alum-rock-union-esd-parcel-tax-stamped_redacted.pdf?VersionId=PmLkocwbXMETRl7Qw2_7KeYkws3_yp2Q"
+      }
+    ],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "2/3rds (66.67%) Vote Required",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "district": {
+        "text": "Alum Rock Union Elementary School District",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "ballot_question": {
+        "text": "With funds that cannot be taken by State or Federal Government officials, shall Alum Rock Union Elementary School District's measure to protect services for students with disabilities; improve reading, writing, math and science programs; attract and retain highly qualified teachers; and support students experiencing housing instability be adopted, by replacing the current tax at $310 per parcel for seven years, while raising $6.5 million annually with senior exemptions, and public disclosure of all spending?",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      }
+    }
+  },
+  {
+    "id": "local-sc-p",
+    "number": "P",
+    "title": {
+      "text": "General Obligation Bond",
+      "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+      "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+      "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "fetched_at": "2026-10-26T00:21:09Z",
+      "fetched_by": "capture"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Santa Clara",
+      "name": "Alum Rock Union Elementary School District"
+    },
+    "topics": [],
+    "documents": [
+      {
+        "label": "Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-p_alum-rock-union-general-obligation-bond-primary-argument-in-favor_redacted_final.pdf?VersionId=QbWWz2plqZ1L.wCd0aeLDUsfGmQXJnVX"
+      },
+      {
+        "label": "Impartial Analysis",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/alum-rock-union-esd-bond-measure-ia-nov-26-to-rov-final_redacted.pdf?VersionId=wHC3Gme81VWm0wm_ZojVC4k1MGKwVRah"
+      }
+    ],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "55% Vote Required",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "district": {
+        "text": "Alum Rock Union Elementary School District",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "ballot_question": {
+        "text": "With funds that cannot be taken by the State or Federal government, shall Alum Rock Union Elementary School District's measure to repair leaky roofs and plumbing; replace heating, ventilation, and air conditioning; and upgrade emergency communication and security systems be adopted, authorizing $100 million of bonds with legal rates, without increasing current tax rates, average levies below $26 per $100,000 of assessed valuation (raising $6.3 million annually while outstanding), audits, independent oversight, and disclosure of all spending?",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      }
+    }
+  },
+  {
+    "id": "local-sc-q",
+    "number": "Q",
+    "title": {
+      "text": "Parcel Tax",
+      "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+      "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+      "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "fetched_at": "2026-10-26T00:21:09Z",
+      "fetched_by": "capture"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Santa Clara",
+      "name": "Cambrian School District"
+    },
+    "topics": [],
+    "documents": [
+      {
+        "label": "Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-q_cambrian-school-district-parcel-tax_primary-argument-in-favor_redacted_final.pdf?VersionId=9c2QO2Ij25_Kv2uvoDRPmN.R31yvMeL0"
+      },
+      {
+        "label": "Impartial Analysis",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/alum-rock-union-esd-bond-measure-ia-nov-26-to-rov-final_redacted_0.pdf?VersionId=ZsZUMDSKQkFXnw4fPoV.JdbIOS2SSaVb"
+      }
+    ],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "2/3rds (66.67%) Vote Required",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "district": {
+        "text": "Cambrian School District",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "ballot_question": {
+        "text": "To protect the quality of education in our local elementary and middle schools, provide funding for core academic programs in math, science, engineering, technology, reading, writing and arts, attract/retain highly qualified teachers, and maintain manageable class sizes, shall Cambrian School District's measure be adopted, levying $148/parcel for 8 years, its continuance subject to voter approval, with senior exemptions, annual inflation adjustments, providing $1,000,000 annually in locally controlled funding that can't be taken by the State?",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      }
+    }
+  },
+  {
+    "id": "local-sc-r",
+    "number": "R",
+    "title": {
+      "text": "Parcel Tax",
+      "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+      "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+      "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "fetched_at": "2026-10-26T00:21:09Z",
+      "fetched_by": "capture"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Santa Clara",
+      "name": "Orchard School District"
+    },
+    "topics": [],
+    "documents": [
+      {
+        "label": "Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure_r_orchard-school-district-parcel-tax-primary-argument-in-favor_8.11.26_redacted.pdf?VersionId=KJFpM.O2H8XyU2WpuN8dF7X2zJmG1lPX"
+      },
+      {
+        "label": "Impartial Analysis",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-r-orchard-school-district-parcel-tax-ia-redacted-20260818.pdf?VersionId=OxQ5w3LdKR5wiJMFVOX5sGPFd78K1LMo"
+      }
+    ],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "2/3rds (66.67%) Vote Required",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "district": {
+        "text": "Orchard School District",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "ballot_question": {
+        "text": "To enhance and create quality educational opportunities, attract and retain teachers and staff, support Science, Technology, Engineering, Arts and Mathematics (STEAM) education and visual and performing arts, shall the Orchard School District measure levying a parcel tax at the rate of 4 cents per building square foot (not-to-exceed $7,500 non-residential and $89 residential per parcel), raising $1.4 million annually for eight years beginning July 1, 2027, with senior exemptions and all expenditures audited be adopted?",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      }
+    }
+  },
+  {
+    "id": "local-sc-s",
+    "number": "S",
+    "title": {
+      "text": "Limit District Directors to Four Four-Year Terms",
+      "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+      "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+      "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+      "fetched_at": "2026-10-26T00:21:09Z",
+      "fetched_by": "capture"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Santa Clara",
+      "name": "El Camino Healthcare District"
+    },
+    "topics": [],
+    "documents": [
+      {
+        "label": "Primary Argument In-Favor",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-s-el-camino-healthcare-district-echd-primary-argument-in-favor_redacted.pdf?VersionId=WMZ_ALjnrC.OXzcX4sTcqpOqQyuWXdhR"
+      },
+      {
+        "label": "Impartial Analysis",
+        "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-s-el-camino-healthcare-district-term-limit-ia-redacted-20260818.pdf?VersionId=xmPSrlttoIZIT1LZ.IX2_wKliVkdpmT3"
+      }
+    ],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "Majority Vote Required",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "district": {
+        "text": "El Camino Healthcare District",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      },
+      "ballot_question": {
+        "text": "Shall the measure amending the Bylaws of the El Camino Healthcare District to limit District Directors to four four-year terms be adopted?",
+        "source_url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+        "source_label": "Santa Clara County Registrar of Voters: List of Local Measures",
+        "source_snapshot": "data/raw/objects/21/212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "raw_sha256": "212cefb73fc97fc853b8d7c5d64d8e1689b1935031976aaffb6ec80c68b3b093",
+        "fetched_at": "2026-10-26T00:21:09Z",
+        "fetched_by": "capture"
+      }
+    }
+  }
+]

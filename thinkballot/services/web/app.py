@@ -9,7 +9,7 @@ from ... import config, ratelimit
 from ...servicekit import ServiceClient, ServiceError
 
 SAMPLE_ADDRESS = "Mango Park, Sunnyvale, 94087"
-MEASURE_ID_RE = re.compile(r"^prop-[a-z0-9]{1,8}$")
+MEASURE_ID_RE = re.compile(r"^(prop|local)-[a-z0-9-]{1,24}$")
 SAFE_NEXT_RE = re.compile(r"^/(?![/\\])[A-Za-z0-9._~!$&'()*+,;=:@%/?-]*$")  # same-site path, no //host
 
 # Card field headings, in display order. YES and NO always use the same layout.
@@ -24,6 +24,8 @@ FIELD_HEADINGS = {
     "supporters": "Supporters",
     "opponents": "Opponents",
     "analysis": "Analysis by the Legislative Analyst",
+    "district": "Jurisdiction",
+    "ballot_question": "The question on your ballot",
 }
 
 
@@ -92,7 +94,7 @@ def create_app():
 
     def load_ballot():
         try:
-            election, listing = ballot.get("/election"), ballot.get("/measures")
+            election, listing = ballot.get("/election"), ballot.get("/measures", level="state")
         except ServiceError:
             abort(503)
         if not election:  # no data loaded yet
@@ -127,7 +129,19 @@ def create_app():
                     place = geo.post("/lookup", {"address": address})
                 except ServiceError:
                     place = {"found": False, "zip": None, "error": True}
-        return render_template("ballot.html", election=election, measures=measures, place=place)
+        local = None
+        if place and place.get("found"):
+            try:
+                rows = ballot.get("/measures", level="local", county=place["county"])["measures"]
+            except ServiceError:
+                rows = []
+            if rows:
+                city = f"City of {place['city']}".lower()
+                yours = [m for m in rows if m["district"].lower() == city
+                         or "county" in m["district"].lower() or "transit" in m["district"].lower()]
+                local = {"county": place["county"], "yours": yours,
+                         "maybe": [m for m in rows if m not in yours]}
+        return render_template("ballot.html", election=election, measures=measures, place=place, local=local)
 
     @app.url_value_preprocessor
     def check_measure_id(_endpoint, values):

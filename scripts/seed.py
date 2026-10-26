@@ -32,7 +32,10 @@ REPORT_PATH = config.REPORT_PATH
 
 def page_text(entry, cache, live=False):
     """Text of the source page for a field: the live page with --live, else the saved snapshot if any."""
-    use_snapshot = entry.get("source_snapshot") and not (live and entry["source_url"].startswith("https://"))
+    # Pages captured in a supervised browser session come from sites that block automated clients:
+    # they are verified against that capture, never re-fetched by a script.
+    captured = entry.get("fetched_by") == "capture"
+    use_snapshot = entry.get("source_snapshot") and (captured or not (live and entry["source_url"].startswith("https://")))
     key = entry["source_snapshot"] if use_snapshot else entry["source_url"]
     if key not in cache:
         if use_snapshot:
@@ -79,7 +82,9 @@ def main(path, live=False):
         for name, entry in entries:
             source = page_text(entry, cache, live)
             v = bias.post("/check/text", {"text": entry["text"], "sources": [source], "mode": "verify"})
-            report["verify"].append({"measure": m["id"], "field": name, "verdict": v["verdict"]})
+            report["verify"].append({"measure": m["id"], "field": name, "verdict": v["verdict"],
+                                     "against": "browser capture" if entry.get("fetched_by") == "capture"
+                                     else ("live page" if live else "saved copy")})
             if v["verdict"] != "pass":
                 failures += 1
                 print(f"VERIFY FAIL {m['id']}.{name}: not found word for word on {entry['source_url']}")
@@ -108,6 +113,8 @@ def main(path, live=False):
         "checked_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "data_file": str(Path(path).resolve().relative_to(config.ROOT)),
         "verified_against": "live official pages" if live else "saved copies of the official pages",
+        "fields_verified_against_browser_captures": sum(1 for v in report["verify"]
+                                                        if v["against"] == "browser capture"),
         "fields_verified": sum(1 for v in report["verify"] if v["verdict"] == "pass"),
         "fields_failed": sum(1 for v in report["verify"] if v["verdict"] != "pass"),
         "labels_checked": len(labels),

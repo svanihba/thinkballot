@@ -94,3 +94,8 @@ details.composer summary { list-style: none; display: inline-block; margin-top: 
 .analysis summary { cursor: pointer; font-family: var(--serif); font-weight: 600; font-size: 1.05rem; }
 .analysis-text { white-space: pre-line; font-size: 0.9rem; margin: 0.8rem 0; max-width: 46rem; }
 .gap { margin-top: 2rem; }
+.subhead { font-family: var(--serif); font-size: 1.1rem; margin: 1rem 0 0.4rem; }
+details.maybe { margin-top: 1rem; }
+details.maybe summary { cursor: pointer; font-size: 0.9rem; color: var(--ink-soft); margin-bottom: 0.8rem; }
+.ballot-question { border-left: 4px solid var(--poppy); background: #fffdf8; padding: 1rem 1.2rem; font-size: 1.02rem; }
+.docs { margin: 0.4rem 0 0 1.2rem; } .docs li { margin: 0.3rem 0; }

@@ -18,7 +18,7 @@
 <div class="result-count">{{ r.results|length }} result{{ '' if r.results|length == 1 else 's' }}</div>
 {% for m in r.results %}
 <article class="card measure">
-  <div class="top"><span class="tag">Prop {{ m.number }}</span>
+  <div class="top"><span class="tag">{{ "Prop" if m.id.startswith("prop-") else "Measure" }} {{ m.number }}</span>
     {% for t in m.topics %}<span class="chip">{{ t }}</span>{% endfor %}</div>
   <h3><a href="/prop/{{ m.id }}">{{ m.title }}</a></h3>
   <p class="summary">{{ m.snippet }}</p>
