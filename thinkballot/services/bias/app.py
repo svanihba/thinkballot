@@ -1,6 +1,7 @@
 """bias service: the Bias Buster Engine's JSON API."""
 
 import json
+import time
 
 from flask import abort, jsonify, request
 
@@ -31,7 +32,10 @@ def create_app():
         if not isinstance(points, list):
             abort(400, "points must be a list")
         points = [p for p in points if isinstance(p, dict)]
-        return jsonify(engine.check_answer(points, _sources(body), use_ai=body.get("ai_review", True)))
+        budget = body.get("budget_seconds")
+        deadline = time.monotonic() + min(float(budget), 120) if isinstance(budget, (int, float)) else None
+        return jsonify(engine.check_answer(points, _sources(body), use_ai=body.get("ai_review", True),
+                                           deadline=deadline))
 
     @app.post("/check/text")
     def check_text():

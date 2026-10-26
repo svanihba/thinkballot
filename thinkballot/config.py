@@ -48,6 +48,8 @@ ANSWER_MODEL = _env("TB_ANSWER_MODEL", "nvidia/nemotron-3.5-lightning:free")
 REVIEW_MODEL = _env("TB_REVIEW_MODEL", "nvidia/nemotron-3-ultra-550b-a55b:free")
 AI_TIMEOUT_SECONDS = float(_env("TB_AI_TIMEOUT", "45"))
 AI_RETRIES = int(_env("TB_AI_RETRIES", "2"))
+# Total time one question may take (answer + Bias Buster review); past it the voter gets "try again".
+ASK_BUDGET_SECONDS = float(_env("TB_ASK_BUDGET", "85"))
 
 SERVICE_TIMEOUT_SECONDS = float(_env("TB_SERVICE_TIMEOUT", "120"))
 # AI questions: per client, and site-wide so one person cannot use up the model quota for everyone.

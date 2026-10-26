@@ -6,6 +6,7 @@ Question text is never logged.
 """
 
 import re
+import time
 
 from flask import abort, jsonify, request
 
@@ -98,8 +99,10 @@ def create_app():
         passages = "\n\n".join(f"[{FIELD_LABELS[n]}]\n{t}" for n, t in zip(names, sources))
         user = f"MEASURE: {measure['title']}\n\nOFFICIAL SOURCE:\n{passages}\n\nQUESTION: {question}"
 
-        try:
-            draft = ai.chat_json(config.ANSWER_MODEL, ANSWER_SYSTEM, user, stub=_stub_answer)
+        deadline = time.monotonic() + config.ASK_BUDGET_SECONDS
+        try:  # the answer may use at most ~60% of the budget, leaving time for the Bias Buster review
+            draft = ai.chat_json(config.ANSWER_MODEL, ANSWER_SYSTEM, user, stub=_stub_answer,
+                                 deadline=time.monotonic() + 0.6 * config.ASK_BUDGET_SECONDS)
         except ai.AIError:
             abort(503, "The question service is busy right now. Please try again in a minute.")
         if draft.get("refused"):
@@ -108,7 +111,8 @@ def create_app():
 
         points = [p for p in draft.get("points", []) if isinstance(p, dict)]
         try:
-            result = bias.post("/check/answer", {"points": points, "sources": sources})
+            result = bias.post("/check/answer", {"points": points, "sources": sources,
+                                                 "budget_seconds": max(deadline - time.monotonic(), 1)})
         except ServiceError:
             abort(503, "The Bias Buster check is unavailable, so no answer is shown.")
 

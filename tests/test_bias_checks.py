@@ -117,3 +117,13 @@ def test_verify_and_audit_modes():
     assert engine.check_text("could sell $2 billion in bonds", [SOURCE], "verify")["verdict"] == "fail"
     audited = engine.check_text("A common-sense plan.", ["A common-sense plan."], "audit")
     assert audited["verdict"] == "flagged" and audited["text"] == "A common-sense plan."
+
+
+def test_ai_call_past_its_deadline_gives_up_without_calling(monkeypatch):
+    import time
+    import pytest
+    monkeypatch.setattr(engine.ai.config, "AI_PROVIDER", "openrouter")
+    monkeypatch.setattr(engine.ai.config, "OPENROUTER_API_KEY", "test-not-a-key")
+    monkeypatch.setattr(engine.ai.requests, "post", lambda *_a, **_k: pytest.fail("must not call the provider"))
+    with pytest.raises(engine.ai.AIError):
+        engine.ai.chat_json("m", "s", "u", deadline=time.monotonic() + 1)
