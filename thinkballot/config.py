@@ -45,7 +45,7 @@ ZIP_TABLE_PATH = Path(_env("TB_ZIP_TABLE", str(ROOT / "data" / "zip_districts.js
 AI_PROVIDER = _env("TB_AI_PROVIDER", "openrouter")
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")  # never printed or logged
 ANSWER_MODEL = _env("TB_ANSWER_MODEL", "nvidia/nemotron-3.5-lightning:free")
-REVIEW_MODEL = _env("TB_REVIEW_MODEL", "nvidia/nemotron-3-super-120b-a12b:free")
+REVIEW_MODEL = _env("TB_REVIEW_MODEL", "nvidia/nemotron-3-ultra-550b-a55b:free")
 AI_TIMEOUT_SECONDS = float(_env("TB_AI_TIMEOUT", "45"))
 AI_RETRIES = int(_env("TB_AI_RETRIES", "2"))
 
