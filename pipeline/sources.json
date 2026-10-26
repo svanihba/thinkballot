@@ -1,0 +1,26 @@
+{
+  "_note": "What the crawler may fetch. One entry per source. The crawler only follows links matching `allow`, up to `max_depth` hops from the seeds, and always obeys robots.txt.",
+  "sources": [
+    {
+      "id": "ca-sos-guide-2026-11",
+      "jurisdiction": {"level": "state", "name": "California"},
+      "election": "2026-11-03",
+      "seeds": ["https://voterguide.sos.ca.gov/propositions/"],
+      "allow": ["^https://voterguide\\.sos\\.ca\\.gov/propositions/\\d+/(analysis\\.htm)?$"],
+      "max_depth": 2,
+      "delay_seconds": 0.5,
+      "extractor": "ca_sos_guide"
+    },
+    {
+      "id": "santa-clara-local-measures-2026-11",
+      "jurisdiction": {"level": "county", "name": "Santa Clara"},
+      "election": "2026-11-03",
+      "seeds": ["https://vote.santaclaracounty.gov/list-local-measures-4"],
+      "allow": [],
+      "max_depth": 0,
+      "delay_seconds": 2,
+      "extractor": "santa_clara_measures",
+      "note": "Site blocks automated clients (Cloudflare 403). The crawler records the block; pages enter the raw store only through a supervised browser capture (pipeline.crawler.capture)."
+    }
+  ]
+}

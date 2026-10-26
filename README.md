@@ -32,7 +32,7 @@ Built by Abhinav Shirbhate in Sunnyvale, California.
 
 1. **Official sources only:** the California Secretary of State's Official Voter Information Guide and the
    Legislative Analyst's Office.
-2. **Their words, not ours:** `scripts/fetch_guide.py` copies each field out of the official page by code.
+2. **Their words, not ours:** the extraction system (`pipeline/extract/`) cuts each field out of the official page by code.
    No AI writes the cards.
 3. **Verified before publishing:** `scripts/seed.py --live` refuses to load the data unless every field
    appears word for word on its live official page (154 of 154 fields pass).
@@ -70,7 +70,8 @@ Browser → web ─┬→ ballot → SQLite (official data, verified)
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 echo "OPENROUTER_API_KEY=your-key" > .env      # for Ask; use TB_AI_PROVIDER=stub to run without AI
-.venv/bin/python scripts/fetch_guide.py         # copy the propositions from the official guide
+.venv/bin/python -m pipeline.crawler.crawl       # fetch official pages into data/raw (see below)
+.venv/bin/python -m pipeline.extract.run         # extract measures from the raw store
 .venv/bin/python scripts/seed.py --live         # verify every field, then load it
 .venv/bin/python run.py                          # http://127.0.0.1:8000
 .venv/bin/python -m pytest                       # tests
@@ -83,7 +84,8 @@ To make an account a moderator: `.venv/bin/python scripts/make_moderator.py <ema
 - California Secretary of State, Official Voter Information Guide, November 3, 2026:
   https://voterguide.sos.ca.gov/propositions/
 - Analyses by the Legislative Analyst's Office, published in the same guide.
-- Saved copies of every source page used are in `data/sources/2026-11-03/`.
+- Santa Clara County Registrar of Voters, List of Local Measures (November 3, 2026).
+- Every source page used is stored byte for byte in `data/raw/` with its crawl metadata.
 
 ## What I learned
 
@@ -101,3 +103,23 @@ To make an account a moderator: `.venv/bin/python scripts/make_moderator.py <ema
 
 GNU Affero General Public License v3. Copyright © 2026 Abhinav Shirbhate. See `LICENSE` and `NOTICE`;
 contributions are welcome through pull requests (see `CONTRIBUTING.md`).
+
+## Data pipeline: crawling and extraction
+
+Two separate systems that share only the raw store (`data/raw/`):
+
+1. **Crawler** (`pipeline/crawler/`). `python -m pipeline.crawler.crawl` fetches the sources listed in
+   `pipeline/sources.json`. It identifies itself honestly, obeys robots.txt, waits between requests and
+   retries with backoff. It stores every page byte for byte, named by its SHA-256, plus crawl metadata
+   (run, URL, status, headers, parent page, unchanged/blocked) in `data/raw/crawl.sqlite3`. When a site
+   refuses automated clients, the crawler records the block and never works around it. Such pages can enter
+   the store only through a supervised browser capture (`python -m pipeline.crawler.capture`), which is
+   labelled as such.
+2. **Extraction** (`pipeline/extract/`). `python -m pipeline.extract.run` reads only the raw store. It runs
+   one extractor per source layout (the state voter guide; Santa Clara County's list of local measures) and
+   writes `data/extracted/<source>.json` and `data/measures.json`. Every field records its page, the raw
+   object it was cut from, when it was fetched, and whether it was fetched by the crawler or captured.
+
+Then `scripts/seed.py --live` verifies every field word for word before anything is published.
+Coverage today: all 14 statewide propositions; 20 Santa Clara County local measures (ballot questions word
+for word, official PDFs linked).

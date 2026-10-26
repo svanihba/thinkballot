@@ -52,10 +52,32 @@
   for Congressional District {{ place.districts.congressional }}, State Senate District {{ place.districts.state_senate }}
   and Assembly District {{ place.districts.assembly }}.{% endif %} Your county's sample ballot lists every candidate.</div>
 
+{% macro local_card(m) %}
+<article class="card measure local" data-measure="{{ m.id }}" data-title="Measure {{ m.number }}: {{ m.title }}">
+  <div class="top"><span class="tag">Measure {{ m.number }}</span><span class="chip">{{ m.district }}</span>
+    <span class="read-tick" hidden>read ✓</span>
+    <button class="star" type="button" aria-pressed="false" aria-label="Star Measure {{ m.number }}">☆ Star</button></div>
+  <h3><a href="/prop/{{ m.id }}">{{ m.title }}</a></h3>
+  <p class="summary">{{ m.summary|truncate(220) }}</p>
+  <div class="foot"><a class="btn ghost small" href="/prop/{{ m.id }}">Read the full question →</a>
+    <span class="hint">{{ m.measure_type }}</span></div>
+</article>
+{% endmacro %}
 <div class="section-head"><span class="sec-num">LOCAL</span><h2>County &amp; local measures</h2></div>
-<div class="notice">County, city and school district measures aren't covered yet{% if place and place.found %}
-  for {{ place.county }} County{% endif %}. The statewide propositions above are complete. Local coverage comes
-  next, county by county, and we'll label it honestly rather than guess.</div>
+{% if local %}
+  <p class="hint">From the {{ local.county }} County Registrar of Voters' official list of local measures. Ballot
+    questions are shown word for word.</p>
+  {% if local.yours %}<h3 class="subhead">Likely on your ballot</h3>{% for m in local.yours %}{{ local_card(m) }}{% endfor %}{% endif %}
+  <details class="maybe">
+    <summary>{{ local.maybe|length }} more {{ local.county }} County measures (school and special districts or other
+      cities). Your ZIP code alone can't tell which apply; your sample ballot can.</summary>
+    {% for m in local.maybe %}{{ local_card(m) }}{% endfor %}
+  </details>
+{% else %}
+<div class="notice">Local measures aren't covered yet{% if place and place.found %} for {{ place.county }}
+  County{% endif %}. ThinkBallot covers Santa Clara County so far; more counties come next, labelled honestly
+  rather than guessed. The statewide propositions above are complete.</div>
+{% endif %}
 
 <div class="notice calm gap">Every card comes from the official voter guide and the
   Legislative Analyst. <a href="/neutral">How we stay neutral →</a></div>

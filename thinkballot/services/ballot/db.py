@@ -7,7 +7,7 @@ from ... import config
 
 # The fields a measure card can show, in display order. YES always comes before NO.
 FIELDS = ["measure_type", "summary", "yes_means", "no_means", "fiscal_effect", "argument_for", "argument_against",
-          "supporters", "opponents", "analysis"]
+          "supporters", "opponents", "analysis", "district", "ballot_question"]
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS election (
@@ -22,7 +22,11 @@ CREATE TABLE IF NOT EXISTS measure (
     title TEXT NOT NULL,
     title_source_url TEXT NOT NULL,
     topics TEXT NOT NULL,
-    arguments_url TEXT,            -- the guide's page with the full arguments and rebuttals          -- JSON list of ThinkBallot topic labels (checked by Bias Buster)
+    arguments_url TEXT,            -- the guide's page with the full arguments and rebuttals
+    level TEXT NOT NULL DEFAULT 'state',   -- 'state' or 'local'
+    county TEXT,                   -- local measures: county whose registrar publishes it
+    district TEXT,                 -- local measures: city / school / special district
+    documents TEXT NOT NULL DEFAULT '[]',  -- JSON [{label, url}]: official PDFs, linked not parsed          -- JSON list of ThinkBallot topic labels (checked by Bias Buster)
     position INTEGER NOT NULL      -- ballot order
 );
 CREATE TABLE IF NOT EXISTS field (
@@ -63,11 +67,14 @@ def replace_all(conn, election, measures):
         conn.execute("INSERT INTO election (id, name, date) VALUES (?, ?, ?)",
                      (election["id"], election["name"], election["date"]))
         for pos, m in enumerate(measures):
+            jur = m.get("jurisdiction") or {"level": "state"}
             conn.execute(
-                "INSERT INTO measure (id, election_id, number, title, title_source_url, topics, arguments_url, position) "
-                "VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+                "INSERT INTO measure (id, election_id, number, title, title_source_url, topics, arguments_url, "
+                "level, county, district, documents, position) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
                 (m["id"], election["id"], m["number"], m["title"]["text"], m["title"]["source_url"],
-                 json.dumps(m.get("topics", [])), m.get("arguments_url"), pos))
+                 json.dumps(m.get("topics", [])), m.get("arguments_url"), jur.get("level", "state"),
+                 jur.get("county"), jur.get("name") if jur.get("level") == "local" else None,
+                 json.dumps(m.get("documents", [])), pos))
             for name in FIELDS:
                 f = m["fields"].get(name)
                 if f:  # unsourced fields are simply absent
@@ -84,7 +91,9 @@ def election(conn):
 
 def list_measures(conn):
     rows = conn.execute(
-        "SELECT m.id, m.number, m.title, m.topics, f.text AS summary, t.text AS measure_type FROM measure m "
+        "SELECT m.id, m.number, m.title, m.topics, m.level, m.county, m.district, "
+        "COALESCE(f.text, q.text) AS summary, t.text AS measure_type FROM measure m "
+        "LEFT JOIN field q ON q.measure_id = m.id AND q.name = 'ballot_question' "
         "LEFT JOIN field f ON f.measure_id = m.id AND f.name = 'summary' "
         "LEFT JOIN field t ON t.measure_id = m.id AND t.name = 'measure_type' ORDER BY m.position").fetchall()
     return [dict(r, topics=json.loads(r["topics"])) for r in rows]
@@ -105,6 +114,8 @@ def get_measure(conn, measure_id):
         "title_source_url": row["title_source_url"],
         "topics": json.loads(row["topics"]),
         "arguments_url": row["arguments_url"],
+        "level": row["level"], "county": row["county"], "district": row["district"],
+        "documents": json.loads(row["documents"]),
         "fields": fields,
         "missing": [name for name in FIELDS if name not in fields],
     }

@@ -4,17 +4,18 @@
   {% set f = m.fields.get(name) %}
   {% if f %}<p>{{ f.text }} {{ src(f) }}</p>{% else %}<p class="missing">Not available in the official guide.</p>{% endif %}
 {% endmacro %}
-{% block title %}Prop {{ m.number }}: {{ m.title }} · ThinkBallot{% endblock %}
-{% block description %}{{ (m.fields.summary.text if m.fields.summary else m.title)|truncate(180) }}{% endblock %}
+{% block title %}{{ "Prop " if m.level == "state" else "Measure " }}{{ m.number }}: {{ m.title }} · ThinkBallot{% endblock %}
+{% block description %}{{ (m.fields.summary.text if m.fields.summary else (m.fields.ballot_question.text if m.fields.ballot_question else m.title))|truncate(180) }}{% endblock %}
 {% block main %}
-<article class="measure-page" data-measure="{{ m.id }}" data-title="Prop {{ m.number }}: {{ m.title }}">
-  <div class="eyebrow">Statewide proposition · {{ election.name }}</div>
-  <h1>Prop {{ m.number }}: {{ m.title }}</h1>
+{% set label = ("Prop " if m.level == "state" else "Measure ") ~ m.number %}
+<article class="measure-page" data-measure="{{ m.id }}" data-title="{{ label }}: {{ m.title }}">
+  <div class="eyebrow">{% if m.level == "state" %}Statewide proposition{% else %}{{ m.district }} · {{ m.county }} County{% endif %} · {{ election.name }}</div>
+  <h1>{{ label }}: {{ m.title }}</h1>
   <p class="hint meta-line">{% if m.fields.measure_type %}{{ m.fields.measure_type.text }} {{ src(m.fields.measure_type) }} ·{% endif %}
-    Topics: {% for t in m.topics %}<a class="chip" href="/search?topic={{ t|urlencode }}">{{ t }}</a> {% endfor %}</p>
+    {% if m.topics %}Topics: {% for t in m.topics %}<a class="chip" href="/search?topic={{ t|urlencode }}">{{ t }}</a> {% endfor %}{% endif %}</p>
   {% if m.fields.summary %}
   <p class="lede">{{ m.fields.summary.text }} {{ src(m.fields.summary) }}</p>
-  {% else %}
+  {% elif m.level == "state" %}
   <p class="lede missing">Summary not available in the official guide.</p>
   {% endif %}
   <div class="actions">
@@ -23,6 +24,15 @@
     <span class="share-done hint" hidden>Link copied</span>
   </div>
 
+  {% if m.level == "local" %}
+  <h2>{{ headings.ballot_question }}</h2>
+  <blockquote class="ballot-question">{{ m.fields.ballot_question.text }} {{ src(m.fields.ballot_question) }}</blockquote>
+  <p class="hint">Vote YES or NO on the question exactly as printed. {{ m.fields.measure_type.text }}.</p>
+  <h2>Official documents</h2>
+  <p class="hint">The county publishes the impartial analysis and the arguments for and against as PDFs. ThinkBallot
+    links them as published; it doesn't summarize them.</p>
+  <ul class="docs">{% for d in m.documents %}<li><a href="{{ d.url }}" target="_blank" rel="noopener">{{ d.label }}</a></li>{% endfor %}</ul>
+  {% else %}
   <div class="yesno">
     <div><h4>{{ headings.yes_means }}</h4>{{ field("yes_means") }}</div>
     <div><h4>{{ headings.no_means }}</h4>{{ field("no_means") }}</div>
@@ -51,6 +61,8 @@
   </details>
   {% endif %}
 
+  {% endif %}
+
   <div class="sources-block">
     <div class="eyebrow">Sources — every field above links to one of these</div>
     <ul>{% for s in sources %}
@@ -59,7 +71,7 @@
   </div>
 
   <section class="ask" id="ask">
-    <h2>Ask about Prop {{ m.number }}</h2>
+    <h2>Ask about {{ label }}</h2>
     <p class="hint">Answers come only from the official text above, with quotes, and are checked by
       <a href="/neutral#bias-buster">Bias Buster</a> before you see them.</p>
     {% with measure_id = m.id %}{% include "_ask_widget.html" %}{% endwith %}

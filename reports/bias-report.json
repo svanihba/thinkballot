@@ -3,772 +3,1406 @@
     {
       "measure": "prop-1",
       "field": "title",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-1",
       "field": "measure_type",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-1",
       "field": "summary",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-1",
       "field": "yes_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-1",
       "field": "no_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-1",
       "field": "fiscal_effect",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-1",
       "field": "argument_for",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-1",
       "field": "argument_against",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-1",
       "field": "supporters",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-1",
       "field": "opponents",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-1",
       "field": "analysis",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-2",
       "field": "title",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-2",
       "field": "measure_type",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-2",
       "field": "summary",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-2",
       "field": "yes_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-2",
       "field": "no_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-2",
       "field": "fiscal_effect",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-2",
       "field": "argument_for",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-2",
       "field": "argument_against",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-2",
       "field": "supporters",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-2",
       "field": "opponents",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-2",
       "field": "analysis",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-3",
       "field": "title",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-3",
       "field": "measure_type",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-3",
       "field": "summary",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-3",
       "field": "yes_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-3",
       "field": "no_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-3",
       "field": "fiscal_effect",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-3",
       "field": "argument_for",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-3",
       "field": "argument_against",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-3",
       "field": "supporters",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-3",
       "field": "opponents",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-3",
       "field": "analysis",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-4",
       "field": "title",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-4",
       "field": "measure_type",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-4",
       "field": "summary",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-4",
       "field": "yes_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-4",
       "field": "no_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-4",
       "field": "fiscal_effect",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-4",
       "field": "argument_for",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-4",
       "field": "argument_against",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-4",
       "field": "supporters",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-4",
       "field": "opponents",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-4",
       "field": "analysis",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-5",
       "field": "title",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-5",
       "field": "measure_type",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-5",
       "field": "summary",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-5",
       "field": "yes_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-5",
       "field": "no_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-5",
       "field": "fiscal_effect",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-5",
       "field": "argument_for",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-5",
       "field": "argument_against",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-5",
       "field": "supporters",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-5",
       "field": "opponents",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-5",
       "field": "analysis",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-37",
       "field": "title",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-37",
       "field": "measure_type",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-37",
       "field": "summary",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-37",
       "field": "yes_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-37",
       "field": "no_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-37",
       "field": "fiscal_effect",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-37",
       "field": "argument_for",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-37",
       "field": "argument_against",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-37",
       "field": "supporters",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-37",
       "field": "opponents",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-37",
       "field": "analysis",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-38",
       "field": "title",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-38",
       "field": "measure_type",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-38",
       "field": "summary",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-38",
       "field": "yes_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-38",
       "field": "no_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-38",
       "field": "fiscal_effect",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-38",
       "field": "argument_for",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-38",
       "field": "argument_against",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-38",
       "field": "supporters",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-38",
       "field": "opponents",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-38",
       "field": "analysis",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-39",
       "field": "title",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-39",
       "field": "measure_type",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-39",
       "field": "summary",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-39",
       "field": "yes_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-39",
       "field": "no_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-39",
       "field": "fiscal_effect",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-39",
       "field": "argument_for",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-39",
       "field": "argument_against",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-39",
       "field": "supporters",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-39",
       "field": "opponents",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-39",
       "field": "analysis",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-40",
       "field": "title",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-40",
       "field": "measure_type",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-40",
       "field": "summary",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-40",
       "field": "yes_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-40",
       "field": "no_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-40",
       "field": "fiscal_effect",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-40",
       "field": "argument_for",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-40",
       "field": "argument_against",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-40",
       "field": "supporters",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-40",
       "field": "opponents",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-40",
       "field": "analysis",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-41",
       "field": "title",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-41",
       "field": "measure_type",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-41",
       "field": "summary",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-41",
       "field": "yes_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-41",
       "field": "no_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-41",
       "field": "fiscal_effect",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-41",
       "field": "argument_for",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-41",
       "field": "argument_against",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-41",
       "field": "supporters",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-41",
       "field": "opponents",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-41",
       "field": "analysis",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-42",
       "field": "title",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-42",
       "field": "measure_type",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-42",
       "field": "summary",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-42",
       "field": "yes_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-42",
       "field": "no_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-42",
       "field": "fiscal_effect",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-42",
       "field": "argument_for",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-42",
       "field": "argument_against",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-42",
       "field": "supporters",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-42",
       "field": "opponents",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-42",
       "field": "analysis",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-43",
       "field": "title",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-43",
       "field": "measure_type",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-43",
       "field": "summary",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-43",
       "field": "yes_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-43",
       "field": "no_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-43",
       "field": "fiscal_effect",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-43",
       "field": "argument_for",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-43",
       "field": "argument_against",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-43",
       "field": "supporters",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-43",
       "field": "opponents",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-43",
       "field": "analysis",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-44",
       "field": "title",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-44",
       "field": "measure_type",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-44",
       "field": "summary",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-44",
       "field": "yes_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-44",
       "field": "no_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-44",
       "field": "fiscal_effect",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-44",
       "field": "argument_for",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-44",
       "field": "argument_against",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-44",
       "field": "supporters",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-44",
       "field": "opponents",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-44",
       "field": "analysis",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-45",
       "field": "title",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-45",
       "field": "measure_type",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-45",
       "field": "summary",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-45",
       "field": "yes_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-45",
       "field": "no_means",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-45",
       "field": "fiscal_effect",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-45",
       "field": "argument_for",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-45",
       "field": "argument_against",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-45",
       "field": "supporters",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-45",
       "field": "opponents",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
     },
     {
       "measure": "prop-45",
       "field": "analysis",
-      "verdict": "pass"
+      "verdict": "pass",
+      "against": "live page"
+    },
+    {
+      "measure": "local-sc-rtm",
+      "field": "title",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-rtm",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-rtm",
+      "field": "district",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-rtm",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-a",
+      "field": "title",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-a",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-a",
+      "field": "district",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-a",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-b",
+      "field": "title",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-b",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-b",
+      "field": "district",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-b",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-c",
+      "field": "title",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-c",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-c",
+      "field": "district",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-c",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-d",
+      "field": "title",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-d",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-d",
+      "field": "district",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-d",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-e",
+      "field": "title",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-e",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-e",
+      "field": "district",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-e",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-f",
+      "field": "title",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-f",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-f",
+      "field": "district",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-f",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-g",
+      "field": "title",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-g",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-g",
+      "field": "district",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-g",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-h",
+      "field": "title",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-h",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-h",
+      "field": "district",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-h",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-i",
+      "field": "title",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-i",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-i",
+      "field": "district",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-i",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-j",
+      "field": "title",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-j",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-j",
+      "field": "district",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-j",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-k",
+      "field": "title",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-k",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-k",
+      "field": "district",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-k",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-l",
+      "field": "title",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-l",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-l",
+      "field": "district",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-l",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-m",
+      "field": "title",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-m",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-m",
+      "field": "district",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-m",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-n",
+      "field": "title",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-n",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-n",
+      "field": "district",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-n",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-o",
+      "field": "title",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-o",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-o",
+      "field": "district",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-o",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-p",
+      "field": "title",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-p",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-p",
+      "field": "district",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-p",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-q",
+      "field": "title",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-q",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-q",
+      "field": "district",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-q",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-r",
+      "field": "title",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-r",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-r",
+      "field": "district",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-r",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-s",
+      "field": "title",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-s",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-s",
+      "field": "district",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sc-s",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
     }
   ],
   "audit": [
@@ -950,11 +1584,23 @@
       "check": "loaded_words",
       "detail": "persuasive wording: \"vote no\"",
       "word": "vote no"
+    },
+    {
+      "measure": "local-sc-c",
+      "field": "ballot_question",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"best\"",
+      "word": "best"
     }
   ],
   "labels": [
     {
       "label": "Analysis by the Legislative Analyst",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "Ballot question (as printed on the ballot)",
       "verdict": "pass",
       "findings": []
     },
@@ -965,6 +1611,11 @@
     },
     {
       "label": "Fiscal effect (Legislative Analyst)",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "Jurisdiction",
       "verdict": "pass",
       "findings": []
     },
@@ -1000,6 +1651,11 @@
     },
     {
       "label": "Supporters",
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "label": "The question on your ballot",
       "verdict": "pass",
       "findings": []
     },
@@ -1125,12 +1781,13 @@
     }
   ],
   "summary": {
-    "checked_at": "2026-10-25 22:29 UTC",
+    "checked_at": "2026-10-26 00:23 UTC",
     "data_file": "data/measures.json",
-    "verified_against": "saved copies of the official pages",
-    "fields_verified": 154,
+    "verified_against": "live official pages",
+    "fields_verified_against_browser_captures": 80,
+    "fields_verified": 234,
     "fields_failed": 0,
-    "labels_checked": 34,
-    "audit_findings": 26
+    "labels_checked": 37,
+    "audit_findings": 27
   }
 }

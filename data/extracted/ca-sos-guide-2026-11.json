@@ -1,0 +1,1613 @@
+[
+  {
+    "id": "prop-1",
+    "number": "1",
+    "title": {
+      "text": "Authorizes Bonds for Housing Affordability Programs.",
+      "source_url": "https://voterguide.sos.ca.gov/propositions/",
+      "source_label": "Official Voter Information Guide: list of propositions",
+      "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "fetched_at": "2026-10-26T00:20:42Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "state",
+      "name": "California"
+    },
+    "topics": [
+      "housing",
+      "bonds",
+      "veterans"
+    ],
+    "documents": [],
+    "arguments_url": "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm",
+    "fields": {
+      "measure_type": {
+        "text": "Legislative Statute.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/",
+        "source_label": "Official Voter Information Guide: list of propositions",
+        "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "fetched_at": "2026-10-26T00:20:42Z",
+        "fetched_by": "crawl"
+      },
+      "summary": {
+        "text": "Authorizes $11.25 billion in state general obligation bonds for housing affordability programs, including multifamily rental housing, mortgages for veterans, supportive housing, preservation of existing affordable housing, and downpayment assistance.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/1/",
+        "source_label": "Official Voter Information Guide: Proposition 1",
+        "source_snapshot": "data/raw/objects/30/30ac640bab129635692d200f5ff1ff06a65e3b4a94020f503eac5a368bb15017",
+        "raw_sha256": "30ac640bab129635692d200f5ff1ff06a65e3b4a94020f503eac5a368bb15017",
+        "fetched_at": "2026-10-26T00:20:43Z",
+        "fetched_by": "crawl"
+      },
+      "yes_means": {
+        "text": "A YES vote on this measure means: The state could borrow $11.25 billion to support veterans and affordable housing.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/1/",
+        "source_label": "Official Voter Information Guide: Proposition 1",
+        "source_snapshot": "data/raw/objects/30/30ac640bab129635692d200f5ff1ff06a65e3b4a94020f503eac5a368bb15017",
+        "raw_sha256": "30ac640bab129635692d200f5ff1ff06a65e3b4a94020f503eac5a368bb15017",
+        "fetched_at": "2026-10-26T00:20:43Z",
+        "fetched_by": "crawl"
+      },
+      "no_means": {
+        "text": "A NO vote on this measure means: The state could not borrow $11.25 billion to support veterans and affordable housing.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/1/",
+        "source_label": "Official Voter Information Guide: Proposition 1",
+        "source_snapshot": "data/raw/objects/30/30ac640bab129635692d200f5ff1ff06a65e3b4a94020f503eac5a368bb15017",
+        "raw_sha256": "30ac640bab129635692d200f5ff1ff06a65e3b4a94020f503eac5a368bb15017",
+        "fetched_at": "2026-10-26T00:20:43Z",
+        "fetched_by": "crawl"
+      },
+      "fiscal_effect": {
+        "text": "Increased state cost of $500 million to $600 million annually for about 25 years to repay the housing bond.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/1/",
+        "source_label": "Official Voter Information Guide: Proposition 1",
+        "source_snapshot": "data/raw/objects/30/30ac640bab129635692d200f5ff1ff06a65e3b4a94020f503eac5a368bb15017",
+        "raw_sha256": "30ac640bab129635692d200f5ff1ff06a65e3b4a94020f503eac5a368bb15017",
+        "fetched_at": "2026-10-26T00:20:43Z",
+        "fetched_by": "crawl"
+      },
+      "argument_for": {
+        "text": "Prop. 1 builds affordable homes for veterans, seniors, people with disabilities, low- and middle-income working families, vulnerable Californians and essential workers—teachers, firefighters and nurses. Expands homeownership opportunities, fast-tracks affordable shovel-ready homes, helps those one crisis away from homelessness. Requires strict fiscal accountability and public oversight with no new taxes.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/1/",
+        "source_label": "Official Voter Information Guide: Proposition 1",
+        "source_snapshot": "data/raw/objects/30/30ac640bab129635692d200f5ff1ff06a65e3b4a94020f503eac5a368bb15017",
+        "raw_sha256": "30ac640bab129635692d200f5ff1ff06a65e3b4a94020f503eac5a368bb15017",
+        "fetched_at": "2026-10-26T00:20:43Z",
+        "fetched_by": "crawl"
+      },
+      "argument_against": {
+        "text": "NO ARGUMENT AGAINST PROPOSITION 1 WAS SUBMITTED.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/1/",
+        "source_label": "Official Voter Information Guide: Proposition 1",
+        "source_snapshot": "data/raw/objects/30/30ac640bab129635692d200f5ff1ff06a65e3b4a94020f503eac5a368bb15017",
+        "raw_sha256": "30ac640bab129635692d200f5ff1ff06a65e3b4a94020f503eac5a368bb15017",
+        "fetched_at": "2026-10-26T00:20:43Z",
+        "fetched_by": "crawl"
+      },
+      "supporters": {
+        "text": "US Vets; CA Federation of Teachers; Self-Help for the Elderly; Habitat for Humanity CA; CA Alliance of Child & Family Services",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/1/",
+        "source_label": "Official Voter Information Guide: Proposition 1",
+        "source_snapshot": "data/raw/objects/30/30ac640bab129635692d200f5ff1ff06a65e3b4a94020f503eac5a368bb15017",
+        "raw_sha256": "30ac640bab129635692d200f5ff1ff06a65e3b4a94020f503eac5a368bb15017",
+        "fetched_at": "2026-10-26T00:20:43Z",
+        "fetched_by": "crawl"
+      },
+      "opponents": {
+        "text": "None submitted",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/1/",
+        "source_label": "Official Voter Information Guide: Proposition 1",
+        "source_snapshot": "data/raw/objects/30/30ac640bab129635692d200f5ff1ff06a65e3b4a94020f503eac5a368bb15017",
+        "raw_sha256": "30ac640bab129635692d200f5ff1ff06a65e3b4a94020f503eac5a368bb15017",
+        "fetched_at": "2026-10-26T00:20:43Z",
+        "fetched_by": "crawl"
+      },
+      "analysis": {
+        "text": "BACKGROUND\nPublic Sector Funds Some Home Building. In most years, about 100,000 houses and apartments are built in California. Most of these housing units are built entirely with private dollars. Some, however, receive financial help from federal, state, or local governments. In the case of housing funded by the state, the state government generally provides local governments, nonprofit organizations, and private developers with grants or low-cost loans to fund a portion of the housing units’ construction costs. Typically, housing built with these funds must be sold or rented to Californians with low incomes.\nBonds Are a Common Way for the State to Fund Home Building and Homeownership Programs. Over the past few decades, the state has used general obligation bonds to fund various housing programs. Bonds are a way the state borrows money to cover the up-front costs of a development and then repays the money plus interest over time. The last statewide general obligation bond for affordable housing was approved by voters in 2024, providing $2 billion to provide housing for veterans and other people with mental health or substance use challenges who are facing homelessness.\nHome Loan Program for Veterans. The state’s veterans home loan program provides home loans to eligible veterans, including veterans who may not otherwise qualify for a home loan. Under the program, the state sells general obligation bonds to investors and uses the funds to provide loans to veterans to purchase homes. Participating veterans repay the cost of the bonds through their payments on their home loan. The last statewide general obligation bond for veterans home loans was approved by voters in 2018, which provided $1 billion for the program.\nPROPOSAL\nNew General Obligation Bond for Housing. Proposition 1 allows the state to sell $11.25 billion in general obligation bonds for housing purposes. This amount consists of (1) a $10 billion bond for a variety of state housing programs that would be repaid by the General Fund and (2) a $1.25 billion bond that would be repaid by veterans’ payments on their home loans. (The General Fund is the account the state uses to pay for most public services, including education, health care, and prisons. For more information on the state’s General Fund-supported bonds, please see “Overview of State Bond Debt” later in this guide.)\nState Housing Programs. Proposition 1 provides bond funding for various types of housing programs, which are summarized in Figure 1. The funds would be allocated over a number of years. The major categories of housing programs supported by the bond are:\nAffordable Multifamily Housing Programs. Proposition 1 provides $7.2 billion to acquire, build, or renovate rental housing, such as apartment buildings. These programs generally provide local governments and private developers with low-interest loans to fund part of the project cost. In exchange, projects generally must reserve units for low-income households for a period of 55 years. Some of this funding would be used for supportive housing, which provides on-site service (such as mental health and substance use counseling) to certain residents.\nHomeownership Programs. Proposition 1 provides $1.1 billion to support homeownership for low- and moderate-income households. Some of the funds would be used to provide homebuying assistance for first-time homebuyers through loans that generally do not have to be paid back until the home is sold or paid off. Other funds would be provided to nonprofit organizations and other entities for activities such as acquiring land to build homes for eligible low-income homebuyers and repairing existing homes owned by low-income households.\nInfrastructure Programs. Proposition 1 provides $500 million for a variety of infrastructure projects to support affordable housing developments, such as water, sewage, parks, and transportation improvements.\nFarmworker Housing Program. Proposition 1 provides $450 million in loans and grants to build or renovate housing for farmworkers. Program funds could be used for both rental and owner-occupied housing.\nHigher Education Student Housing Programs. Proposition 1 provides $350 million, split evenly between the University of California and California State University, for affordable student housing.\nTribal Housing Program. Proposition 1 provides $200 million in grants to tribes. Funds could be used for various housing-related purposes, including construction and repair of rental and owner-occupied housing.\nLocal Pilot Programs. Proposition 1 provides $200 million that would be available to cities, counties, and certain other entities for pilot projects aimed at developing housing at reduced costs.\nVeterans Housing Program. Proposition 1 also provides $1.25 billion for home loan assistance to veterans. Veterans generally use these loans to purchase single-family residences, condominiums, farms, and mobile homes.\nFISCAL EFFECTS\nIncreased State Cost to Repay the $10 Billion Bond for Housing Programs. The state General Fund cost to repay the bond would be $500 million to $600 million annually for about 25 years. The estimated annual cost would be about one-quarter of 1 percent (0.25 percent) of the state’s total General Fund budget. Since the state has to pay interest on the money it borrows, the total cost of the bond would be about 15 percent more (after adjusting for inflation) than if the state paid up front with money it already has.\nNo Direct State Cost for Veterans Housing Program. Veterans participating in the home loan program would make monthly payments to the state, allowing the state to repay the bonds. These payments have always covered the amount owed on the bonds, meaning the program has always operated at no direct cost to the state.\nAdministrative Costs. A number of state entities would experience increased costs to administer the various housing programs. A portion of the bond funds would cover these costs.\nImpact of Funds. Much of the funding from Proposition 1 would be used together with other government monies to provide housing assistance. The bond funds would provide subsidies for up to 40,000 multifamily rental units, as well as about 2,500 units for farmworkers and about 1,200 beds for university students. The funds also would help up to 40,000 households, including about 2,100 veterans, with homeownership by providing homebuyer assistance and supporting the production and repair of homes.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/1/analysis.htm",
+        "source_label": "Analysis by the Legislative Analyst (Official Voter Information Guide)",
+        "source_snapshot": "data/raw/objects/c5/c56be19f5358034384cc80a3272d1792612acc285ff46a48330ce7d333d45b24",
+        "raw_sha256": "c56be19f5358034384cc80a3272d1792612acc285ff46a48330ce7d333d45b24",
+        "fetched_at": "2026-10-26T00:20:51Z",
+        "fetched_by": "crawl"
+      }
+    }
+  },
+  {
+    "id": "prop-2",
+    "number": "2",
+    "title": {
+      "text": "Increases State's Rainy Day Fund.",
+      "source_url": "https://voterguide.sos.ca.gov/propositions/",
+      "source_label": "Official Voter Information Guide: list of propositions",
+      "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "fetched_at": "2026-10-26T00:20:42Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "state",
+      "name": "California"
+    },
+    "topics": [
+      "budget",
+      "state finances"
+    ],
+    "documents": [],
+    "arguments_url": "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+    "fields": {
+      "measure_type": {
+        "text": "Legislative Constitutional Amendment.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/",
+        "source_label": "Official Voter Information Guide: list of propositions",
+        "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "fetched_at": "2026-10-26T00:20:42Z",
+        "fetched_by": "crawl"
+      },
+      "summary": {
+        "text": "Increases California's Rainy Day Fund, approved by voters in 2014, to provide funding for education, health care, public safety, and other essential services during economic downturns.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/2/",
+        "source_label": "Official Voter Information Guide: Proposition 2",
+        "source_snapshot": "data/raw/objects/6a/6ae6523daee93b442ff019ae5310be8ba531f84f8831b07db13514979df15a46",
+        "raw_sha256": "6ae6523daee93b442ff019ae5310be8ba531f84f8831b07db13514979df15a46",
+        "fetched_at": "2026-10-26T00:20:44Z",
+        "fetched_by": "crawl"
+      },
+      "yes_means": {
+        "text": "A YES vote on this measure means: Rules for building state budget reserves and paying down extra state debts would change. As a result, state budget reserves would be higher. The state also would be required to make extra debt payments for longer.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/2/",
+        "source_label": "Official Voter Information Guide: Proposition 2",
+        "source_snapshot": "data/raw/objects/6a/6ae6523daee93b442ff019ae5310be8ba531f84f8831b07db13514979df15a46",
+        "raw_sha256": "6ae6523daee93b442ff019ae5310be8ba531f84f8831b07db13514979df15a46",
+        "fetched_at": "2026-10-26T00:20:44Z",
+        "fetched_by": "crawl"
+      },
+      "no_means": {
+        "text": "A NO vote on this measure means: Rules for building state budget reserves and paying down extra state debts would not change.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/2/",
+        "source_label": "Official Voter Information Guide: Proposition 2",
+        "source_snapshot": "data/raw/objects/6a/6ae6523daee93b442ff019ae5310be8ba531f84f8831b07db13514979df15a46",
+        "raw_sha256": "6ae6523daee93b442ff019ae5310be8ba531f84f8831b07db13514979df15a46",
+        "fetched_at": "2026-10-26T00:20:44Z",
+        "fetched_by": "crawl"
+      },
+      "fiscal_effect": {
+        "text": "State budget reserves would be higher.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/2/",
+        "source_label": "Official Voter Information Guide: Proposition 2",
+        "source_snapshot": "data/raw/objects/6a/6ae6523daee93b442ff019ae5310be8ba531f84f8831b07db13514979df15a46",
+        "raw_sha256": "6ae6523daee93b442ff019ae5310be8ba531f84f8831b07db13514979df15a46",
+        "fetched_at": "2026-10-26T00:20:44Z",
+        "fetched_by": "crawl"
+      },
+      "argument_for": {
+        "text": "Vote yes on Proposition 2 to protect schools, healthcare, and public safety funding. Proposition 2 doubles the state's Rainy Day Fund, stops politicians from overspending when there is a budget surplus, and ensures education funding continues during economic downturns. It has bipartisan support from firefighters, hospitals, health clinics, and educators.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/2/",
+        "source_label": "Official Voter Information Guide: Proposition 2",
+        "source_snapshot": "data/raw/objects/6a/6ae6523daee93b442ff019ae5310be8ba531f84f8831b07db13514979df15a46",
+        "raw_sha256": "6ae6523daee93b442ff019ae5310be8ba531f84f8831b07db13514979df15a46",
+        "fetched_at": "2026-10-26T00:20:44Z",
+        "fetched_by": "crawl"
+      },
+      "argument_against": {
+        "text": "Proposition 2 guarantees more spending, not savings, creating a loophole that makes taxpayer rebates less likely by excluding reserve deposits from California's constitutional spending limit. It provides no new funding for education, healthcare, or public safety. Vote No to protect taxpayer rebates and constitutional limits.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/2/",
+        "source_label": "Official Voter Information Guide: Proposition 2",
+        "source_snapshot": "data/raw/objects/6a/6ae6523daee93b442ff019ae5310be8ba531f84f8831b07db13514979df15a46",
+        "raw_sha256": "6ae6523daee93b442ff019ae5310be8ba531f84f8831b07db13514979df15a46",
+        "fetched_at": "2026-10-26T00:20:44Z",
+        "fetched_by": "crawl"
+      },
+      "supporters": {
+        "text": "CA Professional Firefighters; LA Chamber of Commerce; Gavin Newsom; Xavier Becerra; Assemblymember Jesse Gabriel",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/2/",
+        "source_label": "Official Voter Information Guide: Proposition 2",
+        "source_snapshot": "data/raw/objects/6a/6ae6523daee93b442ff019ae5310be8ba531f84f8831b07db13514979df15a46",
+        "raw_sha256": "6ae6523daee93b442ff019ae5310be8ba531f84f8831b07db13514979df15a46",
+        "fetched_at": "2026-10-26T00:20:44Z",
+        "fetched_by": "crawl"
+      },
+      "opponents": {
+        "text": "None submitted",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/2/",
+        "source_label": "Official Voter Information Guide: Proposition 2",
+        "source_snapshot": "data/raw/objects/6a/6ae6523daee93b442ff019ae5310be8ba531f84f8831b07db13514979df15a46",
+        "raw_sha256": "6ae6523daee93b442ff019ae5310be8ba531f84f8831b07db13514979df15a46",
+        "fetched_at": "2026-10-26T00:20:44Z",
+        "fetched_by": "crawl"
+      },
+      "analysis": {
+        "text": "BACKGROUND\nTHE STATE BUDGET\nHow Does the State Spend Its Money? This year, the state plans to spend about $250 billion from the General Fund to pay for services to the public. The General Fund is the account the state uses to pay for most public services. About half of this spending is for schools, community colleges, and the state's public universities. (The State Constitution sets a minimum spending level for schools and community colleges.) About another one-third of state spending is for health and human services programs, mainly for the state's low-income health insurance program, Medi-Cal. The rest goes mostly to prisons, courts, and other state services.\nHow Does the State Raise Revenue? The income tax is the state's largest tax. It pays for most spending from the General Fund. Other major taxes include the corporation tax and the sales tax. Much of the income tax is paid by high-income taxpayers, whose incomes often include gains from stocks and other investments.\nState Revenues Are Unpredictable. State revenues go up and down a lot from year to year. This is because revenues depend on how the economy and stock market are doing. When things are going well, revenues can grow quickly. When things are going badly, like during a recession or a stock market crash, revenues can decline by tens of billions of dollars. During a bad recession or market crash, total revenue declines over a few years can equal 50 percent or more of annual General Fund revenues.\nThe State Must Meet Certain Budgeting Requirements Each Year. The State Constitution requires the Legislature to pass a balanced budget each year. This means the state cannot adopt a budget that spends more money than is available. In addition, the State Constitution limits how much tax revenue the state can spend. This limit is called the “state appropriations limit.” Certain kinds of spending—like infrastructure—do not count toward the limit. All other spending, including money put into reserves, does count toward the limit.\nRESERVES\nReserves Allow the State to Maintain Spending When Revenues Decline. The state puts money into reserves when the economy is doing well. This means that money is saved instead of being spent on public programs during these periods of time. When the economy gets worse and revenues decline, the state uses reserves to help maintain spending on public programs. Reserves help the state avoid some spending cuts, tax increases, and borrowing to balance the budget. Currently, the state has about $20 billion in reserves that can be used for any public program.\nState Constitution Requires the State to Save Money in the “Rainy Day Fund.” The State Constitution requires the state to deposit 0.75 percent of General Fund tax revenues in the state's main rainy day fund, which is called the Budget Stabilization Account, each year. Money in the rainy day fund can be used for any state program. In addition, the state must put more money into the rainy day fund in years when revenue from taxes on investment gains is higher than normal. During a budget emergency, the state can stop making deposits and/or take money out of the rainy day fund.\nSavings Are No Longer Required Once the Rainy Day Fund Reaches a Certain Level. Once money in the rainy day fund reaches 10 percent of General Fund taxes, the state is no longer required to make additional deposits. The money that would have gone into the rainy day fund instead must be spent on infrastructure (like highways and housing).\nDEBT\nThe State Has Different Kinds of Debts. The state has more than $250 billion in debts. These include debt for infrastructure and pension and retiree health benefits earned by state employees. The state also sometimes borrows money from other state funds to help pay General Fund costs. State debts are repaid over time, usually according to a schedule or plan. Each year, the state makes payments toward its debts.\nState Constitution Requires the State to Make Extra Debt Payments Toward Pension and Health Benefits. The State Constitution requires the state to make extra debt payments above those normally made each year. The amount of these extra debt payments is the same as the amount initially deposited into the rainy day fund each year. The state may only use these extra debt payments to pay down long-term pension and retiree health care debts. Making extra payments toward these debts saves the state money in the long run.\nExtra Debt Payments Optional After 2030. The requirement for extra debt payments ends in 2030. After that, the Legislature and the Governor could decide to deposit the money for extra debt payments into the rainy day fund instead. Or, the Legislature and the Governor could make smaller extra debt payments and put the rest of the money into the rainy day fund.\nPROPOSAL\nSave More in the Rainy Day Fund. Proposition 2 requires the state to make deposits into the rainy day fund until it reaches 20 percent of General Fund taxes (instead of 10 percent of General Fund taxes). In addition, the state would make even larger deposits in years when revenues from taxes on investment gains are very high, like when the stock market is booming.\nExtend and Expand Extra Debt Payments. Proposition 2 also requires the state to make extra debt payments through 2040 (instead of through 2030). These debt payments would be the same as the amount initially deposited into the rainy day fund each year. In addition, the amount set aside for extra debt payments could be used for an expanded set of purposes. Specifically, these payments could be used to make required payments to schools and community colleges, repay borrowing from other state funds, and repay certain loans from the federal government.\nChange How Rainy Day Fund Deposits Count Toward the State Appropriations Limit. Deposits into the rainy day fund would not count toward the state appropriations limit. Instead, the money would count toward the limit when it is taken out.\nChange How Other Deposits Count Toward the State Appropriations Limit. The state has an account to set aside funds when revenues are surging. By setting these funds aside, the state can avoid overspending when revenue estimates are particularly uncertain. Under Proposition 2, deposits into this account also would not count toward the state appropriations limit. Instead, the money would count toward the limit when it is taken out. This exclusion could not be larger than 10 percent of General Fund taxes in each year.\nFISCAL EFFECTS\nBudget Reserves Would Be Higher. By continuing to require deposits into the rainy day fund until the balance reaches 20 percent of General Fund taxes, the state would save more over time. In addition, by depositing more money when revenues are surging, the state likely would save more in the rainy day fund in certain years. More reserves would make balancing the budget somewhat easier when revenues decline.\nPossibly More Debt Payments. By requiring the state to make extra debt payments through 2040, the state might make more debt payments than it would without Proposition 2.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/2/analysis.htm",
+        "source_label": "Analysis by the Legislative Analyst (Official Voter Information Guide)",
+        "source_snapshot": "data/raw/objects/2a/2acd60d356f66610f821604f99a0e97ce40762aab9799aed9c5cd1b8ca73b621",
+        "raw_sha256": "2acd60d356f66610f821604f99a0e97ce40762aab9799aed9c5cd1b8ca73b621",
+        "fetched_at": "2026-10-26T00:20:51Z",
+        "fetched_by": "crawl"
+      }
+    }
+  },
+  {
+    "id": "prop-3",
+    "number": "3",
+    "title": {
+      "text": "Provides Permanent Funding for Schools and Health Care by Extending Existing Tax on High Incomes.",
+      "source_url": "https://voterguide.sos.ca.gov/propositions/",
+      "source_label": "Official Voter Information Guide: list of propositions",
+      "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "fetched_at": "2026-10-26T00:20:42Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "state",
+      "name": "California"
+    },
+    "topics": [
+      "taxes",
+      "education",
+      "health care"
+    ],
+    "documents": [],
+    "arguments_url": "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+    "fields": {
+      "measure_type": {
+        "text": "Initiative Constitutional Amendment.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/",
+        "source_label": "Official Voter Information Guide: list of propositions",
+        "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "fetched_at": "2026-10-26T00:20:42Z",
+        "fetched_by": "crawl"
+      },
+      "summary": {
+        "text": "Makes permanent existing voter-approved tax rates for individuals earning over $371,000 (adjusted annually for inflation). Allocates tax revenues to public education.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/3/",
+        "source_label": "Official Voter Information Guide: Proposition 3",
+        "source_snapshot": "data/raw/objects/89/892aa514c1194e5fc1b8fbdb78e637295628c391036f1b658b2211410b8b7f51",
+        "raw_sha256": "892aa514c1194e5fc1b8fbdb78e637295628c391036f1b658b2211410b8b7f51",
+        "fetched_at": "2026-10-26T00:20:44Z",
+        "fetched_by": "crawl"
+      },
+      "yes_means": {
+        "text": "A YES vote on this measure means: An income tax increase on high-income earners in place since 2012 would become permanent instead of expiring in 2031.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/3/",
+        "source_label": "Official Voter Information Guide: Proposition 3",
+        "source_snapshot": "data/raw/objects/89/892aa514c1194e5fc1b8fbdb78e637295628c391036f1b658b2211410b8b7f51",
+        "raw_sha256": "892aa514c1194e5fc1b8fbdb78e637295628c391036f1b658b2211410b8b7f51",
+        "fetched_at": "2026-10-26T00:20:44Z",
+        "fetched_by": "crawl"
+      },
+      "no_means": {
+        "text": "A NO vote on this measure means: An income tax increase on high-income earners in place since 2012 would expire in 2031.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/3/",
+        "source_label": "Official Voter Information Guide: Proposition 3",
+        "source_snapshot": "data/raw/objects/89/892aa514c1194e5fc1b8fbdb78e637295628c391036f1b658b2211410b8b7f51",
+        "raw_sha256": "892aa514c1194e5fc1b8fbdb78e637295628c391036f1b658b2211410b8b7f51",
+        "fetched_at": "2026-10-26T00:20:44Z",
+        "fetched_by": "crawl"
+      },
+      "fiscal_effect": {
+        "text": "Maintains $5 billion to $15 billion of annual state income tax revenue by making a temporary tax increase on high-income earners permanent instead of letting it expire in 2031.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/3/",
+        "source_label": "Official Voter Information Guide: Proposition 3",
+        "source_snapshot": "data/raw/objects/89/892aa514c1194e5fc1b8fbdb78e637295628c391036f1b658b2211410b8b7f51",
+        "raw_sha256": "892aa514c1194e5fc1b8fbdb78e637295628c391036f1b658b2211410b8b7f51",
+        "fetched_at": "2026-10-26T00:20:44Z",
+        "fetched_by": "crawl"
+      },
+      "argument_for": {
+        "text": "PROPOSITION 3 PROTECTS OUR SCHOOLS AND HEALTHCARE WITHOUT RAISING YOUR TAXES. Prop. 3 prevents a massive tax cut for millionaires and billionaires by maintaining the current tax rates the wealthiest 2% have paid for 15 years and requires strict accountability and audits to ensure school funding gets to classrooms. Vote YES.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/3/",
+        "source_label": "Official Voter Information Guide: Proposition 3",
+        "source_snapshot": "data/raw/objects/89/892aa514c1194e5fc1b8fbdb78e637295628c391036f1b658b2211410b8b7f51",
+        "raw_sha256": "892aa514c1194e5fc1b8fbdb78e637295628c391036f1b658b2211410b8b7f51",
+        "fetched_at": "2026-10-26T00:20:44Z",
+        "fetched_by": "crawl"
+      },
+      "argument_against": {
+        "text": "Californians already pay the nation’s highest income, sales, and gas taxes—and have the highest cost of living. Prop. 3 makes temporary income taxes permanent while Sacramento wastes billions on failed programs instead of voters’ priorities. Don’t reward failure. Fix spending first before making taxes permanent. No on Prop. 3.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/3/",
+        "source_label": "Official Voter Information Guide: Proposition 3",
+        "source_snapshot": "data/raw/objects/89/892aa514c1194e5fc1b8fbdb78e637295628c391036f1b658b2211410b8b7f51",
+        "raw_sha256": "892aa514c1194e5fc1b8fbdb78e637295628c391036f1b658b2211410b8b7f51",
+        "fetched_at": "2026-10-26T00:20:44Z",
+        "fetched_by": "crawl"
+      },
+      "supporters": {
+        "text": "California Teachers Association; CA School Nurses Organization; California State PTA; Planned Parenthood Affiliates of CA",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/3/",
+        "source_label": "Official Voter Information Guide: Proposition 3",
+        "source_snapshot": "data/raw/objects/89/892aa514c1194e5fc1b8fbdb78e637295628c391036f1b658b2211410b8b7f51",
+        "raw_sha256": "892aa514c1194e5fc1b8fbdb78e637295628c391036f1b658b2211410b8b7f51",
+        "fetched_at": "2026-10-26T00:20:44Z",
+        "fetched_by": "crawl"
+      },
+      "opponents": {
+        "text": "California Taxpayers Association; Family Business Association of California; California Hispanic Chambers of Commerce",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/3/",
+        "source_label": "Official Voter Information Guide: Proposition 3",
+        "source_snapshot": "data/raw/objects/89/892aa514c1194e5fc1b8fbdb78e637295628c391036f1b658b2211410b8b7f51",
+        "raw_sha256": "892aa514c1194e5fc1b8fbdb78e637295628c391036f1b658b2211410b8b7f51",
+        "fetched_at": "2026-10-26T00:20:44Z",
+        "fetched_by": "crawl"
+      },
+      "analysis": {
+        "text": "BACKGROUND\nMost State Money Comes From the Income Tax. The income tax is the state’s largest tax. It pays for most spending from the state’s main operating account, the General Fund. The General Fund is the account the state uses to pay for most public services, including education, health care, and prisons. The tax applies to most types of income, such as salaries, wages, interest, and profits from the sale of stocks, property, and other investments. The income tax rate starts out low and gradually goes up for taxpayers with higher incomes. For example, a married couple pays a 1 percent tax on the first $21,000 of income, a 2 percent tax on income between $21,000 and $50,000, and a 4 percent tax on income between $50,000 and $80,000.\nPrior Voter-Approved Tax Increases. Voters approved Proposition 30 in 2012 to temporarily increase income tax rates on high-income taxpayers. In 2016, voters approved Proposition 55 to extend these higher rates until 2030. The top 2 percent of California taxpayers pay these higher rates. These taxpayers pay about half of all state income taxes.\nHow Does the State Spend Its Money? This year, the state plans to spend about $250 billion from the General Fund to pay for services to the public. About half of this spending is for schools, community colleges, and the state’s public universities. (The State Constitution sets a minimum spending level for schools and community colleges.) About another one-third of state spending is for health and human services programs, mainly for the state’s low-income health insurance program, Medi-Cal. The rest goes mostly to prisons, courts, and other state services.\nPROPOSAL\nProposition 3 makes the higher income tax rates established by Proposition 30 permanent instead of letting them expire in 2031. Figure 1 shows what income tax rates would be if this measure passes and what they would be if it is rejected.\nFISCAL EFFECTS\nProposition 3 Would Bring in Between $5 Billion and $15 Billion Each Year. The amount of money brought in by Proposition 3 will go up and down a lot from year to year. This is because much of the revenue comes from taxing income that is closely tied to the stock market, which is always changing. In a weak year, the proposition might bring in around $5 billion in revenue to the state. In a strong year, the proposition might bring in $15 billion in revenue to the state. In most years, revenue would be in between these amounts.\nFunding for Education and Other Programs. Proposition 3 results in funding for education and other programs. Roughly 40 percent of the funding would go to schools and community colleges. The rest would go to other state programs. Part of this amount would be set aside in budget reserves the state could use to fund these programs when revenues decline.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/3/analysis.htm",
+        "source_label": "Analysis by the Legislative Analyst (Official Voter Information Guide)",
+        "source_snapshot": "data/raw/objects/f1/f1f4bffe6e34581fe4f448aadc19c9be2dc977d664d3c6cb6c62c173675c8574",
+        "raw_sha256": "f1f4bffe6e34581fe4f448aadc19c9be2dc977d664d3c6cb6c62c173675c8574",
+        "fetched_at": "2026-10-26T00:20:52Z",
+        "fetched_by": "crawl"
+      }
+    }
+  },
+  {
+    "id": "prop-4",
+    "number": "4",
+    "title": {
+      "text": "Repeals Prohibition Against Public Funding of Election Campaigns.",
+      "source_url": "https://voterguide.sos.ca.gov/propositions/",
+      "source_label": "Official Voter Information Guide: list of propositions",
+      "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "fetched_at": "2026-10-26T00:20:42Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "state",
+      "name": "California"
+    },
+    "topics": [
+      "elections",
+      "campaign finance"
+    ],
+    "documents": [],
+    "arguments_url": "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
+    "fields": {
+      "measure_type": {
+        "text": "Legislative Statute.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/",
+        "source_label": "Official Voter Information Guide: list of propositions",
+        "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "fetched_at": "2026-10-26T00:20:42Z",
+        "fetched_by": "crawl"
+      },
+      "summary": {
+        "text": "Repeals prohibition on state and local governments offering public funding of candidate election campaigns. Public funding programs may not use funds earmarked for education, transportation, or public safety.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/4/",
+        "source_label": "Official Voter Information Guide: Proposition 4",
+        "source_snapshot": "data/raw/objects/58/5861495f5ebb608ba3b9171ad61b473bbae3f5c71c47d0f043e5452b16dc6780",
+        "raw_sha256": "5861495f5ebb608ba3b9171ad61b473bbae3f5c71c47d0f043e5452b16dc6780",
+        "fetched_at": "2026-10-26T00:20:45Z",
+        "fetched_by": "crawl"
+      },
+      "yes_means": {
+        "text": "A YES vote on this measure means: State and local governments could create public campaign financing programs for public office candidates, subject to limits on which public funds could be used, how the public funds could be used, and who could receive them.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/4/",
+        "source_label": "Official Voter Information Guide: Proposition 4",
+        "source_snapshot": "data/raw/objects/58/5861495f5ebb608ba3b9171ad61b473bbae3f5c71c47d0f043e5452b16dc6780",
+        "raw_sha256": "5861495f5ebb608ba3b9171ad61b473bbae3f5c71c47d0f043e5452b16dc6780",
+        "fetched_at": "2026-10-26T00:20:45Z",
+        "fetched_by": "crawl"
+      },
+      "no_means": {
+        "text": "A NO vote on this measure means: State and most local governments would remain unable to create public campaign finance programs for public office candidates.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/4/",
+        "source_label": "Official Voter Information Guide: Proposition 4",
+        "source_snapshot": "data/raw/objects/58/5861495f5ebb608ba3b9171ad61b473bbae3f5c71c47d0f043e5452b16dc6780",
+        "raw_sha256": "5861495f5ebb608ba3b9171ad61b473bbae3f5c71c47d0f043e5452b16dc6780",
+        "fetched_at": "2026-10-26T00:20:45Z",
+        "fetched_by": "crawl"
+      },
+      "fiscal_effect": {
+        "text": "Ongoing costs to the state of a few hundred thousand dollars each year for the Fair Political Practices Commission to answer questions from state and local governments about public campaign finance programs.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/4/",
+        "source_label": "Official Voter Information Guide: Proposition 4",
+        "source_snapshot": "data/raw/objects/58/5861495f5ebb608ba3b9171ad61b473bbae3f5c71c47d0f043e5452b16dc6780",
+        "raw_sha256": "5861495f5ebb608ba3b9171ad61b473bbae3f5c71c47d0f043e5452b16dc6780",
+        "fetched_at": "2026-10-26T00:20:45Z",
+        "fetched_by": "crawl"
+      },
+      "argument_for": {
+        "text": "YES ON 4. California is the ONLY state that bans public funding of campaigns— communities in all other 49 states have this right. Special interests want to keep the ban to protect their power. Prop. 4 removes it. Strict taxpayer safeguards. Vote YES: Elections should be won, not bought.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/4/",
+        "source_label": "Official Voter Information Guide: Proposition 4",
+        "source_snapshot": "data/raw/objects/58/5861495f5ebb608ba3b9171ad61b473bbae3f5c71c47d0f043e5452b16dc6780",
+        "raw_sha256": "5861495f5ebb608ba3b9171ad61b473bbae3f5c71c47d0f043e5452b16dc6780",
+        "fetched_at": "2026-10-26T00:20:45Z",
+        "fetched_by": "crawl"
+      },
+      "argument_against": {
+        "text": "Prop. 4 allows politicians to use YOUR taxpayer money to fund their negative campaigns. Prop. 4 has NO LIMIT on the number of candidates who can get taxpayer money and NO LIMIT on how much taxpayer money they can get. Worse yet, Prop. 4 allows SPECIAL INTEREST MONEY IN POLITICS. NO ON PROP. 4.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/4/",
+        "source_label": "Official Voter Information Guide: Proposition 4",
+        "source_snapshot": "data/raw/objects/58/5861495f5ebb608ba3b9171ad61b473bbae3f5c71c47d0f043e5452b16dc6780",
+        "raw_sha256": "5861495f5ebb608ba3b9171ad61b473bbae3f5c71c47d0f043e5452b16dc6780",
+        "fetched_at": "2026-10-26T00:20:45Z",
+        "fetched_by": "crawl"
+      },
+      "supporters": {
+        "text": "League of Women Voters of CA; California Nurses Association; Mental Health Advocacy; Social Security Works; Consumer Watchdog",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/4/",
+        "source_label": "Official Voter Information Guide: Proposition 4",
+        "source_snapshot": "data/raw/objects/58/5861495f5ebb608ba3b9171ad61b473bbae3f5c71c47d0f043e5452b16dc6780",
+        "raw_sha256": "5861495f5ebb608ba3b9171ad61b473bbae3f5c71c47d0f043e5452b16dc6780",
+        "fetched_at": "2026-10-26T00:20:45Z",
+        "fetched_by": "crawl"
+      },
+      "opponents": {
+        "text": "California Taxpayers Assn; Howard Jarvis Taxpayers Assn; Family Business Assn of California; United Latinos Action",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/4/",
+        "source_label": "Official Voter Information Guide: Proposition 4",
+        "source_snapshot": "data/raw/objects/58/5861495f5ebb608ba3b9171ad61b473bbae3f5c71c47d0f043e5452b16dc6780",
+        "raw_sha256": "5861495f5ebb608ba3b9171ad61b473bbae3f5c71c47d0f043e5452b16dc6780",
+        "fetched_at": "2026-10-26T00:20:45Z",
+        "fetched_by": "crawl"
+      },
+      "analysis": {
+        "text": "BACKGROUND\nThe Political Reform Act. Many people, groups, and businesses spend money to support or oppose candidates for public office and ballot measures. California's Political Reform Act sets rules for how money can be used in politics and requires public reporting of political spending. These rules apply to state and local candidates, ballot measures, and other public officials, but not to federal candidates or officials. (Federal law establishes campaign finance and reporting requirements for federal offices.) The Political Reform Act has been updated by voters over the years.\nBan on Public Funds to Pay for Campaigns. The Political Reform Act bans the use of public funds for political candidates' campaigns. This ban applies to most elected offices at the state level and local level. (This ban does not apply to city office elections in certain charter cities. Los Angeles, San Francisco, Long Beach, Oakland, and Berkeley are current examples of charter cities that provide public funds to certain campaigns.)\nEntities That Oversee Campaign Finance Laws. California's campaign finance laws are administered by the Fair Political Practices Commission and the California Secretary of State. State law requires people and groups to report how much money they give, receive, and spend on political campaigns. This information is available to the public on the Secretary of State's website. The Fair Political Practices Commission enforces and interprets the Political Reform Act. The Fair Political Practices Commission reviews the finance reports and can fine candidates and donors who break the law. The Fair Political Practices Commission issues guidance based on its interpretation of the Political Reform Act.\nPROPOSAL\nLifts Ban on Use of Public Funds to Pay for Candidates' Campaigns. Proposition 4 lifts the ban on using public funds for political candidates' campaigns. Removing the ban allows state and local governments to create public campaign financing programs in the future if they wish. Proposition 4 does not create a public campaign finance system for the state or local governments directly.\nSets Rules for Future State and Local Public Campaign Finance Programs. Proposition 4 sets broad rules for future state and local public campaign finance programs but leaves many key design decisions to future state and local decision makers. Proposition 4 limits which public funds can be used for campaigns, who can receive the funds, and how the funds can be spent in any future public campaign finance program. For example, money meant for education, transportation, or public safety cannot be used for campaigns. Candidates can only receive public funds if they show broad-based support in their district and agree to spending limits and other program rules. Public funds cannot be used for legal defense fees or fines, or to repay a candidate's personal campaign loan. State and local governments can design and implement their own programs within the broad rules set by Proposition 4.\nFair Political Practices Commission Would Issue Guidance on Public Campaign Finance Programs. Proposition 4 specifies that the Fair Political Practices Commission is not required to administer or enforce local public campaign finance programs. Rather, state and local government officials could ask the Fair Political Practices Commission for guidance on how to create public campaign finance programs consistent with Proposition 4.\nFISCAL EFFECTS\nCosts of Possible Public Campaign Finance Programs Depend on Future Decisions. Proposition 4 does not create a public campaign finance program. However, it allows state and local governments to create such programs in the future. The cost of these programs could be significant for governments that choose to create them. The total cost would depend on which governments created such programs and how those programs were designed.\nMinor State Costs to Support State and Local Governments Considering Public Campaign Finance Programs. If voters approve Proposition 4, state and local government officials likely would ask the Fair Political Practices Commission for guidance on creating public campaign finance programs under the Political Reform Act. This likely would require the Fair Political Practices Commission to hire more legal staff to help answer these questions. As a result, state costs would be a few hundred thousand dollars each year. This amount is much less than one-tenth of 1 percent (0.1 percent) of the state's total General Fund budget. (The General Fund is the account the state uses to pay for most public services, including education, health care, and prisons.)",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/4/analysis.htm",
+        "source_label": "Analysis by the Legislative Analyst (Official Voter Information Guide)",
+        "source_snapshot": "data/raw/objects/83/83aa8e96ed9c3d750da421e2e601e965d526d80d8e6c751f0bf0ca66d9c10708",
+        "raw_sha256": "83aa8e96ed9c3d750da421e2e601e965d526d80d8e6c751f0bf0ca66d9c10708",
+        "fetched_at": "2026-10-26T00:20:53Z",
+        "fetched_by": "crawl"
+      }
+    }
+  },
+  {
+    "id": "prop-5",
+    "number": "5",
+    "title": {
+      "text": "Changes Recall Election Process for Statewide Officers.",
+      "source_url": "https://voterguide.sos.ca.gov/propositions/",
+      "source_label": "Official Voter Information Guide: list of propositions",
+      "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "fetched_at": "2026-10-26T00:20:42Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "state",
+      "name": "California"
+    },
+    "topics": [
+      "elections",
+      "recall"
+    ],
+    "documents": [],
+    "arguments_url": "https://voterguide.sos.ca.gov/propositions/5/arguments-rebuttals.htm",
+    "fields": {
+      "measure_type": {
+        "text": "Legislative Constitutional Amendment.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/",
+        "source_label": "Official Voter Information Guide: list of propositions",
+        "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "fetched_at": "2026-10-26T00:20:42Z",
+        "fetched_by": "crawl"
+      },
+      "summary": {
+        "text": "Under current law, voters elect replacement candidates at the same time as the recall election. This measure instead fills recall vacancies by subsequent special election or appointment.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/5/",
+        "source_label": "Official Voter Information Guide: Proposition 5",
+        "source_snapshot": "data/raw/objects/68/682d8f4cb64e2828f69f8552ca3191336346e4ab759640a95e4a5d04b165f0b1",
+        "raw_sha256": "682d8f4cb64e2828f69f8552ca3191336346e4ab759640a95e4a5d04b165f0b1",
+        "fetched_at": "2026-10-26T00:20:45Z",
+        "fetched_by": "crawl"
+      },
+      "yes_means": {
+        "text": "A YES vote on this measure means: Recall elections would no longer include a question about who should fill the vacancy. Instead, vacancies typically would be filled through special elections or appointments, depending on the office and timing.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/5/",
+        "source_label": "Official Voter Information Guide: Proposition 5",
+        "source_snapshot": "data/raw/objects/68/682d8f4cb64e2828f69f8552ca3191336346e4ab759640a95e4a5d04b165f0b1",
+        "raw_sha256": "682d8f4cb64e2828f69f8552ca3191336346e4ab759640a95e4a5d04b165f0b1",
+        "fetched_at": "2026-10-26T00:20:45Z",
+        "fetched_by": "crawl"
+      },
+      "no_means": {
+        "text": "A NO vote on this measure means: Voters would continue to be asked who should fill the vacancy as part of recall elections.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/5/",
+        "source_label": "Official Voter Information Guide: Proposition 5",
+        "source_snapshot": "data/raw/objects/68/682d8f4cb64e2828f69f8552ca3191336346e4ab759640a95e4a5d04b165f0b1",
+        "raw_sha256": "682d8f4cb64e2828f69f8552ca3191336346e4ab759640a95e4a5d04b165f0b1",
+        "fetched_at": "2026-10-26T00:20:45Z",
+        "fetched_by": "crawl"
+      },
+      "fiscal_effect": {
+        "text": "Net fiscal effect unknown. In the event of a recall, savings or costs of millions of dollars to administer the election depending on the office recalled.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/5/",
+        "source_label": "Official Voter Information Guide: Proposition 5",
+        "source_snapshot": "data/raw/objects/68/682d8f4cb64e2828f69f8552ca3191336346e4ab759640a95e4a5d04b165f0b1",
+        "raw_sha256": "682d8f4cb64e2828f69f8552ca3191336346e4ab759640a95e4a5d04b165f0b1",
+        "fetched_at": "2026-10-26T00:20:45Z",
+        "fetched_by": "crawl"
+      },
+      "argument_for": {
+        "text": "Proposition 5 restores the recall to its original purpose: removing corrupt officials. It closes the loophole that allows replacements to win with a small fraction of the vote, reducing the politics and costs of future recalls. Endorsed by League of Women Voters of California and California Common Cause. Vote YES",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/5/",
+        "source_label": "Official Voter Information Guide: Proposition 5",
+        "source_snapshot": "data/raw/objects/68/682d8f4cb64e2828f69f8552ca3191336346e4ab759640a95e4a5d04b165f0b1",
+        "raw_sha256": "682d8f4cb64e2828f69f8552ca3191336346e4ab759640a95e4a5d04b165f0b1",
+        "fetched_at": "2026-10-26T00:20:45Z",
+        "fetched_by": "crawl"
+      },
+      "argument_against": {
+        "text": "Proposition 5 degrades California’s century-old recall process by limiting voters’ right to select a replacement for recalled officials. Instead, when statewide elected officials are recalled, other politicians would choose a replacement. For lower offices, another costly, taxpayer-funded election would come months later, leaving the office vacant and the people unrepresented.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/5/",
+        "source_label": "Official Voter Information Guide: Proposition 5",
+        "source_snapshot": "data/raw/objects/68/682d8f4cb64e2828f69f8552ca3191336346e4ab759640a95e4a5d04b165f0b1",
+        "raw_sha256": "682d8f4cb64e2828f69f8552ca3191336346e4ab759640a95e4a5d04b165f0b1",
+        "fetched_at": "2026-10-26T00:20:45Z",
+        "fetched_by": "crawl"
+      },
+      "supporters": {
+        "text": "None submitted",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/5/",
+        "source_label": "Official Voter Information Guide: Proposition 5",
+        "source_snapshot": "data/raw/objects/68/682d8f4cb64e2828f69f8552ca3191336346e4ab759640a95e4a5d04b165f0b1",
+        "raw_sha256": "682d8f4cb64e2828f69f8552ca3191336346e4ab759640a95e4a5d04b165f0b1",
+        "fetched_at": "2026-10-26T00:20:45Z",
+        "fetched_by": "crawl"
+      },
+      "opponents": {
+        "text": "None submitted",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/5/",
+        "source_label": "Official Voter Information Guide: Proposition 5",
+        "source_snapshot": "data/raw/objects/68/682d8f4cb64e2828f69f8552ca3191336346e4ab759640a95e4a5d04b165f0b1",
+        "raw_sha256": "682d8f4cb64e2828f69f8552ca3191336346e4ab759640a95e4a5d04b165f0b1",
+        "fetched_at": "2026-10-26T00:20:45Z",
+        "fetched_by": "crawl"
+      },
+      "analysis": {
+        "text": "BACKGROUND\nElection of State Officials. The State Constitution establishes legislative, executive, and judicial state offices. Some state officials represent parts of the state, known as districts. Other state officials, like the Governor or Attorney General, represent the entire state. Voters elect people to represent them in state offices for set terms. For example, a state Assembly Member is elected to a two-year term and the Governor is elected to a four-year term. To run for a state office, candidates must submit specific nomination documents before the election. State law sets when this “nomination period” occurs.\nRecall of State Officials. The State Constitution allows voters to remove state officials from office before their term ends through a recall. A recall is an election in which voters are asked whether to remove an official from office. To qualify a recall for the ballot, supporters of the recall must collect a certain number of signatures from the official’s district (or statewide for statewide offices). Since 1913, 11 state recall efforts have qualified for the ballot (nine legislators and two Governors) and six have resulted in an official’s removal from office (five legislators and one Governor).\nTwo Questions in Recall Elections. In a recall election, voters are asked two questions: (1) whether the official should be removed from office and (2) who should replace the official if removed from office. The number of candidates appearing in the second question varies. For example, there were 135 candidates in the 2003 Governor recall election and 46 candidates in the 2021 Governor recall election. If a state official is recalled, the person who receives the most votes in the second question assumes the office.\nVacant State Offices. State officials may leave office before the end of their term for reasons other than a recall. For example, they may die or resign. When this happens, the office becomes vacant. The process to fill a vacant office varies by office. Typically, a vacant seat in the Assembly or Senate is filled through a special election called by the Governor. The Lieutenant Governor serves as Governor when there is a vacancy in the office of the Governor. Vacancies in other executive offices (for example, the Lieutenant Governor or Attorney General) and the Supreme Court and Courts of Appeal are filled by appointments by the Governor.\nFrequency of Elections. Statewide elections in California are scheduled every two years. In scheduled election years, a primary election is held in either March or June, depending on the year, and a general election is held in November. In addition to scheduled elections, the state and local governments may call special elections to address specific issues. For example, the Governor may call a special election to fill a vacant Assembly seat.\nElections Administration in California. County elections officials administer most elections in California. As part of this work, they print and mail ballots and other voting materials to registered voters. Some state agencies also have election-related workload. For example, the Secretary of State oversees elections across the state and prepares and mails the state Voter Information Guide.\nPaying for State Recall Elections. State law requires the California Department of Finance to work with state and local elections officials to estimate the cost of a recall election for a state office. The department is required to send the estimate to the Legislature. The Legislature reviews the estimate and may provide funding for the election. Any remaining costs are paid by the Secretary of State’s and counties’ budgets.\nPROPOSAL\nAs described below, Proposition 5 changes the recall process to make it like the existing process for filling vacant state offices, except for the process to recall the Governor.\nRemoves Second Question From Recall Elections. Proposition 5 removes the second question—who should replace a recalled official—from a recall election. This means, in future recall elections, voters would only decide whether to remove an elected official from a state office, not who would replace the official.\nSpecifies Steps for Filling Vacant Offices. If a state official is recalled, Proposition 5 makes the office of the recalled official vacant. Except for the office of the Governor, Proposition 5 uses the existing process for filling vacancies to fill the office. In the case of an office in the state Senate or Assembly, this means that a replacement typically would be elected through a separate special election. The Governor would choose who would fill a vacancy in any other office (other than office of the Governor).\nCreates Separate Process for Filling the Office of the Governor. The process for filling the office of the Governor depends on when the recall occurs. If the Governor is recalled before the close of the nomination period for the next statewide election during the first two years of the term, Proposition 5 says that the Lieutenant Governor serves as Governor until voters elect a new Governor at a future statewide election. If the Governor is recalled later in the term, the Lieutenant Governor serves as Governor for the rest of the term.\nFISCAL EFFECTS\nFiscal Effects Depend on Frequency of Recalls and the Offices Recalled. Whether there would be costs or savings compared with today depends on the frequency of future recalls and the offices recalled. A recall of a statewide office (for example, Lieutenant Governor) would affect state elections officials and local elections officials in all 58 counties. A recall of a district-based office (for example, a state Senator or Assembly Member) would only affect state elections officials and local elections officials in those districts.\nPotential Costs. Proposition 5 could result in higher costs associated with future recall elections if a special election is necessary to fill the vacant office after a recall. For example, a legislative office made vacant after a recall typically would be filled through a special election. If that special election could not be consolidated with a scheduled election, elections officials would need to run a standalone special election. The cost to state and local elections officials to administer such a special election could be millions of dollars per election.\nPotential Savings. Proposition 5 could result in lower costs by removing the second question from the ballot. These savings would occur when a Governor is recalled in the latter part of the term and for other offices where vacancies are filled by appointment. There would be savings because ballots and voting materials would no longer include information about replacement candidates. The amount of savings would depend on how many candidates there would have been on the ballot if the second question remained but could be millions of dollars per election.\nNet Effect Depends on Circumstances of Future Recall Efforts. The net fiscal effect is unknown because it depends on future recall elections. Proposition 5 could lead to savings or costs potentially in the range of millions of dollars to administer recall elections. How these savings or costs would be shared by state and county governments would depend on future decisions by the Legislature. This net fiscal effect represents less than one-tenth of 1 percent (0.1 percent) of the state’s total General Fund budget. (The General Fund is the account the state uses to pay for most public services, including education, health care, and prisons.)",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/5/analysis.htm",
+        "source_label": "Analysis by the Legislative Analyst (Official Voter Information Guide)",
+        "source_snapshot": "data/raw/objects/53/536d0bc90aab73fa60a4811f3fc87c31cd8eddab36a3b04b527c9641fd20a525",
+        "raw_sha256": "536d0bc90aab73fa60a4811f3fc87c31cd8eddab36a3b04b527c9641fd20a525",
+        "fetched_at": "2026-10-26T00:20:53Z",
+        "fetched_by": "crawl"
+      }
+    }
+  },
+  {
+    "id": "prop-37",
+    "number": "37",
+    "title": {
+      "text": "Creates Loan Program for Middle-Income Buyers of Qualified New Homes.",
+      "source_url": "https://voterguide.sos.ca.gov/propositions/",
+      "source_label": "Official Voter Information Guide: list of propositions",
+      "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "fetched_at": "2026-10-26T00:20:42Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "state",
+      "name": "California"
+    },
+    "topics": [
+      "housing",
+      "loans"
+    ],
+    "documents": [],
+    "arguments_url": "https://voterguide.sos.ca.gov/propositions/37/arguments-rebuttals.htm",
+    "fields": {
+      "measure_type": {
+        "text": "Initiative Statute.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/",
+        "source_label": "Official Voter Information Guide: list of propositions",
+        "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "fetched_at": "2026-10-26T00:20:42Z",
+        "fetched_by": "crawl"
+      },
+      "summary": {
+        "text": "Authorizes $25 billion in bonds to offer eligible buyers fixed-rate mortgages for up to 17% of purchase price of a newly constructed home priced below about $1.5 million. Borrowers must be California residents, occupy the home, meet income limits, and pay at least 3% down. Bonds repaid by mortgage payments, not State.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/37/",
+        "source_label": "Official Voter Information Guide: Proposition 37",
+        "source_snapshot": "data/raw/objects/c7/c70d625126fdd13302be16c4ed98af5d3d0f5938234ddd7760c51c21db05ed7c",
+        "raw_sha256": "c70d625126fdd13302be16c4ed98af5d3d0f5938234ddd7760c51c21db05ed7c",
+        "fetched_at": "2026-10-26T00:20:46Z",
+        "fetched_by": "crawl"
+      },
+      "yes_means": {
+        "text": "A YES vote on this measure means: The state would create a new homebuying assistance program. The state could sell up to $25 billion in revenue bonds to fund the program. Bonds would be paid back by homeowners’ payments on their home loans.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/37/",
+        "source_label": "Official Voter Information Guide: Proposition 37",
+        "source_snapshot": "data/raw/objects/c7/c70d625126fdd13302be16c4ed98af5d3d0f5938234ddd7760c51c21db05ed7c",
+        "raw_sha256": "c70d625126fdd13302be16c4ed98af5d3d0f5938234ddd7760c51c21db05ed7c",
+        "fetched_at": "2026-10-26T00:20:46Z",
+        "fetched_by": "crawl"
+      },
+      "no_means": {
+        "text": "A NO vote on this measure means: The state would not be required to create a new homebuying assistance program.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/37/",
+        "source_label": "Official Voter Information Guide: Proposition 37",
+        "source_snapshot": "data/raw/objects/c7/c70d625126fdd13302be16c4ed98af5d3d0f5938234ddd7760c51c21db05ed7c",
+        "raw_sha256": "c70d625126fdd13302be16c4ed98af5d3d0f5938234ddd7760c51c21db05ed7c",
+        "fetched_at": "2026-10-26T00:20:46Z",
+        "fetched_by": "crawl"
+      },
+      "fiscal_effect": {
+        "text": "No direct state or local costs.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/37/",
+        "source_label": "Official Voter Information Guide: Proposition 37",
+        "source_snapshot": "data/raw/objects/c7/c70d625126fdd13302be16c4ed98af5d3d0f5938234ddd7760c51c21db05ed7c",
+        "raw_sha256": "c70d625126fdd13302be16c4ed98af5d3d0f5938234ddd7760c51c21db05ed7c",
+        "fetched_at": "2026-10-26T00:20:46Z",
+        "fetched_by": "crawl"
+      },
+      "argument_for": {
+        "text": "Zero Taxpayer Cost—No Taxpayer Risk. Prop. 37 makes buying a home more affordable, keeping homeownership attainable for hardworking and middle-class Californians, with low-interest mortgages funded by private bond investors, NOT TAXPAYERS. Must be CA resident to qualify, meet income requirements, occupy home, make monthly payments, repay loan. Strict accountability/audits.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/37/",
+        "source_label": "Official Voter Information Guide: Proposition 37",
+        "source_snapshot": "data/raw/objects/c7/c70d625126fdd13302be16c4ed98af5d3d0f5938234ddd7760c51c21db05ed7c",
+        "raw_sha256": "c70d625126fdd13302be16c4ed98af5d3d0f5938234ddd7760c51c21db05ed7c",
+        "fetched_at": "2026-10-26T00:20:46Z",
+        "fetched_by": "crawl"
+      },
+      "argument_against": {
+        "text": "NO ARGUMENT AGAINST PROPOSITION 37 WAS SUBMITTED.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/37/",
+        "source_label": "Official Voter Information Guide: Proposition 37",
+        "source_snapshot": "data/raw/objects/c7/c70d625126fdd13302be16c4ed98af5d3d0f5938234ddd7760c51c21db05ed7c",
+        "raw_sha256": "c70d625126fdd13302be16c4ed98af5d3d0f5938234ddd7760c51c21db05ed7c",
+        "fetched_at": "2026-10-26T00:20:46Z",
+        "fetched_by": "crawl"
+      },
+      "supporters": {
+        "text": "United Nurses Associations of California; California Conference of Carpenters; California State Treasurer Fiona Ma",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/37/",
+        "source_label": "Official Voter Information Guide: Proposition 37",
+        "source_snapshot": "data/raw/objects/c7/c70d625126fdd13302be16c4ed98af5d3d0f5938234ddd7760c51c21db05ed7c",
+        "raw_sha256": "c70d625126fdd13302be16c4ed98af5d3d0f5938234ddd7760c51c21db05ed7c",
+        "fetched_at": "2026-10-26T00:20:46Z",
+        "fetched_by": "crawl"
+      },
+      "opponents": {
+        "text": "None submitted",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/37/",
+        "source_label": "Official Voter Information Guide: Proposition 37",
+        "source_snapshot": "data/raw/objects/c7/c70d625126fdd13302be16c4ed98af5d3d0f5938234ddd7760c51c21db05ed7c",
+        "raw_sha256": "c70d625126fdd13302be16c4ed98af5d3d0f5938234ddd7760c51c21db05ed7c",
+        "fetched_at": "2026-10-26T00:20:46Z",
+        "fetched_by": "crawl"
+      },
+      "analysis": {
+        "text": "BACKGROUND\nState Revenue Bonds. Bonds are a way that governments borrow money, most commonly for public projects such as schools or bridges. The state sells bonds to investors to receive up-front funding for these projects. Over time, investors are repaid with interest. The state sells two main types of bonds: general obligation bonds and revenue bonds. The state usually repays general obligation bonds using the state General Fund. (The General Fund is the account the state uses to pay for most public services, including education, health care, and prisons.) In contrast, revenue bonds are repaid using revenue from fees or other payments by the users of the project (such as from bridge tolls).\nSome People Seek Down Payment Assistance. When purchasing a home, most people pay some of the cost up front—typically 3 percent to 20 percent of the home price. The up-front payment is known as a down payment. If people cannot afford the down payment, there are different government programs available to provide down payment assistance to eligible homebuyers. To cover the remaining cost of the home, homebuyers get a loan, called a mortgage. Homebuyers then pay off the mortgage by making monthly payments that include interest.\nCalifornia Housing Finance Agency (CalHFA). CalHFA is a state entity that administers programs designed to help low- and moderate-income Californians afford housing. CalHFA has a few programs that provide down payment assistance to homebuyers. The down payment assistance programs are loans that must be repaid under certain terms and conditions.\nConstruction Defect Law. To try to prevent construction defects, state law sets minimum standards that builders must follow for new residential construction. Current law also establishes a process that homeowners and housing builders must follow before a homeowner is able to sue a builder for alleged violations of those minimum standards. For example, the homeowner must provide notice to the builder that includes certain information concerning a claim of construction defect.\nPROPOSAL\nRevenue Bond to Pay for a New Down Payment Assistance Program. Proposition 37 allows CalHFA to sell up to $25 billion in revenue bonds. CalHFA would use the bond funds to create a down payment assistance program called the “middle-class homeownership loan.” Each loan would cover up to 17 percent of the home price. (Homebuyers would need to provide a down payment of at least 3 percent of the home price.) Homeowners’ monthly payments on their loan would be designed to repay the bonds over time and cover the program’s administrative costs. CalHFA also would be required to keep interest costs for homebuyers as low as possible. CalHFA would decide how much of the bonds to issue (up to $25 billion) and over what time period.\nBuyers and Homes Must Meet Certain Requirements. To participate in a middleclass homeownership loan, people and homes would need to meet certain requirements. For example, an applicant would need to be a resident of the state and have a household income no more than double the typical income level in their area. For a home to be eligible for purchase through the program, among other requirements, the buyer would need to be the first purchaser of the home and the price could not exceed certain limits.\nHousing Developer Options. Under Proposition 37, all developers could build homes eligible for purchase under the program. Developers also could choose to participate in a “qualified builder option.” Developers that chose this option would be required to meet higher labor standards, such as using workers with a certain type of training for certain types of housing projects. In exchange, developers would be subject to different construction defect rules, which generally aim to provide more flexibility to developers.\nFISCAL EFFECTS\nNo Direct State or Local Costs. Because Proposition 37 uses the payments from homebuyers to repay bond investors, it would not result in direct state or local costs.\nOther Potential Effects. A number of factors, which are unknown at this time, could affect Proposition 37’s scope and impact. These include (1) the extent to which investors want to buy the bond, (2) how much the loans available under this proposed program cost homebuyers compared with other down payment assistance options, and (3) whether the program results in increased home construction and homebuying.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/37/analysis.htm",
+        "source_label": "Analysis by the Legislative Analyst (Official Voter Information Guide)",
+        "source_snapshot": "data/raw/objects/e0/e099d2b17476034759185501701834adbcea13de6d15984ff862be5d659925db",
+        "raw_sha256": "e099d2b17476034759185501701834adbcea13de6d15984ff862be5d659925db",
+        "fetched_at": "2026-10-26T00:20:54Z",
+        "fetched_by": "crawl"
+      }
+    }
+  },
+  {
+    "id": "prop-38",
+    "number": "38",
+    "title": {
+      "text": "Authorizes Bonds for Immunology Medical Research.",
+      "source_url": "https://voterguide.sos.ca.gov/propositions/",
+      "source_label": "Official Voter Information Guide: list of propositions",
+      "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "fetched_at": "2026-10-26T00:20:42Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "state",
+      "name": "California"
+    },
+    "topics": [
+      "bonds",
+      "medical research"
+    ],
+    "documents": [],
+    "arguments_url": "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+    "fields": {
+      "measure_type": {
+        "text": "Initiative Statute.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/",
+        "source_label": "Official Voter Information Guide: list of propositions",
+        "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "fetched_at": "2026-10-26T00:20:42Z",
+        "fetched_by": "crawl"
+      },
+      "summary": {
+        "text": "Authorizes $8.4 billion in general obligation bonds for immunology and immunotherapy research, half to a single University of California-affiliated nonprofit medical research institute, half to research grants.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/38/",
+        "source_label": "Official Voter Information Guide: Proposition 38",
+        "source_snapshot": "data/raw/objects/64/640696f1ce3e75def1d75700eeee9fc8d549265078e71e412b5caae477fc0917",
+        "raw_sha256": "640696f1ce3e75def1d75700eeee9fc8d549265078e71e412b5caae477fc0917",
+        "fetched_at": "2026-10-26T00:20:46Z",
+        "fetched_by": "crawl"
+      },
+      "yes_means": {
+        "text": "A YES vote on this measure means: The state could borrow $8.4 billion to support medical research in immunology and immunotherapy conducted by California research institutes and universities.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/38/",
+        "source_label": "Official Voter Information Guide: Proposition 38",
+        "source_snapshot": "data/raw/objects/64/640696f1ce3e75def1d75700eeee9fc8d549265078e71e412b5caae477fc0917",
+        "raw_sha256": "640696f1ce3e75def1d75700eeee9fc8d549265078e71e412b5caae477fc0917",
+        "fetched_at": "2026-10-26T00:20:46Z",
+        "fetched_by": "crawl"
+      },
+      "no_means": {
+        "text": "A NO vote on this measure means: The state could not borrow $8.4 billion to support medical research in immunology and immunotherapy conducted by California research institutes and universities.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/38/",
+        "source_label": "Official Voter Information Guide: Proposition 38",
+        "source_snapshot": "data/raw/objects/64/640696f1ce3e75def1d75700eeee9fc8d549265078e71e412b5caae477fc0917",
+        "raw_sha256": "640696f1ce3e75def1d75700eeee9fc8d549265078e71e412b5caae477fc0917",
+        "fetched_at": "2026-10-26T00:20:46Z",
+        "fetched_by": "crawl"
+      },
+      "fiscal_effect": {
+        "text": "Increased state cost of $500 million to $600 million annually for about 20 years to repay the research bond, with some or all of the cost offset if the funded research generates revenue.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/38/",
+        "source_label": "Official Voter Information Guide: Proposition 38",
+        "source_snapshot": "data/raw/objects/64/640696f1ce3e75def1d75700eeee9fc8d549265078e71e412b5caae477fc0917",
+        "raw_sha256": "640696f1ce3e75def1d75700eeee9fc8d549265078e71e412b5caae477fc0917",
+        "fetched_at": "2026-10-26T00:20:46Z",
+        "fetched_by": "crawl"
+      },
+      "argument_for": {
+        "text": "YES on 38 supports life-saving immunology research to cure and prevent diseases like cancer, heart disease, Alzheimer’s. Strong accountability including independent audits. Mandates 20% Rx discount. Designed to ensure no cost to taxpayers. YES on 38 could save your life and someone you love. Alzheimer’s Association, The Michael J. Fox Foundation for Parkinson’s Research urge YES on 38! www.YESon38.com",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/38/",
+        "source_label": "Official Voter Information Guide: Proposition 38",
+        "source_snapshot": "data/raw/objects/64/640696f1ce3e75def1d75700eeee9fc8d549265078e71e412b5caae477fc0917",
+        "raw_sha256": "640696f1ce3e75def1d75700eeee9fc8d549265078e71e412b5caae477fc0917",
+        "fetched_at": "2026-10-26T00:20:46Z",
+        "fetched_by": "crawl"
+      },
+      "argument_against": {
+        "text": "California should continue supporting biomedical research, but Proposition 38 is the wrong approach. It would commit taxpayers to decades of new bond debt while limiting California’s flexibility to address changing health priorities. Research funding should be guided through the normal budget process—not by ballot initiatives.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/38/",
+        "source_label": "Official Voter Information Guide: Proposition 38",
+        "source_snapshot": "data/raw/objects/64/640696f1ce3e75def1d75700eeee9fc8d549265078e71e412b5caae477fc0917",
+        "raw_sha256": "640696f1ce3e75def1d75700eeee9fc8d549265078e71e412b5caae477fc0917",
+        "fetched_at": "2026-10-26T00:20:46Z",
+        "fetched_by": "crawl"
+      },
+      "supporters": {
+        "text": "Michael J. Fox Foundation; Alzheimer’s Los Angeles; Kidney Cancer Assoc; American Nurses Assoc\\CA",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/38/",
+        "source_label": "Official Voter Information Guide: Proposition 38",
+        "source_snapshot": "data/raw/objects/64/640696f1ce3e75def1d75700eeee9fc8d549265078e71e412b5caae477fc0917",
+        "raw_sha256": "640696f1ce3e75def1d75700eeee9fc8d549265078e71e412b5caae477fc0917",
+        "fetched_at": "2026-10-26T00:20:46Z",
+        "fetched_by": "crawl"
+      },
+      "opponents": {
+        "text": "Robert M Kaplan Ph.D.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/38/",
+        "source_label": "Official Voter Information Guide: Proposition 38",
+        "source_snapshot": "data/raw/objects/64/640696f1ce3e75def1d75700eeee9fc8d549265078e71e412b5caae477fc0917",
+        "raw_sha256": "640696f1ce3e75def1d75700eeee9fc8d549265078e71e412b5caae477fc0917",
+        "fetched_at": "2026-10-26T00:20:46Z",
+        "fetched_by": "crawl"
+      },
+      "analysis": {
+        "text": "BACKGROUND\nMedical Research and Development (R&D) Is a Multi- Stage Process. The first stage of this process is basic research, which focuses on discovering new knowledge about how the human body works. The next stage is applied and clinical research, which aims to develop and test treatments for specific diseases. Universities do most of the basic research, while companies do most of the applied and clinical research. The third R&D stage is to have regulators review new treatments to make sure they are safe and effective. If a new treatment is approved, then it may be used on patients. Most R&D projects do not make it through all of these stages.\nMedical R&D Is Funded in Various Ways. Funding for medical R&D in the United States totaled about $300 billion in 2023. Companies and government agencies (such as the National Institutes of Health) are the major funding sources for R&D nationally and in California. Beyond these funding sources, California voters have approved two ballot measures— Proposition 71 (2004) and Proposition 14 (2020)— giving the state authority to issue general obligation bonds to fund specified medical research. Combined, the two measures allowed the state to issue $8.5 billion in bonds for stem cell research. Bonds are a way for the state to borrow money, then repay it with interest over time. A general obligation bond is typically repaid from the state General Fund. (The General Fund is the account the state uses to pay for most public services, including education, health care, and prisons.) For more information about bonds, see “Overview of State Bond Debt” later in this guide.\nPROPOSAL\nNew Bond for Specified Medical Research. Proposition 38 allows the state to issue an $8.4 billion general obligation bond for research in immunology and immunotherapy. Immunology is the study of the body’s immune system and how it protects the body from abnormal cells and other causes of disease. Immunotherapy develops treatments that help the immune system fight diseases more effectively. The measure requires that at least $4.2 billion of the bond funds be used for immunology research on cancer, heart disease, and Alzheimer’s disease. No more than 2 percent of total bond funds may be used for state administrative costs. Payments on the bond would come from the state General Fund.\nSupports a Research Institute. About half of the bond funds would go to a research institute specializing in immunology and immunotherapy. The California Department of Public Health (CDPH) would select the institute. The selected institute must meet several criteria, including criteria related to its size, funding, and collaboration with a University of California (UC) campus. The institute would use the bond funds for research. Each year, the institute must issue a public report on its activities and have an independent financial audit.\nSupports Research Grants. A council would give out the other half of bond funds as competitive research grants focused on immunology and immunotherapy. The council would consist of representatives from 7 UC campuses and 10 to 15 other universities and nonprofit research institutions in California. The council would set research priorities and select grant recipients from among its member organizations. Similar to the institute, the council would have public reporting and audit requirements.\nRequires 10 Percent of Revenue From Discoveries First Be Used to Repay the State. Proposition 38 requires that the institute, in consultation with CDPH, try to generate the most revenue possible from the funded research. (Research, for example, could lead to the development of a new medical treatment.) Ten percent of any revenue generated must be given to the state. This revenue must first go into the state General Fund until it repays the cost of the research bond (the amount borrowed plus the interest). Any additional revenue would be used for future immunology and immunotherapy research.\nHas Two Other Notable Provisions.\nRequires Purchases From California Suppliers. Grant recipients must buy at least half of their goods and services from California suppliers when reasonably possible.\nRequires California Patient Discount. Any treatment developed through funded research and sold in California must generally be offered at a 20 percent discount.\nFISCAL EFFECTS\nIncreased State Cost of $500 Million to $600 Million Annually for About 20 Years to Repay the Bond. The state General Fund cost to repay the bond would be $500 million to $600 million annually for about 20 years. The annual cost would be about one-quarter of 1 percent (0.25 percent) of the state’s total General Fund budget. Since the state has to pay interest on the money it borrows, the total cost of the bond would be about 10 percent more (after adjusting for inflation) than if the state paid up-front with money it already has.\nPotential State Revenue From Research Discoveries. The state could receive revenue from research funded by Proposition 38. The amount of revenue is uncertain but could be significant. It would depend on how many research projects lead to marketable treatments and how much money any given treatment generates. The timing of these revenues and how long it would take to offset the state’s bond cost is also uncertain, but could take decades.\nPotential Indirect Fiscal Effects. Proposition 38 likely would have some indirect fiscal effects, particularly on costs for state health programs (such as Medi-Cal, which pays for health care for low-income Californians). For example, if the funded research leads to new medical treatments, the average cost of patient care could either increase or decrease. As a result, the overall effect on program costs is uncertain.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/38/analysis.htm",
+        "source_label": "Analysis by the Legislative Analyst (Official Voter Information Guide)",
+        "source_snapshot": "data/raw/objects/2c/2c242edf2ee79aa4e036bcfa94a484afcbc3e7e5c72d069e2a70f9eebb019c12",
+        "raw_sha256": "2c242edf2ee79aa4e036bcfa94a484afcbc3e7e5c72d069e2a70f9eebb019c12",
+        "fetched_at": "2026-10-26T00:20:54Z",
+        "fetched_by": "crawl"
+      }
+    }
+  },
+  {
+    "id": "prop-39",
+    "number": "39",
+    "title": {
+      "text": "Prohibits Citizens from Voting Unless They Present Government-Issued Identification.",
+      "source_url": "https://voterguide.sos.ca.gov/propositions/",
+      "source_label": "Official Voter Information Guide: list of propositions",
+      "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "fetched_at": "2026-10-26T00:20:42Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "state",
+      "name": "California"
+    },
+    "topics": [
+      "elections",
+      "voter ID"
+    ],
+    "documents": [],
+    "arguments_url": "https://voterguide.sos.ca.gov/propositions/39/arguments-rebuttals.htm",
+    "fields": {
+      "measure_type": {
+        "text": "Initiative Constitutional Amendment.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/",
+        "source_label": "Official Voter Information Guide: list of propositions",
+        "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "fetched_at": "2026-10-26T00:20:42Z",
+        "fetched_by": "crawl"
+      },
+      "summary": {
+        "text": "Invalidates mail ballots that do not have last four digits of designated government-issued identification number written on envelope. Prohibits in-person voting without presenting government-issued identification.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/39/",
+        "source_label": "Official Voter Information Guide: Proposition 39",
+        "source_snapshot": "data/raw/objects/e8/e879500142f9f08fbe4faedc4b5a7244b21dcd858ebb379cb184e0d35d963f74",
+        "raw_sha256": "e879500142f9f08fbe4faedc4b5a7244b21dcd858ebb379cb184e0d35d963f74",
+        "fetched_at": "2026-10-26T00:20:47Z",
+        "fetched_by": "crawl"
+      },
+      "yes_means": {
+        "text": "A YES vote on this measure means: Voters would be required to present additional identifying information to elections officials each time they vote.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/39/",
+        "source_label": "Official Voter Information Guide: Proposition 39",
+        "source_snapshot": "data/raw/objects/e8/e879500142f9f08fbe4faedc4b5a7244b21dcd858ebb379cb184e0d35d963f74",
+        "raw_sha256": "e879500142f9f08fbe4faedc4b5a7244b21dcd858ebb379cb184e0d35d963f74",
+        "fetched_at": "2026-10-26T00:20:47Z",
+        "fetched_by": "crawl"
+      },
+      "no_means": {
+        "text": "A NO vote on this measure means: A voter’s identity would continue to be established with the voter’s signature.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/39/",
+        "source_label": "Official Voter Information Guide: Proposition 39",
+        "source_snapshot": "data/raw/objects/e8/e879500142f9f08fbe4faedc4b5a7244b21dcd858ebb379cb184e0d35d963f74",
+        "raw_sha256": "e879500142f9f08fbe4faedc4b5a7244b21dcd858ebb379cb184e0d35d963f74",
+        "fetched_at": "2026-10-26T00:20:47Z",
+        "fetched_by": "crawl"
+      },
+      "fiscal_effect": {
+        "text": "Costs of between tens of millions of dollars and low hundreds of millions of dollars each year to implement new voting requirements.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/39/",
+        "source_label": "Official Voter Information Guide: Proposition 39",
+        "source_snapshot": "data/raw/objects/e8/e879500142f9f08fbe4faedc4b5a7244b21dcd858ebb379cb184e0d35d963f74",
+        "raw_sha256": "e879500142f9f08fbe4faedc4b5a7244b21dcd858ebb379cb184e0d35d963f74",
+        "fetched_at": "2026-10-26T00:20:47Z",
+        "fetched_by": "crawl"
+      },
+      "argument_for": {
+        "text": "Yes on Prop. 39 gives California a BIPARTISAN solution for VOTER ID. Supported by a solid majority of Democratic, Independent and Republican voters. Increases trust and confidence in our elections.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/39/",
+        "source_label": "Official Voter Information Guide: Proposition 39",
+        "source_snapshot": "data/raw/objects/e8/e879500142f9f08fbe4faedc4b5a7244b21dcd858ebb379cb184e0d35d963f74",
+        "raw_sha256": "e879500142f9f08fbe4faedc4b5a7244b21dcd858ebb379cb184e0d35d963f74",
+        "fetched_at": "2026-10-26T00:20:47Z",
+        "fetched_by": "crawl"
+      },
+      "argument_against": {
+        "text": "No on Prop. 39. This would advance Trump’s voter suppression agenda by adding costly, unnecessary barriers that could block eligible California voters, expose personal information to identity theft, and waste hundreds of millions in taxpayer dollars. Don’t let MAGA billionaires decide which voters count. Vote No.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/39/",
+        "source_label": "Official Voter Information Guide: Proposition 39",
+        "source_snapshot": "data/raw/objects/e8/e879500142f9f08fbe4faedc4b5a7244b21dcd858ebb379cb184e0d35d963f74",
+        "raw_sha256": "e879500142f9f08fbe4faedc4b5a7244b21dcd858ebb379cb184e0d35d963f74",
+        "fetched_at": "2026-10-26T00:20:47Z",
+        "fetched_by": "crawl"
+      },
+      "supporters": {
+        "text": "The Transparency Foundation; Latino American Political Assn; Howard Jarvis Taxpayers Assn; CA Women’s Leadership Assn",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/39/",
+        "source_label": "Official Voter Information Guide: Proposition 39",
+        "source_snapshot": "data/raw/objects/e8/e879500142f9f08fbe4faedc4b5a7244b21dcd858ebb379cb184e0d35d963f74",
+        "raw_sha256": "e879500142f9f08fbe4faedc4b5a7244b21dcd858ebb379cb184e0d35d963f74",
+        "fetched_at": "2026-10-26T00:20:47Z",
+        "fetched_by": "crawl"
+      },
+      "opponents": {
+        "text": "ACLU California Action; Common Cause; League of Women Voters of California",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/39/",
+        "source_label": "Official Voter Information Guide: Proposition 39",
+        "source_snapshot": "data/raw/objects/e8/e879500142f9f08fbe4faedc4b5a7244b21dcd858ebb379cb184e0d35d963f74",
+        "raw_sha256": "e879500142f9f08fbe4faedc4b5a7244b21dcd858ebb379cb184e0d35d963f74",
+        "fetched_at": "2026-10-26T00:20:47Z",
+        "fetched_by": "crawl"
+      },
+      "analysis": {
+        "text": "BACKGROUND\nElections Administration. County elections officials administer most elections in California. As part of this work, they print and mail ballots and other voting materials to registered voters. Some state agencies also have workload related to voting. For example, the Secretary of State oversees elections across the state and prepares and mails the state Voter Information Guide.\nUnited States Citizenship Required to Vote in Federal, State, and Almost All Local Elections A person must be a U.S. citizen to vote in any state or federal election. A noncitizen who votes in a state or federal election can be fined and/or sentenced to prison. A person must be a U.S. citizen to vote in the vast majority of local elections. (San Francisco and Oakland have a special process for people who are not U.S. citizens to vote only in school board elections if they are the parent, guardian, or legally recognized caregiver of a student in the school district.)\nVoter Registration. In order to vote, people first must register with elections officials. People register to vote in the county where they live. To be eligible to register, a person must be a U.S. citizen, live in California, be at least 18 years old, not currently be in prison, and not be found unable to vote by a court. A person who makes a false statement when attempting to register to vote in California, such as by falsely stating that they are a U.S. citizen, is guilty of the crime of perjury. People can register online through the Secretary of State’s website, by mail, in person at a county elections office, or through the California Department of Motor Vehicles. A voter’s identity is established through the registration process by using their driver’s license number, state identification number, or last four digits of their Social Security number. Voters who do not provide this identifying information through the registration process may be asked to present identification the first time they vote.\nVoter Rolls Maintenance. A voter roll is a list of people who are registered to vote. Elections officials are required to keep the voter rolls up to date by removing people who are no longer eligible to vote from the list. For example, elections officials receive regular updates from other government entities to identify people who have died or are in prison.\nVoting. All registered voters in California receive a vote by mail (VBM) ballot. Voters can mail their ballot, drop it off at a ballot drop-off location, or vote in person at a voting location. In the November 2024 Presidential Election, about 16 million people voted in California. About 13 million voted using a VBM ballot, and about 3 million voted in person.\nVoter Identification. Voters identify themselves when they vote in California. If they vote in person, they typically identify themselves by signing a list of registered voters before voting. If they vote by mail, they identify themselves by signing the envelope of their ballot. Elections officials verify signatures for VBM ballots before counting them. Elections officials generally do not verify signatures from in-person voters before counting the ballots.\nCalifornia State Auditor’s Office (State Auditor). The State Auditor is an independent and nonpartisan office in state government. It reviews how well the state and local governments use money and run their programs. These reviews include performance audits to see if the government is following the law and working efficiently. The State Auditor may give recommendations to help improve government operations and efficiency. Some audits happen regularly, while others are done only once.\nPROPOSAL\nRequires State and Local Elections Officials to Verify U.S. Citizenship Status of Registered Voters. Proposition 39 requires state and local elections officials to make “best efforts” using government data to verify that voters on the rolls are U.S. citizens. Proposition 39 requires elections officials to report every year the percentage of registered voters in each county whose citizenship status has been verified.\nRequires Voters to Select Government- Issued Identification for Voting by Mail. Proposition 39 requires new and existing voters to select a government-issued identification in their voter registration to vote by mail.\nRequires Voters to Provide Additional Identifying Information to Vote. Proposition 39 requires voters to provide additional identifying information each time they cast a ballot in any election in California. Elections officials would be required to verify voters’ identities before counting their ballots. The identification requirement would depend on whether a voter casts their ballot in person or by mail:\nIn-Person Voting. When voting in person, Proposition 39 requires voters to present government-issued identification for identity verification.\nVoting by Mail. When voting by mail, Proposition 39 requires voters to provide the last four digits of their selected government-issued identification number on the ballot envelope. Elections officials would verify that the identification numbers provided on the ballot envelope match the voter’s registration information.\nCreates New State-Issued Voter Identification Card. Proposition 39 requires the state to provide a voter identification card at no cost to voters who request one. The voter identification card could be used as the government-issued identification that verifies a voter’s identity when voting.\nRequires State Auditor to Audit State and County Election Compliance Regularly. In every odd-numbered year, Proposition 39 requires the State Auditor to report how well the state and each county comply with the measure and make recommendations for improvement.\nRequires Legislative Action for Full Implementation. Proposition 39 requires the Legislature to pass additional laws to implement the measure. The Legislature would need to clarify several details that are not defined in the proposition, like which forms of identification could be used and what steps would be considered best efforts to verify the citizenship status of registered voters.\nFISCAL EFFECTS\nState and Local Costs Depend on Future Decisions. Proposition 39 would increase state and local government costs each year by tens of millions of dollars to low hundreds of millions of dollars. These costs represent less than one-quarter of 1 percent (0.25 percent) of the state’s total General Fund budget. (The General Fund is the account the state uses to pay for most public services, including education, health care, and prisons.) The exact cost would depend on future choices made by the Legislature, state departments, local governments, and voters. For example, the costs could vary depending on decisions around the design and requirements of the voter identification card and the number of cards requested. There also could be some amount of savings. These savings would be due to fewer people registered to vote—for example, due to the removal of ineligible voters or eligible voters lacking government-issued identification. These savings likely would not exceed the costs of the measure.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/39/analysis.htm",
+        "source_label": "Analysis by the Legislative Analyst (Official Voter Information Guide)",
+        "source_snapshot": "data/raw/objects/05/05f6e8e6ca8c6ee322aa4acf1375f8364d3179c76f8355030a6c88d84fff6171",
+        "raw_sha256": "05f6e8e6ca8c6ee322aa4acf1375f8364d3179c76f8355030a6c88d84fff6171",
+        "fetched_at": "2026-10-26T00:20:55Z",
+        "fetched_by": "crawl"
+      }
+    }
+  },
+  {
+    "id": "prop-40",
+    "number": "40",
+    "title": {
+      "text": "Imposes One-Time Tax on Certain Taxpayers.",
+      "source_url": "https://voterguide.sos.ca.gov/propositions/",
+      "source_label": "Official Voter Information Guide: list of propositions",
+      "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "fetched_at": "2026-10-26T00:20:42Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "state",
+      "name": "California"
+    },
+    "topics": [
+      "taxes"
+    ],
+    "documents": [],
+    "arguments_url": "https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm",
+    "fields": {
+      "measure_type": {
+        "text": "Initiative Constitutional Amendment and Statute.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/",
+        "source_label": "Official Voter Information Guide: list of propositions",
+        "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "fetched_at": "2026-10-26T00:20:42Z",
+        "fetched_by": "crawl"
+      },
+      "summary": {
+        "text": "Imposes 5% tax on certain taxpayers with assets over $1 billion; revenue primarily for health care. Exempts revenues from constitutional requirements for school funding and spending limit.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/40/",
+        "source_label": "Official Voter Information Guide: Proposition 40",
+        "source_snapshot": "data/raw/objects/42/42081348d367260c922aca7adaf80ae098e789509ad7bfc41ac98926c5924be5",
+        "raw_sha256": "42081348d367260c922aca7adaf80ae098e789509ad7bfc41ac98926c5924be5",
+        "fetched_at": "2026-10-26T00:20:47Z",
+        "fetched_by": "crawl"
+      },
+      "yes_means": {
+        "text": "A YES vote on this measure means: The state would collect a one-time tax from billionaires equal to 5 percent of their wealth.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/40/",
+        "source_label": "Official Voter Information Guide: Proposition 40",
+        "source_snapshot": "data/raw/objects/42/42081348d367260c922aca7adaf80ae098e789509ad7bfc41ac98926c5924be5",
+        "raw_sha256": "42081348d367260c922aca7adaf80ae098e789509ad7bfc41ac98926c5924be5",
+        "fetched_at": "2026-10-26T00:20:47Z",
+        "fetched_by": "crawl"
+      },
+      "no_means": {
+        "text": "A NO vote on this measure means: The state would not collect a one-time tax from billionaires equal to 5 percent of their wealth.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/40/",
+        "source_label": "Official Voter Information Guide: Proposition 40",
+        "source_snapshot": "data/raw/objects/42/42081348d367260c922aca7adaf80ae098e789509ad7bfc41ac98926c5924be5",
+        "raw_sha256": "42081348d367260c922aca7adaf80ae098e789509ad7bfc41ac98926c5924be5",
+        "fetched_at": "2026-10-26T00:20:47Z",
+        "fetched_by": "crawl"
+      },
+      "fiscal_effect": {
+        "text": "Temporary revenue increase of tens of billions of dollars spread over several years from wealth tax on billionaires. Possible ongoing decrease of less than $1 billion per year in income tax revenue from billionaires.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/40/",
+        "source_label": "Official Voter Information Guide: Proposition 40",
+        "source_snapshot": "data/raw/objects/42/42081348d367260c922aca7adaf80ae098e789509ad7bfc41ac98926c5924be5",
+        "raw_sha256": "42081348d367260c922aca7adaf80ae098e789509ad7bfc41ac98926c5924be5",
+        "fetched_at": "2026-10-26T00:20:47Z",
+        "fetched_by": "crawl"
+      },
+      "argument_for": {
+        "text": "Vote YES on 40 to tax billionaires. Trump slashed healthcare funding to pay for billionaire tax breaks, eliminating coverage for over a million Californians and doubling health insurance premiums for millions more. It’s time to make billionaires pay their fair share and stop sticking the middle class with the bill.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/40/",
+        "source_label": "Official Voter Information Guide: Proposition 40",
+        "source_snapshot": "data/raw/objects/42/42081348d367260c922aca7adaf80ae098e789509ad7bfc41ac98926c5924be5",
+        "raw_sha256": "42081348d367260c922aca7adaf80ae098e789509ad7bfc41ac98926c5924be5",
+        "fetched_at": "2026-10-26T00:20:47Z",
+        "fetched_by": "crawl"
+      },
+      "argument_against": {
+        "text": "Prop. 40 is a flawed, one-time tax scheme that hurts our economy, damages our state budget, and contains a loophole exposing all Californians to taxes we can’t afford—but does nothing to lower healthcare costs. No safeguards, no accountability. Join California Teachers Association, California Medical Association, California Children’s Hospital Association, California Professional Firefighters, State Building and Construction Trades Council of California, Democrats and Republicans: NO on 40.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/40/",
+        "source_label": "Official Voter Information Guide: Proposition 40",
+        "source_snapshot": "data/raw/objects/42/42081348d367260c922aca7adaf80ae098e789509ad7bfc41ac98926c5924be5",
+        "raw_sha256": "42081348d367260c922aca7adaf80ae098e789509ad7bfc41ac98926c5924be5",
+        "fetched_at": "2026-10-26T00:20:47Z",
+        "fetched_by": "crawl"
+      },
+      "supporters": {
+        "text": "US Senator Bernie Sanders; SEIU United Healthcare Workers West",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/40/",
+        "source_label": "Official Voter Information Guide: Proposition 40",
+        "source_snapshot": "data/raw/objects/42/42081348d367260c922aca7adaf80ae098e789509ad7bfc41ac98926c5924be5",
+        "raw_sha256": "42081348d367260c922aca7adaf80ae098e789509ad7bfc41ac98926c5924be5",
+        "fetched_at": "2026-10-26T00:20:47Z",
+        "fetched_by": "crawl"
+      },
+      "opponents": {
+        "text": "California Primary Care Association; California School Boards Association; California Taxpayers Association",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/40/",
+        "source_label": "Official Voter Information Guide: Proposition 40",
+        "source_snapshot": "data/raw/objects/42/42081348d367260c922aca7adaf80ae098e789509ad7bfc41ac98926c5924be5",
+        "raw_sha256": "42081348d367260c922aca7adaf80ae098e789509ad7bfc41ac98926c5924be5",
+        "fetched_at": "2026-10-26T00:20:47Z",
+        "fetched_by": "crawl"
+      },
+      "analysis": {
+        "text": "BACKGROUND\nCalifornia Is Home to Many Billionaires. Several of the wealthiest people in the world live in California. Wealth is the value of all the things a person owns. Wealth is different from income, which is how much a person earns in a set period of time, like one year. A person’s wealth typically is measured by their net worth. A person’s net worth is the value of all the things they own, like stocks, businesses, or other investments, minus their debts. California is home to a few hundred people with net worth over $1 billion, often called billionaires. Many of these billionaires gained their wealth as executives or investors in California technology companies.\nHealth Care Is a Major Category of State Spending. The state and federal government spend over $200 billion per year on state health care programs. Most state health care spending is for Medi-Cal, the state’s health insurance program for low-income people. State spending also supports public health programs, mental health care, and drug and alcohol treatment.\nPROPOSAL\nEstablishes One-Time Wealth Tax on Billionaires. Under Proposition 40, billionaires who were residents of California on January 1, 2026 would have to pay a one-time state tax equal to 5 percent of their net worth. The tax would be due in 2027. Taxpayers would have the option to spread the payments over five years but would have to pay more to do so. Real estate, pensions, and retirement accounts generally would be excluded from the tax.\nMost of the Money Must Be Spent on Health Care. The state would decide how and when to spend the money from the wealth tax, but it would have to be spent on certain types of services. Ninety percent of the money would have to be spent on health care services for the public. The rest would have to be spent on education, food assistance, and administration of the wealth tax. Existing rules in the State Constitution that limit spending and require the state to spend a certain amount on schools and community colleges would not apply to this money.\nFISCAL EFFECTS\nTemporary State Revenue Increase From Wealth Tax. The state probably would collect tens of billions of dollars from the wealth tax. This temporary increase in state tax collections would be spread across several years. Exactly when and how much the state would collect is very hard to predict for many reasons. For example, it is hard to know what actions billionaires would take to reduce the amount of tax they pay. Also, much of the wealth is based on stock prices, which are always changing.\nPossible Ongoing Decrease in State Income Tax Revenues. California billionaires, like all those earning money in the state, currently pay state taxes on their annual income. Billionaires may respond to a new wealth tax in ways that reduce their income tax payments. For example, some billionaires may decide to leave California. The income taxes they currently pay to the state also would go away. These responses probably would reduce state revenues by less than $1 billion per year. This could mean less money for the state’s General Fund, which is the account that pays for most public services, including education, health care, and prisons.\nState Costs to Administer the Wealth Tax. The state would have costs to determine how much wealth tax is owed and to collect tax payments. These costs could be tens of millions of dollars per year for several years. These costs would be paid from the new wealth tax revenues.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/40/analysis.htm",
+        "source_label": "Analysis by the Legislative Analyst (Official Voter Information Guide)",
+        "source_snapshot": "data/raw/objects/86/8664164caf1bdad172348727962cba938c12da57178e997236f4c10f77a98afa",
+        "raw_sha256": "8664164caf1bdad172348727962cba938c12da57178e997236f4c10f77a98afa",
+        "fetched_at": "2026-10-26T00:20:55Z",
+        "fetched_by": "crawl"
+      }
+    }
+  },
+  {
+    "id": "prop-41",
+    "number": "41",
+    "title": {
+      "text": "Prohibits New State Taxes That Exclude Revenues from State Spending Limit. Requires Audits for New State Special Taxes.",
+      "source_url": "https://voterguide.sos.ca.gov/propositions/",
+      "source_label": "Official Voter Information Guide: list of propositions",
+      "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "fetched_at": "2026-10-26T00:20:42Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "state",
+      "name": "California"
+    },
+    "topics": [
+      "taxes",
+      "state finances"
+    ],
+    "documents": [],
+    "arguments_url": "https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm",
+    "fields": {
+      "measure_type": {
+        "text": "Initiative Constitutional Amendment.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/",
+        "source_label": "Official Voter Information Guide: list of propositions",
+        "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "fetched_at": "2026-10-26T00:20:42Z",
+        "fetched_by": "crawl"
+      },
+      "summary": {
+        "text": "Nullifies state taxes enacted after January 1, 2026 that exempt their revenues from voter-approved state spending limit. Requires pre-election and recurring audits of programs funded by new special taxes.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/41/",
+        "source_label": "Official Voter Information Guide: Proposition 41",
+        "source_snapshot": "data/raw/objects/f7/f7b4d97683e9765238fb75d616c4022529ab8c8632a3f7d8866294489680ca3a",
+        "raw_sha256": "f7b4d97683e9765238fb75d616c4022529ab8c8632a3f7d8866294489680ca3a",
+        "fetched_at": "2026-10-26T00:20:48Z",
+        "fetched_by": "crawl"
+      },
+      "yes_means": {
+        "text": "A YES vote on this measure means: When special taxes are proposed by voter initiatives, the California State Auditor would review programs funded by the tax before the initiative appears on the ballot. The California State Auditor also would regularly review programs funded by special taxes approved by voters or the Legislature. In addition, the state might not be able to exclude any new special tax spending from its spending limit.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/41/",
+        "source_label": "Official Voter Information Guide: Proposition 41",
+        "source_snapshot": "data/raw/objects/f7/f7b4d97683e9765238fb75d616c4022529ab8c8632a3f7d8866294489680ca3a",
+        "raw_sha256": "f7b4d97683e9765238fb75d616c4022529ab8c8632a3f7d8866294489680ca3a",
+        "fetched_at": "2026-10-26T00:20:48Z",
+        "fetched_by": "crawl"
+      },
+      "no_means": {
+        "text": "A NO vote on this measure means: The California State Auditor’s responsibility to review government programs would not change. The state spending limit requirements would not change.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/41/",
+        "source_label": "Official Voter Information Guide: Proposition 41",
+        "source_snapshot": "data/raw/objects/f7/f7b4d97683e9765238fb75d616c4022529ab8c8632a3f7d8866294489680ca3a",
+        "raw_sha256": "f7b4d97683e9765238fb75d616c4022529ab8c8632a3f7d8866294489680ca3a",
+        "fetched_at": "2026-10-26T00:20:48Z",
+        "fetched_by": "crawl"
+      },
+      "fiscal_effect": {
+        "text": "The net fiscal effect is unknown as it depends on future decisions by voters, the Legislature, and other policymakers.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/41/",
+        "source_label": "Official Voter Information Guide: Proposition 41",
+        "source_snapshot": "data/raw/objects/f7/f7b4d97683e9765238fb75d616c4022529ab8c8632a3f7d8866294489680ca3a",
+        "raw_sha256": "f7b4d97683e9765238fb75d616c4022529ab8c8632a3f7d8866294489680ca3a",
+        "fetched_at": "2026-10-26T00:20:48Z",
+        "fetched_by": "crawl"
+      },
+      "argument_for": {
+        "text": "Californians deserve better results for our taxes. Billions have flowed into programs like homelessness, with too little to show for it. Prop. 41 requires the independent State Auditor to conduct PUBLIC AUDITS of programs funded by new taxes—so we get more transparency, more accountability and better outcomes for taxpayers.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/41/",
+        "source_label": "Official Voter Information Guide: Proposition 41",
+        "source_snapshot": "data/raw/objects/f7/f7b4d97683e9765238fb75d616c4022529ab8c8632a3f7d8866294489680ca3a",
+        "raw_sha256": "f7b4d97683e9765238fb75d616c4022529ab8c8632a3f7d8866294489680ca3a",
+        "fetched_at": "2026-10-26T00:20:48Z",
+        "fetched_by": "crawl"
+      },
+      "argument_against": {
+        "text": "Prop. 41 isn’t really about audits—it’s a billionaire-funded trick designed to undo the California Billionaire Tax. Billionaires would rather millions of Californians lose healthcare than pay a modest tax on their extreme wealth. Don’t fall for the billionaires’ lies. Vote NO on 41.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/41/",
+        "source_label": "Official Voter Information Guide: Proposition 41",
+        "source_snapshot": "data/raw/objects/f7/f7b4d97683e9765238fb75d616c4022529ab8c8632a3f7d8866294489680ca3a",
+        "raw_sha256": "f7b4d97683e9765238fb75d616c4022529ab8c8632a3f7d8866294489680ca3a",
+        "fetched_at": "2026-10-26T00:20:48Z",
+        "fetched_by": "crawl"
+      },
+      "supporters": {
+        "text": "CA Society of Certified Public Accountants (CalCPAs); CalAsian Chamber of Commerce; California Taxpayers Association (CalTax)",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/41/",
+        "source_label": "Official Voter Information Guide: Proposition 41",
+        "source_snapshot": "data/raw/objects/f7/f7b4d97683e9765238fb75d616c4022529ab8c8632a3f7d8866294489680ca3a",
+        "raw_sha256": "f7b4d97683e9765238fb75d616c4022529ab8c8632a3f7d8866294489680ca3a",
+        "fetched_at": "2026-10-26T00:20:48Z",
+        "fetched_by": "crawl"
+      },
+      "opponents": {
+        "text": "US Senator Bernie Sanders; SEIU United Healthcare Workers West",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/41/",
+        "source_label": "Official Voter Information Guide: Proposition 41",
+        "source_snapshot": "data/raw/objects/f7/f7b4d97683e9765238fb75d616c4022529ab8c8632a3f7d8866294489680ca3a",
+        "raw_sha256": "f7b4d97683e9765238fb75d616c4022529ab8c8632a3f7d8866294489680ca3a",
+        "fetched_at": "2026-10-26T00:20:48Z",
+        "fetched_by": "crawl"
+      },
+      "analysis": {
+        "text": "BACKGROUND\nElections Administration. The Secretary of State oversees elections across the state and prepares and mails the state Voter Information Guide (VIG).\nVoter Initiative Process. California citizens may propose state laws and constitutional amendments through the statewide initiative process. Supporters of an initiative collect signatures from registered voters to qualify their initiative for the ballot. State law sets how many valid signatures supporters must collect to qualify their initiative for the ballot. Supporters notify the Secretary of State once they have gathered 25 percent of the necessary signatures.\nSpecial Taxes. State taxes can be raised by the Legislature or by voters. When a “special tax” is created, the revenue from that tax is dedicated to a specific purpose or program. For example, certain fuel taxes can only be used to pay for public roads and other transportation programs.\nCalifornia State Auditor’s Office (State Auditor). The State Auditor is an independent and nonpartisan office in state government. It reviews how well the state and local governments follow the law, use money, and run their programs. These reviews are called audits. An audit may give recommendations to help improve government operations and efficiency. Some audits happen regularly over time while other audits are done only once.\nPROPOSAL\nRequires One-Time Audits Before Special Taxes Appear on the Ballot Through the Voter Initiative Process. Proposition 41 requires the State Auditor to review each program that would receive funds from a new or increased special tax proposed through the voter initiative process. This audit would occur after supporters collect 25 percent of the signatures needed to qualify a measure for the ballot, which is before it is known whether the initiative will qualify for the ballot. Proposition 41 specifies what the State Auditor would include in these audits, including identifying ways to reduce an audited program’s annual costs by 10 percent. Proposition 41 requires the State Auditor to write a summary of each audit. If a proposed voter initiative with a special tax qualifies for the ballot, Proposition 41 requires the State Auditor’s summary to be included in the VIG. If voters approve the special tax, the cost of the one-time audit would be paid from the new tax revenues.\nOngoing Audits of Programs Receiving Funds From New or Increased Special Taxes. Proposition 41 also requires the State Auditor to periodically review programs that receive funding from special taxes created or increased by the Legislature or by voters after January 1, 2026. These ongoing audits would happen every four years. Proposition 41 specifies what the State Auditor will include in these audits, including recommendations to improve program efficiency. Proposition 41 specifies that the costs of this ongoing work will be paid using the new tax revenue.\nState Appropriations Limit. The State Constitution limits how much tax revenues the state can spend each year. The limit applies to both General Fund taxes and special taxes. However, certain types of spending, for example for infrastructure, are excluded from this limit. Under Proposition 41, the state might not be able to exclude new special tax spending from the limit.\nFISCAL EFFECTS\nIncreased State Auditor Costs, Mostly Paid by New Revenues. Proposition 41 would increase State Auditor costs by creating new and ongoing audit requirements. The costs would depend on (1) the number of new or increased special taxes that are proposed and approved and (2) the complexity of the programs being audited. These costs likely would be in the range of the low millions of dollars per year but would grow over time. The one-time and ongoing audit costs associated with special taxes approved by voters or the Legislature would be paid from the revenues collected by the special taxes. One-time audit costs associated with special taxes that do not ultimately appear on the ballot or are rejected by voters would be paid from the state’s General Fund. (The General Fund is the account the state uses to pay for most public services, including education, health care, and prisons.)\nHigher Costs to Print and Mail VIG. Proposition 41 would require a summary of the State Auditor’s review to appear in the VIG when a voter initiative with a special tax appears on the ballot. These audit summaries could add several pages to the VIG, which would increase state printing and mailing costs by a few hundred thousand dollars per qualified initiative.\nPossible Savings if State Auditor Recommendations Are Implemented. Proposition 41 requires the State Auditor to make recommendations for programs to reduce costs or improve efficiency. Proposition 41 could result in savings or improved services if policymakers implement the State Auditor’s recommendations and those recommendations prove effective. Any resulting savings would depend on future decisions and are not known.\nNet Effect Not Known. The net fiscal effect of Proposition 41 is unknown as it depends on future decisions by voters, the Legislature, and other policymakers.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/41/analysis.htm",
+        "source_label": "Analysis by the Legislative Analyst (Official Voter Information Guide)",
+        "source_snapshot": "data/raw/objects/da/da0798289af0a290452fb88c409311e551a492c484a341e86eb32e11a28a8eea",
+        "raw_sha256": "da0798289af0a290452fb88c409311e551a492c484a341e86eb32e11a28a8eea",
+        "fetched_at": "2026-10-26T00:20:56Z",
+        "fetched_by": "crawl"
+      }
+    }
+  },
+  {
+    "id": "prop-42",
+    "number": "42",
+    "title": {
+      "text": "Prohibits New State Personal Property Taxes and Certain Retroactive State Taxes.",
+      "source_url": "https://voterguide.sos.ca.gov/propositions/",
+      "source_label": "Official Voter Information Guide: list of propositions",
+      "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "fetched_at": "2026-10-26T00:20:42Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "state",
+      "name": "California"
+    },
+    "topics": [
+      "taxes",
+      "property"
+    ],
+    "documents": [],
+    "arguments_url": "https://voterguide.sos.ca.gov/propositions/42/arguments-rebuttals.htm",
+    "fields": {
+      "measure_type": {
+        "text": "Initiative Constitutional Amendment.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/",
+        "source_label": "Official Voter Information Guide: list of propositions",
+        "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "fetched_at": "2026-10-26T00:20:42Z",
+        "fetched_by": "crawl"
+      },
+      "summary": {
+        "text": "Prohibits any new state tax (1) imposed on the ownership of personal property (all things people own other than real estate), or (2) that applies retroactively based on taxpayer’s past activities. Nullifies taxes enacted after January 1, 2026 that conflict with this measure.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/42/",
+        "source_label": "Official Voter Information Guide: Proposition 42",
+        "source_snapshot": "data/raw/objects/b8/b8738fe6edd16805694ec509c0df6aa647a9315501738ff524f75d986d96b5be",
+        "raw_sha256": "b8738fe6edd16805694ec509c0df6aa647a9315501738ff524f75d986d96b5be",
+        "fetched_at": "2026-10-26T00:20:49Z",
+        "fetched_by": "crawl"
+      },
+      "yes_means": {
+        "text": "A YES vote on this measure means: The state could not establish new taxes on the ownership of financial assets or other personal property.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/42/",
+        "source_label": "Official Voter Information Guide: Proposition 42",
+        "source_snapshot": "data/raw/objects/b8/b8738fe6edd16805694ec509c0df6aa647a9315501738ff524f75d986d96b5be",
+        "raw_sha256": "b8738fe6edd16805694ec509c0df6aa647a9315501738ff524f75d986d96b5be",
+        "fetched_at": "2026-10-26T00:20:49Z",
+        "fetched_by": "crawl"
+      },
+      "no_means": {
+        "text": "A NO vote on this measure means: The state would continue to have the option to establish new taxes on the ownership of financial assets or other personal property.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/42/",
+        "source_label": "Official Voter Information Guide: Proposition 42",
+        "source_snapshot": "data/raw/objects/b8/b8738fe6edd16805694ec509c0df6aa647a9315501738ff524f75d986d96b5be",
+        "raw_sha256": "b8738fe6edd16805694ec509c0df6aa647a9315501738ff524f75d986d96b5be",
+        "fetched_at": "2026-10-26T00:20:49Z",
+        "fetched_by": "crawl"
+      },
+      "fiscal_effect": {
+        "text": "Possibility that tax revenues will not go up as much in the future.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/42/",
+        "source_label": "Official Voter Information Guide: Proposition 42",
+        "source_snapshot": "data/raw/objects/b8/b8738fe6edd16805694ec509c0df6aa647a9315501738ff524f75d986d96b5be",
+        "raw_sha256": "b8738fe6edd16805694ec509c0df6aa647a9315501738ff524f75d986d96b5be",
+        "fetched_at": "2026-10-26T00:20:49Z",
+        "fetched_by": "crawl"
+      },
+      "argument_for": {
+        "text": "California’s Constitution currently allows the Legislature to tax retirement and savings—even though you already paid taxes on that money when you earned it! Prop. 42 protects Californians from this double taxation, by prohibiting new and retroactive taxes on personal property, including retirement and savings. You earned it. Prop. 42 protects it.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/42/",
+        "source_label": "Official Voter Information Guide: Proposition 42",
+        "source_snapshot": "data/raw/objects/b8/b8738fe6edd16805694ec509c0df6aa647a9315501738ff524f75d986d96b5be",
+        "raw_sha256": "b8738fe6edd16805694ec509c0df6aa647a9315501738ff524f75d986d96b5be",
+        "fetched_at": "2026-10-26T00:20:49Z",
+        "fetched_by": "crawl"
+      },
+      "argument_against": {
+        "text": "This is just another billionaire-funded trick. Prop. 42 isn’t really about protecting your retirement savings—its only real purpose is to undo the California Billionaire Tax. Billionaires would rather millions of Californians lose healthcare than pay a modest tax on their extreme wealth. Vote NO on 42.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/42/",
+        "source_label": "Official Voter Information Guide: Proposition 42",
+        "source_snapshot": "data/raw/objects/b8/b8738fe6edd16805694ec509c0df6aa647a9315501738ff524f75d986d96b5be",
+        "raw_sha256": "b8738fe6edd16805694ec509c0df6aa647a9315501738ff524f75d986d96b5be",
+        "fetched_at": "2026-10-26T00:20:49Z",
+        "fetched_by": "crawl"
+      },
+      "supporters": {
+        "text": "CA Professional Firefighters; State Building & Construction Trades Council of CA; AMVETS Department of CA",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/42/",
+        "source_label": "Official Voter Information Guide: Proposition 42",
+        "source_snapshot": "data/raw/objects/b8/b8738fe6edd16805694ec509c0df6aa647a9315501738ff524f75d986d96b5be",
+        "raw_sha256": "b8738fe6edd16805694ec509c0df6aa647a9315501738ff524f75d986d96b5be",
+        "fetched_at": "2026-10-26T00:20:49Z",
+        "fetched_by": "crawl"
+      },
+      "opponents": {
+        "text": "US Senator Bernie Sanders; SEIU United Healthcare Workers West",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/42/",
+        "source_label": "Official Voter Information Guide: Proposition 42",
+        "source_snapshot": "data/raw/objects/b8/b8738fe6edd16805694ec509c0df6aa647a9315501738ff524f75d986d96b5be",
+        "raw_sha256": "b8738fe6edd16805694ec509c0df6aa647a9315501738ff524f75d986d96b5be",
+        "fetched_at": "2026-10-26T00:20:49Z",
+        "fetched_by": "crawl"
+      },
+      "analysis": {
+        "text": "BACKGROUND\nCertain Personal Property Is Taxed in California. Both the state and local governments tax the ownership of certain personal property. These taxes are based on the property’s value. Personal property is all the things that people own other than real estate. One example of these kinds of taxes is the vehicle license fee that car and truck owners pay to the Department of Motor Vehicles each year. Another example is the property taxes owners of business equipment pay to the county each year.\nOwnership of Financial Assets Is Not Taxed. The ownership of many types of personal property is not taxed. One major example is financial assets like stocks and investment accounts. Although the state does tax income people make from their financial assets, there is no tax for simply owning those assets.\nPROPOSAL\nProhibits New Taxes on Financial Assets or Other Personal Property. Under Proposition 42, new taxes on the ownership of financial assets or other personal property would not be allowed.\nLimits Retroactive Taxes. Proposition 42 limits the situations that a ballot measure or the Legislature can raise any tax retroactively. A retroactive tax is one that applies to things that happened in the past. An example is a tax on money someone earned two years ago.\nFISCAL EFFECTS\nPossibility That Tax Revenues Will Be Lower in the Future. Proposition 42 restricts the options the state has to raise taxes in the future. This could make it somewhat harder for the state to raise taxes. This could reduce future tax revenues. When and by how much future revenues would be reduced is unclear.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/42/analysis.htm",
+        "source_label": "Analysis by the Legislative Analyst (Official Voter Information Guide)",
+        "source_snapshot": "data/raw/objects/25/25ee7a488b0604fb19acc862a28cd5075e96674931a1fd1e437c133081f91788",
+        "raw_sha256": "25ee7a488b0604fb19acc862a28cd5075e96674931a1fd1e437c133081f91788",
+        "fetched_at": "2026-10-26T00:20:56Z",
+        "fetched_by": "crawl"
+      }
+    }
+  },
+  {
+    "id": "prop-43",
+    "number": "43",
+    "title": {
+      "text": "Limit's Voters' Ability to Raise Revenues for Local Government Services.",
+      "source_url": "https://voterguide.sos.ca.gov/propositions/",
+      "source_label": "Official Voter Information Guide: list of propositions",
+      "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "fetched_at": "2026-10-26T00:20:42Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "state",
+      "name": "California"
+    },
+    "topics": [
+      "taxes",
+      "local government"
+    ],
+    "documents": [],
+    "arguments_url": "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
+    "fields": {
+      "measure_type": {
+        "text": "Legislative Constitutional Amendment.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/",
+        "source_label": "Official Voter Information Guide: list of propositions",
+        "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "fetched_at": "2026-10-26T00:20:42Z",
+        "fetched_by": "crawl"
+      },
+      "summary": {
+        "text": "Limits voters’ ability to pass voter-proposed local special taxes by increasing percentage of votes needed to approve such ballot measures from a majority (over 50%) to two-thirds, beginning January 1, 2027.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/43/",
+        "source_label": "Official Voter Information Guide: Proposition 43",
+        "source_snapshot": "data/raw/objects/61/611038616265b52bc97e1d6a6ae2a5d66bf79ef411797350eb5225aac7976aaa",
+        "raw_sha256": "611038616265b52bc97e1d6a6ae2a5d66bf79ef411797350eb5225aac7976aaa",
+        "fetched_at": "2026-10-26T00:20:49Z",
+        "fetched_by": "crawl"
+      },
+      "yes_means": {
+        "text": "A YES vote on this measure means: Certain local government taxes would require two-thirds approval by voters.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/43/",
+        "source_label": "Official Voter Information Guide: Proposition 43",
+        "source_snapshot": "data/raw/objects/61/611038616265b52bc97e1d6a6ae2a5d66bf79ef411797350eb5225aac7976aaa",
+        "raw_sha256": "611038616265b52bc97e1d6a6ae2a5d66bf79ef411797350eb5225aac7976aaa",
+        "fetched_at": "2026-10-26T00:20:49Z",
+        "fetched_by": "crawl"
+      },
+      "no_means": {
+        "text": "A NO vote on this measure means: Certain local government taxes could continue to be approved by voters with a majority vote.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/43/",
+        "source_label": "Official Voter Information Guide: Proposition 43",
+        "source_snapshot": "data/raw/objects/61/611038616265b52bc97e1d6a6ae2a5d66bf79ef411797350eb5225aac7976aaa",
+        "raw_sha256": "611038616265b52bc97e1d6a6ae2a5d66bf79ef411797350eb5225aac7976aaa",
+        "fetched_at": "2026-10-26T00:20:49Z",
+        "fetched_by": "crawl"
+      },
+      "fiscal_effect": {
+        "text": "Possibility that local government tax revenues will not go up as much in the future due to a higher vote threshold for certain taxes.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/43/",
+        "source_label": "Official Voter Information Guide: Proposition 43",
+        "source_snapshot": "data/raw/objects/61/611038616265b52bc97e1d6a6ae2a5d66bf79ef411797350eb5225aac7976aaa",
+        "raw_sha256": "611038616265b52bc97e1d6a6ae2a5d66bf79ef411797350eb5225aac7976aaa",
+        "fetched_at": "2026-10-26T00:20:49Z",
+        "fetched_by": "crawl"
+      },
+      "argument_for": {
+        "text": "Prop. 43 protects taxpayers by restoring Proposition 13’s two-thirds vote requirement to pass local special taxes, including sales taxes, real estate taxes and utility taxes. Courts have allowed special interests to pass earmarked tax increases with fewer votes. Prop. 43 closes this loophole, protecting taxpayers, homeowners and renters. Vote yes.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/43/",
+        "source_label": "Official Voter Information Guide: Proposition 43",
+        "source_snapshot": "data/raw/objects/61/611038616265b52bc97e1d6a6ae2a5d66bf79ef411797350eb5225aac7976aaa",
+        "raw_sha256": "611038616265b52bc97e1d6a6ae2a5d66bf79ef411797350eb5225aac7976aaa",
+        "fetched_at": "2026-10-26T00:20:49Z",
+        "fetched_by": "crawl"
+      },
+      "argument_against": {
+        "text": "PROPOSITION 43 LIMITS VOTERS’ ABILITY TO FUND ESSENTIAL LOCAL SERVICES including fire protection, 911 response, schools, roads, hospitals and affordable housing. It doesn’t cut your taxes and lets just 33.4% of voters veto what nearly 67% want. Protect your vote and majority rule. Vote NO on Proposition 43.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/43/",
+        "source_label": "Official Voter Information Guide: Proposition 43",
+        "source_snapshot": "data/raw/objects/61/611038616265b52bc97e1d6a6ae2a5d66bf79ef411797350eb5225aac7976aaa",
+        "raw_sha256": "611038616265b52bc97e1d6a6ae2a5d66bf79ef411797350eb5225aac7976aaa",
+        "fetched_at": "2026-10-26T00:20:49Z",
+        "fetched_by": "crawl"
+      },
+      "supporters": {
+        "text": "California Taxpayers Association; Family Business Association of California; California Hispanic Chambers of Commerce",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/43/",
+        "source_label": "Official Voter Information Guide: Proposition 43",
+        "source_snapshot": "data/raw/objects/61/611038616265b52bc97e1d6a6ae2a5d66bf79ef411797350eb5225aac7976aaa",
+        "raw_sha256": "611038616265b52bc97e1d6a6ae2a5d66bf79ef411797350eb5225aac7976aaa",
+        "fetched_at": "2026-10-26T00:20:49Z",
+        "fetched_by": "crawl"
+      },
+      "opponents": {
+        "text": "California Professional Firefighters; California Federation of Teachers; Nurse Alliance of SEIU CA.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/43/",
+        "source_label": "Official Voter Information Guide: Proposition 43",
+        "source_snapshot": "data/raw/objects/61/611038616265b52bc97e1d6a6ae2a5d66bf79ef411797350eb5225aac7976aaa",
+        "raw_sha256": "611038616265b52bc97e1d6a6ae2a5d66bf79ef411797350eb5225aac7976aaa",
+        "fetched_at": "2026-10-26T00:20:49Z",
+        "fetched_by": "crawl"
+      },
+      "analysis": {
+        "text": "BACKGROUND\nLocal Governments in California. California has many local governments. These include cities, counties, special districts, and school districts.\nVote Thresholds for Local Taxes. The State Constitution allows local governments to increase taxes with local voter approval. Tax increases can be put on a ballot by voters or a local governing board (such as a city council or board of supervisors). Increases in some types of local taxes require a two-thirds vote to approve them, while other types of taxes require a majority (more than half) vote to approve them. Some local tax increases are approved permanently, while others are approved for a limited period of time. Before those taxes expire, voters can be asked whether to extend them.\nPROPOSAL\nRequires Certain Local Taxes Receive Two-Thirds Approval by Voters. Under current law, local taxes that are used for a specific purpose require a two-thirds vote to be approved. These are called special taxes. However, recent court decisions have allowed special taxes that are proposed by voters to be approved with a majority vote. Under Proposition 43, beginning on January 1, 2027, any new, increased, or extended local special taxes proposed by voters would require a two-thirds vote.\nFISCAL EFFECTS\nPossibility for Lower Local Government Tax Revenues in the Future. Proposition 43 makes it harder for local governments to pass certain taxes. As a result, local governments’ tax revenues could be lower in the future than they otherwise would be. The actual revenue impact is unknown and would depend on future decisions by local governments and voters.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/43/analysis.htm",
+        "source_label": "Analysis by the Legislative Analyst (Official Voter Information Guide)",
+        "source_snapshot": "data/raw/objects/1f/1fc2eaca12a62f49fccf7a1d3a247dd28cda37d2a0da8b7dfcf868f5ebf6e878",
+        "raw_sha256": "1fc2eaca12a62f49fccf7a1d3a247dd28cda37d2a0da8b7dfcf868f5ebf6e878",
+        "fetched_at": "2026-10-26T00:20:57Z",
+        "fetched_by": "crawl"
+      }
+    }
+  },
+  {
+    "id": "prop-44",
+    "number": "44",
+    "title": {
+      "text": "Requires Community Health Clinics Spend 90% of Revenue on Program Services.",
+      "source_url": "https://voterguide.sos.ca.gov/propositions/",
+      "source_label": "Official Voter Information Guide: list of propositions",
+      "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "fetched_at": "2026-10-26T00:20:42Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "state",
+      "name": "California"
+    },
+    "topics": [
+      "health care",
+      "nonprofits"
+    ],
+    "documents": [],
+    "arguments_url": "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm",
+    "fields": {
+      "measure_type": {
+        "text": "Initiative Statute.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/",
+        "source_label": "Official Voter Information Guide: list of propositions",
+        "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "fetched_at": "2026-10-26T00:20:42Z",
+        "fetched_by": "crawl"
+      },
+      "summary": {
+        "text": "Imposes penalties on nonprofit Federally Qualified Health Centers (community clinics providing primary care to medically underserved areas and populations) that spend less than 90% of revenue on “program services” advancing their charitable purpose, including but not limited to patient services.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/44/",
+        "source_label": "Official Voter Information Guide: Proposition 44",
+        "source_snapshot": "data/raw/objects/80/8007af1e02456f4f5bd37c89f6985b421b686b685c2ea8544ddb61e749d7bd36",
+        "raw_sha256": "8007af1e02456f4f5bd37c89f6985b421b686b685c2ea8544ddb61e749d7bd36",
+        "fetched_at": "2026-10-26T00:20:50Z",
+        "fetched_by": "crawl"
+      },
+      "yes_means": {
+        "text": "A YES vote on this measure means: Certain private nonprofit health care clinics would have to spend at least 90 percent of their revenue each year on providing health care services.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/44/",
+        "source_label": "Official Voter Information Guide: Proposition 44",
+        "source_snapshot": "data/raw/objects/80/8007af1e02456f4f5bd37c89f6985b421b686b685c2ea8544ddb61e749d7bd36",
+        "raw_sha256": "8007af1e02456f4f5bd37c89f6985b421b686b685c2ea8544ddb61e749d7bd36",
+        "fetched_at": "2026-10-26T00:20:50Z",
+        "fetched_by": "crawl"
+      },
+      "no_means": {
+        "text": "A NO vote on this measure means: The new requirement on health care clinic spending would not go into effect.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/44/",
+        "source_label": "Official Voter Information Guide: Proposition 44",
+        "source_snapshot": "data/raw/objects/80/8007af1e02456f4f5bd37c89f6985b421b686b685c2ea8544ddb61e749d7bd36",
+        "raw_sha256": "8007af1e02456f4f5bd37c89f6985b421b686b685c2ea8544ddb61e749d7bd36",
+        "fetched_at": "2026-10-26T00:20:50Z",
+        "fetched_by": "crawl"
+      },
+      "fiscal_effect": {
+        "text": "Increased state costs in the low tens of millions of dollars per year, covered by fees.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/44/",
+        "source_label": "Official Voter Information Guide: Proposition 44",
+        "source_snapshot": "data/raw/objects/80/8007af1e02456f4f5bd37c89f6985b421b686b685c2ea8544ddb61e749d7bd36",
+        "raw_sha256": "8007af1e02456f4f5bd37c89f6985b421b686b685c2ea8544ddb61e749d7bd36",
+        "fetched_at": "2026-10-26T00:20:50Z",
+        "fetched_by": "crawl"
+      },
+      "argument_for": {
+        "text": "Prop. 44 holds community clinics and their executives accountable by requiring that 90% of clinic revenue be spent on clinics’ charitable mission: patient care and services that make care possible. It increases transparency, reduces wasteful executive spending, and ensures healthcare dollars go where they belong: caring for Californians in need.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/44/",
+        "source_label": "Official Voter Information Guide: Proposition 44",
+        "source_snapshot": "data/raw/objects/80/8007af1e02456f4f5bd37c89f6985b421b686b685c2ea8544ddb61e749d7bd36",
+        "raw_sha256": "8007af1e02456f4f5bd37c89f6985b421b686b685c2ea8544ddb61e749d7bd36",
+        "fetched_at": "2026-10-26T00:20:50Z",
+        "fetched_by": "crawl"
+      },
+      "argument_against": {
+        "text": "Prop. 44 is a dangerous measure that will shut down hundreds of community health clinics and eliminate vital patient services for millions of Californians. American Academy of Pediatrics CA, California Medical Association, California Academy of Family Physicians, California School Nurses Organization, doctors, nurses and patients urge NO on 44! www.NOProp44.com",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/44/",
+        "source_label": "Official Voter Information Guide: Proposition 44",
+        "source_snapshot": "data/raw/objects/80/8007af1e02456f4f5bd37c89f6985b421b686b685c2ea8544ddb61e749d7bd36",
+        "raw_sha256": "8007af1e02456f4f5bd37c89f6985b421b686b685c2ea8544ddb61e749d7bd36",
+        "fetched_at": "2026-10-26T00:20:50Z",
+        "fetched_by": "crawl"
+      },
+      "supporters": {
+        "text": "None submitted",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/44/",
+        "source_label": "Official Voter Information Guide: Proposition 44",
+        "source_snapshot": "data/raw/objects/80/8007af1e02456f4f5bd37c89f6985b421b686b685c2ea8544ddb61e749d7bd36",
+        "raw_sha256": "8007af1e02456f4f5bd37c89f6985b421b686b685c2ea8544ddb61e749d7bd36",
+        "fetched_at": "2026-10-26T00:20:50Z",
+        "fetched_by": "crawl"
+      },
+      "opponents": {
+        "text": "American Academy of Pediatrics CA; CA School Nurses Org; CA Academy of Family Physicians; CA Medical Assoc.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/44/",
+        "source_label": "Official Voter Information Guide: Proposition 44",
+        "source_snapshot": "data/raw/objects/80/8007af1e02456f4f5bd37c89f6985b421b686b685c2ea8544ddb61e749d7bd36",
+        "raw_sha256": "8007af1e02456f4f5bd37c89f6985b421b686b685c2ea8544ddb61e749d7bd36",
+        "fetched_at": "2026-10-26T00:20:50Z",
+        "fetched_by": "crawl"
+      },
+      "analysis": {
+        "text": "BACKGROUND\nSafety Net Clinics Serve Low-Income People. Clinics are places where people can access certain health care services, such as doctor’s visits. Many clinics are considered “safety net,” as they mainly serve low-income and uninsured people. The care they provide is often low cost or free to patients. There are about 2,000 safety net clinics in California. Most are private nonprofits, and the rest are run by public entities (such as counties).\nClinics Spend Most of Their Revenue on Health Care Services. Clinics spend most of their revenue on providing health care to patients. They also have other expenses, such as administrative costs. Each year, private nonprofit safety net clinics in California report their revenues and expenses to the federal government and the state. These clinics currently report spending an average of about 80 percent of their revenue on providing health care services, though the percent varies across clinics.\nPROPOSAL\nSets Minimum Spending on Health Care at Private Nonprofit Safety Net Clinics. Proposition 44 requires private nonprofit safety net clinics to spend at least 90 percent of their total revenue each year on providing health care services. This means that spending on other expenses, such as administrative costs, would be limited to no more than 10 percent of revenue. The California Attorney General would define in more detail which kinds of expenses are related to providing health care services, and which are other expenses, using existing reports to the federal government as a starting point. Affected clinics could ask the state for a temporary waiver of the requirements in some cases.\nCreates Penalty for Falling Short of Minimum. Proposition 44 requires affected clinics to pay a penalty to the state if they fall short of the new health care spending minimum. The penalty would equal the amount of spending needed to reach the 90 percent minimum. Clinics could get their money back if they comply with the spending requirements within five years. If clinics do not comply within five years, the state would keep the money and spend it on clinic workforce programs.\nFISCAL EFFECTS\nCreates State Enforcement Costs. Under Proposition 44, the state would enforce the new requirements on private nonprofit safety net clinics. This includes reviewing financial reports and investigating affected entities. State enforcement costs would be in the low tens of millions of dollars per year. The proposition directs the state to cover the costs by charging fees on affected clinics.\nCould Have Other Uncertain Costs. Proposition 44 could create other costs for the state and local governments. These costs are uncertain. They depend on (1) how the state Attorney General would define health care-related expenses and (2) whether affected clinics would meet the spending minimum. For example, affected clinics might spend more on direct health care services to comply with the requirement, which could increase state costs. This is because some of these services would be for patients in Medi-Cal, the state’s program that provides health care coverage for low-income Californians. Some clinics that could not meet the minimum spending requirement might close instead. This would create other uncertain effects on state and local costs.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/44/analysis.htm",
+        "source_label": "Analysis by the Legislative Analyst (Official Voter Information Guide)",
+        "source_snapshot": "data/raw/objects/f8/f84de0f89dde052cc013c3a499460e05006bdd4c948a750f8e015e759ddc2716",
+        "raw_sha256": "f84de0f89dde052cc013c3a499460e05006bdd4c948a750f8e015e759ddc2716",
+        "fetched_at": "2026-10-26T00:20:58Z",
+        "fetched_by": "crawl"
+      }
+    }
+  },
+  {
+    "id": "prop-45",
+    "number": "45",
+    "title": {
+      "text": "Modifies Environmental Review for Certain Projects.",
+      "source_url": "https://voterguide.sos.ca.gov/propositions/",
+      "source_label": "Official Voter Information Guide: list of propositions",
+      "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+      "fetched_at": "2026-10-26T00:20:42Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "state",
+      "name": "California"
+    },
+    "topics": [
+      "environment",
+      "development"
+    ],
+    "documents": [],
+    "arguments_url": "https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm",
+    "fields": {
+      "measure_type": {
+        "text": "Initiative Statute.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/",
+        "source_label": "Official Voter Information Guide: list of propositions",
+        "source_snapshot": "data/raw/objects/f1/f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "raw_sha256": "f1ea3dc965669c1d34e6e00a086ae4c5b5ffaf9f22e474b0bdc68fca9a5cf89e",
+        "fetched_at": "2026-10-26T00:20:42Z",
+        "fetched_by": "crawl"
+      },
+      "summary": {
+        "text": "Amends California Environmental Quality Act (CEQA) to expedite environmental review for certain projects (including most housing, transportation, water, and health projects) by setting deadlines to complete environmental review and resolve lawsuits challenging project approvals.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/45/",
+        "source_label": "Official Voter Information Guide: Proposition 45",
+        "source_snapshot": "data/raw/objects/0f/0f85c3dac0c665217402d0aa1dc381805c6a5e7a1b61f7f1cb0e3e763d685bf7",
+        "raw_sha256": "0f85c3dac0c665217402d0aa1dc381805c6a5e7a1b61f7f1cb0e3e763d685bf7",
+        "fetched_at": "2026-10-26T00:20:50Z",
+        "fetched_by": "crawl"
+      },
+      "yes_means": {
+        "text": "A YES vote on this measure means: Certain public and private projects would be eligible for new project review and court challenge procedures. For example, new procedures would tighten time limits for environmental review and reduce the scope of what courts can consider when reviewing legal challenges.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/45/",
+        "source_label": "Official Voter Information Guide: Proposition 45",
+        "source_snapshot": "data/raw/objects/0f/0f85c3dac0c665217402d0aa1dc381805c6a5e7a1b61f7f1cb0e3e763d685bf7",
+        "raw_sha256": "0f85c3dac0c665217402d0aa1dc381805c6a5e7a1b61f7f1cb0e3e763d685bf7",
+        "fetched_at": "2026-10-26T00:20:50Z",
+        "fetched_by": "crawl"
+      },
+      "no_means": {
+        "text": "A NO vote on this measure means: Public and private projects would continue to use existing project review and court challenge procedures.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/45/",
+        "source_label": "Official Voter Information Guide: Proposition 45",
+        "source_snapshot": "data/raw/objects/0f/0f85c3dac0c665217402d0aa1dc381805c6a5e7a1b61f7f1cb0e3e763d685bf7",
+        "raw_sha256": "0f85c3dac0c665217402d0aa1dc381805c6a5e7a1b61f7f1cb0e3e763d685bf7",
+        "fetched_at": "2026-10-26T00:20:50Z",
+        "fetched_by": "crawl"
+      },
+      "fiscal_effect": {
+        "text": "Initial costs for state and local governments, likely in the high tens of millions of dollars—potentially exceeding $100 million—annually, partly covered by fees. Uncertain, potentially more significant positive or negative longer-term fiscal effects.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/45/",
+        "source_label": "Official Voter Information Guide: Proposition 45",
+        "source_snapshot": "data/raw/objects/0f/0f85c3dac0c665217402d0aa1dc381805c6a5e7a1b61f7f1cb0e3e763d685bf7",
+        "raw_sha256": "0f85c3dac0c665217402d0aa1dc381805c6a5e7a1b61f7f1cb0e3e763d685bf7",
+        "fetched_at": "2026-10-26T00:20:50Z",
+        "fetched_by": "crawl"
+      },
+      "argument_for": {
+        "text": "The failing status quo is making California unaffordable. Prop. 45 fixes our broken system and lowers our high cost of living by cutting red tape to build housing, water, schools, hospitals, clean energy, and wildfire prevention faster—while maintaining California’s strong environmental protections. Vote YES for a more affordable California. YESonProp45.com",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/45/",
+        "source_label": "Official Voter Information Guide: Proposition 45",
+        "source_snapshot": "data/raw/objects/0f/0f85c3dac0c665217402d0aa1dc381805c6a5e7a1b61f7f1cb0e3e763d685bf7",
+        "raw_sha256": "0f85c3dac0c665217402d0aa1dc381805c6a5e7a1b61f7f1cb0e3e763d685bf7",
+        "fetched_at": "2026-10-26T00:20:50Z",
+        "fetched_by": "crawl"
+      },
+      "argument_against": {
+        "text": "PROPOSITION 45 LIMITS ENVIRONMENTAL AND PUBLIC REVIEW OF PROJECTS BUILT IN YOUR COMMUNITY. It guts The California Environmental Quality Act—flipping California law to protect corporate profits over public health and our air and water. Prop. 45 won’t lower your costs: its utility and corporate funders profit while taxpayers pay more. VOTE NO.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/45/",
+        "source_label": "Official Voter Information Guide: Proposition 45",
+        "source_snapshot": "data/raw/objects/0f/0f85c3dac0c665217402d0aa1dc381805c6a5e7a1b61f7f1cb0e3e763d685bf7",
+        "raw_sha256": "0f85c3dac0c665217402d0aa1dc381805c6a5e7a1b61f7f1cb0e3e763d685bf7",
+        "fetched_at": "2026-10-26T00:20:50Z",
+        "fetched_by": "crawl"
+      },
+      "supporters": {
+        "text": "California Children’s Hospital Association; California Water Association; California Council for Affordable Housing",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/45/",
+        "source_label": "Official Voter Information Guide: Proposition 45",
+        "source_snapshot": "data/raw/objects/0f/0f85c3dac0c665217402d0aa1dc381805c6a5e7a1b61f7f1cb0e3e763d685bf7",
+        "raw_sha256": "0f85c3dac0c665217402d0aa1dc381805c6a5e7a1b61f7f1cb0e3e763d685bf7",
+        "fetched_at": "2026-10-26T00:20:50Z",
+        "fetched_by": "crawl"
+      },
+      "opponents": {
+        "text": "Coalition for Clean Air; CA Environmental Voters; Physicians for Social Responsibility, LA; National Wildlife Federation",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/45/",
+        "source_label": "Official Voter Information Guide: Proposition 45",
+        "source_snapshot": "data/raw/objects/0f/0f85c3dac0c665217402d0aa1dc381805c6a5e7a1b61f7f1cb0e3e763d685bf7",
+        "raw_sha256": "0f85c3dac0c665217402d0aa1dc381805c6a5e7a1b61f7f1cb0e3e763d685bf7",
+        "fetched_at": "2026-10-26T00:20:50Z",
+        "fetched_by": "crawl"
+      },
+      "analysis": {
+        "text": "BACKGROUND\nState Law Requires Government Agencies to Review the Environmental Impacts of Proposed Projects. State and local government agencies are responsible for reviewing and approving certain projects before they can be built. As part of this process, the California Environmental Quality Act (CEQA) requires an agency to consider how a project might negatively affect the environment before approving it. CEQA applies to many types of public and private projects, such as housing developments, school facilities, and highway expansions. Some exceptions apply. For example, state law exempts certain housing developments located near public transit from needing a CEQA review.\nHow the CEQA Process Works. The government agency first determines if CEQA applies to a project. If so, it then determines if the project could significantly affect the environment and if those impacts could be avoided or reduced with minor changes to the project. If making minor changes cannot avoid or reduce significant impacts, the agency must do a more detailed review called an environmental impact report (EIR). (The majority of projects do not require an EIR; however, EIRs are somewhat more common for large and complex projects.) The EIR analyzes possible environmental impacts the project could cause and considers alternatives that could reduce those impacts. After finishing the environmental review, the agency decides whether to approve the project. At certain times during this process, the government agency must seek and consider comments about the project’s environmental review from the public and other government agencies.\nPeople Can Sue the Government Agency About Its CEQA Review. After a government agency has completed the CEQA review and decided whether to approve a project, people who think the agency did not follow the CEQA process correctly can sue the agency. For example, a project opponent might argue that the environmental analysis was inadequate. If the court finds that the agency did not follow CEQA correctly, it can stop the whole project and require the agency to fix the part of the process that was problematic.\nMany Projects Also Need to Get Other Approvals. Besides CEQA review, many projects need approval or permits from other local and/or state government agencies before they can proceed. For example, a business that wants to build a health clinic might need the local government to change land use rules before it can proceed. It also may need state agencies to review and approve how the project might affect certain wildlife species and water quality.\nPROPOSAL\nProposition 45 creates new procedures for reviewing certain types of projects that it defines as “essential.” Figure 1 lists the types of projects eligible for the new procedures. The proposition (1) tightens time limits for CEQA review, permits, and court challenges; (2) changes parts of the CEQA review process; and (3) changes the court’s review process for CEQA lawsuits. The proposition gives eligible project applicants the option of using the new procedures or existing procedures.\nTightens Time Limits for Review and Court Challenges of Eligible Projects. Proposition 45 creates more binding time limits for state and local governments to do both CEQA and permitting reviews. This includes time limits for determining if a project application is complete, finishing the EIR, and granting other types of approvals and permits. For example, Proposition 45 allows an applicant to request an agency hearing— and potentially file a lawsuit with the courts—if an agency does not meet the 365-business-day time limit for finishing the EIR. The proposition also creates a time limit for courts to resolve legal challenges.\nChanges CEQA Review for Eligible Projects. For eligible projects, Proposition 45 makes several changes to the CEQA review process, including:\nApplication Process. Requires the government agency to specify all information that must be included in an application before it is submitted. (Current law allows agencies to repeatedly request additional information or project changes.)\nHow Environmental Impacts Are Assessed. Requires the agency to assess potential environmental impacts based on the laws and standards in place at the time the project application is submitted. (Current law lets the agency consider new information and revise its review standards when doing the EIR.)\nProject Alternatives. Allows the applicant to develop only one project alternative for the agency to consider. (Current law requires the agency—not the applicant—to develop and consider multiple project alternatives that could reduce environmental impacts.)\nConsultation With Native Tribes. Requires the agency and applicant to consult about the project only with California native tribes that have been formally recognized by the federal government. (Current law requires consultation with a wider range of tribes.)\nPublic Comment Periods. Limits how long the agency can accept comments from the public and other government agencies about the project. (Current law sets a minimum number of days—not a maximum—for public review.)\nChanges How Courts Review Challenges to Eligible Projects. Proposition 45 makes several changes to the court’s review process when someone challenges a government agency’s approval of an eligible project. For example, it reduces the scope of what the court can consider in CEQA lawsuits. The proposition also prevents the court from stopping the whole project if it finds that the agency did not follow CEQA correctly. Instead, the court can only stop the part of the project where the environmental review did not comply with CEQA while the agency fixes the problem.\nFISCAL EFFECTS\nInitial Costs for State and Local Governments. During the first several years, Proposition 45 likely would increase costs for the state and local governments, including state courts. These costs likely would be in the high tens of millions of dollars annually, potentially exceeding $100 million annually. For example, state and local governments would have costs to develop new guidelines and standards for reviewing eligible projects’ environmental impacts, meet tighter time limits, and address court challenges. Fees paid by project applicants and people filing lawsuits would cover some of these costs. After this initial period, while some costs could continue, others likely would decline over time. For example, the changes to how courts can review CEQA lawsuits could mean fewer people will sue in the future, which could reduce costs for agencies and state courts in the long term.\nIn the Longer Term, Uncertain but Potentially More Significant Fiscal Effects. Proposition 45’s changes to project review and court challenge procedures for eligible projects could have various fiscal effects for state and local governments. The overall fiscal effect of these changes—positive or negative—is uncertain but could be more substantial than the near-term effects. For example, two effects that could have significant but uncertain impacts are:\nMore Projects and Faster Timing. To the degree that Proposition 45’s changes to project review and court challenge procedures lead to eligible public projects being constructed more quickly, state and local governments likely would have lower project costs. Additionally, if the proposition’s changes result in more projects being completed overall, it could lead to an increase in tax revenues, such as from property taxes.\nNegative Environmental Impacts. To the degree that Proposition 45’s changes to project review and court challenge procedures lead to approval of projects with negative environmental impacts that would not have otherwise occurred, government agencies could face higher costs to respond to those impacts.",
+        "source_url": "https://voterguide.sos.ca.gov/propositions/45/analysis.htm",
+        "source_label": "Analysis by the Legislative Analyst (Official Voter Information Guide)",
+        "source_snapshot": "data/raw/objects/bd/bd6d4e4b9aaf5cc4935aa30fa684783e1862ed2494c4db1fb2ee16f28a926388",
+        "raw_sha256": "bd6d4e4b9aaf5cc4935aa30fa684783e1862ed2494c4db1fb2ee16f28a926388",
+        "fetched_at": "2026-10-26T00:20:58Z",
+        "fetched_by": "crawl"
+      }
+    }
+  }
+]
