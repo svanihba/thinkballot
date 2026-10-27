@@ -8,6 +8,7 @@ import json
 import logging
 import re
 import time
+from concurrent.futures import ThreadPoolExecutor, TimeoutError as FutureTimeout
 
 import requests
 
@@ -16,6 +17,11 @@ from . import config
 log = logging.getLogger("thinkballot.ai")
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
+
+# requests' timeout limits each read, not the whole reply, so a slow trickle can run far past it.
+# Each request runs on this pool and we stop waiting at the timeout; a late reply is discarded.
+_pool = ThreadPoolExecutor(max_workers=16, thread_name_prefix="ai")
+MIN_ATTEMPT_SECONDS = 5  # don't start an attempt with less time than this left
 
 
 class AIError(Exception):
@@ -49,12 +55,12 @@ def chat_json(model, system, user, stub=None, deadline=None):
         timeout = config.AI_TIMEOUT_SECONDS
         if deadline is not None:
             timeout = min(timeout, deadline - started)
-            if timeout < 5:
+            if timeout < MIN_ATTEMPT_SECONDS:
                 log.info("ai model=%s attempt=%d skipped: out of time", model, attempt + 1)
                 last_error = "out of time"
                 break
         try:
-            resp = requests.post(OPENROUTER_URL, json=payload, headers=headers, timeout=timeout)
+            resp = _post(payload, headers, timeout)
             ms = (time.monotonic() - started) * 1000
             log.info("ai model=%s attempt=%d status=%s %.0f ms", model, attempt + 1, resp.status_code, ms)
             if resp.status_code == 200:
@@ -63,11 +69,20 @@ def chat_json(model, system, user, stub=None, deadline=None):
             last_error = f"HTTP {resp.status_code}"
             if resp.status_code not in (408, 429, 500, 502, 503, 504):
                 break  # not worth retrying
-        except (requests.RequestException, KeyError, IndexError, ValueError) as exc:
+        except (requests.RequestException, FutureTimeout, KeyError, IndexError, ValueError) as exc:
             log.info("ai model=%s attempt=%d error=%s", model, attempt + 1, type(exc).__name__)
             last_error = type(exc).__name__
-        time.sleep(min(2 ** attempt, 8))
+        pause = min(2 ** attempt, 8)
+        if deadline is not None:
+            pause = min(pause, max(deadline - time.monotonic(), 0))
+        time.sleep(pause)
     raise AIError(last_error)
+
+
+def _post(payload, headers, timeout):
+    """POST to OpenRouter, giving up after `timeout` seconds in total (raises FutureTimeout)."""
+    future = _pool.submit(requests.post, OPENROUTER_URL, json=payload, headers=headers, timeout=timeout)
+    return future.result(timeout=timeout)
 
 
 def parse_json_object(content):
