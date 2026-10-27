@@ -120,6 +120,29 @@ function renderAnswer(r) {
   return `<div class="answer refused"><p>${esc(r.reason)}</p></div>`;
 }
 
+// The server doesn't report its steps, so the bar follows the clock: it eases toward 95% over the
+// ~85 s time budget and the answer replaces it as soon as it arrives.
+function showAskProgress(out) {
+  out.innerHTML = `<div class="ask-progress" role="status">
+    <p class="hint">Reading the official text, writing an answer, then Bias Buster checks it.
+      This usually takes 30 to 60 seconds.</p>
+    <div class="progress-bar" role="progressbar" aria-label="Processing your question"
+      aria-valuemin="0" aria-valuemax="100"><span></span></div>
+    <p class="progress-text">Processing… <span class="elapsed">0</span> s</p></div>`;
+  const bar = out.querySelector(".progress-bar"), fill = bar.querySelector("span");
+  const elapsed = out.querySelector(".elapsed"), started = Date.now();
+  const tick = () => {
+    const t = (Date.now() - started) / 1000;
+    const pct = Math.round(95 * (1 - Math.exp(-t / 35)));
+    fill.style.width = pct + "%";
+    bar.setAttribute("aria-valuenow", pct);
+    elapsed.textContent = Math.floor(t);
+  };
+  tick();
+  const id = setInterval(tick, 500);
+  return () => clearInterval(id);
+}
+
 function initAsk() {
   const form = document.querySelector(".ask-form");
   if (!form) return;
@@ -131,7 +154,7 @@ function initAsk() {
     if (!question) return;
     const button = form.querySelector("button");
     button.disabled = true;
-    out.innerHTML = `<p class="hint thinking">Reading the official text and running Bias Buster…</p>`;
+    const stopProgress = showAskProgress(out);
     const ctrl = new AbortController();
     const timer = setTimeout(() => ctrl.abort(), 110000);
     try {
@@ -148,6 +171,7 @@ function initAsk() {
         : "Couldn't reach ThinkBallot. Check your connection." });
     } finally {
       clearTimeout(timer);
+      stopProgress();
       button.disabled = false;
     }
   });

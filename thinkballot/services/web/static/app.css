@@ -48,6 +48,9 @@
 .verdict { font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--teal); }
 .verdict.blocked { color: var(--ink-soft); }
 .findings { font-size: 0.82rem; color: var(--ink-soft); margin: 0.4rem 0 0 1.2rem; }
+.ask-progress { max-width: 28rem; }
+.ask-progress .progress-bar { margin: 0.6rem 0 0.3rem; }
+.ask-progress .progress-bar span { transition: width 0.5s linear; }
 .thinking { animation: pulse 1.2s ease-in-out infinite; }
 @keyframes pulse { 50% { opacity: 0.5; } }
 
