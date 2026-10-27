@@ -7,3 +7,5 @@ instance/
 build/
 HANDOFF.local.md
 !data/raw/crawl.sqlite3
+.DS_Store
+.claude/
