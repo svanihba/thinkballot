@@ -6,7 +6,9 @@ ZCTA-to-block relationship file), to a congressional district (AB 604 /
 Proposition 50 block equivalency file), to a State Senate and an Assembly district
 (2021 Citizens Redistricting Commission block equivalency files), to a county (block
 GEOID) and to a Census place (Census 2020 block assignment file). Block populations
-come from the 2020 Census P.L. 94-171 redistricting data (Census API, P1_001N).
+come from the 2020 Census P.L. 94-171 redistricting file (P1_001N). All three
+district assignments are cross-checked block-for-block against the Census Bureau 2026
+block equivalency files (120th Congress, 2026 state legislative districts).
 For each ZCTA, each district is the one holding the largest share of the ZCTA's
 population; the row is marked split when, for any district type, that share is
 below SPLIT_THRESHOLD.
@@ -42,6 +44,11 @@ SOURCES = {
     # State Senate and Assembly: 2021 Citizens Redistricting Commission final maps.
     "sd_crc2021": "https://wedrawthelines.ca.gov/wp-content/uploads/sites/64/2023/01/OneDrive_2023-01-19-4.zip",
     "ad_crc2021": "https://wedrawthelines.ca.gov/wp-content/uploads/sites/64/2023/01/OneDrive_2023-01-19-6.zip",
+    # Census Bureau block equivalency files for the 120th Congress (2026 elections) and
+    # the 2026 state legislative districts; used as independent cross-checks.
+    "census_cd120": "https://www2.census.gov/programs-surveys/decennial/rdo/mapping-files/2027/120-congressional-district-befs/cd120.zip",
+    "census_sldu26": "https://www2.census.gov/programs-surveys/decennial/rdo/mapping-files/2027/2026-state-legislative-bef/sldu26.zip",
+    "census_sldl26": "https://www2.census.gov/programs-surveys/decennial/rdo/mapping-files/2027/2026-state-legislative-bef/sldl26.zip",
     # Census 2020 ZCTA <-> tabulation block relationship file (national, ~1 GB).
     "zcta_block": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_tabblock20_natl.txt",
     # Census 2020 block assignment files for California (block -> place etc.).
@@ -114,6 +121,8 @@ def main(argv=None):
     fetch(SOURCES["zcta_block"], c("zcta_block_ca.txt"), timeout=300,
           line_filter=lambda line: line.split(b"|", 10)[9].startswith(b"06"))
     fetch(SOURCES["pl94171"], c("ca2020.pl.zip"), timeout=300)
+    for key in ("census_cd120", "census_sldu26", "census_sldl26"):
+        fetch(SOURCES[key], c(key + ".zip"), timeout=300)
     counties = read_pipe(c("st06_ca_cou2020.txt"))
     if args.download_only:
         return 0
@@ -135,6 +144,17 @@ def main(argv=None):
         diff = sum(1 for k in set(cd) | set(selc) if cd.get(k) != selc.get(k))
         raise SystemExit(f"AB 604 equivalency files disagree on {diff} blocks")
     log.info("AB 604 Statewide Database and Senate Elections Committee files agree (%d blocks)", len(cd))
+
+    for name, ours, key, member in (
+        ("congressional", cd, "census_cd120", "CD120_06.txt"),
+        ("state_senate", sd, "census_sldu26", "NationalSLDU26.txt"),
+        ("assembly", ad, "census_sldl26", "NationalSLDL26.txt"),
+    ):
+        theirs = read_census_bef(c(key + ".zip"), member)
+        diff = sum(1 for k in set(ours) | set(theirs) if ours.get(k) != theirs.get(k))
+        if diff:
+            raise SystemExit(f"{name}: state file and Census 2026 BEF disagree on {diff} blocks")
+        log.info("%s: state file matches Census BEF %s on all %d blocks", name, key, len(ours))
 
     with zipfile.ZipFile(c("BlockAssign_ST06_CA.zip")) as zf:
         text = zf.read("BlockAssign_ST06_CA_INCPLACE_CDP.txt").decode("ascii")
@@ -202,6 +222,9 @@ def main(argv=None):
         " (cross-checked identical to " + SOURCES["cd_selc_check"] + "). State Senate: 2021 Citizens "
         "Redistricting Commission final map, block equivalency " + SOURCES["sd_crc2021"] + ". Assembly: "
         "2021 Citizens Redistricting Commission final map, block equivalency " + SOURCES["ad_crc2021"] +
+        ". All three district assignments were checked block-for-block to be identical to the Census "
+        "Bureau block equivalency files for the 120th Congress and the 2026 state legislative districts: "
+        + SOURCES["census_cd120"] + ", " + SOURCES["census_sldu26"] + ", " + SOURCES["census_sldl26"] +
         ". Blocks -> ZCTA: " + SOURCES["zcta_block"] + ". Block population: 2020 Census P.L. 94-171 "
         "P1_001N (total population) from " + SOURCES["pl94171"] + ". City: Census 2020 place (incorporated "
         "place or CDP) from " + SOURCES["baf"] + " with names from " + SOURCES["places"] + "; county "
@@ -240,6 +263,17 @@ def read_pl_block_population(zip_path):
                 if block:
                     pop[block] = int(f[5])
     return pop
+
+
+def read_census_bef(zip_path, member):
+    """Census BEF (GEOID,STATEFP,COUNTYFP,TRACTCE,BLOCKCE,district) -> California blocks."""
+    out = {}
+    with zipfile.ZipFile(zip_path) as zf, zf.open(member) as fh:
+        for line in io.TextIOWrapper(fh, encoding="utf-8-sig"):
+            f = line.rstrip("\r\n").split(",")
+            if f[1] == "06":
+                out[f[0]] = str(int(f[5]))
+    return out
 
 
 def read_pipe(path):
