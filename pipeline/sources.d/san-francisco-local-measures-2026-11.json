@@ -7,5 +7,8 @@
   "max_depth": 0,
   "delay_seconds": 2,
   "extractor": "san_francisco_measures",
-  "note": "Linked as \"View ballot questions for local measures here (PDF)\" from https://www.sf.gov/qualified-ballot-measures. api.sf.gov/robots.txt disallows all crawling: the PDF enters the raw store only through a supervised browser capture (pipeline.crawler.capture)."
+  "note": "Linked as \"View ballot questions for local measures here (PDF)\" from https://www.sf.gov/qualified-ballot-measures. api.sf.gov/robots.txt disallows all crawling: the PDFs enter the raw store only through a supervised browser capture (pipeline.crawler.capture). The Regional Transit Measure's ballot question is in its resolution PDF, a scan read by OCR (pdf_ocr) on the page and crop that hold the question; the crop and setting were checked against the page image at 300 dpi.",
+  "pdf_ocr": {
+    "https://api.sf.gov/documents/61300/Nov2026_Resolution_RegionalTransitMeasure.pdf": {"pages": [8], "crop": [70, 376, 500, 165], "dpi": 300, "psm": 6}
+  }
 }
