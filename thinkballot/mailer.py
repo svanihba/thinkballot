@@ -71,9 +71,11 @@ def _send_smtp(msg):
 
 def _send_file(msg):
     config.MAIL_DIR.mkdir(parents=True, exist_ok=True)
-    path = config.MAIL_DIR / f"{time.strftime('%Y%m%d-%H%M%S')}-{secrets.token_hex(4)}.eml"
-    path.write_bytes(bytes(msg))
-    path.chmod(0o600)
+    name = f"{time.time_ns()}-{secrets.token_hex(4)}.eml"  # sorts oldest first
+    tmp = config.MAIL_DIR / (name + ".part")
+    tmp.touch(mode=0o600)
+    tmp.write_bytes(bytes(msg))
+    tmp.rename(config.MAIL_DIR / name)  # appears whole, never half written
 
 
 def send(to, subject, body):

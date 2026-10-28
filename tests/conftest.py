@@ -28,6 +28,9 @@ def server(tmp_path_factory):
     def no_network():  # tests never call the Secretary of State
         raise results_app.FetchError("offline in tests")
     results_app.http_fetch = no_network
+    config.MAIL_BACKEND = "file"  # verification emails land in a folder; nothing leaves the machine
+    config.MAIL_DIR = tmp / "mail"
+    config.COMMUNITY_OPEN = True  # tests exercise accounts; test_community checks the closed state
     srv = make_server("127.0.0.1", 0, lambda e, s: app(e, s), threaded=True)
     base = f"http://127.0.0.1:{srv.server_port}"
     config.PUBLIC_BASE = base

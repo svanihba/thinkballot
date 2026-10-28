@@ -15,13 +15,16 @@ def svc(server):
 
 
 def make_user(svc, name, established=True):
-    u = svc.post("/users", {"email": f"{name}@example.com", "username": name, "password": "password123"})
-    if established:  # flags and ratings count only from accounts older than an hour
-        from thinkballot import config
-        from thinkballot.services.community import db
-        with db.connect(config.COMMUNITY_DB_PATH) as conn:
-            conn.execute("UPDATE user SET created_at = datetime('now', '-2 hours') WHERE id = ?", (u["id"],))
-    return u
+    """A verified account (verification itself is tested in test_verification.py)."""
+    svc.post("/users", {"email": f"{name}@example.com", "username": name, "password": "password123"})
+    from thinkballot import config
+    from thinkballot.services.community import db
+    with db.connect(config.COMMUNITY_DB_PATH) as conn:
+        conn.execute("UPDATE user SET verified = 1 WHERE username = ?", (name,))
+        if established:  # flags and ratings count only from accounts older than an hour
+            conn.execute("UPDATE user SET created_at = datetime('now', '-2 hours') WHERE username = ?", (name,))
+        uid = conn.execute("SELECT id FROM user WHERE username = ?", (name,)).fetchone()[0]
+    return {"id": uid, "username": name}
 
 
 def test_community_service_rejects_outside_callers(server):
@@ -113,12 +116,16 @@ def test_community_closed_by_default_hides_accounts_and_posting(server, monkeypa
 
 def test_web_sign_in_flow_and_csrf(server, monkeypatch):
     monkeypatch.setattr(config, "COMMUNITY_OPEN", True)
+    from test_verification import confirm_by_email, reset_limits
+    reset_limits()
     s = requests.Session()
     page = s.get(server + "/signin").text
     token = re.search(r'name="csrf" value="([^"]+)"', page).group(1)
     assert s.post(server + "/signin", data={"csrf": token, "action": "signup", "email": "web@example.com",
                                             "username": "webuser", "password": "password123"}).status_code == 200
     assert s.post(server + "/signin", data={"action": "signup"}, allow_redirects=False).status_code == 400  # no token
+    assert "@webuser · sign out" not in s.get(server + "/prop/prop-a").text  # not until the email is confirmed
+    confirm_by_email(s, server, "web@example.com")
     html = s.get(server + "/prop/prop-a").text
     assert "@webuser · sign out" in html
     token = re.search(r'name="csrf" value="([^"]+)"', html).group(1)
