@@ -22,13 +22,13 @@ def is_pdf(page):
     return "pdf" in (page["content_type"] or "") or page["body"][:5] == b"%PDF-"
 
 
-def pdf_text(body):
+def pdf_text(body, mode="-raw"):
     """Text of a PDF in reading order (poppler's pdftotext -raw), one line per line, single spaces.
 
     -raw keeps every printed character: the default mode drops hyphens at line ends, which turns
     official words like "non-payment" into "nonpayment". A line ending in "letter-" is joined to the
     next line with no space, so a hyphenated word stays whole and keeps its hyphen."""
-    out = subprocess.run(["pdftotext", "-raw", "-enc", "UTF-8", "-", "-"], input=body, capture_output=True,
+    out = subprocess.run(["pdftotext", mode, "-enc", "UTF-8", "-", "-"], input=body, capture_output=True,
                          check=True)
     lines = [" ".join(line.split()) for line in out.stdout.decode("utf-8").split("\n")]
     joined = []
@@ -52,10 +52,16 @@ def main(argv):
             print(f"{sid}: nothing in the raw store yet - skipped")
             continue
         pages = {url: dict(row, body=store.read(row["sha256"])) for url, row in rows.items()}
-        for page in pages.values():  # PDFs: extract and verify against one saved text version
+        for url, page in pages.items():  # PDFs: extract and verify against one saved text version
             if is_pdf(page):
                 page["text"] = pdf_text(page["body"])
-                page["text_sha256"] = store.put(page["text"].encode("utf-8"))
+                saved = page["text"]
+                if url in src.get("pdf_second_reading", []):
+                    # A few PDFs lose the spaces in some lines under -raw. For those, the layout reading
+                    # is saved too, so a field may be cut from (and verified against) either reading.
+                    page["layout_text"] = pdf_text(page["body"], "-layout")
+                    saved += "\n\n" + page["layout_text"]
+                page["text_sha256"] = store.put(saved.encode("utf-8"))
 
         def field(text, url, label, _pages=pages):
             row = _pages[url]

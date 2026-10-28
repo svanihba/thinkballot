@@ -50,6 +50,56 @@
     }
   },
   {
+    "id": "local-oc-b",
+    "number": "B",
+    "title": {
+      "text": "Westminster School District Classroom Repair, School Safety/Security, Quality Education Improvement Measure",
+      "source_url": "https://ocvote.gov/sites/default/files/2026-09/B-Westminster%20SD%20-%20LAYOUT%20(1).pdf",
+      "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure B",
+      "source_snapshot": "data/raw/objects/37/3734d0ed34e94efb569f040cba56be23a0fdca500e6355097be8c37f4d15e917",
+      "raw_sha256": "7f6185b58ec4000399a0149d7e3ab3171e2e729eb6cd0d3e586e6ab0fda3c9e1",
+      "fetched_at": "2026-10-28T06:10:26Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Orange",
+      "name": "Westminster School District"
+    },
+    "topics": [],
+    "notes": [],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure B: county voter guide section (PDF)",
+        "url": "https://ocvote.gov/sites/default/files/2026-09/B-Westminster%20SD%20-%20LAYOUT%20(1).pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "Westminster School District",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/B-Westminster%20SD%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure B",
+        "source_snapshot": "data/raw/objects/37/3734d0ed34e94efb569f040cba56be23a0fdca500e6355097be8c37f4d15e917",
+        "raw_sha256": "7f6185b58ec4000399a0149d7e3ab3171e2e729eb6cd0d3e586e6ab0fda3c9e1",
+        "fetched_at": "2026-10-28T06:10:26Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "To provide safe, modern schools by repairing, upgrading and equipping aging classrooms, labs, instructional technology, and school facilities to support student achievement in math, science, technology, arts and engineering, fixing deteriorated roofs, plumbing, HVAC, electrical systems and improving school safety/security systems, shall Westminster School District’s measure authorizing $128,000,000 in bonds at legal rates be adopted, levying $30 per $100,000 assessed value ($8,000,000 annually) while bonds are outstanding, with citizen oversight, independent audits, all money locally-controlled?",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/B-Westminster%20SD%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure B",
+        "source_snapshot": "data/raw/objects/37/3734d0ed34e94efb569f040cba56be23a0fdca500e6355097be8c37f4d15e917",
+        "raw_sha256": "7f6185b58ec4000399a0149d7e3ab3171e2e729eb6cd0d3e586e6ab0fda3c9e1",
+        "fetched_at": "2026-10-28T06:10:26Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
     "id": "local-oc-c",
     "number": "C",
     "title": {

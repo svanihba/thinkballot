@@ -87,6 +87,28 @@ def parse_section(text, entry):
     return m.group("letter"), jurisdiction, title, question
 
 
+def _spaced(page):
+    """The -raw text with the ballot question taken from the layout reading instead (see
+    pdf_second_reading in the source file): the question runs from the line after the title to the
+    first "?", and the layout reading keeps its spaces and line-end hyphens."""
+    raw, layout = page["text"], page["layout_text"]
+    q_start = next((i for i, line in enumerate(layout.split("\n")) if line.startswith("To ") or
+                    line.startswith("Shall ")), None)
+    if q_start is None:
+        raise Unreadable("layout reading: no ballot question found")
+    lines = []
+    for line in layout.split("\n")[q_start:]:
+        if lines and re.search(r"[A-Za-z]-$", lines[-1]) and line[:1].isalpha():
+            lines[-1] += line
+        else:
+            lines.append(line)
+        if line.endswith("?"):
+            break
+    question = " ".join(lines)
+    head_end = raw.index(question.split()[0] + " " + question.split()[1])
+    return raw[:head_end] + question + raw[raw.index("\nWhat your vote means\n"):]
+
+
 def extract(pages, field):
     for url in (LETTERS_URL, CONTESTS_URL):
         if url not in pages:
@@ -108,7 +130,12 @@ def extract(pages, field):
     for letter in sorted(entries):
         url = by_letter[letter]
         try:
-            _, jurisdiction, title, question = parse_section(pages[url]["text"], entries[letter])
+            try:
+                _, jurisdiction, title, question = parse_section(pages[url]["text"], entries[letter])
+            except Unreadable:
+                if "layout_text" not in pages[url]:
+                    raise
+                _, jurisdiction, title, question = parse_section(_spaced(pages[url]), entries[letter])
         except Unreadable as exc:
             SKIPPED.append({"letter": letter, "jurisdiction": entries[letter].partition(", ")[0], "url": url,
                             "reason": str(exc)})

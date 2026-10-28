@@ -3721,6 +3721,24 @@
       "against": "saved PDF text"
     },
     {
+      "measure": "local-oc-b",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "local-oc-b",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "local-oc-b",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
       "measure": "local-oc-c",
       "field": "title",
       "verdict": "pass",
@@ -4664,11 +4682,11 @@
     }
   ],
   "summary": {
-    "checked_at": "2026-10-28 06:14 UTC",
+    "checked_at": "2026-10-28 06:19 UTC",
     "data_file": "data/measures.json",
     "verified_against": "saved copies of the official pages",
     "fields_verified_against_browser_captures": 90,
-    "fields_verified": 711,
+    "fields_verified": 714,
     "fields_failed": 0,
     "labels_checked": 37,
     "audit_findings": 30
