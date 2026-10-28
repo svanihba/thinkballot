@@ -31,7 +31,7 @@
       {% if user.is_mod %}<a href="/moderation" {% if p == '/moderation' %}class="active"{% endif %}>Moderation</a>{% endif %}
       <form method="post" action="/signout" class="signout"><input type="hidden" name="csrf" value="{{ csrf_token() }}">
         <button class="auth-chip signed-in" type="submit">@{{ user.username }} · sign out</button></form>
-    {% else %}
+    {% elif community_open %}
       <a class="auth-chip" href="/signin?next={{ request.path|urlencode }}">sign in</a>
     {% endif %}
   </nav>
