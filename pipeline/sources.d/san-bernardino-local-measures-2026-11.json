@@ -1,0 +1,15 @@
+{
+  "id": "san-bernardino-local-measures-2026-11",
+  "jurisdiction": {"level": "county", "name": "San Bernardino"},
+  "election": "2026-11-03",
+  "seeds": ["https://elections.sbcounty.gov/elections/2026/1103/measures/",
+            "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/VIG.pdf",
+            "https://uplandca.gov/Documents/Government/City%20Manager/Measure%20M/Measure%20M%20Notice%20of%20Election.pdf",
+            "https://cityofneedles.com/wp-content/uploads/2026/08/684-AC-GO-BOND.pdf",
+            "https://cityofneedles.com/wp-content/uploads/2026/08/2026-27-TOT-Increase-SBEMP-WITH-683-AC.pdf",
+            "https://cityofneedles.com/wp-content/uploads/2026/08/2026-29-COUNCIL-COMPENSATION-BALLOT-MEASURE.pdf"],
+  "allow": ["^https://uploads\\.rov\\.sbcounty\\.gov/ROV/Elections/2026/1103/Measures/.*/(Notice|RES|IA|FT)_[^/]*\\.pdf$"],
+  "max_depth": 1,
+  "delay_seconds": 2,
+  "extractor": "san_bernardino_measures"
+}
