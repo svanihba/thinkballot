@@ -171,8 +171,8 @@ def test_translations_keep_placeholders_and_tags(lang):
 
 
 def test_catalog_values_are_escaped_but_markup_is_kept():
-    out = i18n.gettext("es", "Try a sample address: {address}", address="<b>x</b>")
-    assert str(out) == "Prueba una dirección de ejemplo: &lt;b&gt;x&lt;/b&gt;"
+    out = i18n.gettext("es", "Try a sample ZIP code: {zip}", zip="<b>x</b>")
+    assert str(out) == "Prueba un código postal de ejemplo: &lt;b&gt;x&lt;/b&gt;"
     assert i18n.gettext("fr", "Search") == "Search" and i18n.gettext("en", "Search") == "Search"
     assert i18n.lang_path("es", "/") == "/es/" and i18n.lang_path("zh", "/prop/prop-1") == "/zh/prop/prop-1"
     assert i18n.lang_path("en", "/ballot") == "/ballot"

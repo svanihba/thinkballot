@@ -17,7 +17,7 @@
   </div>
   <p class="hint">{{ _("A ZIP code can cross district lines. Your county elections office has your exact districts.") }}</p>
   {% else %}
-  <div class="notice">{% if place.zip %}{{ _("We couldn't match ZIP code {zip} to districts yet.", zip=place.zip) }}{% else %}{{ _("We couldn't match a California ZIP code in that address to districts yet.") }}{% endif %}
+  <div class="notice">{% if place.zip %}{{ _("We couldn't match ZIP code {zip} to districts yet.", zip=place.zip) }}{% else %}{{ _("That isn't a California ZIP code. Please enter 5 digits, like 94087.") }}{% endif %}
     {{ _("Every Californian votes on the same statewide propositions, so your list below is complete.") }}</div>
   {% endif %}
 {% endif %}
