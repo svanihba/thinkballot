@@ -1,0 +1,24 @@
+{# Official results for one proposition. YES and NO always get the same markup, order and style.
+   r: one measure's results; res: the whole results response (status, time, source). Shows nothing
+   when there are no results. #}
+{% macro results_block(r, res, compact=False) %}
+{% if r and res and res.available %}
+<section class="results{% if compact %} results-compact{% endif %}" aria-label="{{ 'Certified' if res.status == 'certified' else 'Unofficial' }} results">
+  {% if not compact %}<div class="eyebrow results-title">{{ "Certified results" if res.status == "certified" else "Unofficial results" }}</div>{% endif %}
+  <div class="results-pair">
+    {% for side, votes, pct, bar in [("YES", r.yes_votes, r.yes_percent, r.yes_bar), ("NO", r.no_votes, r.no_percent, r.no_bar)] %}
+    <div class="results-side">
+      <div class="results-line"><span class="results-label">{{ side }}</span>
+        <span class="results-num">{{ "{:,}".format(votes) }}</span> <span class="results-pct">({{ pct }}%)</span></div>
+      <progress class="results-bar" max="100" value="{{ bar }}" aria-label="{{ side }} {{ pct }} percent">{{ pct }}%</progress>
+    </div>
+    {% endfor %}
+  </div>
+  <p class="results-status">{% if res.preview %}<strong>Preview with test data, not real results.</strong> {% endif %}
+    {{ "Certified" if res.status == "certified" else "Unofficial" }} results as of {{ res.as_of_text }}, from the
+    <a href="{{ res.source_page }}" target="_blank" rel="noopener">{{ res.source_name }}</a>.{% if res.reporting and not compact %}
+    {{ res.reporting.text }}.{% endif %}{% if res.status != "certified" and not compact %} Counting continues after
+    election day; totals change until the results are certified.{% endif %}</p>
+</section>
+{% endif %}
+{% endmacro %}

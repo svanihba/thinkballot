@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_results.html" import results_block %}
 {% block title %}Your ballot · ThinkBallot{% endblock %}
 {% block main %}
 <div class="eyebrow">Your ballot</div>
@@ -45,6 +46,7 @@
   </div>
   <h3><a href="/prop/{{ m.id }}">{{ m.title }}</a></h3>
   {% if m.summary %}<p class="summary">{{ m.summary }}</p>{% endif %}
+  {% if results %}{{ results_block(results.measures.get(m.number), results, compact=True) }}{% endif %}
   <div class="foot"><a class="btn ghost small" href="/prop/{{ m.id }}">Read the full card →</a></div>
 </article>
 {% endfor %}
