@@ -1,0 +1,11 @@
+{
+  "id": "san-francisco-local-measures-2026-11",
+  "jurisdiction": {"level": "county", "name": "San Francisco"},
+  "election": "2026-11-03",
+  "seeds": ["https://www.sf.gov/qualified-ballot-measures", "https://api.sf.gov/documents/61682/Ballot_Questions_November_2026.pdf"],
+  "allow": [],
+  "max_depth": 0,
+  "delay_seconds": 2,
+  "extractor": "san_francisco_measures",
+  "note": "Linked as \"View ballot questions for local measures here (PDF)\" from https://www.sf.gov/qualified-ballot-measures. api.sf.gov/robots.txt disallows all crawling: the PDF enters the raw store only through a supervised browser capture (pipeline.crawler.capture)."
+}
