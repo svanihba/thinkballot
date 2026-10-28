@@ -163,7 +163,7 @@ def create_app():
                 "lang": lang(), "html_lang": i18n.LANGS[lang()]["html"], "og_locale": i18n.LANGS[lang()]["og"],
                 "_": _, "_a": T,  # _a: plain text (escaped), for attributes
                 "lp": lp, "lang_prefix": "" if lang() == i18n.DEFAULT else "/" + lang(),
-                "languages": [{"code": code, "name": info["name"], "html": info["html"],
+                "languages": [{"code": code, "name": info["name"], "short": info["short"], "html": info["html"],
                                "hreflang": info["hreflang"], "current": code == lang(),
                                "path": i18n.lang_path(code, here),
                                "href": i18n.lang_path(code, here) + ("?" + query if query else "")}

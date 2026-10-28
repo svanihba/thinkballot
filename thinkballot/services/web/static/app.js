@@ -133,7 +133,8 @@ function renderAnswer(r) {
       </li>`).join("");
     const findings = r.findings.length
       ? `<ul class="findings">${r.findings.map((f) => `<li>${esc(f.detail)}</li>`).join("")}</ul>` : "";
-    return `<div class="answer"><ul class="points">${points}</ul>
+    // Answers are written in English from the English official text: mark them so on other pages.
+    return `<div class="answer"><ul class="points"${PREFIX ? ' lang="en"' : ""}>${points}</ul>
       <div class="verdict ${esc(r.verdict)}">${esc(VERDICT_TEXT[r.verdict] || t("bias"))}
         ${r.findings.length ? `· ${esc(r.findings.length > 1 ? t("changes", { n: r.findings.length }) : t("change"))}` : ""}</div>${findings}${preparedNote(r)}</div>`;
   }
