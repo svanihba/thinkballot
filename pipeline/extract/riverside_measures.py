@@ -20,6 +20,7 @@ from .san_bernardino_measures import cut_question
 SUMMARY = "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf"
 SUMMARY_LABEL = "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election"
 VOTEINFO = "https://voteinfo.net/sites/g/files/aldnop371/files/2026-08/"
+BALLOT_TYPE = "https://docs.voteinfo.net/voterInformation/root1103/ballots/bt{:06d}.pdf"  # county voter guide
 COUNTY = "Riverside"
 CODE = "rv"
 
@@ -40,17 +41,19 @@ KIND_LABELS = {
 # letter -> (document, kind, first words of the question). The question runs from the first words to
 # the first "?" after them, in the document's text (OCR text for a scanned PDF, see pdf_ocr).
 QUESTIONS = {
-    "A": ("https://docs.voteinfo.net/voterInformation/root1103/ballots/bt000001.pdf", SAMPLE_BALLOT,
+    "A": (BALLOT_TYPE.format(1), SAMPLE_BALLOT,
           "Riverside County Traffic Relief, Pothole/Road Repair Investment Renewal Without raising tax rates"),
     "B": ("https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/BeaumontUSD/RES_BUSD.pdf", RESOLUTION,
           "Without increasing current tax rates, to repair/replace"),
+    "C": ("https://www.cityofperris.org/government/city-government/warehousetax", CITY_PAGE,
+          "Shall the measure with no tax on residents"),
     "E": ("https://canyonlakeca.govoffice3.com/uploads/dm/11851/ResolutionNo.202640Calling2026ElectiononInitiative.pdf",
           RESOLUTION, "CANYON LAKE PUBLIC SAFETY AND EMERGENCY RESPONSE PROTECTION MEASURE;"),
+    "H": (BALLOT_TYPE.format(271), SAMPLE_BALLOT, "CLARIFYING NONPROFIT EXEMPTION FROM CITY ADMISSIONS TAX."),
     "I": (VOTEINFO + "Measure%20I%20-%20Hemet%20USD%20eng.pdf", ROV_NOTICE, "To repair and upgrade aging classrooms"),
     "M": (VOTEINFO + "Measure%20M-Murrieta%20Valley%20USD%20eng.pdf", ROV_NOTICE,
           "Without increasing current tax rates, to fix"),
-    "P": (VOTEINFO + "Measure%20P%20-Desert%20Recreation%20Dist%20-Eng.pdf", ROV_NOTICE,
-          "LOCAL PARK REPAIR/SAFETY AND SENIOR/YOUTH SERVICES MEASURE."),
+    "P": (BALLOT_TYPE.format(271), SAMPLE_BALLOT, "LOCAL PARK REPAIR/SAFETY AND SENIOR/YOUTH SERVICES MEASURE."),
     "Q": ("https://www.hemetca.gov/DocumentCenter/View/12619", RESOLUTION,
           "Hemet Public Safety, Essential City Services Measure."),
     "R": ("https://ranchomirageca.gov/residents/city_services/measure_r.php", CITY_PAGE,
@@ -58,6 +61,9 @@ QUESTIONS = {
     "S": (VOTEINFO + "Measure%20S-Temecula%20Valley%20USD%20-eng.pdf", ROV_NOTICE, "To provide safe, modern schools"),
     "T": ("https://www.lake-elsinore.org/DocumentCenter/View/5682", RESOLUTION,
           "Shall the office of City Treasurer be appointive?"),
+    "U": (BALLOT_TYPE.format(403), SAMPLE_BALLOT, "Shall Ordinance No.1618, amending the land uses"),
+    "V": (BALLOT_TYPE.format(403), SAMPLE_BALLOT, "Shall Ordinance No. 1619, which amends the land uses"),
+    "W": (BALLOT_TYPE.format(403), SAMPLE_BALLOT, "Shall Ordinance No.1620, approving a development agreement"),
     "AA": (VOTEINFO + "Measure%20AA-Perris%20Union%20High%20School%20District%20eng.pdf", ROV_NOTICE,
            "Without increasing current tax rates, to repair/"),
     "Y": ("https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/SBCCD/Notice_SBCCD.pdf", SB_ROV_NOTICE,
@@ -65,16 +71,7 @@ QUESTIONS = {
 }
 
 # Measures whose official ballot question is not in the raw store yet, and why.
-PENDING = {
-    "C": "City of Perris measure page refuses automated clients; waiting for a supervised browser capture.",
-    "H": "City of Indian Wells measure page refuses automated clients; waiting for a supervised browser capture.",
-    "U": "No City of Banning document with the ballot question found yet; the county guide for a Banning "
-         "ballot type is needed.",
-    "V": "No City of Banning document with the ballot question found yet; the county guide for a Banning "
-         "ballot type is needed.",
-    "W": "No City of Banning document with the ballot question found yet; the county guide for a Banning "
-         "ballot type is needed.",
-}
+PENDING = {}
 SKIPPED = []  # measures left out this run: {letter, jurisdiction, reason}
 
 DISTRICTS = {  # how the summary report names each non-city jurisdiction, and the full name

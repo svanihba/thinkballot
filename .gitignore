@@ -11,3 +11,6 @@ HANDOFF.local.md
 .claude/
 # Raw objects over 20 MB stay local: the saved text reading (committed) is what the seed verifies.
 data/raw/objects/7e/7e8c5eb74e37509753e43954a962dcc9ce9a7cadc4cb83033ef9a572864c9d72
+data/raw/objects/40/402121cb4c739b416046b93021bf4c0304c3e17513d9e8dbf2a7bfa484f34a95
+data/raw/objects/5d/5d2204c4bbdf54917e61722ac99e1e9477629ed2d49634fbe7a0937e59a34d49
+data/raw/objects/e3/e3e708bad44dc57c19a44c0c61ec2c7c9c5b033fd4f37d0e377119650fa915ea
