@@ -44,6 +44,14 @@ def test_unknown_zip_still_shows_statewide_ballot(server):
     assert "couldn't match ZIP code 96000" in html and "Sample Park Bond" in html
 
 
+def test_zip_box_offers_only_known_zip_codes(server):
+    landing = requests.get(server + "/").text
+    assert 'list="zip-list"' in landing and '<datalist id="zip-list">' in landing
+    zips = requests.get(server + "/api/zips").json()["zips"]
+    assert ["94087", "Sunnyvale"] in zips and "96000" not in [z for z, _ in zips]
+    assert [z for z, _ in zips] == sorted(z for z, _ in zips)
+
+
 def test_text_that_is_not_a_zip_code_is_explained(server):
     s, token = session_with_token(server)
     html = s.post(server + "/ballot", data={"csrf": token, "zip": "Sunnyvale"}).text

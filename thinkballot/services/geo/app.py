@@ -42,4 +42,9 @@ def create_app(table_path=None):
             districts=row and {k: row[k] for k in ("congressional", "state_senate", "assembly")},
         )
 
+    @app.get("/zips")
+    def zips():
+        """Every ZIP code in the table, with its city: the choices the ZIP code box offers."""
+        return jsonify(zips=[[z, table[z]["city"]] for z in sorted(table)])
+
     return app
