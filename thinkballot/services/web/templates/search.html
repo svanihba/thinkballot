@@ -6,7 +6,8 @@
 <p class="lede">Search the official text of every statewide proposition, or filter by topic.</p>
 
 <form class="search-bar" method="get" action="/search">
-  <input name="q" type="search" value="{{ r.query }}" placeholder="Try “bonds”, “parks”, “tax”…" aria-label="Search">
+  <input name="q" type="search" value="{{ r.query }}" placeholder="Try “bonds”, “parks”, “tax”…" aria-label="Search"
+    autocomplete="off" enterkeyhint="search">
   {% if r.topic %}<input type="hidden" name="topic" value="{{ r.topic }}">{% endif %}
 </form>
 <div class="filters">
@@ -15,7 +16,7 @@
   <a class="filter-chip {% if r.topic == t %}on{% endif %}" href="/search?q={{ r.query|urlencode }}&topic={{ t|urlencode }}">{{ t }}</a>
   {% endfor %}
 </div>
-<div class="result-count">{{ r.results|length }} result{{ '' if r.results|length == 1 else 's' }}</div>
+<h2 class="result-count">{{ r.results|length }} result{{ '' if r.results|length == 1 else 's' }}</h2>
 {% for m in r.results %}
 <article class="card measure">
   <div class="top"><span class="tag">{{ "Prop" if m.id.startswith("prop-") else "Measure" }} {{ m.number }}</span>

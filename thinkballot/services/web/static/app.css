@@ -7,10 +7,17 @@
 .sample-form { margin-top: 0.8rem; display: flex; gap: 0.4rem; align-items: baseline; flex-wrap: wrap; }
 .hint { font-size: 0.82rem; color: var(--ink-soft); margin-top: 0.4rem; }
 .ballot-meta .change { font-size: 0.78rem; margin-left: auto; }
+@media (max-width: 640px) {
+  .hint { font-size: 0.9rem; }
+  .sample-form { flex-direction: column; align-items: flex-start; gap: 0; }
+  .linklike { font-size: 1rem; text-align: left; min-height: var(--tap); line-height: 1.4; }
+  .ballot-meta .change { font-size: 0.9rem; min-height: var(--tap); min-width: var(--tap); display: inline-flex; align-items: center; justify-content: flex-end; }
+}
 
 /* reading progress */
 .progress { margin: 1.4rem 0 0.4rem; max-width: 28rem; }
 .progress-text { font-family: var(--mono); font-size: 0.78rem; margin-bottom: 0.3rem; }
+@media (max-width: 640px) { .progress-text { font-size: 0.85rem; } }
 .progress-bar { height: 8px; background: var(--paper-deep); border: 1px solid var(--line); border-radius: 4px; overflow: hidden; }
 .progress-bar span { display: block; height: 100%; width: 0; background: var(--teal); transition: width 0.4s; }
 .ready { margin-top: 0.5rem; font-weight: 700; color: var(--teal); }
@@ -24,6 +31,12 @@
 .read-tick { font-family: var(--mono); font-size: 0.72rem; color: var(--teal); }
 .starred-list { margin-left: 1.2rem; }
 .starred-list li { margin: 0.3rem 0; }
+@media (max-width: 640px), (pointer: coarse) {
+  .star { min-height: var(--tap); min-width: var(--tap); padding: 0.4rem 0.85rem; font-size: 0.9rem; border-color: var(--ink-soft); }
+  .read-tick { font-size: 0.8rem; }
+  .starred-list li { margin: 0; }
+  .starred-list a { display: inline-flex; align-items: center; min-height: var(--tap); }
+}
 
 /* measure page */
 .actions { display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap; margin: 0.4rem 0 1rem; }
@@ -37,8 +50,19 @@
 .ask { margin-top: 2.5rem; border-top: 2px dashed var(--ink-soft); padding-top: 0.5rem; }
 .ask-form { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-top: 0.8rem; max-width: 40rem; }
 .ask-form input {
-  flex: 1 1 16rem; font: inherit; padding: 0.75rem 1rem;
+  flex: 1 1 16rem; min-width: 0; font: inherit; font-size: 1rem; padding: 0.75rem 1rem;
   border: 2px solid var(--ink); background: #fffdf8; border-radius: 3px;
+}
+/* Phones: the question box and the Ask button share one line, so the button stays visible above the
+   on-screen keyboard. */
+@media (max-width: 640px) {
+  .ask-form { flex-wrap: nowrap; gap: 0.5rem; }
+  .ask-form input { flex: 1 1 auto; padding: 0.7rem 0.8rem; }
+  .ask-form .btn { flex: 0 0 auto; padding: 0.7rem 1.1rem; font-size: 1rem; }
+  .answer { padding: 0.9rem 1rem; }
+  .answer .points li p { font-size: 1rem; }
+  .answer blockquote { font-size: 0.95rem; }
+  .findings, .prepared-note { font-size: 0.88rem; }
 }
 .ask-result { margin-top: 1rem; max-width: 46rem; }
 .answer { background: #fffdf8; border: 1px solid var(--line); padding: 1rem 1.2rem; }
@@ -53,6 +77,10 @@
 .ask-progress .progress-bar span { transition: width 0.5s linear; }
 .thinking { animation: pulse 1.2s ease-in-out infinite; }
 @keyframes pulse { 50% { opacity: 0.5; } }
+@media (prefers-reduced-motion: reduce) {
+  .thinking { animation: none; }
+  .progress-bar span, .ask-progress .progress-bar span { transition: none; }
+}
 
 /* ask: prepared answers */
 .prepared-note { font-size: 0.8rem; color: var(--ink-soft); margin: 0.6rem 0 0; }
@@ -66,11 +94,24 @@
   border: 1.5px solid var(--ink-soft); border-radius: 999px; padding: 0.35rem 0.9rem; color: var(--ink);
 }
 .suggest:hover { border-color: var(--poppy-deep); color: var(--poppy-deep); }
+.suggest:disabled { opacity: 0.6; cursor: progress; }
+/* Phones: suggested questions become full-width rows, easy to tap and to read in full. */
+@media (max-width: 640px), (pointer: coarse) {
+  .suggest { min-height: var(--tap); padding: 0.55rem 1rem; font-size: 0.95rem; text-align: left; line-height: 1.35; }
+}
+@media (max-width: 640px) {
+  .canned { flex-direction: column; align-items: stretch; gap: 0.5rem; }
+  .suggest { border-radius: 1.4rem; }
+}
 .filter-chip { text-decoration: none; color: var(--ink); padding: 0.3rem 0.8rem; }
 .meta-line .chip { text-decoration: none; color: inherit; }
+@media (max-width: 640px), (pointer: coarse) {
+  .meta-line { line-height: 2.2; }
+  a.chip { display: inline-flex; align-items: center; min-height: var(--tap); padding: 0 0.7rem; margin: 0.15rem 0.1rem; font-size: 0.8rem; vertical-align: middle; }
+}
 .pick { display: flex; gap: 0.6rem; align-items: center; margin: 1.6rem 0 0.4rem; flex-wrap: wrap; }
 .pick label { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; }
-.pick select { font: inherit; padding: 0.55rem 0.8rem; border: 2px solid var(--ink); background: #fffdf8; border-radius: 3px; max-width: 100%; }
+.pick select { font: inherit; font-size: 1rem; min-height: var(--tap); padding: 0.55rem 0.8rem; border: 2px solid var(--ink); background: #fffdf8; border-radius: 3px; max-width: 100%; }
 .never { font-family: var(--serif); font-size: 1.15rem; }
 
 /* sign-in and community */
@@ -81,27 +122,46 @@
 .signin-grid .panel { background: #fffdf8; border: 1.5px solid var(--ink); padding: 1.3rem; }
 .signin-grid h2 { margin-top: 0; }
 .signin-grid label { display: block; font-size: 0.85rem; margin: 0.8rem 0; }
-.signin-grid input:not([type=hidden]) { display: block; width: 100%; margin-top: 0.3rem; font: inherit; padding: 0.6rem 0.8rem; border: 2px solid var(--ink); border-radius: 3px; background: #fff; }
+.signin-grid input:not([type=hidden]) { display: block; width: 100%; margin-top: 0.3rem; font: inherit; font-size: 1rem; padding: 0.6rem 0.8rem; border: 2px solid var(--ink); border-radius: 3px; background: #fff; }
 .community { margin-top: 3rem; }
 .community .zone-label a { color: inherit; }
 .inline { display: inline; }
 .linklike.small { font-size: 0.7rem; margin-left: 0.4rem; }
-.composer textarea, .composer input[type=url] { display: block; width: 100%; font: inherit; font-size: 0.9rem; padding: 0.7rem; border: 1.5px solid var(--ink-soft); border-radius: 3px; margin: 0.6rem 0; background: #fffdf8; }
+.composer textarea, .composer input[type=url] { display: block; width: 100%; font: inherit; font-size: 1rem; padding: 0.7rem; border: 1.5px solid var(--ink-soft); border-radius: 3px; margin: 0.6rem 0; background: #fffdf8; }
 .composer textarea { min-height: 5rem; }
 details.composer summary { list-style: none; display: inline-block; margin-top: 0.8rem; }
 .status.bridged { background: var(--teal); color: var(--paper); }
 .rate { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; margin-top: 0.6rem; font-size: 0.8rem; }
-.rate select { font: inherit; padding: 0.25rem 0.4rem; }
+.rate select { font: inherit; font-size: 1rem; padding: 0.25rem 0.4rem; }
 @media (max-width: 640px) { .signin-grid { grid-template-columns: 1fr; } }
 .official { font-family: var(--mono); font-size: 0.66rem; color: var(--good); border: 1px solid var(--good); border-radius: 999px; padding: 0.05rem 0.45rem; margin-left: 0.3rem; }
 .args.who .col p { font-size: 0.85rem; color: var(--ink-soft); }
-.args.who h4 { border-bottom-width: 1px; }
+.args.who h2 { border-bottom-width: 1px; }
 .analysis { margin: 1.4rem 0; border: 1px solid var(--line); background: #fffdf8; padding: 0.8rem 1rem; }
 .analysis summary { cursor: pointer; font-family: var(--serif); font-weight: 600; font-size: 1.05rem; }
 .analysis-text { white-space: pre-line; font-size: 0.9rem; margin: 0.8rem 0; max-width: 46rem; }
+@media (max-width: 640px) {
+  .analysis summary { min-height: var(--tap); padding: 0.3rem 0; }
+  .analysis-text, .args .col p { font-size: 1rem; }
+  .ballot-question { font-size: 1rem; padding: 0.9rem 1rem; }
+  .equal-note { font-size: 0.88rem; }
+}
 .gap { margin-top: 2rem; }
 .subhead { font-family: var(--serif); font-size: 1.1rem; margin: 1rem 0 0.4rem; }
-details.maybe { margin-top: 1rem; }
-details.maybe summary { cursor: pointer; font-size: 0.9rem; color: var(--ink-soft); margin-bottom: 0.8rem; }
+/* "More measures": the summary looks and works like a button, with the count up front. */
+details.maybe { margin-top: 1.4rem; }
+details.maybe summary {
+  cursor: pointer; font-size: 0.9rem; color: var(--ink-soft); margin-bottom: 0.8rem;
+  border: 1.5px solid var(--ink); background: #fffdf8; padding: 0.7rem 1rem; min-height: var(--tap);
+}
+details.maybe summary strong { color: var(--ink); font-size: 1rem; }
+
+/* Local measures on phones: three lines of the question, so a long list stays scannable; the full
+   question is one tap away. */
+@media (max-width: 640px) {
+  .card.local .summary { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden; margin-bottom: 0.7rem; }
+  .card.local h3 { font-size: 1.15rem; }
+  .card.local .foot .hint { margin-top: 0; }
+}
 .ballot-question { border-left: 4px solid var(--poppy); background: #fffdf8; padding: 1rem 1.2rem; font-size: 1.02rem; }
 .docs { margin: 0.4rem 0 0 1.2rem; } .docs li { margin: 0.3rem 0; }

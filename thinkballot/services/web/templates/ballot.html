@@ -24,7 +24,7 @@
 
 <div class="progress" data-total="{{ measures|length }}">
   <div class="progress-text"><span id="read-count">0</span> of {{ measures|length }} propositions read</div>
-  <div class="progress-bar"><span id="read-bar"></span></div>
+  <div class="progress-bar" role="progressbar" aria-label="Propositions read" aria-valuemin="0" aria-valuemax="{{ measures|length }}" aria-valuenow="0"><span id="read-bar"></span></div>
   <div class="ready" id="ballot-ready" hidden>Ballot ready ✓ You've read every proposition.</div>
 </div>
 
@@ -58,7 +58,7 @@
 
 {% macro local_card(m) %}
 <article class="card measure local" data-measure="{{ m.id }}" data-title="Measure {{ m.number }}: {{ m.title }}">
-  <div class="top"><span class="tag">Measure {{ m.number }}</span><span class="chip">{{ m.district }}</span>
+  <div class="top"><span class="tag">Measure {{ m.number }}</span>{% if m.district != m.title %}<span class="chip">{{ m.district }}</span>{% endif %}
     <span class="read-tick" hidden>read ✓</span>
     <button class="star" type="button" aria-pressed="false" aria-label="Star Measure {{ m.number }}">☆ Star</button></div>
   <h3><a href="/prop/{{ m.id }}">{{ m.title }}</a></h3>
@@ -73,8 +73,8 @@
     questions are shown word for word.</p>
   {% if local.yours %}<h3 class="subhead">Likely on your ballot</h3>{% for m in local.yours %}{{ local_card(m) }}{% endfor %}{% endif %}
   <details class="maybe">
-    <summary>{{ local.maybe|length }} more {{ local.county }} County measures (school and special districts or other
-      cities). Your ZIP code alone can't tell which apply; your sample ballot can.</summary>
+    <summary><strong>{{ local.maybe|length }} more {{ local.county }} County measures</strong> (school and special
+      districts or other cities). Your ZIP code alone can't tell which apply; your sample ballot can.</summary>
     {% for m in local.maybe %}{{ local_card(m) }}{% endfor %}
   </details>
 {% else %}
