@@ -1,0 +1,1526 @@
+[
+  {
+    "id": "local-sb-y",
+    "number": "Y",
+    "title": {
+      "text": "School Bonds",
+      "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+      "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+      "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "fetched_at": "2026-10-28T06:55:57Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Bernardino",
+      "name": "San Bernardino Community College District"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the San Bernardino County Registrar of Voters' notice of the measure."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure Y: notice of measure (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/SBCCD/Notice_SBCCD.pdf"
+      },
+      {
+        "label": "Measure Y: resolution (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/SBCCD/RES_SBCCD.pdf"
+      },
+      {
+        "label": "Measure Y: full text (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/SBCCD/FT_SBCCD.pdf"
+      },
+      {
+        "label": "Measure Y: Impartial (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/SBCCD/IA_SBCCD.pdf"
+      },
+      {
+        "label": "Measure Y: Tax Rate Statement (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/SBCCD/TR_SBCCD.pdf"
+      },
+      {
+        "label": "Measure Y: Argument For (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/SBCCD/AIF_SBCCD.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "55%",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "San Bernardino Community College District",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "Local College Affordability, Job Training, Repairs Measure. To maintain affordable college education access, by repairing /upgrading San Bernardino Valley College, Crafton Hills College; preparing students/ veterans for high-demand careers including skilled trades, firefighting, healthcare; providing safe drinking water; removing asbestos, mold; repairing deteriorating gas lines; acquiring, constructing, repairing facilities, sites, equipment; shall San Bernardino Community College District’s measure authorizing $898,000,000 in bonds at legal rates, levying $25 per $100,000 of assessed valuation ($56,000,000 annually) while bonds are outstanding, requiring oversight, audits, be adopted?",
+        "source_url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/SBCCD/Notice_SBCCD.pdf",
+        "source_label": "San Bernardino Community College District: Registrar of Voters notice of the measure, Measure Y",
+        "source_snapshot": "data/raw/objects/31/31844d078e96ffdf384cf38d341ea75a0bc28788f2f446ae579b516a64e16a7d",
+        "raw_sha256": "7e4d8ed6ab4233ac91611e96044d162f8e8266313ff0a6a1924d0e3566c51406",
+        "fetched_at": "2026-10-28T06:56:40Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sb-z",
+    "number": "Z",
+    "title": {
+      "text": "School Bonds",
+      "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+      "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+      "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "fetched_at": "2026-10-28T06:55:57Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Bernardino",
+      "name": "San Bernardino City Unified School District"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the San Bernardino County Registrar of Voters' notice of the measure."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure Z: notice of measure (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/SBCityUSD/Notice_SBCUSD.pdf"
+      },
+      {
+        "label": "Measure Z: resolution (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/SBCityUSD/RES_SBCityUSD.pdf"
+      },
+      {
+        "label": "Measure Z: full text (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/SBCityUSD/FT_SBCityUSD.pdf"
+      },
+      {
+        "label": "Measure Z: Impartial (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/SBCityUSD/AIF_SBCUSD.pdf"
+      },
+      {
+        "label": "Measure Z: Tax Rate Statement (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/SBCityUSD/TR_SBCityUSD.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "55%",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "San Bernardino City Unified School District",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "To repair/upgrade aging classrooms, labs, career technology, school facilities to support college/career readiness in math, science, engineering, arts, skilled trades; fix/replace deteriorating roofs, plumbing, HVAC, electrical; and upgrade schools to meet current health/safety codes and improve disabled access, shall San Bernardino City Unified School District's measure authorizing $345,000,000 in bonds, at legal rates, be adopted, levying approximately $45 per $100,000 assessed value ($22,000,000 annually) while bonds are outstanding, with oversight, audits, and all money locally controlled?",
+        "source_url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/SBCityUSD/Notice_SBCUSD.pdf",
+        "source_label": "San Bernardino City Unified School District: Registrar of Voters notice of the measure, Measure Z",
+        "source_snapshot": "data/raw/objects/42/42db36a8a01b66fc5cbd91fa57a391f3923d5743f1172e336a06acf3a4087a89",
+        "raw_sha256": "1bd66fc0bfde80543b6a42719f76248ea4d7559f3b7160882706bd8aa70f4d34",
+        "fetched_at": "2026-10-28T06:56:51Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sb-a",
+    "number": "A",
+    "title": {
+      "text": "School Bonds",
+      "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+      "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+      "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "fetched_at": "2026-10-28T06:55:57Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Bernardino",
+      "name": "Upland Unified School District"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the San Bernardino County Registrar of Voters' notice of the measure."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure A: notice of measure (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/UplandUSD/Notice_UUSD.pdf"
+      },
+      {
+        "label": "Measure A: resolution (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/UplandUSD/RES_UplandUSD.pdf"
+      },
+      {
+        "label": "Measure A: full text (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/UplandUSD/FT_UplandUSD.pdf"
+      },
+      {
+        "label": "Measure A: Impartial (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/UplandUSD/IA_UplandUSD.pdf"
+      },
+      {
+        "label": "Measure A: Tax Rate Statement (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/UplandUSD/TR_UplandUSD.pdf"
+      },
+      {
+        "label": "Measure A: Argument For (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/UplandUSD/AIF_UplandUSD.pdf"
+      },
+      {
+        "label": "Measure A: Rebuttal to Argument For (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/UplandUSD/RAF_UplandUSD.pdf"
+      },
+      {
+        "label": "Measure A: Argument Against (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/UplandUSD/AA_UplandUSD.pdf"
+      },
+      {
+        "label": "Measure A: Rebuttal to Argument Against (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/UplandUSD/RAA_UplandUSD.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "55%",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "Upland Unified School District",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "To improve the quality of education by modernizing, constructing, upgrading and equipping classrooms, restrooms/school facilities, career technical classrooms/labs; replace roofs; make safety/security improvements; and renovate/replace electrical/plumbing/sewer systems; shall Upland Unified School District’s measure be adopted, authorizing $236,700,000 of bonds at legal rates, levying approximately $47.50 per $100,000 assessed value (raising $14,200,000 annually) while bonds are outstanding, with audits, independent oversight, NO money for salaries, including administrators, only Upland USD educational facilities?",
+        "source_url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/UplandUSD/Notice_UUSD.pdf",
+        "source_label": "Upland Unified School District: Registrar of Voters notice of the measure, Measure A",
+        "source_snapshot": "data/raw/objects/37/376b38fd956de19dd599f8958eed60e49abf42351ad797b9dbcb50d26ba3e453",
+        "raw_sha256": "430ba7a95a7a673df640d393a3f48108216105339a717f4f04f2d2e5626abf63",
+        "fetched_at": "2026-10-28T06:57:00Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sb-b",
+    "number": "B",
+    "title": {
+      "text": "School Bonds",
+      "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+      "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+      "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "fetched_at": "2026-10-28T06:55:57Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Bernardino",
+      "name": "Beaumont Unified School District"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the Beaumont Unified School District's resolution placing the measure on the ballot; the printed ballot may differ slightly."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure B: resolution (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/BeaumontUSD/RES_BUSD.pdf"
+      },
+      {
+        "label": "Measure B: full text (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/BeaumontUSD/FT_BUSD.pdf"
+      },
+      {
+        "label": "Measure B: Impartial (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/BeaumontUSD/IA_BUSD.pdf"
+      },
+      {
+        "label": "Measure B: Tax Rate Statement (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/BeaumontUSD/TR_BUSD.pdf"
+      },
+      {
+        "label": "Measure B: Argument For (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/BeaumontUSD/AF_BUSD.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "55%",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "Beaumont Unified School District",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "Without increasing current tax rates, to repair/replace deteriorating roofs, plumbing, HVAC and electrical systems; improve student safety/security; repair/upgrade aging classrooms, science labs, school/career technology facilities at existing schools to support college/career readiness in health sciences, engineering, skilled trades; shall Beaumont Unified School District’s measure be adopted authorizing $86,000,000 in bonds at legal rates, levying $20 per $100,000 assessed value ($6,000,000 annually) while bonds are outstanding, with audits, citizen oversight, all money locally controlled?",
+        "source_url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/BeaumontUSD/RES_BUSD.pdf",
+        "source_label": "Beaumont Unified School District: resolution placing the measure on the ballot, Measure B",
+        "source_snapshot": "data/raw/objects/c0/c0f5fdcadf172fa541a573088b8437e4c79a92fdad788189d3ebb1020eefadb0",
+        "raw_sha256": "0fd0a45cf4e13590eb18cc9f783a1cb3aa3f88bf498420a252b958e61b48c4ae",
+        "fetched_at": "2026-10-28T06:57:11Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sb-c",
+    "number": "C",
+    "title": {
+      "text": "School Bonds",
+      "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+      "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+      "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "fetched_at": "2026-10-28T06:55:57Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Bernardino",
+      "name": "Barstow Community College District"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the San Bernardino County Registrar of Voters' notice of the measure."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure C: notice of measure (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/BarstowCCD/Notice_BCCD.pdf"
+      },
+      {
+        "label": "Measure C: resolution (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/BarstowCCD/RES_BarstowCCD.pdf"
+      },
+      {
+        "label": "Measure C: full text (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/BarstowCCD/FT_BarstowCCD.pdf"
+      },
+      {
+        "label": "Measure C: Impartial (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/BarstowCCD/IA_BarstowCCD.pdf"
+      },
+      {
+        "label": "Measure C: Tax Rate Statement (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/BarstowCCD/TR_BarstowCCD.pdf"
+      },
+      {
+        "label": "Measure C: Argument For (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/BarstowCCD/AF_BarstowCCD.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "55%",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "Barstow Community College District",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "Barstow Community College Repair, Safety, Affordable Higher Education Measure. To repair/upgrade local community college classrooms/labs, maintain affordable higher education in classrooms preparing students/veterans for high-demand jobs/careers, including skilled trades, engineering, nursing; update aging computer technology, emergency systems; repair deteriorating gas/electrical lines; shall Barstow Community College District's measure be adopted authorizing $37,000,000 in bonds at legal rates, levying approximately $25 per $100,000 assessed valuation ($2,500,000 annually) while bonds are outstanding, requiring spending disclosure, oversight, audits?",
+        "source_url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/BarstowCCD/Notice_BCCD.pdf",
+        "source_label": "Barstow Community College District: Registrar of Voters notice of the measure, Measure C",
+        "source_snapshot": "data/raw/objects/39/398bba257d12a50fa3466ba88d9dabf449d2b2079cc88b038b33651687da78d3",
+        "raw_sha256": "5537d9f7443b9fafc844f973357e3842599b2ce6c989f55f8a521178c51e7f2a",
+        "fetched_at": "2026-10-28T06:57:18Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sb-i",
+    "number": "I",
+    "title": {
+      "text": "Transactions and Use Tax",
+      "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+      "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+      "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "fetched_at": "2026-10-28T06:55:57Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Bernardino",
+      "name": "San Bernardino County Transportation Authority"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the San Bernardino County Registrar of Voters' notice of the measure."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure I: notice of measure (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/County/Notice_SBCTA.pdf"
+      },
+      {
+        "label": "Measure I: resolution (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/County/RES_SBCTA.pdf"
+      },
+      {
+        "label": "Measure I: full text (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/County/FT_SBCTA.pdf"
+      },
+      {
+        "label": "Measure I: Impartial (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/County/IA_SBCTA.pdf"
+      },
+      {
+        "label": "Measure I: Argument For (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/County/AF_SBCTA.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "2/3",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "San Bernardino County Transportation Authority",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "LOCAL TRANSPORTATION IMPROVEMENT PROGRAM San Bernardino County Road Repair/Traffic Relief Extension Without raising tax rates, shall an ordinance to fund repairing potholes; keeping local roads in good condition; completing freeway/highway projects to improve traffic flow/safety, reduce traffic bottlenecks; upgrading aging bridges/overpasses; creating local jobs; keeping student/senior/disabled/veteran transit fares low be adopted, extending the ½¢ voter-approved transportation sales tax, providing approximately $250,000,000 annually until ended by voters, requiring audits, oversight, spending disclosure, local control?",
+        "source_url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/County/Notice_SBCTA.pdf",
+        "source_label": "San Bernardino County Transportation Authority: Registrar of Voters notice of the measure, Measure I",
+        "source_snapshot": "data/raw/objects/7c/7c1c5a21ac0b37a2a95800c382272323ea28d01c2d2b78a92065e39cae6f4ed7",
+        "raw_sha256": "95db92811a4f6fde33d9fbf81aff880979f3a04fb4676bf37cf1964e97bf0331",
+        "fetched_at": "2026-10-28T06:57:30Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sb-d",
+    "number": "D",
+    "title": {
+      "text": "Charter Amendment",
+      "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+      "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+      "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "fetched_at": "2026-10-28T06:55:57Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Bernardino",
+      "name": "City of Needles"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the City of Needles's resolution placing the measure on the ballot; the printed ballot may differ slightly."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure D: resolution (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofNeedles/29/RES_CityofNeedles.pdf"
+      },
+      {
+        "label": "Measure D: full text (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofNeedles/29/FT_CityofNeedles.pdf"
+      },
+      {
+        "label": "Measure D: Impartial (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofNeedles/29/IA_CityofNeedles.pdf"
+      },
+      {
+        "label": "Measure D: Argument For (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofNeedles/29/AIF_CityofNeedles.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "50% + 1",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "City of Needles",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "Shall the proposed amendment to Section 503 of the City Charter to increase the compensation for each member of the City Council from $1 per month to $150 per month be approved?",
+        "source_url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofNeedles/29/RES_CityofNeedles.pdf",
+        "source_label": "City of Needles: resolution placing the measure on the ballot, Measure D",
+        "source_snapshot": "data/raw/objects/a5/a59e668fc053d014dae7519582d1238b4e293b4c79927441a1ac4cf23442f433",
+        "raw_sha256": "d8add9a76f7a19dd6735c7b730c0c64202cc9bc7741ed0b20416c4593581b103",
+        "fetched_at": "2026-10-28T06:57:45Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sb-e",
+    "number": "E",
+    "title": {
+      "text": "Transactions and Use Tax",
+      "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+      "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+      "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "fetched_at": "2026-10-28T06:55:57Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Bernardino",
+      "name": "City of Highland"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the City of Highland's resolution placing the measure on the ballot; the printed ballot may differ slightly."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure E: resolution (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofHighland/RES_CityofHighland.pdf"
+      },
+      {
+        "label": "Measure E: full text (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofHighland/FT_CityofHighland.pdf"
+      },
+      {
+        "label": "Measure E: Impartial (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofHighland/IA_CityofHighland.pdf"
+      },
+      {
+        "label": "Measure E: Argument For (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofHighland/AIF_CityofHighland.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "50% + 1",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "City of Highland",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "To maintain local funding for police, fire, emergency services; and improve critical infrastructure, including maintaining roads, bridges, drainage, 5th Street Corridor Interchange, and other improvement projects; shall the City of Highland enact a 1¢ sales tax, providing approximately $6.35 million annually, remaining in effect until ended by voters, with funds staying in the City and generated from purchases paid by both visitors and City residents?",
+        "source_url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofHighland/RES_CityofHighland.pdf",
+        "source_label": "City of Highland: resolution placing the measure on the ballot, Measure E",
+        "source_snapshot": "data/raw/objects/09/092090fe510c9496e37f824cd14bb2aad660efc2c9157403488dfe0217283d74",
+        "raw_sha256": "43a0ef7d5f38fa5e5eb551d86949ff0fb2f36fb3f1398ccf8ada6f881433a631",
+        "fetched_at": "2026-10-28T06:57:52Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sb-f",
+    "number": "F",
+    "title": {
+      "text": "Municipal Code Amendment",
+      "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+      "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+      "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "fetched_at": "2026-10-28T06:55:57Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Bernardino",
+      "name": "City of Chino"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the City of Chino's resolution placing the measure on the ballot; the printed ballot may differ slightly."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure F: resolution (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofChino/RES_CityofChino.pdf"
+      },
+      {
+        "label": "Measure F: full text (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofChino/FT_CityofChino.pdf"
+      },
+      {
+        "label": "Measure F: Impartial (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofChino/IA_CityofChino.pdf"
+      },
+      {
+        "label": "Measure F: Argument For (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofChino/AIF_CityofChino.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "50% + 1",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "City of Chino",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "Without taxing residents, and to support general city services such as 911/police response; protect local drinking water sources; retain/attract local businesses; shall the measure be adopted to reform City of Chino’s outdated business license ordinance with rates of $0.60 - $1.50 per $1,000 of gross receipts for larger businesses based on business category; and only $25 for smaller businesses (under $75,000), generating approximately $4,800,000 annually until ended by voters; with audits, spending disclosure, funds locally controlled?",
+        "source_url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofChino/RES_CityofChino.pdf",
+        "source_label": "City of Chino: resolution placing the measure on the ballot, Measure F",
+        "source_snapshot": "data/raw/objects/0c/0c4b6670c7db2baa876a061c7f9c1646c6162a5d5e52789fa6ad446079004c56",
+        "raw_sha256": "8ccd6fea22df9e2b6d4ec05eba5b043a3af4ec1f0d4f4fbde835037cf68ba1fa",
+        "fetched_at": "2026-10-28T06:58:00Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sb-g",
+    "number": "G",
+    "title": {
+      "text": "Transactions and Use Tax",
+      "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+      "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+      "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "fetched_at": "2026-10-28T06:55:57Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Bernardino",
+      "name": "City of Twentynine Palms"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the City of Twentynine Palms's resolution placing the measure on the ballot; the printed ballot may differ slightly."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure G: resolution (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofTwentyninePalms/RES_TP.pdf"
+      },
+      {
+        "label": "Measure G: full text (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofTwentyninePalms/FT_TP.pdf"
+      },
+      {
+        "label": "Measure G: Impartial (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofTwentyninePalms/IA_TP.pdf"
+      },
+      {
+        "label": "Measure G: Argument For (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofTwentyninePalms/AIF_TP.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "50% + 1",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "City of Twentynine Palms",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "Shall the measure funding services for City of Twentynine Palms residents (including those required for maintaining 911 and emergency response times, police officers and patrols; repairing streets/sidewalks; responding to floods/natural disasters; maintaining clean and safe public parks; and upgrading the animal shelter) by levying a transaction (sales) and use tax of 1%, providing approximately $2,000,000 in funds annually until ended by voters, requiring audits, public spending disclosures, and that all funds are used locally, be adopted?",
+        "source_url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofTwentyninePalms/RES_TP.pdf",
+        "source_label": "City of Twentynine Palms: resolution placing the measure on the ballot, Measure G",
+        "source_snapshot": "data/raw/objects/87/875dce20a92f7039f1bab98130fe854a677a6cb6fbd54b5a7581b52f985e7115",
+        "raw_sha256": "0ad40564b50f2cf7fe7e1a9e4266a4d0ec40bb81f5bb6c7baa967fc9f809e111",
+        "fetched_at": "2026-10-28T06:58:08Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sb-h",
+    "number": "H",
+    "title": {
+      "text": "Transactions and Use Tax",
+      "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+      "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+      "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "fetched_at": "2026-10-28T06:55:57Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Bernardino",
+      "name": "City of Ontario"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the City of Ontario's resolution placing the measure on the ballot; the printed ballot may differ slightly."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure H: resolution (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofOntario/RES_Ontario.pdf"
+      },
+      {
+        "label": "Measure H: full text (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofOntario/FT_Ontario.pdf"
+      },
+      {
+        "label": "Measure H: Impartial (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofOntario/IA_Ontario.pdf"
+      },
+      {
+        "label": "Measure H: Argument For (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofOntario/AIF_Ontario.pdf"
+      },
+      {
+        "label": "Measure H: Rebuttal to Argument For (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofOntario/RAF_Ontario.pdf"
+      },
+      {
+        "label": "Measure H: Argument Against (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofOntario/AA_Ontario.pdf"
+      },
+      {
+        "label": "Measure H: Rebuttal to Argument Against (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofOntario/RAA_Ontario.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "50% + 1",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "City of Ontario",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "To maintain fire, paramedic, police, 911 response, anti-gang programs; respond to property crimes, thefts, burglaries; clean and maintain public areas; repair streets/potholes; address homelessness; increase access to affordable housing for seniors/families/individuals; retain/attract local businesses; for general City services; shall the measure establishing a half-cent sales tax providing approximately $32,500,000 annually until ended by voters; requiring audits, spending disclosure, funds locally controlled, be adopted?",
+        "source_url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofOntario/RES_Ontario.pdf",
+        "source_label": "City of Ontario: resolution placing the measure on the ballot, Measure H",
+        "source_snapshot": "data/raw/objects/34/34796b029130609620de99cf85642a02c89be0ba3fee175214862a763db62195",
+        "raw_sha256": "7970fee795d723df1b2cf71413d398a01fa93dba43aa89533e764959864e74ba",
+        "fetched_at": "2026-10-28T06:58:15Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sb-j",
+    "number": "J",
+    "title": {
+      "text": "Transactions and Use Tax",
+      "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+      "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+      "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "fetched_at": "2026-10-28T06:55:57Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Bernardino",
+      "name": "City of Chino Hills"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the City of Chino Hills's resolution placing the measure on the ballot; the printed ballot may differ slightly."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure J: resolution (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofChinoHills/RES_ChinoHills.pdf"
+      },
+      {
+        "label": "Measure J: full text (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofChinoHills/FT_ChinoHills.pdf"
+      },
+      {
+        "label": "Measure J: Impartial (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofChinoHills/IA_ChinoHills.pdf"
+      },
+      {
+        "label": "Measure J: Argument For (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofChinoHills/AF_ChinoHills.pdf"
+      },
+      {
+        "label": "Measure J: Rebuttal to Argument For (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofChinoHills/RAF_ChinoHills.pdf"
+      },
+      {
+        "label": "Measure J: Argument Against (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofChinoHills/AA_ChinoHills.pdf"
+      },
+      {
+        "label": "Measure J: Rebuttal to Argument Against (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofChinoHills/RAA_ChinoHills.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "50% + 1",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "City of Chino Hills",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "Chino Hills Services Measure: Shall the measure protecting Chino Hills’ financial stability and maintaining City services including public safety response times; reducing wildfire risk; preparing for/responding to wildfires/natural disasters; helping prevent crime, thefts, burglaries; keeping public areas safe/clean; protecting Clean Water Act resources; preserving/maintaining open space; supporting other city services by establishing a 1¢ sales tax, providing approximately $11,500,000 annually until ended by voters; with audits, spending disclosure, all funds used locally, be adopted?",
+        "source_url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofChinoHills/RES_ChinoHills.pdf",
+        "source_label": "City of Chino Hills: resolution placing the measure on the ballot, Measure J",
+        "source_snapshot": "data/raw/objects/7a/7afbbabbf390541f07bc774b72973ef01f520d19f26528bac41c84f104942a6a",
+        "raw_sha256": "4b15853f6c2e195e46333a9faa452817f13ed2496e67a8a21e92ab4b785f7877",
+        "fetched_at": "2026-10-28T06:58:22Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sb-k",
+    "number": "K",
+    "title": {
+      "text": "Transient Occupancy Tax",
+      "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+      "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+      "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "fetched_at": "2026-10-28T06:55:57Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Bernardino",
+      "name": "City of Needles"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the City of Needles's resolution placing the measure on the ballot; the printed ballot may differ slightly."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure K: resolution placing the measure on the ballot (PDF)",
+        "url": "https://cityofneedles.com/wp-content/uploads/2026/08/2026-27-TOT-Increase-SBEMP-WITH-683-AC.pdf"
+      },
+      {
+        "label": "Measure K: resolution (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofNeedles/27/RES_CityofNeedles.pdf"
+      },
+      {
+        "label": "Measure K: full text (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofNeedles/27/FT_CityofNeedles.pdf"
+      },
+      {
+        "label": "Measure K: Impartial (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofNeedles/27/IA_CityofNeedles.pdf"
+      },
+      {
+        "label": "Measure K: Argument For (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofNeedles/27/AIF_CityofNeedles.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "50% + 1",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "City of Needles",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "Shall the measure to maintain and improve quality of life by supporting local businesses and jobs; keeping public areas safe, clean, and well maintained; maintaining and improving streets, parks, and other public infrastructure; and funding other general City services, by increasing the City of Needles Transient Occupancy Tax paid primarily by hotel, motel, and short-term rental guests from 10% to 14% in phases, generating approximately $400,000 annually, with annual public disclosure and remaining effective until ended by voters, be adopted?",
+        "source_url": "https://cityofneedles.com/wp-content/uploads/2026/08/2026-27-TOT-Increase-SBEMP-WITH-683-AC.pdf",
+        "source_label": "City of Needles: resolution placing the measure on the ballot, Measure K",
+        "source_snapshot": "data/raw/objects/64/641c168e8a5c3ee9b949b1967176a182deadafd4a4ce31cf5ad6cf38e88c23d2",
+        "raw_sha256": "9f05eed3bdb927c1b66b1069a8be25c7354f726623ea6d03e83f8b7487d7cb2a",
+        "fetched_at": "2026-10-28T06:56:35Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sb-l",
+    "number": "L",
+    "title": {
+      "text": "Municipal Bonds",
+      "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+      "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+      "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "fetched_at": "2026-10-28T06:55:57Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Bernardino",
+      "name": "City of Needles"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the City of Needles's ordinance placing the measure on the ballot; the printed ballot may differ slightly."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure L: resolution (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofNeedles/30/RES_CityofNeedles.pdf"
+      },
+      {
+        "label": "Measure L: full text (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofNeedles/30/FT_CityofNeedles.pdf"
+      },
+      {
+        "label": "Measure L: Impartial (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofNeedles/30/IA_CityofNeedles.pdf"
+      },
+      {
+        "label": "Measure L: Tax Rate Statement (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofNeedles/30/TR_CityofNeedles.pdf"
+      },
+      {
+        "label": "Measure L: Argument For (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofNeedles/30/AIF_CityofNeedles.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "2/3",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "City of Needles",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "To improve the City of Needles including roads and transportation infrastructure; repairing and repaving streets; fixing potholes; maintaining community safety; improving parks and recreational facilities; and revitalizing downtown Main Street; shall the City of Needles measure be approved authorizing $11,200,000 of bonds at legal rates, generating on average $739,971 annually while bonds are outstanding at a rate of $60 per $100,000 assessed value, with annual audits, independent citizens' oversight, NO money for salaries and all money staying in Needles?",
+        "source_url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofNeedles/30/FT_CityofNeedles.pdf",
+        "source_label": "City of Needles: ordinance placing the measure on the ballot, Measure L",
+        "source_snapshot": "data/raw/objects/9f/9f2fa141c5c967644cfe8b71dc3bf456e2a521df3cb08f6918285a04b2018ddb",
+        "raw_sha256": "986dbfbc08bd1ba0779cd307a579c0df009decccb2c28058837b03c3ed3ef864",
+        "fetched_at": "2026-10-28T06:58:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sb-m",
+    "number": "M",
+    "title": {
+      "text": "Municipal Code Amendment",
+      "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+      "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+      "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "fetched_at": "2026-10-28T06:55:57Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Bernardino",
+      "name": "City of Upland"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the City of Upland's notice of election."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure M: city notice of election (PDF)",
+        "url": "https://uplandca.gov/Documents/Government/City%20Manager/Measure%20M/Measure%20M%20Notice%20of%20Election.pdf"
+      },
+      {
+        "label": "Measure M: resolution (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofUpland/RES_Upland.pdf"
+      },
+      {
+        "label": "Measure M: full text (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofUpland/FT_Upland.pdf"
+      },
+      {
+        "label": "Measure M: Impartial (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofUpland/IA_Upland.pdf"
+      },
+      {
+        "label": "Measure M: Argument For (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofUpland/AF_Upland.pdf"
+      },
+      {
+        "label": "Measure M: Rebuttal to Argument For (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofUpland/RAF_Upland.pdf"
+      },
+      {
+        "label": "Measure M: Argument Against (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofUpland/AA_Upland.pdf"
+      },
+      {
+        "label": "Measure M: Rebuttal to Argument Against (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofUpland/RAA_Upland.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "50% + 1",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "City of Upland",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "Upland Business License Reform Measure To modernize City of Upland’s 31-year-old business license tax, with no tax increase to residents, lowering taxes on most small businesses, and ensuring large businesses pay their fair share for general city services such as: fixing potholes/streets; repairing infrastructure; and 9-1-1 response, shall the measure with rates between 0.065% and 0.2% of gross receipts, generating $3.3 million in local funds until ended by voters, and requiring independent audits, be adopted?",
+        "source_url": "https://uplandca.gov/Documents/Government/City%20Manager/Measure%20M/Measure%20M%20Notice%20of%20Election.pdf",
+        "source_label": "City of Upland: city notice of election, Measure M",
+        "source_snapshot": "data/raw/objects/47/47eaa395ac4679526c8dde67c492627edbd24ebe7992a446cf30e86fecd575d2",
+        "raw_sha256": "4d90e5fee9cebe6d96469b04a1c4c98f236f62f71c850778891bae0fee88d4bd",
+        "fetched_at": "2026-10-28T06:56:30Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sb-n",
+    "number": "N",
+    "title": {
+      "text": "Transactions and Use Tax",
+      "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+      "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+      "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "fetched_at": "2026-10-28T06:55:57Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Bernardino",
+      "name": "City of Grand Terrace"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the City of Grand Terrace's resolution placing the measure on the ballot; the printed ballot may differ slightly."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure N: resolution (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofGrandTerrace/RES_GT.pdf"
+      },
+      {
+        "label": "Measure N: full text (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofGrandTerrace/FT_GT.pdf"
+      },
+      {
+        "label": "Measure N: Impartial (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofGrandTerrace/IA_GT.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "50% + 1",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "City of Grand Terrace",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "GRAND TERRACE GENERAL SERVICES MEASURE. To maintain and enhance essential City services — including police protection, neighborhood patrols, 9-1-1 emergency response, and rapid response times — shall the City of Grand Terrace enact a one percent (1%) sales tax, providing approximately $1.2 million annually for general City use until ended by voters, with all funds staying local, public spending disclosure, and independent annual audits?",
+        "source_url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofGrandTerrace/RES_GT.pdf",
+        "source_label": "City of Grand Terrace: resolution placing the measure on the ballot, Measure N",
+        "source_snapshot": "data/raw/objects/fe/feaeefbfef23f3296af8ad108927bb38bc58554f133b0f97bea5b7411aed42c1",
+        "raw_sha256": "31c055fc7e0f94615be383930d0568cd170574b34e4b67030e1f928fd2f52ca4",
+        "fetched_at": "2026-10-28T06:58:56Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sb-o",
+    "number": "O",
+    "title": {
+      "text": "Municipal Code Amendment",
+      "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+      "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+      "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "fetched_at": "2026-10-28T06:55:57Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Bernardino",
+      "name": "City of Colton"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the City of Colton's resolution placing the measure on the ballot; the printed ballot may differ slightly."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure O: resolution (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofColton/RES_CityofColton.pdf"
+      },
+      {
+        "label": "Measure O: full text (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofColton/FT_CityofColton.pdf"
+      },
+      {
+        "label": "Measure O: Impartial (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofColton/IA_CityofColton.pdf"
+      },
+      {
+        "label": "Measure O: Argument For (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofColton/AIF_CityofColton.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "50% + 1",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "City of Colton",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "Shall the office of Colton City Treasurer be appointive?",
+        "source_url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofColton/RES_CityofColton.pdf",
+        "source_label": "City of Colton: resolution placing the measure on the ballot, Measure O",
+        "source_snapshot": "data/raw/objects/99/999677adf2c4d862c68dafcf01fbbbee8ed1c2d8ebf22988506a82ef357fdc80",
+        "raw_sha256": "7e57ce2afb505113ab7513ab82759852d63a2b4210f5e02b5bdc803baecd94a7",
+        "fetched_at": "2026-10-28T06:59:04Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sb-p",
+    "number": "P",
+    "title": {
+      "text": "Transactions and Use Tax",
+      "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+      "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+      "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "fetched_at": "2026-10-28T06:55:57Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Bernardino",
+      "name": "City of Adelanto"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the City of Adelanto's resolution placing the measure on the ballot; the printed ballot may differ slightly."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure P: resolution (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofAdelanto/RES_CityofAdelanto.pdf"
+      },
+      {
+        "label": "Measure P: full text (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofAdelanto/FT_CityofAdelanto.pdf"
+      },
+      {
+        "label": "Measure P: Impartial (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofAdelanto/IA_CityofAdelanto.pdf"
+      },
+      {
+        "label": "Measure P: Argument For (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofAdelanto/AIF_CityofAdelanto.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "50% + 1",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "City of Adelanto",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "Shall the measure to provide funding for Adelanto city services, such as paving streets and fixing potholes, fire protection, paramedic, and 911 response; law enforcement and crime prevention; keeping public areas/parks safe/clean; addressing homelessness; and repairing aging storm drains, pipes, bridges, and public areas by establishing a 1% transactions and use tax, providing approximately $3,000,000 annually until ended by voters, requiring audits, public spending disclosure, all money controlled locally, be adopted?",
+        "source_url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofAdelanto/RES_CityofAdelanto.pdf",
+        "source_label": "City of Adelanto: resolution placing the measure on the ballot, Measure P",
+        "source_snapshot": "data/raw/objects/b7/b774937536da786c9ef0d4ee0fddcfda94ff6560a004948dc48c5a015ad7b1c8",
+        "raw_sha256": "965dddaab6b22dd6c35235a306f2e8b22862c7846373f7e10463758b7f0c5d7a",
+        "fetched_at": "2026-10-28T06:59:12Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sb-q",
+    "number": "Q",
+    "title": {
+      "text": "District Bonds",
+      "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+      "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+      "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "fetched_at": "2026-10-28T06:55:57Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Bernardino",
+      "name": "San Bernardino Mountains Community Hospital District"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the San Bernardino County Registrar of Voters' notice of the measure."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure Q: notice of measure (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/SBMCHD/Notice_SBMCHD.pdf"
+      },
+      {
+        "label": "Measure Q: resolution (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/SBMCHD/RES_SBMCHD.pdf"
+      },
+      {
+        "label": "Measure Q: full text (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/SBMCHD/FT_SBMCHD.pdf"
+      },
+      {
+        "label": "Measure Q: Impartial (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/SBMCHD/IA_SBMCHD.pdf"
+      },
+      {
+        "label": "Measure Q: Tax Rate Statement (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/SBMCHD/TR_SBMCHD.pdf"
+      },
+      {
+        "label": "Measure Q: Argument For (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/SBMCHD/AIF_SBMCHD.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "2/3",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "San Bernardino Mountains Community Hospital District",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "To repair and upgrade 75-year-old Mountains Community Hospital including: fixing deteriorating roofs, plumbing, electrical, and safety systems; upgrading/expanding emergency department, medical technology, and treatments; and maintaining local access to life-saving emergency medical care for accidents, heart attacks, strokes, and other emergencies, shall San Bernardino Mountains Community Hospital District's measure be adopted authorizing $61,000,000 in bonds at legal rates, levying $25 per $100,000 assessed value ($3,500,000 annually) while bonds are outstanding, with independent oversight and all money locally-controlled?",
+        "source_url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/SBMCHD/Notice_SBMCHD.pdf",
+        "source_label": "San Bernardino Mountains Community Hospital District: Registrar of Voters notice of the measure, Measure Q",
+        "source_snapshot": "data/raw/objects/bb/bbdbeadc29528323e6b89d4de5f05ecc3e8a71c9428df43ae0b11cd065ed3028",
+        "raw_sha256": "6296d3e0b68cae8b5af33f23084cdac1420ec43792095cf512bf7f3342a7cc0d",
+        "fetched_at": "2026-10-28T06:59:20Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sb-r",
+    "number": "R",
+    "title": {
+      "text": "Special Parcel Tax",
+      "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+      "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+      "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+      "fetched_at": "2026-10-28T06:55:57Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Bernardino",
+      "name": "Rim of the World Recreation and Park District"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the San Bernardino County Registrar of Voters' notice of the measure."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure R: notice of measure (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/RimoftheWorldRPD/Notice_ROTW.pdf"
+      },
+      {
+        "label": "Measure R: resolution (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/RimoftheWorldRPD/RES_ROTW.pdf"
+      },
+      {
+        "label": "Measure R: full text (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/RimoftheWorldRPD/FT_ROTW.pdf"
+      },
+      {
+        "label": "Measure R: Impartial (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/RimoftheWorldRPD/IA_ROTW.pdf"
+      },
+      {
+        "label": "Measure R: Argument For (PDF)",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/RimoftheWorldRPD/AF_ROTW.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "2/3",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "Rim of the World Recreation and Park District",
+        "source_url": "https://elections.sbcounty.gov/elections/2026/1103/measures/",
+        "source_label": "San Bernardino County Registrar of Voters: 2026 General Election, Local Measures",
+        "source_snapshot": "data/raw/objects/32/32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "raw_sha256": "32161bef08a75e3f04d86763f927d5471bc06d539288e893c619059e10a75c32",
+        "fetched_at": "2026-10-28T06:55:57Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "Shall Rim of the World Recreation & Park District adopt a resolution increasing its annual special parcel tax from $22 to $37/parcel, with an annual escalator of 1%, until ended by voters, generating approximately $510,000 the first year, to sustain essential recreation services; improve and maintain parks, recreational facilities, and community amenities; address rising costs, emergency repair and disaster recovery; all funds remain local used only for these purposes with annual audit/ reporting?",
+        "source_url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/RimoftheWorldRPD/Notice_ROTW.pdf",
+        "source_label": "Rim of the World Recreation and Park District: Registrar of Voters notice of the measure, Measure R",
+        "source_snapshot": "data/raw/objects/17/17edb241ad965023395ea500ad743e3d0b1bf6cb9a11b79e93f8e4033266976b",
+        "raw_sha256": "aeb5379265d41d6f2e347bfe568fa0b3f2a9fe745b3d4ae00b8422559f0dcda3",
+        "fetched_at": "2026-10-28T06:59:31Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  }
+]

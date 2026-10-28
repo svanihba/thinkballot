@@ -1,0 +1,953 @@
+[
+  {
+    "id": "local-rv-a",
+    "number": "A",
+    "title": {
+      "text": "Traffic Relief, Pothole/Road Repair Investment Renewal",
+      "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+      "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+      "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+      "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+      "fetched_at": "2026-10-28T07:18:22Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Riverside",
+      "name": "Riverside County"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question as printed on the county's sample ballot."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure A: county voter information guide (sample ballot)",
+        "url": "https://docs.voteinfo.net/voterInformation/root1103/ballots/bt000001.pdf"
+      },
+      {
+        "label": "Riverside County Registrar of Voters: Election Summary Report (PDF)",
+        "url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "Riverside County",
+        "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+        "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+        "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+        "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+        "fetched_at": "2026-10-28T07:18:22Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Riverside County Traffic Relief, Pothole/Road Repair Investment Renewal Without raising tax rates, shall the measure to reduce congestion; repair potholes; complete freeway projects; keep roads in good condition; help improve safety; support local jobs; reinforce aging bridges, highways/roads from flooding/earthquakes; keep senior/student/disabled/veteran bus fares low be adopted, continuing the existing ½¢ voter-approved transportation sales tax providing approximately $280,000,000 annually until ended by voters, requiring audits, spending disclosure, local control?",
+        "source_url": "https://docs.voteinfo.net/voterInformation/root1103/ballots/bt000001.pdf",
+        "source_label": "Riverside County: county voter information guide (sample ballot), Measure A",
+        "source_snapshot": "data/raw/objects/c1/c181fda5b1b8b8d9617124a092f5d3c565c4b44580c75002be8400cfbe150479",
+        "raw_sha256": "7e8c5eb74e37509753e43954a962dcc9ce9a7cadc4cb83033ef9a572864c9d72",
+        "fetched_at": "2026-10-28T07:18:24Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-rv-b",
+    "number": "B",
+    "title": {
+      "text": "Adopt Bonds to Repair/Upgrade School Facilities to Support College/Career Readiness",
+      "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+      "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+      "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+      "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+      "fetched_at": "2026-10-28T07:18:22Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Riverside",
+      "name": "Beaumont Unified School District"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the Beaumont Unified School District's resolution placing the measure on the ballot; the printed ballot may differ slightly."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure B: resolution placing the measure on the ballot",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/BeaumontUSD/RES_BUSD.pdf"
+      },
+      {
+        "label": "Riverside County Registrar of Voters: Election Summary Report (PDF)",
+        "url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "Beaumont USD",
+        "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+        "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+        "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+        "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+        "fetched_at": "2026-10-28T07:18:22Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Without increasing current tax rates, to repair/replace deteriorating roofs, plumbing, HVAC and electrical systems; improve student safety/security; repair/upgrade aging classrooms, science labs, school/career technology facilities at existing schools to support college/career readiness in health sciences, engineering, skilled trades; shall Beaumont Unified School District’s measure be adopted authorizing $86,000,000 in bonds at legal rates, levying $20 per $100,000 assessed value ($6,000,000 annually) while bonds are outstanding, with audits, citizen oversight, all money locally controlled?",
+        "source_url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/BeaumontUSD/RES_BUSD.pdf",
+        "source_label": "Beaumont Unified School District: resolution placing the measure on the ballot, Measure B",
+        "source_snapshot": "data/raw/objects/c0/c0f5fdcadf172fa541a573088b8437e4c79a92fdad788189d3ebb1020eefadb0",
+        "raw_sha256": "0fd0a45cf4e13590eb18cc9f783a1cb3aa3f88bf498420a252b958e61b48c4ae",
+        "fetched_at": "2026-10-28T07:19:22Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-rv-c",
+    "number": "C",
+    "title": {
+      "text": "General Business License Tax to Fund Public Services",
+      "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+      "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+      "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+      "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+      "fetched_at": "2026-10-28T07:18:22Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Riverside",
+      "name": "City of Perris"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the City of Perris's official page about the measure; the printed ballot may differ slightly."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure C: city's measure page",
+        "url": "https://www.cityofperris.org/government/city-government/warehousetax"
+      },
+      {
+        "label": "Riverside County Registrar of Voters: Election Summary Report (PDF)",
+        "url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "City of Perris",
+        "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+        "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+        "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+        "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+        "fetched_at": "2026-10-28T07:18:22Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Shall the measure with no tax on residents, funding public services including maintaining 911 emergency response, public safety; repairing streets/potholes, improving traffic/safety; retaining small businesses, by establishing a business license tax of up to 10¢ per square foot of industrial/ warehouse/ manufacturing businesses with large truck activity, 3% annual increase limit, providing approximately $2,500,000 annually until ended by voters, requiring spending disclosure, all funds used locally, be adopted?",
+        "source_url": "https://www.cityofperris.org/government/city-government/warehousetax",
+        "source_label": "City of Perris: city's measure page, Measure C",
+        "source_snapshot": "data/raw/objects/95/95ad05eb5e5370d915944702e84c051ced3cd2488e9c6ba43dd8024243bbe186",
+        "raw_sha256": "95ad05eb5e5370d915944702e84c051ced3cd2488e9c6ba43dd8024243bbe186",
+        "fetched_at": "2026-10-28T07:08:15Z",
+        "fetched_by": "capture"
+      }
+    }
+  },
+  {
+    "id": "local-rv-e",
+    "number": "E",
+    "title": {
+      "text": "Public Safety and Emergency Response Protection Measure",
+      "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+      "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+      "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+      "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+      "fetched_at": "2026-10-28T07:18:22Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Riverside",
+      "name": "City of Canyon Lake"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the City of Canyon Lake's resolution placing the measure on the ballot; the printed ballot may differ slightly."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure E: resolution placing the measure on the ballot",
+        "url": "https://canyonlakeca.govoffice3.com/uploads/dm/11851/ResolutionNo.202640Calling2026ElectiononInitiative.pdf"
+      },
+      {
+        "label": "Riverside County Registrar of Voters: Election Summary Report (PDF)",
+        "url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "City of Canyon Lake",
+        "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+        "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+        "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+        "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+        "fetched_at": "2026-10-28T07:18:22Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "CANYON LAKE PUBLIC SAFETY AND EMERGENCY RESPONSE PROTECTION MEASURE; Shall the measure establishing a 1¢ transactions and use tax, estimated to generate $1,140,000.00 annually until repealed by voters, and requiring the proceeds and specified existing EMS subscription-fee, property-tax fire, and utility-users-tax revenues to be deposited in a restricted fund used only for Canyon Lake police, fire, paramedic, and emergency-response staffing, compensation, equipment, and operations, with annual independent audits, be adopted?",
+        "source_url": "https://canyonlakeca.govoffice3.com/uploads/dm/11851/ResolutionNo.202640Calling2026ElectiononInitiative.pdf",
+        "source_label": "City of Canyon Lake: resolution placing the measure on the ballot, Measure E",
+        "source_snapshot": "data/raw/objects/d7/d7c1cb5e08a07c69b9eb9d0aefd73ae2e74d1c50e610e331c9196c051c37e86b",
+        "raw_sha256": "9d697fcc09e13d292e076d8a487731959a7221fbc77173d43e7193c7f3e158c7",
+        "fetched_at": "2026-10-28T07:19:46Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-rv-h",
+    "number": "H",
+    "title": {
+      "text": "Clarifying Nonprofit Exemption from City Admissions Tax",
+      "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+      "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+      "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+      "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+      "fetched_at": "2026-10-28T07:18:22Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Riverside",
+      "name": "City of Indian Wells"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question as printed on the county's sample ballot."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure H: county voter information guide (sample ballot)",
+        "url": "https://docs.voteinfo.net/voterInformation/root1103/ballots/bt000271.pdf"
+      },
+      {
+        "label": "Riverside County Registrar of Voters: Election Summary Report (PDF)",
+        "url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "City of Indian Wells",
+        "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+        "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+        "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+        "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+        "fetched_at": "2026-10-28T07:18:22Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "CLARIFYING NONPROFIT EXEMPTION FROM CITY ADMISSIONS TAX. To safeguard tax-exemption benefits for residents and visitors who purchase tickets for events sponsored by charitable, religious, public service, and political organizations, shall the voters approve updates to the City's admissions-tax ordinance?",
+        "source_url": "https://docs.voteinfo.net/voterInformation/root1103/ballots/bt000271.pdf",
+        "source_label": "City of Indian Wells: county voter information guide (sample ballot), Measure H",
+        "source_snapshot": "data/raw/objects/79/790df8feb9f3861974bfb217d6aed8d5eb6a3e88a52755026395b9b264eeaa0d",
+        "raw_sha256": "402121cb4c739b416046b93021bf4c0304c3e17513d9e8dbf2a7bfa484f34a95",
+        "fetched_at": "2026-10-28T07:19:03Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-rv-i",
+    "number": "I",
+    "title": {
+      "text": "Adopt Bonds to Repair/Upgrade Schools Facilities to Support College/Career Readiness",
+      "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+      "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+      "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+      "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+      "fetched_at": "2026-10-28T07:18:22Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Riverside",
+      "name": "Hemet Unified School District"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the Riverside County Registrar of Voters' notice of election."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure I: Registrar of Voters notice of election",
+        "url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-08/Measure%20I%20-%20Hemet%20USD%20eng.pdf"
+      },
+      {
+        "label": "Riverside County Registrar of Voters: Election Summary Report (PDF)",
+        "url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "Hemet USD",
+        "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+        "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+        "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+        "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+        "fetched_at": "2026-10-28T07:18:22Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "To repair and upgrade aging classrooms, science labs, career technology and school facilities to support college/career readiness in math, science, technology, arts, engineering, skilled trades; fix deteriorating roofs, plumbing, electrical systems; and improve school safety, security, air conditioning systems; shall Hemet Unified School District's no-tax-rate-increase measure be adopted authorizing $225,000,000 in bonds at legal rates, levying approximately $50 per $100,000 assessed value ($16,000,000 annually) while bonds are outstanding, with citizen oversight and independent audits?",
+        "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-08/Measure%20I%20-%20Hemet%20USD%20eng.pdf",
+        "source_label": "Hemet Unified School District: Registrar of Voters notice of election, Measure I",
+        "source_snapshot": "data/raw/objects/5f/5ff365be58d0175e9f7d2ca494c4634a59bf8fd6f9c389a32997c0a829c78308",
+        "raw_sha256": "60093c7f80eb96522067b7ccb10ce930b2104900a45c0e7d337334a0f638da0c",
+        "fetched_at": "2026-10-28T07:19:15Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-rv-m",
+    "number": "M",
+    "title": {
+      "text": "Adopt Bonds to Repair/Upgrade School Facilities to Support College/Career Readiness",
+      "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+      "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+      "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+      "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+      "fetched_at": "2026-10-28T07:18:22Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Riverside",
+      "name": "Murrieta Valley Unified School District"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the Riverside County Registrar of Voters' notice of election."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure M: Registrar of Voters notice of election",
+        "url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-08/Measure%20M-Murrieta%20Valley%20USD%20eng.pdf"
+      },
+      {
+        "label": "Riverside County Registrar of Voters: Election Summary Report (PDF)",
+        "url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "Murrieta Valley USD",
+        "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+        "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+        "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+        "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+        "fetched_at": "2026-10-28T07:18:22Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Without increasing current tax rates, to fix deteriorating roofs, plumbing, HVAC, electrical, safety systems, and repair/upgrade aging classrooms, science labs, career technology and school facilities to support college/career readiness in math, science, technology, arts, engineering, and skilled trades, shall Murrieta Valley Unified School District's measure be adopted authorizing $359,000,000 in bonds at legal rates, levying $60 per $100,000 assessed value ($22 million annually) while bonds are outstanding, with citizen oversight, audits and all money locally controlled?",
+        "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-08/Measure%20M-Murrieta%20Valley%20USD%20eng.pdf",
+        "source_label": "Murrieta Valley Unified School District: Registrar of Voters notice of election, Measure M",
+        "source_snapshot": "data/raw/objects/3d/3daa0be27f0f55cca214fa59e23fc55d2a257eccc6945ce150eb922ba10e0575",
+        "raw_sha256": "b440a9a2a8cc99badacda00a1565a1f6d98df9f9179b01095dd289472f6ba626",
+        "fetched_at": "2026-10-28T07:19:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-rv-p",
+    "number": "P",
+    "title": {
+      "text": "Local Park Repair/Safety and Senior/Youth",
+      "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+      "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+      "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+      "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+      "fetched_at": "2026-10-28T07:18:22Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Riverside",
+      "name": "Desert Recreation District"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question as printed on the county's sample ballot."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure P: county voter information guide (sample ballot)",
+        "url": "https://docs.voteinfo.net/voterInformation/root1103/ballots/bt000271.pdf"
+      },
+      {
+        "label": "Riverside County Registrar of Voters: Election Summary Report (PDF)",
+        "url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "Desert Recreation District",
+        "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+        "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+        "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+        "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+        "fetched_at": "2026-10-28T07:18:22Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "LOCAL PARK REPAIR/SAFETY AND SENIOR/YOUTH SERVICES MEASURE. To maintain safe drinking water, address homelessness, repair aging gas/sewer lines, remove asbestos/mold at parks/recreation facilities; maintain cooling centers, services for vulnerable seniors, youth gang/drug prevention programs; shall Desert Recreation District's measure be adopted levying 5¢ per building square foot annually, providing $11,300,000 annually until ended by voters, adjusting the appropriations limit; requiring spending disclosure, audits, all funds staying local; exempting low-income seniors?",
+        "source_url": "https://docs.voteinfo.net/voterInformation/root1103/ballots/bt000271.pdf",
+        "source_label": "Desert Recreation District: county voter information guide (sample ballot), Measure P",
+        "source_snapshot": "data/raw/objects/79/790df8feb9f3861974bfb217d6aed8d5eb6a3e88a52755026395b9b264eeaa0d",
+        "raw_sha256": "402121cb4c739b416046b93021bf4c0304c3e17513d9e8dbf2a7bfa484f34a95",
+        "fetched_at": "2026-10-28T07:19:03Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-rv-q",
+    "number": "Q",
+    "title": {
+      "text": "Public Safety, Essential City Services Measure",
+      "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+      "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+      "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+      "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+      "fetched_at": "2026-10-28T07:18:22Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Riverside",
+      "name": "City of Hemet"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the City of Hemet's resolution placing the measure on the ballot; the printed ballot may differ slightly."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure Q: resolution placing the measure on the ballot",
+        "url": "https://www.hemetca.gov/DocumentCenter/View/12619"
+      },
+      {
+        "label": "Riverside County Registrar of Voters: Election Summary Report (PDF)",
+        "url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "City of Hemet",
+        "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+        "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+        "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+        "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+        "fetched_at": "2026-10-28T07:18:22Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Hemet Public Safety, Essential City Services Measure. Shall a measure funding general city services such as 9-1-1 emergency response, public safety; reducing drug-related crime; keeping public areas safe/clean; addressing homelessness; reducing wildfire risks; providing safe, clean drinking water; repairing streets/potholes; maintaining library services; attracting/retaining businesses, by establishing a 1¢ sales tax providing approximately $16,000,000 annually until ended by voters, subject to oversight, public spending disclosure, all funds controlled locally, be adopted?",
+        "source_url": "https://www.hemetca.gov/DocumentCenter/View/12619",
+        "source_label": "City of Hemet: resolution placing the measure on the ballot, Measure Q",
+        "source_snapshot": "data/raw/objects/8a/8af4bca6744ac4a55c3da9241a5b2fb2d8e6be8bafda3332d22334c746b96b73",
+        "raw_sha256": "3871c6cd67a39bd52b4315e9b93786c38c3ee8fad562675f14eece58049aa9af",
+        "fetched_at": "2026-10-28T07:19:32Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-ocr",
+        "source_note": "Text read from a scanned official PDF"
+      }
+    }
+  },
+  {
+    "id": "local-rv-r",
+    "number": "R",
+    "title": {
+      "text": "Public Safety, Roads, City Services Measure",
+      "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+      "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+      "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+      "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+      "fetched_at": "2026-10-28T07:18:22Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Riverside",
+      "name": "City of Rancho Mirage"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the City of Rancho Mirage's official page about the measure; the printed ballot may differ slightly."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure R: city's measure page",
+        "url": "https://ranchomirageca.gov/residents/city_services/measure_r.php"
+      },
+      {
+        "label": "Riverside County Registrar of Voters: Election Summary Report (PDF)",
+        "url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "City of Rancho Mirage",
+        "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+        "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+        "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+        "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+        "fetched_at": "2026-10-28T07:18:22Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "RANCHO MIRAGE PUBLIC SAFETY, ROADS, CITY SERVICES MEASURE. Shall the measure maintaining Rancho Mirage's long-term financial stability, City services such as 9-1-1 emergency medical/fire response, fire protection, Sheriff's patrols, crime prevention/response programs; keeping public areas safe/clean; maintaining streets, roads, parks, libraries, fire stations; retaining/attracting local businesses, other services, by establishing a 1¢ sales tax generating approximately $7,500,000 (seven point five million dollars) annually until ended by voters, requiring public spending disclosure, funds for Rancho Mirage only, be adopted?",
+        "source_url": "https://ranchomirageca.gov/residents/city_services/measure_r.php",
+        "source_label": "City of Rancho Mirage: city's measure page, Measure R",
+        "source_snapshot": "data/raw/objects/6d/6db77b871947bac4257ee4967045aeb0ddae228c152152997c53f130ff435730",
+        "raw_sha256": "6db77b871947bac4257ee4967045aeb0ddae228c152152997c53f130ff435730",
+        "fetched_at": "2026-10-28T07:19:25Z",
+        "fetched_by": "crawl"
+      }
+    }
+  },
+  {
+    "id": "local-rv-s",
+    "number": "S",
+    "title": {
+      "text": "Adopt Bonds to Repair/Upgrade School Facilities, Provide Safe/Modern Schools",
+      "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+      "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+      "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+      "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+      "fetched_at": "2026-10-28T07:18:22Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Riverside",
+      "name": "Temecula Valley Unified School District"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the Riverside County Registrar of Voters' notice of election."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure S: Registrar of Voters notice of election",
+        "url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-08/Measure%20S-Temecula%20Valley%20USD%20-eng.pdf"
+      },
+      {
+        "label": "Riverside County Registrar of Voters: Election Summary Report (PDF)",
+        "url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "Temecula Valley USD",
+        "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+        "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+        "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+        "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+        "fetched_at": "2026-10-28T07:18:22Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "To provide safe, modern schools by repairing and upgrading aging classrooms, school facilities, science and career technology labs supporting college/career readiness in math, science, engineering, technology, arts, and skilled trades; repairing deteriorating roofs, plumbing, gas, and electrical systems; shall Temecula Valley Unified School District's measure be adopted authorizing $215,000,000 in bonds at legal interest rates, levying approximately $20 per $100,000 assessed value (averaging $13,000,000) annually, while bonds are outstanding, with citizen oversight, audits, and all money locally-controlled?",
+        "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-08/Measure%20S-Temecula%20Valley%20USD%20-eng.pdf",
+        "source_label": "Temecula Valley Unified School District: Registrar of Voters notice of election, Measure S",
+        "source_snapshot": "data/raw/objects/2b/2b7f3c01264847ef609687eb04272d1dd8597c93f8cf8827a70b7bde197add56",
+        "raw_sha256": "46855986e9bed7f4b7f89ee2fdab7463515d14a9e9b0a6ae1d25f1b1d4026adb",
+        "fetched_at": "2026-10-28T07:19:11Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-rv-t",
+    "number": "T",
+    "title": {
+      "text": "Office of City Treasurer Appointment",
+      "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+      "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+      "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+      "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+      "fetched_at": "2026-10-28T07:18:22Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Riverside",
+      "name": "City of Lake Elsinore"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the City of Lake Elsinore's resolution placing the measure on the ballot; the printed ballot may differ slightly."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure T: resolution placing the measure on the ballot",
+        "url": "https://www.lake-elsinore.org/DocumentCenter/View/5682"
+      },
+      {
+        "label": "Riverside County Registrar of Voters: Election Summary Report (PDF)",
+        "url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "City of Lake Elsinore",
+        "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+        "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+        "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+        "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+        "fetched_at": "2026-10-28T07:18:22Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Shall the office of City Treasurer be appointive?",
+        "source_url": "https://www.lake-elsinore.org/DocumentCenter/View/5682",
+        "source_label": "City of Lake Elsinore: resolution placing the measure on the ballot, Measure T",
+        "source_snapshot": "data/raw/objects/23/2353b7aa57dc04ab72a7c4f2658482345bdb124b9bfd65e4bd40869e6242ea17",
+        "raw_sha256": "f20b129924426bc19f47d13883c2975f014da0e7678ced3bb8fa7ad9f3cf73f6",
+        "fetched_at": "2026-10-28T07:19:37Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-rv-u",
+    "number": "U",
+    "title": {
+      "text": "Amending the Land Uses for Property to Allow General Commercial, Industrial",
+      "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+      "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+      "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+      "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+      "fetched_at": "2026-10-28T07:18:22Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Riverside",
+      "name": "City of Banning"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question as printed on the county's sample ballot."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure U: county voter information guide (sample ballot)",
+        "url": "https://docs.voteinfo.net/voterInformation/root1103/ballots/bt000403.pdf"
+      },
+      {
+        "label": "Riverside County Registrar of Voters: Election Summary Report (PDF)",
+        "url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "City of Banning",
+        "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+        "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+        "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+        "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+        "fetched_at": "2026-10-28T07:18:22Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Shall Ordinance No.1618, amending the land uses for property located South of I-10 and the Union Pacific Railroad and West of Sunset Avenue allowing General Commercial, Industrial, Open Space — Parks and Resources land uses on the property and pre-zoning territory within the City's Sphere of Influence located South of the North Boundary of Western Avenue and West of Sunset Avenue for General Commercial, Industrial, Open Space — Parks and Resources land uses, be adopted?",
+        "source_url": "https://docs.voteinfo.net/voterInformation/root1103/ballots/bt000403.pdf",
+        "source_label": "City of Banning: county voter information guide (sample ballot), Measure U",
+        "source_snapshot": "data/raw/objects/ad/ad6a6ddbbc2ac8349c93e438e79689c5f33a8e486654950cca38ae799fe6b90d",
+        "raw_sha256": "5d2204c4bbdf54917e61722ac99e1e9477629ed2d49634fbe7a0937e59a34d49",
+        "fetched_at": "2026-10-28T07:18:43Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-rv-v",
+    "number": "V",
+    "title": {
+      "text": "Amending the Land Uses of Property to Allow Very High Density Residential Use",
+      "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+      "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+      "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+      "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+      "fetched_at": "2026-10-28T07:18:22Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Riverside",
+      "name": "City of Banning"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question as printed on the county's sample ballot."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure V: county voter information guide (sample ballot)",
+        "url": "https://docs.voteinfo.net/voterInformation/root1103/ballots/bt000403.pdf"
+      },
+      {
+        "label": "Riverside County Registrar of Voters: Election Summary Report (PDF)",
+        "url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "City of Banning",
+        "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+        "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+        "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+        "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+        "fetched_at": "2026-10-28T07:18:22Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Shall Ordinance No. 1619, which amends the land uses for property south of West Westward Avenue and east of Sunset Avenue to allow Very High Density Residential use on 41 acres of the 49.2-acre site, be adopted?",
+        "source_url": "https://docs.voteinfo.net/voterInformation/root1103/ballots/bt000403.pdf",
+        "source_label": "City of Banning: county voter information guide (sample ballot), Measure V",
+        "source_snapshot": "data/raw/objects/ad/ad6a6ddbbc2ac8349c93e438e79689c5f33a8e486654950cca38ae799fe6b90d",
+        "raw_sha256": "5d2204c4bbdf54917e61722ac99e1e9477629ed2d49634fbe7a0937e59a34d49",
+        "fetched_at": "2026-10-28T07:18:43Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-rv-w",
+    "number": "W",
+    "title": {
+      "text": "Adopt Ordinance Approving a Development Agreement to Develop a Master Planned Project",
+      "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+      "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+      "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+      "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+      "fetched_at": "2026-10-28T07:18:22Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Riverside",
+      "name": "City of Banning"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question as printed on the county's sample ballot."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure W: county voter information guide (sample ballot)",
+        "url": "https://docs.voteinfo.net/voterInformation/root1103/ballots/bt000403.pdf"
+      },
+      {
+        "label": "Riverside County Registrar of Voters: Election Summary Report (PDF)",
+        "url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "City of Banning",
+        "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+        "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+        "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+        "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+        "fetched_at": "2026-10-28T07:18:22Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Shall Ordinance No.1620, approving a development agreement with NP Banning Industrial to develop a master planned project including commercial and industrial uses, various public facilities with on and off-site related improvements subject to the terms of the agreement which includes dedicating over 68 acres of land to the City for open space, a fire station, parks, and public utilities and over $40,000,000 in public benefits to the City, be adopted?",
+        "source_url": "https://docs.voteinfo.net/voterInformation/root1103/ballots/bt000403.pdf",
+        "source_label": "City of Banning: county voter information guide (sample ballot), Measure W",
+        "source_snapshot": "data/raw/objects/ad/ad6a6ddbbc2ac8349c93e438e79689c5f33a8e486654950cca38ae799fe6b90d",
+        "raw_sha256": "5d2204c4bbdf54917e61722ac99e1e9477629ed2d49634fbe7a0937e59a34d49",
+        "fetched_at": "2026-10-28T07:18:43Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-rv-y",
+    "number": "Y",
+    "title": {
+      "text": "Local College Affordability, Job Training, Repairs Measure",
+      "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+      "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+      "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+      "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+      "fetched_at": "2026-10-28T07:18:22Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Riverside",
+      "name": "San Bernardino Community College District"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the San Bernardino County Registrar of Voters' notice of the measure (the district is mostly in San Bernardino County)."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure Y: San Bernardino County Registrar of Voters notice of the measure",
+        "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/SBCCD/Notice_SBCCD.pdf"
+      },
+      {
+        "label": "Riverside County Registrar of Voters: Election Summary Report (PDF)",
+        "url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "San Bernardino CCD",
+        "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+        "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+        "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+        "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+        "fetched_at": "2026-10-28T07:18:22Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Local College Affordability, Job Training, Repairs Measure. To maintain affordable college education access, by repairing /upgrading San Bernardino Valley College, Crafton Hills College; preparing students/ veterans for high-demand careers including skilled trades, firefighting, healthcare; providing safe drinking water; removing asbestos, mold; repairing deteriorating gas lines; acquiring, constructing, repairing facilities, sites, equipment; shall San Bernardino Community College District’s measure authorizing $898,000,000 in bonds at legal rates, levying $25 per $100,000 of assessed valuation ($56,000,000 annually) while bonds are outstanding, requiring oversight, audits, be adopted?",
+        "source_url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/SBCCD/Notice_SBCCD.pdf",
+        "source_label": "San Bernardino Community College District: San Bernardino County Registrar of Voters notice of the measure, Measure Y",
+        "source_snapshot": "data/raw/objects/31/31844d078e96ffdf384cf38d341ea75a0bc28788f2f446ae579b516a64e16a7d",
+        "raw_sha256": "7e4d8ed6ab4233ac91611e96044d162f8e8266313ff0a6a1924d0e3566c51406",
+        "fetched_at": "2026-10-28T07:19:20Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-rv-aa",
+    "number": "AA",
+    "title": {
+      "text": "To Repair/Acquire/Upgrade/Construct School Facilities that Support College/Career Readiness",
+      "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+      "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+      "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+      "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+      "fetched_at": "2026-10-28T07:18:22Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Riverside",
+      "name": "Perris Union High School District"
+    },
+    "topics": [],
+    "notes": [
+      "Ballot question from the Riverside County Registrar of Voters' notice of election."
+    ],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure AA: Registrar of Voters notice of election",
+        "url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-08/Measure%20AA-Perris%20Union%20High%20School%20District%20eng.pdf"
+      },
+      {
+        "label": "Riverside County Registrar of Voters: Election Summary Report (PDF)",
+        "url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "Perris Union HSD",
+        "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+        "source_label": "Riverside County Registrar of Voters: Election Summary Report, November 3, 2026 General Election",
+        "source_snapshot": "data/raw/objects/c6/c62af63c7f456549ad5989435d424174d1d34401aaaf056a25a3541c40db0a93",
+        "raw_sha256": "2104393857e8998c59764c0d1084eb6fde9896961ea41eee0f1b6441fe1a7233",
+        "fetched_at": "2026-10-28T07:18:22Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Without increasing current tax rates, to repair/ acquire/ upgrade/ construct classrooms, career technical education/school sites and facilities to support college/career readiness in math, science, technology, engineering, and skilled trades; remove hazardous materials where needed; and improve school safety/security systems, shall Perris Union High School District's measure be adopted authorizing $187,000,000 in bonds at legal rates, levying $20 per $100,000 assessed value (averaging $12 million annually) while bonds are outstanding, with citizen oversight, audits and independent audits?",
+        "source_url": "https://voteinfo.net/sites/g/files/aldnop371/files/2026-08/Measure%20AA-Perris%20Union%20High%20School%20District%20eng.pdf",
+        "source_label": "Perris Union High School District: Registrar of Voters notice of election, Measure AA",
+        "source_snapshot": "data/raw/objects/23/235941e29696d451eb145b179602d856835cc7567b062ab95ad38bdbd872e3cd",
+        "raw_sha256": "29b7f2b09a98f45d1c91ad3c81a00be3296fc4e1dce56508a2c3f51cd27bbdd5",
+        "fetched_at": "2026-10-28T07:19:09Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  }
+]
