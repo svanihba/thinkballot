@@ -1,17 +1,21 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ html_lang }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% block title %}ThinkBallot{% endblock %}</title>
-<meta name="description" content="{% block description %}Your California ballot in plain English: both sides equally, straight from the official source.{% endblock %}">
+<meta name="description" content="{% block description %}{{ _a('Your California ballot in plain English: both sides equally, straight from the official source.') }}{% endblock %}">
 <meta property="og:site_name" content="ThinkBallot">
 <meta property="og:title" content="{{ self.title() }}">
 <meta property="og:description" content="{{ self.description() }}">
 <meta property="og:type" content="website">
-<meta property="og:url" content="{{ base_url }}{{ request.path }}">
+<meta property="og:url" content="{{ base_url }}{{ lang_prefix }}{{ request.path }}">
+<meta property="og:locale" content="{{ og_locale }}">
 <meta property="og:image" content="{{ base_url }}{{ url_for('static', filename='og-card.png') }}">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="{{ base_url }}{% for l in languages if l.current %}{{ l.path }}{% endfor %}">
+{% for l in languages %}<link rel="alternate" hreflang="{{ l.hreflang }}" href="{{ base_url }}{{ l.path }}">
+{% endfor %}<link rel="alternate" hreflang="x-default" href="{{ base_url }}{{ request.path }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Public+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -19,24 +23,27 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
 <script src="{{ url_for('static', filename='app.js') }}" defer></script>
 </head>
-<body>
-<a class="skip-link" href="#main">Skip to content</a>
+<body data-prefix="{{ lang_prefix }}" data-i18n='{{ js_strings|tojson }}'>
+<a class="skip-link" href="#main">{{ _("Skip to content") }}</a>
 <header class="site-header"><div class="inner">
-  <a class="brand" href="/"><span class="mark">✓</span>ThinkBallot</a>
-  <nav class="site-nav" aria-label="Main">
+  <a class="brand" href="{{ lp('/') }}"><span class="mark">✓</span>ThinkBallot</a>
+  <nav class="site-nav" aria-label="{{ _a('Main') }}">
     {% set p = request.path %}
-    <a href="/ballot" {% if p.startswith('/ballot') or p.startswith('/prop') %}class="active"{% endif %}>My ballot</a>
-    <a href="/search" {% if p == '/search' %}class="active"{% endif %}>Search</a>
-    <a href="/ask" {% if p == '/ask' %}class="active"{% endif %}>Ask</a>
-    <a href="/neutral" {% if p == '/neutral' %}class="active"{% endif %}>Methodology</a>
-    <a href="/about" {% if p == '/about' %}class="active"{% endif %}>About</a>
+    <a href="{{ lp('/ballot') }}" {% if p.startswith('/ballot') or p.startswith('/prop') %}class="active"{% endif %}>{{ _("My ballot") }}</a>
+    <a href="{{ lp('/search') }}" {% if p == '/search' %}class="active"{% endif %}>{{ _("Search") }}</a>
+    <a href="{{ lp('/ask') }}" {% if p == '/ask' %}class="active"{% endif %}>{{ _("Ask") }}</a>
+    <a href="{{ lp('/neutral') }}" {% if p == '/neutral' %}class="active"{% endif %}>{{ _("Methodology") }}</a>
+    <a href="{{ lp('/about') }}" {% if p == '/about' %}class="active"{% endif %}>{{ _("About") }}</a>
     {% if user %}
       {% if user.is_mod %}<a href="/moderation" {% if p == '/moderation' %}class="active"{% endif %}>Moderation</a>{% endif %}
       <form method="post" action="/signout" class="signout"><input type="hidden" name="csrf" value="{{ csrf_token() }}">
-        <button class="auth-chip signed-in" type="submit">@{{ user.username }} · sign out</button></form>
+        <button class="auth-chip signed-in" type="submit">@{{ user.username }} · {{ _("sign out") }}</button></form>
     {% elif community_open %}
-      <a class="auth-chip" href="/signin?next={{ request.path|urlencode }}">sign in</a>
+      <a class="auth-chip" href="/signin?next={{ (lang_prefix ~ request.path)|urlencode }}">{{ _("sign in") }}</a>
     {% endif %}
+  </nav>
+  <nav class="lang-switch" aria-label="{{ _a('Language') }}">
+    {% for l in languages %}{% if not loop.first %}<span class="sep" aria-hidden="true">·</span>{% endif %}<a href="{{ l.href }}" hreflang="{{ l.hreflang }}" lang="{{ l.html }}"{% if l.current %} aria-current="true"{% endif %}>{{ l.name }}</a>{% endfor %}
   </nav>
 </div></header>
 
@@ -45,10 +52,11 @@
 {% block main %}{% endblock %}</main>
 
 <footer class="site-footer"><div class="inner">
-  <span>ThinkBallot · nonpartisan · official sources only</span>
+  <span>{{ _("ThinkBallot · nonpartisan · official sources only") }}</span>
   <span class="spacer"></span>
-  <a href="/neutral">How we stay neutral</a>
-  <a href="/about">About</a>
+  <a href="{{ lp('/neutral') }}">{{ _("How we stay neutral") }}</a>
+  <a href="{{ lp('/about') }}">{{ _("About") }}</a>
+  {% if lang != "en" %}<p class="translation-note">{{ _("Interface text is translated by ThinkBallot. Official measure text comes word for word from the Secretary of State's official translation of the voter guide, or is shown in English where there is none.") }}</p>{% endif %}
 </div></footer>
 </body>
 </html>

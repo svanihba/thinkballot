@@ -1,88 +1,86 @@
 {% extends "base.html" %}
-{% from "_results.html" import results_block %}
-{% block title %}Your ballot · ThinkBallot{% endblock %}
+{% from "_results.html" import results_block with context %}
+{% block title %}{{ _a("Your ballot") }} · ThinkBallot{% endblock %}
 {% block main %}
-<div class="eyebrow">Your ballot</div>
-<h1>{{ election.name }}</h1>
+<div class="eyebrow">{{ _("Your ballot") }}</div>
+<h1>{{ _(election.name) }}</h1>
 
 {% if place %}
   {% if place.found %}
   <div class="ballot-meta">
-    <span class="addr">Your likely districts, based on ZIP code {{ place.zip }}</span>
-    <span class="chip accent">{{ place.county }} County</span>
-    <span class="chip">Congressional District {{ place.districts.congressional }}</span>
-    <span class="chip">State Senate District {{ place.districts.state_senate }}</span>
-    <span class="chip">Assembly District {{ place.districts.assembly }}</span>
-    <a href="/" class="change">change</a>
+    <span class="addr">{{ _("Your likely districts, based on ZIP code {zip}", zip=place.zip) }}</span>
+    <span class="chip accent">{{ _("{county} County", county=place.county) }}</span>
+    <span class="chip">{{ _("Congressional District {n}", n=place.districts.congressional) }}</span>
+    <span class="chip">{{ _("State Senate District {n}", n=place.districts.state_senate) }}</span>
+    <span class="chip">{{ _("Assembly District {n}", n=place.districts.assembly) }}</span>
+    <a href="{{ lp('/') }}" class="change">{{ _("change") }}</a>
   </div>
-  <p class="hint">A ZIP code can cross district lines. Your county elections office has your exact districts.</p>
+  <p class="hint">{{ _("A ZIP code can cross district lines. Your county elections office has your exact districts.") }}</p>
   {% else %}
-  <div class="notice">We couldn't match {% if place.zip %}ZIP code {{ place.zip }}{% else %}a California ZIP code in that address{% endif %}
-    to districts yet. Every Californian votes on the same statewide propositions, so your list below is complete.</div>
+  <div class="notice">{% if place.zip %}{{ _("We couldn't match ZIP code {zip} to districts yet.", zip=place.zip) }}{% else %}{{ _("We couldn't match a California ZIP code in that address to districts yet.") }}{% endif %}
+    {{ _("Every Californian votes on the same statewide propositions, so your list below is complete.") }}</div>
   {% endif %}
 {% endif %}
 
 <div class="progress" data-total="{{ measures|length }}">
-  <div class="progress-text"><span id="read-count">0</span> of {{ measures|length }} propositions read</div>
-  <div class="progress-bar" role="progressbar" aria-label="Propositions read" aria-valuemin="0" aria-valuemax="{{ measures|length }}" aria-valuenow="0"><span id="read-bar"></span></div>
-  <div class="ready" id="ballot-ready" hidden>Ballot ready ✓ You've read every proposition.</div>
+  <div class="progress-text">{{ _('<span id="read-count">0</span> of {total} propositions read', total=measures|length) }}</div>
+  <div class="progress-bar" role="progressbar" aria-label="{{ _a('Propositions read') }}" aria-valuemin="0" aria-valuemax="{{ measures|length }}" aria-valuenow="0"><span id="read-bar"></span></div>
+  <div class="ready" id="ballot-ready" hidden>{{ _("Ballot ready ✓ You've read every proposition.") }}</div>
 </div>
 
 {% include "_how_to_vote.html" %}
 
 <section id="starred" hidden>
-  <div class="section-head"><span class="sec-num">STARRED</span><h2>Your starred propositions</h2></div>
+  <div class="section-head"><span class="sec-num">{{ _("STARRED") }}</span><h2>{{ _("Your starred propositions") }}</h2></div>
   <ul class="starred-list" id="starred-list"></ul>
 </section>
 
-<div class="section-head"><span class="sec-num">STATEWIDE</span><h2>Propositions</h2></div>
+<div class="section-head"><span class="sec-num">{{ _("STATEWIDE") }}</span><h2>{{ _("Propositions") }}</h2></div>
+{% if lang != "en" %}<p class="hint lang-note">{{ _("Titles and summaries come word for word from the Secretary of State's official translation of the voter guide.") }}</p>{% endif %}
 {% for m in measures %}
-<article class="card measure" data-measure="{{ m.id }}" data-title="Prop {{ m.number }}: {{ m.title }}">
+{% set label = _a("Prop {n}", n=m.number) %}
+<article class="card measure" data-measure="{{ m.id }}" data-title="{{ _a('{label}: {title}', label=label, title=m.title) }}">
   <div class="top">
-    <span class="tag">Prop {{ m.number }}</span>
+    <span class="tag">{{ label }}</span>
     {% if m.measure_type %}<span class="chip">{{ m.measure_type }}</span>{% endif %}
-    <span class="read-tick" hidden>read ✓</span>
-    <button class="star" type="button" aria-pressed="false" aria-label="Star Prop {{ m.number }}">☆ Star</button>
+    <span class="read-tick" hidden>{{ _("read ✓") }}</span>
+    <button class="star" type="button" aria-pressed="false" aria-label="{{ _a('Star {label}', label=label) }}">{{ _("☆ Star") }}</button>
   </div>
-  <h3><a href="/prop/{{ m.id }}">{{ m.title }}</a></h3>
+  <h3><a href="{{ lp('/prop/' ~ m.id) }}">{{ m.title }}</a></h3>
   {% if m.summary %}<p class="summary">{{ m.summary }}</p>{% endif %}
   {% if results %}{{ results_block(results.measures.get(m.number), results, compact=True) }}{% endif %}
-  <div class="foot"><a class="btn ghost small" href="/prop/{{ m.id }}">Read the full card →</a></div>
+  <div class="foot"><a class="btn ghost small" href="{{ lp('/prop/' ~ m.id) }}">{{ _("Read the full card →") }}</a></div>
 </article>
 {% endfor %}
 
-<div class="section-head"><span class="sec-num">DISTRICT</span><h2>Federal &amp; state races</h2></div>
-<div class="notice">Candidate races aren't covered yet.{% if place and place.found %} Your ballot also includes races
-  for Congressional District {{ place.districts.congressional }}, State Senate District {{ place.districts.state_senate }}
-  and Assembly District {{ place.districts.assembly }}.{% endif %} Your county's sample ballot lists every candidate.</div>
+<div class="section-head"><span class="sec-num">{{ _("DISTRICT") }}</span><h2>{{ _("Federal &amp; state races") }}</h2></div>
+<div class="notice">{{ _("Candidate races aren't covered yet.") }}{% if place and place.found %} {{ _("Your ballot also includes races for Congressional District {c}, State Senate District {s} and Assembly District {a}.", c=place.districts.congressional, s=place.districts.state_senate, a=place.districts.assembly) }}{% endif %} {{ _("Your county's sample ballot lists every candidate.") }}</div>
 
 {% macro local_card(m) %}
-<article class="card measure local" data-measure="{{ m.id }}" data-title="Measure {{ m.number }}: {{ m.title }}">
-  <div class="top"><span class="tag">Measure {{ m.number }}</span>{% if m.district != m.title %}<span class="chip">{{ m.district }}</span>{% endif %}
-    <span class="read-tick" hidden>read ✓</span>
-    <button class="star" type="button" aria-pressed="false" aria-label="Star Measure {{ m.number }}">☆ Star</button></div>
-  <h3><a href="/prop/{{ m.id }}">{{ m.title }}</a></h3>
-  <p class="summary">{{ m.summary|truncate(220) }}</p>
-  <div class="foot"><a class="btn ghost small" href="/prop/{{ m.id }}">Read the full question →</a>
-    <span class="hint">{{ m.measure_type }}</span></div>
+{% set label = _a("Measure {n}", n=m.number) %}
+{% set en = ' lang="en"'|safe if lang != "en" else "" %}
+<article class="card measure local" data-measure="{{ m.id }}" data-title="{{ _a('{label}: {title}', label=label, title=m.title) }}">
+  <div class="top"><span class="tag">{{ label }}</span>{% if m.district != m.title %}<span class="chip"{{ en }}>{{ m.district }}</span>{% endif %}
+    <span class="read-tick" hidden>{{ _("read ✓") }}</span>
+    <button class="star" type="button" aria-pressed="false" aria-label="{{ _a('Star {label}', label=label) }}">{{ _("☆ Star") }}</button></div>
+  <h3{{ en }}><a href="{{ lp('/prop/' ~ m.id) }}">{{ m.title }}</a></h3>
+  <p class="summary"{{ en }}>{{ m.summary|truncate(220) }}</p>
+  <div class="foot"><a class="btn ghost small" href="{{ lp('/prop/' ~ m.id) }}">{{ _("Read the full question →") }}</a>
+    <span class="hint"{{ en }}>{{ m.measure_type }}</span></div>
 </article>
 {% endmacro %}
-<div class="section-head"><span class="sec-num">LOCAL</span><h2>County &amp; local measures</h2></div>
+<div class="section-head"><span class="sec-num">{{ _("LOCAL") }}</span><h2>{{ _("County &amp; local measures") }}</h2></div>
 {% if local %}
-  <p class="hint">From the {{ local.county }} County Registrar of Voters' official list of local measures. Ballot
-    questions are shown word for word.</p>
-  {% if local.yours %}<h3 class="subhead">Likely on your ballot</h3>{% for m in local.yours %}{{ local_card(m) }}{% endfor %}{% endif %}
+  <p class="hint">{{ _("From the {county} County Registrar of Voters' official list of local measures. Ballot questions are shown word for word.", county=local.county) }}</p>
+  {% if lang != "en" %}<p class="hint lang-note" lang="{{ html_lang }}">{{ _("Local measures are shown in English: the official text is shown as the county publishes it.") }}</p>{% endif %}
+  {% if local.yours %}<h3 class="subhead">{{ _("Likely on your ballot") }}</h3>{% for m in local.yours %}{{ local_card(m) }}{% endfor %}{% endif %}
   <details class="maybe">
-    <summary><strong>{{ local.maybe|length }} more {{ local.county }} County measures</strong> (school and special
-      districts or other cities). Your ZIP code alone can't tell which apply; your sample ballot can.</summary>
+    <summary>{{ _("<strong>{n} more {county} County measures</strong> (school and special districts or other cities). Your ZIP code alone can't tell which apply; your sample ballot can.", n=local.maybe|length, county=local.county) }}</summary>
     {% for m in local.maybe %}{{ local_card(m) }}{% endfor %}
   </details>
 {% else %}
-<div class="notice">Local measures aren't covered yet{% if place and place.found %} for {{ place.county }}
-  County{% endif %}. ThinkBallot covers Santa Clara County so far; more counties come next, labelled honestly
-  rather than guessed. The statewide propositions above are complete.</div>
+<div class="notice">{% if place and place.found %}{{ _("Local measures aren't covered yet for {county} County.", county=place.county) }}{% else %}{{ _("Local measures aren't covered yet.") }}{% endif %} {{ _("ThinkBallot covers Santa Clara County so far; more counties come next, labelled honestly rather than guessed. The statewide propositions above are complete.") }}</div>
 {% endif %}
 
-<div class="notice calm gap">Every card comes from the official voter guide and the
-  Legislative Analyst. <a href="/neutral">How we stay neutral →</a></div>
+<div class="notice calm gap">{{ _('Every card comes from the official voter guide and the Legislative Analyst. <a href="{url}">How we stay neutral →</a>', url=lp('/neutral')) }}</div>
 {% endblock %}

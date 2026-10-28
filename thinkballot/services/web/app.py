@@ -1,14 +1,17 @@
 """web service: the pages voters see. It reads data only through the other services' APIs."""
 
+import datetime as dt
 import re
 import secrets
 import time
+from zoneinfo import ZoneInfo
 
-from flask import Flask, abort, flash, jsonify, redirect, render_template, request, session, url_for
+from flask import Flask, abort, flash, g, jsonify, redirect, render_template, request, session, url_for
 
 from ... import config, ratelimit
 from ...servicekit import ServiceClient, ServiceError
 from ...suggested import SUGGESTED_QUESTIONS
+from . import i18n
 
 SAMPLE_ADDRESS = "Mango Park, Sunnyvale, 94087"
 MEASURE_ID_RE = re.compile(r"^(prop|local)-[a-z0-9-]{1,24}$")
@@ -31,6 +34,25 @@ FIELD_HEADINGS = {
 }
 
 
+PACIFIC = ZoneInfo("America/Los_Angeles")
+SPANISH_MONTHS = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre",
+                  "noviembre", "diciembre"]
+
+# Strings the browser code shows (static/app.js), handed to it in the page's language.
+JS_STRINGS = {
+    "star": "☆ Star", "starred": "★ Starred", "copy": "Copy this link:",
+    "pass": "Bias Buster: passed", "revised": "Bias Buster: edited", "held": "Bias Buster: held back",
+    "bias": "Bias Buster", "change": "1 change", "changes": "{n} changes",
+    "prepared": "Prepared in advance from the official text on {day}.",
+    "prepared_checked": "Prepared in advance from the official text on {day} and re-checked by Bias Buster just now.",
+    "working": "Reading the official text, writing an answer, then Bias Buster checks it. This usually takes 30 to "
+               "60 seconds.",
+    "working_label": "Processing your question", "processing": "Processing…", "seconds": "s",
+    "too_long": "That took too long. Please try again.",
+    "offline": "Couldn't reach ThinkBallot. Check your connection.",
+}
+
+
 CSP = ("default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; "
        "font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; form-action 'self'; "
        "frame-ancestors 'none'; base-uri 'none'; object-src 'none'")
@@ -38,6 +60,7 @@ CSP = ("default-src 'self'; script-src 'self'; style-src 'self' https://fonts.go
 
 def create_app():
     app = Flask(__name__)
+    app.wsgi_app = i18n.LanguagePrefix(app.wsgi_app)  # /es/... and /zh/... serve the same views
     app.secret_key = config.SECRET_KEY
     app.config.update(SESSION_COOKIE_SAMESITE="Lax", SESSION_COOKIE_HTTPONLY=True,
                       SESSION_COOKIE_SECURE=config.PUBLIC_BASE.startswith("https://"),
@@ -95,15 +118,61 @@ def create_app():
             abort(redirect(url_for("signin", next=request.referrer or "/")))
         return u
 
+    # ---------- language ----------
+    @app.before_request
+    def set_language():
+        g.lang = request.environ.get("tb.lang", i18n.DEFAULT)
+
+    def lang():
+        return getattr(g, "lang", i18n.DEFAULT)
+
+    def api_lang():  # what the ballot service is asked for: None means English
+        return None if lang() == i18n.DEFAULT else lang()
+
+    def _(text, **values):
+        return i18n.gettext(lang(), text, **values)
+
+    def lp(path):
+        """A site path in the current page's language."""
+        return i18n.lang_path(lang(), path)
+
+    def T(text, **values):  # plain text, for flash messages and JSON
+        return str(_(text, **values))
+
+    # Also as Jinja globals, so macros imported without the page context (e.g. _results.html) have them.
+    app.jinja_env.globals.update({"_": _, "_a": T, "lp": lp, "page_lang": lang})
+
+    @app.template_filter("results_time")
+    def results_time(res):
+        """When results were last updated, in the page's language (English: the results service's own text)."""
+        if lang() == i18n.DEFAULT or not res.get("as_of"):
+            return res.get("as_of_text", "")
+        p = dt.datetime.fromisoformat(res["as_of"]).astimezone(PACIFIC)
+        hour = p.hour % 12 or 12
+        if lang() == "es":
+            return f"{p.day} de {SPANISH_MONTHS[p.month - 1]} de {p.year}, {hour}:{p:%M} {'a. m.' if p.hour < 12 else 'p. m.'} PT"
+        return f"{p.year}年{p.month}月{p.day}日{'上午' if p.hour < 12 else '下午'} {hour}:{p:%M}（太平洋時間）"
+
     @app.context_processor
     def globals_():
+        here = request.path  # without the language prefix
+        query = request.query_string.decode("latin-1")
         return {"base_url": config.PUBLIC_BASE, "headings": FIELD_HEADINGS,
                 "suggested_questions": SUGGESTED_QUESTIONS, "user": current_user(), "csrf_token": csrf_token,
-                "community_open": config.COMMUNITY_OPEN}
+                "community_open": config.COMMUNITY_OPEN,
+                "lang": lang(), "html_lang": i18n.LANGS[lang()]["html"], "og_locale": i18n.LANGS[lang()]["og"],
+                "_": _, "_a": T,  # _a: plain text (escaped), for attributes
+                "lp": lp, "lang_prefix": "" if lang() == i18n.DEFAULT else "/" + lang(),
+                "languages": [{"code": code, "name": info["name"], "html": info["html"],
+                               "hreflang": info["hreflang"], "current": code == lang(),
+                               "path": i18n.lang_path(code, here),
+                               "href": i18n.lang_path(code, here) + ("?" + query if query else "")}
+                              for code, info in i18n.LANGS.items()],
+                "js_strings": {k: T(v) for k, v in JS_STRINGS.items()}}
 
     def load_ballot():
         try:
-            election, listing = ballot.get("/election"), ballot.get("/measures", level="state")
+            election, listing = ballot.get("/election"), ballot.get("/measures", level="state", lang=api_lang())
         except ServiceError:
             abort(503)
         if not election:  # no data loaded yet
@@ -149,7 +218,7 @@ def create_app():
         local = None
         if place and place.get("found"):
             try:
-                rows = ballot.get("/measures", level="local", county=place["county"])["measures"]
+                rows = ballot.get("/measures", level="local", county=place["county"], lang=api_lang())["measures"]
             except ServiceError:
                 rows = []
             if rows:
@@ -170,7 +239,7 @@ def create_app():
     @app.get("/prop/<measure_id>")
     def measure_page(measure_id):
         try:
-            election, measure = ballot.get("/election"), ballot.get(f"/measures/{measure_id}")
+            election, measure = ballot.get("/election"), ballot.get(f"/measures/{measure_id}", lang=api_lang())
         except ServiceError:
             abort(503)
         if not measure:
@@ -180,7 +249,7 @@ def create_app():
         ordered = [measure["fields"][n] for n in FIELD_HEADINGS if n in measure["fields"]]
         for f in ordered:  # in the order they appear on the page
             if f["source_url"] not in [s["url"] for s in sources]:
-                sources.append({"url": f["source_url"], "label": f["source_label"]})
+                sources.append({"url": f["source_url"], "label": f["source_label"], "lang": f.get("lang")})
         chip = {s["url"]: i + 1 for i, s in enumerate(sources)}
         u = current_user()
         try:
@@ -195,16 +264,16 @@ def create_app():
     def api_ask():
         body = request.get_json(silent=True) or {}
         if not isinstance(body.get("measure_id"), str) or not MEASURE_ID_RE.match(body["measure_id"]):
-            return jsonify(status="error", reason="Unknown proposition."), 400
+            return jsonify(status="error", reason=T("Unknown proposition.")), 400
         payload = {"measure_id": body.get("measure_id"), "question": body.get("question"),
                    "client": request.remote_addr}
         try:
             result = ask_svc.post("/ask", payload)
         except ServiceError as exc:
-            messages = {429: "Too many questions in a minute. Please wait a moment.",
-                        400: "Please type a question."}
+            messages = {429: T("Too many questions in a minute. Please wait a moment."),
+                        400: T("Please type a question.")}
             return jsonify(status="error",
-                           reason=messages.get(exc.status, "The question service is busy. Please try again.")), \
+                           reason=messages.get(exc.status, T("The question service is busy. Please try again."))), \
                 exc.status if exc.status in messages else 503
         return jsonify(result)
 
@@ -214,6 +283,15 @@ def create_app():
             result = search_svc.get("/search", q=request.args.get("q", ""), topic=request.args.get("topic", ""))
         except ServiceError:
             abort(503)
+        if api_lang() and result.get("results"):  # official translated titles where there are some
+            try:
+                titles = {m["id"]: m["title"] for m in ballot.get("/measures", lang=api_lang())["measures"]
+                          if "title" in m.get("translated", [])}
+            except ServiceError:
+                titles = {}
+            for m in result["results"]:
+                if m["id"] in titles:
+                    m["title"], m["title_lang"] = titles[m["id"]], api_lang()
         return render_template("search.html", r=result)
 
     @app.get("/ask")
@@ -321,7 +399,7 @@ def create_app():
     def community_action(path, payload, measure_id, ok_message=None):
         if not ratelimit.allow("community", f"user:{payload['user_id']}", [(10, 60), (100, 86400)]):
             flash("You're posting very quickly. Please wait a minute.")
-            return None, redirect(url_for("measure_page", measure_id=measure_id) + "#community")
+            return None, redirect(lp(url_for("measure_page", measure_id=measure_id)) + "#community")
         try:
             result = community.post(path, payload)
             if ok_message:
@@ -331,7 +409,7 @@ def create_app():
                 session.clear()
             flash(exc.detail if exc.status < 500 else "The community service is unavailable right now.")
             result = None
-        return result, redirect(url_for("measure_page", measure_id=measure_id) + "#community")
+        return result, redirect(lp(url_for("measure_page", measure_id=measure_id)) + "#community")
 
     @app.post("/prop/<measure_id>/comment")
     def post_comment(measure_id):
@@ -394,12 +472,12 @@ def create_app():
 
     @app.errorhandler(404)
     def not_found(_exc):
-        return render_template("error.html", title="Page not found",
-                               message="We couldn't find that page."), 404
+        return render_template("error.html", title=_("Page not found"),
+                               message=_("We couldn't find that page.")), 404
 
     @app.errorhandler(503)
     def unavailable(_exc):
-        return render_template("error.html", title="Temporarily unavailable",
-                               message="Ballot data is unavailable right now. Please try again shortly."), 503
+        return render_template("error.html", title=_("Temporarily unavailable"),
+                               message=_("Ballot data is unavailable right now. Please try again shortly.")), 503
 
     return app

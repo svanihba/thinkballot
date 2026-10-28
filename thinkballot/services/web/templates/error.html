@@ -3,5 +3,5 @@
 {% block main %}
 <h1>{{ title }}</h1>
 <p class="lede">{{ message }}</p>
-<p class="gap"><a class="btn ghost small" href="/">← Home</a></p>
+<p class="gap"><a class="btn ghost small" href="{{ lp('/') }}">{{ _("← Home") }}</a></p>
 {% endblock %}

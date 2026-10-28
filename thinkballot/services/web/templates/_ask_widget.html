@@ -1,9 +1,11 @@
 <form class="ask-form" data-measure="{{ measure_id }}">
-  <input type="text" name="question" maxlength="300" placeholder="Type a question" aria-label="Your question about this proposition"
+  <input type="text" name="question" maxlength="300" placeholder="{{ _a('Type a question') }}" aria-label="{{ _a('Your question about this proposition') }}"
     autocomplete="off" enterkeyhint="send" required>
-  <button class="btn" type="submit">Ask</button>
+  <button class="btn" type="submit">{{ _("Ask") }}</button>
 </form>
-<div class="canned" role="group" aria-label="Suggested questions">
-  {% for q in suggested_questions %}<button type="button" class="suggest">{{ q }}</button>{% endfor %}
+{# The suggested questions are asked in English (their answers are prepared in advance); the buttons show
+   them in the page's language. #}
+<div class="canned" role="group" aria-label="{{ _a('Suggested questions') }}">
+  {% for q in suggested_questions %}<button type="button" class="suggest" data-question="{{ q }}">{{ _(q) }}</button>{% endfor %}
 </div>
 <div class="ask-result" aria-live="polite"></div>

@@ -1,18 +1,19 @@
+{# Links go to the Secretary of State's page in the reader's language where it publishes one (checked to
+   return 200: the Spanish pages under sos.ca.gov/es/, the Chinese "Voting in California" page);
+   the lookup tools (registration status, ballot tracking, voting locations) have one address. #}
+{% set sos = "https://www.sos.ca.gov/es" if lang == "es" else "https://www.sos.ca.gov" %}
 <section class="howto" aria-labelledby="howto-h">
-  <h2 id="howto-h">How to vote by November 3</h2>
+  <h2 id="howto-h">{{ _("How to vote by November 3") }}</h2>
   <ul>
-    <li><strong>Not registered yet?</strong> You can still register and vote the same day, through November 3, at
-      your county elections office or any in-person voting location in your county.
-      <a href="https://www.sos.ca.gov/elections/voter-registration/same-day-reg">Same Day registration</a> ·
-      <a href="https://voterstatus.sos.ca.gov/">Check your registration</a></li>
-    <li><strong>Voting by mail?</strong> Your ballot must be postmarked on or before November 3, or dropped off at a
-      ballot drop-off location by 8:00 p.m. on November 3. If you mail it on November 3, ask for a postmark inside a
-      post office. <a href="https://california.ballottrax.net/voter/">Track your ballot</a></li>
-    <li><strong>Voting in person?</strong> Early voting locations are open now in many counties. On November 3, polls
-      are open from 7:00 a.m. to 8:00 p.m. <a href="https://caearlyvoting.sos.ca.gov/">Find a voting location</a></li>
-    <li><strong>Questions?</strong> <a href="https://www.sos.ca.gov/elections/voting-resources/county-elections-offices">Contact
-      your county elections office</a></li>
+    <li><strong>{{ _("Not registered yet?") }}</strong> {{ _("You can still register and vote the same day, through November 3, at your county elections office or any in-person voting location in your county.") }}
+      <a href="{{ sos }}/elections/voter-registration/same-day-reg">{{ _("Same Day registration") }}</a> ·
+      <a href="https://voterstatus.sos.ca.gov/">{{ _("Check your registration") }}</a></li>
+    <li><strong>{{ _("Voting by mail?") }}</strong> {{ _("Your ballot must be postmarked on or before November 3, or dropped off at a ballot drop-off location by 8:00 p.m. on November 3. If you mail it on November 3, ask for a postmark inside a post office.") }}
+      <a href="https://california.ballottrax.net/voter/">{{ _("Track your ballot") }}</a></li>
+    <li><strong>{{ _("Voting in person?") }}</strong> {{ _("Early voting locations are open now in many counties. On November 3, polls are open from 7:00 a.m. to 8:00 p.m.") }}
+      <a href="https://caearlyvoting.sos.ca.gov/">{{ _("Find a voting location") }}</a></li>
+    <li><strong>{{ _("Questions?") }}</strong> <a href="{{ sos }}/elections/voting-resources/county-elections-offices">{{ _("Contact your county elections office") }}</a>{% if lang == "zh" %}
+      · <a href="https://www.sos.ca.gov/elections/voting-resources/voting-california/chinese" lang="zh-Hant">在加州投票</a>{% endif %}</li>
   </ul>
-  <p class="hint">From the <a href="https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026">California
-    Secretary of State</a>. Every link goes to an official government site.</p>
+  <p class="hint">{{ _('From the <a href="{url}">California Secretary of State</a>. Every link goes to an official government site.', url=sos ~ "/elections/upcoming-elections/general-election-november-3-2026") }}</p>
 </section>

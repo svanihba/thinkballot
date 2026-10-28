@@ -10,6 +10,17 @@ const store = {
   },
 };
 
+/* The page's language: strings come from the page (body data-i18n, filled by the server in the page's
+   language) and links keep the page's language prefix ("", "/es" or "/zh"). */
+let UI = {};
+try { UI = JSON.parse(document.body.dataset.i18n || "{}"); } catch { UI = {}; }
+const PREFIX = document.body.dataset.prefix || "";
+function t(key, vars) {
+  let s = UI[key] || key;
+  Object.entries(vars || {}).forEach(([k, v]) => { s = s.split(`{${k}}`).join(v); });
+  return s;
+}
+
 function esc(s) {
   const d = document.createElement("div");
   d.textContent = s == null ? "" : String(s);
@@ -19,7 +30,7 @@ function esc(s) {
 /* ---------- stars ---------- */
 function paintStar(btn, on) {
   btn.setAttribute("aria-pressed", on ? "true" : "false");
-  btn.textContent = on ? "★ Starred" : "☆ Star";
+  btn.textContent = on ? t("starred") : t("star");
 }
 
 function initStars() {
@@ -47,7 +58,7 @@ function renderStarred() {
   const ids = Object.keys(stars);
   section.hidden = ids.length === 0;
   document.getElementById("starred-list").innerHTML =
-    ids.map((id) => `<li><a href="/prop/${encodeURIComponent(id)}">${esc(stars[id])}</a></li>`).join("");
+    ids.map((id) => `<li><a href="${PREFIX}/prop/${encodeURIComponent(id)}">${esc(stars[id])}</a></li>`).join("");
 }
 
 /* ---------- reading progress ---------- */
@@ -94,23 +105,24 @@ function initShare() {
     try {
       await navigator.clipboard.writeText(url);
       document.querySelector(".share-done").hidden = false;
-    } catch { prompt("Copy this link:", url); }
+    } catch { prompt(t("copy"), url); }
   });
 }
 
 /* ---------- ask ---------- */
 const VERDICT_TEXT = {
-  pass: "Bias Buster: passed",
-  revised: "Bias Buster: edited",
+  pass: t("pass"),
+  revised: t("revised"),
 };
 
 // Answers to the suggested questions may be prepared in advance; say so, and when.
 function preparedNote(r) {
   if (!r.prepared) return "";
-  const day = new Date(r.prepared + "T00:00:00Z").toLocaleDateString("en-US",
+  const locale = { es: "es-US", "zh-Hant": "zh-TW" }[document.documentElement.lang] || "en-US";
+  const day = new Date(r.prepared + "T00:00:00Z").toLocaleDateString(locale,
     { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
-  const checked = r.status === "answered" ? " and re-checked by Bias Buster just now" : "";
-  return `<p class="prepared-note">Prepared in advance from the official text on ${esc(day)}${checked}.</p>`;
+  const note = t(r.status === "answered" ? "prepared_checked" : "prepared", { day: esc(day) });
+  return `<p class="prepared-note">${note}</p>`;
 }
 
 function renderAnswer(r) {
@@ -122,11 +134,11 @@ function renderAnswer(r) {
     const findings = r.findings.length
       ? `<ul class="findings">${r.findings.map((f) => `<li>${esc(f.detail)}</li>`).join("")}</ul>` : "";
     return `<div class="answer"><ul class="points">${points}</ul>
-      <div class="verdict ${esc(r.verdict)}">${esc(VERDICT_TEXT[r.verdict] || "Bias Buster")}
-        ${r.findings.length ? `· ${r.findings.length} change${r.findings.length > 1 ? "s" : ""}` : ""}</div>${findings}${preparedNote(r)}</div>`;
+      <div class="verdict ${esc(r.verdict)}">${esc(VERDICT_TEXT[r.verdict] || t("bias"))}
+        ${r.findings.length ? `· ${esc(r.findings.length > 1 ? t("changes", { n: r.findings.length }) : t("change"))}` : ""}</div>${findings}${preparedNote(r)}</div>`;
   }
   if (r.status === "blocked") {
-    return `<div class="answer held"><p>${esc(r.reason)}</p><div class="verdict blocked">Bias Buster: held back</div></div>`;
+    return `<div class="answer held"><p>${esc(r.reason)}</p><div class="verdict blocked">${esc(t("held"))}</div></div>`;
   }
   return `<div class="answer refused"><p>${esc(r.reason)}</p>${preparedNote(r)}</div>`;
 }
@@ -135,11 +147,10 @@ function renderAnswer(r) {
 // ~85 s time budget and the answer replaces it as soon as it arrives.
 function showAskProgress(out) {
   out.innerHTML = `<div class="ask-progress" role="status">
-    <p class="hint">Reading the official text, writing an answer, then Bias Buster checks it.
-      This usually takes 30 to 60 seconds.</p>
-    <div class="progress-bar" role="progressbar" aria-label="Processing your question"
+    <p class="hint">${esc(t("working"))}</p>
+    <div class="progress-bar" role="progressbar" aria-label="${esc(t("working_label"))}"
       aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span></span></div>
-    <p class="progress-text" aria-hidden="true">Processing… <span class="elapsed">0</span> s</p></div>`;
+    <p class="progress-text" aria-hidden="true">${esc(t("processing"))} <span class="elapsed">0</span> ${esc(t("seconds"))}</p></div>`;
   const bar = out.querySelector(".progress-bar"), fill = bar.querySelector("span");
   const elapsed = out.querySelector(".elapsed"), started = Date.now();
   const tick = () => {
@@ -183,7 +194,7 @@ function initAsk() {
     const ctrl = new AbortController();
     const timer = setTimeout(() => ctrl.abort(), 110000);
     try {
-      const resp = await fetch("/api/ask", {
+      const resp = await fetch(PREFIX + "/api/ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ measure_id: measureId, question }),
@@ -192,8 +203,7 @@ function initAsk() {
       out.innerHTML = renderAnswer(await resp.json());
     } catch (err) {
       out.innerHTML = renderAnswer({ status: "error", reason: err.name === "AbortError"
-        ? "That took too long. Please try again."
-        : "Couldn't reach ThinkBallot. Check your connection." });
+        ? t("too_long") : t("offline") });
     } finally {
       clearTimeout(timer);
       stopProgress();
@@ -205,7 +215,7 @@ function initAsk() {
   });
   // Suggested questions: fill the box and ask straight away.
   document.querySelectorAll(".suggest").forEach((b) => b.addEventListener("click", () => {
-    form.question.value = b.textContent;
+    form.question.value = b.dataset.question || b.textContent;  // suggested questions are asked in English
     form.requestSubmit();
   }));
 }

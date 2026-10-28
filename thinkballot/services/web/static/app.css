@@ -172,3 +172,43 @@ details.maybe summary strong { color: var(--ink); font-size: 1rem; }
   .docs li { margin: 0.7rem 0; line-height: 1.6; }
   .args.who .col p { font-size: 0.95rem; }
 }
+
+/* ---------- languages (English · Español · 中文) ---------- */
+.lang-switch { display: flex; align-items: center; gap: 0.15rem; font-size: 0.8rem; }
+.lang-switch a {
+  color: var(--ink-soft); text-decoration: none; font-weight: 600;
+  padding: 0.15rem 0.45rem; border: 1px solid transparent; border-radius: 999px;
+}
+.lang-switch a:hover { color: var(--ink); border-color: var(--line); }
+.lang-switch a[aria-current] { color: var(--ink); border-color: var(--line-strong); }
+.lang-switch .sep { color: var(--ink-soft); }
+@media (max-width: 640px), (pointer: coarse) {
+  .lang-switch a { display: inline-flex; align-items: center; justify-content: center; min-height: var(--tap); min-width: var(--tap); }
+}
+/* Phones: the switcher shares the brand's row; the nav keeps its own full-width row underneath. */
+@media (max-width: 640px) {
+  .site-header .brand { order: 0; }
+  .lang-switch { order: 1; margin-left: auto; font-size: 0.85rem; gap: 0; }
+  .lang-switch .sep { display: none; }
+  .site-nav { order: 2; }
+}
+.lang-note { font-size: 0.85rem; }
+.lang-flag {
+  font-family: var(--mono); font-size: 0.68rem; color: var(--ink-soft); white-space: nowrap;
+  border: 1px solid var(--line); border-radius: 999px; padding: 0.05rem 0.45rem; margin-left: 0.2rem;
+}
+.site-footer .translation-note { flex-basis: 100%; margin: 0.4rem 0 0; font-size: 0.75rem; }
+
+/* Traditional Chinese: system CJK fonts only (no CJK web font is downloaded). Latin text keeps the
+   site's faces; Chinese characters fall through to PingFang TC (Apple), Microsoft JhengHei (Windows)
+   or Noto Sans CJK TC (Android, Linux). Headings use the sans CJK faces too: serif CJK faces read
+   poorly at small sizes on phones. */
+:root:lang(zh-Hant) {
+  --sans: "Public Sans", "Public Sans Fallback", "PingFang TC", "Microsoft JhengHei", "Noto Sans CJK TC",
+    "Noto Sans TC", "Heiti TC", sans-serif;
+  --serif: "Fraunces", "Fraunces Fallback", "PingFang TC", "Microsoft JhengHei", "Noto Sans CJK TC",
+    "Noto Sans TC", "Heiti TC", sans-serif;
+}
+:root:lang(zh-Hant) body { line-height: 1.75; }
+/* Spanish runs about a quarter longer than English: long words may break rather than overflow. */
+:root:lang(es) main { overflow-wrap: break-word; }

@@ -1,13 +1,10 @@
 {% extends "base.html" %}
-{% block title %}About · ThinkBallot{% endblock %}
+{% block title %}{{ _a("About") }} · ThinkBallot{% endblock %}
 {% block main %}
-<div class="eyebrow">About</div>
-<h1>Why ThinkBallot exists</h1>
-<p class="lede">I'm Abhinav S, a high school student in Sunnyvale. I'll vote for the first time in 2028, and so will
-most of my friends.</p>
-<p>My US Government &amp; Politics class taught me how ballots work, and how bias and misinformation spread. Then
-I'd read neighbourhood posts where people argued hard about ballot measures without having read them. The official
-voter guide has everything, but it runs over a hundred pages.</p>
-<p>ThinkBallot is my answer: every statewide proposition in plain English, both sides equally, straight from the
-official source, with a link you can share when the conversation starts.</p>
+<div class="eyebrow">{{ _("About") }}</div>
+<h1>{{ _("Why ThinkBallot exists") }}</h1>
+<p class="lede">{{ _("I'm Abhinav S, a high school student in Sunnyvale. I'll vote for the first time in 2028, and so will most of my friends.") }}</p>
+<p>{{ _("My US Government &amp; Politics class taught me how ballots work, and how bias and misinformation spread. Then I'd read neighbourhood posts where people argued hard about ballot measures without having read them. The official voter guide has everything, but it runs over a hundred pages.") }}</p>
+<p>{{ _("ThinkBallot is my answer: every statewide proposition in plain English, both sides equally, straight from the official source, with a link you can share when the conversation starts.") }}</p>
+{% if lang != "en" %}<p class="hint lang-note">{{ _("The Spanish and Chinese pages use the Secretary of State's official translations of the voter guide for every official text that has one. ThinkBallot translates only its own interface text.") }}</p>{% endif %}
 {% endblock %}
