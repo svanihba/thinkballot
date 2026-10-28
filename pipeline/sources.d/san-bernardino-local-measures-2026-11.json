@@ -11,5 +11,11 @@
   "allow": ["^https://uploads\\.rov\\.sbcounty\\.gov/ROV/Elections/2026/1103/Measures/.*/(Notice|RES|IA|FT)_[^/]*\\.pdf$"],
   "max_depth": 1,
   "delay_seconds": 2,
-  "extractor": "san_bernardino_measures"
+  "extractor": "san_bernardino_measures",
+  "pdf_crop_reading": {
+    "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofNeedles/30/FT_CityofNeedles.pdf": [[1, 75, 618, 500, 62], [2, 80, 59, 495, 47]],
+    "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofGrandTerrace/RES_GT.pdf": [[3, 110, 229, 350, 117]],
+    "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Measures/CityofAdelanto/RES_CityofAdelanto.pdf": [[2, 110, 490, 385, 117]]
+  },
+  "note": "The question of each measure is cut from the Registrar's notice of the measure where there is one, else from the city's notice of election or the resolution/ordinance placing it on the ballot. pdf_crop_reading: the question's region of the page, read without the YES/NO boxes printed beside it (Grand Terrace, Adelanto) or the page footer that splits it (Needles ordinance 684-AC). The county's sample ballot (VIG.pdf) is kept for reference; its font has no text mapping."
 }
