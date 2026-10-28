@@ -42,7 +42,7 @@ def page_text(entry, cache, live=False):
     key = entry["source_snapshot"] if use_snapshot else entry["source_url"]
     if key not in cache:
         if use_snapshot:
-            raw = (config.ROOT / entry["source_snapshot"]).read_text()
+            raw = (config.ROOT / entry["source_snapshot"]).read_text(encoding="utf-8")
         else:
             resp = requests.get(entry["source_url"], timeout=30, headers={"User-Agent": "ThinkBallot seed"})
             resp.raise_for_status()

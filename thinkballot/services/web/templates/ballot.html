@@ -3,7 +3,7 @@
 {% block title %}{{ _a("Your ballot") }} · ThinkBallot{% endblock %}
 {% block main %}
 <div class="eyebrow">{{ _("Your ballot") }}</div>
-<h1>{{ _(election.name) }}</h1>
+<h1>{{ _d(election.name) }}</h1>
 
 {% if place %}
   {% if place.found %}
@@ -46,8 +46,8 @@
     <span class="read-tick" hidden>{{ _("read ✓") }}</span>
     <button class="star" type="button" aria-pressed="false" aria-label="{{ _a('Star {label}', label=label) }}">{{ _("☆ Star") }}</button>
   </div>
-  <h3><a href="{{ lp('/prop/' ~ m.id) }}">{{ m.title }}</a></h3>
-  {% if m.summary %}<p class="summary">{{ m.summary }}</p>{% endif %}
+  <h3{% if lang != "en" and "title" not in m.translated %} lang="en"{% endif %}><a href="{{ lp('/prop/' ~ m.id) }}">{{ m.title }}</a></h3>
+  {% if m.summary %}<p class="summary"{% if lang != "en" and "summary" not in m.translated %} lang="en"{% endif %}>{{ m.summary }}</p>{% endif %}
   {% if results %}{{ results_block(results.measures.get(m.number), results, compact=True) }}{% endif %}
   <div class="foot"><a class="btn ghost small" href="{{ lp('/prop/' ~ m.id) }}">{{ _("Read the full card →") }}</a></div>
 </article>

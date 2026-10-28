@@ -123,6 +123,14 @@ def create_app():
     def set_language():
         g.lang = request.environ.get("tb.lang", i18n.DEFAULT)
 
+    @app.before_request
+    def english_only_pages():
+        # Accounts, verification and moderation are English only (closed until after the election):
+        # their language-prefixed addresses go to the English page.
+        if g.lang != i18n.DEFAULT and request.endpoint in COMMUNITY_ENDPOINTS | {"moderation"} \
+                and request.method == "GET":
+            return redirect(request.full_path.rstrip("?"))
+
     def lang():
         return getattr(g, "lang", i18n.DEFAULT)
 
@@ -136,11 +144,17 @@ def create_app():
         """A site path in the current page's language."""
         return i18n.lang_path(lang(), path)
 
-    def T(text, **values):  # plain text, for flash messages and JSON
-        return str(_(text, **values))
+    def T(text, **values):
+        """Plain text (values filled in, nothing escaped): for attributes, which Jinja escapes once, and
+        for flash messages and JSON."""
+        return _(text, **values).unescape()
+
+    def _d(text):
+        """A data label (election name, topic) in the page's language; always escaped."""
+        return i18n.data_label(lang(), text)
 
     # Also as Jinja globals, so macros imported without the page context (e.g. _results.html) have them.
-    app.jinja_env.globals.update({"_": _, "_a": T, "lp": lp, "page_lang": lang})
+    app.jinja_env.globals.update({"_": _, "_a": T, "_d": _d, "lp": lp, "page_lang": lang})
 
     @app.template_filter("results_time")
     def results_time(res):
@@ -161,7 +175,7 @@ def create_app():
                 "suggested_questions": SUGGESTED_QUESTIONS, "user": current_user(), "csrf_token": csrf_token,
                 "community_open": config.COMMUNITY_OPEN,
                 "lang": lang(), "html_lang": i18n.LANGS[lang()]["html"], "og_locale": i18n.LANGS[lang()]["og"],
-                "_": _, "_a": T,  # _a: plain text (escaped), for attributes
+                "_": _, "_a": T, "_d": _d,  # _a: plain text for attributes; _d: data labels
                 "lp": lp, "lang_prefix": "" if lang() == i18n.DEFAULT else "/" + lang(),
                 "languages": [{"code": code, "name": info["name"], "short": info["short"], "html": info["html"],
                                "hreflang": info["hreflang"], "current": code == lang(),
