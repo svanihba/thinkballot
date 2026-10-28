@@ -4,7 +4,9 @@ Source: the county's printed Voter Information Pamphlet and Sample Ballot, one P
 (sdvote.com/content/dam/rov/en/sb/SB-ENG-<type>.pdf). The ROV publishes no single list of measures with
 their letters, so the source file seeds the few ballot types that together carry every local measure
 on the ballot anywhere in the county (county, city, school and special district measures). EXPECTED
-below is that list; extraction fails if any measure is missing or an unknown one appears.
+below is that list; extraction fails if any measure is missing or an unknown one appears. The list and
+the ballot types were found by reading the ballot pages (the first part of each PDF) of the ballot types,
+and agree with the ROV's notice of the county and district measures and with the cities' own pages.
 
 Each measure is cut from two places in a pamphlet, which must agree:
 - the measure section: "<JURISDICTION>" / "MEASURE X" / "(This measure will appear on the ballot in the
@@ -32,18 +34,26 @@ EXPECTED = {
     "J": "JULIAN UNION HIGH SCHOOL DISTRICT", "K": "FALLBROOK UNION ELEMENTARY SCHOOL DISTRICT",
     "L": "MOUNTAIN EMPIRE UNIFIED SCHOOL DISTRICT", "M": "SAN DIEGO UNIFIED SCHOOL DISTRICT",
     "N": "VISTA UNIFIED SCHOOL DISTRICT", "P": "RAMONA MUNICIPAL WATER DISTRICT",
-    "Q": None, "R": "CITY OF OCEANSIDE", "S": "CITY OF OCEANSIDE", "T": None,
+    "Q": "PERMANENT ROAD DIVISION ZONE NO. 9B - HARRIS ANNEX", "R": "CITY OF OCEANSIDE", "S": "CITY OF OCEANSIDE",
+    "T": "PERMANENT ROAD DIVISION ZONE NO. 13A - PALA MESA",
     "Y": "CITY OF SANTEE", "AA": "LA MESA-SPRING VALLEY SCHOOL DISTRICT", "BB": "SANTEE SCHOOL DISTRICT",
+}
+
+# What a reader should know about a measure's printed text, from comparing it with the other official sources.
+NOTES = {
+    "E": "The county's printed ballot gives this question without a closing question mark; the City of Lemon "
+         "Grove's notice to voters ends it with one.",
 }
 
 SECTION_RE = re.compile(
     r"^SD \d{3}-\d{3}\n(?P<head>(?:[^\n]+\n){1,3}?)MEASURE (?P<letter>[A-Z]{1,2})\n(?:`\n)?PR-[A-Z0-9]+-\d+-ENG\n"
     r"\((?i:this measure will appear on the ballot in the following form)\.\)\nMEASURE (?P=letter)\n"
     r"(?P<body>.*?)\nThis measure requires (?P<vote>[^\n]+?) of those voting on the measure\.$", re.M | re.S)
-BALLOT_RE = re.compile(r"^MEASURE (?P<letter>[A-Z]{1,2}) (?P<body>.+?)\n(?:YES NO|BONDS - YES BONDS - NO)$",
+BALLOT_RE = re.compile(r"^MEASURE (?P<letter>[A-Z]{1,2}) (?P<body>.+?)\n(?:YES NO|(?P<kind>BONDS|TAX) - YES (?P=kind) - NO)$",
                        re.M | re.S)
-BONDS_LINE = "Bonds – Yes Bonds – No"
+VOTE_LINE_RE = re.compile(r"^(Bonds|Tax) ?[–—] ?(Yes|YES) \1 ?[–—] ?(No|NO)$")  # "Bonds – Yes Bonds – No" under bond questions
 SMALL = {"of", "and", "the"}
+LONG_WORD = 30  # a "word" this long is text whose spaces the PDF reading lost
 
 
 def display_name(name):
@@ -57,8 +67,12 @@ def display_name(name):
     return " ".join(word(w, i == 0) for i, w in enumerate(name.split()))
 
 
+_FOLD = str.maketrans({"‘": "'", "’": "'", "“": '"', "”": '"', "–": "-", "—": "-"})
+
+
 def _squash(text):
-    return re.sub(r"\s+", "", text)
+    """The text without spaces, quotes and dashes straightened (the two readings differ in these only)."""
+    return re.sub(r"\s+", "", text).translate(_FOLD)
 
 
 def _words(text):
@@ -95,27 +109,32 @@ def ballot_blocks(text):
 def parse_measure(letter, head, body, vote, printed):
     """(title or None, question) for one measure, checked against its ballot-page text."""
     lines = body.split("\n")
-    if lines and lines[-1] == BONDS_LINE:
+    if lines and VOTE_LINE_RE.match(lines[-1]):
         lines.pop()
-    if any("Bonds – " in line for line in lines):
-        raise ValueError(f"Measure {letter}: unexpected bonds line in the question")
+    if any(re.search(r"(Bonds|Tax) ?[–—] ?(Yes|YES)", line) for line in lines):
+        raise ValueError(f"Measure {letter}: unexpected vote line in the question")
     title_lines = []
     while lines and not re.search(r"[a-z]", lines[0]):
         title_lines.append(lines.pop(0))
     section = _words(" ".join(title_lines + lines))
+    if section.startswith("“") and section.endswith("”"):  # a few sections quote the question
+        section = section[1:-1]
     if printed is None:
         raise ValueError(f"Measure {letter}: not printed on the ballot pages")
-    # The ballot page sometimes prints a bulleted list's bullets out of order in the PDF text, so bullets
-    # are left out of the comparison; when the word counts agree, the section (bullets in place) is used.
+    # Both readings must be the same text when spaces (and bullets) are ignored. The ballot page is used,
+    # as printed on the ballot; the measure section sometimes runs words together ("updateterminology").
+    # Only where the ballot page prints a bulleted list are its bullets out of order in the PDF text; then
+    # the section is used, and it must not have lost any space the ballot page keeps.
     if _squash(section.replace("•", "")) != _squash(printed.replace("•", "")):
         raise ValueError(f"Measure {letter}: the measure section and the ballot page differ")
-    n_section, n_printed = (len(t.replace("•", "").split()) for t in (section, printed))
-    if n_section >= n_printed:
-        chosen = section
-    elif "•" not in printed:
+    if "•" not in printed:
         chosen = printed
+    elif len(section.replace("•", "").split()) >= len(printed.replace("•", "").split()):
+        chosen = section
     else:
         raise ValueError(f"Measure {letter}: words run together in the section, and the ballot page has bullets")
+    if any(len(w) > LONG_WORD for w in chosen.split()):
+        raise ValueError(f"Measure {letter}: words run together in the question: {chosen[:80]!r}")
     title, question = None, chosen
     if title_lines:
         want, taken, words = len(_squash(" ".join(title_lines))), 0, chosen.split()
@@ -126,7 +145,8 @@ def parse_measure(letter, head, body, vote, printed):
                 break
             if taken > want:
                 raise ValueError(f"Measure {letter}: the title does not end at a word boundary")
-    if not question.endswith("?") and "?" not in question:
+    # Lemon Grove's question is printed without its question mark, so "shall" is what marks a question.
+    if not re.search(r"\bshall\b", question, re.I):
         raise ValueError(f"Measure {letter}: no ballot question")
     if len(question.split()) < 15:
         raise ValueError(f"Measure {letter}: ballot question too short: {question!r}")
@@ -166,7 +186,7 @@ def extract(pages, field):
     measures = []
     for letter in sorted(found, key=lambda x: (len(x), x)):
         bt, url, m = found[letter]
-        if EXPECTED[letter] and m["jurisdiction"] != EXPECTED[letter]:
+        if m["jurisdiction"] != EXPECTED[letter]:
             raise ValueError(f"Measure {letter}: jurisdiction {m['jurisdiction']!r}, expected {EXPECTED[letter]!r}")
         label = LABEL.format(bt=bt)
         name = display_name(m["jurisdiction"])
@@ -176,7 +196,7 @@ def extract(pages, field):
             "jurisdiction": {"level": "local", "county": COUNTY, "name": name},
             "topics": [], "arguments_url": None,
             "notes": ["Ballot question as printed in the San Diego County sample ballot and voter information "
-                      f"pamphlet (ballot type {bt})."],
+                      f"pamphlet (ballot type {bt})."] + ([NOTES[letter]] if letter in NOTES else []),
             "documents": [{"label": f"San Diego County sample ballot and voter information pamphlet, "
                                     f"ballot type {bt} (PDF; Measure {letter} with its analysis and arguments)",
                            "url": url}],

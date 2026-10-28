@@ -46,7 +46,10 @@ def test_santa_clara_local_measures():
 @pytest.mark.parametrize("m", LOCAL, ids=lambda m: m["id"])
 def test_local_measure_fields(m):
     f = m["fields"]
-    assert "?" in f["ballot_question"]["text"]  # some counties print a closing quote or a note after it
+    # some counties print a closing quote or a note after it; San Diego County prints Lemon Grove's
+    # Measure E question ("Shall the Measure ... be adopted") without a question mark
+    q = f["ballot_question"]["text"]
+    assert "?" in q or q.startswith("Shall ")
     assert f["ballot_question"]["source_url"].startswith("https://")
     if m["jurisdiction"]["county"] == "Santa Clara":
         assert f["ballot_question"]["text"].rstrip().endswith("?")
