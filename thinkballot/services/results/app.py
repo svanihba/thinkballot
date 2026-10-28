@@ -70,14 +70,24 @@ def fixture_fetch(path):
     return fetch
 
 
+_catalog_cache = {"at": None, "value": None}
+
+
 def ballot_catalog():
-    """(election date, {number: official title}) for the statewide propositions, from the ballot service."""
+    """(election date, {number: official title}) for the statewide propositions, from the ballot service.
+
+    Cached for five minutes: the official data changes only with a deploy.
+    """
+    if _catalog_cache["at"] is not None and time.monotonic() - _catalog_cache["at"] < 300:
+        return _catalog_cache["value"]
     ballot = ServiceClient("ballot")
     election = ballot.get("/election")
     listing = ballot.get("/measures", level="state")
     if not election or not listing:
         raise ServiceError("ballot", "no election loaded")
-    return election["date"], {m["number"]: m["title"] for m in listing["measures"]}
+    value = election["date"], {m["number"]: m["title"] for m in listing["measures"]}
+    _catalog_cache.update(at=time.monotonic(), value=value)
+    return value
 
 
 # ---------- storage: the last good copy, and when the last attempt was made ----------
