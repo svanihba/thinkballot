@@ -1,0 +1,1542 @@
+[
+  {
+    "translation_of": "prop-1",
+    "language": "es",
+    "title": {
+      "text": "AUTORIZA BONOS PARA PROGRAMAS DE VIVIENDA ASEQUIBLE.",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+      "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+      "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+      "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+      "fetched_at": "2026-10-28T07:25:07Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "LEY APROBADA POR LA LEGISLATURA.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "Autoriza la emisión de $11.25 mil millones en bonos de obligación general del estado para programas de vivienda asequible, incluidos programas de vivienda multifamiliar de alquiler, préstamos hipotecarios para veteranos, viviendas con servicios de apoyo, preservación de viviendas asequibles existentes y asistencia para el pago inicial.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "Aumento de costos para el estado de entre $500 millones y $600 millones anuales durante aproximadamente 25 años para reembolsar los bonos destinados a la vivienda.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "US Vets; CA Federation of Teachers; Self‑Help for the Elderly; Habitat for Humanity CA; CA Alliance of Child & Family Services",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "Ninguno enviado",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "Un voto por SÍ en esta medida significa: El estado podría solicitar un préstamo de $11.25 mil millones para apoyar a los veteranos y promover la vivienda asequible.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "Un voto por NO en esta medida significa: El estado no podría solicitar un préstamo de $11.25 mil millones para apoyar a los veteranos y promover la vivienda asequible.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "La Propuesta 1 construye viviendas asequibles para veteranos, personas mayores, personas con discapacidad, familias trabajadoras con ingresos bajos y medios, californianos en situación de vulnerabilidad y trabajadores esenciales —maestros, bomberos y enfermeros—. Amplía las oportunidades de acceso a la vivienda, agiliza los proyectos de viviendas asequibles listos para iniciar la construcción y ayuda a quienes están a un paso de quedarse sin hogar. Exige una estricta rendición de cuentas fiscal y una supervisión pública, sin nuevos impuestos.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "NO SE PRESENTÓ NINGÚN ARGUMENTO EN CONTRA DE LA PROPUESTA 1.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop1-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop1-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-2",
+    "language": "es",
+    "title": {
+      "text": "AUMENTA EL FONDO DE RESERVA DEL ESTADO.",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+      "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+      "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+      "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+      "fetched_at": "2026-10-28T07:25:07Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "ENMIENDA CONSTITUCIONAL APROBADA POR LA LEGISLATURA.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "Aumenta el Fondo de Reserva de California, aprobado por los votantes en 2014, para proporcionar fondos destinados a la educación, la atención médica, la seguridad pública y otros servicios esenciales durante las recesiones económicas.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "Las reservas presupuestarias del estado serían mayores.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "CA Professional Firefighters; LA Chamber of Commerce; Gavin Newsom; Xavier Becerra; Assemblymember Jesse Gabriel",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "Ninguno enviado",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "Un voto por SÍ en esta medida significa: Se modificarían las normas relativas a la constitución de reservas presupuestarias estatales y a la amortización de la deuda pública adicional. Por lo tanto, las reservas presupuestarias del estado serían mayores. Además, el estado se vería obligado a realizar pagos adicionales de la deuda durante más tiempo.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "Un voto por NO en esta medida significa: No se modificarían las normas relativas a la constitución de reservas presupuestarias estatales y a la amortización de la deuda pública adicional.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "Vote sí a la Propuesta 2 para proteger la financiación de las escuelas, la atención médica y la seguridad pública. La Propuesta 2 duplica el Fondo para Tiempos Difíciles del estado, impide que los políticos gasten en exceso cuando hay superávit presupuestario y garantiza que la financiación de la educación se mantenga durante las crisis económicas. Cuenta con el apoyo bipartidista de los bomberos, los hospitales, las clínicas de salud y los educadores.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "La Propuesta 2 garantiza un mayor gasto, no un ahorro, y crea una laguna jurídica que reduce las posibilidades de que se produzcan devoluciones a los contribuyentes, al excluir los depósitos de reserva del límite de gasto establecido en la Constitución de California. No aporta nuevos fondos para la educación, la atención médica ni la seguridad pública. Vote NO para proteger las devoluciones a los contribuyentes y los límites constitucionales.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop2-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop2-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-3",
+    "language": "es",
+    "title": {
+      "text": "PROPORCIONA FINANCIAMIENTO PERMANENTE PARA LAS ESCUELAS Y LA ATENCIÓN MÉDICA EXTENDIENDO EL IMPUESTO EXISTENTE SOBRE LOS INGRESOS ALTOS.",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+      "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+      "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+      "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+      "fetched_at": "2026-10-28T07:25:07Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "ENMIENDA CONSTITUCIONAL POR INICIATIVA.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "Hace permanentes las tasas impositivas vigentes aprobadas por los votantes para las personas con ingresos superiores a $371,000 (ajustados anualmente por inflación). Asigna los ingresos fiscales a la educación pública.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "Mantiene entre $5 mil millones y $15 mil millones de ingresos anuales del impuesto estatal sobre la renta al hacer permanente un aumento temporal del impuesto para las personas con ingresos altos en lugar de permitir que venza en 2031.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "California Teachers Association; CA School Nurses Organization; California State PTA; Planned Parenthood Affiliates of CA",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "California Taxpayers Association; Family Business Association of California; California Hispanic Chambers of Commerce",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "Un voto por SÍ en esta medida significa: El aumento del impuesto sobre la renta para las personas con ingresos altos, vigente desde 2012, pasaría a ser permanente en lugar de expirar en 2031.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "Un voto por NO en esta medida significa: El aumento del impuesto sobre la renta para las personas con ingresos altos, vigente desde 2012, expiraría en 2031.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "LA PROPUESTA 3 PROTEGE NUESTRAS ESCUELAS Y NUESTRA ASISTENCIA MÉDICA SIN AUMENTAR SUS IMPUESTOS. La Propuesta 3 impide una reducción fiscal masiva para millonarios y multimillonarios al mantener los tipos impositivos actuales que el 2 % más rico ha pagado durante 15 años, y exige una rendición de cuentas estricta y auditorías para garantizar que la financiación escolar llegue a las aulas. Vote SÍ.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "Los californianos ya pagan los impuestos sobre la renta, sobre las ventas y sobre la gasolina más altos del país, y tienen el costo de vida más elevado. La Propuesta 3 convierte en permanentes los impuestos sobre la renta temporales, mientras que Sacramento malgasta miles de millones en programas fallidos en lugar de destinarlos a las prioridades de los votantes. No recompense el fracaso. Hay que ajustar el gasto antes de convertir los impuestos en permanentes. NO a la Propuesta 3.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop3-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop3-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-4",
+    "language": "es",
+    "title": {
+      "text": "DEROGA LA PROHIBICIÓN DEL FINANCIAMIENTO PÚBLICO DE LAS CAMPAÑAS ELECTORALES.",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+      "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+      "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+      "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+      "fetched_at": "2026-10-28T07:25:07Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "LEY APROBADA POR LA LEGISLATURA.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "Deroga la prohibición de que los gobiernos estatales y locales otorguen financiamiento público a las campañas electorales de candidatos. Los programas de financiamiento público no podrán utilizar fondos asignados a la educación, el transporte o la seguridad pública.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "Costos continuos para el estado de unos pocos cientos de miles de dólares cada año para que la Comisión de Prácticas Políticas Justas responda a preguntas de los gobiernos estatales y locales sobre los programas de financiamiento público de campañas.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "League of Women Voters of CA; California Nurses Association; Mental Health Advocacy; Social Security Works; Consumer Watchdog",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "California Taxpayers Assn; Howard Jarvis Taxpayers Assn; Family Business Assn of California; United Latinos Action",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "Un voto por SÍ en esta medida significa: Los gobiernos estatales y locales podrían crear programas de financiación pública de campañas para los candidatos a cargos públicos, siempre que se establezcan límites sobre qué fondos públicos se pueden utilizar, cómo se pueden utilizar y quiénes pueden recibirlos.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "Un voto por NO en esta medida significa: El estado y la mayoría de los gobiernos locales seguirían sin poder crear programas de financiación pública de campañas para los candidatos a cargos públicos.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "SÍ A LA PROPUESTA 4. California es el ÚNICO estado que prohíbe la financiación pública de las campañas electorales; las comunidades de los otros 49 estados sí tienen este derecho. Los grupos de interés quieren mantener la prohibición para proteger su poder. La Propuesta 4 la elimina. Garantías estrictas para los contribuyentes. Vote SÍ: Las elecciones deben ganarse, no comprarse.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "La Propuesta 4 permite a los políticos utilizar EL DINERO DE SUS IMPUESTOS para financiar sus campañas negativas. La Propuesta 4 NO ESTABLECE NINGÚN LÍMITE al número de candidatos que pueden recibir dinero de sus impuestos NI NINGÚN LÍMITE a la cantidad de dinero de sus impuestos que pueden recibir. Y lo que es peor aún, la Propuesta 4 permite la FINANCIACIÓN DE LA POLÍTICA POR PARTE DE GRUPOS DE INTERÉS. NO A LA PROPUESTA 4.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop4-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop4-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-5",
+    "language": "es",
+    "title": {
+      "text": "MODIFICA EL PROCESO ELECTORAL DE DESTITUCIÓN DE LOS FUNCIONARIOS ESTATALES.",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+      "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+      "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+      "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+      "fetched_at": "2026-10-28T07:25:07Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "ENMIENDA CONSTITUCIONAL APROBADA POR LA LEGISLATURA.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "Conforme a la ley vigente, los votantes eligen a los candidatos de reemplazo al mismo tiempo que se celebra la elección de destitución. En su lugar, esta medida llena las vacantes por destitución mediante una elección especial posterior o por nombramiento.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "Se desconoce el efecto fiscal neto. En caso de una elección de destitución, ahorros o costos de millones de dólares para administrar la elección, según el cargo objeto de la destitución.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "Ninguno enviado",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "Ninguno enviado",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "Un voto por SÍ en esta medida significa: Las elecciones de destitución ya no incluirían una pregunta sobre quién debería ocupar la vacante. En cambio, las vacantes se cubrirían mediante elecciones especiales o nombramientos, dependiendo del cargo y del momento.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "Un voto por NO en esta medida significa: Se seguiría preguntando a los votantes quién debería ocupar la vacante en el marco de las elecciones de destitución.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "La Propuesta 5 devuelve a la destitución su finalidad original: destituir a los cargos públicos corruptos. Cierra la laguna jurídica que permite a los candidatos sustitutos ganar con una pequeña fracción de los votos, lo que reduce la politización y los costos de futuras destituciones. Respaldado por la Liga de Mujeres Votantes de California y Causa Común de California. Vote SÍ",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "La Propuesta 5 menoscaba el centenario proceso de destitución de California al limitar el derecho de los votantes a elegir a un sustituto de los funcionarios destituidos. En cambio, cuando se destituye a un cargo electo a nivel estatal, otros políticos elegirían a un sustituto. En el caso de los cargos de menor rango, se celebraría meses más tarde otra costosa elección financiada con el dinero de los contribuyentes, lo que dejaría el cargo vacante y a la ciudadanía sin representación.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop5-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop5-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-37",
+    "language": "es",
+    "title": {
+      "text": "CREA UN PROGRAMA DE PRÉSTAMOS PARA COMPRADORES DE INGRESOS MEDIOS DE VIVIENDAS NUEVAS CALIFICADAS.",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+      "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+      "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+      "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+      "fetched_at": "2026-10-28T07:25:07Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "INICIATIVA DE LEY.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "Autoriza $25 mil millones en bonos para ofrecer a los compradores elegibles préstamos hipotecarios con tasa de interés fija por hasta el 17 % del precio de compra de una vivienda de nueva construcción con un precio inferior a aproximadamente $1.5 millones. Los prestatarios deben ser residentes de California, ocupar la vivienda, cumplir con los límites de ingresos y pagar al menos el 3 % de pago inicial. Los bonos se reembolsan mediante los pagos de las hipotecas, no por el estado.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "No hay costos directos para el estado ni para los gobiernos locales.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "United Nurses Associations of California; California Conference of Carpenters; California State Treasurer Fiona Ma",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "Ninguno enviado",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "Un voto por SÍ en esta medida significa: El estado pondría en marcha un nuevo programa de ayudas para la compra de vivienda. El estado podría vender hasta $25 mil millones en bonos de ingresos para financiar el programa. Los bonos se amortizarían con los pagos que los propietarios realizaran por sus hipotecas.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "Un voto por NO en esta medida significa: El estado no estaría obligado a crear un nuevo programa de ayudas para la compra de vivienda.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "Costo nulo para los contribuyentes: sin riesgo para los contribuyentes. La Propuesta 37 hace que la compra de una vivienda sea más asequible, lo que permite que la adquisición de una vivienda siga siendo una opción viable para los californianos trabajadores y de clase media, gracias a hipotecas a bajo interés financiadas por inversores privados en bonos, NO POR LOS CONTRIBUYENTES. Para poder optar a ella, es necesario ser residente en California, cumplir los requisitos de ingresos, ocupar la vivienda, realizar los pagos mensuales y devolver el préstamo. Rendición de cuentas y auditorías rigurosas.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "NO SE PRESENTÓ NINGÚN ARGUMENTO EN CONTRA DE LA PROPUESTA 37.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop37-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop37-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-38",
+    "language": "es",
+    "title": {
+      "text": "AUTORIZA BONOS PARA LA INVESTIGACIÓN MÉDICA EN INMUNOLOGÍA.",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+      "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+      "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+      "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+      "fetched_at": "2026-10-28T07:25:07Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "INICIATIVA DE LEY.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "Autoriza $8.4 mil millones en bonos de obligación general para la investigación en inmunología e inmunoterapia, de los cuales la mitad se destinará a un único instituto de investigación médica sin fines de lucro afiliado a la Universidad de California y la otra mitad a subvenciones para investigación.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "Aumenta el costo para el estado de entre $500 millones y $600 millones al año durante aproximadamente 20 años para reembolsar el bono destinado a la investigación, con parte o la totalidad del costo compensado si la investigación financiada genera ingresos.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "Michael J. Fox Foundation; Alzheimer’s Los Angeles; Kidney Cancer Assoc; American Nurses Assoc\\CA",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "Robert M Kaplan Ph.D.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "Un voto por SÍ en esta medida significa: El estado podría solicitar un préstamo de $8.4 mil millones para financiar la investigación médica en inmunología e inmunoterapia que llevan a cabo los institutos de investigación y las universidades de California.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "Un voto por NO en esta medida significa: El estado no podría solicitar un préstamo de $8.4 mil millones para financiar la investigación médica en inmunología e inmunoterapia que llevan a cabo los institutos de investigación y las universidades de California.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "SÍ a la Propuesta 38 apoya la investigación inmunológica que salva vidas para curar y prevenir enfermedades como el cáncer, las enfermedades cardíacas y la enfermedad de Alzheimer. Una rigurosa rendición de cuentas, que incluya auditorías independientes. Exige un descuento del 20 % en los medicamentos con receta. Diseñado para garantizar que no suponga ningún costo para los contribuyentes. SÍ a la Propuesta 38 podría salvar su vida y la de un ser querido. La Asociación de Alzheimer y la Fundación Michael J. Fox para la Investigación del Parkinson instan a votar SÍ a la Propuesta 38. www.YESon38.com",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "California debería seguir apoyando la investigación biomédica, pero la Propuesta 38 no es la forma adecuada de hacerlo. Esto obligaría a los contribuyentes a asumir décadas de nueva deuda en forma de bonos, al tiempo que limitaría la flexibilidad de California para hacer frente a las prioridades cambiantes en materia de salud. La financiación de la investigación debería regirse por el proceso presupuestario habitual, y no por iniciativas en las boletas electorales.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop38-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop38-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-39",
+    "language": "es",
+    "title": {
+      "text": "PROHÍBE QUE LOS CIUDADANOS VOTEN A MENOS QUE PRESENTEN UNA IDENTIFICACIÓN EMITIDA POR EL GOBIERNO.",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+      "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+      "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+      "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+      "fetched_at": "2026-10-28T07:25:07Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "ENMIENDA CONSTITUCIONAL POR INICIATIVA.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "Invalida las boletas de voto por correo que no tengan escritos en el sobre los últimos cuatro dígitos del número de identificación oficial designado. Prohíbe votar en persona sin presentar una identificación oficial.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "Costos de entre decenas de millones y unos pocos cientos de millones de dólares al año para implementar los nuevos requisitos de votación.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "The Transparency Foundation; Latino American Political Assn; Howard Jarvis Taxpayers Assn; CA Women’s Leadership Assn",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "ACLU California Action; Common Cause; League of Women Voters of California",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "Un voto por SÍ en esta medida significa: Los votantes tendrían que presentar información adicional de identificación a los oficiales electorales cada vez que votaran.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "Un voto por NO en esta medida significa: La identidad del votante seguiría verificándose mediante su firma.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "Sí a la Propuesta 39 ofrece a California una solución BIPARTIDISTA para la identificación de los votantes. Cuenta con el apoyo de una sólida mayoría de votantes demócratas, independientes y republicanos. Aumenta la confianza en nuestras elecciones.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "No a la Propuesta 39. Esto favorecería la estrategia de Trump para reprimir el voto, al introducir barreras costosas e innecesarias que podrían impedir el voto a los electores californianos con derecho a ello, exponer la información personal al robo de identidad y malgastar cientos de millones de dólares de los contribuyentes. No permita que los multimillonarios de MAGA decidan qué votantes cuentan. Vote No.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop39-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop39-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-40",
+    "language": "es",
+    "title": {
+      "text": "IMPONE UN IMPUESTO POR ÚNICA VEZ A CIERTOS CONTRIBUYENTES.",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+      "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+      "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+      "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+      "fetched_at": "2026-10-28T07:25:07Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "ENMIENDA CONSTITUCIONAL Y LEY POR INICIATIVA.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "Impone un impuesto del 5 % a ciertos contribuyentes con activos superiores a $1 mil millones; los ingresos se destinarán principalmente a la atención médica. Exime esos ingresos de los requisitos constitucionales relativos al financiamiento de las escuelas y del límite de gasto.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "Aumento temporal de los ingresos de decenas de miles de millones de dólares, distribuidos a lo largo de varios años, provenientes del impuesto sobre la riqueza de los multimillonarios. Posible disminución continua de menos de $1 mil millones al año en los ingresos del impuesto sobre la renta provenientes de los multimillonarios.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "US Senator Bernie Sanders; SEIU United Healthcare Workers West",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "California Primary Care Association; California School Boards Association; California Taxpayers Association",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "Un voto por SÍ en esta medida significa: El estado recaudaría un impuesto por única vez a los multimillonarios equivalente al 5 % de su patrimonio.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "Un voto por NO en esta medida significa: El estado no recaudaría un impuesto por única vez a los multimillonarios equivalente al 5 % de su patrimonio.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "Vote SÍ a la Propuesta 40 para gravar a los multimillonarios. Trump recortó drásticamente la financiación de atención médica para financiar las desgravaciones fiscales a los multimillonarios, lo que supuso la pérdida de la cobertura de atención médica para más de un millón de californianos y duplicó las primas de los seguros médicos para otros tantos millones. Ya es hora de que los multimillonarios paguen lo que les corresponde y de que dejemos de hacer que la clase media corra con los gastos.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "La Propuesta 40 es un plan fiscal defectuoso y de carácter puntual que perjudica a nuestra economía, daña nuestro presupuesto estatal y contiene una laguna jurídica que expone a todos los californianos a impuestos que no podemos permitirnos, pero que no contribuye en absoluto a reducir los costos de atención médica. Sin garantías, no hay rendición de cuentas. Únase a la Asociación de Maestros de California, a la Asociación Médica de California, a California Children’s Hospital Association, a Bomberos Profesionales de California, al State Building and Construction Trades Council of California y a los demócratas y republicanos: NO a la Propuesta 40.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop40-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop40-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-41",
+    "language": "es",
+    "title": {
+      "text": "PROHÍBE NUEVOS IMPUESTOS ESTATALES QUE EXCLUYAN SUS INGRESOS DEL LÍMITE DE GASTO ESTATAL. EXIGE AUDITORÍAS PARA LOS NUEVOS IMPUESTOS ESPECIALES ESTATALES.",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+      "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+      "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+      "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+      "fetched_at": "2026-10-28T07:25:07Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "ENMIENDA CONSTITUCIONAL POR INICIATIVA.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "Anula los impuestos estatales promulgados después del 1 de enero de 2026 que eximan los ingresos que generan del límite de gasto estatal aprobado por los votantes. Exige auditorías antes de las elecciones y auditorías periódicas de los programas financiados mediante nuevos impuestos especiales.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "Se desconoce el efecto fiscal neto, ya que depende de las decisiones futuras de los votantes, la Legislatura y otros responsables de formular políticas.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "CA Society of Certified Public Accountants (CalCPAs); CalAsian Chamber of Commerce; California Taxpayers Association (CalTax)",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "US Senator Bernie Sanders; SEIU United Healthcare Workers West",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "Un voto por SÍ en esta medida significa: Cuando se propongan impuestos especiales mediante iniciativas ciudadanas, el auditor del estado de California revisará los programas financiados con dicho impuesto antes de que la iniciativa se someta a votación. El auditor del estado de California también revisaría periódicamente los programas financiados con impuestos especiales aprobados por los votantes o por la Asamblea Legislativa. Además, es posible que el estado no pueda excluir del límite de gasto ningún nuevo gasto fiscal especial.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "Un voto por NO en esta medida significa: La responsabilidad del auditor del estado de California de supervisar los programas gubernamentales no cambiaría. Los requisitos relativos al límite de gasto público no cambiarían.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "Los californianos nos merecemos mejores resultados a cambio de nuestros impuestos. Se han destinado miles de millones a programas como los destinados a las personas sin hogar, pero los resultados han sido muy escasos. La Propuesta 41 exige que el auditor estatal independiente lleve a cabo AUDITORÍAS PÚBLICAS de los programas financiados con nuevos impuestos, para que podamos disfrutar de mayor transparencia, mayor rendición de cuentas y mejores resultados para los contribuyentes.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "La Propuesta 41 no tiene que ver realmente con las auditorías: es una artimaña financiada por multimillonarios y diseñada para derogar el impuesto a los multimillonarios de California. Los multimillonarios prefieren que millones de californianos se queden sin asistencia médica antes que pagar un pequeño impuesto sobre su enorme fortuna. No crea las mentiras de los multimillonarios. Vote NO a la Propuesta 41.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop41-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop41-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-42",
+    "language": "es",
+    "title": {
+      "text": "PROHÍBE NUEVOS IMPUESTOS ESTATALES SOBRE LOS BIENES PERSONALES Y CIERTOS IMPUESTOS ESTATALES RETROACTIVOS.",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+      "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+      "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+      "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+      "fetched_at": "2026-10-28T07:25:07Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "ENMIENDA CONSTITUCIONAL POR INICIATIVA.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "Prohíbe todo nuevo impuesto estatal (1) sobre la propiedad de bienes personales (todos los bienes que poseen las personas, excepto los bienes inmuebles), o (2) que se aplique retroactivamente en función de las actividades pasadas del contribuyente. Anula los impuestos promulgados después del 1 de enero de 2026 que entren en conflicto con esta medida.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "Posibilidad de que los ingresos fiscales no aumenten tanto en el futuro.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "CA Professional Firefighters; State Building & Construction Trades Council of CA; AMVETS Department of CA",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "US Senator Bernie Sanders; SEIU United Healthcare Workers West",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "Un voto por SÍ en esta medida significa: El estado no podría establecer nuevos impuestos sobre la propiedad de activos financieros u otros bienes personales.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "Un voto por NO en esta medida significa: El estado continuaría teniendo la opción de establecer nuevos impuestos sobre la propiedad de activos financieros u otros bienes personales.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "La Constitución de California permite actualmente a la Asamblea Legislativa gravar las pensiones y los ahorros, ¡a pesar de que ya ha pagado impuestos por ese dinero cuando lo ganó! La Propuesta 42 protege a los californianos de esta doble imposición, al prohibir la aplicación de impuestos nuevos y con carácter retroactivo sobre los bienes personales, incluidos los fondos de jubilación y los ahorros. Usted se lo ganó. La Propuesta 42 lo protege.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "Esto no es más que otra artimaña financiada por multimillonarios. La Propuesta 42 no tiene realmente como objetivo proteger sus ahorros para la jubilación; su único propósito real es derogar el impuesto a los multimillonarios de California. Los multimillonarios prefieren que millones de californianos se queden sin asistencia médica antes que pagar un pequeño impuesto sobre su enorme fortuna. Vote NO a la Propuesta 42.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop42-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop42-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-43",
+    "language": "es",
+    "title": {
+      "text": "LIMITA LA CAPACIDAD DE LOS VOTANTES PARA AUMENTAR LOS INGRESOS DESTINADOS A LOS SERVICIOS DE LOS GOBIERNOS LOCALES.",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+      "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+      "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+      "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+      "fetched_at": "2026-10-28T07:25:07Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "ENMIENDA CONSTITUCIONAL APROBADA POR LA LEGISLATURA.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "Limita la capacidad de los votantes para aprobar impuestos especiales locales propuestos por los votantes al aumentar el porcentaje de votos necesario para aprobar tales medidas electorales de una mayoría (más del 50 %) a dos tercios, a partir del 1 de enero de 2027.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "Posibilidad de que los ingresos fiscales de los gobiernos locales no aumenten tanto en el futuro debido a un umbral de votos más alto requerido para ciertos impuestos.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "California Taxpayers Association; Family Business Association of California; California Hispanic Chambers of Commerce",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "California Professional Firefighters; California Federation of Teachers; Nurse Alliance of SEIU CA.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "Un voto por SÍ en esta medida significa: Algunos impuestos de los gobiernos locales requerirían la aprobación de dos tercios de los votantes.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "Un voto por NO en esta medida significa: Algunos impuestos de los gobiernos locales podrían seguir siendo aprobados por los votantes por mayoría.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "La Propuesta 43 protege a los contribuyentes al restablecer el requisito de los dos tercios de los votos establecido en la Propuesta 13 para aprobar impuestos especiales locales, incluidos los impuestos sobre las ventas, los impuestos inmobiliarios y los impuestos sobre los servicios públicos. Los tribunales han permitido que los grupos de interés aprueben subidas de impuestos destinadas a fines específicos con menos votos. La Propuesta 43 elimina esta laguna jurídica, protegiendo así a los contribuyentes, a los propietarios y a los inquilinos. Vote sí.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "LA PROPUESTA 43 LIMITA LA CAPACIDAD DE LOS VOTANTES PARA FINANCIAR SERVICIOS LOCALES ESENCIALES, entre los que se incluyen la protección contra incendios, la respuesta al 911, las escuelas, las carreteras, los hospitales y la vivienda asequible. No reduce sus impuestos y permite que solo el 33.4 % de los votantes pueda vetar lo que quiere casi el 67 %. Proteja su voto y el principio de la mayoría. Vote NO a la Propuesta 43",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop43-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop43-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-44",
+    "language": "es",
+    "title": {
+      "text": "EXIGE QUE LAS CLÍNICAS DE SALUD COMUNITARIAS DESTINEN EL 90 % DE SUS INGRESOS A SERVICIOS DEL PROGRAMA.",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+      "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+      "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+      "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+      "fetched_at": "2026-10-28T07:25:07Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "INICIATIVA DE LEY.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "Impone sanciones a los Centros de Salud Federalmente Calificados sin fines de lucro (clínicas de salud comunitarias que brindan atención primaria en áreas y a poblaciones con acceso insuficiente a servicios médicos) que destinen menos del 90 % de sus ingresos a “servicios del programa” que promuevan su finalidad benéfica, incluidos, entre otros, los servicios para pacientes.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "Aumento de los costos para el estado de unas pocas decenas de millones de dólares al año, cubiertos mediante tarifas.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "Ninguno enviado",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "American Academy of Pediatrics CA; CA School Nurses Org; CA Academy of Family Physicians; CA Medical Assoc.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "Un voto por SÍ en esta medida significa: Determinadas clínicas de atención médica privadas sin fines de lucro tendrían que destinar al menos el 90 % de sus ingresos anuales a la prestación de servicios de atención médica.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "Un voto por NO en esta medida significa: El nuevo requisito sobre el gasto de las clínicas de atención médica no entraría en vigor.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "La Propuesta 44 exige responsabilidades a las clínicas comunitarias y a sus directivos al establecer que el 90 % de los ingresos de las clínicas se destine a su misión benéfica: la atención a los pacientes y los servicios que hacen posible dicha atención. Aumenta la transparencia, reduce el gasto superfluo de la administración y garantiza que los fondos destinados a la atención médica se inviertan donde deben: en la atención a los californianos que lo necesitan.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "La Propuesta 44 es una medida peligrosa que provocará el cierre de cientos de clínicas de salud comunitarias y supondrá la supresión de servicios esenciales para millones de californianos. ¡La Academia Estadounidense de Pediatría, California, la Asociación Médica de California, la Academia de Médicos de Familia de California, la Organización de Enfermeras Escolares de California, los médicos, los enfermeros y los pacientes instan a votar NO a la Propuesta 44! www.NOProp44.com",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop44-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop44-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-45",
+    "language": "es",
+    "title": {
+      "text": "MODIFICA LA REVISIÓN AMBIENTAL PARA CIERTOS PROYECTOS.",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+      "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+      "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+      "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+      "fetched_at": "2026-10-28T07:25:07Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "INICIATIVA DE LEY.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "Modifica la Ley de Calidad Ambiental de California (CEQA) para agilizar la revisión ambiental de ciertos proyectos (incluida la mayoría de los proyectos de vivienda, transporte, agua y salud) mediante el establecimiento de plazos para completar la revisión ambiental y resolver las demandas que impugnen la aprobación de los proyectos.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "Costos iniciales para los gobiernos estatales y locales, probablemente de varias decenas de millones de dólares al año —que podrían superar los $100 millones—, cubiertos en parte mediante tarifas. Efectos fiscales a largo plazo inciertos, potencialmente más significativos, positivos o negativos.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "California Children’s Hospital Association; California Water Association; California Council for Affordable Housing",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "Coalition for Clean Air; CA Environmental Voters; Physicians for Social Responsibility, LA; National Wildlife Federation",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "Un voto por SÍ en esta medida significa: Ciertos proyectos públicos y privados podrían acogerse a nuevos procedimientos de revisión y recurso judicial. Por ejemplo, los nuevos procedimientos establecerían plazos más estrictos para la evaluación medioambiental y reducirían el alcance de los aspectos que los tribunales pueden tener en cuenta al examinar los recursos judiciales.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "Un voto por NO en esta medida significa: Los proyectos públicos y privados seguirían recurriendo a los procedimientos vigentes de revisión de proyectos y de recurso judicial.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "El actual statu quo, que está fallando, está haciendo que California sea inasequible. La Propuesta 45 soluciona nuestro sistema deficiente y reduce nuestro elevado costo de vida al eliminar los trámites burocráticos para construir viviendas, sistemas de abastecimiento de agua, escuelas, hospitales, instalaciones de energía limpia y medidas de prevención de incendios forestales con mayor rapidez, al tiempo que mantiene las sólidas medidas de protección medioambiental de California. Vote SÍ por una California más asequible. YESonProp45.com",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "LA PROPUESTA 45 LIMITA EL CONTROL MEDIOAMBIENTAL Y PÚBLICO DE LOS PROYECTOS QUE SE CONSTRUYEN EN SU COMUNIDAD. Desmantela la Ley de Calidad Ambiental de California, dando un giro a la legislación californiana para anteponer los beneficios de las empresas a la salud pública y a la calidad del aire y el agua. La Propuesta 45 no reducirá sus gastos: las empresas de servicios públicos y las empresas que la financian obtienen beneficios, mientras que los contribuyentes pagan más. VOTE NO.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/quick-reference-guide.pdf",
+        "source_label": "Guía Oficial de Información para el Votante: Guía de Referencia Rápida",
+        "source_snapshot": "data/raw/objects/97/976d966dc184c4d2b843784f89a1d82e4c9610a1bcbd63a4c230f137d5d4605d",
+        "raw_sha256": "cc99b2d4d87085b4f26a0704b3d1bb258398f7be0be7e42643b7a9b6222de4e3",
+        "fetched_at": "2026-10-28T07:25:07Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop45-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/es/pdf/prop45-arg-rebuttals.pdf"
+    }
+  }
+]

@@ -67,6 +67,126 @@
       "against": "saved copy"
     },
     {
+      "measure": "prop-1",
+      "field": "es:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-1",
+      "field": "es:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-1",
+      "field": "es:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-1",
+      "field": "es:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-1",
+      "field": "es:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-1",
+      "field": "es:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-1",
+      "field": "es:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-1",
+      "field": "es:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-1",
+      "field": "es:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-1",
+      "field": "es:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-1",
+      "field": "zh:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-1",
+      "field": "zh:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-1",
+      "field": "zh:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-1",
+      "field": "zh:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-1",
+      "field": "zh:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-1",
+      "field": "zh:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-1",
+      "field": "zh:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-1",
+      "field": "zh:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-1",
+      "field": "zh:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-1",
+      "field": "zh:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
       "measure": "prop-2",
       "field": "title",
       "verdict": "pass",
@@ -131,6 +251,126 @@
       "field": "analysis",
       "verdict": "pass",
       "against": "saved copy"
+    },
+    {
+      "measure": "prop-2",
+      "field": "es:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-2",
+      "field": "es:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-2",
+      "field": "es:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-2",
+      "field": "es:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-2",
+      "field": "es:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-2",
+      "field": "es:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-2",
+      "field": "es:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-2",
+      "field": "es:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-2",
+      "field": "es:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-2",
+      "field": "es:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-2",
+      "field": "zh:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-2",
+      "field": "zh:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-2",
+      "field": "zh:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-2",
+      "field": "zh:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-2",
+      "field": "zh:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-2",
+      "field": "zh:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-2",
+      "field": "zh:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-2",
+      "field": "zh:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-2",
+      "field": "zh:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-2",
+      "field": "zh:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
     },
     {
       "measure": "prop-3",
@@ -199,6 +439,126 @@
       "against": "saved copy"
     },
     {
+      "measure": "prop-3",
+      "field": "es:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-3",
+      "field": "es:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-3",
+      "field": "es:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-3",
+      "field": "es:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-3",
+      "field": "es:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-3",
+      "field": "es:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-3",
+      "field": "es:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-3",
+      "field": "es:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-3",
+      "field": "es:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-3",
+      "field": "es:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-3",
+      "field": "zh:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-3",
+      "field": "zh:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-3",
+      "field": "zh:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-3",
+      "field": "zh:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-3",
+      "field": "zh:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-3",
+      "field": "zh:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-3",
+      "field": "zh:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-3",
+      "field": "zh:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-3",
+      "field": "zh:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-3",
+      "field": "zh:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
       "measure": "prop-4",
       "field": "title",
       "verdict": "pass",
@@ -263,6 +623,126 @@
       "field": "analysis",
       "verdict": "pass",
       "against": "saved copy"
+    },
+    {
+      "measure": "prop-4",
+      "field": "es:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-4",
+      "field": "es:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-4",
+      "field": "es:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-4",
+      "field": "es:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-4",
+      "field": "es:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-4",
+      "field": "es:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-4",
+      "field": "es:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-4",
+      "field": "es:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-4",
+      "field": "es:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-4",
+      "field": "es:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-4",
+      "field": "zh:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-4",
+      "field": "zh:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-4",
+      "field": "zh:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-4",
+      "field": "zh:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-4",
+      "field": "zh:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-4",
+      "field": "zh:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-4",
+      "field": "zh:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-4",
+      "field": "zh:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-4",
+      "field": "zh:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-4",
+      "field": "zh:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
     },
     {
       "measure": "prop-5",
@@ -331,6 +811,126 @@
       "against": "saved copy"
     },
     {
+      "measure": "prop-5",
+      "field": "es:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-5",
+      "field": "es:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-5",
+      "field": "es:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-5",
+      "field": "es:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-5",
+      "field": "es:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-5",
+      "field": "es:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-5",
+      "field": "es:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-5",
+      "field": "es:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-5",
+      "field": "es:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-5",
+      "field": "es:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-5",
+      "field": "zh:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-5",
+      "field": "zh:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-5",
+      "field": "zh:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-5",
+      "field": "zh:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-5",
+      "field": "zh:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-5",
+      "field": "zh:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-5",
+      "field": "zh:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-5",
+      "field": "zh:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-5",
+      "field": "zh:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-5",
+      "field": "zh:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
       "measure": "prop-37",
       "field": "title",
       "verdict": "pass",
@@ -397,6 +997,126 @@
       "against": "saved copy"
     },
     {
+      "measure": "prop-37",
+      "field": "es:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-37",
+      "field": "es:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-37",
+      "field": "es:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-37",
+      "field": "es:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-37",
+      "field": "es:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-37",
+      "field": "es:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-37",
+      "field": "es:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-37",
+      "field": "es:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-37",
+      "field": "es:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-37",
+      "field": "es:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-37",
+      "field": "zh:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-37",
+      "field": "zh:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-37",
+      "field": "zh:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-37",
+      "field": "zh:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-37",
+      "field": "zh:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-37",
+      "field": "zh:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-37",
+      "field": "zh:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-37",
+      "field": "zh:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-37",
+      "field": "zh:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-37",
+      "field": "zh:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
       "measure": "prop-38",
       "field": "title",
       "verdict": "pass",
@@ -463,6 +1183,126 @@
       "against": "saved copy"
     },
     {
+      "measure": "prop-38",
+      "field": "es:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-38",
+      "field": "es:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-38",
+      "field": "es:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-38",
+      "field": "es:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-38",
+      "field": "es:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-38",
+      "field": "es:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-38",
+      "field": "es:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-38",
+      "field": "es:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-38",
+      "field": "es:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-38",
+      "field": "es:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-38",
+      "field": "zh:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-38",
+      "field": "zh:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-38",
+      "field": "zh:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-38",
+      "field": "zh:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-38",
+      "field": "zh:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-38",
+      "field": "zh:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-38",
+      "field": "zh:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-38",
+      "field": "zh:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-38",
+      "field": "zh:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-38",
+      "field": "zh:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
       "measure": "prop-39",
       "field": "title",
       "verdict": "pass",
@@ -529,6 +1369,126 @@
       "against": "saved copy"
     },
     {
+      "measure": "prop-39",
+      "field": "es:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-39",
+      "field": "es:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-39",
+      "field": "es:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-39",
+      "field": "es:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-39",
+      "field": "es:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-39",
+      "field": "es:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-39",
+      "field": "es:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-39",
+      "field": "es:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-39",
+      "field": "es:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-39",
+      "field": "es:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-39",
+      "field": "zh:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-39",
+      "field": "zh:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-39",
+      "field": "zh:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-39",
+      "field": "zh:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-39",
+      "field": "zh:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-39",
+      "field": "zh:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-39",
+      "field": "zh:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-39",
+      "field": "zh:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-39",
+      "field": "zh:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-39",
+      "field": "zh:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
       "measure": "prop-40",
       "field": "title",
       "verdict": "pass",
@@ -595,6 +1555,126 @@
       "against": "saved copy"
     },
     {
+      "measure": "prop-40",
+      "field": "es:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-40",
+      "field": "es:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-40",
+      "field": "es:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-40",
+      "field": "es:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-40",
+      "field": "es:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-40",
+      "field": "es:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-40",
+      "field": "es:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-40",
+      "field": "es:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-40",
+      "field": "es:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-40",
+      "field": "es:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-40",
+      "field": "zh:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-40",
+      "field": "zh:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-40",
+      "field": "zh:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-40",
+      "field": "zh:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-40",
+      "field": "zh:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-40",
+      "field": "zh:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-40",
+      "field": "zh:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-40",
+      "field": "zh:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-40",
+      "field": "zh:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-40",
+      "field": "zh:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
       "measure": "prop-41",
       "field": "title",
       "verdict": "pass",
@@ -661,6 +1741,126 @@
       "against": "saved copy"
     },
     {
+      "measure": "prop-41",
+      "field": "es:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-41",
+      "field": "es:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-41",
+      "field": "es:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-41",
+      "field": "es:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-41",
+      "field": "es:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-41",
+      "field": "es:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-41",
+      "field": "es:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-41",
+      "field": "es:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-41",
+      "field": "es:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-41",
+      "field": "es:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-41",
+      "field": "zh:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-41",
+      "field": "zh:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-41",
+      "field": "zh:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-41",
+      "field": "zh:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-41",
+      "field": "zh:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-41",
+      "field": "zh:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-41",
+      "field": "zh:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-41",
+      "field": "zh:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-41",
+      "field": "zh:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-41",
+      "field": "zh:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
       "measure": "prop-42",
       "field": "title",
       "verdict": "pass",
@@ -727,6 +1927,126 @@
       "against": "saved copy"
     },
     {
+      "measure": "prop-42",
+      "field": "es:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-42",
+      "field": "es:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-42",
+      "field": "es:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-42",
+      "field": "es:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-42",
+      "field": "es:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-42",
+      "field": "es:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-42",
+      "field": "es:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-42",
+      "field": "es:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-42",
+      "field": "es:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-42",
+      "field": "es:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-42",
+      "field": "zh:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-42",
+      "field": "zh:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-42",
+      "field": "zh:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-42",
+      "field": "zh:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-42",
+      "field": "zh:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-42",
+      "field": "zh:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-42",
+      "field": "zh:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-42",
+      "field": "zh:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-42",
+      "field": "zh:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-42",
+      "field": "zh:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
       "measure": "prop-43",
       "field": "title",
       "verdict": "pass",
@@ -793,6 +2113,126 @@
       "against": "saved copy"
     },
     {
+      "measure": "prop-43",
+      "field": "es:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-43",
+      "field": "es:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-43",
+      "field": "es:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-43",
+      "field": "es:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-43",
+      "field": "es:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-43",
+      "field": "es:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-43",
+      "field": "es:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-43",
+      "field": "es:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-43",
+      "field": "es:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-43",
+      "field": "es:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-43",
+      "field": "zh:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-43",
+      "field": "zh:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-43",
+      "field": "zh:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-43",
+      "field": "zh:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-43",
+      "field": "zh:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-43",
+      "field": "zh:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-43",
+      "field": "zh:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-43",
+      "field": "zh:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-43",
+      "field": "zh:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-43",
+      "field": "zh:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
       "measure": "prop-44",
       "field": "title",
       "verdict": "pass",
@@ -859,6 +2299,126 @@
       "against": "saved copy"
     },
     {
+      "measure": "prop-44",
+      "field": "es:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-44",
+      "field": "es:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-44",
+      "field": "es:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-44",
+      "field": "es:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-44",
+      "field": "es:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-44",
+      "field": "es:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-44",
+      "field": "es:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-44",
+      "field": "es:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-44",
+      "field": "es:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-44",
+      "field": "es:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-44",
+      "field": "zh:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-44",
+      "field": "zh:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-44",
+      "field": "zh:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-44",
+      "field": "zh:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-44",
+      "field": "zh:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-44",
+      "field": "zh:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-44",
+      "field": "zh:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-44",
+      "field": "zh:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-44",
+      "field": "zh:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-44",
+      "field": "zh:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
       "measure": "prop-45",
       "field": "title",
       "verdict": "pass",
@@ -923,6 +2483,126 @@
       "field": "analysis",
       "verdict": "pass",
       "against": "saved copy"
+    },
+    {
+      "measure": "prop-45",
+      "field": "es:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-45",
+      "field": "es:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-45",
+      "field": "es:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-45",
+      "field": "es:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-45",
+      "field": "es:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-45",
+      "field": "es:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-45",
+      "field": "es:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-45",
+      "field": "es:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-45",
+      "field": "es:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-45",
+      "field": "es:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-45",
+      "field": "zh:title",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-45",
+      "field": "zh:measure_type",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-45",
+      "field": "zh:summary",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-45",
+      "field": "zh:fiscal_effect",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-45",
+      "field": "zh:supporters",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-45",
+      "field": "zh:opponents",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-45",
+      "field": "zh:yes_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-45",
+      "field": "zh:no_means",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-45",
+      "field": "zh:argument_for",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "prop-45",
+      "field": "zh:argument_against",
+      "verdict": "pass",
+      "against": "saved PDF text"
     },
     {
       "measure": "local-sc-rtm",
@@ -6426,12 +8106,12 @@
     }
   ],
   "summary": {
-    "checked_at": "2026-10-28 07:20 UTC",
+    "checked_at": "2026-10-28 07:26 UTC",
     "data_file": "data/measures.json",
     "verified_against": "saved copies of the official pages",
     "fields_verified_against_browser_captures": 130,
     "fields_verified_against_ocr": 25,
-    "fields_verified": 1000,
+    "fields_verified": 1280,
     "fields_failed": 0,
     "labels_checked": 37,
     "audit_findings": 34
