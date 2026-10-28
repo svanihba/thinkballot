@@ -153,8 +153,8 @@ def create_app():
             except ServiceError:
                 rows = []
             if rows:
-                city = f"City of {place['city']}".lower()
-                yours = [m for m in rows if m["district"].lower() == city
+                places = {f"{kind} of {place['city']}".lower() for kind in ("City", "Town")}
+                yours = [m for m in rows if m["district"].lower() in places
                          or "county" in m["district"].lower() or "transit" in m["district"].lower()]
                 local = {"county": place["county"], "yours": yours,
                          "maybe": [m for m in rows if m not in yours]}
