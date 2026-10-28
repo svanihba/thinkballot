@@ -4517,6 +4517,702 @@
       "field": "ballot_question",
       "verdict": "pass",
       "against": "browser capture"
+    },
+    {
+      "measure": "local-sm-l",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-l",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-l",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-l",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "local-sm-aa",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-aa",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-aa",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-aa",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "local-sm-j",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-j",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-j",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-j",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "local-sm-u",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-u",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-u",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-u",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "local-sm-rtm",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-rtm",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-rtm",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-rtm",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
+    },
+    {
+      "measure": "local-sm-r",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-r",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-r",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-r",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
+    },
+    {
+      "measure": "local-sm-z",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-z",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-z",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-z",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
+    },
+    {
+      "measure": "local-sm-m",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-m",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-m",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-m",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
+    },
+    {
+      "measure": "local-sm-t",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-t",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-t",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-t",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
+    },
+    {
+      "measure": "local-sm-k",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-k",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-k",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-k",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
+    },
+    {
+      "measure": "local-sm-v",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-v",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-v",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-v",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
+    },
+    {
+      "measure": "local-sm-w",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-w",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-w",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-w",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
+    },
+    {
+      "measure": "local-sm-y",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-y",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-y",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-y",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
+    },
+    {
+      "measure": "local-sm-x",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-x",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-x",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-x",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
+    },
+    {
+      "measure": "local-sm-d",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-d",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-d",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-d",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
+    },
+    {
+      "measure": "local-sm-o",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-o",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-o",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-o",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
+    },
+    {
+      "measure": "local-sm-cc",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-cc",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-cc",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-cc",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
+    },
+    {
+      "measure": "local-sm-i",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-i",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-i",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-i",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
+    },
+    {
+      "measure": "local-sm-q",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-q",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-q",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-q",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
+    },
+    {
+      "measure": "local-sm-p",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-p",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-p",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-p",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
+    },
+    {
+      "measure": "local-sm-bb",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-bb",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-bb",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-bb",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
+    },
+    {
+      "measure": "local-sm-n",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-n",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-n",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-n",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
+    },
+    {
+      "measure": "local-sm-e",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-e",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-e",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-e",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "saved PDF text"
+    },
+    {
+      "measure": "local-sm-s",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-s",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-s",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-s",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
+    },
+    {
+      "measure": "local-sm-dd",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-dd",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-dd",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-dd",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
+    },
+    {
+      "measure": "local-sm-ee",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-ee",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-ee",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-ee",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
+    },
+    {
+      "measure": "local-sm-g",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-g",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-g",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-g",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
+    },
+    {
+      "measure": "local-sm-h",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-h",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-h",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-h",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
+    },
+    {
+      "measure": "local-sm-f",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-f",
+      "field": "measure_type",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-f",
+      "field": "district",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sm-f",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "OCR of a scanned PDF"
     }
   ],
   "audit": [
@@ -4726,6 +5422,27 @@
       "check": "loaded_words",
       "detail": "persuasive wording: \"great\"",
       "word": "great"
+    },
+    {
+      "measure": "local-sm-l",
+      "field": "ballot_question",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"extreme\"",
+      "word": "extreme"
+    },
+    {
+      "measure": "local-sm-y",
+      "field": "ballot_question",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"disaster\"",
+      "word": "disaster"
+    },
+    {
+      "measure": "local-sm-bb",
+      "field": "ballot_question",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"worst\"",
+      "word": "worst"
     }
   ],
   "labels": [
@@ -4916,14 +5633,14 @@
     }
   ],
   "summary": {
-    "checked_at": "2026-10-28 06:41 UTC",
+    "checked_at": "2026-10-28 06:55 UTC",
     "data_file": "data/measures.json",
     "verified_against": "saved copies of the official pages",
     "fields_verified_against_browser_captures": 129,
-    "fields_verified_against_ocr": 0,
-    "fields_verified": 753,
+    "fields_verified_against_ocr": 24,
+    "fields_verified": 869,
     "fields_failed": 0,
     "labels_checked": 37,
-    "audit_findings": 30
+    "audit_findings": 33
   }
 }
