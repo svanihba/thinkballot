@@ -7,5 +7,6 @@
   "allow": ["^https://ocvote\\.gov/sites/default/files/2026-(09|10)/[^/]*(LAYOUT|Layout)[^/]*\\.pdf$"],
   "max_depth": 1,
   "delay_seconds": 2,
-  "extractor": "orange_measures"
+  "extractor": "orange_measures",
+  "pdf_second_reading": ["https://ocvote.gov/sites/default/files/2026-09/B-Westminster%20SD%20-%20LAYOUT%20(1).pdf"]
 }
