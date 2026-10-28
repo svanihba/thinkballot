@@ -41,7 +41,8 @@
 /* measure page */
 .actions { display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap; margin: 0.4rem 0 1rem; }
 .actions .star { margin-left: 0; }
-.measure-page .src { text-decoration: none; }
+.measure-page .src, .hint .src { text-decoration: none; color: var(--teal); }
+.hint .src:hover { color: var(--paper); }
 .measure-page .actions { margin-top: 1rem; }
 .missing { font-style: italic; color: var(--ink-soft); }
 .args .col p { font-size: 0.9rem; white-space: pre-line; }
@@ -143,7 +144,6 @@ details.composer summary { list-style: none; display: inline-block; margin-top: 
 @media (max-width: 640px) {
   .analysis summary { min-height: var(--tap); padding: 0.3rem 0; }
   .analysis-text, .args .col p { font-size: 1rem; }
-  .ballot-question { font-size: 1rem; padding: 0.9rem 1rem; }
   .equal-note { font-size: 0.88rem; }
 }
 .gap { margin-top: 2rem; }
@@ -165,3 +165,8 @@ details.maybe summary strong { color: var(--ink); font-size: 1rem; }
 }
 .ballot-question { border-left: 4px solid var(--poppy); background: #fffdf8; padding: 1rem 1.2rem; font-size: 1.02rem; }
 .docs { margin: 0.4rem 0 0 1.2rem; } .docs li { margin: 0.3rem 0; }
+@media (max-width: 640px) {
+  .ballot-question { padding: 0.9rem 1rem; }
+  .docs li { margin: 0.7rem 0; line-height: 1.6; }
+  .args.who .col p { font-size: 0.95rem; }
+}
