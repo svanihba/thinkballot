@@ -63,7 +63,7 @@ def create_app():
             return None
         return session.get("user")  # {"id", "username", "is_mod"} or None
 
-    COMMUNITY_ENDPOINTS = {"signin", "signout", "post_comment", "submit_fact", "flag_comment", "rate_fact",
+    COMMUNITY_ENDPOINTS = {"signin", "signout", "verify", "post_comment", "submit_fact", "flag_comment", "rate_fact",
                            "moderation"}
 
     @app.before_request
