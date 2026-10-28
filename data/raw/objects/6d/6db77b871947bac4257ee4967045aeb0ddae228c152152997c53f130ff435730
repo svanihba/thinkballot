@@ -1,0 +1,1665 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<base href="https://ranchomirageca.gov/" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	
+
+	 
+	<!-- Metadata Area Starts -->
+	<title>Measure R</title>
+	<meta property="og:title" content="Measure R" />
+	<meta property="og:image" content="//cms3.revize.com/revize/ranchomirageca/_assets_/images/logo.png" />
+	<meta name="robots" content="index, follow">
+
+
+	
+
+
+<link href="/revize/plugins/setup/css/revize.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/revize/plugins/document_center/document_center_styles.css">
+<script type="text/javascript" src="/revize/plugins/document_center/simple_accordian.js"></script>
+
+
+<script type="text/javascript">
+
+
+
+</script>
+
+
+
+
+
+
+
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+	<link rel="stylesheet" href="https://ranchomirageca.gov/_assets_/fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://ranchomirageca.gov/_assets_/css/layout.css">
+
+	<link rel="shortcut icon" href="https://ranchomirageca.gov/_assets_/images/favicon.ico">
+	<link rel="apple-touch-icon" href="https://ranchomirageca.gov/_assets_/images/touch-icon-iphone.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="https://ranchomirageca.gov/_assets_/images/touch-icon-ipad.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="https://ranchomirageca.gov/_assets_/images/touch-icon-iphone4.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="https://ranchomirageca.gov/_assets_/images/touch-icon-ipad2.png">
+
+
+
+
+	<link href="/revize/plugins/revize_calendar/core/main.css" rel="stylesheet" />
+<link href="/revize/plugins/revize_calendar/daygrid/main.min.css" rel="stylesheet" />
+<link href="/revize/plugins/revize_calendar/timegrid/main.min.css" rel="stylesheet" />
+<link href="/revize/plugins/revize_calendar/list/main.min.css" rel="stylesheet" />
+<link href="https://ranchomirageca.gov/_assets_/plugins/revizeCalendar/css/mini.css" rel="stylesheet" />
+<link href="/revize/plugins/revize_calendar/core/nav-panels.css" rel="stylesheet" /><script>
+	var defaultCalendarColor = "#3788d8";
+	var ImportCals = [];
+	var calendarProps = {'2' : { 'color' : '#592228' , 'name' : 'Meetings' },
+};
+	var RZCalendarTimezone = "";
+</script>
+
+
+
+		<link rel="stylesheet" href="/revize/plugins/faq/css/faqs.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="/revize/plugins/faq/js/faqs.js"></script>
+
+	
+
+
+
+
+
+</head>
+<body id="freeform" >
+
+
+
+
+<script type="text/javascript">
+if (typeof(RZ) == 'undefined') RZ = {};
+if (!RZ.link) RZ.link = new Object();
+RZ.pagetype = 'template'
+RZ.baseurlprefix = '../../'
+RZ.baseurlpath = 'residents/city_services/'
+RZ.protocolRelativeRevizeBaseUrl='//cms3.revize.com'
+
+RZ.pagetemplatename = 'faq'
+RZ.pagetemplateid = '7'
+RZ.pagemodule = 'links'
+RZ.pagemoduleid = '1'
+RZ.pagerecordid = '3282';
+
+RZ.pageid = 'links-3282';
+RZ.pageparentid = '39';
+RZ.pagesectionid = '39';
+RZ.pagesectionname = 'city_services';
+RZ.pagesectionlevel = '2';
+RZ.pagesectionfolder = 'residents/city_services/';
+RZ.pagesectionfilter = 'sectionid=39';
+RZ.pagelinkfilter = 'linklevel=2 and linksectionid=39';
+RZ.pagelinklevel = '2';
+RZ.pagelinkid = '3282';
+RZ.pageidfield = '';
+
+RZ.isnewrecord = false;
+RZ.editmodule = '';
+RZ.editrecordid = '3282';
+RZ.editrecordversion = '';
+RZ.editversion = '';
+RZ.editaction = '';
+
+RZ.page_roles = ''
+RZ.page_users = '6d32d033da4fed043bf93b9442ae913df880a42fb72b074f327f87517c21a16d|c44bdeb876fb9ecbc8b12992bec9f8d996905f3f2364b520cd5076e30889bcef|b1f7d8ff27a53d1bd09c29347e316bdf590f62fcf3ed23d1dd28bae4b81aa2c8'
+RZ.page_key = 'faq[3282]'
+RZ.parent_key = 'tiles[39]'
+RZ.inherit_key = 'index[]'
+RZ.workflowname = ''
+RZ.permissions_options = 'warningsOFF'
+RZ.permissions_module = 'webspace_page_permissions'
+RZ.webspace = 'ranchomirageca'
+RZ.webspacedesc = "";
+
+RZ.featurespattern = '(EZ)';
+null
+
+RZ.webspacelinksurl = ''
+RZ.webspacelinksurl = './webspace/links.html'
+RZ.workflowlist = ''
+RZ.revizeserverurl = 'https://cms3.revize.com/revize/ranchomirageca';
+
+if (!RZ.nextseq) RZ.nextseq = {linknames:{},modules:{}};
+
+RZ.webspace_config = new Object();
+RZ.webspace_config.admin_email = "noreply@revize.com";
+RZ.webspace_config.calendar_options = "max_events=6";
+RZ.webspace_config.form_captcha = "yes";
+RZ.webspace_config.form_server = "revizeserver";
+RZ.webspace_config.form_technology = "jsp";
+RZ.webspace_config.formwizard_ftp_password = "";
+RZ.webspace_config.formwizard_ftp_port = "";
+RZ.webspace_config.formwizard_ftp_server = "";
+RZ.webspace_config.formwizard_ftp_user = "";
+RZ.webspace_config.formwizard_setup = "yes";
+RZ.webspace_config.formwizard_smtp_password = "xxx";
+RZ.webspace_config.formwizard_smtp_server = "xxx";
+RZ.webspace_config.formwizard_smtp_user = "xxx";
+RZ.webspace_config.google_analytics = "";
+RZ.webspace_config.home_pageid = "0";
+RZ.webspace_config.home_sectionid = "0";
+RZ.webspace_config.home_template = "home,index,sitemap";
+RZ.webspace_config.icon_email = "<img src=https://ranchomirageca.gov/\"/revize/images/email_icon_yellow.gif\" width=\"16\" border=\"0\" height=\"17\" title=\"Request email notification when page changes\" alt=\"Request email notification when page changes\" style=\"\" />";
+RZ.webspace_config.image_maxheight = "3000";
+RZ.webspace_config.image_maxwidth = "3000";
+RZ.webspace_config.image_setup = "yes";
+RZ.webspace_config.livesite_url = "";
+RZ.webspace_config.menu_links_module = "links";
+RZ.webspace_config.menu_newsection = "";
+RZ.webspace_config.menu_nexturl = "webspace_menu-editform.jsp";
+RZ.webspace_config.menu_sections_module = "sections";
+RZ.webspace_config.menu_system = "custom";
+RZ.webspace_config.menu_version = "1.00";
+RZ.webspace_config.new_menu_manager_enabled = "yes";
+RZ.webspace_config.notify_options = "hide_text=no";
+RZ.webspace_config.notify_return_url = "enotify/index.php";
+RZ.webspace_config.rte_setup = "yes";
+RZ.webspace_config.to_email = "webpageupdate_subscribers@revize.com";
+RZ.webspace_config.use_folders = "1";
+
+RZ.isauthenticationactive = true
+RZ.warning = ""
+RZ.adminwinmsg = null
+
+RZ.channels = 'production';
+RZ.jsversion = 1.2</script>
+<script type="text/javascript" src="/revize/util/snippet_helper.js"></script>
+
+
+
+
+
+
+
+
+ 
+
+<header>
+		<a href="#main" id="skip" tabindex="0" class="button">Skip to main content</a>
+		<div id="header-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7">
+						<div id="alert">
+						
+						 
+							
+							<img src="https://ranchomirageca.gov/_assets_/images/speaker.png" alt="" id="speaker">
+							<div class="alert-text">Welcome to the City of Rancho Mirage's municipal website!</div>
+						
+						</div><!-- #alert -->
+					</div><!-- ./col-lg-7 -->
+					<div class="col-lg-5">
+					
+						<div id="header-top-buttons">
+						
+						
+						
+						
+							<a href="https://www.governmentjobs.com/careers/ranchomirageca" target="_blank" class="header-top-btn">CAREERS</a>
+							<a href="https://portal.laserfiche.com/portal/Welcome.aspx?repo=r-e15856c3" target="_blank">DOCUMENTS </a>
+							<a href="https://ranchomirageca.gov/our_city/city_publications___media/index.php" target="_self">MEDIA</a>
+							<a href="https://visitor.r20.constantcontact.com/manage/optin?v=001UsdDDNtMax8wY7PUTLGlsutYkY18kLlNp2Z1zg-k6jm9fHK5hTaULkesj_9gUUeI4fh7tyqsjTz3jxcIiDC3YDQ5iJlx4nhj6B75rFozIfI%3D" target="_blank">E-NEWS SIGN UP</a>
+						</div><!-- ./header-top-buttons -->
+					</div><!-- ./col-lg-5 -->
+				</div><!-- ./row -->
+			</div><!-- ./container -->
+		</div><!-- #header-top -->
+			<div class="topnav">
+				
+		</div>
+
+		<div id="header-btm">
+			<div class="container">
+				<div class="header-btm-wrap">
+					<div class="divider">
+						<a href="https://ranchomirageca.gov/index.php" id="logo"><img src="https://ranchomirageca.gov/_assets_/images/logo.png" alt="Rancho Mirage, CA Logo Home"></a>
+						<div id="toggles" class="d-lg-none">
+							<div id="search-toggle" class="fa fa-search"></div>
+							<div id="nav-toggle" class="fa fa-bars"></div>
+						</div><!--/#toggles-->
+					</div><!-- ./col-lg-2 -->
+					<nav class="divider">
+						
+
+
+
+
+
+
+
+ 
+<ul id="nav" class="v2_05-23-2012">
+	<li class="menuLI level0 menuDisplay li-1"><a class="menuA level0 menuDisplay" href="https://ranchomirageca.gov/index.php" target="_self">Home</a></li>
+	<li class="menuLI level0 menuDisplay li-33 children"><a class="menuA level0 menuDisplay" href="https://ranchomirageca.gov/residents/index.php" target="_self">Residents</a>
+		<ul class="menuUL level1 menuHidden ul-38">
+			<li class="menuLI level1 menuHidden li-38 children"><a class="menuA level1 menuHidden" href="https://ranchomirageca.gov/residents/city_programs_for_residents/index.php" target="_self">Programs</a>
+				<ul class="menuUL level2 menuHidden ul-3171">
+					<li class="menuLI level2 menuHidden li-3171"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/business/why_rancho_mirage/rancho_mirage_shop_local_program.php" target="_self">Shop Local Program</a></li>
+					<li class="menuLI level2 menuHidden li-45"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/city_programs_for_residents/adopt_a_pet.php" target="_self">Pet Adoption Program</a></li>
+					<li class="menuLI level2 menuHidden li-46"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/city_programs_for_residents/community_emergency_response_team.php" target="_self">Community Emergency Response Team</a></li>
+					<li class="menuLI level2 menuHidden li-1540"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/CITY STAFF USE THIS FILE/Department Files/Admin and Finance/City Programs For Residents/Electric Golf/APPLICATION-April-2019.pdf" target="_new">Electric Golf Cart Permit Registration Form</a></li>
+					<li class="menuLI level2 menuHidden li-48"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/city_programs_for_residents/ems_insurance_billing_program.php" target="_self">EMS Insurance Billing</a></li>
+					<li class="menuLI level2 menuHidden li-1429"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/living_in_rancho_mirage/public_transportation.php" target="_self">Public Transportation Services</a></li>
+					<li class="menuLI level2 menuHidden li-1056"><a class="menuA level2 menuHidden" href="https://ranchomirageenergy.org/index.php" target="_new">Rancho Mirage Energy Authority</a></li>
+					<li class="menuLI level2 menuHidden li-51"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/city_programs_for_residents/resident_valet_parking_permit.php" target="_self">Resident Valet Parking</a></li>
+					<li class="menuLI level2 menuHidden li-52"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/city_programs_for_residents/golf_in_rancho_mirage.php" target="_self">Golf in Rancho Mirage</a></li>
+					<li class="menuLI level2 menuHidden li-53"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/city_programs_for_residents/senior_programs.php" target="_self">Senior Programs</a></li>
+					<li class="menuLI level2 menuHidden li-54"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/city_programs_for_residents/short-term_rentals.php" target="_self">Short-Term Rentals</a></li>
+				</ul>
+			</li>
+			<li class="menuLI level1 menuHidden li-39 children"><a class="menuA level1 menuHidden" href="https://ranchomirageca.gov/residents/city_services/index.php" target="_self">City Services</a>
+				<ul class="menuUL level2 menuHidden ul-1051">
+					<li class="menuLI level2 menuHidden li-1051"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/business/doing_business_in_rancho_mirage/applications___forms.php" target="_self">Applications/Forms</a></li>
+					<li class="menuLI level2 menuHidden li-1054"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/building___safety.php" target="_self">Building Permits and Inspections</a></li>
+					<li class="menuLI level2 menuHidden li-1055"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/code_compliance_animal_services/index.php" target="_self">Code Compliance Animal Services</a></li>
+					<li class="menuLI level2 menuHidden li-58"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/city_services/online_solar_permitting.php" target="_self">Solar Permit</a></li>
+					<li class="menuLI level2 menuHidden li-1985"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/city_services/sustainability/index.php" target="_self">Sustainability</a></li>
+					<li class="menuLI level2 menuHidden li-2814"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/city_services/wireless_master_plan/index.php" target="_self">Wireless Master Plan</a></li>
+					<li class="menuLI level2 menuHidden li-3282"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/city_services/measure_r.php" target="_self">Measure R</a></li>
+				</ul>
+			</li>
+			<li class="menuLI level1 menuHidden li-41 children"><a class="menuA level1 menuHidden" href="https://ranchomirageca.gov/residents/culture_and_recreation/index.php" target="_self">Culture and Recreation</a>
+				<ul class="menuUL level2 menuHidden ul-68">
+					<li class="menuLI level2 menuHidden li-68"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/culture_and_recreation/city_events/index.php" target="_self">City Events</a></li>
+					<li class="menuLI level2 menuHidden li-69"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/culture_and_recreation/educational_centers.php" target="_self">Educational Centers</a></li>
+					<li class="menuLI level2 menuHidden li-70"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/culture_and_recreation/parks___trails.php" target="_self">Parks & Trails</a></li>
+					<li class="menuLI level2 menuHidden li-1126"><a class="menuA level2 menuHidden" href="https://www.ranchomiragelibrary.org/" target="_new">Library & Observatory</a></li>
+				</ul>
+			</li>
+			<li class="menuLI level1 menuHidden li-43 children"><a class="menuA level1 menuHidden" href="https://ranchomirageca.gov/residents/living_in_rancho_mirage/index.php" target="_self">Living in Rancho Mirage</a>
+				<ul class="menuUL level2 menuHidden ul-1574">
+					<li class="menuLI level2 menuHidden li-1574"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/affordable_housing.php" target="_self">Affordable Housing</a></li>
+					<li class="menuLI level2 menuHidden li-1962"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/ada_policy___procedure/index.php" target="_self">ADA & Disability Services</a></li>
+					<li class="menuLI level2 menuHidden li-79"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/living_in_rancho_mirage/local_area_agencies.php" target="_self">Local Area Agencies</a></li>
+					<li class="menuLI level2 menuHidden li-80"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/living_in_rancho_mirage/public_transportation.php" target="_self">Public Transportation</a></li>
+					<li class="menuLI level2 menuHidden li-81"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/living_in_rancho_mirage/schools.php" target="_self">Schools</a></li>
+					<li class="menuLI level2 menuHidden li-82"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/living_in_rancho_mirage/utilities.php" target="_self">Utilities</a></li>
+				</ul>
+			</li>
+			<li class="menuLI level1 menuHidden li-1326 children"><a class="menuA level1 menuHidden" href="https://ranchomirageca.gov/our_city/public_notices.php" target="_self">Public Notices</a>
+				<ul class="menuUL level2 menuHidden ul-1327">
+					<li class="menuLI level2 menuHidden li-1327"><a class="menuA level2 menuHidden" href="https://portal.laserfiche.com/portal/Welcome.aspx?repo=r-e15856c3" target="_new">Document Archive</a></li>
+					<li class="menuLI level2 menuHidden li-1571"><a class="menuA level2 menuHidden" href="https://go511.com/" target="_new">Traffic Alerts</a></li>
+				</ul>
+			</li>
+			<li class="menuLI level1 menuHidden li-44"><a class="menuA level1 menuHidden" href="https://ranchomirageca.gov/residents/volunteer_opportunities.php" target="_self">Volunteer Opportunities</a></li>
+		</ul>
+	</li>
+	<li class="menuLI level0 menuDisplay li-34 children"><a class="menuA level0 menuDisplay" href="https://ranchomirageca.gov/business/index.php" target="_self">Business</a>
+		<ul class="menuUL level1 menuHidden ul-83">
+			<li class="menuLI level1 menuHidden li-83 children"><a class="menuA level1 menuHidden" href="https://ranchomirageca.gov/business/why_rancho_mirage/index.php" target="_self">Why Rancho Mirage</a>
+				<ul class="menuUL level2 menuHidden ul-2906">
+					<li class="menuLI level2 menuHidden li-2906"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/business/why_rancho_mirage/rancho_mirage_shop_local_program.php" target="_self">Shop Local Program</a></li>
+					<li class="menuLI level2 menuHidden li-672"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/about_rancho_mirage/index.php" target="_self">About Rancho Mirage</a></li>
+					<li class="menuLI level2 menuHidden li-720"><a class="menuA level2 menuHidden" href="https://ranchomiragechamber.org/" target="_new">Rancho Mirage Chamber Of Commerce</a></li>
+				</ul>
+			</li>
+			<li class="menuLI level1 menuHidden li-84 children"><a class="menuA level1 menuHidden" href="https://ranchomirageca.gov/business/doing_business_in_rancho_mirage/index.php" target="_self">Doing Business in Rancho Mirage</a>
+				<ul class="menuUL level2 menuHidden ul-91">
+					<li class="menuLI level2 menuHidden li-91"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/business/doing_business_in_rancho_mirage/applications___forms.php" target="_self">Applications / Forms</a></li>
+					<li class="menuLI level2 menuHidden li-835"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/building___safety.php" target="_self">Building Permits & Inspections</a></li>
+					<li class="menuLI level2 menuHidden li-94"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/business/doing_business_in_rancho_mirage/business_licenses.php" target="_self">Business Licenses</a></li>
+					<li class="menuLI level2 menuHidden li-97"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/business/doing_business_in_rancho_mirage/frequently_asked_questions.php" target="_self">Frequently Asked Questions</a></li>
+					<li class="menuLI level2 menuHidden li-1991"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/city_services/sustainability/index.php" target="_self">Sustainability</a></li>
+				</ul>
+			</li>
+			<li class="menuLI level1 menuHidden li-85 children"><a class="menuA level1 menuHidden" href="https://ranchomirageca.gov/business/doing_business_with_the_city_of_rancho_mirage/index.php" target="_self">Doing Business with the City of Rancho Mirage</a>
+				<ul class="menuUL level2 menuHidden ul-920">
+					<li class="menuLI level2 menuHidden li-920"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/public_works/notices_inviting_bids_plans___specs.php" target="_self">Notices Inviting Bids</a></li>
+					<li class="menuLI level2 menuHidden li-2160"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/public_works/notices_inviting_bids_plans___specs.php" target="_self">Request for Proposals</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li class="menuLI level0 menuDisplay li-1645"><a class="menuA level0 menuDisplay" href="https://www.visitranchomirage.com/index.php" target="_new">Visitors</a></li>
+	<li class="menuLI level0 menuDisplay li-36 children"><a class="menuA level0 menuDisplay" href="https://ranchomirageca.gov/our_city/index.php" target="_self">Our City</a>
+		<ul class="menuUL level1 menuHidden ul-106">
+			<li class="menuLI level1 menuHidden li-106 children"><a class="menuA level1 menuHidden" href="https://ranchomirageca.gov/our_city/about_rancho_mirage/index.php" target="_self">About Rancho Mirage</a>
+				<ul class="menuUL level2 menuHidden ul-1919">
+					<li class="menuLI level2 menuHidden li-1919"><a class="menuA level2 menuHidden" href="https://rm50th.com/" target="_new">City History</a></li>
+					<li class="menuLI level2 menuHidden li-122"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/about_rancho_mirage/city_hall_holiday_closures.php" target="_self">City Hall Holiday Closures</a></li>
+				</ul>
+			</li>
+			<li class="menuLI level1 menuHidden li-111 children"><a class="menuA level1 menuHidden" href="https://ranchomirageca.gov/our_city/public_safety/index.php" target="_self">Public Safety</a>
+				<ul class="menuUL level2 menuHidden ul-1650">
+					<li class="menuLI level2 menuHidden li-1650"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/citizens_on_patrol_services_(cops).php" target="_self">Citizens on Patrol Services</a></li>
+					<li class="menuLI level2 menuHidden li-168"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/public_safety/fire.php" target="_self">Fire</a></li>
+					<li class="menuLI level2 menuHidden li-175"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/public_safety/police/index.php" target="_self">Police</a></li>
+					<li class="menuLI level2 menuHidden li-2711"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/public_safety/emergency_preparedness/index.php" target="_self">Emergency Preparedness</a></li>
+				</ul>
+			</li>
+			<li class="menuLI level1 menuHidden li-116 children"><a class="menuA level1 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/index.php" target="_self">Departments</a>
+				<ul class="menuUL level2 menuHidden ul-160">
+					<li class="menuLI level2 menuHidden li-160"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/building___safety.php" target="_self">Building & Safety</a></li>
+					<li class="menuLI level2 menuHidden li-161"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/city_attorney.php" target="_self">City Attorney</a></li>
+					<li class="menuLI level2 menuHidden li-162"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/city_clerk.php" target="_self">City Clerk</a></li>
+					<li class="menuLI level2 menuHidden li-163"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/city_manager.php" target="_self">City Manager</a></li>
+					<li class="menuLI level2 menuHidden li-164"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/code_compliance_animal_services/index.php" target="_self">Code Compliance/Animal Services</a></li>
+					<li class="menuLI level2 menuHidden li-167"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/finance/index.php" target="_self">Finance</a></li>
+					<li class="menuLI level2 menuHidden li-169"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/housing.php" target="_self">Housing</a></li>
+					<li class="menuLI level2 menuHidden li-170"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/human_resources/index.php" target="_self">Human Resources</a></li>
+					<li class="menuLI level2 menuHidden li-171"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/information_services.php" target="_self">Information Services</a></li>
+					<li class="menuLI level2 menuHidden li-794"><a class="menuA level2 menuHidden" href="https://www.ranchomiragelibrary.org/" target="_new">Library & Observatory</a></li>
+					<li class="menuLI level2 menuHidden li-173"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/marketing.php" target="_self">Marketing</a></li>
+					<li class="menuLI level2 menuHidden li-174"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/planning/index.php" target="_self">Planning</a></li>
+					<li class="menuLI level2 menuHidden li-176"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/public_works/index.php" target="_self">Public Works</a></li>
+				</ul>
+			</li>
+			<li class="menuLI level1 menuHidden li-112 children"><a class="menuA level1 menuHidden" href="https://ranchomirageca.gov/our_city/city_government/index.php" target="_self">Government</a>
+				<ul class="menuUL level2 menuHidden ul-136">
+					<li class="menuLI level2 menuHidden li-136"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_government/city_council_meeting_agendas/index.php" target="_self">Meeting Agendas & Minutes</a></li>
+					<li class="menuLI level2 menuHidden li-1963"><a class="menuA level2 menuHidden" href="https://portal.laserfiche.com/portal/Welcome.aspx?repo=r-e15856c3" target="_new">Document Archive</a></li>
+					<li class="menuLI level2 menuHidden li-137"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_government/city_council/index.php" target="_self">City Council</a></li>
+					<li class="menuLI level2 menuHidden li-563"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/calendar.php" target="_self">Meeting Schedule</a></li>
+					<li class="menuLI level2 menuHidden li-564"><a class="menuA level2 menuHidden" href="https://ecode360.com/RA4993" target="_new">Municipal Code</a></li>
+				</ul>
+			</li>
+			<li class="menuLI level1 menuHidden li-115"><a class="menuA level1 menuHidden" href="https://ranchomirageca.gov/our_city/city_boards___commissions/index.php" target="_self">Boards & Commissions</a></li>
+			<li class="menuLI level1 menuHidden li-141"><a class="menuA level1 menuHidden" href="https://ranchomirageca.gov/our_city/public_notices.php" target="_self">Public Notices</a></li>
+			<li class="menuLI level1 menuHidden li-114"><a class="menuA level1 menuHidden" href="https://ranchomirageca.gov/our_city/state_federal_representatives.php" target="_self">State/Federal Representatives</a></li>
+			<li class="menuLI level1 menuHidden li-113"><a class="menuA level1 menuHidden" href="https://ranchomirageca.gov/our_city/election_information.php" target="_self">Elections</a></li>
+		</ul>
+	</li>
+	<li class="menuLI level0 menuDisplay li-37 children"><a class="menuA level0 menuDisplay" href="https://ranchomirageca.gov/how_do_i/index.php" target="_self">How Do I</a>
+		<ul class="menuUL level1 menuHidden menuNone ul-1653">
+			<li class="menuLI level1 menuHidden menuNone li-1653 children"><span>Apply For...</span>
+				<ul class="menuUL level2 menuHidden ul-1661">
+					<li class="menuLI level2 menuHidden li-1661"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/affordable_housing.php" target="_self">Affordable Housing</a></li>
+					<li class="menuLI level2 menuHidden li-1662"><a class="menuA level2 menuHidden" href="https://riversidecounty.docupet.com/en_US/licensing" target="_new">Animal License</a></li>
+					<li class="menuLI level2 menuHidden li-1663"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/CITY STAFF USE THIS FILE/Applications & Forms/ Building and Safety/Building Permit Application August 2026.pdf" target="_new">Building Permit</a></li>
+					<li class="menuLI level2 menuHidden li-1664"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/business/doing_business_in_rancho_mirage/business_licenses.php" target="_self">Business License</a></li>
+					<li class="menuLI level2 menuHidden li-1665"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/citizens_on_patrol_services_(cops).php" target="_self">Citizens On Patrol (COPS)</a></li>
+					<li class="menuLI level2 menuHidden li-1666"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_boards___commissions/index.php" target="_self">Commissions/Committees/Boards</a></li>
+					<li class="menuLI level2 menuHidden li-1667"><a class="menuA level2 menuHidden" href="https://www.governmentjobs.com/careers/ranchomirageca" target="_new">Employment Opportunities with the City</a></li>
+					<li class="menuLI level2 menuHidden li-1668"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/CITY STAFF USE THIS FILE/Applications & Forms/ Public Works/Encroachment Permit.pdf" target="_new">Encroachment Permit</a></li>
+					<li class="menuLI level2 menuHidden li-1669"><a class="menuA level2 menuHidden" href="https://www.governmentjobs.com/careers/ranchomirageca" target="_new">Internship</a></li>
+					<li class="menuLI level2 menuHidden li-1670"><a class="menuA level2 menuHidden" href="https://www.ranchomiragelibrary.org/index.php" target="_new">Library Card</a></li>
+					<li class="menuLI level2 menuHidden li-1671"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/CITY STAFF USE THIS FILE/Applications & Forms/ Public Works/Lot-Line-Adjustment-Form.docx" target="_new">Lot Line Adjustment</a></li>
+					<li class="menuLI level2 menuHidden li-1672"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/CITY STAFF USE THIS FILE/Applications & Forms/ Public Works/Parcel-Merger-Form.docx" target="_new">Parcel Merger</a></li>
+					<li class="menuLI level2 menuHidden li-1673"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/city_programs_for_residents/golf_in_rancho_mirage.php" target="_self">Golf in Rancho Mirage</a></li>
+				</ul>
+			</li>
+			<li class="menuLI level1 menuHidden menuNone li-1654 children"><span>Contact...</span>
+				<ul class="menuUL level2 menuHidden ul-1674">
+					<li class="menuLI level2 menuHidden li-1674"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_government/city_council/mayor___council_members.php" target="_self">City Council Members</a></li>
+					<li class="menuLI level2 menuHidden li-1675"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/index.php" target="_self">City Departments</a></li>
+					<li class="menuLI level2 menuHidden li-1676"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/public_safety/fire.php" target="_self">Fire</a></li>
+					<li class="menuLI level2 menuHidden li-1677"><a class="menuA level2 menuHidden" href="https://www.ranchomiragelibrary.org/" target="_new">Library & Observatory</a></li>
+					<li class="menuLI level2 menuHidden li-1678"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/living_in_rancho_mirage/local_area_agencies.php" target="_self">Other Local Area Agencies</a></li>
+					<li class="menuLI level2 menuHidden li-1679"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/state_federal_representatives.php" target="_self">Other Elected Officials</a></li>
+					<li class="menuLI level2 menuHidden li-1680"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/public_safety/police/index.php" target="_self">Police</a></li>
+					<li class="menuLI level2 menuHidden li-1681"><a class="menuA level2 menuHidden" href="mailto:Websupport@ranchomirageca.gov" target="_self">Website Coordinator</a></li>
+				</ul>
+			</li>
+			<li class="menuLI level1 menuHidden menuNone li-1655 children"><span>Find...</span>
+				<ul class="menuUL level2 menuHidden ul-1780">
+					<li class="menuLI level2 menuHidden li-1780"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/ada_policy___procedure/index.php" target="_self">ADA Policy & Procedure</a></li>
+					<li class="menuLI level2 menuHidden li-1683"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/business/doing_business_in_rancho_mirage/applications___forms.php" target="_self">Applications / Forms</a></li>
+					<li class="menuLI level2 menuHidden li-1684"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/election_information.php" target="_self">Election Information</a></li>
+					<li class="menuLI level2 menuHidden li-1685"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_boards___commissions/emergency_preparedness_commission/plan,_prepare___stay_informed/index.php" target="_self">Emergency Preparedness Information</a></li>
+					<li class="menuLI level2 menuHidden li-1686"><a class="menuA level2 menuHidden" href="https://ranchomiragelibrary.libcal.com/calendar?cid=19186&t=m&d=0000-00-00&cal=19186&inc=0" target="_new">Library & Observatory Events Calendar</a></li>
+					<li class="menuLI level2 menuHidden li-1687"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/public_works/notices_inviting_bids_plans___specs.php" target="_self">Notice of Bids/Requests for Proposals</a></li>
+					<li class="menuLI level2 menuHidden li-1688"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/culture_and_recreation/parks___trails.php" target="_self">Parks & Trails</a></li>
+					<li class="menuLI level2 menuHidden li-1689"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/finance/redevelopment_successor_agency.php" target="_self">Redevelopment Successor Agency</a></li>
+					<li class="menuLI level2 menuHidden li-1690"><a class="menuA level2 menuHidden" href="https://www.visitranchomirage.com/index.php" target="_new">Visitor Information</a></li>
+				</ul>
+			</li>
+			<li class="menuLI level1 menuHidden menuNone li-1656 children"><span>Pay For...</span>
+				<ul class="menuUL level2 menuHidden ul-1691">
+					<li class="menuLI level2 menuHidden li-1691"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/business/doing_business_in_rancho_mirage/business_licenses.php" target="_self">Business License</a></li>
+					<li class="menuLI level2 menuHidden li-1692"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/police/faqs.php#collapse6910b9 " target="_self">Parking Citation</a></li>
+				</ul>
+			</li>
+			<li class="menuLI level1 menuHidden menuNone li-1657 children"><span>Register...</span>
+				<ul class="menuUL level2 menuHidden ul-1694">
+					<li class="menuLI level2 menuHidden li-1694"><a class="menuA level2 menuHidden" href="https://riversidecounty.docupet.com/en_US/licensing" target="_new">My Pet in the City of RM</a></li>
+					<li class="menuLI level2 menuHidden li-1695"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/election_information.php" target="_self">To Vote</a></li>
+				</ul>
+			</li>
+			<li class="menuLI level1 menuHidden menuNone li-1658 children"><span>Report...</span>
+				<ul class="menuUL level2 menuHidden ul-1696">
+					<li class="menuLI level2 menuHidden li-1696"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/code_compliance_animal_services/code_compliance_complaint_form.php" target="_self">Code/Animal Violation</a></li>
+					<li class="menuLI level2 menuHidden li-1700"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/residents/living_in_rancho_mirage/utilities.php" target="_self">Water or Sewer Problem</a></li>
+					<li class="menuLI level2 menuHidden li-1701"><a class="menuA level2 menuHidden" href="mailto:Websupport@ranchomirageca.gov" target="_self">Website Problem</a></li>
+				</ul>
+			</li>
+			<li class="menuLI level1 menuHidden menuNone li-1659 children"><span>Request...</span>
+				<ul class="menuUL level2 menuHidden ul-1702">
+					<li class="menuLI level2 menuHidden li-1702"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/building___safety.php" target="_self">Building Inspection</a></li>
+					<li class="menuLI level2 menuHidden li-1703"><a class="menuA level2 menuHidden" href="https://ranchomirageca.justfoia.com/publicportal/home/newrequest" target="_new">Public Records</a></li>
+				</ul>
+			</li>
+			<li class="menuLI level1 menuHidden menuNone li-1660 children"><span>View...</span>
+				<ul class="menuUL level2 menuHidden ul-1704">
+					<li class="menuLI level2 menuHidden li-1704"><a class="menuA level2 menuHidden" href="https://portal.laserfiche.com/Portal/Browse.aspx?id=77121&repo=r-e15856c3" target="_new">Archived Meeting Agendas, Minutes, & Videos</a></li>
+					<li class="menuLI level2 menuHidden li-1705"><a class="menuA level2 menuHidden" href="https://www.netfile.com/agency/CRM/index.html" target="_new">Campaign Disclosure Statements</a></li>
+					<li class="menuLI level2 menuHidden li-1706"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/finance/index.php" target="_self">City Budget</a></li>
+					<li class="menuLI level2 menuHidden li-1707"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_government/city_council_meeting_agendas/index.php" target="_self">City Council Meetings</a></li>
+					<li class="menuLI level2 menuHidden li-1708"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_publications___media/index.php" target="_self">City Publications</a></li>
+					<li class="menuLI level2 menuHidden li-1709"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/city_government/city_council_meeting_agendas/index.php" target="_self">Current Meeting Agendas</a></li>
+					<li class="menuLI level2 menuHidden li-1711"><a class="menuA level2 menuHidden" href="https://www.governmentjobs.com/careers/ranchomirageca" target="_new">Employment Opportunities with the City</a></li>
+					<li class="menuLI level2 menuHidden li-1712"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/calendar.php" target="_self">Meeting Calendar</a></li>
+					<li class="menuLI level2 menuHidden li-1713"><a class="menuA level2 menuHidden" href="https://ecode360.com/RA4993" target="_new">Municipal Code</a></li>
+					<li class="menuLI level2 menuHidden li-1714"><a class="menuA level2 menuHidden" href="https://ranchomirageca.gov/our_city/public_notices.php" target="_self">Public Notices</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HBZPFWVZNE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){window.dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-HBZPFWVZNE');
+</script>
+
+
+
+
+
+					</nav><!--/.col-lg-6-->
+					<div class="divider">
+						<div id="search">
+							<form class="search-form" method="GET" action="https://ranchomirageca.gov/search.php" role="search" aria-label="sitewide">
+								<input name="q" class="form-control search-input" placeholder="Start your search..." type="search" id="search-input">
+								<button><img src="https://ranchomirageca.gov/_assets_/images/search-icon.png" alt="search-icon"></button>
+							</form>
+						</div><!-- #search -->
+						<div class="tools">
+							<div id="translation">
+								<div id="google-translate" class="d-none">
+									<script>
+										function googleTranslateElementInit() {
+											new google.translate.TranslateElement({
+													pagelanguage: 'en',
+													layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+												},
+												'google-translate');
+										}
+									</script>
+								</div>
+								<!--/#google-translate-->
+								<ul id="translation-links">
+									<li><button type="button" id="translate-button" aria-label="translate website" aria-haspopup="true" aria-expanded="false">En<img src="https://ranchomirageca.gov/_assets_/images/rectangle.png" alt="icon"></button></button>
+										<ul class="clearfix" aria-labelledby="translate-button">
+											<li><a href="#" class="English" data-lang="English"><strong translate="no">English</strong></a></li>
+											<li><a href="#" class="Afrikaans" data-lang="Afrikaans">Afrikaans</a></li>
+											<li><a href="#" class="Albanian" data-lang="Albanian">Albanian</a></li>
+											<li><a href="#" class="Arabic" data-lang="Arabic">Arabic</a></li>
+											<li><a href="#" class="Armenian" data-lang="Armenian">Armenian</a></li>
+											<li><a href="#" class="Azerbaijani" data-lang="Azerbaijani">Azerbaijani</a></li>
+											<li><a href="#" class="Basque" data-lang="Basque">Basque</a></li>
+											<li><a href="#" class="Belarusian" data-lang="Belarusian">Belarusian</a></li>
+											<li><a href="#" class="Bengali" data-lang="Bengali">Bengali</a></li>
+											<li><a href="#" class="Bosnian" data-lang="Bosnian">Bosnian</a></li>
+											<li><a href="#" class="Bulgarian" data-lang="Bulgarian">Bulgarian</a></li>
+											<li><a href="#" class="Catalan" data-lang="Catalan">Catalan</a></li>
+											<li><a href="#" class="Cebuano" data-lang="Cebuano">Cebuano</a></li>
+											<li><a href="#" class="Chinese" data-lang="Chinese (Simplified)">Chinese (Simplified)</a></li>
+											<li><a href="#" class="Chinese" data-lang="Chinese (Traditional)">Chinese (Traditional)</a></li>
+											<li><a href="#" class="Croatian" data-lang="Croatian">Croatian</a></li>
+											<li><a href="#" class="Czech" data-lang="Czech">Czech</a></li>
+											<li><a href="#" class="Danish" data-lang="Danish">Danish</a></li>
+											<li><a href="#" class="Dutch" data-lang="Dutch">Dutch</a></li>
+											<li><a href="#" class="Esperanto" data-lang="Esperanto">Esperanto</a></li>
+											<li><a href="#" class="Estonian" data-lang="Estonian">Estonian</a></li>
+											<li><a href="#" class="Filipino" data-lang="Filipino">Filipino</a></li>
+											<li><a href="#" class="Finnish" data-lang="Finnish">Finnish</a></li>
+											<li><a href="#" class="French" data-lang="French">French</a></li>
+											<li><a href="#" class="Galician" data-lang="Galician">Galician</a></li>
+											<li><a href="#" class="Georgian" data-lang="Georgian">Georgian</a></li>
+											<li><a href="#" class="German" data-lang="German">German</a></li>
+											<li><a href="#" class="Greek" data-lang="Greek">Greek</a></li>
+											<li><a href="#" class="Gujarati" data-lang="Gujarati">Gujarati</a></li>
+											<li><a href="#" class="Haitian Creole" data-lang="Haitian Creole">Haitian Creole</a></li>
+											<li><a href="#" class="Hausa" data-lang="Hausa">Hausa</a></li>
+											<li><a href="#" class="Hebrew" data-lang="Hebrew">Hebrew</a></li>
+											<li><a href="#" class="Hindi" data-lang="">Hindi</a></li>
+											<li><a href="#" class="Hmong" data-lang="Hmong">Hmong</a></li>
+											<li><a href="#" class="Hungarian" data-lang="Hungarian">Hungarian</a></li>
+											<li><a href="#" class="Icelandic" data-lang="Icelandic">Icelandic</a></li>
+											<li><a href="#" class="Igbo" data-lang="Igbo">Igbo</a></li>
+											<li><a href="#" class="Indonesian" data-lang="Indonesian">Indonesian</a></li>
+											<li><a href="#" class="Irish" data-lang="Irish">Irish</a></li>
+											<li><a href="#" class="Italian" data-lang="Italian">Italian</a></li>
+											<li><a href="#" class="Japanese" data-lang="Japanese">Japanese</a></li>
+											<li><a href="#" class="Javanese" data-lang="Javanese">Javanese</a></li>
+											<li><a href="#" class="Kannada" data-lang="Kannada">Kannada</a></li>
+											<li><a href="#" class="Khmer" data-lang="Khmer">Khmer</a></li>
+											<li><a href="#" class="Korean" data-lang="Korean">Korean</a></li>
+											<li><a href="#" class="Lao" data-lang="Lao">Lao</a></li>
+											<li><a href="#" class="Latin" data-lang="Latin">Latin</a></li>
+											<li><a href="#" class="Latvian" data-lang="Latvian">Latvian</a></li>
+											<li><a href="#" class="Lithuanian" data-lang="Lithuanian">Lithuanian</a></li>
+											<li><a href="#" class="Macedonian" data-lang="Macedonian">Macedonian</a></li>
+											<li><a href="#" class="Malay" data-lang="Malay">Malay</a></li>
+											<li><a href="#" class="Maltese" data-lang="Maltese">Maltese</a></li>
+											<li><a href="#" class="Maori" data-lang="Maori">Maori</a></li>
+											<li><a href="#" class="Marathi" data-lang="Marathi">Marathi</a></li>
+											<li><a href="#" class="Mongolian" data-lang="Mongolian">Mongolian</a></li>
+											<li><a href="#" class="Nepali" data-lang="Nepali">Nepali</a></li>
+											<li><a href="#" class="Norwegian" data-lang="Norwegian">Norwegian</a></li>
+											<li><a href="#" class="Persian" data-lang="Persian">Persian</a></li>
+											<li><a href="#" class="Polish" data-lang="Polish">Polish</a></li>
+											<li><a href="#" class="Portuguese" data-lang="Portuguese">Portuguese</a></li>
+											<li><a href="#" class="Punjabi" data-lang="Punjabi">Punjabi</a></li>
+											<li><a href="#" class="Romanian" data-lang="Romanian">Romanian</a></li>
+											<li><a href="#" class="Russian" data-lang="Russian">Russian</a></li>
+											<li><a href="#" class="Serbian" data-lang="Serbian">Serbian</a></li>
+											<li><a href="#" class="Slovak" data-lang="Slovak">Slovak</a></li>
+											<li><a href="#" class="Slovenian" data-lang="Slovenian">Slovenian</a></li>
+											<li><a href="#" class="Somali" data-lang="Somali">Somali</a></li>
+											<li><a href="#" class="Spanish" data-lang="Spanish">Spanish</a></li>
+											<li><a href="#" class="Swahili" data-lang="Swahili">Swahili</a></li>
+											<li><a href="#" class="Swedish" data-lang="Swedish">Swedish</a></li>
+											<li><a href="#" class="Tamil" data-lang="Tamil">Tamil</a></li>
+											<li><a href="#" class="Telugu" data-lang="Telugu">Telugu</a></li>
+											<li><a href="#" class="Thai" data-lang="Thai">Thai</a></li>
+											<li><a href="#" class="Turkish" data-lang="Turkish">Turkish</a></li>
+											<li><a href="#" class="Ukrainian" data-lang="Ukrainian">Ukrainian</a></li>
+											<li><a href="#" class="Urdu" data-lang="Urdu">Urdu</a></li>
+											<li><a href="#" class="Vietnamese" data-lang="Vietnamese">Vietnamese</a></li>
+											<li><a href="#" class="Welsh" data-lang="Welsh">Welsh</a></li>
+											<li><a href="#" class="Yiddish" data-lang="Yiddish">Yiddish</a></li>
+											<li><a href="#" class="Yoruba" data-lang="Yoruba">Yoruba</a></li>
+											<li><a href="#" class="Zulu" data-lang="Zulu">Zulu</a></li>
+										</ul>
+									</li>
+								</ul><!--/#translation-links-->
+							</div><!-- ./translation -->	
+							<div class="weather-wrap">	
+								<span>local weather</span>
+								<div id="weather" class="weather">Weather</div>	
+							</div>
+						</div><!-- ./tools -->
+					</div><!-- ./col-lg-2 -->
+				</div><!-- ./row -->
+			</div><!-- ./container -->
+		</div><!-- #header-btm -->
+	</header>
+
+
+<script language="JavaScript" type="text/JavaScript">
+if (typeof RZlistbegin != 'undefined') RZlistbegin(1)
+</script>
+<script language="JavaScript" type="text/JavaScript">
+if (typeof RZlinktemplate != 'undefined') RZlinktemplate('slider','','')
+if (typeof RZ.nextseq != 'undefined') RZ.nextseq.modules['slider_1']={field:'seq_no',seq:'1.00'};
+</script>
+
+
+
+<section id="slider" class="tiny-slider-wrap">
+	<ul class="tiny-slider">
+		<li class="tiny-item"><div class="tns-lazy-img tns-bg-slide" data-style="background:url('_assets_/images/inner.jpg') center no-repeat;background-size:cover"></div></li>
+	</ul><!--/.tiny-slider-->
+</section><!--/#slider-->
+<div class="fsliderbtn">
+	<script language="JavaScript" type="text/JavaScript">
+		RZ.module = 'slider';
+		RZ.nexturl = 'editforms/slider_images-editlist.jsp?width=1600&height=440&pageid=3282';
+		RZ.img = '<span class="rzBtn noPush">Edit Slides</span>';
+		RZ.set = '';
+		RZ.options = '';
+		if (typeof RZaction != 'undefined') RZaction('editform');
+	</script>
+</div>
+
+
+
+<main id="main">
+    <div class="container">
+        
+<div class="row">
+            <div class="col-lg-3">
+                <aside class="fillLeft withPadding"> 
+				
+
+                    <div id="flyout-wrap">
+                        <h2 id="flyout-header">
+						<script language="JavaScript" type="text/JavaScript">
+							RZ.module = 'freeform';
+							RZ.nexturl = 'editforms/leftnav_title-editform.jsp';
+							RZ.img = '<span class="rzBtn noPush rzSmall">Edit Header</span>';
+							RZ.set = 'pageid=links-3282';
+							RZ.options = '';
+							if (typeof RZaction != 'undefined') RZaction('editform');
+						</script>
+						Related Pages
+					</h2>
+                        
+
+
+					<script language="JavaScript" type="text/JavaScript">
+						RZ.module = 'links';
+						RZ.nexturl = "/revize/plugins/menus/webspace_menu-editlist.jsp?pageid=links-3282&"
+								 + "linksfilter=linkplacement=leftnav and linkparentid=39::linkplacement=leftnav and linkparentid=3282&"
+								 + "numberoflevels=2&"
+								 + "linkoptions=url,template,file&"
+								 + "linknewsection=*all*";
+						RZ.img = '<span class="rzBtn rzSmall" style="margin-top:0">Edit Left Nav</span>';
+						RZ.caption = '';
+						RZ.set = "links.linkplacement=leftnav"
+						RZ.options = '';
+						if (typeof RZaction != 'undefined') RZaction('editlist');
+					</script>
+					
+ <ul  id="flyout" class="v08-30-2012">
+	<li id="li-1310" class="menuLI level0 menuHidden"><a class="menuA level0 menuHidden" href="https://ranchomirageca.gov/business/doing_business_in_rancho_mirage/applications___forms.php" target="_self" >Applications Forms</a></li>
+	<li id="li-1311" class="menuLI level0 menuHidden"><a class="menuA level0 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/building___safety.php" target="_self" >Building Permits and Inspections</a></li>
+	<li id="li-1312" class="menuLI level0 menuHidden"><a class="menuA level0 menuHidden" href="https://ranchomirageca.gov/residents/city_services/online_solar_permitting.php" target="_self" >Solar Permit</a></li>
+	<li id="li-1313" class="menuLI level0 menuHidden"><a class="menuA level0 menuHidden" href="https://ranchomirageca.gov/our_city/city_departments/code_compliance_animal_services/index.php" target="_self" >Code ComplianceAnimal Services</a></li>
+	<li id="li-1314" class="menuLI level0 menuHidden"><a class="menuA level0 menuHidden" href="https://ranchomirageenergy.org/%20" target="_blank" >Rancho Mirage Energy Authority</a></li>
+	<li id="li-2012" class="menuLI level0 menuHidden"><a class="menuA level0 menuHidden" href="https://ranchomirageca.gov/residents/city_services/sustainability/index.php" target="_self" >Sustainability</a></li>
+</ul>
+
+                    </div><!--/#flyout-wrap-->
+                </aside>
+            </div><!--/.col-lg-3-->
+            <div class="col-lg-9">
+
+                <article id="entry">
+                    <div id="breadcrumbs">
+                        <ul><li><a href="https://ranchomirageca.gov/./">Home</a> </li><li><a href="https://ranchomirageca.gov/residents/index.php">Residents</a> </li><li><a href="https://ranchomirageca.gov/residents/city_services/index.php">City&nbsp;Services</a> </li><li>Measure&nbsp;R</li></ul>
+                    </div><!--/#breadcrumbs-->
+                    <h1 id="page-title">
+
+Measure R </h1>
+                     
+<div id="post">
+<div>
+	
+	
+	<script language="JavaScript" type="text/JavaScript">
+		RZ.module = 'freeform';
+		RZ.nexturl = 'editforms/freeform-editform.jsp?';
+		RZ.img = '<span class="rzBtn">Edit Content</span>';
+		RZ.set = 'pageid=links-3282';
+		RZ.options = '';
+		if (typeof RZaction != 'undefined') RZaction('editform');
+	</script>
+			
+	
+	<script language="JavaScript" type="text/JavaScript">
+		RZ.module = 'freeform';
+		RZ.nexturl = 'editforms/metadata-editform.jsp?';
+		RZ.img = '<span class="rzBtn">Edit Metadata</span>';
+		RZ.set = 'pageid=links-3282';
+		RZ.options = '';
+		if (typeof RZaction != 'undefined') RZaction('editform');
+	</script>
+	<script language="JavaScript" type="text/JavaScript">
+		RZ.nexturl = '';
+		RZ.img = '<span class="rzAdmin"><img src="https://ranchomirageca.gov/images/edit/permissions.jpg" alt="Permissions" border="0" class="rzBtn" /></span>';
+		RZ.options = '';
+		if (typeof RZaction != 'undefined') RZaction('permissions');
+	</script>
+	
+</div>
+<p>On this page you will find information about Measure R: A local sales tax ballot measure proposed in Rancho Mirage for November 2026.<br /><br /><strong>What is Measure R?<br /></strong>Measure R was referred to the ballot by the Rancho Mirage City Council. If approved by a majority of voters, it would establish a one cent transactions and use tax on taxable sales within the City, with revenue deposited into the City's General Fund. A "YES vote" approves the measure. A "NO vote" rejects the measure.</p>
+<strong>Background</strong>
+<p>The City of Rancho Mirage maintains local services that include Sheriff's patrols and crime prevention, fire protection and 9-1-1 emergency medical response, street and road maintenance, parks, the City's Library and Observatory, and other public facilities and programs. Public safety services are provided under contract with the Riverside County Sheriff's Department and CAL FIRE/Riverside County Fire.</p>
+<p>Citing increased costs for provisioning of various City services, including public safety, and additional budget constraints, the Rancho Mirage City Council unanimously referred Measure R&nbsp; to the November 2026 ballot for consideration by City voters. It is a General Tax to fund the City&rsquo;s General Fund, and subject to simple majority vote by the voters of Rancho Mirage.&nbsp;&nbsp;</p>
+<p><strong>Key Facts About Measure R</strong></p>
+<ul>
+<li>Referred to the November 3, 2026 ballot by the Rancho Mirage City Council on July 16, 2026, by a unanimous vote of 5-0.</li>
+<li>The measure would establish a one cent (1%) transactions and use tax, commonly called a sales tax, on taxable sales within the City of Rancho Mirage.</li>
+<li>The City's current sales tax rate is 7.75%. If the measure passes, the rate would be 8.75%, the same rate currently charged in Palm Desert, La Quinta, Indio, Coachella and Desert Hot Springs.</li>
+<li>The tax would be paid by anyone making a taxable purchase in Rancho Mirage, including visitors. City estimates indicate that approximately 75% of sales tax dollars collected in Rancho Mirage are paid by tourists and visitors. Certain items are exempt from sales tax under state law, including most groceries, prescriptions and many medical supplies, rent, utilities and services.</li>
+<li>The measure is a general tax. Revenue would be deposited in the City's General Fund for general government purposes and could be used for any lawful City purpose. By law these funds would have to remain in Rancho Mirage, can cannot be taken by the State or County.&nbsp;</li>
+<li>City staff estimate the tax would generate approximately $7.5 million annually. Funds would remain in Rancho Mirage and could not be taken by the State or transferred to another agency.</li>
+<li>The measure would remain in effect until ended by voters and would require public disclosure of spending.</li>
+</ul>
+<p>Rancho Mirage is a low property tax city, and an average of less than 4% of each&nbsp; property tax dollar collected within the City is allocated to the City's General Fund. The City's budgeted General Fund for the current fiscal year is $38.4 million, of which approximately 50% is devoted to public safety and approximately 12% to public works.</p>
+<p><strong>What is the actual question that voters will be asked to decide?<br /><br /></strong><strong>Rancho Mirage Public Safety, Roads, City Services Measure<br /></strong><em>"RANCHO MIRAGE PUBLIC SAFETY, ROADS, CITY SERVICES MEASURE. Shall the measure maintaining Rancho Mirage's long-term financial stability, City services such as 9-1-1 emergency medical/fire response, fire protection, Sheriff's patrols, crime prevention/response programs; keeping public areas safe/clean; maintaining streets, roads, parks, libraries, fire stations; retaining/attracting local businesses, other services, by establishing a 1&cent; sales tax generating approximately $7,500,000 (seven point five million dollars) annually until ended by voters, requiring public spending disclosure, funds for Rancho Mirage only, be adopted?&nbsp; YES&nbsp; NO"</em></p>
+<p><strong>How could Measure R funds be used?<br /></strong>Measure R revenue would be deposited into the City's General Fund. Funds could be used to support services that include:</p>
+<ul>
+<li>9-1-1 emergency medical and fire response</li>
+<li>Fire protection</li>
+<li>Sheriff's patrols and crime prevention and response programs</li>
+<li>Maintaining streets, roads, sidewalks and parks</li>
+<li>Maintaining libraries, fire stations and other City facilities</li>
+<li>Retaining and attracting local businesses</li>
+<li>Maintaining the City's long-term fiscal stability</li>
+<li>Any other services and infrastructure maintained by the City&rsquo;s General Fund.</li>
+</ul>
+<strong>Measure Documents</strong><br />
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; width: 100%; max-width: 850px; margin: 0 auto;"><span class="btn btn-primary" style="display: block !important; width: 100% !important; height: 54px !important; min-height: 54px !important; padding: 0 !important; margin: 0 !important; box-sizing: border-box !important;"> <a style="display: flex !important; align-items: center !important; justify-content: center !important; width: 100% !important; height: 100% !important; padding: 8px 10px !important; margin: 0 !important; box-sizing: border-box !important; color: inherit !important; text-decoration: none !important; white-space: nowrap !important; line-height: 1.2 !important; font-size: 15px !important;" href="https://voteinfo.net/election-calendars#docaccess-d8a3bf378b577225aa4163ffb2b2c4e9" target="_blank"> Election Calendar </a> </span> <span class="btn btn-primary" style="display: block !important; width: 100% !important; height: 54px !important; min-height: 54px !important; padding: 0 !important; margin: 0 !important; box-sizing: border-box !important;"> <a href= "https://ranchomirageca.gov/CITY STAFF USE THIS FILE/Department Files/Admin and Finance/Measure R/RM Resolution No. 2026-43.pdf?t=202607201419550" style="display: flex !important; align-items: center !important; justify-content: center !important; width: 100% !important; height: 100% !important; padding: 8px 10px !important; margin: 0 !important; box-sizing: border-box !important; color: inherit !important; text-decoration: none !important; white-space: nowrap !important; line-height: 1.2 !important; font-size: 15px !important;"  target="_blank"  > Resolution No. 2026-43 </a> </span> <span class="btn btn-primary" style="display: block !important; width: 100% !important; height: 54px !important; min-height: 54px !important; padding: 0 !important; margin: 0 !important; box-sizing: border-box !important;"> <a href= "https://ranchomirageca.gov/CITY STAFF USE THIS FILE/Department Files/Admin and Finance/Measure R/RM Resolution No. 2026-44.pdf?t=202607201420250" style="display: flex !important; align-items: center !important; justify-content: center !important; width: 100% !important; height: 100% !important; padding: 8px 10px !important; margin: 0 !important; box-sizing: border-box !important; color: inherit !important; text-decoration: none !important; white-space: nowrap !important; line-height: 1.2 !important; font-size: 15px !important;"  target="_blank"  > Resolution No. 2026-44 </a> </span> <span class="btn btn-primary" style="display: block !important; width: 100% !important; height: 54px !important; min-height: 54px !important; padding: 0 !important; margin: 0 !important; box-sizing: border-box !important;"> <a href= "https://ranchomirageca.gov/CITY STAFF USE THIS FILE/Department Files/Admin and Finance/Measure R/RM Resolution No. 2026-45.pdf?t=202607201421030" style="display: flex !important; align-items: center !important; justify-content: center !important; width: 100% !important; height: 100% !important; padding: 8px 10px !important; margin: 0 !important; box-sizing: border-box !important; color: inherit !important; text-decoration: none !important; white-space: nowrap !important; line-height: 1.2 !important; font-size: 15px !important;"  target="_blank"  > Resolution No. 2026-45 </a> </span></div>
+
+
+	<style>
+	/** New FAQ Styles **/
+	input#faq-filter {height: 34px;border-color: #193441;border-radius: 3px;font-size: 12px;width: 40%;color: #193441;padding: 0 15px 0 15px;margin-bottom: 5px;}
+	.faq-header {margin: 10px 0;font-size: 24px;font-weight: 700;padding: 10px;display:inline-block;text-decoration:none;color:#000!important}
+	.faq-answer{margin:0 15px;}
+	.faq-search{text-align:right}
+	.faq-item {margin-top: 20px;}
+	.faq-question, .faq-header {border-bottom: 1px solid rgba(25, 52, 65, 0.4);}
+	.faq-question .faq-question-header{text-decoration: none;font-size: 16px;font-weight: bold;color: #193441;cursor: pointer}
+	.faq-header:not(.collapsed)::before, .faq-question .faq-question-header.active-question:before{content: '\f107';}
+	.faq-header::before, .faq-question .faq-question-header:before{content: '\f105';font-family: 'FontAwesome';margin-right:8px;display:inline-block;color:#000;font-weight: 700;}
+	.faq-container .categorybtn {margin-bottom: 5px;/* display: none; */display: inline-block;}
+	#example a[href*="tel"],#example a[href*="mailto"] {white-space: nowrap;}
+	.faq-editbtns{float:right;line-height:0}
+	.rzFaqBtn>i{width:25px;height:25px;background:#fff;text-align:center;border-radius:5px;border:1px solid #99F;padding-top:4%}
+	.rzFaqBtn>i.fa-trash{color:#bb2727;border-color:#bb2727}
+	.seq-no{width:60px;display:inline-block;text-align:right}
+
+</style>
+
+
+        <div class="faq-container ">
+        	<div class="chooseBtn">
+            	
+				
+				
+				<script language="JavaScript" type="text/JavaScript">
+				RZ.module = 'revizefaqouter';
+				RZ.recordid = '';
+				RZ.nexturl = "editforms/faq_settings-editform.jsp";
+				RZ.popupwidth = ''; RZ.popupheight = ''; RZ.popupscroll = '';
+				RZ.img = '<span class="rzBtn">Edit Faq Settings</btn>';
+				RZ.set = 'revizefaqouter.pageid=links-3282';
+				RZ.options = '';
+				if (typeof RZaction != 'undefined') RZaction('editform');
+				</script>
+            </div>
+            <div class="faq-search">
+                <input type="text" class="text-input" id="faq-filter" value="" placeholder="Search the FAQs...">
+                <div class="faq-filter-count"></div>
+            </div><!-- faq-search -->
+		   
+          <div class="categorybtn">
+            
+            
+            
+            <script language="JavaScript" type="text/JavaScript">
+            RZ.module = 'revizefaqouter'; RZ.linkname = '';
+            RZ.template = '*none*'; RZ.recordid = 'new';
+            RZ.nexturl = "editforms/faq-category-editform.jsp";
+            RZ.popupwidth = ''; RZ.popupheight = ''; RZ.popupscroll = '';
+            RZ.img = '<span class="rzBtn">New Category</span>';
+            RZ.set = 'revizefaqouter.pageid=3282';
+            RZ.options = '';
+            if (typeof RZaction != 'undefined') RZaction('newitem');
+            </script>
+            
+          </div>
+          <script language="JavaScript" type="text/JavaScript">
+if (typeof RZlistbegin != 'undefined') RZlistbegin(6)
+</script>
+
+          
+           
+          <!-- placement: 32820 doc_rec: category-92 -->
+           
+          <div class="faq-category">
+            <a class="faq-header " href="https://ranchomirageca.gov/residents/city_services/measure_r.php#faq-questions-92" data-toggle="collapse" data-target="#faq-questions-92">Frequently Asked Questions About Measure R</a>
+			<div class="faq-editbtns">
+				<a name="revizefaqouter_rz92"></a>
+				<script language="JavaScript" type="text/JavaScript">
+					RZ.module = 'revizefaqouter'; RZ.linkname = '';
+					RZ.template = '*none*'; RZ.recordid = '92';
+					RZ.nexturl = "editforms/faq-category-editform.jsp";
+					RZ.popupwidth = ''; RZ.popupheight = ''; RZ.popupscroll = '';
+					RZ.img = '<span class="rzFaqBtn"><i class="fa fa-pencil"></i><span class="sr-only">Edit</span></span>';
+					RZ.set = '';
+					RZ.options = '';
+					if (typeof RZaction != 'undefined') RZaction('edititem');
+				</script>
+				<script language="JavaScript" type="text/JavaScript">
+					RZ.module = 'revizefaqouter';
+					RZ.recordid = '92';
+					RZ.name = 'RZdelete' + RZ.recordid;
+					RZ.img = '<span class="rzFaqBtn"><i class="fa fa-trash"></i><span class="sr-only">Delete</span></span>';
+					RZ.options = '';
+					if (typeof RZaction != 'undefined') RZaction('delete');
+				</script>
+				<span class="seq-no"><script language="JavaScript" type="text/JavaScript">
+if (typeof RZlogin != 'undefined') RZlogin('0.00', 'revizefaqouter', 'u');</script>
+</span>
+			</div>
+            <div class="faq-questions collapse show" id="faq-questions-92">
+                <div class="newbtn">
+                  
+                  
+                  
+                  <script language="JavaScript" type="text/JavaScript">
+                  RZ.module = 'revizefaq'; RZ.linkname = '';
+                  RZ.template = '*none*'; RZ.recordid = 'new';
+                  RZ.nexturl = "editforms/revizefaq-editform.jsp";
+                  RZ.popupwidth = ''; RZ.popupheight = ''; RZ.popupscroll = '';
+                  RZ.img = '<span class="rzBtn">New Question</span>';
+                  RZ.set = 'revizefaq.pageid=92';
+                  RZ.options = '';
+                  if (typeof RZaction != 'undefined') RZaction('newitem');
+                  </script>
+                  
+                </div>
+                <script language="JavaScript" type="text/JavaScript">
+if (typeof RZlistbegin != 'undefined') RZlistbegin(7)
+</script>
+
+                
+                
+                <!-- pageid: 92  -->
+                
+                <div class="faq-item">
+                  <div class="faq-question">
+                    <a class="faq-question-header" href="https://ranchomirageca.gov/residents/city_services/measure_r.php#collapse32820b0" data-toggle="collapse" data-target="#collapse32820b0">How does Rancho Mirage's sales tax rate compare to other cities?</a>
+                    <div class="faq-editbtns">
+                      <a name="revizefaq_rz465"></a>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq'; RZ.linkname = '';
+						  RZ.template = '*none*'; RZ.recordid = '465';
+						  RZ.nexturl = "editforms/revizefaq-editform.jsp";
+						  RZ.popupwidth = ''; RZ.popupheight = ''; RZ.popupscroll = '';
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-pencil"></i><span class="sr-only">Edit</span></span>';
+						  RZ.set = '';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('edititem');
+                      </script>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq';
+						  RZ.recordid = '465';
+						  RZ.name = 'RZdelete' + RZ.recordid;
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-trash"></i><span class="sr-only">Delete</span></span>';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('delete');
+                      </script>
+
+                      <span class="seq-no"><script language="JavaScript" type="text/JavaScript">
+if (typeof RZlogin != 'undefined') RZlogin('1.00', 'revizefaq', 'u');</script>
+</span>
+                    </div>
+                  </div>
+
+                  <div id="collapse32820b0" class="faq-answer collapse">
+                    <p>The current sales tax rate in Rancho Mirage is 7.75%, tied with Indian Wells for the lowest rate in the Coachella Valley. Palm Springs and Cathedral City charge 9.25%. Desert Hot Springs, Coachella, Indio, La Quinta and Palm Desert charge 8.75%. If Measure R passes, the Rancho Mirage rate would be 8.75%.</p>
+                  </div>
+                </div>
+                
+    			
+                
+                <!-- pageid: 92  -->
+                
+                <div class="faq-item">
+                  <div class="faq-question">
+                    <a class="faq-question-header" href="https://ranchomirageca.gov/residents/city_services/measure_r.php#collapse32820b1" data-toggle="collapse" data-target="#collapse32820b1">Will visitors pay the tax?</a>
+                    <div class="faq-editbtns">
+                      <a name="revizefaq_rz466"></a>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq'; RZ.linkname = '';
+						  RZ.template = '*none*'; RZ.recordid = '466';
+						  RZ.nexturl = "editforms/revizefaq-editform.jsp";
+						  RZ.popupwidth = ''; RZ.popupheight = ''; RZ.popupscroll = '';
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-pencil"></i><span class="sr-only">Edit</span></span>';
+						  RZ.set = '';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('edititem');
+                      </script>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq';
+						  RZ.recordid = '466';
+						  RZ.name = 'RZdelete' + RZ.recordid;
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-trash"></i><span class="sr-only">Delete</span></span>';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('delete');
+                      </script>
+
+                      <span class="seq-no"><script language="JavaScript" type="text/JavaScript">
+if (typeof RZlogin != 'undefined') RZlogin('2.00', 'revizefaq', 'u');</script>
+</span>
+                    </div>
+                  </div>
+
+                  <div id="collapse32820b1" class="faq-answer collapse">
+                    <p>Anyone who makes a taxable purchase in Rancho Mirage would pay the tax, including residents, visitors and tourists. City estimates indicate that over 75% of sales tax dollars collected in Rancho Mirage are paid by tourists and visitors.</p>
+                  </div>
+                </div>
+                
+    			
+                
+                <!-- pageid: 92  -->
+                
+                <div class="faq-item">
+                  <div class="faq-question">
+                    <a class="faq-question-header" href="https://ranchomirageca.gov/residents/city_services/measure_r.php#collapse32820b2" data-toggle="collapse" data-target="#collapse32820b2">What is a transactions and use tax?</a>
+                    <div class="faq-editbtns">
+                      <a name="revizefaq_rz467"></a>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq'; RZ.linkname = '';
+						  RZ.template = '*none*'; RZ.recordid = '467';
+						  RZ.nexturl = "editforms/revizefaq-editform.jsp";
+						  RZ.popupwidth = ''; RZ.popupheight = ''; RZ.popupscroll = '';
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-pencil"></i><span class="sr-only">Edit</span></span>';
+						  RZ.set = '';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('edititem');
+                      </script>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq';
+						  RZ.recordid = '467';
+						  RZ.name = 'RZdelete' + RZ.recordid;
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-trash"></i><span class="sr-only">Delete</span></span>';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('delete');
+                      </script>
+
+                      <span class="seq-no"><script language="JavaScript" type="text/JavaScript">
+if (typeof RZlogin != 'undefined') RZlogin('3.00', 'revizefaq', 'u');</script>
+</span>
+                    </div>
+                  </div>
+
+                  <div id="collapse32820b2" class="faq-answer collapse">
+                    <p>A transactions and use tax is a local sales tax adopted by a city and approved by its voters. It is added to the statewide sales tax rate and applies to taxable sales within the City's boundaries. It is collected by the California Department of Tax and Fee Administration and returned to the City.</p>
+                  </div>
+                </div>
+                
+    			
+                
+                <!-- pageid: 92  -->
+                
+                <div class="faq-item">
+                  <div class="faq-question">
+                    <a class="faq-question-header" href="https://ranchomirageca.gov/residents/city_services/measure_r.php#collapse32820b3" data-toggle="collapse" data-target="#collapse32820b3">What would the tax apply to?</a>
+                    <div class="faq-editbtns">
+                      <a name="revizefaq_rz468"></a>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq'; RZ.linkname = '';
+						  RZ.template = '*none*'; RZ.recordid = '468';
+						  RZ.nexturl = "editforms/revizefaq-editform.jsp";
+						  RZ.popupwidth = ''; RZ.popupheight = ''; RZ.popupscroll = '';
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-pencil"></i><span class="sr-only">Edit</span></span>';
+						  RZ.set = '';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('edititem');
+                      </script>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq';
+						  RZ.recordid = '468';
+						  RZ.name = 'RZdelete' + RZ.recordid;
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-trash"></i><span class="sr-only">Delete</span></span>';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('delete');
+                      </script>
+
+                      <span class="seq-no"><script language="JavaScript" type="text/JavaScript">
+if (typeof RZlogin != 'undefined') RZlogin('4.00', 'revizefaq', 'u');</script>
+</span>
+                    </div>
+                  </div>
+
+                  <div id="collapse32820b3" class="faq-answer collapse">
+                    <p>The tax would apply to taxable retail sales within Rancho Mirage. State law exempts certain items from sales tax, including most groceries, prescriptions and many medical supplies, rent, items purchased with CalFresh benefits, services and utilities.</p>
+                  </div>
+                </div>
+                
+    			
+                
+                <!-- pageid: 92  -->
+                
+                <div class="faq-item">
+                  <div class="faq-question">
+                    <a class="faq-question-header" href="https://ranchomirageca.gov/residents/city_services/measure_r.php#collapse32820b4" data-toggle="collapse" data-target="#collapse32820b4">Will Measure R money remain in Rancho Mirage?</a>
+                    <div class="faq-editbtns">
+                      <a name="revizefaq_rz469"></a>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq'; RZ.linkname = '';
+						  RZ.template = '*none*'; RZ.recordid = '469';
+						  RZ.nexturl = "editforms/revizefaq-editform.jsp";
+						  RZ.popupwidth = ''; RZ.popupheight = ''; RZ.popupscroll = '';
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-pencil"></i><span class="sr-only">Edit</span></span>';
+						  RZ.set = '';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('edititem');
+                      </script>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq';
+						  RZ.recordid = '469';
+						  RZ.name = 'RZdelete' + RZ.recordid;
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-trash"></i><span class="sr-only">Delete</span></span>';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('delete');
+                      </script>
+
+                      <span class="seq-no"><script language="JavaScript" type="text/JavaScript">
+if (typeof RZlogin != 'undefined') RZlogin('5.00', 'revizefaq', 'u');</script>
+</span>
+                    </div>
+                  </div>
+
+                  <div id="collapse32820b4" class="faq-answer collapse">
+                    <p>Yes. Revenue from a locally approved transactions and use tax stays with the City that adopts it. By law it cannot be taken by the State or transferred to another agency.</p>
+                  </div>
+                </div>
+                
+    			
+                
+                <!-- pageid: 92  -->
+                
+                <div class="faq-item">
+                  <div class="faq-question">
+                    <a class="faq-question-header" href="https://ranchomirageca.gov/residents/city_services/measure_r.php#collapse32820b5" data-toggle="collapse" data-target="#collapse32820b5">How much revenue could Measure R generate?</a>
+                    <div class="faq-editbtns">
+                      <a name="revizefaq_rz470"></a>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq'; RZ.linkname = '';
+						  RZ.template = '*none*'; RZ.recordid = '470';
+						  RZ.nexturl = "editforms/revizefaq-editform.jsp";
+						  RZ.popupwidth = ''; RZ.popupheight = ''; RZ.popupscroll = '';
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-pencil"></i><span class="sr-only">Edit</span></span>';
+						  RZ.set = '';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('edititem');
+                      </script>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq';
+						  RZ.recordid = '470';
+						  RZ.name = 'RZdelete' + RZ.recordid;
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-trash"></i><span class="sr-only">Delete</span></span>';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('delete');
+                      </script>
+
+                      <span class="seq-no"><script language="JavaScript" type="text/JavaScript">
+if (typeof RZlogin != 'undefined') RZlogin('6.00', 'revizefaq', 'u');</script>
+</span>
+                    </div>
+                  </div>
+
+                  <div id="collapse32820b5" class="faq-answer collapse">
+                    <p>City staff estimate the measure would generate approximately $7.5 million annually. This is an estimate based on current taxable sales. Actual revenue would depend on economic conditions and taxable sales activity in future years.</p>
+                  </div>
+                </div>
+                
+    			
+                
+                <!-- pageid: 92  -->
+                
+                <div class="faq-item">
+                  <div class="faq-question">
+                    <a class="faq-question-header" href="https://ranchomirageca.gov/residents/city_services/measure_r.php#collapse32820b6" data-toggle="collapse" data-target="#collapse32820b6">Is Measure R a general tax or a special tax?</a>
+                    <div class="faq-editbtns">
+                      <a name="revizefaq_rz471"></a>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq'; RZ.linkname = '';
+						  RZ.template = '*none*'; RZ.recordid = '471';
+						  RZ.nexturl = "editforms/revizefaq-editform.jsp";
+						  RZ.popupwidth = ''; RZ.popupheight = ''; RZ.popupscroll = '';
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-pencil"></i><span class="sr-only">Edit</span></span>';
+						  RZ.set = '';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('edititem');
+                      </script>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq';
+						  RZ.recordid = '471';
+						  RZ.name = 'RZdelete' + RZ.recordid;
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-trash"></i><span class="sr-only">Delete</span></span>';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('delete');
+                      </script>
+
+                      <span class="seq-no"><script language="JavaScript" type="text/JavaScript">
+if (typeof RZlogin != 'undefined') RZlogin('7.00', 'revizefaq', 'u');</script>
+</span>
+                    </div>
+                  </div>
+
+                  <div id="collapse32820b6" class="faq-answer collapse">
+                    <p>Measure R is a general tax. Revenue would go into the City's General Fund and could be used for any lawful City purpose. A general tax requires approval by a majority of voters. A special tax, which legally restricts spending to specified purposes, requires two-thirds voter approval.</p>
+                  </div>
+                </div>
+                
+    			
+                
+                <!-- pageid: 92  -->
+                
+                <div class="faq-item">
+                  <div class="faq-question">
+                    <a class="faq-question-header" href="https://ranchomirageca.gov/residents/city_services/measure_r.php#collapse32820b7" data-toggle="collapse" data-target="#collapse32820b7">Does the measure include fiscal accountability requirements?</a>
+                    <div class="faq-editbtns">
+                      <a name="revizefaq_rz472"></a>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq'; RZ.linkname = '';
+						  RZ.template = '*none*'; RZ.recordid = '472';
+						  RZ.nexturl = "editforms/revizefaq-editform.jsp";
+						  RZ.popupwidth = ''; RZ.popupheight = ''; RZ.popupscroll = '';
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-pencil"></i><span class="sr-only">Edit</span></span>';
+						  RZ.set = '';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('edititem');
+                      </script>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq';
+						  RZ.recordid = '472';
+						  RZ.name = 'RZdelete' + RZ.recordid;
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-trash"></i><span class="sr-only">Delete</span></span>';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('delete');
+                      </script>
+
+                      <span class="seq-no"><script language="JavaScript" type="text/JavaScript">
+if (typeof RZlogin != 'undefined') RZlogin('8.00', 'revizefaq', 'u');</script>
+</span>
+                    </div>
+                  </div>
+
+                  <div id="collapse32820b7" class="faq-answer collapse">
+                    <p>The ballot question states that the measure would require public disclosure of spending. Details of the accountability provisions are contained in the ordinance and resolutions listed under Key Documents.</p>
+                  </div>
+                </div>
+                
+    			
+                
+                <!-- pageid: 92  -->
+                
+                <div class="faq-item">
+                  <div class="faq-question">
+                    <a class="faq-question-header" href="https://ranchomirageca.gov/residents/city_services/measure_r.php#collapse32820b8" data-toggle="collapse" data-target="#collapse32820b8">How will Measure R funds be monitored?</a>
+                    <div class="faq-editbtns">
+                      <a name="revizefaq_rz473"></a>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq'; RZ.linkname = '';
+						  RZ.template = '*none*'; RZ.recordid = '473';
+						  RZ.nexturl = "editforms/revizefaq-editform.jsp";
+						  RZ.popupwidth = ''; RZ.popupheight = ''; RZ.popupscroll = '';
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-pencil"></i><span class="sr-only">Edit</span></span>';
+						  RZ.set = '';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('edititem');
+                      </script>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq';
+						  RZ.recordid = '473';
+						  RZ.name = 'RZdelete' + RZ.recordid;
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-trash"></i><span class="sr-only">Delete</span></span>';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('delete');
+                      </script>
+
+                      <span class="seq-no"><script language="JavaScript" type="text/JavaScript">
+if (typeof RZlogin != 'undefined') RZlogin('9.00', 'revizefaq', 'u');</script>
+</span>
+                    </div>
+                  </div>
+
+                  <div id="collapse32820b8" class="faq-answer collapse">
+                    <p>General Fund revenue and expenditures are reported through the City's budget process and annual financial reporting, which are public. The measure's disclosure requirements are described in the ordinance listed under Key Documents.</p>
+                  </div>
+                </div>
+                
+    			
+                
+                <!-- pageid: 92  -->
+                
+                <div class="faq-item">
+                  <div class="faq-question">
+                    <a class="faq-question-header" href="https://ranchomirageca.gov/residents/city_services/measure_r.php#collapse32820b9" data-toggle="collapse" data-target="#collapse32820b9">Who decides how Measure R funds will be spent?</a>
+                    <div class="faq-editbtns">
+                      <a name="revizefaq_rz474"></a>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq'; RZ.linkname = '';
+						  RZ.template = '*none*'; RZ.recordid = '474';
+						  RZ.nexturl = "editforms/revizefaq-editform.jsp";
+						  RZ.popupwidth = ''; RZ.popupheight = ''; RZ.popupscroll = '';
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-pencil"></i><span class="sr-only">Edit</span></span>';
+						  RZ.set = '';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('edititem');
+                      </script>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq';
+						  RZ.recordid = '474';
+						  RZ.name = 'RZdelete' + RZ.recordid;
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-trash"></i><span class="sr-only">Delete</span></span>';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('delete');
+                      </script>
+
+                      <span class="seq-no"><script language="JavaScript" type="text/JavaScript">
+if (typeof RZlogin != 'undefined') RZlogin('10.00', 'revizefaq', 'u');</script>
+</span>
+                    </div>
+                  </div>
+
+                  <div id="collapse32820b9" class="faq-answer collapse">
+                    <p>The Rancho Mirage City Council would decide how the funds are spent through the City's public budget process.</p>
+                  </div>
+                </div>
+                
+    			
+                
+                <!-- pageid: 92  -->
+                
+                <div class="faq-item">
+                  <div class="faq-question">
+                    <a class="faq-question-header" href="https://ranchomirageca.gov/residents/city_services/measure_r.php#collapse32820b10" data-toggle="collapse" data-target="#collapse32820b10">Who makes the final decision on Measure R?</a>
+                    <div class="faq-editbtns">
+                      <a name="revizefaq_rz475"></a>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq'; RZ.linkname = '';
+						  RZ.template = '*none*'; RZ.recordid = '475';
+						  RZ.nexturl = "editforms/revizefaq-editform.jsp";
+						  RZ.popupwidth = ''; RZ.popupheight = ''; RZ.popupscroll = '';
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-pencil"></i><span class="sr-only">Edit</span></span>';
+						  RZ.set = '';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('edititem');
+                      </script>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq';
+						  RZ.recordid = '475';
+						  RZ.name = 'RZdelete' + RZ.recordid;
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-trash"></i><span class="sr-only">Delete</span></span>';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('delete');
+                      </script>
+
+                      <span class="seq-no"><script language="JavaScript" type="text/JavaScript">
+if (typeof RZlogin != 'undefined') RZlogin('11.00', 'revizefaq', 'u');</script>
+</span>
+                    </div>
+                  </div>
+
+                  <div id="collapse32820b10" class="faq-answer collapse">
+                    <p>Rancho Mirage voters make the final decision at the election on November 3, 2026. The measure passes if approved by a majority of those voting on it. Only voters registered in the City of Rancho Mirage are eligible to vote on Measure R.</p>
+                  </div>
+                </div>
+                
+    			
+                
+                <!-- pageid: 92  -->
+                
+                <div class="faq-item">
+                  <div class="faq-question">
+                    <a class="faq-question-header" href="https://ranchomirageca.gov/residents/city_services/measure_r.php#collapse32820b11" data-toggle="collapse" data-target="#collapse32820b11">Where can I get more information?</a>
+                    <div class="faq-editbtns">
+                      <a name="revizefaq_rz476"></a>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq'; RZ.linkname = '';
+						  RZ.template = '*none*'; RZ.recordid = '476';
+						  RZ.nexturl = "editforms/revizefaq-editform.jsp";
+						  RZ.popupwidth = ''; RZ.popupheight = ''; RZ.popupscroll = '';
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-pencil"></i><span class="sr-only">Edit</span></span>';
+						  RZ.set = '';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('edititem');
+                      </script>
+                      <script language="JavaScript" type="text/JavaScript">
+						  RZ.module = 'revizefaq';
+						  RZ.recordid = '476';
+						  RZ.name = 'RZdelete' + RZ.recordid;
+						  RZ.img = '<span class="rzFaqBtn"><i class="fa fa-trash"></i><span class="sr-only">Delete</span></span>';
+						  RZ.options = '';
+						  if (typeof RZaction != 'undefined') RZaction('delete');
+                      </script>
+
+                      <span class="seq-no"><script language="JavaScript" type="text/JavaScript">
+if (typeof RZlogin != 'undefined') RZlogin('12.00', 'revizefaq', 'u');</script>
+</span>
+                    </div>
+                  </div>
+
+                  <div id="collapse32820b11" class="faq-answer collapse">
+                    <p>Call the City Clerk's Office at <a rel="noopener" href="tel:760-324-4511" target="_blank">(760) 324-4511</a>, or review the documents listed on this page. Information on voting and registration is available from the Riverside County Registrar of Voters.</p>
+                  </div>
+                </div>
+                
+    			
+                <script language="JavaScript" type="text/JavaScript">
+if (typeof RZlinktemplate != 'undefined') RZlinktemplate('revizefaq','','')
+if (typeof RZ.nextseq != 'undefined') RZ.nextseq.modules['revizefaq_7']={field:'seq_no',seq:'13.00'};
+</script>
+
+            </div>
+          </div>
+          
+          
+           <script language="JavaScript" type="text/JavaScript">
+if (typeof RZlinktemplate != 'undefined') RZlinktemplate('revizefaqouter','','')
+if (typeof RZ.nextseq != 'undefined') RZ.nextseq.modules['revizefaqouter_6']={field:'seq_no',seq:'1.00'};
+</script>
+ 
+</div><!-- end #main -->
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+	    var $category = $('.faq-category'),
+	        $questionsAndAnswers = $('.faq-questions,.faq-answer'),
+	        $filterCount = $(".faq-filter-count"),
+	        $faqItem = $(".faq-item");
+
+	    // remove inline scripts on load so not caught in filter
+	    $(".faq-container script").remove();
+
+	    var $filter = $("#faq-filter").keyup(function(){
+	        $category.removeClass("has-search-result");
+
+	        // Retrieve the input field text and reset the count to zero
+	        var filter = $(this).val(),
+	            count = 0;
+
+	        // Loop through the questions list
+	        $faqItem.each(function(){
+	            var $this = $(this);
+	            // If the questions item does not contain the text phrase fade it out
+	            if ($this.text().search(new RegExp(filter, "i")) < 0) {
+	                $this.fadeOut();
+						 $this.find('.faq-question>a').attr('style','');
+						 $('.active-question').removeClass('active-question');
+	            // Show the questions item if the phrase matches and increase the count by 1
+	            } else {
+	                $this.fadeIn().closest(".faq-category").addClass("has-search-result");
+						 $this.find('.faq-question>a').addClass('active-question').css('pointer-events','none');
+	                count++;
+	            }
+	        });
+
+	        if( filter !== '' ) {
+	            $(".faq-category:not(.has-search-result)").fadeOut();
+	            $(".faq-category.has-search-result").fadeIn();
+
+	            // search should auto expand categories and answers when searching
+	            $questionsAndAnswers.css({"display":"block", "visibility": "visible", "height": "auto"});
+	            $filterCount.text(count + " items found. Please see below for details.");
+
+	        } else {
+	            // remove inline styles to revert classes back
+	            $category.fadeIn();
+	            $questionsAndAnswers.removeAttr("style");
+	            $filterCount.text(" ");
+					$('.active-question').removeClass('active-question');
+					$('.faq-item .faq-question>a').attr('style','');
+	        }
+	    });
+
+	    $filter.submit(function(e){
+	        return false;
+	    });
+
+		// //location hashing
+		$('.faq-question-header').on('click keypress', function(e) {
+			let url = window.location.href.split("#")[0];
+			console.log(url+this.dataset.target);
+			history.pushState({}, '',url+this.dataset.target);
+		});
+
+		$('.faq-header').on('click keypress', function(e) {
+			let url = window.location.href.split("#")[0];
+			console.log(url+this.dataset.target);
+			history.pushState({}, '',url+this.dataset.target);
+		});
+
+	    // disable toggling when searching
+	    function ifSearchingDoNothing() {
+	        if( $filter.val() !== '' ) {
+	            return false;
+	        }
+	    }
+	    $questionsAndAnswers.on("hide.bs.collapse show.bs.collapse", ifSearchingDoNothing);
+		$questionsAndAnswers.on("hide.bs.collapse",function(event){
+			$(event.target).siblings('.faq-question').find('a[data-toggle]').removeClass('active-question');
+		});
+
+		$questionsAndAnswers.on("show.bs.collapse",function(event){
+			$(event.target).siblings('.faq-question').find('a[data-toggle]').addClass('active-question');
+		});
+
+		setTimeout(function() {
+			if (window.location.hash != "") {
+				var tempHash = window.location.hash;
+				if (document.querySelector(tempHash) === null) { return; }
+				if (tempHash.indexOf("#collapse") === 0) {
+					var parent = document.querySelector(tempHash).parentElement.parentElement.parentElement;
+					if (!parent.querySelector(".faq-questions").classList.contains('show')) {
+						parent.querySelector("a.faq-header").click();
+					}
+					var el = document.querySelector(tempHash).parentElement.querySelector("a.faq-question-header");
+					el.click();
+					if ($) {
+						$('html,body').animate({
+							scrollTop: $(el).offset().top - 150
+						}, 1000)
+					}
+				} else if (tempHash.indexOf("#faq-questions-") === 0) {
+					var el = document.querySelector("a[data-target='"+tempHash+"']");
+					if (!el.parentElement.querySelector(".faq-questions").classList.contains('show')) {
+						el.click();
+					}
+					if ($) {
+						$('html,body').animate({
+							scrollTop: $(el).offset().top - 150
+						}, 1000)
+					}
+				}
+			}
+		},100);
+
+	});
+</script>
+
+
+					 
+
+                </article><!--/#entry-->
+				
+            </div><!--/.col-lg-9-->
+        </div><!--/.row-->
+		
+    </div><!--/.container-->
+	<!-- ENABLERS: update include statement with revize code -->
+	<section id="modal-section">
+		<button type="button" class="share-btn floating-share-btn" data-toggle="modal" data-target="#shareModal">
+		<i class="fa fa-share-alt"></i>
+		<span>Share <span class="sr-only">this page</span></span>
+	</button>
+
+	<div class="modal fade" id="shareModal" tabindex="-1" role="dialog" aria-labelledby="shareModal">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h2 class="modal-title" id="myModalLabel">Share this page</h2>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<div class="modal-body">
+					<div class="copylink">
+						<p>Copy and paste this code into your website.</p>
+						<pre class="py-3 px-4">&lt;a href="http://ranchomirageca.gov/residents/city_services/measure_r.php">Your Link Name&lt;/a&gt;</pre>
+					</div><!-- /.copylink -->
+					<div class="share-btns">
+						<p>Share this page on your favorite Social network</p>
+						<div class="row">
+							<div class="col-sm-4">
+								<a href="https://www.facebook.com/sharer/sharer.php?u=http://ranchomirageca.gov/residents/city_services/measure_r.php" class="btn-facebook" onclick="return !window.open(this.href, 'facebook ', 'width=500,height=500')" target="_blank">
+									<i class="fa fa-facebook"></i> Facebook
+								</a>
+							</div>
+							<div class="col-sm-4">
+								<a href="https://www.twitter.com/intent/tweet?url=http://ranchomirageca.gov/residents/city_services/measure_r.php" class="btn-twitter" onclick="return !window.open(this.href, 'twitter ', 'width=500,height=500')" target="_blank">
+									<img src="https://ranchomirageca.gov/_assets_/images/twitter-x.png" alt="twitter"> Twitter
+								</a>
+							</div>
+							<div class="col-sm-4">
+								<a href="https://www.reddit.com/submit?url=http://ranchomirageca.gov/residents/city_services/measure_r.php" class="btn-reddit" onclick="return !window.open(this.href, 'redit ', 'width=500,height=500')" target="_blank">
+									<i class="fa fa-reddit"></i> Reddit
+								</a>
+							</div>
+						</div><!-- /.row -->
+					</div><!-- /.share-btns -->
+					<button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Close</button>
+				</div><!-- /.modal-body -->
+			</div>
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+</section><!-- /#modal-section -->
+<script>
+	(function(d) {
+		var s = d.createElement("script");
+		s.setAttribute("data-position", 5);
+		s.setAttribute("data-color", '#fff');
+		s.setAttribute("data-account", "sudb1U5E4V");
+		s.setAttribute("src", "https://cdn.userway.org/widget.js");
+		(d.body || d.head).appendChild(s);
+	})(document)
+</script>
+<noscript>
+	Please ensure Javascript is enabled for purposes of
+	<a href="https://userway.org">website accessibility</a>
+</noscript></main>
+
+
+
+
+
+
+ 
+
+<footer>
+		<div class="container">
+					<div class="footer-top">
+				<ul class="footer-menu">
+				
+						
+							 
+								 
+								<li><a href="https://ranchomirageca.gov/CITY%20STAFF%20USE%20THIS%20FILE/Department%20Files/Marketing/City-of-Rancho-Mirage-Linking-Policy.pdf" target="_blank">Website Linking Policy</a></li>
+							
+						
+							 
+								 
+								<li><a href="https://ranchomirageca.gov/ada_policy___procedure/index.php" target="_self">Accessibility (ADA)</a></li>
+							
+						
+					
+				</ul><!-- ./footer-menu -->
+			</div><!-- ./footer-top -->
+			<div class="footer-middle">
+				<a href="https://ranchomirageca.gov/index.php" class="brand-logo-left"><img src="https://ranchomirageca.gov/_assets_/images/brand-logo-1.png" alt="Rancho Mirage, CA Logo Home"></a>
+				<div class="footer-links-block">
+										<h2>Location</h2>
+						<ul>
+							<li><a href="https://www.google.com/maps/search/City+of+Rancho+Mirage/@33.7699722,-116.515605,12z/data=!3m1!4b1?entry=ttu"target="_blank">City of Rancho Mirage</a></li>
+							<li><a href="https://www.google.com/maps/place/69825+CA-111,+Rancho+Mirage,+CA+92270,+USA/@33.7713939,-116.4502936,17z/data=!3m1!4b1!4m6!3m5!1s0x80db02eb8cd4edf3:0x84f7f51888b30264!8m2!3d33.7713895!4d-116.4477133!16s%2Fg%2F11c24_mbc6?entry=ttu"target="_blank">69825 Highway 111</a></li>
+							<li><a href="https://www.google.com/maps/place/Rancho+Mirage,+CA+92270,+USA/@33.7699722,-116.515605,12z/data=!3m1!4b1!4m6!3m5!1s0x80db0290edc935e5:0xedc2fe528ff778ce!8m2!3d33.739744!4d-116.41279!16zL20vMHIzdzc?entry=ttu"target="_blank">Rancho Mirage, CA 92270</a></li>
+							<li><a href="tel:(760) 324-4511">(760) 324-4511</a></li>
+						</ul>
+					</div><!-- ./footer-links-block -->
+
+					<div class="footer-links-block">
+						<h2>Hours</h2>
+						<ul>
+							<li><span>Monday &#8211; Friday 8:00 a.m.&#8211; 5:00 p.m.</span></li>
+						</ul>
+						<div class="social-links">
+							<div class="social_links">
+													</div>
+						
+							<a href="https://www.facebook.com/RanchoMirageLocal/"target="_blank"><img src="https://ranchomirageca.gov/_assets_/images/fb.png" alt="Visit our Facebook"></a>
+						
+						
+							<a href="https://www.instagram.com/visitranchomirage/"target="_blank"><img src="https://ranchomirageca.gov/_assets_/images/ig.png" alt="Visit our Instagram"></a>
+						
+						
+							<a href="https://twitter.com/visitRM"target="_blank"><img src="https://ranchomirageca.gov/_assets_/images/tw.png" alt="Visit our Twitter"></a>
+						
+						
+							<a href="https://www.youtube.com/channel/UC-hBBBJ_q3y49pN1pNRB6pw"target="_blank"><img src="https://ranchomirageca.gov/_assets_/images/yt.png" alt="Visit out YouTube"></a>
+						
+						</div>
+					</div><!-- ./footer-links-block -->
+				<a href="https://ranchomirageca.gov/index.php" class="brand-logo-right"><img src="https://cms3.revize.com/revize/ranchomirageca/TEST%20QA/Ram%20Head%20(White).png" alt="Rancho Mirage, CA Logo Home"></a>
+			</div><!-- ./footer-middle -->
+			<div class="footer-btm">
+				<div class="row">
+									<div class="col-lg-6 copyright">
+						&copy; <span class="year">2026</span>. City of Rancho Mirage, CA
+					</div>
+					<div class="col-lg-6 text-lg-right" id="revize">
+						Powered by <a href="https://www.revize.com" id="revize-link"target="_blank">revize.</a>, the Government Website Experts .<a href="https://cms3.revize.com/revize/security/index.jsp?webspace=ranchomirageca&filename=/residents/city_services/measure_r.php" id="revize-login">Login</a>
+					</div>
+				</div>
+			</div><!-- ./footer-btm -->
+		</div><!-- ./container -->
+	</footer>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script src="https://ranchomirageca.gov/_assets_/plugins/modernizr/modernizr.custom.js"></script>
+	<script src="https://ranchomirageca.gov/_assets_/plugins/tiny-slider/dist/min/tiny-slider.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	<script src="https://ranchomirageca.gov/_assets_/plugins/matchHeight/dist/jquery.matchHeight-min.js"></script>
+	<script src="https://ranchomirageca.gov/_assets_/plugins/revizeWeather/js/revizeWeather.min.js"></script>
+	<script src="https://ranchomirageca.gov/_assets_/js/scripts.js"></script>
+	<script src="https://cms3.revize.com/revize/plugins/ada/ada.js"></script>
+
+
+
+
+	<div class="modal fade" id="event-modal" tabindex="-1" role="dialog" aria-labelledby="modal-event-title" aria-hidden="true">
+  <div id="event-modal-dialog" class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+	  <div class="event-modal-header">
+		  <div class="modal-event-date-wrap">
+			<span class="modal-event-date-number"></span>
+			<span class="modal-event-date-month"></span>
+		  </div>
+      </div>
+	  <div class="modal-body" id="modal-event-body">
+		 <h2 class="modal-title" id="modal-event-title"></h2>
+		 <h3 class="modal-subtitle" id="modal-event-subtitle"></h3>
+		 <div class="modal-description clearfix" id="modal-event-description"></div>
+		 <div class="modal-location" id="modal-event-location"></div>
+	  </div>
+      <div class="modal-footer">
+        <button id="modal-close-button" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <a href="https://ranchomirageca.gov/residents/city_services/measure_r.php#" id="modal-event-readmore" class="btn btn-primary">Read More</a>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="/revize/plugins/revize_calendar/moment.min.js"></script>
+<script src="/revize/plugins/revize_calendar/moment-timezone.min.js"></script>
+<script src="/revize/plugins/revize_calendar/rrule.js"></script>
+<script src="/revize/plugins/revize_calendar/ical.min.js"></script>
+<script src="/revize/plugins/revize_calendar/core/main.min.js"></script>
+<script src="/revize/plugins/revize_calendar/google-calendar/main.min.js"></script>
+<script src="/revize/plugins/revize_calendar/rrule/main.min.js"></script>
+<script src="/revize/plugins/revize_calendar/list/main.min.js"></script>
+<script src="/revize/plugins/revize_calendar/daygrid/main.min.js"></script>
+<script src="/revize/plugins/revize_calendar/timegrid/main.min.js"></script>
+<script src="/revize/plugins/revize_calendar/doT.min.js"></script>
+<script src="/revize/plugins/revize_calendar/ics/ics.deps.min.js"></script>
+<script src="/revize/plugins/revize_calendar/mini.js"></script>
+
+
+
+
+
+</body>
+</html>
