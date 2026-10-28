@@ -9,7 +9,8 @@
 
   <form class="address-form" method="post" action="/ballot">
     <input type="hidden" name="csrf" value="{{ csrf_token() }}">
-    <input type="text" name="address" placeholder="Your California address or ZIP code" aria-label="Address or ZIP code" required>
+    <input type="text" name="address" placeholder="California address or ZIP code" aria-label="Your California address or ZIP code"
+      autocomplete="off" autocapitalize="words" autocorrect="off" spellcheck="false" enterkeyhint="go" required>
     <button class="btn" type="submit">See my ballot</button>
   </form>
   <form method="post" action="/ballot" class="sample-form">
@@ -22,12 +23,12 @@
 </section>
 
 <div class="pillars">
-  <div class="pillar"><span class="num">01</span><h3>Plain English</h3>
+  <div class="pillar"><span class="num">01</span><h2>Plain English</h2>
     <p>Every proposition on one short card: what it does, what YES means, what NO means, and what it costs.</p></div>
-  <div class="pillar"><span class="num">02</span><h3>Both sides, equally</h3>
+  <div class="pillar"><span class="num">02</span><h2>Both sides, equally</h2>
     <p>YES and NO always get the same space, the same order and the same style. The official arguments for and
     against appear side by side, word for word.</p></div>
-  <div class="pillar"><span class="num">03</span><h3>Straight from the source</h3>
+  <div class="pillar"><span class="num">03</span><h2>Straight from the source</h2>
     <p>Every line links to the official voter guide or the Legislative Analyst. Questions are answered only from
     that text and checked by our <a href="/neutral">Bias Buster</a>.</p></div>
 </div>

@@ -75,7 +75,9 @@ function paintProgress() {
   });
   const total = cards.length;
   document.getElementById("read-count").textContent = n;
-  document.getElementById("read-bar").style.width = total ? (100 * n / total) + "%" : "0";
+  const bar = document.getElementById("read-bar");
+  bar.style.width = total ? (100 * n / total) + "%" : "0";
+  bar.parentElement.setAttribute("aria-valuenow", n);
   document.getElementById("ballot-ready").hidden = !(total && n === total);
 }
 
@@ -136,8 +138,8 @@ function showAskProgress(out) {
     <p class="hint">Reading the official text, writing an answer, then Bias Buster checks it.
       This usually takes 30 to 60 seconds.</p>
     <div class="progress-bar" role="progressbar" aria-label="Processing your question"
-      aria-valuemin="0" aria-valuemax="100"><span></span></div>
-    <p class="progress-text">Processing… <span class="elapsed">0</span> s</p></div>`;
+      aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span></span></div>
+    <p class="progress-text" aria-hidden="true">Processing… <span class="elapsed">0</span> s</p></div>`;
   const bar = out.querySelector(".progress-bar"), fill = bar.querySelector("span");
   const elapsed = out.querySelector(".elapsed"), started = Date.now();
   const tick = () => {
@@ -152,18 +154,32 @@ function showAskProgress(out) {
   return () => clearInterval(id);
 }
 
+// Bring the progress bar or the answer into view, but only when its top is off screen: someone
+// reading the page shouldn't be yanked around. Honours prefers-reduced-motion.
+function revealIfHidden(el) {
+  const r = el.getBoundingClientRect();
+  if (r.top >= 0 && r.top < window.innerHeight - 48) return;
+  const still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  el.scrollIntoView({ block: "start", behavior: still ? "auto" : "smooth" });
+}
+
 function initAsk() {
   const form = document.querySelector(".ask-form");
   if (!form) return;
   const out = document.querySelector(".ask-result");
   const measureId = form.dataset.measure;
+  const suggestions = document.querySelectorAll(".suggest");
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
     const question = form.question.value.trim();
     if (!question) return;
     const button = form.querySelector("button");
     button.disabled = true;
+    suggestions.forEach((b) => { b.disabled = true; });
+    form.question.blur();  // phones: close the on-screen keyboard so the progress bar shows
+    out.setAttribute("aria-busy", "true");
     const stopProgress = showAskProgress(out);
+    revealIfHidden(out);
     const ctrl = new AbortController();
     const timer = setTimeout(() => ctrl.abort(), 110000);
     try {
@@ -182,6 +198,9 @@ function initAsk() {
       clearTimeout(timer);
       stopProgress();
       button.disabled = false;
+      suggestions.forEach((b) => { b.disabled = false; });
+      out.removeAttribute("aria-busy");
+      revealIfHidden(out);
     }
   });
   // Suggested questions: fill the box and ask straight away.

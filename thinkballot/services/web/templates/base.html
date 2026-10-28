@@ -12,15 +12,18 @@
 <meta property="og:url" content="{{ base_url }}{{ request.path }}">
 <meta property="og:image" content="{{ base_url }}{{ url_for('static', filename='og-card.png') }}">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Public+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
 <script src="{{ url_for('static', filename='app.js') }}" defer></script>
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header"><div class="inner">
   <a class="brand" href="/"><span class="mark">✓</span>ThinkBallot</a>
-  <nav class="site-nav">
+  <nav class="site-nav" aria-label="Main">
     {% set p = request.path %}
     <a href="/ballot" {% if p.startswith('/ballot') or p.startswith('/prop') %}class="active"{% endif %}>My ballot</a>
     <a href="/search" {% if p == '/search' %}class="active"{% endif %}>Search</a>
@@ -37,7 +40,7 @@
   </nav>
 </div></header>
 
-<main>
+<main id="main" tabindex="-1">
 {% with messages = get_flashed_messages() %}{% for msg in messages %}<div class="notice flash">{{ msg }}</div>{% endfor %}{% endwith %}
 {% block main %}{% endblock %}</main>
 

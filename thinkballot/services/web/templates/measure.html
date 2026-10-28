@@ -10,9 +10,9 @@
 {% block main %}
 {% set label = ("Prop " if m.level == "state" else "Measure ") ~ m.number %}
 <article class="measure-page" data-measure="{{ m.id }}" data-title="{{ label }}: {{ m.title }}">
-  <div class="eyebrow">{% if m.level == "state" %}Statewide proposition{% else %}{{ m.district }} · {{ m.county }} County{% endif %} · {{ election.name }}</div>
+  <div class="eyebrow">{% if m.level == "state" %}Statewide proposition{% elif m.district == m.county ~ " County" %}{{ m.district }}{% else %}{{ m.district }} · {{ m.county }} County{% endif %} · {{ election.name }}</div>
   <h1>{{ label }}: {{ m.title }}</h1>
-  <p class="hint meta-line">{% if m.fields.measure_type %}{{ m.fields.measure_type.text }} {{ src(m.fields.measure_type) }} ·{% endif %}
+  <p class="hint meta-line">{% if m.fields.measure_type %}{{ m.fields.measure_type.text }} {{ src(m.fields.measure_type) }}{% if m.topics %} ·{% endif %}{% endif %}
     {% if m.topics %}Topics: {% for t in m.topics %}<a class="chip" href="/search?topic={{ t|urlencode }}">{{ t }}</a> {% endfor %}{% endif %}</p>
   {% if m.fields.summary %}
   <p class="lede">{{ m.fields.summary.text }} {{ src(m.fields.summary) }}</p>
@@ -38,17 +38,22 @@
   {% endif %}
   {% else %}
   <div class="yesno">
-    <div><h4>{{ headings.yes_means }}</h4>{{ field("yes_means") }}</div>
-    <div><h4>{{ headings.no_means }}</h4>{{ field("no_means") }}</div>
+    <div><h2>{{ headings.yes_means }}</h2>{{ field("yes_means") }}</div>
+    <div><h2>{{ headings.no_means }}</h2>{{ field("no_means") }}</div>
   </div>
 
+  <nav class="side-jump" aria-label="Official arguments">
+    <span class="lead">Both official arguments follow, in favor first:</span>
+    <a href="#argument-for">{{ headings.argument_for }} ↓</a>
+    <a href="#argument-against">{{ headings.argument_against }} ↓</a>
+  </nav>
   <div class="args">
-    <div class="col"><h4>{{ headings.argument_for }}</h4>{{ field("argument_for") }}</div>
-    <div class="col"><h4>{{ headings.argument_against }}</h4>{{ field("argument_against") }}</div>
+    <div class="col" id="argument-for"><h2>{{ headings.argument_for }}</h2>{{ field("argument_for") }}</div>
+    <div class="col" id="argument-against"><h2>{{ headings.argument_against }}</h2>{{ field("argument_against") }}</div>
   </div>
   <div class="args who">
-    <div class="col"><h4>{{ headings.supporters }}</h4>{{ field("supporters") }}</div>
-    <div class="col"><h4>{{ headings.opponents }}</h4>{{ field("opponents") }}</div>
+    <div class="col"><h2>{{ headings.supporters }}</h2>{{ field("supporters") }}</div>
+    <div class="col"><h2>{{ headings.opponents }}</h2>{{ field("opponents") }}</div>
   </div>
   <p class="equal-note">Both arguments are printed word for word from the official voter guide's summary page, in
     the same layout. ThinkBallot does not edit or rank them.{% if m.arguments_url %}
