@@ -1,0 +1,1243 @@
+[
+  {
+    "id": "local-sd-a",
+    "number": "A",
+    "title": {
+      "text": "A TRANSPARENT, ACCOUNTABLE, MODERN COUNTY GOVERNMENT",
+      "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf",
+      "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 161",
+      "source_snapshot": "data/raw/objects/fe/fea2781db0d9a7bc67b2d09ed8b7af2bb678849f1ad90bb4fd8d21cd9706a2b5",
+      "raw_sha256": "45d6c2056a4419ce79140a9155b23756d87e0dc80dac19413be947e774dde5e0",
+      "fetched_at": "2026-10-28T07:43:08Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Diego",
+      "name": "San Diego County"
+    },
+    "topics": [],
+    "arguments_url": null,
+    "notes": [
+      "Ballot question as printed in the San Diego County sample ballot and voter information pamphlet (ballot type 161)."
+    ],
+    "documents": [
+      {
+        "label": "San Diego County sample ballot and voter information pamphlet, ballot type 161 (PDF; Measure A with its analysis and arguments)",
+        "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "Simple Majority (50%+1)",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 161",
+        "source_snapshot": "data/raw/objects/fe/fea2781db0d9a7bc67b2d09ed8b7af2bb678849f1ad90bb4fd8d21cd9706a2b5",
+        "raw_sha256": "45d6c2056a4419ce79140a9155b23756d87e0dc80dac19413be947e774dde5e0",
+        "fetched_at": "2026-10-28T07:43:08Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "district": {
+        "text": "SAN DIEGO COUNTY",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 161",
+        "source_snapshot": "data/raw/objects/fe/fea2781db0d9a7bc67b2d09ed8b7af2bb678849f1ad90bb4fd8d21cd9706a2b5",
+        "raw_sha256": "45d6c2056a4419ce79140a9155b23756d87e0dc80dac19413be947e774dde5e0",
+        "fetched_at": "2026-10-28T07:43:08Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Shall the San Diego County Charter be amended to establish an Independent Ethics Commission, Independent Budget Analyst, Independent Program Auditor, confirmation of certain senior County leaders, and optional Board of Supervisors appointment of the Public Defender; increase term limits from two to three terms for the Board of Supervisors members; require public disclosure of spending and performance data; clarify non-interference provisions; and update terminology and structure?",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 161",
+        "source_snapshot": "data/raw/objects/fe/fea2781db0d9a7bc67b2d09ed8b7af2bb678849f1ad90bb4fd8d21cd9706a2b5",
+        "raw_sha256": "45d6c2056a4419ce79140a9155b23756d87e0dc80dac19413be947e774dde5e0",
+        "fetched_at": "2026-10-28T07:43:08Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sd-b",
+    "number": "B",
+    "title": {
+      "text": "MEASURE TO FUND SAN DIEGO COUNTY HEALTH & SAFETY SERVICES",
+      "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf",
+      "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 161",
+      "source_snapshot": "data/raw/objects/fe/fea2781db0d9a7bc67b2d09ed8b7af2bb678849f1ad90bb4fd8d21cd9706a2b5",
+      "raw_sha256": "45d6c2056a4419ce79140a9155b23756d87e0dc80dac19413be947e774dde5e0",
+      "fetched_at": "2026-10-28T07:43:08Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Diego",
+      "name": "San Diego County"
+    },
+    "topics": [],
+    "arguments_url": null,
+    "notes": [
+      "Ballot question as printed in the San Diego County sample ballot and voter information pamphlet (ballot type 161)."
+    ],
+    "documents": [
+      {
+        "label": "San Diego County sample ballot and voter information pamphlet, ballot type 161 (PDF; Measure B with its analysis and arguments)",
+        "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "Simple Majority (50%+1)",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 161",
+        "source_snapshot": "data/raw/objects/fe/fea2781db0d9a7bc67b2d09ed8b7af2bb678849f1ad90bb4fd8d21cd9706a2b5",
+        "raw_sha256": "45d6c2056a4419ce79140a9155b23756d87e0dc80dac19413be947e774dde5e0",
+        "fetched_at": "2026-10-28T07:43:08Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "district": {
+        "text": "SAN DIEGO COUNTY",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 161",
+        "source_snapshot": "data/raw/objects/fe/fea2781db0d9a7bc67b2d09ed8b7af2bb678849f1ad90bb4fd8d21cd9706a2b5",
+        "raw_sha256": "45d6c2056a4419ce79140a9155b23756d87e0dc80dac19413be947e774dde5e0",
+        "fetched_at": "2026-10-28T07:43:08Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "To clean-up sewage pollution in Tijuana River Valley, improve wildfire prevention, emergency response, access to healthcare, food assistance, childhood development services, and authorized administrative expenses; shall the measure authorizing a half-cent sales tax raising an estimated $400,000,000 to $450,000,000 annually, requiring citizen oversight, public spending disclosure, and independent annual audits, and lasting until ended by voters, be adopted?",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 161",
+        "source_snapshot": "data/raw/objects/fe/fea2781db0d9a7bc67b2d09ed8b7af2bb678849f1ad90bb4fd8d21cd9706a2b5",
+        "raw_sha256": "45d6c2056a4419ce79140a9155b23756d87e0dc80dac19413be947e774dde5e0",
+        "fetched_at": "2026-10-28T07:43:08Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sd-c",
+    "number": "C",
+    "title": {
+      "text": "City of Solana Beach",
+      "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-235.pdf",
+      "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 235",
+      "source_snapshot": "data/raw/objects/e6/e6ab6ac354f77b3029cf00b2ba587f4cc44beb44c569decfb50ac3cfcb7b5e99",
+      "raw_sha256": "317c3a42a10bb9b4b23f6eb8cfa026676908a4108751996054a69e80db7b5a0d",
+      "fetched_at": "2026-10-28T07:43:12Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Diego",
+      "name": "City of Solana Beach"
+    },
+    "topics": [],
+    "arguments_url": null,
+    "notes": [
+      "Ballot question as printed in the San Diego County sample ballot and voter information pamphlet (ballot type 235)."
+    ],
+    "documents": [
+      {
+        "label": "San Diego County sample ballot and voter information pamphlet, ballot type 235 (PDF; Measure C with its analysis and arguments)",
+        "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-235.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "Simple Majority (50%+1)",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-235.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 235",
+        "source_snapshot": "data/raw/objects/e6/e6ab6ac354f77b3029cf00b2ba587f4cc44beb44c569decfb50ac3cfcb7b5e99",
+        "raw_sha256": "317c3a42a10bb9b4b23f6eb8cfa026676908a4108751996054a69e80db7b5a0d",
+        "fetched_at": "2026-10-28T07:43:12Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "district": {
+        "text": "CITY OF SOLANA BEACH",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-235.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 235",
+        "source_snapshot": "data/raw/objects/e6/e6ab6ac354f77b3029cf00b2ba587f4cc44beb44c569decfb50ac3cfcb7b5e99",
+        "raw_sha256": "317c3a42a10bb9b4b23f6eb8cfa026676908a4108751996054a69e80db7b5a0d",
+        "fetched_at": "2026-10-28T07:43:12Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "To provide general city services such as keeping beaches, parks, trails, and restrooms safe, clean and well-maintained; preventing trash from entering local beaches/lagoons; upgrading emergency response/safety facilities, shall City of Solana Beach’s measure updating the 20-year-old transient occupancy tax (paid only by hotel/short-term vacation rental guests as specified in ordinance) and increasing the rate by 1% be adopted, providing approximately $250,000 annually until ended by voters, with all money locally controlled?",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-235.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 235",
+        "source_snapshot": "data/raw/objects/e6/e6ab6ac354f77b3029cf00b2ba587f4cc44beb44c569decfb50ac3cfcb7b5e99",
+        "raw_sha256": "317c3a42a10bb9b4b23f6eb8cfa026676908a4108751996054a69e80db7b5a0d",
+        "fetched_at": "2026-10-28T07:43:12Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sd-d",
+    "number": "D",
+    "title": {
+      "text": "City of Coronado",
+      "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-318.pdf",
+      "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 318",
+      "source_snapshot": "data/raw/objects/8a/8aa69589438d601905d9761015f881cda43a42bb79d3cfa85d04f8fa3971ce72",
+      "raw_sha256": "3c8d8b2ccf1bc4f754fa6fdef86d73c35b6d646ab8d0b83937a5c54a7f4bb4cd",
+      "fetched_at": "2026-10-28T07:43:29Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Diego",
+      "name": "City of Coronado"
+    },
+    "topics": [],
+    "arguments_url": null,
+    "notes": [
+      "Ballot question as printed in the San Diego County sample ballot and voter information pamphlet (ballot type 318)."
+    ],
+    "documents": [
+      {
+        "label": "San Diego County sample ballot and voter information pamphlet, ballot type 318 (PDF; Measure D with its analysis and arguments)",
+        "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-318.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "Simple Majority (50%+1)",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-318.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 318",
+        "source_snapshot": "data/raw/objects/8a/8aa69589438d601905d9761015f881cda43a42bb79d3cfa85d04f8fa3971ce72",
+        "raw_sha256": "3c8d8b2ccf1bc4f754fa6fdef86d73c35b6d646ab8d0b83937a5c54a7f4bb4cd",
+        "fetched_at": "2026-10-28T07:43:29Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "district": {
+        "text": "CITY OF CORONADO",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-318.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 318",
+        "source_snapshot": "data/raw/objects/8a/8aa69589438d601905d9761015f881cda43a42bb79d3cfa85d04f8fa3971ce72",
+        "raw_sha256": "3c8d8b2ccf1bc4f754fa6fdef86d73c35b6d646ab8d0b83937a5c54a7f4bb4cd",
+        "fetched_at": "2026-10-28T07:43:29Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Shall the measure, increasing the permissible height of “multiple-family developments” in the City of Coronado’s R-4 Multiple Family Residential Zone from the existing maximum of 3 stories (with a maximum height of no more than 35 feet) to a maximum of 4 stories (with a maximum height of no more than 42 feet), be adopted?",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-318.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 318",
+        "source_snapshot": "data/raw/objects/8a/8aa69589438d601905d9761015f881cda43a42bb79d3cfa85d04f8fa3971ce72",
+        "raw_sha256": "3c8d8b2ccf1bc4f754fa6fdef86d73c35b6d646ab8d0b83937a5c54a7f4bb4cd",
+        "fetched_at": "2026-10-28T07:43:29Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sd-e",
+    "number": "E",
+    "title": {
+      "text": "City of Lemon Grove",
+      "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-581.pdf",
+      "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 581",
+      "source_snapshot": "data/raw/objects/a8/a8342d5facbd03910637fa09d8460f3ca24af61c0f6f59b46b960ce694fad054",
+      "raw_sha256": "e9a18dbe6d8a9cd755b0170b7e974ddbdc0a954d37e01182a9e74da86aa8804e",
+      "fetched_at": "2026-10-28T07:43:46Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Diego",
+      "name": "City of Lemon Grove"
+    },
+    "topics": [],
+    "arguments_url": null,
+    "notes": [
+      "Ballot question as printed in the San Diego County sample ballot and voter information pamphlet (ballot type 581).",
+      "The county's printed ballot gives this question without a closing question mark; the City of Lemon Grove's notice to voters ends it with one."
+    ],
+    "documents": [
+      {
+        "label": "San Diego County sample ballot and voter information pamphlet, ballot type 581 (PDF; Measure E with its analysis and arguments)",
+        "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-581.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "Simple Majority (50%+1)",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-581.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 581",
+        "source_snapshot": "data/raw/objects/a8/a8342d5facbd03910637fa09d8460f3ca24af61c0f6f59b46b960ce694fad054",
+        "raw_sha256": "e9a18dbe6d8a9cd755b0170b7e974ddbdc0a954d37e01182a9e74da86aa8804e",
+        "fetched_at": "2026-10-28T07:43:46Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "district": {
+        "text": "CITY OF LEMON GROVE",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-581.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 581",
+        "source_snapshot": "data/raw/objects/a8/a8342d5facbd03910637fa09d8460f3ca24af61c0f6f59b46b960ce694fad054",
+        "raw_sha256": "e9a18dbe6d8a9cd755b0170b7e974ddbdc0a954d37e01182a9e74da86aa8804e",
+        "fetched_at": "2026-10-28T07:43:46Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Shall the Measure restricting the sale of birds in the City of Lemon Grove, requiring that birds be obtained exclusively from animal shelters, humane societies, or nonprofit rescue organizations and establishing related regulations be adopted",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-581.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 581",
+        "source_snapshot": "data/raw/objects/a8/a8342d5facbd03910637fa09d8460f3ca24af61c0f6f59b46b960ce694fad054",
+        "raw_sha256": "e9a18dbe6d8a9cd755b0170b7e974ddbdc0a954d37e01182a9e74da86aa8804e",
+        "fetched_at": "2026-10-28T07:43:46Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sd-g",
+    "number": "G",
+    "title": {
+      "text": "Grossmont-Cuyamaca Community College District",
+      "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-364.pdf",
+      "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 364",
+      "source_snapshot": "data/raw/objects/ba/ba37ea7ec40de622a913f296c493874085a4e4139f60a59e2da1d26166128e54",
+      "raw_sha256": "c7e79e45b263a7548d6a9b65de5e60357a4b6ad86e7c9422a84a3a6273801395",
+      "fetched_at": "2026-10-28T07:43:33Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Diego",
+      "name": "Grossmont-Cuyamaca Community College District"
+    },
+    "topics": [],
+    "arguments_url": null,
+    "notes": [
+      "Ballot question as printed in the San Diego County sample ballot and voter information pamphlet (ballot type 364)."
+    ],
+    "documents": [
+      {
+        "label": "San Diego County sample ballot and voter information pamphlet, ballot type 364 (PDF; Measure G with its analysis and arguments)",
+        "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-364.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "55%",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-364.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 364",
+        "source_snapshot": "data/raw/objects/ba/ba37ea7ec40de622a913f296c493874085a4e4139f60a59e2da1d26166128e54",
+        "raw_sha256": "c7e79e45b263a7548d6a9b65de5e60357a4b6ad86e7c9422a84a3a6273801395",
+        "fetched_at": "2026-10-28T07:43:33Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "district": {
+        "text": "GROSSMONT-CUYAMACA COMMUNITY COLLEGE DISTRICT",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-364.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 364",
+        "source_snapshot": "data/raw/objects/ba/ba37ea7ec40de622a913f296c493874085a4e4139f60a59e2da1d26166128e54",
+        "raw_sha256": "c7e79e45b263a7548d6a9b65de5e60357a4b6ad86e7c9422a84a3a6273801395",
+        "fetched_at": "2026-10-28T07:43:33Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Grossmont-Cuyamaca Community College District Fire Safety, Job Training, College Affordability, No Tax Rate Increase With funds that cannot be taken by the State and spent elsewhere and NO tax rate increase, shall Grossmont-Cuyamaca Community College District’s measure to • improve/expand career training classrooms • remove asbestos/mold • reduce wildfire threats • maintain college affordability be adopted, authorizing $624 million of bonds with legal rates, levies below $25/$100,000 assessed valuation while outstanding ($45 million annually), audits, taxpayer oversight, full disclosure of all spending?",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-364.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 364",
+        "source_snapshot": "data/raw/objects/ba/ba37ea7ec40de622a913f296c493874085a4e4139f60a59e2da1d26166128e54",
+        "raw_sha256": "c7e79e45b263a7548d6a9b65de5e60357a4b6ad86e7c9422a84a3a6273801395",
+        "fetched_at": "2026-10-28T07:43:33Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sd-h",
+    "number": "H",
+    "title": {
+      "text": "Jamul-Dulzura Union School District",
+      "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-642.pdf",
+      "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 642",
+      "source_snapshot": "data/raw/objects/a7/a77a7960467332e3f6257525817fa62683f01ef71c70acdd075e360a9f8fc207",
+      "raw_sha256": "40ad2734d2123fcc8541416503c2c5e3ffdba00b001743234a97eabefd288a42",
+      "fetched_at": "2026-10-28T07:43:58Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Diego",
+      "name": "Jamul-Dulzura Union School District"
+    },
+    "topics": [],
+    "arguments_url": null,
+    "notes": [
+      "Ballot question as printed in the San Diego County sample ballot and voter information pamphlet (ballot type 642)."
+    ],
+    "documents": [
+      {
+        "label": "San Diego County sample ballot and voter information pamphlet, ballot type 642 (PDF; Measure H with its analysis and arguments)",
+        "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-642.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "55%",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-642.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 642",
+        "source_snapshot": "data/raw/objects/a7/a77a7960467332e3f6257525817fa62683f01ef71c70acdd075e360a9f8fc207",
+        "raw_sha256": "40ad2734d2123fcc8541416503c2c5e3ffdba00b001743234a97eabefd288a42",
+        "fetched_at": "2026-10-28T07:43:58Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "district": {
+        "text": "JAMUL-DULZURA UNION SCHOOL DISTRICT",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-642.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 642",
+        "source_snapshot": "data/raw/objects/a7/a77a7960467332e3f6257525817fa62683f01ef71c70acdd075e360a9f8fc207",
+        "raw_sha256": "40ad2734d2123fcc8541416503c2c5e3ffdba00b001743234a97eabefd288a42",
+        "fetched_at": "2026-10-28T07:43:58Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "With no projected increase in current tax rates and to repair/ replace deteriorating roofs, plumbing, dry rot, termite damage, electrical; upgrade aging schools to meet current health/ safety standards; and upgrade classrooms to support student achievement in math, science, technology, reading, writing, shall Jamul-Dulzura Union School District’s measure be adopted authorizing $18,000,000 in bonds at legal rates, levying $30 per $100,000 assessed value (averaging $1,300,000 annually) while bonds are outstanding, with citizen oversight/ audits, all money locally controlled?",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-642.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 642",
+        "source_snapshot": "data/raw/objects/a7/a77a7960467332e3f6257525817fa62683f01ef71c70acdd075e360a9f8fc207",
+        "raw_sha256": "40ad2734d2123fcc8541416503c2c5e3ffdba00b001743234a97eabefd288a42",
+        "fetched_at": "2026-10-28T07:43:58Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sd-j",
+    "number": "J",
+    "title": {
+      "text": "Julian Union High School District",
+      "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-480.pdf",
+      "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 480",
+      "source_snapshot": "data/raw/objects/dc/dc1f7cedb2ce2e5041445d9e603930b291d0ea7781d91739ce9fa7fd8e0e316c",
+      "raw_sha256": "51d987e636f39623ad35f1dc49a0c78e3b0f02ab3f756dfd968ccb5b0fc43353",
+      "fetched_at": "2026-10-28T07:43:37Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Diego",
+      "name": "Julian Union High School District"
+    },
+    "topics": [],
+    "arguments_url": null,
+    "notes": [
+      "Ballot question as printed in the San Diego County sample ballot and voter information pamphlet (ballot type 480)."
+    ],
+    "documents": [
+      {
+        "label": "San Diego County sample ballot and voter information pamphlet, ballot type 480 (PDF; Measure J with its analysis and arguments)",
+        "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-480.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "55%",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-480.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 480",
+        "source_snapshot": "data/raw/objects/dc/dc1f7cedb2ce2e5041445d9e603930b291d0ea7781d91739ce9fa7fd8e0e316c",
+        "raw_sha256": "51d987e636f39623ad35f1dc49a0c78e3b0f02ab3f756dfd968ccb5b0fc43353",
+        "fetched_at": "2026-10-28T07:43:37Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "district": {
+        "text": "JULIAN UNION HIGH SCHOOL DISTRICT",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-480.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 480",
+        "source_snapshot": "data/raw/objects/dc/dc1f7cedb2ce2e5041445d9e603930b291d0ea7781d91739ce9fa7fd8e0e316c",
+        "raw_sha256": "51d987e636f39623ad35f1dc49a0c78e3b0f02ab3f756dfd968ccb5b0fc43353",
+        "fetched_at": "2026-10-28T07:43:37Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "To repair, modernize, and construct classrooms and career technology facilities for college/career readiness in agricultural science, chemistry, math, technology, and skilled trades; fix deteriorating facilities, roofs, plumbing/electrical systems; and improve school safety/security systems; shall Julian Union High School District’s measure authorizing $9,000,000 in bonds at legal rates be adopted, levying approximately $30 per $100,000 assessed value (averaging $650,000) annually, while bonds are outstanding, with citizen oversight, independent audits, and all money locally-controlled?",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-480.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 480",
+        "source_snapshot": "data/raw/objects/dc/dc1f7cedb2ce2e5041445d9e603930b291d0ea7781d91739ce9fa7fd8e0e316c",
+        "raw_sha256": "51d987e636f39623ad35f1dc49a0c78e3b0f02ab3f756dfd968ccb5b0fc43353",
+        "fetched_at": "2026-10-28T07:43:37Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sd-k",
+    "number": "K",
+    "title": {
+      "text": "Fallbrook Union Elementary School District",
+      "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-259.pdf",
+      "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 259",
+      "source_snapshot": "data/raw/objects/08/083f10e42d395d238495cb4bd7433579fae2978624254ad8c36998396a835df0",
+      "raw_sha256": "ce0d63cc6948199019ffbe1675ac5cdd8b34eeb2e77d1150abd44ef12e56d8ec",
+      "fetched_at": "2026-10-28T07:43:16Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Diego",
+      "name": "Fallbrook Union Elementary School District"
+    },
+    "topics": [],
+    "arguments_url": null,
+    "notes": [
+      "Ballot question as printed in the San Diego County sample ballot and voter information pamphlet (ballot type 259)."
+    ],
+    "documents": [
+      {
+        "label": "San Diego County sample ballot and voter information pamphlet, ballot type 259 (PDF; Measure K with its analysis and arguments)",
+        "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-259.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "55%",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-259.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 259",
+        "source_snapshot": "data/raw/objects/08/083f10e42d395d238495cb4bd7433579fae2978624254ad8c36998396a835df0",
+        "raw_sha256": "ce0d63cc6948199019ffbe1675ac5cdd8b34eeb2e77d1150abd44ef12e56d8ec",
+        "fetched_at": "2026-10-28T07:43:16Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "district": {
+        "text": "FALLBROOK UNION ELEMENTARY SCHOOL DISTRICT",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-259.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 259",
+        "source_snapshot": "data/raw/objects/08/083f10e42d395d238495cb4bd7433579fae2978624254ad8c36998396a835df0",
+        "raw_sha256": "ce0d63cc6948199019ffbe1675ac5cdd8b34eeb2e77d1150abd44ef12e56d8ec",
+        "fetched_at": "2026-10-28T07:43:16Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "To update local elementary and middle schools without increasing tax rates; replace failing roofs, plumbing and electrical systems; improve school safety; construct/repair/acquire classrooms, labs, facilities, equipment, and sites; and qualify for State matching funds; shall Fallbrook Union Elementary School District’s measure be adopted, authorizing $76,000,000 in bonds at legal rates, levying a projected $30 per $100,000 assessed value while bonds are outstanding, generating $5,000,000 annually, with public oversight, audits, no funds for administrators, all funds staying local?",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-259.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 259",
+        "source_snapshot": "data/raw/objects/08/083f10e42d395d238495cb4bd7433579fae2978624254ad8c36998396a835df0",
+        "raw_sha256": "ce0d63cc6948199019ffbe1675ac5cdd8b34eeb2e77d1150abd44ef12e56d8ec",
+        "fetched_at": "2026-10-28T07:43:16Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sd-l",
+    "number": "L",
+    "title": {
+      "text": "Mountain Empire Unified School District",
+      "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-640.pdf",
+      "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 640",
+      "source_snapshot": "data/raw/objects/f2/f28e4799d3cf1023e881150672e227e8198966c52a9df8623ffcc9148c9b7994",
+      "raw_sha256": "b2efe6b08478240cba728365fc675034e1785fcf7f52809290e093ce51cfa90d",
+      "fetched_at": "2026-10-28T07:43:53Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Diego",
+      "name": "Mountain Empire Unified School District"
+    },
+    "topics": [],
+    "arguments_url": null,
+    "notes": [
+      "Ballot question as printed in the San Diego County sample ballot and voter information pamphlet (ballot type 640)."
+    ],
+    "documents": [
+      {
+        "label": "San Diego County sample ballot and voter information pamphlet, ballot type 640 (PDF; Measure L with its analysis and arguments)",
+        "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-640.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "55%",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-640.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 640",
+        "source_snapshot": "data/raw/objects/f2/f28e4799d3cf1023e881150672e227e8198966c52a9df8623ffcc9148c9b7994",
+        "raw_sha256": "b2efe6b08478240cba728365fc675034e1785fcf7f52809290e093ce51cfa90d",
+        "fetched_at": "2026-10-28T07:43:53Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "district": {
+        "text": "MOUNTAIN EMPIRE UNIFIED SCHOOL DISTRICT",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-640.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 640",
+        "source_snapshot": "data/raw/objects/f2/f28e4799d3cf1023e881150672e227e8198966c52a9df8623ffcc9148c9b7994",
+        "raw_sha256": "b2efe6b08478240cba728365fc675034e1785fcf7f52809290e093ce51cfa90d",
+        "fetched_at": "2026-10-28T07:43:53Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "To repair, replace, or reconstruct deteriorating classrooms, science labs, career technical education and school facilities at Mountain Empire High School that don’t meet building safety/earthquake safety standards; remove asbestos, lead pipes, mold; and replace/fix roofs plumbing, sewer, electrical, and aging portables, shall Mountain Empire Unified School District’s measure authorizing $23,000,000 in bonds at legal rates be adopted, levying approximately $38 per $100,000 of assessed valuation ($2,542,353 annually) while bonds are outstanding, with independent oversight, audits, and all money locally controlled?",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-640.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 640",
+        "source_snapshot": "data/raw/objects/f2/f28e4799d3cf1023e881150672e227e8198966c52a9df8623ffcc9148c9b7994",
+        "raw_sha256": "b2efe6b08478240cba728365fc675034e1785fcf7f52809290e093ce51cfa90d",
+        "fetched_at": "2026-10-28T07:43:53Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sd-m",
+    "number": "M",
+    "title": {
+      "text": "SAN DIEGO UNIFIED SCHOOL DISTRICT REPAIR, STUDENT SAFETY, NO TAX RATE INCREASE MEASURE",
+      "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-310.pdf",
+      "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 310",
+      "source_snapshot": "data/raw/objects/1c/1c7f9104978e5e2cf7a7616350a77dd0fc5a6f6ed8e0c0a7447d083b634f9975",
+      "raw_sha256": "40015fd89c924a4717d99e2ae22e02339b7126474f31ad6d916ced7d85d119e7",
+      "fetched_at": "2026-10-28T07:43:25Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Diego",
+      "name": "San Diego Unified School District"
+    },
+    "topics": [],
+    "arguments_url": null,
+    "notes": [
+      "Ballot question as printed in the San Diego County sample ballot and voter information pamphlet (ballot type 310)."
+    ],
+    "documents": [
+      {
+        "label": "San Diego County sample ballot and voter information pamphlet, ballot type 310 (PDF; Measure M with its analysis and arguments)",
+        "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-310.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "55%",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-310.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 310",
+        "source_snapshot": "data/raw/objects/1c/1c7f9104978e5e2cf7a7616350a77dd0fc5a6f6ed8e0c0a7447d083b634f9975",
+        "raw_sha256": "40015fd89c924a4717d99e2ae22e02339b7126474f31ad6d916ced7d85d119e7",
+        "fetched_at": "2026-10-28T07:43:25Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "district": {
+        "text": "SAN DIEGO UNIFIED SCHOOL DISTRICT",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-310.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 310",
+        "source_snapshot": "data/raw/objects/1c/1c7f9104978e5e2cf7a7616350a77dd0fc5a6f6ed8e0c0a7447d083b634f9975",
+        "raw_sha256": "40015fd89c924a4717d99e2ae22e02339b7126474f31ad6d916ced7d85d119e7",
+        "fetched_at": "2026-10-28T07:43:25Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "To repair/upgrade all public schools, help retain/attract teachers by: • Repairing deteriorating roofs, plumbing, restrooms; • Providing safe drinking water; • Removing asbestos, lead paint, mold; • Upgrading outdated career/vocational, science, technology, engineering classrooms; shall San Diego Unified School District’s measure authorizing $3,500,000,000 in bonds at legal rates, levying $32 per $100,000 of assessed value, providing $204,000,000 annually while bonds are outstanding, requiring public spending disclosure, audits, citizens oversight, be adopted?",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-310.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 310",
+        "source_snapshot": "data/raw/objects/1c/1c7f9104978e5e2cf7a7616350a77dd0fc5a6f6ed8e0c0a7447d083b634f9975",
+        "raw_sha256": "40015fd89c924a4717d99e2ae22e02339b7126474f31ad6d916ced7d85d119e7",
+        "fetched_at": "2026-10-28T07:43:25Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sd-n",
+    "number": "N",
+    "title": {
+      "text": "Vista Unified School District",
+      "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf",
+      "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 161",
+      "source_snapshot": "data/raw/objects/fe/fea2781db0d9a7bc67b2d09ed8b7af2bb678849f1ad90bb4fd8d21cd9706a2b5",
+      "raw_sha256": "45d6c2056a4419ce79140a9155b23756d87e0dc80dac19413be947e774dde5e0",
+      "fetched_at": "2026-10-28T07:43:08Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Diego",
+      "name": "Vista Unified School District"
+    },
+    "topics": [],
+    "arguments_url": null,
+    "notes": [
+      "Ballot question as printed in the San Diego County sample ballot and voter information pamphlet (ballot type 161)."
+    ],
+    "documents": [
+      {
+        "label": "San Diego County sample ballot and voter information pamphlet, ballot type 161 (PDF; Measure N with its analysis and arguments)",
+        "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "55%",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 161",
+        "source_snapshot": "data/raw/objects/fe/fea2781db0d9a7bc67b2d09ed8b7af2bb678849f1ad90bb4fd8d21cd9706a2b5",
+        "raw_sha256": "45d6c2056a4419ce79140a9155b23756d87e0dc80dac19413be947e774dde5e0",
+        "fetched_at": "2026-10-28T07:43:08Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "district": {
+        "text": "VISTA UNIFIED SCHOOL DISTRICT",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 161",
+        "source_snapshot": "data/raw/objects/fe/fea2781db0d9a7bc67b2d09ed8b7af2bb678849f1ad90bb4fd8d21cd9706a2b5",
+        "raw_sha256": "45d6c2056a4419ce79140a9155b23756d87e0dc80dac19413be947e774dde5e0",
+        "fetched_at": "2026-10-28T07:43:08Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Without increasing current tax rates, to repair and upgrade aging classrooms, science labs, school facilities, and instructional technology to support college/career readiness in math, science, technology, engineering, arts, and skilled trades and fix deteriorating roofs, plumbing, sewer, and electrical systems shall Vista Unified School District’s measure be adopted authorizing $543,000,000 in bonds at legal rates, levying $58 per $100,000 assessed value ($31,000,000 annually) while bonds are outstanding, with citizen oversight, independent audits, and all money locally-controlled?",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 161",
+        "source_snapshot": "data/raw/objects/fe/fea2781db0d9a7bc67b2d09ed8b7af2bb678849f1ad90bb4fd8d21cd9706a2b5",
+        "raw_sha256": "45d6c2056a4419ce79140a9155b23756d87e0dc80dac19413be947e774dde5e0",
+        "fetched_at": "2026-10-28T07:43:08Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sd-p",
+    "number": "P",
+    "title": {
+      "text": "AMENDMENT OF PROPOSITION ‘NN’ TO MODERNIZE THE ORDINANCE.",
+      "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-615.pdf",
+      "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 615",
+      "source_snapshot": "data/raw/objects/87/87f84827d600b30c8943bece7acdf38643a83cc9bfa3b198d67a97fd005596ed",
+      "raw_sha256": "dc8c2de9b7b01be905a82711b8333554fb9f7cf0118323c54dd6e55aaa09f12c",
+      "fetched_at": "2026-10-28T07:43:49Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Diego",
+      "name": "Ramona Municipal Water District"
+    },
+    "topics": [],
+    "arguments_url": null,
+    "notes": [
+      "Ballot question as printed in the San Diego County sample ballot and voter information pamphlet (ballot type 615)."
+    ],
+    "documents": [
+      {
+        "label": "San Diego County sample ballot and voter information pamphlet, ballot type 615 (PDF; Measure P with its analysis and arguments)",
+        "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-615.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "Simple Majority (50%+1)",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-615.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 615",
+        "source_snapshot": "data/raw/objects/87/87f84827d600b30c8943bece7acdf38643a83cc9bfa3b198d67a97fd005596ed",
+        "raw_sha256": "dc8c2de9b7b01be905a82711b8333554fb9f7cf0118323c54dd6e55aaa09f12c",
+        "fetched_at": "2026-10-28T07:43:49Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "district": {
+        "text": "RAMONA MUNICIPAL WATER DISTRICT",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-615.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 615",
+        "source_snapshot": "data/raw/objects/87/87f84827d600b30c8943bece7acdf38643a83cc9bfa3b198d67a97fd005596ed",
+        "raw_sha256": "dc8c2de9b7b01be905a82711b8333554fb9f7cf0118323c54dd6e55aaa09f12c",
+        "fetched_at": "2026-10-28T07:43:49Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Shall the voters of the Ramona Municipal Water District adopt a measure amending Proposition ‘NN’ by (1) exempting grant funding and donations from the calculation of authorized expenditure limit; (2) increasing the expenditure limit for new projects from $1,000,000 to $10,000,000 where no debt is incurred; and (3) establishing annual adjustments to the expenditure limit based on the San Diego Area Consumer Price Index beginning January 1, 2028?",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-615.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 615",
+        "source_snapshot": "data/raw/objects/87/87f84827d600b30c8943bece7acdf38643a83cc9bfa3b198d67a97fd005596ed",
+        "raw_sha256": "dc8c2de9b7b01be905a82711b8333554fb9f7cf0118323c54dd6e55aaa09f12c",
+        "fetched_at": "2026-10-28T07:43:49Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sd-q",
+    "number": "Q",
+    "title": {
+      "text": "Permanent Road Division Zone No. 9B - Harris Annex",
+      "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-286.pdf",
+      "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 286",
+      "source_snapshot": "data/raw/objects/bf/bfbaab9c3723238adcbd1107753226c928eb6ef35a10a6f81c830b3335cd958d",
+      "raw_sha256": "30ce80a0f59ad838818084bc228390761d4886840bac5e073231001de0c6c500",
+      "fetched_at": "2026-10-28T07:43:20Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Diego",
+      "name": "Permanent Road Division Zone No. 9B - Harris Annex"
+    },
+    "topics": [],
+    "arguments_url": null,
+    "notes": [
+      "Ballot question as printed in the San Diego County sample ballot and voter information pamphlet (ballot type 286)."
+    ],
+    "documents": [
+      {
+        "label": "San Diego County sample ballot and voter information pamphlet, ballot type 286 (PDF; Measure Q with its analysis and arguments)",
+        "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-286.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "2/3rds Majority",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-286.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 286",
+        "source_snapshot": "data/raw/objects/bf/bfbaab9c3723238adcbd1107753226c928eb6ef35a10a6f81c830b3335cd958d",
+        "raw_sha256": "30ce80a0f59ad838818084bc228390761d4886840bac5e073231001de0c6c500",
+        "fetched_at": "2026-10-28T07:43:20Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "district": {
+        "text": "PERMANENT ROAD DIVISION ZONE NO. 9B - HARRIS ANNEX",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-286.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 286",
+        "source_snapshot": "data/raw/objects/bf/bfbaab9c3723238adcbd1107753226c928eb6ef35a10a6f81c830b3335cd958d",
+        "raw_sha256": "30ce80a0f59ad838818084bc228390761d4886840bac5e073231001de0c6c500",
+        "fetched_at": "2026-10-28T07:43:20Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Shall the County of San Diego, beginning Fiscal Year 2027-28 and annually thereafter, levy a special tax of up to $1,000 per developed / $375 per undeveloped parcel within Permanent Road Division No. 1000, Zone No. 9B – Harris Annex, replacing the existing assessment? The tax may be adjusted by up to 5% annually based on the Los Angeles Construction Cost Index or a comparable Southern California index and remain until modified or dissolved by law.",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-286.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 286",
+        "source_snapshot": "data/raw/objects/bf/bfbaab9c3723238adcbd1107753226c928eb6ef35a10a6f81c830b3335cd958d",
+        "raw_sha256": "30ce80a0f59ad838818084bc228390761d4886840bac5e073231001de0c6c500",
+        "fetched_at": "2026-10-28T07:43:20Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sd-r",
+    "number": "R",
+    "title": {
+      "text": "City of Oceanside",
+      "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf",
+      "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 161",
+      "source_snapshot": "data/raw/objects/fe/fea2781db0d9a7bc67b2d09ed8b7af2bb678849f1ad90bb4fd8d21cd9706a2b5",
+      "raw_sha256": "45d6c2056a4419ce79140a9155b23756d87e0dc80dac19413be947e774dde5e0",
+      "fetched_at": "2026-10-28T07:43:08Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Diego",
+      "name": "City of Oceanside"
+    },
+    "topics": [],
+    "arguments_url": null,
+    "notes": [
+      "Ballot question as printed in the San Diego County sample ballot and voter information pamphlet (ballot type 161)."
+    ],
+    "documents": [
+      {
+        "label": "San Diego County sample ballot and voter information pamphlet, ballot type 161 (PDF; Measure R with its analysis and arguments)",
+        "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "Simple Majority (50%+1)",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 161",
+        "source_snapshot": "data/raw/objects/fe/fea2781db0d9a7bc67b2d09ed8b7af2bb678849f1ad90bb4fd8d21cd9706a2b5",
+        "raw_sha256": "45d6c2056a4419ce79140a9155b23756d87e0dc80dac19413be947e774dde5e0",
+        "fetched_at": "2026-10-28T07:43:08Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "district": {
+        "text": "CITY OF OCEANSIDE",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 161",
+        "source_snapshot": "data/raw/objects/fe/fea2781db0d9a7bc67b2d09ed8b7af2bb678849f1ad90bb4fd8d21cd9706a2b5",
+        "raw_sha256": "45d6c2056a4419ce79140a9155b23756d87e0dc80dac19413be947e774dde5e0",
+        "fetched_at": "2026-10-28T07:43:08Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "To preserve the City’s ability to continue receiving state infrastructure funding for public works projects, shall the Oceanside City Charter be amended to conform to state laws and best practices regarding prevailing wage and fair competition, including the use of project labor agreements for City public works with mandatory provisions for taxpayer protections, transparency, and accountability in the contracting process, by amending Sections 301, 302, and 303 of the Oceanside City Charter?",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 161",
+        "source_snapshot": "data/raw/objects/fe/fea2781db0d9a7bc67b2d09ed8b7af2bb678849f1ad90bb4fd8d21cd9706a2b5",
+        "raw_sha256": "45d6c2056a4419ce79140a9155b23756d87e0dc80dac19413be947e774dde5e0",
+        "fetched_at": "2026-10-28T07:43:08Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sd-s",
+    "number": "S",
+    "title": {
+      "text": "City of Oceanside",
+      "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf",
+      "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 161",
+      "source_snapshot": "data/raw/objects/fe/fea2781db0d9a7bc67b2d09ed8b7af2bb678849f1ad90bb4fd8d21cd9706a2b5",
+      "raw_sha256": "45d6c2056a4419ce79140a9155b23756d87e0dc80dac19413be947e774dde5e0",
+      "fetched_at": "2026-10-28T07:43:08Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Diego",
+      "name": "City of Oceanside"
+    },
+    "topics": [],
+    "arguments_url": null,
+    "notes": [
+      "Ballot question as printed in the San Diego County sample ballot and voter information pamphlet (ballot type 161)."
+    ],
+    "documents": [
+      {
+        "label": "San Diego County sample ballot and voter information pamphlet, ballot type 161 (PDF; Measure S with its analysis and arguments)",
+        "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "Simple Majority (50%+1)",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 161",
+        "source_snapshot": "data/raw/objects/fe/fea2781db0d9a7bc67b2d09ed8b7af2bb678849f1ad90bb4fd8d21cd9706a2b5",
+        "raw_sha256": "45d6c2056a4419ce79140a9155b23756d87e0dc80dac19413be947e774dde5e0",
+        "fetched_at": "2026-10-28T07:43:08Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "district": {
+        "text": "CITY OF OCEANSIDE",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 161",
+        "source_snapshot": "data/raw/objects/fe/fea2781db0d9a7bc67b2d09ed8b7af2bb678849f1ad90bb4fd8d21cd9706a2b5",
+        "raw_sha256": "45d6c2056a4419ce79140a9155b23756d87e0dc80dac19413be947e774dde5e0",
+        "fetched_at": "2026-10-28T07:43:08Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "To provide locally-controlled funding for Oceanside services and infrastructure, such as keeping streets, sidewalks, parks, and public facilities safe, clean, and well-maintained; fixing potholes; improving traffic; restoring/protecting local beaches; modernizing public safety/emergency facilities to improve 911 emergency response/community safety; and repairing aging infrastructure, shall City of Oceanside’s ordinance establishing a 1/2 cent sales tax be adopted, providing $20,000,000 annually for general government use for 10 years, with independent audits and citizen oversight?",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 161",
+        "source_snapshot": "data/raw/objects/fe/fea2781db0d9a7bc67b2d09ed8b7af2bb678849f1ad90bb4fd8d21cd9706a2b5",
+        "raw_sha256": "45d6c2056a4419ce79140a9155b23756d87e0dc80dac19413be947e774dde5e0",
+        "fetched_at": "2026-10-28T07:43:08Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sd-t",
+    "number": "T",
+    "title": {
+      "text": "Permanent Road Division Zone No. 13A - Pala Mesa",
+      "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-259.pdf",
+      "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 259",
+      "source_snapshot": "data/raw/objects/08/083f10e42d395d238495cb4bd7433579fae2978624254ad8c36998396a835df0",
+      "raw_sha256": "ce0d63cc6948199019ffbe1675ac5cdd8b34eeb2e77d1150abd44ef12e56d8ec",
+      "fetched_at": "2026-10-28T07:43:16Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Diego",
+      "name": "Permanent Road Division Zone No. 13A - Pala Mesa"
+    },
+    "topics": [],
+    "arguments_url": null,
+    "notes": [
+      "Ballot question as printed in the San Diego County sample ballot and voter information pamphlet (ballot type 259)."
+    ],
+    "documents": [
+      {
+        "label": "San Diego County sample ballot and voter information pamphlet, ballot type 259 (PDF; Measure T with its analysis and arguments)",
+        "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-259.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "2/3rds Majority",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-259.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 259",
+        "source_snapshot": "data/raw/objects/08/083f10e42d395d238495cb4bd7433579fae2978624254ad8c36998396a835df0",
+        "raw_sha256": "ce0d63cc6948199019ffbe1675ac5cdd8b34eeb2e77d1150abd44ef12e56d8ec",
+        "fetched_at": "2026-10-28T07:43:16Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "district": {
+        "text": "PERMANENT ROAD DIVISION ZONE NO. 13A - PALA MESA",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-259.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 259",
+        "source_snapshot": "data/raw/objects/08/083f10e42d395d238495cb4bd7433579fae2978624254ad8c36998396a835df0",
+        "raw_sha256": "ce0d63cc6948199019ffbe1675ac5cdd8b34eeb2e77d1150abd44ef12e56d8ec",
+        "fetched_at": "2026-10-28T07:43:16Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Shall the County of San Diego, beginning Fiscal Year 2027-28 and annually thereafter, levy a special tax of up to $1,786.00 per developed / $893.00 per undeveloped parcel within Permanent Road Division No. 1000, Zone No. 13A – Pala Mesa Zone A, replacing the existing assessment? The tax may be adjusted by up to 5% annually based on the Los Angeles Construction Cost Index or a comparable Southern California index and remain until modified or dissolved by law.",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-259.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 259",
+        "source_snapshot": "data/raw/objects/08/083f10e42d395d238495cb4bd7433579fae2978624254ad8c36998396a835df0",
+        "raw_sha256": "ce0d63cc6948199019ffbe1675ac5cdd8b34eeb2e77d1150abd44ef12e56d8ec",
+        "fetched_at": "2026-10-28T07:43:16Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sd-y",
+    "number": "Y",
+    "title": {
+      "text": "City of Santee",
+      "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-364.pdf",
+      "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 364",
+      "source_snapshot": "data/raw/objects/ba/ba37ea7ec40de622a913f296c493874085a4e4139f60a59e2da1d26166128e54",
+      "raw_sha256": "c7e79e45b263a7548d6a9b65de5e60357a4b6ad86e7c9422a84a3a6273801395",
+      "fetched_at": "2026-10-28T07:43:33Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Diego",
+      "name": "City of Santee"
+    },
+    "topics": [],
+    "arguments_url": null,
+    "notes": [
+      "Ballot question as printed in the San Diego County sample ballot and voter information pamphlet (ballot type 364)."
+    ],
+    "documents": [
+      {
+        "label": "San Diego County sample ballot and voter information pamphlet, ballot type 364 (PDF; Measure Y with its analysis and arguments)",
+        "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-364.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "Simple Majority (50%+1)",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-364.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 364",
+        "source_snapshot": "data/raw/objects/ba/ba37ea7ec40de622a913f296c493874085a4e4139f60a59e2da1d26166128e54",
+        "raw_sha256": "c7e79e45b263a7548d6a9b65de5e60357a4b6ad86e7c9422a84a3a6273801395",
+        "fetched_at": "2026-10-28T07:43:33Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "district": {
+        "text": "CITY OF SANTEE",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-364.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 364",
+        "source_snapshot": "data/raw/objects/ba/ba37ea7ec40de622a913f296c493874085a4e4139f60a59e2da1d26166128e54",
+        "raw_sha256": "c7e79e45b263a7548d6a9b65de5e60357a4b6ad86e7c9422a84a3a6273801395",
+        "fetched_at": "2026-10-28T07:43:33Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "To provide funding for City of Santee services and infrastructure, such as fixing streets and potholes; keeping streets, sidewalks, parks and public facilities safe, clean, and well-maintained; repairing/ replacing aging infrastructure and stormdrains; local traffic management; fire protection, paramedic, crime prevention, and 911 emergency response, shall City of Santee’s measure establishing a one cent sales tax be adopted, providing approximately $14,000,000 annually for city services for 10 years, with independent audits, citizens’ committee oversight, and all funds locally controlled?",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-364.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 364",
+        "source_snapshot": "data/raw/objects/ba/ba37ea7ec40de622a913f296c493874085a4e4139f60a59e2da1d26166128e54",
+        "raw_sha256": "c7e79e45b263a7548d6a9b65de5e60357a4b6ad86e7c9422a84a3a6273801395",
+        "fetched_at": "2026-10-28T07:43:33Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sd-aa",
+    "number": "AA",
+    "title": {
+      "text": "La Mesa-Spring Valley School District",
+      "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-542.pdf",
+      "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 542",
+      "source_snapshot": "data/raw/objects/c6/c6754168282f53c24bc8b16ff759a45091ad6daaae4d0860160b3c7cbed5d1ad",
+      "raw_sha256": "3423a2723ca72c6a6a7542764107cd10736c3c7554eb5119ada19b286e19d09d",
+      "fetched_at": "2026-10-28T07:43:41Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Diego",
+      "name": "La Mesa-Spring Valley School District"
+    },
+    "topics": [],
+    "arguments_url": null,
+    "notes": [
+      "Ballot question as printed in the San Diego County sample ballot and voter information pamphlet (ballot type 542)."
+    ],
+    "documents": [
+      {
+        "label": "San Diego County sample ballot and voter information pamphlet, ballot type 542 (PDF; Measure AA with its analysis and arguments)",
+        "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-542.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "55%",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-542.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 542",
+        "source_snapshot": "data/raw/objects/c6/c6754168282f53c24bc8b16ff759a45091ad6daaae4d0860160b3c7cbed5d1ad",
+        "raw_sha256": "3423a2723ca72c6a6a7542764107cd10736c3c7554eb5119ada19b286e19d09d",
+        "fetched_at": "2026-10-28T07:43:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "district": {
+        "text": "LA MESA-SPRING VALLEY SCHOOL DISTRICT",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-542.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 542",
+        "source_snapshot": "data/raw/objects/c6/c6754168282f53c24bc8b16ff759a45091ad6daaae4d0860160b3c7cbed5d1ad",
+        "raw_sha256": "3423a2723ca72c6a6a7542764107cd10736c3c7554eb5119ada19b286e19d09d",
+        "fetched_at": "2026-10-28T07:43:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "La Mesa Spring Valley School District Classroom Repair & Upgrade Extension Measure. To repair/upgrade deteriorating roofs, plumbing, electrical systems; install air conditioning/shade structures to protect students from extreme heat; remove asbestos/lead pipes; and upgrade schools to current health/building safety/disability access standards, shall La Mesa Spring Valley School District’s measure be adopted, authorizing $131,000,000 in bonds at legal rates (without increasing current tax rates), levying $22 per $100,000 assessed value ($9,000,000 annually) while bonds are outstanding, with independent oversight and audits?",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-542.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 542",
+        "source_snapshot": "data/raw/objects/c6/c6754168282f53c24bc8b16ff759a45091ad6daaae4d0860160b3c7cbed5d1ad",
+        "raw_sha256": "3423a2723ca72c6a6a7542764107cd10736c3c7554eb5119ada19b286e19d09d",
+        "fetched_at": "2026-10-28T07:43:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sd-bb",
+    "number": "BB",
+    "title": {
+      "text": "Santee School District",
+      "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-364.pdf",
+      "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 364",
+      "source_snapshot": "data/raw/objects/ba/ba37ea7ec40de622a913f296c493874085a4e4139f60a59e2da1d26166128e54",
+      "raw_sha256": "c7e79e45b263a7548d6a9b65de5e60357a4b6ad86e7c9422a84a3a6273801395",
+      "fetched_at": "2026-10-28T07:43:33Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Diego",
+      "name": "Santee School District"
+    },
+    "topics": [],
+    "arguments_url": null,
+    "notes": [
+      "Ballot question as printed in the San Diego County sample ballot and voter information pamphlet (ballot type 364)."
+    ],
+    "documents": [
+      {
+        "label": "San Diego County sample ballot and voter information pamphlet, ballot type 364 (PDF; Measure BB with its analysis and arguments)",
+        "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-364.pdf"
+      }
+    ],
+    "fields": {
+      "measure_type": {
+        "text": "55%",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-364.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 364",
+        "source_snapshot": "data/raw/objects/ba/ba37ea7ec40de622a913f296c493874085a4e4139f60a59e2da1d26166128e54",
+        "raw_sha256": "c7e79e45b263a7548d6a9b65de5e60357a4b6ad86e7c9422a84a3a6273801395",
+        "fetched_at": "2026-10-28T07:43:33Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "district": {
+        "text": "SANTEE SCHOOL DISTRICT",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-364.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 364",
+        "source_snapshot": "data/raw/objects/ba/ba37ea7ec40de622a913f296c493874085a4e4139f60a59e2da1d26166128e54",
+        "raw_sha256": "c7e79e45b263a7548d6a9b65de5e60357a4b6ad86e7c9422a84a3a6273801395",
+        "fetched_at": "2026-10-28T07:43:33Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "With funds that cannot be taken by the State and spent elsewhere, and no increase in tax rates, shall Santee Elementary School District’s measure: • repairing leaky roofs, plumbing, sewer systems • updating inefficient heating, ventilation, air-conditioning systems • building multipurpose instruction classrooms • repairing aging schools, classrooms be adopted authorizing $30 million of bonds with legal rates, average levies below $13 per $100,000 of assessed valuation ($2.2 million annually) while outstanding, audits, independent oversight, and full public disclosure of all spending?",
+        "source_url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-364.pdf",
+        "source_label": "San Diego County Registrar of Voters: Voter Information Pamphlet and Sample Ballot, ballot type 364",
+        "source_snapshot": "data/raw/objects/ba/ba37ea7ec40de622a913f296c493874085a4e4139f60a59e2da1d26166128e54",
+        "raw_sha256": "c7e79e45b263a7548d6a9b65de5e60357a4b6ad86e7c9422a84a3a6273801395",
+        "fetched_at": "2026-10-28T07:43:33Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  }
+]
