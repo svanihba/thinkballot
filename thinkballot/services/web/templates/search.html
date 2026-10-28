@@ -1,30 +1,31 @@
 {% extends "base.html" %}
-{% block title %}Search · ThinkBallot{% endblock %}
+{% block title %}{{ _a("Search") }} · ThinkBallot{% endblock %}
 {% block main %}
-<div class="eyebrow">Search · no account needed</div>
-<h1>Find any proposition</h1>
-<p class="lede">Search the official text of every statewide proposition, or filter by topic.</p>
+<div class="eyebrow">{{ _("Search · no account needed") }}</div>
+<h1>{{ _("Find any proposition") }}</h1>
+<p class="lede">{{ _("Search the official text of every statewide proposition, or filter by topic.") }}</p>
+{% if lang != "en" %}<p class="hint lang-note">{{ _("Search looks through the English official text, so type your words in English.") }}</p>{% endif %}
 
-<form class="search-bar" method="get" action="/search">
-  <input name="q" type="search" value="{{ r.query }}" placeholder="Try “bonds”, “parks”, “tax”…" aria-label="Search"
+<form class="search-bar" method="get" action="{{ lp('/search') }}">
+  <input name="q" type="search" value="{{ r.query }}" placeholder="{{ _a('Try “bonds”, “parks”, “tax”…') }}" aria-label="{{ _a('Search') }}"
     autocomplete="off" enterkeyhint="search">
   {% if r.topic %}<input type="hidden" name="topic" value="{{ r.topic }}">{% endif %}
 </form>
 <div class="filters">
-  <a class="filter-chip {% if not r.topic %}on{% endif %}" href="/search?q={{ r.query|urlencode }}">All topics</a>
+  <a class="filter-chip {% if not r.topic %}on{% endif %}" href="{{ lp('/search') }}?q={{ r.query|urlencode }}">{{ _("All topics") }}</a>
   {% for t in r.topics %}
-  <a class="filter-chip {% if r.topic == t %}on{% endif %}" href="/search?q={{ r.query|urlencode }}&topic={{ t|urlencode }}">{{ t }}</a>
+  <a class="filter-chip {% if r.topic == t %}on{% endif %}" href="{{ lp('/search') }}?q={{ r.query|urlencode }}&topic={{ t|urlencode }}">{{ _(t) }}</a>
   {% endfor %}
 </div>
-<h2 class="result-count">{{ r.results|length }} result{{ '' if r.results|length == 1 else 's' }}</h2>
+<h2 class="result-count">{{ _("1 result") if r.results|length == 1 else _("{n} results", n=r.results|length) }}</h2>
 {% for m in r.results %}
 <article class="card measure">
-  <div class="top"><span class="tag">{{ "Prop" if m.id.startswith("prop-") else "Measure" }} {{ m.number }}</span>
-    {% for t in m.topics %}<span class="chip">{{ t }}</span>{% endfor %}</div>
-  <h3><a href="/prop/{{ m.id }}">{{ m.title }}</a></h3>
-  <p class="summary">{{ m.snippet }}</p>
+  <div class="top"><span class="tag">{{ _("Prop {n}", n=m.number) if m.id.startswith("prop-") else _("Measure {n}", n=m.number) }}</span>
+    {% for t in m.topics %}<span class="chip">{{ _(t) }}</span>{% endfor %}</div>
+  <h3{% if lang != "en" and not m.title_lang %} lang="en"{% endif %}><a href="{{ lp('/prop/' ~ m.id) }}">{{ m.title }}</a></h3>
+  <p class="summary"{% if lang != "en" %} lang="en"{% endif %}>{{ m.snippet }}</p>
 </article>
 {% else %}
-<div class="notice">No proposition matches that search. Try a shorter word, or clear the topic filter.</div>
+<div class="notice">{{ _("No proposition matches that search. Try a shorter word, or clear the topic filter.") }}</div>
 {% endfor %}
 {% endblock %}

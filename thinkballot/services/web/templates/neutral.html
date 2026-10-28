@@ -1,85 +1,60 @@
 {% extends "base.html" %}
-{% block title %}How we stay neutral · ThinkBallot{% endblock %}
+{% block title %}{{ _a("How we stay neutral") }} · ThinkBallot{% endblock %}
 {% block main %}
-<div class="eyebrow">Methodology</div>
-<h1>How we stay neutral</h1>
-<p class="lede">ThinkBallot never tells you how to vote. Neutrality isn't a promise we make; it's how the system is
-built. Here's the whole pipeline, in plain terms.</p>
+<div class="eyebrow">{{ _("Methodology") }}</div>
+<h1>{{ _("How we stay neutral") }}</h1>
+<p class="lede">{{ _("ThinkBallot never tells you how to vote. Neutrality isn't a promise we make; it's how the system is built. Here's the whole pipeline, in plain terms.") }}</p>
 
-<h2>The pipeline</h2>
+<h2>{{ _("The pipeline") }}</h2>
 <div class="pipeline">
-  <div class="step"><h3>1 · Official sources</h3><p>The Secretary of State's Official Voter Information Guide and the
-    Legislative Analyst's Office. Nothing else.</p></div>
-  <div class="step"><h3>2 · Copy, word for word</h3><p>Each field is copied exactly, with a link to the page it came
-    from. No AI writes the cards.</p></div>
-  <div class="step"><h3>3 · Bias Buster verifies</h3><p>Every field must be found word for word on its source page, or
-    nothing is published. Our own labels must pass every check.</p></div>
-  <div class="step"><h3>4 · Your ballot</h3><p>What you read is a fast lookup over that checked data. No AI runs while
-    you browse.</p></div>
+  <div class="step"><h3>{{ _("1 · Official sources") }}</h3><p>{{ _("The Secretary of State's Official Voter Information Guide and the Legislative Analyst's Office. Nothing else.") }}</p></div>
+  <div class="step"><h3>{{ _("2 · Copy, word for word") }}</h3><p>{{ _("Each field is copied exactly, with a link to the page it came from. No AI writes the cards.") }}</p></div>
+  <div class="step"><h3>{{ _("3 · Bias Buster verifies") }}</h3><p>{{ _("Every field must be found word for word on its source page, or nothing is published. Our own labels must pass every check.") }}</p></div>
+  <div class="step"><h3>{{ _("4 · Your ballot") }}</h3><p>{{ _("What you read is a fast lookup over that checked data. No AI runs while you browse.") }}</p></div>
 </div>
-<p>One exception: when you ask a question, an AI drafts an answer from the official text only, with quotes, and
-Bias Buster checks it before you see it.</p>
+<p>{{ _("One exception: when you ask a question, an AI drafts an answer from the official text only, with quotes, and Bias Buster checks it before you see it.") }}</p>
 <div class="pipeline">
-  <div class="step"><h3>Your question</h3><p>"How should I vote?" gets a fixed answer: that's your call.</p></div>
-  <div class="step"><h3>Grounded draft</h3><p>The AI may only use this proposition's official text, and must quote it.</p></div>
-  <div class="step"><h3>Bias Buster</h3><p>Quote, number, loaded-word and balance checks, an AI review, then the checks again.</p></div>
-  <div class="step"><h3>Answer</h3><p>Shown with its quotes, its sources and Bias Buster's result.</p></div>
+  <div class="step"><h3>{{ _("Your question") }}</h3><p>{{ _("\"How should I vote?\" gets a fixed answer: that's your call.") }}</p></div>
+  <div class="step"><h3>{{ _("Grounded draft") }}</h3><p>{{ _("The AI may only use this proposition's official text, and must quote it.") }}</p></div>
+  <div class="step"><h3>{{ _("Bias Buster") }}</h3><p>{{ _("Quote, number, loaded-word and balance checks, an AI review, then the checks again.") }}</p></div>
+  <div class="step"><h3>{{ _("Answer") }}</h3><p>{{ _("Shown with its quotes, its sources and Bias Buster's result.") }}</p></div>
 </div>
 
-<h2>The rules</h2>
+<h2>{{ _("The rules") }}</h2>
 <table class="doc-table">
-  <tr><th>Rule</th><th>What it means</th></tr>
-  <tr><td>Official sources only</td><td>Everything comes from the official voter guide and the Legislative Analyst. No
-    news, no social media.</td></tr>
-  <tr><td>Their words, not ours</td><td>Summaries, YES and NO meanings, fiscal effects and arguments are shown word for
-    word, each with a link to the exact page.</td></tr>
-  <tr><td>Both sides, equally</td><td>YES always comes before NO, in the same layout, style and colour. The official
-    arguments for and against sit side by side.</td></tr>
-  <tr><td>Quote it or skip it</td><td>A field we can't source says "Not available in the official guide." An answer
-    we can't ground is held back.</td></tr>
-  <tr><td>Your address is never stored</td><td>We use only the ZIP code to find your likely districts, then discard it.
-    Questions aren't logged. Stars and reading progress stay in your own browser.</td></tr>
+  <tr><th>{{ _("Rule") }}</th><th>{{ _("What it means") }}</th></tr>
+  <tr><td>{{ _("Official sources only") }}</td><td>{{ _("Everything comes from the official voter guide and the Legislative Analyst. No news, no social media.") }}</td></tr>
+  <tr><td>{{ _("Their words, not ours") }}</td><td>{{ _("Summaries, YES and NO meanings, fiscal effects and arguments are shown word for word, each with a link to the exact page.") }}</td></tr>
+  <tr><td>{{ _("Both sides, equally") }}</td><td>{{ _("YES always comes before NO, in the same layout, style and colour. The official arguments for and against sit side by side.") }}</td></tr>
+  <tr><td>{{ _("Quote it or skip it") }}</td><td>{{ _("A field we can't source says \"Not available in the official guide.\" An answer we can't ground is held back.") }}</td></tr>
+  <tr><td>{{ _("Your address is never stored") }}</td><td>{{ _("We use only the ZIP code to find your likely districts, then discard it. Questions aren't logged. Stars and reading progress stay in your own browser.") }}</td></tr>
+  {% if lang != "en" %}<tr><td>{{ _("Official translations only") }}</td><td>{{ _("In Spanish and Chinese, official text comes word for word from the Secretary of State's official translation of the voter guide, checked the same way. Where there is no official translation, the English original is shown. ThinkBallot never machine-translates official text; it translates only its own interface.") }}</td></tr>{% endif %}
 </table>
 
-<h2 id="bias-buster">Bias Buster</h2>
-<p>Bias Buster checks every piece of text we write and every AI answer before you see it. Two jobs:
-<strong>no bias</strong> and <strong>no made-up facts</strong>.</p>
+<h2 id="bias-buster">{{ _("Bias Buster") }}</h2>
+<p>{{ _("Bias Buster checks every piece of text we write and every AI answer before you see it. Two jobs: <strong>no bias</strong> and <strong>no made-up facts</strong>.") }}</p>
 <ol class="rules">
-  <li><strong>Quote check.</strong> Every point in an answer must quote the official text, and the quote must be
-    found there word for word. If it isn't, the point is removed.</li>
-  <li><strong>Number check.</strong> Every number, dollar amount, percentage or date must appear in the official
-    text.</li>
-  <li><strong>Loaded-word check.</strong> Persuasive words like "disastrous" or "common-sense" are caught unless
-    the official text itself uses them.</li>
-  <li><strong>Balance check.</strong> When both sides are covered, YES and NO must both be there, at similar
-    length.</li>
-  <li><strong>AI review.</strong> A second AI model reviews each answer for one-sided framing, hints about how to
-    vote, and claims the source doesn't support. Its edits go through checks 1 to 4 again. If the review can't
-    run, the answer is held back.</li>
+  <li>{{ _("<strong>Quote check.</strong> Every point in an answer must quote the official text, and the quote must be found there word for word. If it isn't, the point is removed.") }}</li>
+  <li>{{ _("<strong>Number check.</strong> Every number, dollar amount, percentage or date must appear in the official text.") }}</li>
+  <li>{{ _("<strong>Loaded-word check.</strong> Persuasive words like \"disastrous\" or \"common-sense\" are caught unless the official text itself uses them.") }}</li>
+  <li>{{ _("<strong>Balance check.</strong> When both sides are covered, YES and NO must both be there, at similar length.") }}</li>
+  <li>{{ _("<strong>AI review.</strong> A second AI model reviews each answer for one-sided framing, hints about how to vote, and claims the source doesn't support. Its edits go through checks 1 to 4 again. If the review can't run, the answer is held back.") }}</li>
 </ol>
 {% if report %}
-<div class="notice calm">Latest data check ({{ report.checked_at }}): {{ report.fields_verified }} official fields
-  verified word for word against their source pages; {{ report.labels_checked }} ThinkBallot labels passed;
-  {{ report.audit_findings }} audit note{{ '' if report.audit_findings == 1 else 's' }} recorded on official text
-  (official text is never changed).</div>
+<div class="notice calm">{{ _("Latest data check ({checked_at}): {fields} official fields verified word for word against their source pages; {labels} ThinkBallot labels passed; {notes} audit notes recorded on official text (official text is never changed).", checked_at=report.checked_at, fields=report.fields_verified, labels=report.labels_checked, notes=report.audit_findings) if report.audit_findings != 1 else _("Latest data check ({checked_at}): {fields} official fields verified word for word against their source pages; {labels} ThinkBallot labels passed; {notes} audit note recorded on official text (official text is never changed).", checked_at=report.checked_at, fields=report.fields_verified, labels=report.labels_checked, notes=report.audit_findings) }}</div>
 {% endif %}
 
-<h2 id="conduct">Community rules</h2>
-{% if not community_open %}<p class="hint">Community discussion opens after the election. These are the rules it
-  will follow.</p>{% endif %}
-<p>The discussion and community facts sit in a separate zone under each official card. They can never change the
-official card. People may be partisan there; ThinkBallot never is. Moderation judges conduct, never viewpoint.</p>
+<h2 id="conduct">{{ _("Community rules") }}</h2>
+{% if not community_open %}<p class="hint">{{ _("Community discussion opens after the election. These are the rules it will follow.") }}</p>{% endif %}
+<p>{{ _("The discussion and community facts sit in a separate zone under each official card. They can never change the official card. People may be partisan there; ThinkBallot never is. Moderation judges conduct, never viewpoint.") }}</p>
 <ol class="rules">
-  <li>Disagree with ideas, not people. No insults, harassment or slurs.</li>
-  <li>No spam, ads or links to unofficial sources passed off as facts.</li>
-  <li>Don't share anyone's personal information, including your own.</li>
-  <li>Comments appear right away. If five established accounts flag one, it's hidden until a moderator reviews it.</li>
-  <li>Community facts need a source link and neutral wording (checked by Bias Buster). Government sources are
-    marked ✓ official source. They're published
-    only after people who lean YES and people who lean NO both rate them helpful (bridging consensus), and a
-    moderator confirms the citation supports them.</li>
+  <li>{{ _("Disagree with ideas, not people. No insults, harassment or slurs.") }}</li>
+  <li>{{ _("No spam, ads or links to unofficial sources passed off as facts.") }}</li>
+  <li>{{ _("Don't share anyone's personal information, including your own.") }}</li>
+  <li>{{ _("Comments appear right away. If five established accounts flag one, it's hidden until a moderator reviews it.") }}</li>
+  <li>{{ _("Community facts need a source link and neutral wording (checked by Bias Buster). Government sources are marked ✓ official source. They're published only after people who lean YES and people who lean NO both rate them helpful (bridging consensus), and a moderator confirms the citation supports them.") }}</li>
 </ol>
 
-<h2>What we will never do</h2>
-<p class="never">No endorsements. No predictions. No "how you should vote."</p>
+<h2>{{ _("What we will never do") }}</h2>
+<p class="never">{{ _("No endorsements. No predictions. No \"how you should vote.\"") }}</p>
 {% endblock %}

@@ -1,37 +1,34 @@
 {% extends "base.html" %}
 {% block main %}
 <section class="hero">
-  <div class="eyebrow">{{ election.name }}</div>
-  <h1>Your ballot in plain English. <em>Both sides, equally.</em></h1>
-  <p class="lede">ThinkBallot turns a 100-page voter guide into a link you can trust: plain English, both sides
-  equally, straight from the official source. {{ count }} statewide propositions, explained. We never tell you
-  how to vote.</p>
+  <div class="eyebrow">{{ _(election.name) }}</div>
+  <h1>{{ _("Your ballot in plain English. <em>Both sides, equally.</em>") }}</h1>
+  <p class="lede">{{ _("ThinkBallot turns a 100-page voter guide into a link you can trust: plain English, both sides equally, straight from the official source. {count} statewide propositions, explained. We never tell you how to vote.", count=count) }}</p>
 
-  <form class="address-form" method="post" action="/ballot">
+  <form class="address-form" method="post" action="{{ lp('/ballot') }}">
     <input type="hidden" name="csrf" value="{{ csrf_token() }}">
-    <input type="text" name="address" placeholder="California address or ZIP code" aria-label="Your California address or ZIP code"
+    <input type="text" name="address" placeholder="{{ _a('California address or ZIP code') }}" aria-label="{{ _a('Your California address or ZIP code') }}"
       autocomplete="off" autocapitalize="words" autocorrect="off" spellcheck="false" enterkeyhint="go" required>
-    <button class="btn" type="submit">See my ballot</button>
+    <button class="btn" type="submit">{{ _("See my ballot") }}</button>
   </form>
-  <form method="post" action="/ballot" class="sample-form">
+  <form method="post" action="{{ lp('/ballot') }}" class="sample-form">
     <input type="hidden" name="csrf" value="{{ csrf_token() }}">
     <input type="hidden" name="address" value="{{ sample_address }}">
-    <span class="hint">Just exploring?</span>
-    <button class="linklike" type="submit">Try a sample address: {{ sample_address }}</button>
+    <span class="hint">{{ _("Just exploring?") }}</span>
+    <button class="linklike" type="submit">{{ _("Try a sample address: {address}", address=sample_address) }}</button>
   </form>
-  <p class="hint">We use only your ZIP code to find your likely districts. Your address is never stored.</p>
+  <p class="hint">{{ _("We use only your ZIP code to find your likely districts. Your address is never stored.") }}</p>
 </section>
 
 <div class="pillars">
-  <div class="pillar"><span class="num">01</span><h2>Plain English</h2>
-    <p>Every proposition on one short card: what it does, what YES means, what NO means, and what it costs.</p></div>
-  <div class="pillar"><span class="num">02</span><h2>Both sides, equally</h2>
-    <p>YES and NO always get the same space, the same order and the same style. The official arguments for and
-    against appear side by side, word for word.</p></div>
-  <div class="pillar"><span class="num">03</span><h2>Straight from the source</h2>
-    <p>Every line links to the official voter guide or the Legislative Analyst. Questions are answered only from
-    that text and checked by our <a href="/neutral">Bias Buster</a>.</p></div>
+  <div class="pillar"><span class="num">01</span><h2>{{ _("Plain English") }}</h2>
+    <p>{{ _("Every proposition on one short card: what it does, what YES means, what NO means, and what it costs.") }}</p></div>
+  <div class="pillar"><span class="num">02</span><h2>{{ _("Both sides, equally") }}</h2>
+    <p>{{ _("YES and NO always get the same space, the same order and the same style. The official arguments for and against appear side by side, word for word.") }}</p></div>
+  <div class="pillar"><span class="num">03</span><h2>{{ _("Straight from the source") }}</h2>
+    <p>{{ _('Every line links to the official voter guide or the Legislative Analyst. Questions are answered only from that text and checked by our <a href="{url}">Bias Buster</a>.', url=lp('/neutral')) }}</p></div>
 </div>
+{% if lang != "en" %}<p class="hint lang-note">{{ _("Official text on these pages comes from the Secretary of State's official translation of the voter guide.") }}</p>{% endif %}
 
 {% include "_how_to_vote.html" %}
 {% endblock %}
