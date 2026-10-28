@@ -1,0 +1,10 @@
+{
+  "id": "alameda-local-measures-2026-11",
+  "jurisdiction": {"level": "county", "name": "Alameda"},
+  "election": "2026-11-03",
+  "seeds": ["https://www.alamedacountyca.gov/rov_app/measures/election/260"],
+  "allow": [],
+  "max_depth": 0,
+  "delay_seconds": 2,
+  "extractor": "alameda_measures"
+}
