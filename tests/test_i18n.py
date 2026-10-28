@@ -85,8 +85,21 @@ def test_known_fields_of_proposition_1():
     assert es["fields"]["opponents"]["text"] == "Ninguno enviado"
     assert zh["title"]["text"] == "授權發行用於住房負擔能力方案的債券。"
     assert zh["fields"]["measure_type"]["text"] == "立法法規。"
-    assert zh["fields"]["fiscal_effect"]["text"] == "州政府每年增加 5 到 6 億美元的成本，用於償還住房債券，持續約25年。"
+    assert zh["fields"]["fiscal_effect"]["text"] == "州政府每年增加 5 到 6 億美元的成本，用於償還住房債券，持續約25 年。"
     assert zh["fields"]["opponents"]["text"] == "未提交"
+
+
+def test_spanish_numbers_match_the_english_guide_field_by_field():
+    """Catches text cut from the wrong box or the wrong proposition: the Spanish guide prints the same
+    figures as the English one ($11.25 mil millones / $11.25 billion)."""
+    english = {m["id"]: m for m in json.loads((ROOT / "data" / "measures.json").read_text())["measures"]}
+    url = f"{translated.CDN}/es/pdf/{translated.QRG}"
+    records = translated.extract({url: {"body": QRG["es"].read_bytes()}}, lambda t, s, l: {"text": t})
+    numbers = lambda text: {n.replace(",", "").rstrip(".") for n in re.findall(r"\d[\d,.]*", text)}  # noqa: E731
+    for r in records:
+        for name in ("summary", "yes_means", "no_means", "fiscal_effect"):
+            assert numbers(r["fields"][name]["text"]) == numbers(english[r["translation_of"]]["fields"][name]["text"]), \
+                (r["translation_of"], name)
 
 
 def test_chinese_font_is_decoded_through_its_cmap_including_brackets():
@@ -260,6 +273,24 @@ def test_unknown_language_prefix_is_not_a_page(with_translations):
     assert requests.get(with_translations + "/fr/ballot").status_code == 404
     assert requests.get(with_translations + "/es/nope").status_code == 404
     assert _html_lang(requests.get(with_translations + "/es/nope").text) == "es"
+
+
+def test_titles_are_escaped_once(server):
+    """Titles with an apostrophe or an ampersand, in titles, attributes and option labels."""
+    from thinkballot.services.web.app import create_app
+    app = create_app()
+    with app.test_request_context("/"):
+        from flask import render_template_string
+        out = render_template_string(
+            "<x title=\"{{ _a('{label}: {title}', label='Prop 2', title=t) }}\">{{ _('{label}: {title}', label='Prop 2', title=t) }}</x>"
+            "{{ _d(t) }}", t="State's Fund & <b>Parks</b>")
+    assert out == ('<x title="Prop 2: State&#39;s Fund &amp; &lt;b&gt;Parks&lt;/b&gt;">Prop 2: State&#39;s Fund &amp; '
+                   '&lt;b&gt;Parks&lt;/b&gt;</x>State&#39;s Fund &amp; &lt;b&gt;Parks&lt;/b&gt;')
+
+
+def test_account_pages_are_english_only(with_translations):
+    resp = requests.get(with_translations + "/es/signin?next=/es/ballot", allow_redirects=False)
+    assert resp.status_code == 302 and resp.headers["Location"].endswith("/signin?next=/es/ballot")
 
 
 def test_no_language_cookie(with_translations):

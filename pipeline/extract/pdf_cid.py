@@ -383,14 +383,23 @@ def pdf_text(body):
     return "\n\n".join("\n".join(line["text"] for line in lines_of(items)) for items in runs(body))
 
 
+IDEOGRAPH_RE = re.compile("[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]")
+
+
 def join_lines(lines):
-    """Lines of one paragraph as one string: no space where a CJK character meets a line break."""
+    """Lines of one paragraph as one string. No space where two CJK characters meet at a line break, or
+    where CJK punctuation does; one space where an ideograph meets a Latin letter or a digit (the
+    guide sets a space there, as in "弱勢 California 居民"), and between Latin words."""
     out = ""
     for line in lines:
         line = line.strip()
         if not line:
             continue
-        if out and not (CJK_RE.match(out[-1]) or CJK_RE.match(line[0])):
+        a, b = (out[-1], line[0]) if out else ("", "")
+        cjk_a, cjk_b = bool(CJK_RE.match(a)), bool(CJK_RE.match(b))
+        mixed = (IDEOGRAPH_RE.match(a) and b.isascii() and b.isalnum()) or \
+                (IDEOGRAPH_RE.match(b) and a.isascii() and a.isalnum())
+        if out and (mixed or not (cjk_a or cjk_b)):
             out += " "
         out += line
     return out

@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block main %}
 <section class="hero">
-  <div class="eyebrow">{{ _(election.name) }}</div>
+  <div class="eyebrow">{{ _d(election.name) }}</div>
   <h1>{{ _("Your ballot in plain English. <em>Both sides, equally.</em>") }}</h1>
   <p class="lede">{{ _("ThinkBallot turns a 100-page voter guide into a link you can trust: plain English, both sides equally, straight from the official source. {count} statewide propositions, explained. We never tell you how to vote.", count=count) }}</p>
 

@@ -37,6 +37,12 @@ def gettext(lang, text, **values):
     return Markup(translated).format(**values) if values else Markup(translated)
 
 
+def data_label(lang, text):
+    """A label that comes from data (election name, topic): its catalog translation if there is one,
+    always escaped, never treated as markup."""
+    return Markup.escape(CATALOGS.get(lang, {}).get(text) or text)
+
+
 def lang_path(lang, path):
     """The address of a page (path without a language prefix) in lang."""
     if lang == DEFAULT:

@@ -15,13 +15,14 @@
 {% block description %}{{ (m.fields.summary.text if m.fields.summary else (m.fields.ballot_question.text if m.fields.ballot_question else m.title))|truncate(180) }}{% endblock %}
 {% block main %}
 <article class="measure-page" data-measure="{{ m.id }}" data-title="{{ _a('{label}: {title}', label=label, title=m.title) }}">
-  <div class="eyebrow">{% if m.level == "state" %}{{ _("Statewide proposition") }}{% elif m.district == m.county ~ " County" %}{{ _("{county} County", county=m.county) }}{% else %}<span{% if lang != "en" %} lang="en"{% endif %}>{{ m.district }}</span> · {{ _("{county} County", county=m.county) }}{% endif %} · {{ _(election.name) }}</div>
-  <h1{% if lang != "en" and not (translated and "title" in m.translation.fields) %} lang="en"{% endif %}>{{ _("{label}: {title}", label=label, title=m.title) }}</h1>
+  <div class="eyebrow">{% if m.level == "state" %}{{ _("Statewide proposition") }}{% elif m.district == m.county ~ " County" %}{{ _("{county} County", county=m.county) }}{% else %}<span{% if lang != "en" %} lang="en"{% endif %}>{{ m.district }}</span> · {{ _("{county} County", county=m.county) }}{% endif %} · {{ _d(election.name) }}</div>
+  {% set title_html %}<span{% if lang != "en" and not (translated and "title" in m.translation.fields) %} lang="en"{% endif %}>{{ m.title }}</span>{% endset %}
+  <h1>{{ _("{label}: {title}", label=label, title=title_html) }}</h1>
   {% if lang != "en" %}
   <p class="notice calm lang-note">{% if translated %}{{ _("Official text on this card comes word for word from the Secretary of State's official translation of the voter guide (<a href='{url}' target='_blank' rel='noopener'>Quick Reference Guide</a>). Text the translation doesn't include is shown in English.", url=m.fields.summary.source_url if m.fields.summary and m.fields.summary.lang else m.title_source_url) }}{% else %}{{ _("The official text of this measure is shown in English, as published. ThinkBallot never machine-translates official text.") }}{% endif %}</p>
   {% endif %}
   <p class="hint meta-line">{% if m.fields.measure_type %}<span{{ en(m.fields.measure_type) }}>{{ m.fields.measure_type.text }}</span> {{ src(m.fields.measure_type) }}{% if m.topics %} ·{% endif %}{% endif %}
-    {% if m.topics %}{{ _("Topics:") }} {% for t in m.topics %}<a class="chip" href="{{ lp('/search') }}?topic={{ t|urlencode }}">{{ _(t) }}</a> {% endfor %}{% endif %}</p>
+    {% if m.topics %}{{ _("Topics:") }} {% for t in m.topics %}<a class="chip" href="{{ lp('/search') }}?topic={{ t|urlencode }}">{{ _d(t) }}</a> {% endfor %}{% endif %}</p>
   {% if m.fields.summary %}
   <p class="lede"{{ en(m.fields.summary) }}>{{ m.fields.summary.text }} {{ src(m.fields.summary) }}{{ en_flag(m.fields.summary) }}</p>
   {% elif m.level == "state" %}
@@ -100,7 +101,7 @@
 
   <p class="gap"><a class="btn ghost small" href="{{ lp('/ballot') }}">{{ _("← All propositions") }}</a></p>
 
-  {% if community_open %}{% include "_community.html" %}
+  {% if community_open %}{% if lang != "en" %}<div lang="en">{% include "_community.html" %}</div>{% else %}{% include "_community.html" %}{% endif %}
   {% else %}<p class="hint gap" id="community">{{ _("Community discussion opens after the election.") }}</p>{% endif %}
 </article>
 {% endblock %}
