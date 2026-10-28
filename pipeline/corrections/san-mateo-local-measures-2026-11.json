@@ -1,0 +1,11 @@
+[
+  {"url": "https://smcacre.gov/system/files/2026-07/52-ENG-M105-Contest%20Code-Reso-Burlingame%20ESD%20Bon_Redacted.pdf",
+   "ocr": "bonds = are", "corrected": "bonds are",
+   "reason": "Measure R, page 11: the page reads \"while bonds are outstanding\"; tesseract reads a speck in the wide justified space as \"=\" (at 400-600 dpi it misreads other words instead)."},
+  {"url": "https://smcacre.gov/system/files/2026-08/52-ENG-M307-Contest%20Code-Reso-SMCCD%20Bond_Redacted.pdf",
+   "ocr": "Cafiada", "corrected": "Cañada",
+   "reason": "Measure V, page 7: the page reads \"Cañada College\"; the English OCR model has no ñ and reads it as \"fi\" at every resolution tried."},
+  {"url": "https://smcacre.gov/system/files/2026-08/52-ENG-M305-Contest%20Code-Reso-San%20Bruno%20Business%20License%20Tax_Redacted.pdf",
+   "ocr": "raising ©", "corrected": "raising",
+   "reason": "Measure EE, page 2: the page reads \"raising $4,000,000 annually\"; a speck of scan noise after \"raising\" is read as \"©\"."}
+]
