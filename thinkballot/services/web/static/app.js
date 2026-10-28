@@ -102,6 +102,15 @@ const VERDICT_TEXT = {
   revised: "Bias Buster: edited",
 };
 
+// Answers to the suggested questions may be prepared in advance; say so, and when.
+function preparedNote(r) {
+  if (!r.prepared) return "";
+  const day = new Date(r.prepared + "T00:00:00Z").toLocaleDateString("en-US",
+    { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
+  const checked = r.status === "answered" ? " and re-checked by Bias Buster just now" : "";
+  return `<p class="prepared-note">Prepared in advance from the official text on ${esc(day)}${checked}.</p>`;
+}
+
 function renderAnswer(r) {
   if (r.status === "answered") {
     const points = r.points.map((p) => `
@@ -112,12 +121,12 @@ function renderAnswer(r) {
       ? `<ul class="findings">${r.findings.map((f) => `<li>${esc(f.detail)}</li>`).join("")}</ul>` : "";
     return `<div class="answer"><ul class="points">${points}</ul>
       <div class="verdict ${esc(r.verdict)}">${esc(VERDICT_TEXT[r.verdict] || "Bias Buster")}
-        ${r.findings.length ? `· ${r.findings.length} change${r.findings.length > 1 ? "s" : ""}` : ""}</div>${findings}</div>`;
+        ${r.findings.length ? `· ${r.findings.length} change${r.findings.length > 1 ? "s" : ""}` : ""}</div>${findings}${preparedNote(r)}</div>`;
   }
   if (r.status === "blocked") {
     return `<div class="answer held"><p>${esc(r.reason)}</p><div class="verdict blocked">Bias Buster: held back</div></div>`;
   }
-  return `<div class="answer refused"><p>${esc(r.reason)}</p></div>`;
+  return `<div class="answer refused"><p>${esc(r.reason)}</p>${preparedNote(r)}</div>`;
 }
 
 // The server doesn't report its steps, so the bar follows the clock: it eases toward 95% over the
