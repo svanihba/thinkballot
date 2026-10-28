@@ -118,6 +118,8 @@ def crawl_source(store, source):
             blocked += 1
             continue
         if resp.status_code == 304 and prev:
+            # a 304 carries no content type; the stored copy's type decides whether its links are followed
+            meta["content_type"] = meta["content_type"] or store.stored_content_type(sid, url, prev["sha256"])
             store.record(run, sid, url, sha256=prev["sha256"], size=prev["size"], unchanged=1, **meta)
             body = store.read(prev["sha256"])
         elif resp.status_code == 200:
