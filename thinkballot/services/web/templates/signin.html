@@ -6,6 +6,19 @@
 <p class="lede">Reading is always open, no account needed. Sign in to join the discussion, submit facts and rate
   them. Your email is only for signing in; it's never shown. Others see only your display name.</p>
 
+{% if pending %}
+<div class="signin-grid">
+  <form method="post" class="panel">
+    <h2>Confirm your email</h2>
+    <p class="hint">This account isn't confirmed yet. We can send a new email with a link and a passcode.</p>
+    <input type="hidden" name="csrf" value="{{ csrf_token() }}">
+    <input type="hidden" name="next" value="{{ next }}">
+    <input type="hidden" name="action" value="resend">
+    <button class="btn" type="submit">Send a new verification email</button>
+  </form>
+</div>
+{% endif %}
+
 <div class="signin-grid">
   <form method="post" class="panel">
     <h2>Sign in</h2>
@@ -27,6 +40,7 @@
     <label>Password <span class="hint">(8+ characters)</span>
       <input type="password" name="password" minlength="8" autocomplete="new-password" required></label>
     <button class="btn" type="submit">Create account</button>
+    <p class="hint">We'll email you a link and a passcode to confirm the address is yours.</p>
     <p class="hint">By joining you agree to the <a href="/neutral#conduct">community rules</a>.</p>
   </form>
 </div>

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Confirm your email · ThinkBallot{% endblock %}
+{% block main %}
+<div class="eyebrow">Account · confirm your email</div>
+<h1>Confirm your email</h1>
+{% if valid %}
+<p class="lede">Enter the 6-digit passcode from the same email as this link. This finishes creating your account
+  and signs you in.</p>
+<div class="signin-grid">
+  <form method="post" action="/verify" class="panel">
+    <h2>Passcode</h2>
+    <input type="hidden" name="csrf" value="{{ csrf_token() }}">
+    <input type="hidden" name="t" value="{{ token }}">
+    <label>6-digit passcode<input type="text" name="code" inputmode="numeric" pattern="[0-9]{6}" maxlength="6"
+      autocomplete="one-time-code" required></label>
+    <button class="btn" type="submit">Confirm</button>
+  </form>
+</div>
+{% else %}
+<p class="lede">This link has expired or was already used. <a href="/signin">Sign in</a> with your email and
+  password to get a new email.</p>
+{% endif %}
+{% endblock %}

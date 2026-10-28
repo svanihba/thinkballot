@@ -71,3 +71,15 @@ RESULTS_MAX_AGE_SECONDS = 300  # fetch the feed at most once every five minutes
 RESULTS_CERTIFIED = _env("TB_RESULTS_CERTIFIED", "") == "1"
 # Local preview only: serve a recorded feed file instead of fetching (labelled as test data on the page).
 RESULTS_FIXTURE = _env("TB_RESULTS_FIXTURE", "")
+# Email (account verification). "none" (default) sends nothing, so sign-up stays closed;
+# "smtp" sends through the provider below; "file" (development only) writes each message to MAIL_DIR.
+MAIL_BACKEND = _env("TB_MAIL_BACKEND", "none")
+SMTP_HOST = os.environ.get("TB_SMTP_HOST", "")
+SMTP_PORT = int(_env("TB_SMTP_PORT", "587"))  # 587: STARTTLS (required); 465: TLS from the start
+SMTP_USER = os.environ.get("TB_SMTP_USER", "")
+SMTP_PASSWORD = os.environ.get("TB_SMTP_PASSWORD")  # never printed or logged
+MAIL_FROM = os.environ.get("TB_MAIL_FROM", "")
+MAIL_TIMEOUT_SECONDS = float(_env("TB_MAIL_TIMEOUT", "15"))
+MAIL_DIR = Path(_env("TB_MAIL_DIR", str(ROOT / "instance" / "mail")))
+# Verification emails the whole site may send per hour (protects the provider's sending quota).
+MAIL_HOURLY_CAP = int(_env("TB_MAIL_HOURLY_CAP", "100"))
