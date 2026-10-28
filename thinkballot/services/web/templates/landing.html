@@ -5,19 +5,20 @@
   <h1>{{ _("Your ballot in plain English. <em>Both sides, equally.</em>") }}</h1>
   <p class="lede">{{ _("ThinkBallot turns a 100-page voter guide into a link you can trust: plain English, both sides equally, straight from the official source. {count} statewide propositions, explained. We never tell you how to vote.", count=count) }}</p>
 
-  <form class="address-form" method="post" action="{{ lp('/ballot') }}">
+  <form class="zip-form" method="post" action="{{ lp('/ballot') }}">
     <input type="hidden" name="csrf" value="{{ csrf_token() }}">
-    <input type="text" name="address" placeholder="{{ _a('California address or ZIP code') }}" aria-label="{{ _a('Your California address or ZIP code') }}"
-      autocomplete="off" autocapitalize="words" autocorrect="off" spellcheck="false" enterkeyhint="go" required>
+    <input type="text" name="zip" placeholder="{{ _a('California ZIP code') }}" aria-label="{{ _a('Your California ZIP code') }}"
+      inputmode="numeric" pattern="[0-9]{5}" maxlength="5" autocomplete="postal-code" enterkeyhint="go"
+      title="{{ _a('5 digits, like 94087') }}" required>
     <button class="btn" type="submit">{{ _("See my ballot") }}</button>
   </form>
   <form method="post" action="{{ lp('/ballot') }}" class="sample-form">
     <input type="hidden" name="csrf" value="{{ csrf_token() }}">
-    <input type="hidden" name="address" value="{{ sample_address }}">
+    <input type="hidden" name="zip" value="{{ sample_zip }}">
     <span class="hint">{{ _("Just exploring?") }}</span>
-    <button class="linklike" type="submit">{{ _("Try a sample address: {address}", address=sample_address) }}</button>
+    <button class="linklike" type="submit">{{ _("Try a sample ZIP code: {zip}", zip=sample_zip) }}</button>
   </form>
-  <p class="hint">{{ _("We use only your ZIP code to find your likely districts. Your address is never stored.") }}</p>
+  <p class="hint">{{ _("We use your ZIP code only to find your likely districts. It is never stored.") }}</p>
 </section>
 
 <div class="pillars">

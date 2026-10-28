@@ -13,7 +13,7 @@ from ...servicekit import ServiceClient, ServiceError
 from ...suggested import SUGGESTED_QUESTIONS
 from . import i18n
 
-SAMPLE_ADDRESS = "Mango Park, Sunnyvale, 94087"
+SAMPLE_ZIP = "94087"
 MEASURE_ID_RE = re.compile(r"^(prop|local)-[a-z0-9-]{1,24}$")
 SAFE_NEXT_RE = re.compile(r"^/(?![/\\])[A-Za-z0-9._~!$&'()*+,;=:@%/?-]*$")  # same-site path, no //host
 
@@ -216,17 +216,17 @@ def create_app():
     def landing():
         election, measures = load_ballot()
         return render_template("landing.html", election=election, count=len(measures),
-                               sample_address=SAMPLE_ADDRESS)
+                               sample_zip=SAMPLE_ZIP)
 
     @app.route("/ballot", methods=["GET", "POST"])
     def ballot_page():
         election, measures = load_ballot()
         place = None
-        if request.method == "POST":  # address arrives in the form body, never in the URL
-            address = request.form.get("address", "").strip()
-            if address:
+        if request.method == "POST":  # the ZIP code arrives in the form body, never in the URL
+            zip_code = request.form.get("zip", "").strip()
+            if zip_code:
                 try:
-                    place = geo.post("/lookup", {"address": address})
+                    place = geo.post("/lookup", {"address": zip_code})
                 except ServiceError:
                     place = {"found": False, "zip": None, "error": True}
         local = None
