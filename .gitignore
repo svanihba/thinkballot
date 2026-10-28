@@ -9,3 +9,5 @@ HANDOFF.local.md
 !data/raw/crawl.sqlite3
 .DS_Store
 .claude/
+# Raw objects over 20 MB stay local: the saved text reading (committed) is what the seed verifies.
+data/raw/objects/7e/7e8c5eb74e37509753e43954a962dcc9ce9a7cadc4cb83033ef9a572864c9d72

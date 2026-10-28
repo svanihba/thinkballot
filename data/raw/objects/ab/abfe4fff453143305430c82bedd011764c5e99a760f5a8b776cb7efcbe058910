@@ -1,0 +1,1399 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head id="Head1"><meta charset="UTF-8" /><link href="/DefaultContent/Default/bootstrap.v3.4.1.min.css" rel="stylesheet"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" /><title>
+	
+    Measure H | Indian Wells, CA
+
+</title>
+
+    
+    <script>
+         (function() {
+            window['angular_base'] = "/";
+         })();
+    </script>
+    
+
+    
+            <script type="text/javascript">
+                (function() {
+                    if (window.self !== window.top) { //Inside Iframe                
+                        if (document.getElementsByTagName("html").length > 0) {
+                            document.getElementsByTagName("html")[0].classList.add("apple-product");                
+                        }                
+                    }
+                })();
+            </script>
+    
+    <meta name="viewport" content="width=device-width" />
+    
+    <link href="/DefaultContent/Default/StyleBundleDesignTheme.cssbnd?v=XuSY58cYXFocrb64T0DJ7jsMaAKH1awJV9bIuGB3MuI1" rel="stylesheet"/>
+<link href="/Project/Contents/Main/StyleBundleDesignTheme.cssbnd?v=G97t79zk0AuEdh2nyl51aQScVQOPu0a7Eei5z_qDcsM1" rel="stylesheet"/>
+<link href="/Areas/Admin/Content/StyleBundleFrontendExtra.cssbnd?v=nqlce7hzdo9LIG8VjJmT54anvfgjYa7U1e0fCFkn8EQ1" rel="stylesheet"/>
+<link href="/DefaultContent/Default/Print.cssbnd?v=KHE7WOKtPueyPX2uj_mtIbyWU4zUk_Vb5WjoMZ1rsuk1" rel="stylesheet" media="print" />
+<link href="/Project/Contents/Main/Print.cssbnd?v=OQTXeQe58tSbhYNF3I8MqwnnKemu_K2At4bh9UEeLRs1" rel="stylesheet" media="print" />
+<script src="/Scripts/ScriptBundleFAllInOne.jsbnd?v=JVE6npY6YF2wH7c-hT0P0TJ17hzzeczFVFrT2ygR9VY1"></script>
+
+<script>
+    function handleExternalURL() { };
+</script>
+<script>window.visionOptions = {virtualApplicationPath:'/',logOnPath:'Admin/LogOn',logOffPath:'Admin/LogOff',enableSessionTimeout:false,sessionTimeoutInMinutes:30,timeToAlertBeforeSessionTimeoutInMinutes:5,extendSessionTimeoutPath:'Admin/Account/ExtendSessionTimeout',mainFolderPath:'/Project/Contents/Main/',centerLocation:'Indian Wells, CA', siteID:1, navigationID:471, isHomePage:false, emergencyNoticeChanged:false, loggedIn:false, showTopTips:true, currentDesignFolderPath:'/Project/Contents/Main/', useDesignThemFontSizeCss:false , clientResponsiveTableEnabled:true, imageUrl:'/Home/ShowPublishedImage/', engagementAdminEndPoint:'/Admin/Engagement/', visionLiveAdminEndPoint:'/Admin/Components/', cmsAdminEndPoint:'/Admin/', enableSplashUrl:false, eSignatureView: '/Shared/SignatureView', socialMediaInfo :{ twitter : { maxLength : 280  } }, baseImageUrl:'/Home/ShowPublishedImage' };;window.visionApps={"cms_core":{"DateFormat":"MM/dd/yyyy","TimeFormat":"h:mm TT","PhoneFormat":"(999) 999-9999","OrganizationName":"Indian Wells, CA","TimeAMFormat":"AM","TimePMFormat":"PM","ProjectTimeZone":"America/Los_Angeles","ProjectTimeZoneDiff":{"Id":"Pacific Standard Time","DisplayName":"(UTC-08:00) Pacific Time (US & Canada)","StandardName":"Pacific Standard Time","DaylightName":"Pacific Daylight Time","BaseUtcOffset":"-08:00:00","AdjustmentRules":[{"DateStart":"0001-01-01T00:00:00","DateEnd":"2006-12-31T00:00:00","DaylightDelta":"01:00:00","DaylightTransitionStart":{"TimeOfDay":"0001-01-01T02:00:00","Month":4,"Week":1,"Day":1,"DayOfWeek":0,"IsFixedDateRule":false},"DaylightTransitionEnd":{"TimeOfDay":"0001-01-01T02:00:00","Month":10,"Week":5,"Day":1,"DayOfWeek":0,"IsFixedDateRule":false},"BaseUtcOffsetDelta":"00:00:00"},{"DateStart":"2007-01-01T00:00:00","DateEnd":"9999-12-31T00:00:00","DaylightDelta":"01:00:00","DaylightTransitionStart":{"TimeOfDay":"0001-01-01T02:00:00","Month":3,"Week":2,"Day":1,"DayOfWeek":0,"IsFixedDateRule":false},"DaylightTransitionEnd":{"TimeOfDay":"0001-01-01T02:00:00","Month":11,"Week":1,"Day":1,"DayOfWeek":0,"IsFixedDateRule":false},"BaseUtcOffsetDelta":"00:00:00"}],"SupportsDaylightSavingTime":true},"ShowDefaultMarginRadEditor":true,"ContentReviewDefaultScheduleType":"0","EnableXSSCheck":true,"BasicXSSKeywords":"script|scriptscr|imagesrc","AdvancedXSSKeywords":"onload|onclick|onerror|javascript|onmouseover|eval|random|function|onload|execcommand|script|fscommand|onabort|onactivate|onafterprint|onafterupdate|onbeforeactivate|onbeforecopy|onbeforecut|onbeforedeactivate|onbeforeeditfocus|onbeforepaste|onbeforeunload|onbeforeupdate|onbegin|onblur|onbounce|oncellchange|onchange|onclick|oncontextmMenu|oncontrolselect|oncopy|oncut|ondataavailable|ondatasetchanged|ondatasetcomplete|ondblclick|ondeactivate|ondrag|ondragend|ondragleave|ondragenter|ondragover|ondragdrop|ondragstart|onend|onerror|onerrorupdate|onfilterchange|onfinish|onfocus|onfocusin|onfocusout|onhashchange|onhelp|oninput|onkeydown|onkeypress|onkeyup|onlayoutcomplete|onload|onlosecapture|onmediacomplete|onmediaerror|onmousedown|onmouseenter|onmouseleave|onmousemove|onmouseout|onmouseover|onmouseup|onmousewheel|onmove|onmoveend|onmovestart|onoffline|ononline|onoutofsync|onpaste|onpause|onpopstate|onprogress|onpropertychange|onreadystatechange|onredo|onrepeat|onreset|onresize|onresizeend|onresizestart|onresume|onreverse|onrowsenter|onrowexit|onrowdelete|onrowinserted|onscroll|onseek|onselect|onselectionchange|onselectstart|onstart|onstop|onstorage|onsyncrestored|onsubmit|ontimeerror|ontrackchange|onundo|onunload|onurlflip|seeksegmenttime|document.cookie","EnableMultipleSSO":false,"FileSignatures":"{\".jpg\":[\"FFD8FF\"],\".jpeg\":[\"FFD8FF\"],\".png\":[\"89504E470D0A1A0A\"],\".gif\":[\"474946383761\",\"474946383961\"],\".bmp\":[\"424D\"],\".tif\":[\"49492A00\",\"4D4D002A\"],\".tiff\":[\"49492A00\",\"4D4D002A\"],\".svg\":[],\".txt\":[],\".csv\":[],\".xml\":[],\".rtf\":[\"7B5C727466\"],\".doc\":[\"D0CF11E0A1B11AE1\"],\".docx\":[\"504B0304\"],\".xls\":[\"D0CF11E0A1B11AE1\"],\".xlsx\":[\"504B0304\"],\".ppt\":[\"D0CF11E0A1B11AE1\"],\".pptx\":[\"504B0304\"],\".pps\":[\"D0CF11E0A1B11AE1\"],\".pdf\":[\"25504446\"],\".zip\":[\"504B0304\",\"504B0506\",\"504B0708\"],\".rar\":[\"526172211A0700\",\"526172211A070100\"],\".7z\":[\"377ABCAF271C\"],\".dwg\":[\"41433130\"],\".eps\":[\"25215053\"],\".ai\":[\"25215053\"],\".vsd\":[\"D0CF11E0A1B11AE1\"],\".kml\":[],\".kmz\":[\"504B0304\",\"504B0506\",\"504B0708\"],\".mp3\":[\"494433\"],\".wav\":[\"52494646\"],\".mp4\":[\"00000018\",\"66747970\"],\".avi\":[\"52494646\"],\".mov\":[\"00000014\",\"66747970\"],\".ogg\":[\"4F676753\"],\".flac\":[\"664C6143\"],\".webm\":[\"1A45DFA3\"],\".mkv\":[\"1A45DFA3\"],\".json\":[],\".html\":[],\".htm\":[]}","GoogleReCaptchaPublicKey":"6LflacYZAAAAAI_guTdTbHQCZE5F-MhOTIbJoag3"}};;window.visionApps.token="eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwiayI6Ik41ZFQwMkd5OHNQUU9iektSZVpHWmc9PSJ9.CLzsK9p25X1EQcix6EF1a4x-0gO4O8ECbbRnItI5TUctIcKN0YO1G8x5bU6jmwXZGKGp01C889O9OF7Szc71VKYmjLb0uGAD.AzFjSiHmIStGYNEMBbwwNw.lwlAxPv2DPK9wgfzRghLAJU0onfxnJVsNmC8hJIkLskj_-HcjzXXzKjdLK7bbWC8c9fPMU3PLB1V9OscYMo4PzRoklxusy_GpJqhEN_dny9R-KfBAklo40tDz8TOLjsnPs5i2MMbHoJaG4g_m7a-BGtxwnQwhfChsHkmhiXY2GydN9g-OQgtmJBMlHsMpUqckHKcFqMvGIXZjL_BW9dyeuhPk_BGVFP0id12O6Pa15A.WV5BjTIw8si089SRw7lI6nNcTdiL8X6MSTslT59dFws";(function(window){window.cmsCoreConfig={}; (function(config){ (function(window){window.coreComponentFormConfig={"apiEndPoint":"https://form.visioninternet.com/"};})(window);; })(window.cmsCoreConfig); })(window);(function(window){window.visionLiveConfig={}; (function(config){ ; })(window.visionLiveConfig); })(window);</script>
+
+    <script type="text/javascript">
+        // added the htmlEncode and htmlDecode method to fixed the js load order issue.
+        $.extend($, {
+            htmlEncode: function (html) {
+                var temp = document.createElement("div");
+                (temp.textContent != undefined) ? (temp.textContent = html) : (temp.innerText = html);
+                var output = temp.innerHTML;
+                temp = null;
+                return output;
+            },
+            htmlDecode: function (text) {
+                var temp = document.createElement("div");
+                temp.innerHTML = text;
+                var output = temp.innerText || temp.textContent;
+                temp = null;
+                return output;
+            }
+        });    
+        $(function () {
+            //script for view full site button, placed here to keep firefox for mobile devices happy
+            var viewFullElement = document.getElementById("view-full");           
+            if (viewFullElement) {
+                viewFullElement.innerHTML = "View Full Site";
+                viewFullElement.className = "mobile_only fullsite";
+            }
+        });
+    </script>
+    
+
+    <!--[if lt IE 9]>
+        <script src="/Scripts/ScriptBundleOthers.jsbnd?v=3Q7FhTQfRrKx8h7Kvdbh9bBluzlNlXKsFAERd4g8_TY1"></script>
+
+	<![endif]-->
+
+    
+    <link id="active_font" rel="stylesheet" type="text/css" href="/Project/Contents/Main/x-small.css">
+    
+    <link rel="Shortcut Icon" href="/favicon.ico" />
+
+    
+    
+<!-- Global site tag (gtag.js) - GA4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9KT8RS37BP"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() { dataLayer.push(arguments); }
+	gtag('js', new Date());
+
+	gtag('config', 'G-9KT8RS37BP', {
+        
+            cookie_flags: 'secure;'
+        
+    });
+</script>
+<!-- End Global site tag (gtag.js) - GA4 -->
+
+    
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <!--startogsection-->
+    <meta property="og:title" content="Measure H | Indian Wells, CA" />
+    <meta property="og:description" content="" />
+    <!--stopogsection-->
+    
+    
+
+    <script>
+        $(function () {
+            $.frontendSessionManager({
+                virtualApplicationPath:"/",
+                backendUserLogin: false,
+                frontendUserLogin: false,
+                sessionTimeoutInMinutes:30,
+                timeToAlertBeforeSessionTimeoutInMinutes:5,
+                extendSessionTimeoutPath:"Home/FrontEndExtendSessionTimeout"
+            }).setTimerForSessionExpiration();
+        });
+    </script>
+    
+    <meta name="google-site-verification" content="yFfxJmt_GI9umoioRVCPmNhNcGHtqJxMqc6XiXmHnk8" />
+
+
+
+
+<script data-account="MWHL61KcP6" src="https://cdn.userway.org/widget.js"></script>
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="2Z27E-XCJ3F-55LXL-X65NM-QGXZJ",function(){function e(){if(!r){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.appendChild(e),r=!0}}function t(e){r=!0;var n,t,a,i,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",i=(a.frameElement||a).style,i.width=0,i.height=0,i.border=0,i.display="none",o.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void 0;",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=14,window.BOOMR.url=n+"2Z27E-XCJ3F-55LXL-X65NM-QGXZJ";var i=document.currentScript||document.getElementsByTagName("script")[0],o=i.parentNode,r=!1,d=document.createElement("link");if(d.relList&&"function"==typeof d.relList.supports&&d.relList.supports("preload")&&"as"in d)window.BOOMR.snippetMethod="p",d.href=window.BOOMR.url,d.rel="preload",d.as="script",d.addEventListener("load",e),d.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!r)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.appendChild(d);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="eyaqmr2aabyvajqacqdduaaagnvodh2s-f-2badecf6a-clienttons-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"41","ak.cp":"961012","ak.ai":parseInt("681115",10),"ak.ol":"0","ak.cr":22,"ak.ipv":6,"ak.proto":"h2","ak.rid":"30b8d3d1","ak.r":53180,"ak.a2":n,"ak.m":"","ak.n":"essl","ak.cport":58436,"ak.gh":"2.22.28.143","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1793171282","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==dUZFlF7fvtB8mrfL/o+mXGP8OHxn7Vd+0Qihn0kVNs0dLpD14voyyuXFkq7nIzEnRQR/QNlBDVTchMbVxpd1zRklECcV0wzqydC2oUyYuIxBGMgCYXQr5DcSLbmuXY/3upkuk/Sqy23NCv+9eQgaZswkWvwQhT0HD2zsyV3QMVGmfnYwM9CmN/1BXaXT9tfUmecxhDkzumj7gUloCFA5nfrQjGHRMlkKdA5Bg55EVtZL3c16zlyTKhVVeYbQGuBDo9SDsDdY3xpK7P7DWFSVYtHujMmHQnARV9a0ZXrfCuSzgvbCVBZixR5gPNDDhSjBiZ2YXM60hSGVwQKXOcgtxDGu4nmn5KkQtaf8+CM9O+vtb6H3P5F4689QlJKgPH+oWjQ/mvpYd3UTUugYm1Sd0VasT3FdX81F++LHsIML/BI=","ak.pv":"105","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+<body class="front_end_body site_standardsitetemplate  ">    
+    <input name="__RequestVerificationToken" type="hidden" value="geEocr_trZhoKgDOiD4LtpEJf1T31Cp063Q5GgIi-T-YlR-vbIvqHngI-oXfcrjLSMWXiWDkuAJpBSi6EtfYD2rU_A2OdORjrtyM46gP8HM1" />
+
+    
+            <style>
+                                  
+                .alert_container .important_alert_wrapper, 
+                #alert_controls.hide, #alert_controls.show { background: #6a1a41; }
+                
+            </style>
+        <link href="/DefaultContent/Default/StyleBundleAngularLib.cssbnd?v=sED2Qjf38ysQJYZW_ZvZj-7IGXKm4NOJhdA51oOtG5A1" rel="stylesheet"/>
+
+
+
+<script>
+    window.frontendCommonConfig = {
+        loginPage: 'https://www.cityofindianwells.org/sys/sso/login',
+        popupLoginPage: '/sys/sso/popuplogin',
+        photoBaseUrlForPeople: 'https://www.cityofindianwells.org/sys/sso/ShowProfilePhoto?id=',
+        photoBaseUrl: 'https://www.cityofindianwells.org/Home/ShowPublishedImage/',
+        token: window.visionApps ? window.visionApps.token : '',
+        cmsUserLogged: false,
+        anonymousAvatar: 'https://www.cityofindianwells.org/DefaultContent/Default/_gfx/anonymous.png',
+        loginUser: {
+            name: '',
+            avatar: '',
+            userID: null,
+            firstName: '',
+            lastName: '',
+            imageID: null,
+            email: '',
+        }
+    };
+</script>
+
+
+<script>
+    //It's before the AngularJSLib Loading, which might be update in the AngularJSLib bundle.
+    window.viPredefinedModules = [];
+</script>
+<script src="/Scripts/ScriptBundleAngularLib.jsbnd?v=NE32Axf8AoQJCvAhR0BrNgsJvJ2CpfeBE2zvnHeghcE1"></script>
+
+
+<script>
+    (function (window, angular) {
+
+        $("body").attr("ng-app", "vi.cms");
+        
+        window.viCurrentModule = angular.module("vi.cms", window.viPredefinedModules || []);
+    })(window, angular);
+</script>
+
+
+    <script src="/Scripts/frontendCoreBundle.jsbnd?v=B6JbwsWOd-EUHAJbvPp8WWgswnVmMSWA48MG3na2qBY1"></script>
+
+
+    
+    <!--stopindex-->
+    <noscript>
+        <div class="noscript_alert"><span>Please enable JavaScript in your browser for a better user experience.</span></div>
+    </noscript>
+    <!--startindex-->
+    <div class="vi-temp-message-container" style="display:none;"></div>
+        
+    
+    
+
+<div class="sitewrapper  site_template mainSpan_wrapper">
+    <div class="mainSpan" id="mainSpan_wrapper_Screen">
+        <!--stopindex-->
+        <div id="skipnav" tabindex="-1">
+            <a href="#sitebody" tabindex="-1">
+                <img alt="Skip to page body" src="/DefaultContent/Default/_gfx/spacer.gif" /></a>
+            
+            <a title="Home" href="/home" tabindex="-1">
+                <img alt="Home" src="/DefaultContent/Default/_gfx/spacer.gif" /></a>
+            
+            <a title="Our City" href="/our-city" tabindex="-1">
+                <img alt="Our City" src="/DefaultContent/Default/_gfx/spacer.gif" /></a>
+            
+            <a title="City Hall" href="/city-hall" tabindex="-1">
+                <img alt="City Hall" src="/DefaultContent/Default/_gfx/spacer.gif" /></a>
+            
+            <a title="Services" href="/services" tabindex="-1">
+                <img alt="Services" src="/DefaultContent/Default/_gfx/spacer.gif" /></a>
+            
+            <a title="I Want To..." href="/i-want-to" tabindex="-1">
+                <img alt="I Want To..." src="/DefaultContent/Default/_gfx/spacer.gif" /></a>
+            
+        </div>
+        <!--startindex-->
+
+        <header id="siteheader" class="">
+            <!--stopindex-->
+			<h1 class="wcag_only">Indian Wells, CA</h1>
+            <a id="home_link" href="/home">Home</a>
+            
+            <a class="menu_trigger mobile_only" href="javascript:void(0);">Menu</a>
+            
+            <!--startindex-->
+            
+<div id="headercolumn" class="site_template_column  header_column   " >
+
+                <!--stopindex-->
+                
+<div class="search_overlay"></div>
+<a href="javascript:void(0);" class="search-trigger hidden-xs" role="img" aria-label="Search Icon">Search</a>
+<div class="top_search">
+    <a class="close_search" href="#">CLOSE</a>
+    <div class="search_block">
+        <div id="searchbox" class="clearfix">
+                        <input title="Search..." aria-label ="Search" id="search_text" placeholder="Search..." type="text">
+            <a href="javascript:void(0);">Go</a>
+        </div>
+
+        
+    </div>
+</div>
+
+
+<script>
+
+    $(function () {
+       
+        $("#searchbox input").keydown(function (e) {
+            if (e.keyCode == 13) {
+                $("#searchbox a").click();
+            }
+        });
+        $("#searchbox a").click(function () {
+            var keyWord = $("#searchbox input#search_text").val();
+            if (keyWord.length <= 0) { return false; }
+            keyWord  = keyWord.replace(/^\s\s*/, '').replace(/\s\s*$/, '');
+            keyWord = encodeURIComponent(keyWord.replace("<"," ").replace(">"," ") );
+            var link = '/our-city/search';
+            if (link.indexOf("?") >= 0 )
+                link = link + "&q=" + keyWord;
+            else
+                link = link + "?q=" + keyWord;
+            if ('False' == 'True') {
+                window.top.location.href = link;
+                return false;
+            } else {
+                window.location.href = link;
+            }            
+        });
+    
+        function toggleSearchButtonState() {
+            const searchText = $("#search_text");
+            if(searchText.length) {
+                const state = $("#search_text").val().trim().length > 0 ? {"pointer-events": "auto", "opacity":"1"} : {"pointer-events": "none", "opacity":"0.2"};
+                $("#searchbox > a").css(state);
+            }
+        }
+        $("#search_text").on("input", toggleSearchButtonState);
+        $(window).on("load", toggleSearchButtonState);
+});
+</script>
+                <!--startindex-->
+            
+
+</div>
+
+        </header>
+
+        
+<div class="standardlayout clearfix" id="sitebody">
+    
+<div id="ColumnUserControl1" class="column   top_col clearfix  ">
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="1427"WidgetStart!!-->    
+
+                <!--stopindex-->
+                <div class=" main_menu_widget"><!--stopindex--><link href="/DefaultContent/Default/StyleBundleMegaMenuDropDown.cssbnd?v=CD_eN-fYJU8KKPigt6x-Ey-z8_WTsoZ7bqx2pLTZtXU1" rel="stylesheet"/>
+<link href="/Project/Contents/Main/StyleBundleMegaMenuDropDown.cssbnd?v=i88V8-oGC3Oi9oQqEFbFDGWMzWEqREjs47lIw-LPyEk1" rel="stylesheet"/>
+<nav aria-label="Main Navigation" class="regularmegamenu mainnav" id="menuContainer_1427_0_917"><ul class="dropdownmenu clearfix"><li class="megamenu_first" id="dropdownrootitem1"><a class="dropdownrootitem1" href="/home" aria-label="Home" data-navid="1" target="_self">Home</a></li><li class="megamenu_first" id="dropdownrootitem2"><a class="dropdownrootitem2" data-navid="2" tabindex="0">Our City</a><div class="megamenu_container widthcontainer4col"><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/our-city/calendar" aria-label="Calendar" data-navid="123" target="_self">Calendar</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/our-city/site-map" aria-label="Site Map" data-navid="124" target="_self">Site Map</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/our-city/privacy-policy" aria-label="Privacy Policy" data-navid="125" target="_self">Privacy Policy</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/privacy-policy/social-media-policy" aria-label="Social Media Policy" data-navid="364" target="_self">Social Media Policy</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/our-city/about" aria-label="About" data-navid="126" target="_self">About</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/about/exceptional-lifestyle" aria-label="Exceptional Lifestyle" data-navid="163" target="_self">Exceptional Lifestyle</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/about/community" aria-label="Community" data-navid="164" target="_self">Community</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/about/visiting-the-desert" aria-label="Visiting the Desert" data-navid="165" target="_self">Visiting the Desert</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/about/country-club-living" aria-label="Country Club Living" data-navid="166" target="_self">Country Club Living</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/about/contact-us" aria-label="Contact Us" data-navid="167" target="_self">Contact Us</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/about/city-google-tour" aria-label="City Google Tour" data-navid="168" target="_blank" rel="noopener">City Google Tour</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/about/accessibility" aria-label="Accessibility" data-navid="169" target="_self">Accessibility</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/our-city/residents" aria-label="Residents" data-navid="127" target="_self">Residents</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/residents/calendar" aria-label="Calendar" data-navid="144" target="_self">Calendar</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/residents/short-term-residential-rentals" aria-label="Short Term Residential Rentals" data-navid="145" target="_self">Short Term Residential Rentals</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/residents/resident-benefit-id-card" aria-label="Residence Benefit Card" data-navid="146" target="_self">Residence Benefit Card</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/residents/resident-benefits" aria-label="Resident Benefits" data-navid="147" target="_self">Resident Benefits</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/residents/newsletter/indian-wells-newsletter" aria-label="Indian Wells Newsletter" data-navid="155" target="_self">Indian Wells Newsletter</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/indian-wells-tv" aria-label="Indian Wells TV" data-navid="433" target="_self">Indian Wells TV</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/residents/country-clubs-in-indian-wells" aria-label="Country Clubs in Indian Wells" data-navid="149" target="_self">Country Clubs in Indian Wells</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/residents/contact-us" aria-label="Contact Us" data-navid="335" target="_self">Contact Us</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/residents/upcoming-resident-events" aria-label="Upcoming Resident Events" data-navid="152" target="_self">Upcoming Resident Events</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/our-city/visitors" aria-label="Visitors" data-navid="128" target="_self">Visitors</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/visitors/traveling-to-iw" aria-label="Traveling to IW" data-navid="336" target="_blank" rel="noopener">Traveling to IW</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/visitors/accommodations" aria-label="Accommodations" data-navid="131" target="_blank" rel="noopener">Accommodations</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/visitors/area-attractions-and-events" aria-label="Area Attractions and Events" data-navid="132" target="_blank" rel="noopener">Area Attractions and Events</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/visitors/tours-and-activities" aria-label="Tours and Activities" data-navid="133" target="_blank" rel="noopener">Tours and Activities</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/visitors/museums-and-art-galleries" aria-label="Art &amp; Culture" data-navid="134" target="_blank" rel="noopener">Art &amp; Culture</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/visitors/shopping-in-the-desert" aria-label="Shopping in the Desert" data-navid="135" target="_self">Shopping in the Desert</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/visitors/top-area-restaurants" aria-label="Top Area Restaurants" data-navid="136" target="_self">Top Area Restaurants</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/visitors/gaming-and-casinos" aria-label="Gaming and Casinos" data-navid="137" target="_blank" rel="noopener">Gaming and Casinos</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/visitors/hiking" aria-label="Hiking" data-navid="138" target="_blank" rel="noopener">Hiking</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/visitors/indian-wells-golf-resort" aria-label="Indian Wells Golf Resort" data-navid="139" target="_blank" rel="noopener">Indian Wells Golf Resort</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/visitors/indian-wells-tennis-garden" aria-label="Indian Wells Tennis Garden" data-navid="140" target="_blank" rel="noopener">Indian Wells Tennis Garden</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/visitors/meetings" aria-label="Meetings" data-navid="141" target="_blank" rel="noopener">Meetings</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/visitors/weddings" aria-label="Weddings" data-navid="142" target="_blank" rel="noopener">Weddings</a></li></ul></li></ul></div></div></li><li class="megamenu_first" id="dropdownrootitem3"><a class="dropdownrootitem3" data-navid="3" tabindex="0">City Hall</a><div class="megamenu_container widthcontainer4col"><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/city-hall/city-council" aria-label="City Council" data-navid="195" target="_self">City Council</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/city-council/city-council-members" aria-label="City Council Members" data-navid="227" target="_self">City Council Members</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/city-council/mayor-s-message" aria-label="Mayor's Message" data-navid="228" target="_self">Mayor's Message</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/city-council/view-city-council-meetings" aria-label="View All Meetings" data-navid="229" target="_self">View All Meetings</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/city-council/salary-and-benefits" aria-label="Salary and Benefits" data-navid="230" target="_self">Salary and Benefits</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/city-council/fppc-disclosures" aria-label="FPPC Disclosures" data-navid="231" target="_self">FPPC Disclosures</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/city-council/contact-us" aria-label="Contact Us" data-navid="234" target="_self">Contact Us</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/city-council/legislative-advocacy" aria-label="Legislative Advocacy" data-navid="369" target="_self">Legislative Advocacy</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/city-hall/city-manager-s-office" aria-label="City Manager's Office" data-navid="196" target="_self">City Manager's Office</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/city-manager-s-office/organization-chart" aria-label="Organization Chart" data-navid="225" target="_self">Organization Chart</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/city-manager-s-office/mission-statement" aria-label="Mission Statement" data-navid="226" target="_self">Mission Statement</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/city-hall/departments" aria-label="Departments" data-navid="197" target="_self">Departments</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/departments/city-clerk" aria-label="City Clerk" data-navid="287" target="_self">City Clerk</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/departments/community-development" aria-label="Community Development" data-navid="288" target="_self">Community Development</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/departments/economic-development-2" aria-label="Economic Development" data-navid="375" target="_self">Economic Development</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/departments/finance" aria-label="Finance" data-navid="289" target="_self">Finance</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/departments/legal-department" aria-label="Legal Department" data-navid="290" target="_self">Legal Department</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/departments/marketing" aria-label="Marketing" data-navid="291" target="_self">Marketing</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/departments/housing-authority" aria-label="Housing Authority" data-navid="292" target="_self">Housing Authority</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/departments/human-resources" aria-label="Human Resources" data-navid="293" target="_self">Human Resources</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/departments/public-works" aria-label="Public Works" data-navid="294" target="_self">Public Works</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/departments/city-maps" aria-label="City Maps" data-navid="295" target="_self">City Maps</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/departments/contact-us" aria-label="Contact Us" data-navid="337" target="_self">Contact Us</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/departments/building" aria-label="Building" data-navid="297" target="_self">Building</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/departments/planning" aria-label="Planning" data-navid="298" target="_self">Planning</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/departments/code-enforcement" aria-label="Code Enforcement" data-navid="299" target="_self">Code Enforcement</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/city-hall/current-future-agendas" aria-label="Current &amp; Future Agendas" data-navid="198" target="_self">Current &amp; Future Agendas</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/city-hall/strategic-planning" aria-label="Strategic Planning" data-navid="199" target="_self">Strategic Planning</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/strategic-planning/2026-27-strategic-planning" aria-label="2026-27 Strategic Planning" data-navid="466" target="_self">2026-27 Strategic Planning</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/strategic-planning/2025-26-joint-strategic-planning" aria-label="2025-26 Joint Strategic Planning" data-navid="452" target="_self">2025-26 Joint Strategic Planning</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/strategic-planning/strategic-planning-443" aria-label="2024-25 Strategic Planning" data-navid="443" target="_self">2024-25 Strategic Planning</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/strategic-planning/strategic-planning" aria-label="2023-24 Strategic Planning" data-navid="408" target="_self">2023-24 Strategic Planning</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/city-hall/notices-bids" aria-label="Notices &amp; Bids" data-navid="202" target="_self">Notices &amp; Bids</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/city-hall/indian-wells-permit-hub" aria-label="Indian Wells Permit Hub" data-navid="430" target="_self">Indian Wells Permit Hub</a></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/city-hall/municipal-code-ordinances" aria-label="Municipal Code &amp; Ordinances" data-navid="203" target="_self">Municipal Code &amp; Ordinances</a></li></ul></div></div></li><li class="megamenu_first" id="dropdownrootitem4"><a class="dropdownrootitem4" data-navid="4" tabindex="0">Services</a><div class="megamenu_container widthcontainer4col"><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/services/public-safety" aria-label="Public Safety" data-navid="379" target="_self">Public Safety</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/services/police" aria-label="Police" data-navid="95" target="_self">Police</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/services/fire" aria-label="Fire" data-navid="96" target="_self">Fire</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/services/emergency-preparedness" aria-label="Emergency Preparedness" data-navid="97" target="_self">Emergency Preparedness</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/services/public-safety/emergency-preparedness/wildlife" aria-label="Wildlife" data-navid="419" target="_self">Wildlife</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/services/quarterly-police-and-fire-reports" aria-label="Quarterly Police and Fire Reports" data-navid="463" target="_self">Quarterly Police and Fire Reports</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/services/home-foreclosure-registration" aria-label="Home Foreclosure Registration" data-navid="98" target="_self">Home Foreclosure Registration</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/services/vector-control" aria-label="Vector Control" data-navid="99" target="_self">Vector Control</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/services/waste-disposal-recycling-services" aria-label="Waste Disposal &amp; Recycling Services" data-navid="338" target="_self">Waste Disposal &amp; Recycling Services</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/services/waste-disposal-recycling-services/organics-recycling" aria-label="Organics Recycling" data-navid="400" target="_self">Organics Recycling</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/services/doing-business-in-indian-wells" aria-label="Doing Business in Indian Wells" data-navid="101" target="_self">Doing Business in Indian Wells</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/services/doing-business-in-indian-wells/business-licenses" aria-label="Business Licenses" data-navid="107" target="_self">Business Licenses</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/services/doing-business-in-indian-wells/vendor-interest-list" aria-label="Vendor Interest List" data-navid="108" target="_blank" rel="noopener">Vendor Interest List</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/services/public-records-request" aria-label="Public Records Request" data-navid="102" target="_self">Public Records Request</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/services/city-service-phone-directory" aria-label="City Service Phone Directory" data-navid="103" target="_self">City Service Phone Directory</a></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/services/online-citizen-complaint" aria-label="Online Citizen Complaint" data-navid="340" target="_blank" rel="noopener">Online Citizen Complaint</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/services/contact-us" aria-label="Contact Us" data-navid="339" target="_self">Contact Us</a></li></ul></div></div></li><li class="megamenu_first" id="dropdownrootitem5"><a class="dropdownrootitem5" data-navid="5" tabindex="0">I Want To...</a><div class="megamenu_container widthcontainer4col"><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/i-want-to/view" aria-label="View..." data-navid="57" target="_self">View...</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/view/measure-h" aria-label="Measure H" data-navid="471" target="_self">Measure H</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/view/local-restaurants" aria-label="Local Restaurants" data-navid="469" target="_self">Local Restaurants</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/city-hall/departments/economic-development/city-projects" aria-label="City Projects" data-navid="377" target="_self">City Projects</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/view/facts" aria-label="Facts" data-navid="386" target="_self">Facts</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/view/golf-resort-master-plan" aria-label="Golf Resort Master Plan" data-navid="385" target="_self">Golf Resort Master Plan</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/view/calendar" aria-label="Calendar" data-navid="84" target="_self">Calendar</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/view/council-meetings-online/view-city-council-meetings" aria-label="View All Meetings" data-navid="388" target="_self">View All Meetings</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/view/municipal-code" aria-label="Municipal Code" data-navid="87" target="_self">Municipal Code</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/view/service-phone-directory" aria-label="Service Phone Directory" data-navid="88" target="_self">Service Phone Directory</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/view/election-information" aria-label="Election Information" data-navid="90" target="_self">Election Information</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/view/city-google-tour" aria-label="City Google Tour" data-navid="91" target="_blank" rel="noopener">City Google Tour</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/view/indian-wells-newsletter" aria-label="Indian Wells Newsletter" data-navid="382" target="_self">Indian Wells Newsletter</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/view/wireless-master-plan" aria-label="Wireless Master Plan" data-navid="470" target="_self">Wireless Master Plan</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/i-want-to/contact" aria-label="Contact..." data-navid="58" target="_self">Contact...</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/contact/mayor-city-council" aria-label="Mayor &amp; City Council" data-navid="72" target="_self">Mayor &amp; City Council</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/contact/city-manager" aria-label="City Manager" data-navid="73" target="_self">City Manager</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/contact/departments" aria-label="Departments" data-navid="74" target="_self">Departments</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/contact/police-department" aria-label="Police Department" data-navid="75" target="_self">Police Department</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/contact/the-palm-springs-international-airport-with-a-noise-complaint" aria-label="The Palm Springs International Airport with a Noise Complaint" data-navid="459" target="_blank" rel="noopener">The Palm Springs International Airport with a Noise Complaint</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/contact/faa-noise-complaint" aria-label="FAA Noise Complaint" data-navid="460" target="_blank" rel="noopener">FAA Noise Complaint</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/i-want-to/request" aria-label="Request..." data-navid="59" target="_self">Request...</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/request/submit-a-request" aria-label="Submit a Request" data-navid="391" target="_self">Submit a Request</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/city-committee-agendas" aria-label="City Committee Agendas" data-navid="384" target="_self">City Committee Agendas</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/request/public-records" aria-label="Public Records" data-navid="70" target="_self">Public Records</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/request/become-a-vendor" aria-label="Become a Vendor" data-navid="71" target="_blank" rel="noopener">Become a Vendor</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/request/claim-damages" aria-label="Claim Damages" data-navid="447" target="_self">Claim Damages</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/i-want-to/apply-for" aria-label="Apply for..." data-navid="60" target="_self">Apply for...</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/apply-for/resident-benefit-card-renewal" aria-label="Resident Benefit Card Renewal" data-navid="76" target="_self">Resident Benefit Card Renewal</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/apply-for/business-licenses" aria-label="Business Licenses" data-navid="77" target="_self">Business Licenses</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/apply-for/building-permit" aria-label="Building Permit" data-navid="78" target="_self">Building Permit</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/apply-for/city-committees" aria-label="City Committees" data-navid="79" target="_self">City Committees</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/apply-for/email-sign-up" aria-label="Email Sign Up" data-navid="80" target="_self">Email Sign Up</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/apply-for/employment" aria-label="Employment" data-navid="81" target="_self">Employment</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/apply-for/short-term-rentals" aria-label="Short-Term Rentals" data-navid="83" target="_self">Short-Term Rentals</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/apply-for/i-ren-incentive-finder" aria-label="I-REN Incentive Finder" data-navid="467" target="_self">I-REN Incentive Finder</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/i-want-to/plan-a-visit" aria-label="Plan a Visit..." data-navid="61" target="_self">Plan a Visit...</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/plan-a-visit/dine-at-vue-grille-bar" aria-label="Dine at Kestrel A Richard Blais Kitchen &amp; Lounge" data-navid="66" target="_blank" rel="noopener">Dine at Kestrel A Richard Blais Kitchen &amp; Lounge</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/plan-a-visit/book-a-golf-tee-time" aria-label="Book a Golf Tee Time" data-navid="67" target="_blank" rel="noopener">Book a Golf Tee Time</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/plan-a-visit/indian-wells-tennis-garden" aria-label="Indian Wells Tennis Garden" data-navid="68" target="_blank" rel="noopener">Indian Wells Tennis Garden</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/i-want-to/plan-a-visit/traveling-to-indian-wells" aria-label="Traveling to Indian Wells" data-navid="69" target="_blank" rel="noopener">Traveling to Indian Wells</a></li></ul></li></ul></div></div></li></ul><script>
+$(function () {
+ var menuContainer = $('#menuContainer_1427_0_917');
+ menuContainer.find('.dropdownmenu>li>a[data-navid="5"]').closest('li').addClass('active _visionMenuSelected');
+});
+</script></nav><!--startindex--></div>
+
+
+<script>
+    /**********************************************************
+    Dropdown Menu delay disappearance on mouse out
+    *********************************************************/
+    /*javascript to delay the disappearance of the menu when the user mouses out.  Uses jquery library.*/
+    $(function () {
+        
+
+        var timer = null;
+        var delay = 800; //change this number for shorter or longer delay
+        
+        
+        //using megamenu
+        var dropdowncontainer = '>.megamenu_container';        
+        var activePage = $(".mainnav .dropdownmenu > li.active");
+        $('.mainnav > .dropdownmenu>li > a').css('overflow', 'visible');
+        $(".mainnav > .dropdownmenu > li").hoverIntent(
+        
+            //what happens on hover over
+            function () {
+                 //end timer and stop hiding if they are mousing back in.
+                 if (timer != null) {
+                     clearTimeout(timer);
+                     timer = null;
+                 }
+                 // Find the hovered menu's sub-menu
+                 var $menu = $(this);
+                 var $submenu = $(this).find(dropdowncontainer);
+
+                 // hide any other submenus that are open
+                 $('.mainnav > .dropdownmenu>li' + dropdowncontainer).not($submenu).css('display', 'none');
+                 $('.mainnav > .dropdownmenu li.active').not($menu).not(activePage).removeClass('active');
+                 $('.mainnav > .dropdownmenu li._visionMenuHovered').not($menu).removeClass('_visionMenuHovered');
+                 // show current menu
+                 $submenu.css('display', 'block');
+                 $menu.addClass('active');
+                 $menu.addClass('_visionMenuHovered');
+             },
+
+            //what happens on mouse out
+            function () {
+                var $submenu = $(this).find(dropdowncontainer);
+                var $menu = $(this);
+                // delay disappearance
+                var mouseDelay = $(this).data("mouseDelay") || delay;
+                clearTimeout(timer);
+                timer = setTimeout(function () {
+                    $submenu.css('display', 'none'); $menu.not(activePage).removeClass('active');
+                    $menu.removeClass('_visionMenuHovered');
+                    clearTimeout(timer); timer = null;
+                }, mouseDelay);
+            }
+        );
+
+        function hideRootMegaMenu($menu) {
+            $menu.children(dropdowncontainer).css('display', 'none');
+            $menu.not(activePage).removeClass('active');
+            $menu.removeClass('_visionMenuHovered');
+        }
+
+        function showRootMegaMenu($menu) {
+            var $submenu = $menu.children(dropdowncontainer);    
+            $('.mainnav > .dropdownmenu > li').not($menu).each(function () {
+                hideRootMegaMenu($(this));
+            });
+            if ($submenu.length > 0) {
+                $submenu.css('display', 'block');
+            }
+            $menu.addClass('active');
+            $menu.addClass('_visionMenuHovered');
+        }
+        
+        $('.mainnav > .dropdownmenu > li.megamenu_first > a:not([href])').on('keydown', function (event) {
+            var keyCode = event.which || event.keyCode;
+            var $menu = $(this).closest('li');
+
+            if (keyCode == 13 || keyCode == 32) {
+                event.preventDefault();
+                clearTimeout(timer);
+                if ($menu.children(dropdowncontainer).is(':visible')) {
+                    hideRootMegaMenu($menu);
+                }
+                else {
+                    showRootMegaMenu($menu);
+                }
+            }
+            else if (keyCode == 27) {
+                event.preventDefault();
+                hideRootMegaMenu($menu);
+                $(this).focus();
+            }
+        });
+
+        $('body').bind('keyup', function (event) {
+            if (event.keyCode == 9) {
+                // Find the hovered menu's sub-menu
+                var $menu = $(event.target).closest('li');                
+                 $menu.addClass("_visionMenuHovered");
+                $menu.on('focusout', function () {
+                $(this).removeClass("_visionMenuHovered");
+ });
+                let isJPanelMenuVisible = $("#jPanelMenu-menu").length > 0 ? true : false;
+                if ($menu.hasClass('megamenu_first')) {
+                    if (isJPanelMenuVisible) {
+                        HideMainMenuChild($menu.prev().find('li'));
+                    }
+                    var $submenu = $menu.find(dropdowncontainer);
+
+                    // hide any other submenus that are open
+                    $('.mainnav > .dropdownmenu>li' + dropdowncontainer).not($submenu).css('display', 'none');
+                    $('.mainnav > .dropdownmenu li.active').not($menu).not(activePage).removeClass('active');
+                    // show current menu
+                    $submenu.css('display', 'block');
+                    $menu.addClass('active');
+                }
+                else {
+                    if (isJPanelMenuVisible) {
+                        //sub-menu has children
+                        if ($menu.children('ul').length > 0) {
+                            var subMenuContainer = '>li > ul';
+                            var $submenuChild = $menu.find('>ul');
+                            $submenuChild.css('display', 'block');
+                            $menu.addClass('megamenulevelchildmenu');
+                        }
+
+                        var isSideNav = $menu.hasClass('sidenav_haschildren');
+                        if (isSideNav) {
+                            $menu.removeClass('megamenulevelchildmenu');
+                            $menu.addClass('sidenav_expanded');
+                            var $item = $menu.children('.vi-sidenav-toggle');
+                            $item.html("-");
+                            $item.attr('aria-expanded', true);
+                            $item.on('keydown', function (e) {
+                                if (e.code.toLowerCase() == "enter" || e.code.toLowerCase() == "numpadenter") {
+                                    var isSideNavExpanded = $menu.hasClass('sidenav_expanded');
+                                    if (isSideNavExpanded) {
+                                        $item.html("-");
+                                        $item.attr('aria-expanded', false);
+                                        $menu.children('ul').css('display', 'none');
+                                    }
+                                    else {
+                                        var isItemExpand = $item.html() == "-";
+                                        if (!isItemExpand) {
+                                            $item.html("+");
+                                        }
+                                        $item.attr('aria-expanded', !isItemExpand);
+                                        $menu.children('ul').css('display', isItemExpand ? 'none' : 'block');
+                                        $menu.removeClass('sidenav_expanded');
+                                    }
+                                }
+                            });
+                        }
+                        if ($menu.prev().hasClass('megamenulevelchildmenu')) {
+                            HideMainMenuChild($menu.prev());
+                        }
+                        else if ($menu.parent().prev().children('li').hasClass('megamenulevelchildmenu')) {
+                            HideMainMenuChild($menu.parent().prev().children('li'));
+                        }
+                    }
+
+                }
+            }
+        });
+
+        function HideMainMenuChild(e) {
+            $(e).each(function (index,child) {
+                
+                if ($(child).children('ul').each(function (subIndex,subChild) {
+                    HideMainMenuChild($(subChild).children('li'));
+                }));  
+            });
+            $(e).children('ul').css('display', 'none');
+            $(e).removeClass('megamenulevelchildmenu');
+        }
+
+        
+        $(document).click(function(e){
+            if($(e.target).closest('li.active').hasClass('megamenu_first') === false &&
+                $(e.target).closest(".megamenu_first>a").length <= 0){
+                $('.megamenu_first>div.megamenu_container').css('display', 'none');                
+            }               
+        });
+
+    });
+</script>
+
+<script>
+    //$(function () 
+    {
+        var menuContainerID = "menuContainer_1427_0_917";
+        var menuContainer = $("#" + menuContainerID);
+        
+        function isIE(userAgent) {
+            userAgent = userAgent || navigator.userAgent;
+            return userAgent.indexOf("MSIE ") > -1 || userAgent.indexOf("Trident/") > -1;
+        }
+
+        function isIE9(userAgent) {
+            userAgent = userAgent || navigator.userAgent;
+            return userAgent.indexOf("MSIE 9") > -1;
+        }
+
+        function isTouchScreenEvent(event) {
+            var _isTouchScreen = false;
+            if ("ontouchstart" in window) {
+                _isTouchScreen = true;
+            } else if ("onpointerdown" in window) {
+                _isTouchScreen = event.originalEvent.pointerType == "touch";
+            } else if (window.MSPointerEvent) {
+                _isTouchScreen = event.originalEvent.pointerType == event.originalEvent.MSPOINTER_TYPE_TOUCH; // 2 ; http://blogs.msdn.com/b/ie/archive/2011/09/20/touch-input-for-ie10-and-metro-style-apps.aspx
+            } else {
+            }
+            return _isTouchScreen;
+        }
+
+        var _isIE = isIE();
+        var _isIE9 = isIE9();
+        var isMegaMenu = $('.megamenu_first', menuContainer).length > 0;
+        var currentMenu = $('> ul.dropdownmenu > li.active', menuContainer);
+
+        $(function () {
+            if (currentMenu.length == 0)
+                currentMenu = $('> ul.dropdownmenu > li.active', menuContainer);
+        });
+
+        if (("ontouchstart" in window   // Chrome & Safari (IOS) && Firefox
+         || "onpointerdown" in window   // IE 11 
+         || window.MSPointerEvent       // IE 10
+         ) && ($(window).width() > 648)) {
+            var eventName = "ontouchstart" in window ? "touchstart"
+                          : "onpointerdown" in window ? "pointerdown"
+                          : window.MSPointerEvent ? "MSPointerDown"
+                          : "";
+            if (eventName.length > 0) {
+                $('> ul.dropdownmenu  li>a[data-navid]', menuContainer).bind(eventName, function (event) {
+
+                    if (isTouchScreenEvent(event) == false) {
+                        return true;
+                    }
+
+                    var currentLevelAnchor = $(this);
+                    var currentLeveLi = currentLevelAnchor.closest("li");
+                    var firstLevelLi = currentLevelAnchor.closest("li[id^='dropdownrootitem']");
+                    var firstLevelAnchor = firstLevelLi.find(">a[data-navid]");
+                    var inFirstLevel = currentLevelAnchor[0] == firstLevelAnchor[0];
+
+                    var hasSubMenu = currentLevelAnchor.next("ul,div").length > 0;
+                    if (hasSubMenu) {
+                        $(this).closest("li").data("mouseDelay", 1);
+
+                        // Menu is not selected
+                        if (!firstLevelLi.hasClass('touch-active')) {
+                            if ($(this).attr("href")) {
+                                $(this).attr("data-href", $(this).attr("href"));
+                                $(this).attr("href", "javascript:void(0);");
+                            }
+                            $(menuContainer).find('.touch-active').removeClass('touch-active').not(currentMenu).removeClass('active');
+
+                            firstLevelLi.addClass('touch-active active');
+                            currentLevelAnchor.addClass('touch-active active');
+                            currentMenu.addClass("active");
+
+                            $(' li:not(.touch-active)', menuContainer).not(firstLevelLi).removeClass('_current');
+                            $(' li:not(.touch-active) li', menuContainer).not(currentLeveLi).removeClass('_current');
+
+                            $('> ul.dropdownmenu > li:not(.touch-active) > a[data-navid]', menuContainer).next().css('display', 'none');
+                            $('> ul.dropdownmenu > li.touch-active > a[data-navid]', menuContainer).next().css('display', 'block');
+
+                            event.preventDefault();
+                        }
+                            // Menu is selected
+                        else {
+                            if (inFirstLevel) {
+                                // non clickable
+                                if (currentLevelAnchor.attr('href') == undefined) {
+                                    //has class touch-active and no link
+                                    removeClassAndHideMenu();
+                                    event.preventDefault();
+                                } else if ($(this).attr("data-href")) { //clickable, but href have been moved to data.
+                                    $(this).attr("href", $(this).attr("data-href"));
+                                }
+                            }
+                            else {
+                                if (isMegaMenu)
+                                    return true;
+
+                                if (!currentLeveLi.hasClass('touch-active')) {
+                                    if ($(this).attr("href")) {
+                                        $(this).attr("data-href", $(this).attr("href"));
+                                        $(this).attr("href", "javascript:void(0);");
+                                    }
+                                    $(firstLevelLi).find('.touch-active').removeClass('touch-active').not(currentMenu).removeClass('active');
+                                    currentLeveLi.parent().children("li._current").removeClass("_current");
+                                    currentLeveLi.addClass('touch-active active _current');
+
+                                    currentLevelAnchor.addClass('touch-active active');
+
+                                    //$(' li:not(.touch-active)', menuContainer).not(firstLevelLi).removeClass('_current');    
+                                    //$(' li:not(.touch-active) li', menuContainer).not(currentLeveLi).removeClass('_current');
+
+                                    $(' li:not(.touch-active) > a[data-navid]', currentLeveLi.parent()).next().css('display', 'none');
+                                    $('> li.touch-active > a[data-navid]', currentLeveLi.parent()).next().css('display', 'block');
+
+                                    event.preventDefault();
+                                } else {
+                                    if (currentLevelAnchor.attr('href') == undefined) {
+                                        //has class touch-active and no link
+                                        removeClassAndHideMenu();
+                                        event.preventDefault();
+                                    } else if ($(this).attr("data-href")) {
+                                        $(this).attr("href", $(this).attr("data-href"));
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                });
+            }
+        }
+
+
+
+        function removeClassAndHideMenu() {
+            $(menuContainer).find('a.touch-active, li.touch-active').removeClass('touch-active active');
+            $('> ul.dropdownmenu > li > a[data-navid]', menuContainer).next().css('display', 'none');
+            // If we don't change the menu item, we should keep the old one.
+            if ($('> ul.dropdownmenu > li.active', menuContainer).length == 0) {
+                currentMenu.addClass("active");
+            }
+        }
+
+        $('body').bind(eventName, function (event) {
+            if (isTouchScreenEvent(event) == false) {
+                return true;
+            }
+            if (!$(event.target).closest('li.touch-active').length) {
+                removeClassAndHideMenu();
+            }
+        });
+    }
+    //);
+</script>
+
+                
+                <!--startindex-->
+                <!--!!WidgetEnd-->
+
+    
+</div>
+
+
+    
+<div id="ColumnUserControl2" class="column   left_col  ">
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="1428"WidgetStart!!-->    
+
+                <!--stopindex-->
+                
+
+<nav id='leftNav_1428_0_917' aria-label="Side Navigation" class='nocontent sidenav mobile_list vi-sidenav-desktop   '>
+    <!--stopindex--><h2 class="mobile_only mobile_header" role="button" tabindex="0" aria-controls="leftNav_1428_0_917" aria-label="Toggle Jump to subpage...">Jump to subpage...</h2>
+    <ul><li class="sidenav_expanded sidenav_haschildren"><a href='https://www.cityofindianwells.org/i-want-to/view' target='_self' aria-label='View...'>View...</a><a href="javascript:void(0)" title="Expand/Collapse subpages under View..." class="vi-sidenav-toggle" aria-expanded=true aria-label="Expand/Collapse subpages under View...">-</a><ul><li class="sidenav_current"><a href='https://www.cityofindianwells.org/i-want-to/view/measure-h' target='_self' aria-label='Measure H'>Measure H</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/view/local-restaurants' target='_self' aria-label='Local Restaurants'>Local Restaurants</a></li><li><a href='https://www.cityofindianwells.org/city-hall/departments/economic-development/city-projects' target='_self' aria-label='City Projects'>City Projects</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/view/facts' target='_self' aria-label='Facts'>Facts</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/view/golf-resort-master-plan' target='_self' aria-label='Golf Resort Master Plan'>Golf Resort Master Plan</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/view/calendar' target='_self' aria-label='Calendar'>Calendar</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/view/council-meetings-online/view-city-council-meetings' target='_self' aria-label='View All Meetings'>View All Meetings</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/view/municipal-code' target='_self' aria-label='Municipal Code'>Municipal Code</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/view/service-phone-directory' target='_self' aria-label='Service Phone Directory'>Service Phone Directory</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/view/election-information' target='_self' aria-label='Election Information'>Election Information</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/view/city-google-tour' target='_blank' aria-label='City Google Tour'>City Google Tour</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/view/indian-wells-newsletter' target='_self' aria-label='Indian Wells Newsletter'>Indian Wells Newsletter</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/view/wireless-master-plan' target='_self' aria-label='Wireless Master Plan'>Wireless Master Plan</a></li></ul></li><li class="sidenav_haschildren"><a href='https://www.cityofindianwells.org/i-want-to/contact' target='_self' aria-label='Contact...'>Contact...</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Contact..." class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Contact...">+</a><ul><li><a href='https://www.cityofindianwells.org/i-want-to/contact/mayor-city-council' target='_self' aria-label='Mayor &amp; City Council'>Mayor &amp; City Council</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/contact/city-manager' target='_self' aria-label='City Manager'>City Manager</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/contact/departments' target='_self' aria-label='Departments'>Departments</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/contact/police-department' target='_self' aria-label='Police Department'>Police Department</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/contact/the-palm-springs-international-airport-with-a-noise-complaint' target='_blank' aria-label='The Palm Springs International Airport with a Noise Complaint'>The Palm Springs International Airport with a Noise Complaint</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/contact/faa-noise-complaint' target='_blank' aria-label='FAA Noise Complaint'>FAA Noise Complaint</a></li></ul></li><li class="sidenav_haschildren"><a href='https://www.cityofindianwells.org/i-want-to/request' target='_self' aria-label='Request...'>Request...</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Request..." class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Request...">+</a><ul><li><a href='https://www.cityofindianwells.org/i-want-to/request/submit-a-request' target='_self' aria-label='Submit a Request'>Submit a Request</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/city-committee-agendas' target='_self' aria-label='City Committee Agendas'>City Committee Agendas</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/request/public-records' target='_self' aria-label='Public Records'>Public Records</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/request/become-a-vendor' target='_blank' aria-label='Become a Vendor'>Become a Vendor</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/request/claim-damages' target='_self' aria-label='Claim Damages'>Claim Damages</a></li></ul></li><li class="sidenav_haschildren"><a href='https://www.cityofindianwells.org/i-want-to/apply-for' target='_self' aria-label='Apply for...'>Apply for...</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Apply for..." class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Apply for...">+</a><ul><li><a href='https://www.cityofindianwells.org/i-want-to/apply-for/resident-benefit-card-renewal' target='_self' aria-label='Resident Benefit Card Renewal'>Resident Benefit Card Renewal</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/apply-for/business-licenses' target='_self' aria-label='Business Licenses'>Business Licenses</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/apply-for/building-permit' target='_self' aria-label='Building Permit'>Building Permit</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/apply-for/city-committees' target='_self' aria-label='City Committees'>City Committees</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/apply-for/employment' target='_self' aria-label='Employment'>Employment</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/apply-for/short-term-rentals' target='_self' aria-label='Short-Term Rentals'>Short-Term Rentals</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/apply-for/i-ren-incentive-finder' target='_self' aria-label='I-REN Incentive Finder'>I-REN Incentive Finder</a></li></ul></li><li class="sidenav_haschildren"><a href='https://www.cityofindianwells.org/i-want-to/plan-a-visit' target='_self' aria-label='Plan a Visit...'>Plan a Visit...</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Plan a Visit..." class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Plan a Visit...">+</a><ul><li><a href='https://www.cityofindianwells.org/i-want-to/plan-a-visit/dine-at-vue-grille-bar' target='_blank' aria-label='Dine at Kestrel A Richard Blais Kitchen &amp; Lounge'>Dine at Kestrel A Richard Blais Kitchen &amp; Lounge</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/plan-a-visit/book-a-golf-tee-time' target='_blank' aria-label='Book a Golf Tee Time'>Book a Golf Tee Time</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/plan-a-visit/indian-wells-tennis-garden' target='_blank' aria-label='Indian Wells Tennis Garden'>Indian Wells Tennis Garden</a></li><li><a href='https://www.cityofindianwells.org/i-want-to/plan-a-visit/traveling-to-indian-wells' target='_blank' aria-label='Traveling to Indian Wells'>Traveling to Indian Wells</a></li></ul></li></ul><!--startindex-->
+</nav>
+<script>
+    $(function () {
+        //test if it is mobile view or not and add classes accordingly. Needed because different sites use different breakpoints for mobile
+        if ($('.sidenav .mobile_only').is(':visible')) {
+            $('.sidenav').addClass('vi-sidenav-mobile');
+        } else {
+            $('.sidenav').addClass('vi-sidenav-desktop');
+        }
+        //need to also check for mobile view on resize and change classes if needed
+        var sidenavResizeTimer;
+
+        $(window).on('resize', function (e) {
+
+            clearTimeout(sidenavResizeTimer);
+            sidenavResizeTimer = setTimeout(function () {
+
+                if ($('.sidenav .mobile_only').is(':visible')) {
+                    $('.vi-sidenav-desktop').addClass('vi-sidenav-mobile').removeClass('vi-sidenav-desktop');
+                } else {
+                    $('.vi-sidenav-mobile').addClass('vi-sidenav-desktop').removeClass('vi-sidenav-mobile');
+                }
+            }, 250);
+
+        });
+
+        //expand/collapse function
+        $("#leftNav_1428_0_917 .vi-sidenav-toggle").click(function () {
+            var item = $(this),
+                parent = item.parent("li");
+
+            if (parent.length) {
+                var hasSubMenu = parent.hasClass("sidenav_expanded");
+                var isMobileSideNav = parent.hasClass("megamenulevelchildmenu");
+                if (hasSubMenu) {
+                    parent.removeClass("sidenav_expanded");
+                } else {
+                    parent.addClass("sidenav_expanded");
+                }
+                item.attr("aria-expanded", hasSubMenu ? false : true);
+                if (isMobileSideNav) {
+                    item.siblings("ul").css('display', hasSubMenu ? 'none' : 'block');
+                }
+            }
+
+            if (item.html() === "+") {
+                item.html('-');
+            } else {
+                item.html('+');
+            }
+        });
+    });
+</script>
+                
+                <!--startindex-->
+                <!--!!WidgetEnd-->
+
+    
+</div>
+
+
+    
+<div id="ColumnUserControl3" class="column   right_col  " role="main" aria-label="Measure H">
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="1429"WidgetStart!!-->    
+
+<header id="widget_1429_0_917" class="title_widget clearfix  " >
+    
+    <!--stopindex-->
+    <p class="breadcrumb">
+        <a href="/i-want-to">I Want To...</a> » <a href="/i-want-to/view">View...</a> 
+    </p>
+    <!--startindex-->
+    
+    <h1 class="titlewidget-title"><span>Measure H</span></h1>
+    
+    <!--stopindex-->
+                
+                <div class="title_right">
+                    <div class="title_row">
+                
+            <div class="font_size">
+                <a role="button" href="javascript:void(0);" title="default font size" class="text_size">Font Size:</a>
+                <a role="button" href="javascript:void(0);" title="larger font size" class="font_larger">+</a>
+                <a role="button" href="javascript:void(0);" title="smaller font size" class="font_smaller">-</a>
+            </div>
+            
+            <script type="text/javascript">
+            function shareLink(shareType) {
+                var shareUrl = "";
+                var shareTitle = document.itemTitle ? encodeURIComponent(document.itemTitle.trim()).replace(/[!'()*]/g, escape) : "Measure+H";
+                switch (shareType) {
+                    case "facebook":
+                        shareUrl = "http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.cityofindianwells.org%2fi-want-to%2fview%2fmeasure-h&t=" + shareTitle;
+                        break;
+                    case "linkedin":
+                        shareUrl = "http://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.cityofindianwells.org%2fi-want-to%2fview%2fmeasure-h&title=" + shareTitle;
+                        break;
+                    case "twitter":
+                        //Below link works in iOS and other OS
+                        shareUrl = "https://twitter.com/intent/tweet?url=https%3a%2f%2fwww.cityofindianwells.org%2fi-want-to%2fview%2fmeasure-h&text=Measure+H+%7c+";
+                        break;
+                    case "delicious":
+                        shareUrl = "https://secure.delicious.com/login?noui=yes&v=4&jump=https%3a%2f%2fwww.cityofindianwells.org%2fi-want-to%2fview%2fmeasure-h%26title%3D" + shareTitle + "%26notes%3D%26tags%3D%26v%3D4%26noui%3D%26share%3Dyes%26jump%3Dclose%26time%3D1239993443";
+                        break;
+                    case "myspace":
+                        shareUrl = "http://www.myspace.com/Modules/PostTo/Pages/?u=https%3a%2f%2fwww.cityofindianwells.org%2fi-want-to%2fview%2fmeasure-h&t=" + shareTitle + "&c=";
+                        break;
+                    case "googlebookmark":
+                        shareUrl = "http://www.google.com/bookmarks/mark?op=add&bkmk=https%3a%2f%2fwww.cityofindianwells.org%2fi-want-to%2fview%2fmeasure-h&title=" + shareTitle;
+                        break;
+                    case "stumbleupon":
+                        shareUrl = "http://www.stumbleupon.com/submit?url=https%3a%2f%2fwww.cityofindianwells.org%2fi-want-to%2fview%2fmeasure-h&title=" + shareTitle;
+                        break;
+                    case "digg":
+                        shareUrl = "http://digg.com/submit/?url=https%3a%2f%2fwww.cityofindianwells.org%2fi-want-to%2fview%2fmeasure-h";
+                        break;
+                    case "tumblr":
+                        shareUrl = "https://www.tumblr.com/share/link?url=https%3a%2f%2fwww.cityofindianwells.org%2fi-want-to%2fview%2fmeasure-h&name=" + shareTitle;
+                        break;
+                    case "reddit":
+                        shareUrl = "http://www.reddit.com/submit?url=https%3a%2f%2fwww.cityofindianwells.org%2fi-want-to%2fview%2fmeasure-h&title=" + shareTitle;
+                        break;
+                }
+                if (shareUrl.length > 0) window.open(shareUrl, "_blank", "noopener");
+            }
+            </script>
+            <div id="share">
+                <a role="button" class="sharelink" href="javascript:void(0);" title="Click to expand Share & Bookmark options" aria-haspopup="true" aria-expanded="false" aria-labelledby="share-desciption">Share & Bookmark</a>
+                <span id="share-desciption" class="wcag_only">Share & Bookmark, Press Enter to show all options, press Tab go to next option</span>
+                <ul class="no_external_url_indication">
+                    <li>
+                        <a title="Click to submit an email online" href="mailto:?subject=Social%20Share&amp;body=https%3A%2F%2Fwww.cityofindianwells.org%2Fi-want-to%2Fview%2Fmeasure-h" class="shareemail send_share_email">Email</a>
+                    </li>
+                    <li><a title="Click to share with Facebook" href="javascript:shareLink('facebook')" class="sharefacebook">Facebook</a></li>
+                    
+                    <li><a title="Click to share with LinkedIn" href="javascript:shareLink('linkedin')" class="sharelinkedin">LinkedIn</a></li>
+                    <li><a title="Click to share with Twitter" href="javascript:shareLink('twitter')" class="sharetwitter">Twitter</a></li>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li><a title="Click to share with Reddit" href="javascript:shareLink('reddit')" class="sharereddit">Reddit</a></li>
+                </ul>
+            </div>
+            
+            <a role="button" class="thickbox feedback_link" title="Click to submit an email to feedback" href="javascript:void(0);">Feedback</a>
+            
+            <a role="button" class="printer_friendly" href="javascript:window.print();" title="Click to print this page">Print</a>
+            
+                </div>
+            </div>
+                       
+    <!--startindex-->
+
+    
+</header>
+<script type="text/javascript">
+    $(function () {
+        var widgetContext = "widget_1429_0_917";
+
+        //start VISPP-4466
+        var useDesignThemFontSizeCss = window.visionOptions.useDesignThemFontSizeCss;
+        var folderPath = useDesignThemFontSizeCss == true ? window.visionOptions.currentDesignFolderPath : window.visionOptions.mainFolderPath;
+        if (!folderPath)
+            folderPath = window.visionOptions.mainFolderPath;
+        var allowedFontSizes = ["xx-small.css", "x-small.css", "small.css", "medium.css", "large.css"];
+        var fontSizeStorageKey = (window.visionOptions.virtualApplicationPath || "/").replace(/\//g, "_") + "FontSize";
+        var resizeTimer;
+        var resizeFaqTabs = function () {
+            $(".faq_widget").each(function () {
+                var tabheight = $(this).find(".faq_tab_nav").height();
+                $(this).find(".faqtab_section").attr("style", "min-height: " + (tabheight - 42) + "px");
+            });
+        };
+        var SetFontSize = function (fontsize) {
+            $("#active_font").attr("href", folderPath + fontsize).attr("data-css", fontsize);
+            var url = window.location.origin + visionOptions.virtualApplicationPath + "Shared/ChangeFontSizeCookie";
+            var cookieValue = fontsize ? fontsize : "small.css";
+            var cookieInt;
+            switch(cookieValue){
+                case("xx-small.css"): cookieInt=1; break;
+                case ("x-small.css"): cookieInt = 2; break;
+                case ("small.css"): default: cookieInt = 3; break;
+                case("medium.css"): cookieInt=4; break;
+                case ("large.css"): cookieInt = 5; break;
+                }
+            $.frontendAjax({
+                url: url,
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({ cookieValue: cookieInt}),
+                success: function (data, textStatus, jqXHR) {
+                    if (data && data.success) {
+                        $("#active_font").attr("href", window.visionOptions.mainFolderPath + cookieValue).attr("data-css", cookieValue);
+                        // Write localStorage only after cookie POST succeeds (allowlisted; same key shape as cookie name).
+                        if (allowedFontSizes.indexOf(cookieValue) !== -1) {
+                            try {
+                                window.localStorage.setItem(fontSizeStorageKey, cookieValue);
+                            } catch (e) { }
+                        }
+                    }
+                }
+            });
+            if ($(".faq_tab_nav").length > 0) {
+                clearTimeout(resizeTimer);
+                resizeTimer = setTimeout(function () {
+                    resizeFaqTabs();
+                }, 200);
+            }
+        };
+
+        $(".font_larger").on("click", function () {
+            switch ($("#active_font").attr("data-css")) {
+                case "medium.css": SetFontSize("large.css"); break;
+                case "small.css": SetFontSize("medium.css"); break;
+                case "x-small.css": SetFontSize("small.css"); break;
+                case "xx-small.css": SetFontSize("x-small.css"); break;
+            }
+            return false;
+        });
+
+        $(".font_smaller").on("click", function () {
+            switch ($("#active_font").attr("data-css")) {
+                case "large.css": SetFontSize("medium.css"); break;
+                case "medium.css": SetFontSize("small.css"); break;
+                case "small.css": SetFontSize("x-small.css"); break;
+                case "x-small.css": SetFontSize("xx-small.css"); break;
+            }
+            return false;
+        });
+        $(".text_size").on("click", function () {
+            SetFontSize("x-small.css");
+            return false;
+        });
+            //end VISPP-4466
+
+        var $shareContainer = $("#" + widgetContext + " div#share");
+        var $shareMenu = $shareContainer.find("ul");
+        var $shareTrigger = $shareContainer.find("a.sharelink");
+        var shareMenuId = widgetContext + "_share_menu";
+
+        $shareMenu.attr("id", shareMenuId);
+        $shareTrigger.attr("aria-controls", shareMenuId);
+
+        var openShareMenu = function (setActiveByClick) {
+            if (setActiveByClick) {
+                $shareContainer.addClass("click-active");
+            }
+            $shareMenu.show();
+            $shareTrigger.attr("aria-expanded", "true");
+        };
+
+        var closeShareMenu = function (restoreFocusToTrigger) {
+            $shareContainer.removeClass("click-active");
+            $shareMenu.hide();
+            $shareTrigger.attr("aria-expanded", "false");
+            if (restoreFocusToTrigger) {
+                $shareTrigger.focus();
+            }
+        };
+
+        $("#" + widgetContext + " #share").click(function (e) {
+            if ($(e.target).closest("ul").length > 0) {
+                return;
+            }
+
+            if (!$shareContainer.hasClass("click-active")) {
+                openShareMenu(true);
+            } else {
+                closeShareMenu(false);
+            }
+        });
+
+        $(document).click(function (e) {
+            if (!$(e.target).closest("#share").length > 0) {
+                closeShareMenu(false);
+            }
+        });
+
+        var shareContainerTimeout = null;
+        $("#" + widgetContext + " #share").bind('mouseover', function () {
+            //If not relate to click event
+            if (shareContainerTimeout) {
+                clearTimeout(shareContainerTimeout);
+                shareContainerTimeout = null;
+            }
+            shareContainerTimeout = setTimeout(function () {
+                if (!$shareContainer.hasClass("click-active")) {
+                    openShareMenu(false);
+                }
+            }, 100);
+        });
+
+        $("#" + widgetContext + " #share").bind('mouseleave', function () {            
+            //If not relate to click event     
+            if (shareContainerTimeout) {
+                clearTimeout(shareContainerTimeout);
+                shareContainerTimeout = null;
+            }
+            shareContainerTimeout = setTimeout(function () {
+                if (!$shareContainer.hasClass("click-active")) {
+                    closeShareMenu(false);
+                }
+            }, 200);
+        });
+
+        $shareContainer.on("keydown", function (e) {
+            if (e.key === "Escape" || e.key === "Esc" || e.keyCode === 27) {
+                if ($shareMenu.is(":visible")) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    closeShareMenu(true);
+                }
+            }
+        });
+
+        $shareTrigger.on("keydown", function (e) {
+            if (e.key === " " || e.keyCode === 32) {
+                e.preventDefault();
+                if ($shareContainer.hasClass("click-active")) {
+                    closeShareMenu(false);
+                } else {
+                    openShareMenu(true);
+                }
+            }
+        });
+
+        $shareContainer.on("focusout", function (e) {
+            if (!$shareMenu.is(":visible")) {
+                return;
+            }
+
+            var relatedTarget = e.relatedTarget;
+            if (relatedTarget && ($shareContainer.is(relatedTarget) || $shareContainer.has(relatedTarget).length > 0)) {
+                return;
+            }
+
+            setTimeout(function () {
+                var activeElement = document.activeElement;
+                if (!activeElement || (!$shareContainer.is(activeElement) && $shareContainer.has(activeElement).length === 0)) {
+                    closeShareMenu(false);
+                }
+            }, 0);
+        });
+
+        $("header#" + widgetContext + " a.feedback_link").click(function () {
+            var windowHeight = 485;
+            if (window.innerWidth <= 648) {
+                windowHeight = 545;
+            }
+            var opts = {
+                title: "Feedback",
+                url: "/Template/GetFeedbackPartial?feedbackUrl=https%3a%2f%2fwww.cityofindianwells.org%2fi-want-to%2fview%2fmeasure-h",
+                useFrame: true,
+                height: windowHeight,
+                onClosed: function (result) {
+                    if (result != undefined && result.IsOk == true) {
+                        $.refreshTempMessage(result.Message);
+                    }
+                    $("header#" + widgetContext + " a.feedback_link").focus();
+                },
+                skin: 'viClientDialog feedback_lightbox',
+                fixed: false
+            };
+            $.viClientDialog(opts).open();
+        });
+
+        
+        
+    });
+</script>
+
+            <!--!!WidgetEnd-->
+
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="1430"WidgetStart!!-->    
+<div id='widget_1430_1547_917' class='content_area normal_content_area clearfix  '><p>On Nov. 3, 2026, Indian Wells voters will consider a ballot measure to update and clarify the language in the City’s Admissions Tax ordinance regarding which organizations qualify for an exemption. In 2005, Indian Wells voters approved "Measure H," which established a general admissions tax at a maximum rate of 10 percent of the admission charge for an event held in the City. Measure H currently provides tax exemptions for certain non-profit organizations and event sponsors. However, the language defining these exempt organizations relied on more general terms rather than precise legal definitions. Therefore, in July, the City Council unanimously determined that, after 20 years, the current exemptions merited an update to clarify their terms.</p>
+<p>The proposed new “Measure H” will update the municipal code to specifically identify qualifying exempt organizations by their federal tax classifications, such as Section 501(c)(3) for charitable, religious and educational groups, and Section 527 for political organizations. It also requires organizations seeking an exemption to demonstrate that they are in good standing and maintain their federal tax-exempt status. If an organization is exempt, residents and visitors attending the organization's event do not pay the admissions tax. Under state law and the municipal code, any changes to a previously voter-approved ordinance must be approved by a majority of the City’s voters through a new measure. The City Council unanimously voted to place this measure on the ballot.</p>
+<p>This measure does not raise taxes. Instead, it safeguards the Admission Tax exemption for residents and visitors who purchase tickets for charitable, religious, public service and political events, reflecting the City's commitment to its nonprofit partners.</p>
+<h4><a href="https://www.cityofindianwells.org/home/showpublisheddocument/11304/639269865724430000" target="_blank" rel="noopener">MEASURE H: BALLOT VOTER INFORMATION&nbsp;</a></h4>
+<div></div></div>
+            <!--!!WidgetEnd-->
+
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="1431"WidgetStart!!-->    
+
+
+
+
+
+
+
+
+<div aria-label="Accordion" class=" content_area clearfix" id="widget_1431_1548_917" role="region"><div class="accordion_widget mn-accordion"><div class='accordion-item' id='WhatistheballotquestionIwillbevotingon' data-index='1'><div class='accordion-heading' tabindex='0' aria-expanded='true' role='button'><div class='title'>What is the ballot question I will be voting on?</div><div class='icon'><i class='arrow right' role='presentation'></i></div></div>
+<div class='accordion-content' aria-hidden='true' visibility='hidden'><div class='inner-content'>Voters will see a question titled "CLARIFYING NONPROFIT EXEMPTION FROM CITY ADMISSIONS TAX." It will ask: "To safeguard tax-exemption benefits for residents and visitors who purchase tickets for events sponsored by charitable, religious, public service, and political organizations, shall the voters approve updates to the City’s admissions-tax ordinance?"</div></div></div>
+<div class='accordion-item' id='Willthismeasureraisemytaxes' data-index='2'><div class='accordion-heading' tabindex='0' aria-expanded='true' role='button'><div class='title'>Will this measure raise my taxes?</div><div class='icon'><i class='arrow right' role='presentation'></i></div></div>
+<div class='accordion-content' aria-hidden='true' visibility='hidden'><div class='inner-content'>No. This measure does not increase the admissions tax rate or create any new taxes. It updates the municipal code to clarify exactly what types of organizations are exempt from collecting the tax on their event admission charges.</div></div></div>
+<div class='accordion-item' id='Whatwouldtheproposedballotmeasuredo' data-index='3'><div class='accordion-heading' tabindex='0' aria-expanded='true' role='button'><div class='title'>What would the proposed ballot measure do?</div><div class='icon'><i class='arrow right' role='presentation'></i></div></div>
+<div class='accordion-content' aria-hidden='true' visibility='hidden'><div class='inner-content'>The measure will update and clarify the language in the City’s Admissions Tax ordinance to identify the types of admissions charges that qualify for an exemption. Organizations seeking an exemption will be required to demonstrate to the City that they are in good standing and maintain their federal tax-exempt status.</div></div></div>
+<div class='accordion-item' id='WhyisthismeasureontheNovemberballot' data-index='4'><div class='accordion-heading' tabindex='0' aria-expanded='true' role='button'><div class='title'>Why is this measure on the November ballot?</div><div class='icon'><i class='arrow right' role='presentation'></i></div></div>
+<div class='accordion-content' aria-hidden='true' visibility='hidden'><div class='inner-content'>The original admissions tax (Measure H) was passed by Indian Wells voters in 2005. In July, the City Council unanimously determined that, after 20 years, the current exemptions merited an update to clarify their terms. The California Elections Code requires that any amendments to Measure H’s exemption rules be approved by a majority of voters through a new measure. The City Council cannot make these changes on its own.</div></div></div>
+<div class='accordion-item' id='Whatistheadmissionstaxrate' data-index='5'><div class='accordion-heading' tabindex='0' aria-expanded='true' role='button'><div class='title'>What is the admissions tax rate?</div><div class='icon'><i class='arrow right' role='presentation'></i></div></div>
+<div class='accordion-content' aria-hidden='true' visibility='hidden'><div class='inner-content'>The current general admissions tax is set at a maximum rate of 10% on the admission charge to an event, as established by Measure H. The rate will remain 10% if this measure is adopted.</div></div></div>
+<div class='accordion-item' id='Whichorganizationswillqualifyforexemptionsundertheupdatedrules' data-index='6'><div class='accordion-heading' tabindex='0' aria-expanded='true' role='button'><div class='title'>Which organizations will qualify for exemptions under the updated rules?</div><div class='icon'><i class='arrow right' role='presentation'></i></div></div>
+<div class='accordion-content' aria-hidden='true' visibility='hidden'><div class='inner-content'><p>The updated ordinance explicitly lists:</p>
+<ul>
+    <li>Federal, state, and local governmental agencies and associations, and</li>
+    <li>Charitable, religious, scientific, literary, or educational organizations with an IRS 501(c)(3) status, and</li>
+    <li>Political organizations with an IRS Section 527 status, and</li>
+    <li>Membership organizations (like social clubs, labor unions, or veterans’ groups) with federal tax-exempt status, provided the event is open only to members, their families, and guests, and not to the general public.</li>
+</ul>
+<div></div></div></div></div>
+<div class='accordion-item' id='Howdoorganizationsprovetheyareexempt' data-index='7'><div class='accordion-heading' tabindex='0' aria-expanded='true' role='button'><div class='title'>How do organizations prove they are exempt?</div><div class='icon'><i class='arrow right' role='presentation'></i></div></div>
+<div class='accordion-content' aria-hidden='true' visibility='hidden'><div class='inner-content'>Under the new rules, an applicant must file an application with the City’s Finance Director. The organization must demonstrate that it is in good standing and currently exempt from federal taxation. The Director will then review and evaluate the application to verify the applicant qualifies as exempt from charging the Admission Tax.</div></div></div>
+<div class='accordion-item' id='WhenandhowcanIvoteonthismeasure' data-index='8'><div class='accordion-heading' tabindex='0' aria-expanded='true' role='button'><div class='title'>When and how can I vote on this measure?</div><div class='icon'><i class='arrow right' role='presentation'></i></div></div>
+<div class='accordion-content' aria-hidden='true' visibility='hidden'><div class='inner-content'>New Measure H will be consolidated with the Statewide General Election, taking place on Tuesday, Nov. 3, 2026, and will appear on your General Election ballot as an Indian Wells registered voter. The precincts, ballot drop box locations, vote center locations and vote-by-mail procedures will be the same as those utilized by the County of Riverside.</div></div></div>
+</div></div>
+    <script>
+        $(function () {
+            var accordionElement = $("#widget_1431_1548_917 .accordion_widget").get(0);
+            var accordion = new Accordion(accordionElement, {
+                // supports all HTML DOM Events (e.g. click, dblclick, mouseover etc.)
+                eventName: "click",
+
+                // enable event delay untill given milliseconds, usefull if eventName is mouseover
+                eventDelay: 0,
+
+                // enable all accordion item can be closed at once
+                collapsible: true,
+
+                // enable multiple accordion item open at once
+                multiple: true,
+
+                // -1 for close all as default, array of indexes accepted if multiple option is true
+                defaultOpenedIndexes: [],
+
+                //slide functions with jQuery. If you don't include jQuery in your website please override these functions
+                slideDuration: 200
+            });
+
+
+            $("div.accordion-heading", accordionElement).each(function (index) {
+                var openIDs = [];
+                var id = Number.parseInt($(this).parent().attr("data-index")) - 1;
+                //Init
+                var isTabClosed = openIDs.indexOf(id) < 0; //If id is not in open list --> this tab is closed
+                $(this).each(function (i, item) {
+                    $(item).attr("aria-expanded", !isTabClosed);
+                    $(item).next().attr("aria-hidden", isTabClosed);
+                    $(item).next().attr("visibility", isTabClosed ? "hidden":"visible");
+                });
+                $(this).keydown(function () {
+                    if (event.keyCode == 13) {
+                        $(this).click();
+                    }
+                });
+            });
+
+            $("div.accordion-content", accordionElement).each(function (index) {
+                var openIDs = [];
+                var id = Number.parseInt($(this).parent().attr("data-index")) - 1;
+                //Init
+                if (openIDs.indexOf(id) < 0) {//If id is not in open list --> this tab is closed
+                    $(this).find("a").each(function (i, item) {
+                        $(item).attr("tabindex", -1);
+                    });
+                    var isContentVisible = $(this).find("a").length < 0;
+                    $(this).find(".accordion-content").attr("aria-hidden", !isContentVisible);
+                    $(this).find(".accordion-content").attr("visibility", !isContentVisible ? "visible" : "hidden");
+                }
+            });
+
+            $("div.accordion-heading").click(function (e) {
+                var thisItem = $(e.target).parents(".accordion-item");
+                var isItemOpen = thisItem.hasClass("state-open");
+                $(thisItem).find("a").each(function (i, item) {
+                    $(item).attr("tabindex", isItemOpen ? -1 : 0);
+                });
+                $(thisItem).find(".accordion-heading").attr("aria-expanded", !isItemOpen);
+                $(thisItem).find(".accordion-content").attr("aria-hidden", isItemOpen);
+                $(thisItem).find(".accordion-content").attr("visibility", isItemOpen?"hidden":"visible");
+            });
+
+            $(document).on("click", "[data-open-accordion]", function(e) {
+                var item = $(this);
+                var accordionItem = $(item.attr("href"));
+                var accordionItemIndex = accordionItem.attr("data-index");
+                var accordionItemOpenStatus = accordionItem.hasClass("state-open");
+                if (!accordionItemOpenStatus) {
+                    accordionItem.find("a").attr("tabindex", 0);
+                }
+                accordionItem.find(".accordion-heading").attr("aria-expanded", !accordionItemOpenStatus);
+                accordionItem.find(".accordion-content").attr("aria-hidden", accordionItemOpenStatus);
+                accordionItem.find(".accordion-content").attr("visibility", accordionItemOpenStatus ? "hidden" : "visible");
+                accordion.openAccordionItem(accordionItem[0], accordionItemIndex);
+            });
+
+            var accordionResizeTimer;          
+            $(window).off("resize.accordion_1431_1548_917").on("resize.accordion_1431_1548_917", function () {                
+                if (!accordionElement || !document.body.contains(accordionElement)) {
+                    $(window).off("resize.accordion_1431_1548_917");
+                    return;
+                }
+                window.clearTimeout(accordionResizeTimer);
+                accordionResizeTimer = window.setTimeout(function () {
+                    $("div.accordion-item.state-open > .accordion-content", accordionElement).each(function () {
+                        var content = this;
+                        var previousTransition = content.style.transitionDuration;
+                        var previousWebkitTransition = content.style.WebkitTransitionDuration;
+                        content.style.transitionDuration = "0ms";
+                        content.style.WebkitTransitionDuration = "0ms";
+                        content.style.height = "auto";
+                        var recalculatedHeight = content.scrollHeight;
+                        content.style.height = recalculatedHeight + "px";
+                        void content.offsetHeight;
+                        content.style.transitionDuration = previousTransition;
+                        content.style.WebkitTransitionDuration = previousWebkitTransition;
+                    });
+                }, 150);
+            });
+        });
+    </script>
+
+            <!--!!WidgetEnd-->
+
+    
+</div>
+
+
+</div> 
+
+        <footer id="page_footer" class="">
+            <!--stopindex-->
+            
+<div id="footercolumn" class="site_template_column  footer_column   " >
+
+                <!--stopindex-->
+                
+<div class="show_image_link_container">
+    <ul class="image_link_list">
+
+    <li>
+    
+       <a href="/?navid=1" target="_self">
+           <img src="/home/showpublishedimage/320/637097653805470000" alt="footer-arrowhead" class="img_item"/>
+       </a>
+        <div class="slidecontent">
+            <h3 class="slidetitle"></h3>
+            <p class="slidedescription"></p>
+        </div>
+        </li>   
+     
+    </ul>
+</div>
+<script>
+    $(function () {
+        $.each($("a img.img_item"), function (index, value) {
+            $(value).parent("a").siblings("div.slidecontent").css("width", $(value).width());
+        });
+    });
+</script>
+
+                <!--startindex-->
+            
+
+                <!--stopindex-->
+                
+ 
+<p class="footer_address">
+    <p style="text-align: center;">City of Indian Wells | 44-950 Eldorado Drive Indian Wells, CA 92210 <br>
+Phone: 760-346-2489 | Fax: 760-346-0407 <br>
+City Hall Hours: M-F 8 a.m. - 5 p.m. (Closed for Lunch 12-1 p.m.)</p>
+<p style="text-align: center;">&nbsp;<img src="/home/showpublishedimage/2556/638566424642870000" alt="CAC - badge" style="margin: 15px; width: 157.233px; height: 133px;"></p>
+<p style="text-align: center;">Our organization has worked with The International Board of Credentialing and Continuing Education Standards (IBCCES) to be designated as a Certified Autism Center™ (CAC). Our staff has completed training and certification in best practices when assisting autistic sensory-sensitive individuals. By undergoing additional autism-specific training, the goal is for our team to be better equipped to provide better service and experiences to all. <a href="https://ibcces.org/cac-faq/" target="_blank" title="Learn more about Certified Autism Center™">Click to learn more about Certified Autism Center™</a><br>
+<span style="color: rgb(255, 255, 255);">.</span></p>
+<!-- Begin Constant Contact Active Forms -->
+<script> var _ctct_m = "354ad3a5205762cbf1c53aa66b182347"; </script>
+<script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async="" defer=""></script>
+<!-- End Constant Contact Active Forms -->
+</p>
+                <!--startindex-->
+            
+
+                <!--stopindex-->
+                  
+
+    <div class="footer_nav">
+        
+    		<a href="/i-want-to/contact" target="_self">Contact Us</a>		
+    		<a href="/our-city/site-map" target="_self">Site Map</a>		
+    		<a href="/our-city/privacy-policy" target="_self">Privacy Policy</a>		
+    </div>
+    
+    <p class="footer_copyright">WEBSITE DESIGN BY <a href="//www.granicus.com/">GRANICUS</a> - Connecting People and Government</p>
+                <!--startindex-->
+            
+
+                <!--stopindex-->
+                
+
+<div class="social_icons">
+		<a href="https://www.facebook.com/CityofIndianWells/" target="_blank" title="">
+			<img src="/home/showpublishedimage/272/637084582170230000" alt="footer-fb@2x" />
+		</a>
+		<a href="https://twitter.com/indian_wells" target="_blank" title="">
+			<img src="/home/showpublishedimage/2354/638288265487430000" alt="footer-x@2x-3" />
+		</a>
+		<a href="https://www.youtube.com/user/CityofIndianWells" target="_blank" title="">
+			<img src="/home/showpublishedimage/278/637084582187100000" alt="footer-yt@2x" />
+		</a>
+		<a href="https://nextdoor.com/agency-detail/ca/indian-wells/city-of-indian-wells/" target="_blank" title="">
+			<img src="/home/showpublishedimage/274/637084582175570000" alt="footer-nd@2x" />
+		</a>
+</div>
+                <!--startindex-->
+            
+
+</div>
+
+            <!--startindex-->
+        </footer>
+        
+    </div>
+</div>
+
+<script src="/Project/Contents/Main/mobile_nav_scripts.js" type="text/javascript"></script>
+
+<script src="/Project/Contents/Main/sitelayout_scripts.js" type="text/javascript"></script>
+    
+    <script>
+        $(function () {
+            $(".reComment[comment]").removeClass("reComment")
+                                    .removeAttr("comment")
+                                    .removeAttr("author")
+                                    .removeAttr("title")
+                                    .removeAttr("timestamp");
+        })
+    </script>
+    
+
+    
+
+    <script src="/Scripts/ScriptBundleVisionFrontend.jsbnd?v=4KAxSnMrAemr6qWhC4izl3ok1edzgqrIEJjMXiq_M1E1"></script>
+
+
+    <script async src="https://siteimproveanalytics.com/js/siteanalyze_8862.js"></script>
+    
+    <script>
+        try { manualRenderMobile(); } catch (err) {}
+    </script>
+    
+    
+    <script src="/Scripts/Components/ScriptsFEBundle.jsbnd?v=l8UTOcxy3OwKH7GrKOWKTbkwf3LhHKKLotfyojMtSYk1"></script>
+
+
+    <script>
+        $(function() {
+            var sitewrapper = $(".sitewrapper");
+            if (sitewrapper.length && !sitewrapper.hasClass("")) {
+                sitewrapper.addClass("");
+            }     
+            //VISPP-4466 - we get the cookie value and set the correct stylesheet path for pages without the Page Title widget.
+            // Prefer localStorage (same allowlist as Shared/GetFontSizeCookie); AJAX fallback seeds storage for later pageviews.
+            var useDesignThemFontSizeCss = window.visionOptions.useDesignThemFontSizeCss;
+            var folderPath = useDesignThemFontSizeCss == true ? window.visionOptions.currentDesignFolderPath : window.visionOptions.mainFolderPath;
+            if (!folderPath)
+                folderPath = window.visionOptions.mainFolderPath;
+
+            var allowedFontSizes = ["xx-small.css", "x-small.css", "small.css", "medium.css", "large.css"];
+            var fontSizeStorageKey = (window.visionOptions.virtualApplicationPath || "/").replace(/\//g, "_") + "FontSize";
+            var applyFontSize = function (fontSize) {
+                $("#active_font").attr("href", folderPath + fontSize).attr("data-css", fontSize);
+            };
+            var writeFontSizeStorage = function (fontSize) {
+                if (allowedFontSizes.indexOf(fontSize) === -1) {
+                    return;
+                }
+                try {
+                    window.localStorage.setItem(fontSizeStorageKey, fontSize);
+                } catch (e) { }
+            };
+            var readFontSizeStorage = function () {
+                try {
+                    var stored = window.localStorage.getItem(fontSizeStorageKey);
+                    if (stored && allowedFontSizes.indexOf(stored) !== -1) {
+                        return stored;
+                    }
+                } catch (e) { }
+                return null;
+            };
+            var fetchFontSizeFromCookie = function () {
+                var getFontSizeUrl = window.location.origin + window.visionOptions.virtualApplicationPath + "Shared/GetFontSizeCookie";
+                var fontSize = "x-small.css";
+                $.frontendAjax({
+                    url: getFontSizeUrl,
+                    type: 'GET',
+                    success: function (data) {
+                        if (data && data.fontSizeCookie && data.fontSizeCookie != "" && allowedFontSizes.indexOf(data.fontSizeCookie) !== -1) {
+                            fontSize = data.fontSizeCookie;
+                        }
+                        writeFontSizeStorage(fontSize);
+                        applyFontSize(fontSize);
+                    }
+                });
+            };
+
+            var storedFontSize = readFontSizeStorage();
+            if (storedFontSize) {
+                applyFontSize(storedFontSize);
+                // Skipping GetFontSizeCookie removes $.frontendAjax ExtendSession side-effect; keep-alive for logged-in FE users.
+                var sessionManager = $.frontendSessionManager && $.frontendSessionManager();
+                if (sessionManager && sessionManager.opts && sessionManager.opts.frontendUserLogin === true) {
+                    sessionManager.extendSessionTimeout(function () { });
+                }
+            } else {
+                fetchFontSizeFromCookie();
+            }
+        });
+    </script>   
+
+
+    
+</body>
+</html>

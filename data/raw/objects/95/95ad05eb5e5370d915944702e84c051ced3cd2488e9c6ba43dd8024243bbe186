@@ -1,0 +1,1573 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head id="Head1"><meta charset="UTF-8" /><link href="/DefaultContent/Default/bootstrap.v3.4.1.min.css" rel="stylesheet"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" /><title>
+	
+    Warehouse General Tax Measure - Measure C | City of Perris, CA
+
+</title>
+
+    
+    <script>
+         (function() {
+            window['angular_base'] = "/";
+         })();
+    </script>
+    
+
+    
+            <script type="text/javascript">
+                (function() {
+                    if (window.self !== window.top) { //Inside Iframe                
+                        if (document.getElementsByTagName("html").length > 0) {
+                            document.getElementsByTagName("html")[0].classList.add("apple-product");                
+                        }                
+                    }
+                })();
+            </script>
+    
+    <meta name="viewport" content="width=device-width" />
+    
+    <link href="/DefaultContent/Default/StyleBundleDesignTheme.cssbnd?v=XuSY58cYXFocrb64T0DJ7jsMaAKH1awJV9bIuGB3MuI1" rel="stylesheet"/>
+<link href="/Project/Contents/Main/StyleBundleDesignTheme.cssbnd?v=GAhDj3CMul8rQwjmfA5LHCEtw17NFCd7_y-YH5VuHDw1" rel="stylesheet"/>
+<link href="/Areas/Admin/Content/StyleBundleFrontendExtra.cssbnd?v=nqlce7hzdo9LIG8VjJmT54anvfgjYa7U1e0fCFkn8EQ1" rel="stylesheet"/>
+<link href="/DefaultContent/Default/Print.cssbnd?v=KHE7WOKtPueyPX2uj_mtIbyWU4zUk_Vb5WjoMZ1rsuk1" rel="stylesheet" media="print" />
+<link href="/Project/Contents/Main/Print.cssbnd?v=jfhfKsMmxQr_xKAfv9Fj6qRlRX7gMoxJTHKVE6DLWuo1" rel="stylesheet" media="print" />
+<script src="/Scripts/ScriptBundleFAllInOne.jsbnd?v=JVE6npY6YF2wH7c-hT0P0TJ17hzzeczFVFrT2ygR9VY1"></script>
+
+<script>
+    function handleExternalURL() { };
+</script>
+<script>window.visionOptions = {virtualApplicationPath:'/',logOnPath:'Admin/LogOn',logOffPath:'Admin/LogOff',enableSessionTimeout:false,sessionTimeoutInMinutes:30,timeToAlertBeforeSessionTimeoutInMinutes:5,extendSessionTimeoutPath:'Admin/Account/ExtendSessionTimeout',mainFolderPath:'/Project/Contents/Main/',centerLocation:'Perris, CA', siteID:1, navigationID:412, isHomePage:false, emergencyNoticeChanged:false, loggedIn:false, showTopTips:true, currentDesignFolderPath:'/Project/Contents/Main/', useDesignThemFontSizeCss:false , clientResponsiveTableEnabled:true, imageUrl:'/Home/ShowPublishedImage/', engagementAdminEndPoint:'/Admin/Engagement/', visionLiveAdminEndPoint:'/Admin/Components/', cmsAdminEndPoint:'/Admin/', enableSplashUrl:true, eSignatureView: '/Shared/SignatureView', socialMediaInfo :{ twitter : { maxLength : 280  } }, baseImageUrl:'/Home/ShowPublishedImage' };;window.visionApps={"cms_core":{"DateFormat":"MM/dd/yyyy","TimeFormat":"h:mm TT","PhoneFormat":"(999) 999-9999","OrganizationName":"City of Perris, CA","TimeAMFormat":"AM","TimePMFormat":"PM","ProjectTimeZone":"America/Los_Angeles","ProjectTimeZoneDiff":{"Id":"Pacific Standard Time","DisplayName":"(UTC-08:00) Pacific Time (US & Canada)","StandardName":"Pacific Standard Time","DaylightName":"Pacific Daylight Time","BaseUtcOffset":"-08:00:00","AdjustmentRules":[{"DateStart":"0001-01-01T00:00:00","DateEnd":"2006-12-31T00:00:00","DaylightDelta":"01:00:00","DaylightTransitionStart":{"TimeOfDay":"0001-01-01T02:00:00","Month":4,"Week":1,"Day":1,"DayOfWeek":0,"IsFixedDateRule":false},"DaylightTransitionEnd":{"TimeOfDay":"0001-01-01T02:00:00","Month":10,"Week":5,"Day":1,"DayOfWeek":0,"IsFixedDateRule":false},"BaseUtcOffsetDelta":"00:00:00"},{"DateStart":"2007-01-01T00:00:00","DateEnd":"9999-12-31T00:00:00","DaylightDelta":"01:00:00","DaylightTransitionStart":{"TimeOfDay":"0001-01-01T02:00:00","Month":3,"Week":2,"Day":1,"DayOfWeek":0,"IsFixedDateRule":false},"DaylightTransitionEnd":{"TimeOfDay":"0001-01-01T02:00:00","Month":11,"Week":1,"Day":1,"DayOfWeek":0,"IsFixedDateRule":false},"BaseUtcOffsetDelta":"00:00:00"}],"SupportsDaylightSavingTime":true},"ShowDefaultMarginRadEditor":true,"ContentReviewDefaultScheduleType":"0","EnableXSSCheck":true,"BasicXSSKeywords":"script|scriptscr|imagesrc","AdvancedXSSKeywords":"onload|onclick|onerror|javascript|onmouseover|eval|random|function|onload|execcommand|script|fscommand|onabort|onactivate|onafterprint|onafterupdate|onbeforeactivate|onbeforecopy|onbeforecut|onbeforedeactivate|onbeforeeditfocus|onbeforepaste|onbeforeunload|onbeforeupdate|onbegin|onblur|onbounce|oncellchange|onchange|onclick|oncontextmMenu|oncontrolselect|oncopy|oncut|ondataavailable|ondatasetchanged|ondatasetcomplete|ondblclick|ondeactivate|ondrag|ondragend|ondragleave|ondragenter|ondragover|ondragdrop|ondragstart|onend|onerror|onerrorupdate|onfilterchange|onfinish|onfocus|onfocusin|onfocusout|onhashchange|onhelp|oninput|onkeydown|onkeypress|onkeyup|onlayoutcomplete|onload|onlosecapture|onmediacomplete|onmediaerror|onmousedown|onmouseenter|onmouseleave|onmousemove|onmouseout|onmouseover|onmouseup|onmousewheel|onmove|onmoveend|onmovestart|onoffline|ononline|onoutofsync|onpaste|onpause|onpopstate|onprogress|onpropertychange|onreadystatechange|onredo|onrepeat|onreset|onresize|onresizeend|onresizestart|onresume|onreverse|onrowsenter|onrowexit|onrowdelete|onrowinserted|onscroll|onseek|onselect|onselectionchange|onselectstart|onstart|onstop|onstorage|onsyncrestored|onsubmit|ontimeerror|ontrackchange|onundo|onunload|onurlflip|seeksegmenttime|document.cookie","EnableMultipleSSO":false,"FileSignatures":"{\".jpg\":[\"FFD8FF\"],\".jpeg\":[\"FFD8FF\"],\".png\":[\"89504E470D0A1A0A\"],\".gif\":[\"474946383761\",\"474946383961\"],\".bmp\":[\"424D\"],\".tif\":[\"49492A00\",\"4D4D002A\"],\".tiff\":[\"49492A00\",\"4D4D002A\"],\".svg\":[],\".txt\":[],\".csv\":[],\".xml\":[],\".rtf\":[\"7B5C727466\"],\".doc\":[\"D0CF11E0A1B11AE1\"],\".docx\":[\"504B0304\"],\".xls\":[\"D0CF11E0A1B11AE1\"],\".xlsx\":[\"504B0304\"],\".ppt\":[\"D0CF11E0A1B11AE1\"],\".pptx\":[\"504B0304\"],\".pps\":[\"D0CF11E0A1B11AE1\"],\".pdf\":[\"25504446\"],\".zip\":[\"504B0304\",\"504B0506\",\"504B0708\"],\".rar\":[\"526172211A0700\",\"526172211A070100\"],\".7z\":[\"377ABCAF271C\"],\".dwg\":[\"41433130\"],\".eps\":[\"25215053\"],\".ai\":[\"25215053\"],\".vsd\":[\"D0CF11E0A1B11AE1\"],\".kml\":[],\".kmz\":[\"504B0304\",\"504B0506\",\"504B0708\"],\".mp3\":[\"494433\"],\".wav\":[\"52494646\"],\".mp4\":[\"00000018\",\"66747970\"],\".avi\":[\"52494646\"],\".mov\":[\"00000014\",\"66747970\"],\".ogg\":[\"4F676753\"],\".flac\":[\"664C6143\"],\".webm\":[\"1A45DFA3\"],\".mkv\":[\"1A45DFA3\"],\".json\":[],\".html\":[],\".htm\":[]}","GoogleReCaptchaPublicKey":"6LflacYZAAAAAI_guTdTbHQCZE5F-MhOTIbJoag3"}};;window.visionApps.token="eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwiayI6IlllMTd1Qi9BMitCd3pMMGhlZkJUdGc9PSJ9.7UYDonSU2HGv7KTuNInXgVW4vv1YdFXU4xbTvUWGp3_SlZr391Z-HIFIV7QQHJ8dylYmImsvOcgmM0XehXQBBvgDXTDfQXGE.YzX41uopeSQlSndOsUIOIQ.xh3fM9NX5Jy9mIQqPXYVuFqPUAkN0yTa_il8t0R5roo29jTEymsaWvTWuAQFiBR0xFAEjGtiaqVgIRnNCXkshZDejzwIgZuIQBK0JeIaTmNLyMkB5ZXxxpEqt3xVQXAuYep7SdSI9bIq2jTS4V6MU7hWkqFPI6T31INNunafSeoDOv35ZtADq3Wz2SIubazMppMXs_ajeYIoN07mgYdSiL06eutr2AkBvXy1vF9M0bo.EVvDXjB5APuyvV9zYv2FK3fQy0SnaIbynytBL76z-e4";(function(window){window.cmsCoreConfig={}; (function(config){ (function(window){window.coreComponentFormConfig={"apiEndPoint":"https://form.visioninternet.com/"};})(window);; })(window.cmsCoreConfig); })(window);(function(window){window.visionLiveConfig={}; (function(config){ config.flexibleComponent={"serverURL":"https://flex.visioninternet.com/"};; })(window.visionLiveConfig); })(window);</script>
+
+    <script type="text/javascript">
+        // added the htmlEncode and htmlDecode method to fixed the js load order issue.
+        $.extend($, {
+            htmlEncode: function (html) {
+                var temp = document.createElement("div");
+                (temp.textContent != undefined) ? (temp.textContent = html) : (temp.innerText = html);
+                var output = temp.innerHTML;
+                temp = null;
+                return output;
+            },
+            htmlDecode: function (text) {
+                var temp = document.createElement("div");
+                temp.innerHTML = text;
+                var output = temp.innerText || temp.textContent;
+                temp = null;
+                return output;
+            }
+        });    
+        $(function () {
+            //script for view full site button, placed here to keep firefox for mobile devices happy
+            var viewFullElement = document.getElementById("view-full");           
+            if (viewFullElement) {
+                viewFullElement.innerHTML = "View Full Site";
+                viewFullElement.className = "mobile_only fullsite";
+            }
+        });
+    </script>
+    
+
+    <!--[if lt IE 9]>
+        <script src="/Scripts/ScriptBundleOthers.jsbnd?v=3Q7FhTQfRrKx8h7Kvdbh9bBluzlNlXKsFAERd4g8_TY1"></script>
+
+	<![endif]-->
+
+    
+    <link id="active_font" rel="stylesheet" type="text/css" href="/Project/Contents/Main/x-small.css">
+    
+    <link rel="Shortcut Icon" href="/favicon.ico" />
+
+    
+    
+    
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <!--startogsection-->
+    <meta property="og:title" content="Warehouse General Tax Measure - Measure C | City of Perris, CA" />
+    <meta property="og:description" content="" />
+    <!--stopogsection-->
+    
+    
+
+    <script>
+        $(function () {
+            $.frontendSessionManager({
+                virtualApplicationPath:"/",
+                backendUserLogin: false,
+                frontendUserLogin: false,
+                sessionTimeoutInMinutes:30,
+                timeToAlertBeforeSessionTimeoutInMinutes:5,
+                extendSessionTimeoutPath:"Home/FrontEndExtendSessionTimeout"
+            }).setTimerForSessionExpiration();
+        });
+    </script>
+    
+    <meta name="google-site-verification" content="bdaLckemc3fCSAaveEVnJit4AkrbYUN23eO7BbnAS10" />
+
+
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="WSJJV-CTYHS-EL43X-LHLX3-RHU59",function(){function e(){if(!r){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.appendChild(e),r=!0}}function t(e){r=!0;var n,t,a,i,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",i=(a.frameElement||a).style,i.width=0,i.height=0,i.border=0,i.display="none",o.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void 0;",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=14,window.BOOMR.url=n+"WSJJV-CTYHS-EL43X-LHLX3-RHU59";var i=document.currentScript||document.getElementsByTagName("script")[0],o=i.parentNode,r=!1,d=document.createElement("link");if(d.relList&&"function"==typeof d.relList.supports&&d.relList.supports("preload")&&"as"in d)window.BOOMR.snippetMethod="p",d.href=window.BOOMR.url,d.rel="preload",d.as="script",d.addEventListener("load",e),d.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!r)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.appendChild(d);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="eyaqmr2aabyvajqacqdduaaagnvodh2h-f-183ce3aad-clienttons-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"41","ak.cp":"797927","ak.ai":parseInt("681121",10),"ak.ol":"0","ak.cr":30,"ak.ipv":6,"ak.proto":"h2","ak.rid":"51431f53","ak.r":53180,"ak.a2":n,"ak.m":"dscb","ak.n":"essl","ak.cport":58388,"ak.gh":"2.22.28.132","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1793171271","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==nk77VutVgvi1P2s62Yovvt2aGd2Szpu+lFgky8wRvKR8ZIDfImibd5DXwP7hKkmYK/7bXR+ZvcSwgjHMb2yLvOlqtEoe4cAHESbBAQ5Gt3uYUJPKHk4bCbJq+cIHEd3WDx6GV7IAFX1JDUuK15fpQZPXUBkZiDLpH8UdF5thzBMY5hWoYbXxX0n4cLlxemCM1ed/xsNU6rCfU1EpLTuDx4KG1kuCesbpuJvSW7PwPi7dFJ02vDvuRy+5eLI1/Hqj2xUNwzXBMwbxoaxzYW4JsAf+aL9WmL7xN9zBJ1ToI1msumIdlpbq3VOEB+rDiuC8a31uD00tFx8sJEerTbDfA06+Yw9kwhprkfIocONcFskY+zULTgb0BVsLO16SWVgfU9WRjIUIGFGTREPW9KFi+pSLhRGDoUc0igByg2FfGOE=","ak.pv":"90","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+<body class="front_end_body site_standardsitetemplate  ">    
+    <input name="__RequestVerificationToken" type="hidden" value="_pInh3dkC_rU0eg6xnIWvCyo3OkRT-E6QRA79Rdn0oI43lYvsCkQBhJO3trFOpoguKIvlTm3-RVGOKiB_JH4_yRcnijbe3M9RYUanhZ0HJo1" />
+
+    
+            <style>
+                
+            </style>
+        <link href="/DefaultContent/Default/StyleBundleAngularLib.cssbnd?v=sED2Qjf38ysQJYZW_ZvZj-7IGXKm4NOJhdA51oOtG5A1" rel="stylesheet"/>
+
+
+
+<script>
+    window.frontendCommonConfig = {
+        loginPage: 'https://www.cityofperris.org/sys/sso/login',
+        popupLoginPage: '/sys/sso/popuplogin',
+        photoBaseUrlForPeople: 'https://www.cityofperris.org/sys/sso/ShowProfilePhoto?id=',
+        photoBaseUrl: 'https://www.cityofperris.org/Home/ShowPublishedImage/',
+        token: window.visionApps ? window.visionApps.token : '',
+        cmsUserLogged: false,
+        anonymousAvatar: 'https://www.cityofperris.org/DefaultContent/Default/_gfx/anonymous.png',
+        loginUser: {
+            name: '',
+            avatar: '',
+            userID: null,
+            firstName: '',
+            lastName: '',
+            imageID: null,
+            email: '',
+        }
+    };
+</script>
+
+
+<script>
+    //It's before the AngularJSLib Loading, which might be update in the AngularJSLib bundle.
+    window.viPredefinedModules = [];
+</script>
+<script src="/Scripts/ScriptBundleAngularLib.jsbnd?v=NE32Axf8AoQJCvAhR0BrNgsJvJ2CpfeBE2zvnHeghcE1"></script>
+
+
+<script>
+    (function (window, angular) {
+
+        $("body").attr("ng-app", "vi.cms");
+        
+        window.viCurrentModule = angular.module("vi.cms", window.viPredefinedModules || []);
+    })(window, angular);
+</script>
+
+
+    <script src="/Scripts/frontendCoreBundle.jsbnd?v=B6JbwsWOd-EUHAJbvPp8WWgswnVmMSWA48MG3na2qBY1"></script>
+
+
+    
+    <!--stopindex-->
+    <noscript>
+        <div class="noscript_alert"><span>Please enable JavaScript in your browser for a better user experience.</span></div>
+    </noscript>
+    <!--startindex-->
+    <div class="vi-temp-message-container" style="display:none;"></div>
+        
+    
+    
+
+<div class="sitewrapper  site_template mainSpan_wrapper">
+    <div class="mainSpan" id="mainSpan_wrapper_Screen">
+        <!--stopindex-->
+        <div id="skipnav" tabindex="-1">
+            <a href="#sitebody" tabindex="-1">
+                <img alt="Skip to page body" src="/DefaultContent/Default/_gfx/spacer.gif" /></a>
+            
+            <a title="Home" href="/home" tabindex="-1">
+                <img alt="Home" src="/DefaultContent/Default/_gfx/spacer.gif" /></a>
+            
+            <a title="Our City" href="/our-city" tabindex="-1">
+                <img alt="Our City" src="/DefaultContent/Default/_gfx/spacer.gif" /></a>
+            
+            <a title="Departments" href="/departments" tabindex="-1">
+                <img alt="Departments" src="/DefaultContent/Default/_gfx/spacer.gif" /></a>
+            
+            <a title="Government" href="/government" tabindex="-1">
+                <img alt="Government" src="/DefaultContent/Default/_gfx/spacer.gif" /></a>
+            
+            <a title="Business" href="/business" tabindex="-1">
+                <img alt="Business" src="/DefaultContent/Default/_gfx/spacer.gif" /></a>
+            
+        </div>
+        <!--startindex-->
+
+        <header id="siteheader" class="">
+            <!--stopindex-->
+			<h1 class="wcag_only">City of Perris, CA</h1>
+            <a id="home_link" href="/home">Home</a>
+            
+            <a class="menu_trigger mobile_only" href="javascript:void(0);">Menu</a>
+            
+            <!--startindex-->
+            
+<div id="headercolumn" class="site_template_column  header_column   " >
+
+                <!--stopindex-->
+                
+<div class="search_overlay"></div>
+<a href="javascript:void(0);" class="search-trigger hidden-xs" role="img" aria-label="Search Icon">Search</a>
+<div class="top_search">
+    <!--<a class="close_search" href="#">CLOSE</a>-->
+    <div class="search_block">
+        <div id="searchbox" class="clearfix">
+                        <input title="Search..." aria-label ="Search" id="search_text" placeholder="Search..." type="text">
+            <a href="javascript:void(0);">Go</a>
+        </div>
+
+        
+    </div>
+</div>
+
+
+<script>
+
+    $(function () {
+       
+        $("#searchbox input").keydown(function (e) {
+            if (e.keyCode == 13) {
+                $("#searchbox a").click();
+            }
+        });
+        $("#searchbox a").click(function () {
+            var keyWord = $("#searchbox input#search_text").val();
+            if (keyWord.length <= 0) { return false; }
+            keyWord  = keyWord.replace(/^\s\s*/, '').replace(/\s\s*$/, '');
+            keyWord = encodeURIComponent(keyWord.replace("<"," ").replace(">"," ") );
+            var link = '/departments/misc-pages/search';
+            if (link.indexOf("?") >= 0 )
+                link = link + "&q=" + keyWord;
+            else
+                link = link + "?q=" + keyWord;
+            if ('False' == 'True') {
+                window.top.location.href = link;
+                return false;
+            } else {
+                window.location.href = link;
+            }            
+        });
+    
+        function toggleSearchButtonState() {
+            const searchText = $("#search_text");
+            if(searchText.length) {
+                const state = $("#search_text").val().trim().length > 0 ? {"pointer-events": "auto", "opacity":"1"} : {"pointer-events": "none", "opacity":"0.2"};
+                $("#searchbox > a").css(state);
+            }
+        }
+        $("#search_text").on("input", toggleSearchButtonState);
+        $(window).on("load", toggleSearchButtonState);
+});
+</script>
+                <!--startindex-->
+            
+
+                <!--stopindex-->
+                
+
+
+
+<a href="#" class="service_find_trigger">Service Finder</a>
+
+<div class="home_services_overlay">
+    <div class="home_services">
+        <a href="#" class="service_close">CLOSE</a>
+        <h2>I want to...</h2>
+        <span class="slide_img"></span>
+<div class="fieldset service-finder">
+	
+	<div class="fieldset-content">
+		
+		<div class="container-select">
+			<div class="select dropdown_custom_links">
+				<select id="category-1" name="category-1" class="select_links">
+                        <option value="25">Contact</option>
+                        <option value="24">Pay</option>
+                        <option value="29">Register</option>
+                        <option value="26">View</option>
+                        <option value="27">Watch</option>
+				</select>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="fieldset fieldset-2 service-list">
+	
+	<div class="fieldset-content">
+		
+		<div class="container-select">
+			<div class="select dropdown_custom_links">
+				<select id="category-2" name="category-2" class="select_links">
+                        <option data-group="24" value="24">Animal Related Services</option>
+                        <option data-group="24 25" value="24 25">Building Permit</option>
+                        <option data-group="29" value="29">Business License</option>
+                        <option data-group="25 26" value="25 26">City Contact Form</option>
+                        <option data-group="26 27" value="26 27">City Council Meetings</option>
+                        <option data-group="25" value="25">City Hall</option>
+                        <option data-group="26" value="26">City Maps</option>
+                        <option data-group="24 26 29" value="24 26 29">Civic Rec</option>
+                        <option data-group="26" value="26">Financial Documents</option>
+                        <option data-group="26" value="26">Job Postings</option>
+                        <option data-group="27" value="27">Perris TV Live</option>
+                        <option data-group="27" value="27">Perris TV On Demand</option>
+                        <option data-group="24" value="24">Pet Licensing</option>
+                        <option data-group="24" value="24">Water Bill</option>
+                        <option data-group="26" value="26">Yard Sales</option>
+				</select>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="fieldset fieldset-3 service-definition">
+    
+    <!--<div class="fieldset-content">-->
+        
+        <div class="container-select service-item-details">
+            <h2 id="fieldset-title-3">Contact</h2>
+            <p id="fieldset-title-3-text"></p>
+        </div>
+        <a class="box_bottomlink" id="fieldset-submit" href="#">Check Status</a>
+    <!--</div>-->
+    </div>
+    </div>
+</div>
+
+<script>
+    var services = [{"Name":"Animal Related Services","Summary":"View Animal Related Services and pay online.","Url":"https://licensepet.com/wl3/don/prrswd/1107","CategoryValues":"24"},{"Name":"Building Permit","Summary":"Click Here to access our Building Portal","Url":"https://aca.accela.com/perris/default.aspx","CategoryValues":"24 25"},{"Name":"Business License","Summary":"View Business License","Url":"/business/business-licensing","CategoryValues":"29"},{"Name":"City Contact Form","Summary":"Click below to submit a request through the City\u0027s Comcate App.","Url":"https://clients.comcate.com/newrequest.php?id=86","CategoryValues":"25 26"},{"Name":"City Council Meetings","Summary":"View Agendas for City Council Meetings","Url":"/government/city-government/city-council-city-council-committee-planning-commission-meetings","CategoryValues":"26 27"},{"Name":"City Hall","Summary":"Contact the City of Perris at 951-943-6100","Url":"/our-city/city-hall/who-to-call","CategoryValues":"25"},{"Name":"City Maps","Summary":"Click below to see a comprehensive map of the City.","Url":"http://maps.digitalmapcentral.com/production/vecommunityview/cities/perris/index.aspx","CategoryValues":"26"},{"Name":"Civic Rec","Summary":"Click below to register for classes using our Civic Rec Platform.","Url":"https://secure.rec1.com/CA/perris-ca/catalog","CategoryValues":"24 26 29"},{"Name":"Financial Documents","Summary":"Click below to view the Financial Transparency Portal on OpenGov.","Url":"https://perrisca.opengov.com/transparency#/","CategoryValues":"26"},{"Name":"Job Postings","Summary":"Click below to view current job postings","Url":"/our-city/city-hall/job-openings","CategoryValues":"26"},{"Name":"Perris TV Live","Summary":"Click below to watch Perris TV live.","Url":"http://perris.granicus.com/MediaPlayer.php?publish_id=3","CategoryValues":"27"},{"Name":"Perris TV On Demand","Summary":"Click below to watch Perris TV On Demand.","Url":"https://www.youtube.com/perristv","CategoryValues":"27"},{"Name":"Pet Licensing","Summary":"Look up or buy a pet license.","Url":"https://licensepet.com/wl3/rc/reg/prrswl","CategoryValues":"24"},{"Name":"Water Bill","Summary":"Pay Water Bill","Url":"https://ipn.paymentus.com/rotp/PRS","CategoryValues":"24"},{"Name":"Yard Sales","Summary":"Click Below to view the current Yard Sale listings","Url":"/our-city/community-info/yard-sales","CategoryValues":"26"}];
+
+    $(document).ready(function() {
+        console.log(services);
+        UpdateServices();
+        UpdateSummary();
+        
+    });
+    
+    $('#category-1').change(function() {
+        UpdateServices();
+        UpdateSummary();
+    });
+    
+    $('#category-2').change(function() {
+        UpdateSummary();
+    });
+    
+    function UpdateServices() {
+        
+        var selectedService = "";
+        
+        $("#category-2").empty();
+        
+        $.each(services, function(index, value) {
+        
+            var categories = value.CategoryValues.split(" ");
+            if (categories.indexOf($("#category-1").val()) >= 0) {
+                $("#category-2").append("<option data-group='" + value.CategoryValues + "' value='" + value.CategoryValues + "' style='display: block;'>" + value.Name + "</option>");
+            }
+        });
+            
+        $('#category-2').children().each(function(){
+        
+            if($(this).css("display") != "none"){  
+                selectedService = $(this).val();
+                return false;
+            }
+        });
+        
+        $('#category-2').val(selectedService);         
+    }
+    
+    function UpdateSummary() {
+        
+        var serviceSummary;
+        var serviceUrl;
+        var cat2Text = $("#category-2 option:selected").text();
+        
+        for (var i = 0; i < services.length; i++) {
+            if (services[i].Name === cat2Text) {
+                serviceSummary = services[i].Summary;
+                serviceUrl = services[i].Url;
+            }
+        }
+        
+        $("#fieldset-title-3").html(cat2Text);
+        $("#fieldset-title-3-text").html(serviceSummary);
+        $("#fieldset-submit").attr("href", serviceUrl);
+        
+        var cat1Text = $("#category-1 option:selected").text();
+    
+        if (cat1Text === "Apply") {
+            $("#fieldset-title-3").html("Apply Now");
+            $("#fieldset-submit").html("Apply Now");
+        }
+    }
+</script>
+
+                <!--startindex-->
+            
+
+</div>
+
+        </header>
+
+        
+<div class="standardlayout clearfix" id="sitebody">
+    
+<div id="ColumnUserControl1" class="column   top_col clearfix  ">
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="1715"WidgetStart!!-->    
+
+                <!--stopindex-->
+                <div class=" main_menu_widget"><!--stopindex--><link href="/DefaultContent/Default/StyleBundleMegaMenuDropDown.cssbnd?v=CD_eN-fYJU8KKPigt6x-Ey-z8_WTsoZ7bqx2pLTZtXU1" rel="stylesheet"/>
+<link href="/Project/Contents/Main/StyleBundleMegaMenuDropDown.cssbnd?v=UIf6nrX3S6k-VGIpQ42XoVTV2tScpwLm_4eQ8V3dsj41" rel="stylesheet"/>
+<nav aria-label="Main Navigation" class="regularmegamenu mainnav" id="menuContainer_1715_0_796"><ul class="dropdownmenu clearfix"><li class="megamenu_first" id="dropdownrootitem1"><a class="dropdownrootitem1" href="/home" aria-label="Home" data-navid="1" target="_self" >Home</a></li><li class="megamenu_first" id="dropdownrootitem2"><a class="dropdownrootitem2" href="/our-city" aria-label="Our City" data-navid="2" target="_self" >Our City</a><div class="megamenu_container widthcontainer4col"><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/our-city/city-hall" aria-label="City Hall" data-navid="127" target="_self" >City Hall</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/city-hall/bids-rfps" aria-label="Bids &amp; RFPs" data-navid="129" target="_self" >Bids &amp; RFPs</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/city-hall/city-forms" aria-label="City Forms" data-navid="130" target="_self" >City Forms</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/city-hall/holidays" aria-label="Holidays" data-navid="131" target="_self" >Holidays</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/city-hall/job-openings" aria-label="Job Openings" data-navid="132" target="_self" >Job Openings</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/city-hall/management-staff-directory" aria-label="Management Staff Directory" data-navid="128" target="_self" >Management Staff Directory</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/city-hall/payment-and-processing-portal" aria-label="Pay My Bill" data-navid="283" target="_self" >Pay My Bill</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/city-hall/request-a-city-facility" aria-label="Request a City Facility" data-navid="133" target="_self" >Request a City Facility</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/city-hall/who-to-call" aria-label="Who to Call" data-navid="134" target="_self" >Who to Call</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/our-city/about-perris" aria-label="About Perris" data-navid="52" target="_self" >About Perris</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/about-perris/climate" aria-label="Climate" data-navid="53" target="_self" >Climate</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/about-perris/history" aria-label="History" data-navid="54" target="_self" >History</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/about-perris/maps" aria-label="Maps" data-navid="55" target="_self" >Maps</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/about-perris/news-250" aria-label="News" data-navid="250" target="_self" >News</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/our-city/activities" aria-label="Activities" data-navid="57" target="_self" >Activities</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/activities/hot-air-balloon-rides" aria-label="Hot Air Balloon Rides" data-navid="59" target="_self" >Hot Air Balloon Rides</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/activities/indoor-outdoor-skydiving" aria-label="Indoor/Outdoor Skydiving" data-navid="60" target="_self" >Indoor/Outdoor Skydiving</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/activities/perris-auto-speedway" aria-label="Perris Auto Speedway" data-navid="58" target="_blank" rel="noopener">Perris Auto Speedway</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/activities/perris-city-compass/southern-california-railway-museum" aria-label="Southern California Railway Museum" data-navid="328" target="_self" >Southern California Railway Museum</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/activities/the-city-compass" aria-label="Perris City Compass" data-navid="291" target="_self" >Perris City Compass</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/our-city/city-services" aria-label="City Services" data-navid="61" target="_self" >City Services</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/city-services/americans-with-disabilities-ada" aria-label="Americans with Disabilities (ADA)" data-navid="410" target="_self" >Americans with Disabilities (ADA)</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/city-services/animal-control-services" aria-label="Animal Control/Services" data-navid="244" target="_self" >Animal Control/Services</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/city-services/code-enforcement" aria-label="Code Enforcement" data-navid="238" target="_self" >Code Enforcement</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/city-services/graffiti-removal" aria-label="Graffiti Removal" data-navid="65" target="_self" >Graffiti Removal</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/city-services/homeless-services-division" aria-label="Homeless Services Division" data-navid="403" target="_self" >Homeless Services Division</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/city-services/parking-enforcement" aria-label="Parking Enforcement" data-navid="404" target="_self" >Parking Enforcement</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/city-services/pothole-repair" aria-label="Pothole Repair" data-navid="352" target="_self" >Pothole Repair</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/city-services/street-sweeping" aria-label="Street Sweeping" data-navid="68" target="_self" >Street Sweeping</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/city-services/water-sewer" aria-label="Water &amp; Sewer" data-navid="249" target="_self" >Water &amp; Sewer</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/city-services/waste-recycling" aria-label="Waste &amp; Recycling" data-navid="70" target="_self" >Waste &amp; Recycling</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/our-city/community-info" aria-label="Community Info" data-navid="71" target="_self" >Community Info</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/community-info/community-resources-directory" aria-label="Community Resources Directory" data-navid="72" target="_self" >Community Resources Directory</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/community-info/construction-road-work" aria-label="Construction &amp; Road Work" data-navid="83" target="_self" >Construction &amp; Road Work</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/community-info/grow-perris/perris-cares" aria-label="Homeless Services Division" data-navid="280" target="_self" >Homeless Services Division</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/community-info/housing-programs" aria-label="Housing Programs" data-navid="84" target="_self" >Housing Programs</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/community-info/library" aria-label="Library" data-navid="85" target="_self" >Library</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/city-hall/perris-alerts" aria-label="Perris Alerts" data-navid="345" target="_self" >Perris Alerts</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/community-info/schools" aria-label="Schools" data-navid="56" target="_self" >Schools</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/our-city/homeowners" aria-label="Homeowners" data-navid="110" target="_self" >Homeowners</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/homeowners/permits" aria-label="Permits" data-navid="111" target="_self" >Permits</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/homeowners/property-info" aria-label="Property Info" data-navid="112" target="_self" >Property Info</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/homeowners/special-districts" aria-label="Special Districts" data-navid="235" target="_self" >Special Districts</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/our-city/museums" aria-label="Museums" data-navid="113" target="_self" >Museums</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/our-city/new-to-perris" aria-label="New to Perris" data-navid="114" target="_self" >New to Perris</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/new-to-perris/community-contacts" aria-label="Community Contacts" data-navid="115" target="_self" >Community Contacts</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/new-to-perris/how-do-i" aria-label="How Do I?" data-navid="116" target="_self" >How Do I?</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/new-to-perris/utility-providers" aria-label="Utility Providers" data-navid="117" target="_self" >Utility Providers</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/our-city/news-events" aria-label="News &amp; Events" data-navid="118" target="_self" >News &amp; Events</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/news-events/city-calendar" aria-label="City Calendar" data-navid="120" target="_self" >City Calendar</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/news-events/community-sponsorship" aria-label="Community Sponsorship" data-navid="122" target="_self" >Community Sponsorship</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/news-events/perris-tv" aria-label="Perris TV" data-navid="121" target="_self" >Perris TV</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/news-events/press-releases" aria-label="Press Releases" data-navid="236" target="_self" >Press Releases</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/our-city/parks" aria-label="Outside Organizations" data-navid="124" target="_self" >Outside Organizations</a></li></ul></div></div></li><li class="megamenu_first" id="dropdownrootitem3"><a class="dropdownrootitem3" href="/departments" aria-label="Departments" data-navid="3" target="_self" >Departments</a><div class="megamenu_container widthcontainer4col"><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/city-attorney" aria-label="City Attorney" data-navid="125" target="_self" >City Attorney</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/city-manager" aria-label="City Manager" data-navid="135" target="_self" >City Manager</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/city-manager/public-information-office" aria-label="Public Information Office" data-navid="356" target="_self" >Public Information Office</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/community-services" aria-label="Community Services" data-navid="136" target="_self" >Community Services</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/community-services/activities-classes/bob-glass-gymnasium" aria-label="Bob Glass Gymnasium" data-navid="395" target="_self" >Bob Glass Gymnasium</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/our-city/community-info/parks-classes" aria-label="Activities &amp; Classes" data-navid="87" target="_self" >Activities &amp; Classes</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/community-services/facilities" aria-label="Facility Reservations" data-navid="287" target="_self" >Facility Reservations</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/community-services/parks" aria-label="Parks" data-navid="288" target="_self" >Parks</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/community-services/special-events" aria-label="Special Events" data-navid="286" target="_self" >Special Events</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/community-services/youth-advisory-committee" aria-label="Youth Advisory Committee" data-navid="289" target="_self" >Youth Advisory Committee</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/development-services" aria-label="Development Services" data-navid="137" target="_self" >Development Services</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/development-services/americans-with-disabilities-act-ada-information" aria-label="Americans with Disabilities Act (ADA) Information" data-navid="401" target="_self" >Americans with Disabilities Act (ADA) Information</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/development-services/business-licensing" aria-label="Business Licensing" data-navid="398" target="_self" >Business Licensing</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/development-services/building-safety" aria-label="Building &amp; Safety" data-navid="139" target="_self" >Building &amp; Safety</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/development-services/fire-marshal" aria-label="Fire Marshal" data-navid="141" target="_self" >Fire Marshal</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/development-services/planning" aria-label="Planning" data-navid="144" target="_self" >Planning</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/development-services/municipal-code" aria-label="Municipal Code" data-navid="143" target="_blank" rel="noopener">Municipal Code</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/development-services/zoning" aria-label="Zoning" data-navid="147" target="_self" >Zoning</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/economic-development" aria-label="Economic Development" data-navid="148" target="_blank" rel="noopener">Economic Development</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/engineering-388" aria-label="Engineering" data-navid="388" target="_self" >Engineering</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/engineering/case-road-improvement-project" aria-label="Case Road Improvement Project" data-navid="382" target="_self" >Case Road Improvement Project</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/finance" aria-label="Finance" data-navid="149" target="_self" >Finance</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/finance/2023-water-rate-study" aria-label="2023 Water Rate Study" data-navid="357" target="_self" >2023 Water Rate Study</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/finance/auditor-communications" aria-label="Auditor Communications" data-navid="162" target="_self" >Auditor Communications</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/finance/city-budget" aria-label="City Budget" data-navid="160" target="_self" >City Budget</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/finance/comprehensive-annual-financial-reports-cafr" aria-label="Annual Comprehensive Financial Reports (ACFR)" data-navid="163" target="_self" >Annual Comprehensive Financial Reports (ACFR)</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/finance/financial-transparency" aria-label="Financial Transparency" data-navid="157" target="_self" >Financial Transparency</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/finance/investment-policy" aria-label="Investment Policy" data-navid="164" target="_self" >Investment Policy</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/finance/monthly-check-registers" aria-label="Monthly Check Registers" data-navid="159" target="_self" >Monthly Check Registers</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/finance/capital-improvement-program" aria-label="Capital Improvement Program" data-navid="161" target="_self" >Capital Improvement Program</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/finance/other-documents" aria-label="Other Documents" data-navid="165" target="_self" >Other Documents</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/finance/tax-sharing-agreements" aria-label="Tax Sharing Agreements" data-navid="386" target="_self" >Tax Sharing Agreements</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/human-resources" aria-label="Human Resources &amp; Risk Management" data-navid="152" target="_self" >Human Resources &amp; Risk Management</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/information-technology" aria-label="Information Technology" data-navid="370" target="_self" >Information Technology</a></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/municipal-enforcement-services" aria-label="Municipal Enforcement Services" data-navid="374" target="_self" >Municipal Enforcement Services</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/municipal-enforcement-services/animal-control-services" aria-label="Animal Control/Services" data-navid="138" target="_self" >Animal Control/Services</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/municipal-enforcement-services/code-enforcement" aria-label="Code Enforcement" data-navid="140" target="_self" >Code Enforcement</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/municipal-enforcement-services/homeless-services-division" aria-label="Homeless Services Division" data-navid="402" target="_self" >Homeless Services Division</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/municipal-enforcement-services/parking-enforcement" aria-label="Parking Enforcement" data-navid="379" target="_self" >Parking Enforcement</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/public-safety" aria-label="Public Safety" data-navid="407" target="_self" >Public Safety</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/public-safety/cannabis-compliance-division" aria-label="Cannabis Compliance Division" data-navid="409" target="_self" >Cannabis Compliance Division</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/public-safety/emergency-operations" aria-label="Emergency Operations" data-navid="408" target="_self" >Emergency Operations</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/public-safety/fire" aria-label="Fire" data-navid="150" target="_self" >Fire</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/public-safety/police" aria-label="Police" data-navid="153" target="_self" >Police</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/public-services" aria-label="Public Services" data-navid="377" target="_self" >Public Services</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/public-services/arts-culture-and-health-program" aria-label="Arts, Culture, and Health Program" data-navid="353" target="_self" >Arts, Culture, and Health Program</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/public-services/community-development-block-grant-cdbg" aria-label="Community Development Block Grant (CDBG)" data-navid="155" target="_self" >Community Development Block Grant (CDBG)</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/public-services/housing-authority" aria-label="Housing Authority" data-navid="151" target="_self" >Housing Authority</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/public-services/motlagh-scholarship-foundation" aria-label="Motlagh Scholarship Foundation" data-navid="384" target="_self" >Motlagh Scholarship Foundation</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/public-services/public-health" aria-label="Public Health" data-navid="292" target="_self" >Public Health</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/public-works" aria-label="Public Works" data-navid="166" target="_self" >Public Works</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/public-works/adopt-a-street-community-beautification-program" aria-label="Adopt-A-Street Community Beautification Program" data-navid="373" target="_self" >Adopt-A-Street Community Beautification Program</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/public-works/facilities" aria-label="Facilities" data-navid="168" target="_self" >Facilities</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/public-works/streets-and-field-service" aria-label="Streets and Field Service" data-navid="170" target="_self" >Streets and Field Service</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/public-works/sb1383-administration" aria-label="SB1383 Administration" data-navid="302" target="_self" >SB1383 Administration</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/public-works/special-districts-flood-landscape-lighting" aria-label="Special Districts (Flood, Landscape, Lighting)" data-navid="300" target="_self" >Special Districts (Flood, Landscape, Lighting)</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/public-works/water-quality-management-plan-wqmp" aria-label="National Pollutant Discharge Elimination System (NPDES)" data-navid="172" target="_self" >National Pollutant Discharge Elimination System (NPDES)</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/public-works/water-sewer" aria-label="Water &amp; Sewer" data-navid="171" target="_self" >Water &amp; Sewer</a></li></ul></li></ul></div></div></li><li class="megamenu_first" id="dropdownrootitem4"><a class="dropdownrootitem4" href="/government" aria-label="Government" data-navid="4" target="_self" >Government</a><div class="megamenu_container widthcontainer4col"><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/government/mayor-and-city-council" aria-label="City Government" data-navid="173" target="_self" >City Government</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-government/office-of-the-mayor" aria-label="Office Of The Mayor" data-navid="372" target="_self" >Office Of The Mayor</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-council" aria-label="City Council" data-navid="355" target="_self" >City Council</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments/city-clerk" aria-label="Office of the City Clerk" data-navid="126" target="_self" >Office of the City Clerk</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-government/city-council-city-council-committee-planning-commission-meetings" aria-label="City Council, City Council Committee &amp; Planning Commission Meetings" data-navid="180" target="_self" >City Council, City Council Committee &amp; Planning Commission Meetings</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-government/city-council-appointments-committees" aria-label="City Council Appointments &amp; Committees" data-navid="381" target="_self" >City Council Appointments &amp; Committees</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-council/city-council-transparency" aria-label="City Council Transparency" data-navid="182" target="_self" >City Council Transparency</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-council/district-elections-information" aria-label="District Elections &amp; Map" data-navid="303" target="_self" >District Elections &amp; Map</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-government/financial-outlook" aria-label="Measure B" data-navid="406" target="_self" >Measure B</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-government/warehousetax" aria-label="Warehouse Tax - Measure C" data-navid="412" target="_self" >Warehouse Tax - Measure C</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/government/planning-commission" aria-label="Planning Commission" data-navid="184" target="_self" >Planning Commission</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/government/planning-commission/current-projects" aria-label="Current Projects" data-navid="243" target="_self" >Current Projects</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/government/city-ordinances" aria-label="City Ordinances" data-navid="186" target="_self" >City Ordinances</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/government/city-resolutions" aria-label="City Resolutions" data-navid="203" target="_self" >City Resolutions</a></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/government/representatives" aria-label="Representatives" data-navid="224" target="_self" >Representatives</a></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/government/public-notices" aria-label="Public Notices" data-navid="390" target="_self" >Public Notices</a></li></ul></div></div></li><li class="megamenu_first" id="dropdownrootitem5"><a class="dropdownrootitem5" href="/business" aria-label="Business" data-navid="5" target="_self" >Business</a><div class="megamenu_container widthcontainer1col"><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/business/business-licensing" aria-label="Business Licensing" data-navid="226" target="_self" >Business Licensing</a></li></ul></div></div></li></ul><script>
+$(function () {
+ var menuContainer = $('#menuContainer_1715_0_796');
+ menuContainer.find('.dropdownmenu>li>a[data-navid="4"]').closest('li').addClass('active _visionMenuSelected');
+});
+</script></nav><!--startindex--></div>
+
+
+<script>
+    /**********************************************************
+    Dropdown Menu delay disappearance on mouse out
+    *********************************************************/
+    /*javascript to delay the disappearance of the menu when the user mouses out.  Uses jquery library.*/
+    $(function () {
+        
+
+        var timer = null;
+        var delay = 800; //change this number for shorter or longer delay
+        
+        
+        //using megamenu
+        var dropdowncontainer = '>.megamenu_container';        
+        var activePage = $(".mainnav .dropdownmenu > li.active");
+        $('.mainnav > .dropdownmenu>li > a').css('overflow', 'visible');
+        $(".mainnav > .dropdownmenu > li").hoverIntent(
+        
+            //what happens on hover over
+            function () {
+                 //end timer and stop hiding if they are mousing back in.
+                 if (timer != null) {
+                     clearTimeout(timer);
+                     timer = null;
+                 }
+                 // Find the hovered menu's sub-menu
+                 var $menu = $(this);
+                 var $submenu = $(this).find(dropdowncontainer);
+
+                 // hide any other submenus that are open
+                 $('.mainnav > .dropdownmenu>li' + dropdowncontainer).not($submenu).css('display', 'none');
+                 $('.mainnav > .dropdownmenu li.active').not($menu).not(activePage).removeClass('active');
+                 $('.mainnav > .dropdownmenu li._visionMenuHovered').not($menu).removeClass('_visionMenuHovered');
+                 // show current menu
+                 $submenu.css('display', 'block');
+                 $menu.addClass('active');
+                 $menu.addClass('_visionMenuHovered');
+             },
+
+            //what happens on mouse out
+            function () {
+                var $submenu = $(this).find(dropdowncontainer);
+                var $menu = $(this);
+                // delay disappearance
+                var mouseDelay = $(this).data("mouseDelay") || delay;
+                clearTimeout(timer);
+                timer = setTimeout(function () {
+                    $submenu.css('display', 'none'); $menu.not(activePage).removeClass('active');
+                    $menu.removeClass('_visionMenuHovered');
+                    clearTimeout(timer); timer = null;
+                }, mouseDelay);
+            }
+        );
+
+        function hideRootMegaMenu($menu) {
+            $menu.children(dropdowncontainer).css('display', 'none');
+            $menu.not(activePage).removeClass('active');
+            $menu.removeClass('_visionMenuHovered');
+        }
+
+        function showRootMegaMenu($menu) {
+            var $submenu = $menu.children(dropdowncontainer);    
+            $('.mainnav > .dropdownmenu > li').not($menu).each(function () {
+                hideRootMegaMenu($(this));
+            });
+            if ($submenu.length > 0) {
+                $submenu.css('display', 'block');
+            }
+            $menu.addClass('active');
+            $menu.addClass('_visionMenuHovered');
+        }
+        
+        $('.mainnav > .dropdownmenu > li.megamenu_first > a:not([href])').on('keydown', function (event) {
+            var keyCode = event.which || event.keyCode;
+            var $menu = $(this).closest('li');
+
+            if (keyCode == 13 || keyCode == 32) {
+                event.preventDefault();
+                clearTimeout(timer);
+                if ($menu.children(dropdowncontainer).is(':visible')) {
+                    hideRootMegaMenu($menu);
+                }
+                else {
+                    showRootMegaMenu($menu);
+                }
+            }
+            else if (keyCode == 27) {
+                event.preventDefault();
+                hideRootMegaMenu($menu);
+                $(this).focus();
+            }
+        });
+
+        $('body').bind('keyup', function (event) {
+            if (event.keyCode == 9) {
+                // Find the hovered menu's sub-menu
+                var $menu = $(event.target).closest('li');                
+                 $menu.addClass("_visionMenuHovered");
+                $menu.on('focusout', function () {
+                $(this).removeClass("_visionMenuHovered");
+ });
+                let isJPanelMenuVisible = $("#jPanelMenu-menu").length > 0 ? true : false;
+                if ($menu.hasClass('megamenu_first')) {
+                    if (isJPanelMenuVisible) {
+                        HideMainMenuChild($menu.prev().find('li'));
+                    }
+                    var $submenu = $menu.find(dropdowncontainer);
+
+                    // hide any other submenus that are open
+                    $('.mainnav > .dropdownmenu>li' + dropdowncontainer).not($submenu).css('display', 'none');
+                    $('.mainnav > .dropdownmenu li.active').not($menu).not(activePage).removeClass('active');
+                    // show current menu
+                    $submenu.css('display', 'block');
+                    $menu.addClass('active');
+                }
+                else {
+                    if (isJPanelMenuVisible) {
+                        //sub-menu has children
+                        if ($menu.children('ul').length > 0) {
+                            var subMenuContainer = '>li > ul';
+                            var $submenuChild = $menu.find('>ul');
+                            $submenuChild.css('display', 'block');
+                            $menu.addClass('megamenulevelchildmenu');
+                        }
+
+                        var isSideNav = $menu.hasClass('sidenav_haschildren');
+                        if (isSideNav) {
+                            $menu.removeClass('megamenulevelchildmenu');
+                            $menu.addClass('sidenav_expanded');
+                            var $item = $menu.children('.vi-sidenav-toggle');
+                            $item.html("-");
+                            $item.attr('aria-expanded', true);
+                            $item.on('keydown', function (e) {
+                                if (e.code.toLowerCase() == "enter" || e.code.toLowerCase() == "numpadenter") {
+                                    var isSideNavExpanded = $menu.hasClass('sidenav_expanded');
+                                    if (isSideNavExpanded) {
+                                        $item.html("-");
+                                        $item.attr('aria-expanded', false);
+                                        $menu.children('ul').css('display', 'none');
+                                    }
+                                    else {
+                                        var isItemExpand = $item.html() == "-";
+                                        if (!isItemExpand) {
+                                            $item.html("+");
+                                        }
+                                        $item.attr('aria-expanded', !isItemExpand);
+                                        $menu.children('ul').css('display', isItemExpand ? 'none' : 'block');
+                                        $menu.removeClass('sidenav_expanded');
+                                    }
+                                }
+                            });
+                        }
+                        if ($menu.prev().hasClass('megamenulevelchildmenu')) {
+                            HideMainMenuChild($menu.prev());
+                        }
+                        else if ($menu.parent().prev().children('li').hasClass('megamenulevelchildmenu')) {
+                            HideMainMenuChild($menu.parent().prev().children('li'));
+                        }
+                    }
+
+                }
+            }
+        });
+
+        function HideMainMenuChild(e) {
+            $(e).each(function (index,child) {
+                
+                if ($(child).children('ul').each(function (subIndex,subChild) {
+                    HideMainMenuChild($(subChild).children('li'));
+                }));  
+            });
+            $(e).children('ul').css('display', 'none');
+            $(e).removeClass('megamenulevelchildmenu');
+        }
+
+        
+        $(document).click(function(e){
+            if($(e.target).closest('li.active').hasClass('megamenu_first') === false &&
+                $(e.target).closest(".megamenu_first>a").length <= 0){
+                $('.megamenu_first>div.megamenu_container').css('display', 'none');                
+            }               
+        });
+
+    });
+</script>
+
+<script>
+    //$(function () 
+    {
+        var menuContainerID = "menuContainer_1715_0_796";
+        var menuContainer = $("#" + menuContainerID);
+        
+        function isIE(userAgent) {
+            userAgent = userAgent || navigator.userAgent;
+            return userAgent.indexOf("MSIE ") > -1 || userAgent.indexOf("Trident/") > -1;
+        }
+
+        function isIE9(userAgent) {
+            userAgent = userAgent || navigator.userAgent;
+            return userAgent.indexOf("MSIE 9") > -1;
+        }
+
+        function isTouchScreenEvent(event) {
+            var _isTouchScreen = false;
+            if ("ontouchstart" in window) {
+                _isTouchScreen = true;
+            } else if ("onpointerdown" in window) {
+                _isTouchScreen = event.originalEvent.pointerType == "touch";
+            } else if (window.MSPointerEvent) {
+                _isTouchScreen = event.originalEvent.pointerType == event.originalEvent.MSPOINTER_TYPE_TOUCH; // 2 ; http://blogs.msdn.com/b/ie/archive/2011/09/20/touch-input-for-ie10-and-metro-style-apps.aspx
+            } else {
+            }
+            return _isTouchScreen;
+        }
+
+        var _isIE = isIE();
+        var _isIE9 = isIE9();
+        var isMegaMenu = $('.megamenu_first', menuContainer).length > 0;
+        var currentMenu = $('> ul.dropdownmenu > li.active', menuContainer);
+
+        $(function () {
+            if (currentMenu.length == 0)
+                currentMenu = $('> ul.dropdownmenu > li.active', menuContainer);
+        });
+
+        if (("ontouchstart" in window   // Chrome & Safari (IOS) && Firefox
+         || "onpointerdown" in window   // IE 11 
+         || window.MSPointerEvent       // IE 10
+         ) && ($(window).width() > 648)) {
+            var eventName = "ontouchstart" in window ? "touchstart"
+                          : "onpointerdown" in window ? "pointerdown"
+                          : window.MSPointerEvent ? "MSPointerDown"
+                          : "";
+            if (eventName.length > 0) {
+                $('> ul.dropdownmenu  li>a[data-navid]', menuContainer).bind(eventName, function (event) {
+
+                    if (isTouchScreenEvent(event) == false) {
+                        return true;
+                    }
+
+                    var currentLevelAnchor = $(this);
+                    var currentLeveLi = currentLevelAnchor.closest("li");
+                    var firstLevelLi = currentLevelAnchor.closest("li[id^='dropdownrootitem']");
+                    var firstLevelAnchor = firstLevelLi.find(">a[data-navid]");
+                    var inFirstLevel = currentLevelAnchor[0] == firstLevelAnchor[0];
+
+                    var hasSubMenu = currentLevelAnchor.next("ul,div").length > 0;
+                    if (hasSubMenu) {
+                        $(this).closest("li").data("mouseDelay", 1);
+
+                        // Menu is not selected
+                        if (!firstLevelLi.hasClass('touch-active')) {
+                            if ($(this).attr("href")) {
+                                $(this).attr("data-href", $(this).attr("href"));
+                                $(this).attr("href", "javascript:void(0);");
+                            }
+                            $(menuContainer).find('.touch-active').removeClass('touch-active').not(currentMenu).removeClass('active');
+
+                            firstLevelLi.addClass('touch-active active');
+                            currentLevelAnchor.addClass('touch-active active');
+                            currentMenu.addClass("active");
+
+                            $(' li:not(.touch-active)', menuContainer).not(firstLevelLi).removeClass('_current');
+                            $(' li:not(.touch-active) li', menuContainer).not(currentLeveLi).removeClass('_current');
+
+                            $('> ul.dropdownmenu > li:not(.touch-active) > a[data-navid]', menuContainer).next().css('display', 'none');
+                            $('> ul.dropdownmenu > li.touch-active > a[data-navid]', menuContainer).next().css('display', 'block');
+
+                            event.preventDefault();
+                        }
+                            // Menu is selected
+                        else {
+                            if (inFirstLevel) {
+                                // non clickable
+                                if (currentLevelAnchor.attr('href') == undefined) {
+                                    //has class touch-active and no link
+                                    removeClassAndHideMenu();
+                                    event.preventDefault();
+                                } else if ($(this).attr("data-href")) { //clickable, but href have been moved to data.
+                                    $(this).attr("href", $(this).attr("data-href"));
+                                }
+                            }
+                            else {
+                                if (isMegaMenu)
+                                    return true;
+
+                                if (!currentLeveLi.hasClass('touch-active')) {
+                                    if ($(this).attr("href")) {
+                                        $(this).attr("data-href", $(this).attr("href"));
+                                        $(this).attr("href", "javascript:void(0);");
+                                    }
+                                    $(firstLevelLi).find('.touch-active').removeClass('touch-active').not(currentMenu).removeClass('active');
+                                    currentLeveLi.parent().children("li._current").removeClass("_current");
+                                    currentLeveLi.addClass('touch-active active _current');
+
+                                    currentLevelAnchor.addClass('touch-active active');
+
+                                    //$(' li:not(.touch-active)', menuContainer).not(firstLevelLi).removeClass('_current');    
+                                    //$(' li:not(.touch-active) li', menuContainer).not(currentLeveLi).removeClass('_current');
+
+                                    $(' li:not(.touch-active) > a[data-navid]', currentLeveLi.parent()).next().css('display', 'none');
+                                    $('> li.touch-active > a[data-navid]', currentLeveLi.parent()).next().css('display', 'block');
+
+                                    event.preventDefault();
+                                } else {
+                                    if (currentLevelAnchor.attr('href') == undefined) {
+                                        //has class touch-active and no link
+                                        removeClassAndHideMenu();
+                                        event.preventDefault();
+                                    } else if ($(this).attr("data-href")) {
+                                        $(this).attr("href", $(this).attr("data-href"));
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                });
+            }
+        }
+
+
+
+        function removeClassAndHideMenu() {
+            $(menuContainer).find('a.touch-active, li.touch-active').removeClass('touch-active active');
+            $('> ul.dropdownmenu > li > a[data-navid]', menuContainer).next().css('display', 'none');
+            // If we don't change the menu item, we should keep the old one.
+            if ($('> ul.dropdownmenu > li.active', menuContainer).length == 0) {
+                currentMenu.addClass("active");
+            }
+        }
+
+        $('body').bind(eventName, function (event) {
+            if (isTouchScreenEvent(event) == false) {
+                return true;
+            }
+            if (!$(event.target).closest('li.touch-active').length) {
+                removeClassAndHideMenu();
+            }
+        });
+    }
+    //);
+</script>
+
+                
+                <!--startindex-->
+                <!--!!WidgetEnd-->
+
+    
+</div>
+
+
+    
+<div id="ColumnUserControl2" class="column   left_col  ">
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="1716"WidgetStart!!-->    
+
+                <!--stopindex-->
+                
+
+<nav id='leftNav_1716_0_796' aria-label="Side Navigation" class='nocontent sidenav mobile_list vi-sidenav-desktop   '>
+    <!--stopindex--><h2 class="mobile_only mobile_header" role="button" tabindex="0" aria-controls="leftNav_1716_0_796" aria-label="Toggle Jump to subpage...">Jump to subpage...</h2>
+    <ul><li class="sidenav_expanded sidenav_haschildren"><a href='https://www.cityofperris.org/government/mayor-and-city-council' target='_self' aria-label='City Government'>City Government</a><a href="javascript:void(0)" title="Expand/Collapse subpages under City Government" class="vi-sidenav-toggle" aria-expanded=true aria-label="Expand/Collapse subpages under City Government">-</a><ul><li><a href='https://www.cityofperris.org/government/city-government/office-of-the-mayor' target='_self' aria-label='Office Of The Mayor'>Office Of The Mayor</a></li><li><a href='https://www.cityofperris.org/government/city-council' target='_self' aria-label='City Council'>City Council</a></li><li><a href='https://www.cityofperris.org/departments/city-clerk' target='_self' aria-label='Office of the City Clerk'>Office of the City Clerk</a></li><li class="sidenav_haschildren"><a href='https://www.cityofperris.org/government/city-government/city-council-city-council-committee-planning-commission-meetings' target='_self' aria-label='City Council, City Council Committee &amp; Planning Commission Meetings'>City Council, City Council Committee &amp; Planning Commission Meetings</a><a href="javascript:void(0)" title="Expand/Collapse subpages under City Council, City Council Committee &amp; Planning Commission Meetings" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under City Council, City Council Committee &amp; Planning Commission Meetings">+</a><ul><li><a href='https://www.cityofperris.org/government/city-council/council-meetings/agenda-related-questions' target='_self' aria-label='Agenda-Related Questions'>Agenda-Related Questions</a></li><li><a href='https://www.cityofperris.org/government/city-council/council-meetings/agenda-archive' target='_self' aria-label='Agenda Archive'>Agenda Archive</a></li><li><a href='https://www.cityofperris.org/government/city-council/council-meetings/minutes-archive' target='_self' aria-label='Minutes Archive'>Minutes Archive</a></li></ul></li><li><a href='https://www.cityofperris.org/government/city-government/city-council-appointments-committees' target='_self' aria-label='City Council Appointments &amp; Committees'>City Council Appointments &amp; Committees</a></li><li><a href='https://www.cityofperris.org/government/city-council/city-council-transparency' target='_self' aria-label='City Council Transparency'>City Council Transparency</a></li><li><a href='https://www.cityofperris.org/government/city-council/district-elections-information' target='_self' aria-label='District Elections &amp; Map'>District Elections &amp; Map</a></li><li><a href='https://www.cityofperris.org/government/city-government/financial-outlook' target='_self' aria-label='Measure B'>Measure B</a></li><li class="sidenav_current"><a href='https://www.cityofperris.org/government/city-government/warehousetax' target='_self' aria-label='Warehouse Tax - Measure C'>Warehouse Tax - Measure C</a></li></ul></li><li class="sidenav_haschildren"><a href='https://www.cityofperris.org/government/planning-commission' target='_self' aria-label='Planning Commission'>Planning Commission</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Planning Commission" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Planning Commission">+</a><ul><li><a href='https://www.cityofperris.org/government/planning-commission/current-projects' target='_self' aria-label='Current Projects'>Current Projects</a></li></ul></li><li><a href='https://www.cityofperris.org/government/city-ordinances' target='_self' aria-label='City Ordinances'>City Ordinances</a></li><li><a href='https://www.cityofperris.org/government/city-resolutions' target='_self' aria-label='City Resolutions'>City Resolutions</a></li><li><a href='https://www.cityofperris.org/government/representatives' target='_self' aria-label='Representatives'>Representatives</a></li><li><a href='https://www.cityofperris.org/government/public-notices' target='_self' aria-label='Public Notices'>Public Notices</a></li></ul><!--startindex-->
+</nav>
+<script>
+    $(function () {
+        //test if it is mobile view or not and add classes accordingly. Needed because different sites use different breakpoints for mobile
+        if ($('.sidenav .mobile_only').is(':visible')) {
+            $('.sidenav').addClass('vi-sidenav-mobile');
+        } else {
+            $('.sidenav').addClass('vi-sidenav-desktop');
+        }
+        //need to also check for mobile view on resize and change classes if needed
+        var sidenavResizeTimer;
+
+        $(window).on('resize', function (e) {
+
+            clearTimeout(sidenavResizeTimer);
+            sidenavResizeTimer = setTimeout(function () {
+
+                if ($('.sidenav .mobile_only').is(':visible')) {
+                    $('.vi-sidenav-desktop').addClass('vi-sidenav-mobile').removeClass('vi-sidenav-desktop');
+                } else {
+                    $('.vi-sidenav-mobile').addClass('vi-sidenav-desktop').removeClass('vi-sidenav-mobile');
+                }
+            }, 250);
+
+        });
+
+        //expand/collapse function
+        $("#leftNav_1716_0_796 .vi-sidenav-toggle").click(function () {
+            var item = $(this),
+                parent = item.parent("li");
+
+            if (parent.length) {
+                var hasSubMenu = parent.hasClass("sidenav_expanded");
+                var isMobileSideNav = parent.hasClass("megamenulevelchildmenu");
+                if (hasSubMenu) {
+                    parent.removeClass("sidenav_expanded");
+                } else {
+                    parent.addClass("sidenav_expanded");
+                }
+                item.attr("aria-expanded", hasSubMenu ? false : true);
+                if (isMobileSideNav) {
+                    item.siblings("ul").css('display', hasSubMenu ? 'none' : 'block');
+                }
+            }
+
+            if (item.html() === "+") {
+                item.html('-');
+            } else {
+                item.html('+');
+            }
+        });
+    });
+</script>
+                
+                <!--startindex-->
+                <!--!!WidgetEnd-->
+
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="1719"WidgetStart!!-->    
+<div id='widget_1719_0_796' class='content_area normal_content_area clearfix  '></div>
+            <!--!!WidgetEnd-->
+
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="1721"WidgetStart!!-->    
+<div id='widget_1721_0_796' class='content_area normal_content_area clearfix  '></div>
+            <!--!!WidgetEnd-->
+
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="1722"WidgetStart!!-->    
+<div id='widget_1722_0_796' class='content_area normal_content_area clearfix  '></div>
+            <!--!!WidgetEnd-->
+
+    
+</div>
+
+
+    
+<div id="ColumnUserControl3" class="column   right_col  " role="main" aria-label="Warehouse General Tax Measure - Measure C">
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="1717"WidgetStart!!-->    
+
+<header id="widget_1717_0_796" class="title_widget clearfix  " >
+    
+    <!--stopindex-->
+    <p class="breadcrumb">
+        <a href="/government">Government</a> » <a href="/government/mayor-and-city-council">City Government</a> 
+    </p>
+    <!--startindex-->
+    
+    <h1 class="titlewidget-title"><span>Warehouse General Tax Measure - Measure C</span></h1>
+    
+    <!--stopindex-->
+                
+                <div class="title_right">
+                    <div class="title_row">
+                
+            <div class="font_size">
+                <a role="button" href="javascript:void(0);" title="default font size" class="text_size">Font Size:</a>
+                <a role="button" href="javascript:void(0);" title="larger font size" class="font_larger">+</a>
+                <a role="button" href="javascript:void(0);" title="smaller font size" class="font_smaller">-</a>
+            </div>
+            
+            <script type="text/javascript">
+            function shareLink(shareType) {
+                var shareUrl = "";
+                var shareTitle = document.itemTitle ? encodeURIComponent(document.itemTitle.trim()).replace(/[!'()*]/g, escape) : "Warehouse+General+Tax+Measure+-+Measure+C";
+                switch (shareType) {
+                    case "facebook":
+                        shareUrl = "http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.cityofperris.org%2fgovernment%2fcity-government%2fwarehousetax&t=" + shareTitle;
+                        break;
+                    case "linkedin":
+                        shareUrl = "http://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.cityofperris.org%2fgovernment%2fcity-government%2fwarehousetax&title=" + shareTitle;
+                        break;
+                    case "twitter":
+                        //Below link works in iOS and other OS
+                        shareUrl = "https://twitter.com/intent/tweet?url=https%3a%2f%2fwww.cityofperris.org%2fgovernment%2fcity-government%2fwarehousetax&text=Warehouse+General+Tax+Measure+-+Measure+C+%7c+";
+                        break;
+                    case "delicious":
+                        shareUrl = "https://secure.delicious.com/login?noui=yes&v=4&jump=https%3a%2f%2fwww.cityofperris.org%2fgovernment%2fcity-government%2fwarehousetax%26title%3D" + shareTitle + "%26notes%3D%26tags%3D%26v%3D4%26noui%3D%26share%3Dyes%26jump%3Dclose%26time%3D1239993443";
+                        break;
+                    case "myspace":
+                        shareUrl = "http://www.myspace.com/Modules/PostTo/Pages/?u=https%3a%2f%2fwww.cityofperris.org%2fgovernment%2fcity-government%2fwarehousetax&t=" + shareTitle + "&c=";
+                        break;
+                    case "googlebookmark":
+                        shareUrl = "http://www.google.com/bookmarks/mark?op=add&bkmk=https%3a%2f%2fwww.cityofperris.org%2fgovernment%2fcity-government%2fwarehousetax&title=" + shareTitle;
+                        break;
+                    case "stumbleupon":
+                        shareUrl = "http://www.stumbleupon.com/submit?url=https%3a%2f%2fwww.cityofperris.org%2fgovernment%2fcity-government%2fwarehousetax&title=" + shareTitle;
+                        break;
+                    case "digg":
+                        shareUrl = "http://digg.com/submit/?url=https%3a%2f%2fwww.cityofperris.org%2fgovernment%2fcity-government%2fwarehousetax";
+                        break;
+                    case "tumblr":
+                        shareUrl = "https://www.tumblr.com/share/link?url=https%3a%2f%2fwww.cityofperris.org%2fgovernment%2fcity-government%2fwarehousetax&name=" + shareTitle;
+                        break;
+                    case "reddit":
+                        shareUrl = "http://www.reddit.com/submit?url=https%3a%2f%2fwww.cityofperris.org%2fgovernment%2fcity-government%2fwarehousetax&title=" + shareTitle;
+                        break;
+                }
+                if (shareUrl.length > 0) window.open(shareUrl, "_blank", "noopener");
+            }
+            </script>
+            <div id="share">
+                <a role="button" class="sharelink" href="javascript:void(0);" title="Click to expand Share & Bookmark options" aria-haspopup="true" aria-expanded="false" aria-labelledby="share-desciption">Share & Bookmark</a>
+                <span id="share-desciption" class="wcag_only">Share & Bookmark, Press Enter to show all options, press Tab go to next option</span>
+                <ul class="no_external_url_indication">
+                    <li>
+                        <a title="Click to submit an email online" href="mailto:?subject=Social%20Share&amp;body=https%3A%2F%2Fwww.cityofperris.org%2Fgovernment%2Fcity-government%2Fwarehousetax" class="shareemail send_share_email">Email</a>
+                    </li>
+                    <li><a title="Click to share with Facebook" href="javascript:shareLink('facebook')" class="sharefacebook">Facebook</a></li>
+                    
+                    <li><a title="Click to share with LinkedIn" href="javascript:shareLink('linkedin')" class="sharelinkedin">LinkedIn</a></li>
+                    <li><a title="Click to share with Twitter" href="javascript:shareLink('twitter')" class="sharetwitter">Twitter</a></li>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li><a title="Click to share with Reddit" href="javascript:shareLink('reddit')" class="sharereddit">Reddit</a></li>
+                </ul>
+            </div>
+            
+            <a role="button" class="thickbox feedback_link" title="Click to submit an email to feedback" href="javascript:void(0);">Feedback</a>
+            
+            <a role="button" class="printer_friendly" href="javascript:window.print();" title="Click to print this page">Print</a>
+            
+                </div>
+            </div>
+                       
+    <!--startindex-->
+
+    
+</header>
+<script type="text/javascript">
+    $(function () {
+        var widgetContext = "widget_1717_0_796";
+
+        //start VISPP-4466
+        var useDesignThemFontSizeCss = window.visionOptions.useDesignThemFontSizeCss;
+        var folderPath = useDesignThemFontSizeCss == true ? window.visionOptions.currentDesignFolderPath : window.visionOptions.mainFolderPath;
+        if (!folderPath)
+            folderPath = window.visionOptions.mainFolderPath;
+        var allowedFontSizes = ["xx-small.css", "x-small.css", "small.css", "medium.css", "large.css"];
+        var fontSizeStorageKey = (window.visionOptions.virtualApplicationPath || "/").replace(/\//g, "_") + "FontSize";
+        var resizeTimer;
+        var resizeFaqTabs = function () {
+            $(".faq_widget").each(function () {
+                var tabheight = $(this).find(".faq_tab_nav").height();
+                $(this).find(".faqtab_section").attr("style", "min-height: " + (tabheight - 42) + "px");
+            });
+        };
+        var SetFontSize = function (fontsize) {
+            $("#active_font").attr("href", folderPath + fontsize).attr("data-css", fontsize);
+            var url = window.location.origin + visionOptions.virtualApplicationPath + "Shared/ChangeFontSizeCookie";
+            var cookieValue = fontsize ? fontsize : "small.css";
+            var cookieInt;
+            switch(cookieValue){
+                case("xx-small.css"): cookieInt=1; break;
+                case ("x-small.css"): cookieInt = 2; break;
+                case ("small.css"): default: cookieInt = 3; break;
+                case("medium.css"): cookieInt=4; break;
+                case ("large.css"): cookieInt = 5; break;
+                }
+            $.frontendAjax({
+                url: url,
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({ cookieValue: cookieInt}),
+                success: function (data, textStatus, jqXHR) {
+                    if (data && data.success) {
+                        $("#active_font").attr("href", window.visionOptions.mainFolderPath + cookieValue).attr("data-css", cookieValue);
+                        // Write localStorage only after cookie POST succeeds (allowlisted; same key shape as cookie name).
+                        if (allowedFontSizes.indexOf(cookieValue) !== -1) {
+                            try {
+                                window.localStorage.setItem(fontSizeStorageKey, cookieValue);
+                            } catch (e) { }
+                        }
+                    }
+                }
+            });
+            if ($(".faq_tab_nav").length > 0) {
+                clearTimeout(resizeTimer);
+                resizeTimer = setTimeout(function () {
+                    resizeFaqTabs();
+                }, 200);
+            }
+        };
+
+        $(".font_larger").on("click", function () {
+            switch ($("#active_font").attr("data-css")) {
+                case "medium.css": SetFontSize("large.css"); break;
+                case "small.css": SetFontSize("medium.css"); break;
+                case "x-small.css": SetFontSize("small.css"); break;
+                case "xx-small.css": SetFontSize("x-small.css"); break;
+            }
+            return false;
+        });
+
+        $(".font_smaller").on("click", function () {
+            switch ($("#active_font").attr("data-css")) {
+                case "large.css": SetFontSize("medium.css"); break;
+                case "medium.css": SetFontSize("small.css"); break;
+                case "small.css": SetFontSize("x-small.css"); break;
+                case "x-small.css": SetFontSize("xx-small.css"); break;
+            }
+            return false;
+        });
+        $(".text_size").on("click", function () {
+            SetFontSize("x-small.css");
+            return false;
+        });
+            //end VISPP-4466
+
+        var $shareContainer = $("#" + widgetContext + " div#share");
+        var $shareMenu = $shareContainer.find("ul");
+        var $shareTrigger = $shareContainer.find("a.sharelink");
+        var shareMenuId = widgetContext + "_share_menu";
+
+        $shareMenu.attr("id", shareMenuId);
+        $shareTrigger.attr("aria-controls", shareMenuId);
+
+        var openShareMenu = function (setActiveByClick) {
+            if (setActiveByClick) {
+                $shareContainer.addClass("click-active");
+            }
+            $shareMenu.show();
+            $shareTrigger.attr("aria-expanded", "true");
+        };
+
+        var closeShareMenu = function (restoreFocusToTrigger) {
+            $shareContainer.removeClass("click-active");
+            $shareMenu.hide();
+            $shareTrigger.attr("aria-expanded", "false");
+            if (restoreFocusToTrigger) {
+                $shareTrigger.focus();
+            }
+        };
+
+        $("#" + widgetContext + " #share").click(function (e) {
+            if ($(e.target).closest("ul").length > 0) {
+                return;
+            }
+
+            if (!$shareContainer.hasClass("click-active")) {
+                openShareMenu(true);
+            } else {
+                closeShareMenu(false);
+            }
+        });
+
+        $(document).click(function (e) {
+            if (!$(e.target).closest("#share").length > 0) {
+                closeShareMenu(false);
+            }
+        });
+
+        var shareContainerTimeout = null;
+        $("#" + widgetContext + " #share").bind('mouseover', function () {
+            //If not relate to click event
+            if (shareContainerTimeout) {
+                clearTimeout(shareContainerTimeout);
+                shareContainerTimeout = null;
+            }
+            shareContainerTimeout = setTimeout(function () {
+                if (!$shareContainer.hasClass("click-active")) {
+                    openShareMenu(false);
+                }
+            }, 100);
+        });
+
+        $("#" + widgetContext + " #share").bind('mouseleave', function () {            
+            //If not relate to click event     
+            if (shareContainerTimeout) {
+                clearTimeout(shareContainerTimeout);
+                shareContainerTimeout = null;
+            }
+            shareContainerTimeout = setTimeout(function () {
+                if (!$shareContainer.hasClass("click-active")) {
+                    closeShareMenu(false);
+                }
+            }, 200);
+        });
+
+        $shareContainer.on("keydown", function (e) {
+            if (e.key === "Escape" || e.key === "Esc" || e.keyCode === 27) {
+                if ($shareMenu.is(":visible")) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    closeShareMenu(true);
+                }
+            }
+        });
+
+        $shareTrigger.on("keydown", function (e) {
+            if (e.key === " " || e.keyCode === 32) {
+                e.preventDefault();
+                if ($shareContainer.hasClass("click-active")) {
+                    closeShareMenu(false);
+                } else {
+                    openShareMenu(true);
+                }
+            }
+        });
+
+        $shareContainer.on("focusout", function (e) {
+            if (!$shareMenu.is(":visible")) {
+                return;
+            }
+
+            var relatedTarget = e.relatedTarget;
+            if (relatedTarget && ($shareContainer.is(relatedTarget) || $shareContainer.has(relatedTarget).length > 0)) {
+                return;
+            }
+
+            setTimeout(function () {
+                var activeElement = document.activeElement;
+                if (!activeElement || (!$shareContainer.is(activeElement) && $shareContainer.has(activeElement).length === 0)) {
+                    closeShareMenu(false);
+                }
+            }, 0);
+        });
+
+        $("header#" + widgetContext + " a.feedback_link").click(function () {
+            var windowHeight = 485;
+            if (window.innerWidth <= 648) {
+                windowHeight = 545;
+            }
+            var opts = {
+                title: "Feedback",
+                url: "/Template/GetFeedbackPartial?feedbackUrl=https%3a%2f%2fwww.cityofperris.org%2fgovernment%2fcity-government%2fwarehousetax",
+                useFrame: true,
+                height: windowHeight,
+                onClosed: function (result) {
+                    if (result != undefined && result.IsOk == true) {
+                        $.refreshTempMessage(result.Message);
+                    }
+                    $("header#" + widgetContext + " a.feedback_link").focus();
+                },
+                skin: 'viClientDialog feedback_lightbox',
+                fixed: false
+            };
+            $.viClientDialog(opts).open();
+        });
+
+        
+        
+    });
+</script>
+
+            <!--!!WidgetEnd-->
+
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="1718"WidgetStart!!-->    
+<div id='widget_1718_1800_796' class='content_area normal_content_area clearfix  '><p><img src="https://www.cityofperris.org/home/showpublishedimage/2107/639033088713900000" alt="Council Chambers Wide shot" style="width: 100%; height: 38%;"></p>
+<h2 dir="ltr">Key Facts</h2>
+<ul>
+    <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">The Measure is entitled: Perris Distribution Facilities, Industrial Business and Truck Yards Tax Measure</p>
+    </li>
+    <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">City voters would have to approve the measure via a November 3, 2026 Ballot Measure for the tax to take effect</p>
+    </li>
+    <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">Approval requires 50% + 1 of voters to vote in favor of the measure to pass</p>
+    </li>
+    <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">The measure proposes a business license tax of up to 10 cents ($0.10) per square foot on non-ecommerce industrial, warehouse, and manufacturing facilities with large truck activity, with annual increases capped at 3% (CPI adjusted).</p>
+    </li>
+    <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">If adopted by voters, the measure would raise just over $2.5M in the first year it is in effect</p>
+    </li>
+    <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">This would not be a tax on residents, home property owners, or traditional small local businesses.</p>
+    </li>
+    <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">Generates locally controlled general revenue, with all funds deposited directly into the City’s General Fund for unrestricted municipal revenue purposes.</p>
+    </li>
+    <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">By law, all revenue stays in Perris and cannot be taken by the State or transferred to another agency.</p>
+    </li>
+</ul>
+<p dir="ltr" aria-level="1">
+</p>
+<h2 dir="ltr">Official Ballot Question</h2>
+<p dir="ltr">Shall the measure with no tax on residents,&nbsp; funding public services including maintaining 911 emergency response, public safety; repairing streets/potholes, improving traffic/safety; retaining small businesses, by establishing a business license tax of up to &nbsp;10¢ per square foot of industrial/ warehouse/ manufacturing businesses with large truck activity, 3% annual increase limit, providing approximately $2,500,000 annually until ended by voters, requiring spending disclosure, all funds used locally, be adopted?</p>
+<h2 dir="ltr">Ordinances, Resolutions &amp; Critical Documents</h2>
+<ul>
+    <li dir="ltr"><a href="https://www.cityofperris.org/home/showpublisheddocument/27614/639214592266570000" target="_blank" rel="noopener">CC Resolution Authorizing Rebuttal Arguments RE: Warehouse Tax (2168571.2)</a></li>
+    <li dir="ltr"><a href="https://www.cityofperris.org/home/showpublisheddocument/27616/639214592268670000" target="_blank" rel="noopener">CC Resolution Calling For Election On Warehouse Tax Measure</a></li>
+    <li dir="ltr"><a href="https://www.cityofperris.org/home/showpublisheddocument/27620/639214592272570000" target="_blank" rel="noopener">Warehouse Tax Ordinance</a></li>
+    <li dir="ltr"><a href="https://www.cityofperris.org/home/showpublisheddocument/27618/639214592270500000" target="_blank" rel="noopener">CC Resolution RE: Direct Arguments &amp; Impartial Analysis (2168579.2)</a></li>
+    <li dir="ltr"><a href="https://www.cityofperris.org/home/showpublisheddocument/27616/639214592268670000" target="_blank" rel="noopener"></a><a href="https://www.cityofperris.org/home/showpublisheddocument/27684/639226400881700000" target="_blank" rel="noopener" tabindex="0">Impartial Analysis of Measure C</a></li>
+    <li dir="ltr"><a href="https://www.cityofperris.org/home/showpublisheddocument/27620/639214592272570000" target="_blank" rel="noopener"></a><a href="https://www.cityofperris.org/home/showpublisheddocument/27682/639226400879170000" target="_blank" rel="noopener" tabindex="0">Argument in Favor of Measure C</a></li>
+    <li dir="ltr"><a href="https://www.cityofperris.org/home/showpublisheddocument/27618/639214592270500000" target="_blank" rel="noopener"></a><a href="https://www.cityofperris.org/home/showpublisheddocument/27680/639226400876830000" target="_blank" rel="noopener" tabindex="0">Argument Against Measure C</a></li>
+    <li dir="ltr"><a href="https://www.cityofperris.org/home/showpublisheddocument/27704/639235057448330000" target="_blank" rel="noopener">Rebuttal Argument Against Measure C</a></li>
+    <li dir="ltr"><a href="https://www.cityofperris.org/home/showpublisheddocument/27706/639235057450270000" target="_blank" rel="noopener">Rebuttal Argument in Favor of Measure C</a></li>
+</ul>
+<h2 dir="ltr">Financial Outlook</h2>
+<p dir="ltr">The City of Perris has over 30 million square feet of warehouse and industrial facilities operating within city limits. While these facilities have brought logistics activity to the region and created jobs and economic development, heavy vehicle and truck traffic creates significant wear and tear on local roads, bridges, and infrastructure. Additionally, these warehouse and industrial areas require dedicated municipal resources, including police patrol services, traffic management, and emergency response.</p>
+<p dir="ltr">While Perris voters successfully approved Measure B in June 2026 to support general city services, many non-ecommerce warehouses operating in Perris generate no local sales tax revenues to help offset the demands they place on municipal infrastructure and public safety.</p>
+<p dir="ltr">Establishing a local business license tax on qualifying large-scale warehouses ensures these industrial operations contribute directly toward maintaining the local infrastructure they utilize, providing approximately $2,523,877 annually in locally controlled funding.</p>
+<h3 dir="ltr">What Has the City Done to Manage Its Budget?</h3>
+<p dir="ltr">The City of Perris has consistently demonstrated strong financial stewardship to protect taxpayer funds and ensure long-term stability:</p>
+<ul>
+    <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">Maintained a strong fiscal position and healthy financial reserves to protect essential services.</p>
+    </li>
+    <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">Paid off unfunded liabilities utilizing over $54 million in Reserve Funds.</p>
+    </li>
+    <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">Maintained strict cost-containment measures across all departments while maintaining 911 emergency response, parks, and city facilities.</p>
+    </li>
+</ul>
+<p dir="ltr">In light of ongoing infrastructure demands and heavy truck impacts, this measure offers voters a choice on whether non-ecommerce industrial operations should pay a dedicated share to support local street repairs, public safety, and general city services.</p>
+<p dir="ltr">View the <a href="https://www.cityofperris.org/home/showpublisheddocument/26450/639059020821770000">Perris Budget Presentation</a> for more information on the City’s budget.&nbsp;</p>
+<h3 dir="ltr">Frequently Asked Questions&nbsp;</h3>
+<p dir="ltr"><strong>Q: Will this measure tax residents or small local businesses?&nbsp;</strong></p>
+<p dir="ltr">A: No. This measure applies strictly to non-ecommerce industrial, warehouse, and manufacturing facilities in Perris with large truck activity and over 50,000&nbsp; in total square feet. It does not tax residential homes, property owners, retail centers, or traditional small local businesses.</p>
+<p dir="ltr"><strong>Q: How would this warehouse tax be calculated, and who pays it?&nbsp;</strong></p>
+<p dir="ltr">A: The proposed measure establishes a business license tax of up to 10 cents ($0.10) per square foot on non-ecommerce industrial, warehouse, and manufacturing facilities with large truck activity. It includes a Consumer Price Index (CPI) adjustment capped at 3% annually. This business license tax is paid exclusively by qualifying warehouse and industrial operators. It is not a property tax, not a sales tax on consumers, and does not apply to residential properties or traditional small local businesses.</p>
+<p dir="ltr"><strong>Q: The City just adopted a new sales tax (Measure B), so why is this measure being considered now?&nbsp;</strong></p>
+<p dir="ltr">A: Voters approved a local transactions and use tax (Measure B) on the June 2026 Primary Election ballot. During the community engagement process for Measure B, residents frequently voiced concerns regarding the heavy traffic impacts of warehouses on local roads and asked how the City could ensure these facilities offset municipal costs. This measure gives voters the opportunity to choose an option specifically addressing those concerns.</p>
+<p dir="ltr"><strong>Q: Why are certain ecommerce warehouses exempt from this warehouse business license tax?&nbsp;</strong></p>
+<p dir="ltr">A: Sales tax is the primary source of revenue for most cities. Many ecommerce-related warehouses located in Perris direct their sales to the City of Perris, generating substantial local sales tax revenues to support city operations. In contrast, non-ecommerce warehouses generate no sales tax revenue for Perris, yet their heavy trucks generate continuous wear and tear on local roads and require municipal services. This measure focuses on non-ecommerce facilities to ensure taxation is balanced without being overly burdensome.</p>
+<p dir="ltr"><small><em>“E-commerce facility” means a business operation, facility, building, separately identifiable portion of a building, outdoor operational area, or combination thereof principally used to receive, store, process, pick, pack, handle, stage, or ship goods ordered by end consumers through an online or electronic commerce platform for delivery directly to end consumers.&nbsp;</em></small></p>
+<p dir="ltr"><strong>Q: How much revenue will this measure generate, and how will it be spent?&nbsp;</strong></p>
+<p dir="ltr">A: The measure is estimated to generate approximately $2,523,877 annually. Because this is a General Tax measure, 100% of the funds go into the City’s General Fund. Revenues will be deployed under the direction of the City Council during annual public budget hearings to fund essential city services, such as:</p>
+<ul>
+    <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">Repairing damaged streets, roads, and potholes</p>
+    </li>
+    <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">Maintaining 911 police, fire, and emergency response services</p>
+    </li>
+    <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">Improving traffic flow and pedestrian safety near industrial corridors</p>
+    </li>
+    <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">Supporting small business retention and local parks</p>
+    </li>
+</ul>
+<p dir="ltr"><strong>Q: Will the money raised by this measure stay in Perris, or can the State take it? <br>
+</strong>
+<br>
+A: 100% of the funds stay in Perris. By law, revenues generated by this measure are deposited directly into the City’s General Fund. The State of California, Riverside County, or other regional agencies cannot seize, redirect, or transfer these funds.</p>
+<p dir="ltr"><strong>Q: How do I know the funds will be spent responsibly?&nbsp;</strong></p>
+<p dir="ltr">A: The measure requires mandatory public financial disclosures, annual independent audits, and public spending reports. Revenue allocation is reviewed publicly every year during open City Council budget hearings, ensuring complete fiscal transparency on how funds are used for road repairs, public safety, and general city services.</p>
+<p dir="ltr"><strong>Q: How would the City track or verify which warehouses qualify vs. which are exempt?&nbsp;</strong></p>
+<p dir="ltr">A: The City of Perris monitors business licenses and land-use entitlements. Warehouse operations that demonstrate significant direct-to-consumer ecommerce activity route sales transactions locally, generating local sales tax for the City. Non-ecommerce facility operators, which utilize municipal infrastructure and public safety resources without generating local sales tax revenue, are subject to the business license tax.</p>
+<p dir="ltr"><strong>Q: What happens if this measure does not pass?&nbsp;</strong></p>
+<p dir="ltr">A: If the measure is not approved by voters, the proposed business license tax on non-ecommerce warehouses will not go into effect. The City would continue to rely on existing General Fund revenues to maintain over 25.5 million square feet of industrial area impacts, and street maintenance or public safety funding would continue at current projected levels.</p>
+<p dir="ltr"><strong>Q: When and where can I vote on this measure?&nbsp;</strong></p>
+<p dir="ltr">A: Perris voters will consider the measure on the November 3, 2026 General Election ballot. The County of Riverside Registrar of Voters conducts the election. Once Riverside County assigns an official letter designation to the measure, it will be updated on this webpage.</p>
+<p dir="ltr"><strong>Q: How can I learn more and get involved?&nbsp;</strong></p>
+<p dir="ltr">A: Residents are encouraged to learn more about the ballot measure by attending an upcoming Town Hall. The City will be hosting one virtual and five in-person meetings to address questions about the proposed Perris Distribution Facilities, Industrial Business and Truck Yards Tax Measure. One meeting will take place in each district with a fifth meeting held in council chambers for an at-large purpose. Content at each meeting will be similar. The format will be a 30 minute presentation, follow by Q&amp;A</p>
+<p dir="ltr">For questions and more information, residents can reach out to: <a href="mailto:&#119;&#97;&#114;&#101;&#104;&#111;&#117;&#115;&#101;&#98;&#117;&#115;&#105;&#110;&#101;&#115;&#115;&#116;&#97;&#120;&#64;&#99;&#105;&#116;&#121;&#111;&#102;&#112;&#101;&#114;&#114;&#105;&#115;&#46;&#111;&#114;&#103;">measureC@cityofperris.org</a>&nbsp;or call 951- 943-5537.</p>
+<h2 dir="ltr">Measure C Virtual Town Hall Recording</h2>
+<iframe width="900" height="506" src="https://www.youtube.com/embed/rKxibdUrVPk?si=r_w7_uY2hzpziFjO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+<iframe width="900" height="506" src="https://www.youtube.com/embed/IBYwcTsMKEk" title="Mark Scoville Division Chief for CAL FIRE Riverside County Fire" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+<iframe width="900" height="506" src="https://www.youtube.com/embed/U2TDE-VPXMA" title="John Pourkazemi City Engineer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+<div class="downloadmessage no_external_url_indication">
+	<p>
+		Free viewers are required for some of the attached documents.<br />They can be downloaded by clicking on the icons below.
+	</p>
+    <a href="/?splash=http%3a%2f%2fget.adobe.com%2freader%2f&____isexternal=true" target="_blank" rel="noopener" class="acrobat_reader_downloadmessage">
+        <span>Download Acrobat Reader</span>
+        <img src="/DefaultContent/Default/_gfx/downloadmessage/acrobat.jpg" alt="" aria-hidden="true" />
+    </a>   
+    <a href="/?splash=http%3a%2f%2fwindows.microsoft.com%2fen-us%2fwindows%2fwindows-media-player&____isexternal=true" target="_blank" rel="noopener" class="windows_media_player_downloadmessage">
+        <span>Download Windows Media Player</span>
+        <img  src="/DefaultContent/Default/_gfx/downloadmessage/wmp.jpg" alt="" aria-hidden="true" />
+    </a>
+    <span class="line-breaker" style="display:none;"></span>
+    <a href="/?splash=https%3a%2f%2fproducts.office.com%2fen-US%2foffice-online%2fdocuments-spreadsheets-presentations-office-online&____isexternal=true" target="_blank" rel="noopener" class="word_downloadmessage">
+        <span>Download Word Viewer</span>
+        <img  src="/DefaultContent/Default/_gfx/downloadmessage/word.jpg" alt="" aria-hidden="true" />
+    </a>
+    <a href="/?splash=https%3a%2f%2fproducts.office.com%2fen-US%2foffice-online%2fdocuments-spreadsheets-presentations-office-online&____isexternal=true" target="_blank" rel="noopener" class="excel_downloadmessage">
+        <span>Download Excel Viewer</span>
+        <img  src="/DefaultContent/Default/_gfx/downloadmessage/excel.jpg" alt="" aria-hidden="true" />
+    </a>
+    <a href="/?splash=https%3a%2f%2fproducts.office.com%2fen-US%2foffice-online%2fdocuments-spreadsheets-presentations-office-online&____isexternal=true" target="_blank" rel="noopener" class="powerpoint_downloadmessage">
+        <span>Download PowerPoint Viewer</span>
+        <img  src="/DefaultContent/Default/_gfx/downloadmessage/powerpoint.jpg" alt="" aria-hidden="true" />
+    </a>
+</div>
+
+
+
+
+
+</div>
+            <!--!!WidgetEnd-->
+
+    
+</div>
+
+
+</div> 
+
+        <footer id="page_footer" class="">
+            <!--stopindex-->
+            
+<div id="footercolumn" class="site_template_column  footer_column   " >
+
+                <!--stopindex-->
+                
+<div class="footer_wrapper">
+    
+<div class="social_icons">
+<h2>CONNECT ON SOCIAL MEDIA</h2>
+            <a href="/?splash=https%3a%2f%2fwww.facebook.com%2fcityofperris%2f&____isexternal=true" target="_blank" title="Facebook" data-src='/home/showpublishedimage/610/637219177189630000' data-hover-src='/home/showpublishedimage/612/637219177193870000'>
+                <img src="/home/showpublishedimage/610/637219177189630000" alt="fb">
+            </a>
+            <a href="/?splash=https%3a%2f%2ftwitter.com%2fcityofperris&____isexternal=true" target="_blank" title="Twitter" data-src='/home/showpublishedimage/622/637219177217600000' data-hover-src='/home/showpublishedimage/624/637219177222430000'>
+                <img src="/home/showpublishedimage/622/637219177217600000" alt="tw">
+            </a>
+            <a href="/?splash=https%3a%2f%2fwww.instagram.com%2fcityofperris%2f&____isexternal=true" target="_blank" title="Instagram" data-src='/home/showpublishedimage/614/637219177198530000' data-hover-src='/home/showpublishedimage/616/637219177203700000'>
+                <img src="/home/showpublishedimage/614/637219177198530000" alt="ig">
+            </a>
+            <a href="/?splash=https%3a%2f%2fwww.youtube.com%2fperristv&____isexternal=true" target="_blank" title="Youtube" data-src='/home/showpublishedimage/626/637219177227130000' data-hover-src='/home/showpublishedimage/628/637219177232300000'>
+                <img src="/home/showpublishedimage/626/637219177227130000" alt="yt">
+            </a>
+            <a href="/?splash=https%3a%2f%2fnextdoor.com%2fcity%2fperris--ca%2f&____isexternal=true" target="_blank" title="Next Door" data-src='/home/showpublishedimage/618/637219177208370000' data-hover-src='/home/showpublishedimage/620/637219177212900000'>
+                <img src="/home/showpublishedimage/618/637219177208370000" alt="nd">
+            </a>
+</div>
+
+    <script>
+        $(function () {
+            $(".social_icons a")
+            .mouseover(function () {
+                $(this).find("img").attr("src", $(this).attr("data-hover-src"));
+            })
+            .mouseout(function () {
+                $(this).find("img").attr("src", $(this).attr("data-src"));
+            });
+        })
+    </script>
+
+                <!--startindex-->
+            
+
+                <!--stopindex-->
+                  
+
+    <div class="footer_address">
+	    <h2>CITY OF PERRIS</h2>
+<a href="" class="footer-txt">Perris City Hall <br>
+101 N. D Street <br>
+Perris, CA 92570</a>
+    </div>
+
+
+                <!--startindex-->
+            
+
+                <!--stopindex-->
+                  
+
+<div class="footer_nav">
+    <h2>LINKS</h2>
+		<a href="/our-city/city-hall/job-openings" target="_self">City Jobs</a>		
+		<a href="/our-city/city-hall/who-to-call" target="_self">Contact Us</a>		
+		<a href="/departments/misc-pages/social-media-policy" target="_self">Social Media Policy</a>		
+		<a href="/?splash=https%3a%2f%2fwww.riversidesheriff.org%2f746%2fPerris-Station&____isexternal=true" target="_self">Police Department</a>		
+		<a href="/?splash=http%3a%2f%2fwww.rvcfire.org%2fstationsAndFunctions%2fFireStations%2fPages%2fdefault.aspx&____isexternal=true" target="_self">Fire Department</a>		
+</div>
+
+
+                <!--startindex-->
+            
+
+                <!--stopindex-->
+                  
+
+    <div class="footer_phone">
+	    <p>Hours: Monday-Friday 8am-6pm.<br>
+Phone: <a href="tel:951-943-6100">951-943-6100</a></p>
+    </div>
+
+
+                <!--startindex-->
+            
+
+                <!--stopindex-->
+                  
+
+<div class="footer_contact">
+		<a href="/our-city/about-perris/maps" target="_self">Map to City Hall</a>		
+		<a href="/our-city/city-hall/who-to-call" target="_self">Contact Us</a>		
+</div>
+
+
+                <!--startindex-->
+            
+
+                <!--stopindex-->
+                  
+
+<div class="footer_download">
+		<a href="/?splash=https%3a%2f%2fapps.apple.com%2fus%2fapp%2fperris-mobile%2fid414312532&____isexternal=true" target="_self">Apple</a>		
+		<a href="/?splash=https%3a%2f%2fplay.google.com%2fstore%2fapps%2fdetails%3fid%3dcomcate86.android%26hl%3den_US%26gl%3dUS&____isexternal=true" target="_self">Android</a>		
+</div>
+</div>
+<p class="footer_copyright">WEBSITE DESIGN BY <a href="//www.granicus.com/">Granicus</a> - Connecting People and Government</p>
+                <!--startindex-->
+            
+
+</div>
+
+            <!--startindex-->
+        </footer>
+        
+    </div>
+</div>
+
+<script src="/Project/Contents/Main/mobile_nav_scripts.js" type="text/javascript"></script>
+
+<script src="/Project/Contents/Main/sitelayout_scripts.js" type="text/javascript"></script>
+    
+    <script>
+        $(function () {
+            $(".reComment[comment]").removeClass("reComment")
+                                    .removeAttr("comment")
+                                    .removeAttr("author")
+                                    .removeAttr("title")
+                                    .removeAttr("timestamp");
+        })
+    </script>
+    
+
+    
+
+    <script src="/Scripts/ScriptBundleVisionFrontend.jsbnd?v=4KAxSnMrAemr6qWhC4izl3ok1edzgqrIEJjMXiq_M1E1"></script>
+
+
+    <script type="text/javascript">
+    window._monsido = window._monsido || {
+        token: "g-pYJFx5iwn47BWPmDYT_Q",
+        statistics: {
+            enabled: true,
+            cookieLessTracking: false,
+            documentTracking: {
+                enabled: false,
+                documentCls: "monsido_download",
+                documentIgnoreCls: "monsido_ignore_download",
+                documentExt: [],
+            },
+        },
+        heatmap: {
+            enabled: true,
+        },
+    };
+</script>
+<script type="text/javascript" async src="https://app-script.monsido.com/v2/monsido-script.js"></script>
+
+<!--Chat box Citi code added to Custom Content Footer Address -->
+<script id="citibot-chatscript" type="text/javascript" src="https://webchat-ui.citibot.net/script.js?account_id=67322a3a9ab80b53245e88d0"></script>
+
+
+    
+    <script>
+        try { manualRenderMobile(); } catch (err) {}
+    </script>
+    
+    
+    <script src="/Scripts/Components/ScriptsFEBundle.jsbnd?v=l8UTOcxy3OwKH7GrKOWKTbkwf3LhHKKLotfyojMtSYk1"></script>
+
+
+    <script>
+        $(function() {
+            var sitewrapper = $(".sitewrapper");
+            if (sitewrapper.length && !sitewrapper.hasClass("")) {
+                sitewrapper.addClass("");
+            }     
+            //VISPP-4466 - we get the cookie value and set the correct stylesheet path for pages without the Page Title widget.
+            // Prefer localStorage (same allowlist as Shared/GetFontSizeCookie); AJAX fallback seeds storage for later pageviews.
+            var useDesignThemFontSizeCss = window.visionOptions.useDesignThemFontSizeCss;
+            var folderPath = useDesignThemFontSizeCss == true ? window.visionOptions.currentDesignFolderPath : window.visionOptions.mainFolderPath;
+            if (!folderPath)
+                folderPath = window.visionOptions.mainFolderPath;
+
+            var allowedFontSizes = ["xx-small.css", "x-small.css", "small.css", "medium.css", "large.css"];
+            var fontSizeStorageKey = (window.visionOptions.virtualApplicationPath || "/").replace(/\//g, "_") + "FontSize";
+            var applyFontSize = function (fontSize) {
+                $("#active_font").attr("href", folderPath + fontSize).attr("data-css", fontSize);
+            };
+            var writeFontSizeStorage = function (fontSize) {
+                if (allowedFontSizes.indexOf(fontSize) === -1) {
+                    return;
+                }
+                try {
+                    window.localStorage.setItem(fontSizeStorageKey, fontSize);
+                } catch (e) { }
+            };
+            var readFontSizeStorage = function () {
+                try {
+                    var stored = window.localStorage.getItem(fontSizeStorageKey);
+                    if (stored && allowedFontSizes.indexOf(stored) !== -1) {
+                        return stored;
+                    }
+                } catch (e) { }
+                return null;
+            };
+            var fetchFontSizeFromCookie = function () {
+                var getFontSizeUrl = window.location.origin + window.visionOptions.virtualApplicationPath + "Shared/GetFontSizeCookie";
+                var fontSize = "x-small.css";
+                $.frontendAjax({
+                    url: getFontSizeUrl,
+                    type: 'GET',
+                    success: function (data) {
+                        if (data && data.fontSizeCookie && data.fontSizeCookie != "" && allowedFontSizes.indexOf(data.fontSizeCookie) !== -1) {
+                            fontSize = data.fontSizeCookie;
+                        }
+                        writeFontSizeStorage(fontSize);
+                        applyFontSize(fontSize);
+                    }
+                });
+            };
+
+            var storedFontSize = readFontSizeStorage();
+            if (storedFontSize) {
+                applyFontSize(storedFontSize);
+                // Skipping GetFontSizeCookie removes $.frontendAjax ExtendSession side-effect; keep-alive for logged-in FE users.
+                var sessionManager = $.frontendSessionManager && $.frontendSessionManager();
+                if (sessionManager && sessionManager.opts && sessionManager.opts.frontendUserLogin === true) {
+                    sessionManager.extendSessionTimeout(function () { });
+                }
+            } else {
+                fetchFontSizeFromCookie();
+            }
+        });
+    </script>   
+
+
+    
+</body>
+</html>
