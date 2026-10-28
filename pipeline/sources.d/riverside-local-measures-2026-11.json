@@ -1,0 +1,21 @@
+{
+  "id": "riverside-local-measures-2026-11",
+  "jurisdiction": {"level": "county", "name": "Riverside"},
+  "election": "2026-11-03",
+  "seeds": ["https://voteinfo.net/november-3-2026-general-election",
+            "https://voteinfo.net/sites/g/files/aldnop371/files/2026-08/Measure%20A%20-%20Riverside%20County%20Transportation%20Commission.pdf",
+            "https://voteinfo.net/sites/g/files/aldnop371/files/2026-08/Measure%20B-Beaumont%20USD%20eng.pdf",
+            "https://voteinfo.net/sites/g/files/aldnop371/files/2026-08/Measure%20M-Murrieta%20Valley%20USD%20eng.pdf",
+            "https://voteinfo.net/sites/g/files/aldnop371/files/2026-08/Measure%20AA-Perris%20Union%20High%20School%20District%20eng.pdf",
+            "https://voteinfo.net/sites/g/files/aldnop371/files/2026-08/Measure%20S-Temecula%20Valley%20USD%20-eng.pdf",
+            "https://voteinfo.net/sites/g/files/aldnop371/files/2026-08/Measure%20P%20-Desert%20Recreation%20Dist%20-Eng.pdf",
+            "https://voteinfo.net/sites/g/files/aldnop371/files/2026-08/Measure%20I%20-%20Hemet%20USD%20eng.pdf",
+            "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/ElectionSummaryReportRPT%20%285%29.pdf",
+            "https://voteinfo.net/sites/g/files/aldnop371/files/2026-10/Election_Guide_Nov_3_2026_V7_-_Final_ADA.pdf",
+            "https://docs.voteinfo.net/VoterInformation/root1103/pollplac.htm"],
+  "allow": [],
+  "max_depth": 0,
+  "delay_seconds": 2,
+  "extractor": "riverside_measures",
+  "note": "voteinfo.net refuses automated clients (HTTP 403): its pages enter the raw store only through a supervised browser capture (pipeline.crawler.capture)."
+}
