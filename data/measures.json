@@ -10138,6 +10138,2128 @@
           "snapshot_kind": "pdf-text"
         }
       }
+    },
+    {
+      "id": "local-sm-l",
+      "number": "L",
+      "title": {
+        "text": "Charter Amendment Measure – Extreme Weather Events",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "San Mateo County"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure L: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf"
+        },
+        {
+          "label": "Measure L: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-ML-ImpartialAnalysis-SMC-Charter-Extreme-Weather.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "Majority Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "San Mateo County",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "Shall the San Mateo County Charter be amended to add a provision to the Charter Preamble designating long-term resilience to extreme weather events as a County priority?",
+          "source_url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure L, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/47/47055d7c0af9d973955a02495d060bc0600b24ee5e8d57001173f35c5495b012",
+          "raw_sha256": "db9b218ebad34190631d655a933a558be422f90d367b4ad07c51ef85c59efae6",
+          "fetched_at": "2026-10-28T06:53:34Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-text"
+        }
+      }
+    },
+    {
+      "id": "local-sm-aa",
+      "number": "AA",
+      "title": {
+        "text": "Charter Amendment Measure – Affirmation of Rights",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "San Mateo County"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure AA: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf"
+        },
+        {
+          "label": "Measure AA: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MAA-ImpartialAnalysis-SMC-Charter-Affirmation-of-Rights.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "Majority Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "San Mateo County",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "Shall the San Mateo County Charter be amended to add a provision to the Charter Preamble affirming the County’s commitment to the dignity, civil rights, and equal protection of all County residents?",
+          "source_url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure AA, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/47/47055d7c0af9d973955a02495d060bc0600b24ee5e8d57001173f35c5495b012",
+          "raw_sha256": "db9b218ebad34190631d655a933a558be422f90d367b4ad07c51ef85c59efae6",
+          "fetched_at": "2026-10-28T06:53:34Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-text"
+        }
+      }
+    },
+    {
+      "id": "local-sm-j",
+      "number": "J",
+      "title": {
+        "text": "Charter Amendment Measure – Extension to Call a Special Election or Appoint",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "San Mateo County"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure J: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf"
+        },
+        {
+          "label": "Measure J: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MJ-ImpartialAnalysis-SMC-Charter-Extension-to-Call%20Special%20Election.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "Majority Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "San Mateo County",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "Shall the San Mateo County Charter be amended to extend the period in which the County Board of Supervisors is required to either call a special election or make an appointment in the event of a vacancy in an elected office other than the Board of Supervisors from 30 days to 60 days, and to require the Board to conduct at least one public meeting to receive public comment prior to any appointment?",
+          "source_url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure J, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/47/47055d7c0af9d973955a02495d060bc0600b24ee5e8d57001173f35c5495b012",
+          "raw_sha256": "db9b218ebad34190631d655a933a558be422f90d367b4ad07c51ef85c59efae6",
+          "fetched_at": "2026-10-28T06:53:34Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-text"
+        }
+      }
+    },
+    {
+      "id": "local-sm-u",
+      "number": "U",
+      "title": {
+        "text": "Charter Amendment Measure – Reapportionment of Supervisorial Districts",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "San Mateo County"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure U: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf"
+        },
+        {
+          "label": "Measure U: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MU-ImpartialAnalysis-SMC-Charter-Reapportionment.pdf"
+        },
+        {
+          "label": "Measure U: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-204-Contest%20Code-5ArgInFavor-SMC%20Charter_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "Majority Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "San Mateo County",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "Shall the San Mateo County Charter be amended to require that supervisorial districts be reapportioned following each federal decennial census by an independent redistricting commission pursuant to applicable provisions of the California Elections Code?",
+          "source_url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure U, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/47/47055d7c0af9d973955a02495d060bc0600b24ee5e8d57001173f35c5495b012",
+          "raw_sha256": "db9b218ebad34190631d655a933a558be422f90d367b4ad07c51ef85c59efae6",
+          "fetched_at": "2026-10-28T06:53:34Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-text"
+        }
+      }
+    },
+    {
+      "id": "local-sm-rtm",
+      "number": "RTM",
+      "title": {
+        "text": "Transactions and Use Tax Measure",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "Public Transit Revenue Measure District"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure RTM: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M206-Contest%20Code-Reso-Public%20Transit%20District%20Sales%20Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure RTM: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M206-ImpartialAnalysis-Public-Transit-District-Sales-Tax.pdf"
+        },
+        {
+          "label": "Measure RTM: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M206-Contest%20Code-4ArginFavor-Public%20Transit%20District%20Sales%20Tax_Redacted_0.pdf"
+        },
+        {
+          "label": "Measure RTM: Rebuttal to Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M206-Contest%20Code-RebutArgInFav-Public-Transit-District-Sales-Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure RTM: Primary Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M206-Contest%20Code-46ArgAgainst-Public%20Transit%20District%20Sales%20Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure RTM: Rebuttal to Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M206-Contest%20Code-6RebutArgAgainst-Public-Transit-District-Sales-Tax_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "Majority Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "Public Transit Revenue Measure District",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "To prevent major service cuts to BART and other transit, avoid increased traffic, and reduce pollution by: Preserving BART, Caltrain, VTA, SamTrans, AC Transit, Muni, other transit for everyone, including workers, students, seniors, persons with disabilities; Supporting transit safety, cleanliness, affordability, reliability; Repairing targeted roads/potholes; Requiring financial transparency, oversight, accountability; shall the measure enacting a 0.5% (Alameda, Contra Costa, San Mateo, Santa Clara counties), and 1% (San Francisco) sales tax for 14 years generating approximately $980,000,000 annually, be adopted?",
+          "source_url": "https://smcacre.gov/system/files/2026-07/52-ENG-M206-Contest%20Code-Reso-Public%20Transit%20District%20Sales%20Tax_Redacted.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure RTM, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/27/27705d736ee64cf73a5a599fe5c134804abe5611b441136fa7243d70550d7252",
+          "raw_sha256": "343dbfda30034769a5ca0f3db2b31281fb17cbe5ea2737c0e470e0e7b7b4347d",
+          "fetched_at": "2026-10-28T06:53:37Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF"
+        }
+      }
+    },
+    {
+      "id": "local-sm-r",
+      "number": "R",
+      "title": {
+        "text": "Bond Measure",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "Burlingame School District"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure R: Resolution, Full Text and Tax Rate Statement (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M105-Contest%20Code-Reso-Burlingame%20ESD%20Bon_Redacted.pdf"
+        },
+        {
+          "label": "Measure R: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MR-ImpartialAnalysis-Burlingame-ESD-Bond.pdf"
+        },
+        {
+          "label": "Measure R: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M105-Contest%20Code-5ArgInFavor-Burlingame%20ESD%20Bond_Redacted.pdf"
+        },
+        {
+          "label": "Measure R: Rebuttal to Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MR-RebutArgInFavor-Burlingame-ESD-Bond_Redacted.pdf"
+        },
+        {
+          "label": "Measure R: Primary Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M105-Contest%20Code-7ArgAgainst-Burlingame%20ESD%20Bon_Redacted.pdf"
+        },
+        {
+          "label": "Measure R: Rebuttal to Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MR-RebutArgAgainst-Burlingame-ESD-Bond_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "55% Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "Burlingame School District",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "To repair aging Burlingame schools and maintain academic excellence by fixing leaky roofs; removing dry rot, lead/asbestos; replacing aging plumbing/electrical systems; updating science, technology/engineering labs; and providing teachers with instructional tools to support student success, shall Burlingame Elementary School District's measure authorizing $100,000,000 in bonds at legal interest rates be adopted, at $16.00 per $100,000 of assessed value (approximately $6,567,830 annually) while bonds are outstanding, with oversight, audits, no funds for administrators, and local control?",
+          "source_url": "https://smcacre.gov/system/files/2026-07/52-ENG-M105-Contest%20Code-Reso-Burlingame%20ESD%20Bon_Redacted.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure R, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/35/356684f60ff8d44d13aa644e406966271948808695643584d39e214d827aacda",
+          "raw_sha256": "e16fa8a147865340d54aee5421dd9e545c5321ca9d9df4389034096b92701d1f",
+          "fetched_at": "2026-10-28T06:53:39Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF",
+          "corrected": [
+            {
+              "ocr": "bonds = are",
+              "corrected": "bonds are",
+              "reason": "Measure R, page 11: the page reads \"while bonds are outstanding\"; tesseract reads a speck in the wide justified space as \"=\" (at 400-600 dpi it misreads other words instead)."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "local-sm-z",
+      "number": "Z",
+      "title": {
+        "text": "Parcel Tax Measure",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "Cabrillo Unified School District"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure Z: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M109-Contest%20Code-Reso-Cabrillo%20USD%20Parcel%20Tax.pdf"
+        },
+        {
+          "label": "Measure Z: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MZ-ImpartialAnalysis-Cabrillo-USD-Parcel-Tax.pdf"
+        },
+        {
+          "label": "Measure Z: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M109-Contest%20Code-5ArgInFavor-Cabrillo%20USD%20Parcel%20Tax_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "2/3 Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "Cabrillo Unified School District",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "With funds that cannot be taken by the State or Federal Government and spent elsewhere, shall Cabrillo Unified School District's measure to support local students by hiring and retaining highly qualified teachers and specialized educators; and expanding career training and college readiness programs, including agriculture, construction, and welding be adopted, replacing the current parcel tax at $239 per parcel for five years, (raising $2,600,000 annually) with senior exemptions, no administrator salaries or pensions, and public disclosure of spending?",
+          "source_url": "https://smcacre.gov/system/files/2026-07/52-ENG-M109-Contest%20Code-Reso-Cabrillo%20USD%20Parcel%20Tax.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure Z, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/9a/9ad274dd3ce037bc0f732b30a5173432ac3bada365655e740344d5c88acdb692",
+          "raw_sha256": "a3be79e88d15dc14e57ec218320c9997b5ac9f61a83997e04c5e2de73e53ce3b",
+          "fetched_at": "2026-10-28T06:53:42Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF"
+        }
+      }
+    },
+    {
+      "id": "local-sm-m",
+      "number": "M",
+      "title": {
+        "text": "Parcel Tax Measure",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "Jefferson Union High School District"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure M: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M106-Contest%20Code-Reso-JUHSD%20Parcel%20Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure M: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MM-ImpartialAnalysis-JUHSD-Parcel-Tax.pdf"
+        },
+        {
+          "label": "Measure M: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M106-Contest%20Code-4ArgInFavor-JUHSD%20Parcel%20Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure M: Primary Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M106-Contest%20Code-7ArgAgainst-JUHSD%20Parcel%20Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure M: Rebuttal to Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MM-RebutArgAgainst-JUHSD-Parcel-Tax_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "2/3 Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "Jefferson Union High School District",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "With funds that cannot be taken by the State or Federal Government and spent elsewhere, shall Jefferson Union High School District's measure to directly support teachers and academic programs; expand / enhance career training and college preparedness classes; and hire and retain qualified teachers and counselors at Jefferson High School, Oceana High School, Shasta High School, Terra Nova High School, Thornton High School, and Westmoor High School be adopted, replacing the 2018 parcel tax at $98 per parcel for ten years (raising $3.4 million annually) with full public disclosure of all spending?",
+          "source_url": "https://smcacre.gov/system/files/2026-07/52-ENG-M106-Contest%20Code-Reso-JUHSD%20Parcel%20Tax_Redacted.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure M, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/27/27d3bbf36c05c91238726918650b831c2e92cd8d3218e0fe8efa7ed8c79e42f9",
+          "raw_sha256": "b6b2d9c3bce3928ac3860571799df277e19a831d9d06d7ad4022f865ce4e5d52",
+          "fetched_at": "2026-10-28T06:53:44Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF"
+        }
+      }
+    },
+    {
+      "id": "local-sm-t",
+      "number": "T",
+      "title": {
+        "text": "Parcel Tax Measure",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "Pacifica School District"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure T: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-06/52-ENG-M103-Contest%20Code-Reso-Pacifica%20SD%20Parcel%20Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure T: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MT-ImpartialAnalysis-Pacifica-SD-Parcel-Tax.pdf"
+        },
+        {
+          "label": "Measure T: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M103-Contest%20Code-5ArgInFavor-Pacifica%20SD%20Parcel%20Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure T: Rebuttal to Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MT-RebutArgInFavor-Pacifica-SD-Parcel-Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure T: Primary Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M103-Contest%20Code-7ArgAgainst-Pacifica%20SD%20Parcel%20Tax_Redacted_0_0.pdf"
+        },
+        {
+          "label": "Measure T: Rebuttal to Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MT-RebutArgAgainst-Pacifica-SD-Parcel-Tax_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "2/3 Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "Pacifica School District",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "To renew expiring local funding without increasing taxes, with local funding for elementary/middle schools the state cannot take away, to support strong math, science, history, reading/writing programs; attract/retain qualified teachers/counselors; maintain art/music/outdoor education programs, libraries and computer instruction, shall Pacifica School District’s measure be adopted, levying $118 per parcel, raising $1,300,000 annually for 10 years, with senior exemptions, independent oversight and no money for administrator salaries?",
+          "source_url": "https://smcacre.gov/system/files/2026-06/52-ENG-M103-Contest%20Code-Reso-Pacifica%20SD%20Parcel%20Tax_Redacted.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure T, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/1b/1b7ec434e163a2124b0905a48d0104028fbb3afe653652d51f6208a70d59e0f7",
+          "raw_sha256": "bc7dbdf927311df3ec5d264fdfec8c799a1337e1ded8815a615d3fdbb25620a0",
+          "fetched_at": "2026-10-28T06:53:47Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF"
+        }
+      }
+    },
+    {
+      "id": "local-sm-k",
+      "number": "K",
+      "title": {
+        "text": "Parcel Tax Measure",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "San Carlos School District"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure K: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-05/52-ENG-M101-Contest%20Code-Reso-San%20Carlos%20SD%20Parcel%20Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure K: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MK-ImpartialAnalysis-San-Carlos-SD-Parcel-Tax.pdf"
+        },
+        {
+          "label": "Measure K: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M101-Contest%20Code-5ArgInFavor-San%20Carlos%20SD%20Parcel%20Tax_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "2/3 Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "San Carlos School District",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "To protect outstanding educational programs, hands-on science, math, technology, arts, reading and writing, attract and retain high-quality teachers, maintain reasonable class sizes, and sustain property values, shall the San Carlos School District's measure be adopted to replace its existing parcel tax at a $489 per parcel rate (raising approximately $4,400,000 annually) for 8 years, with annual cost-of-living adjustments, citizen oversight, senior exemptions, all funds spent locally and no funds used for administrator salaries?",
+          "source_url": "https://smcacre.gov/system/files/2026-05/52-ENG-M101-Contest%20Code-Reso-San%20Carlos%20SD%20Parcel%20Tax_Redacted.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure K, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/dc/dc8c50517a6e6bbca8079d9edbc35a15bad638fe52187643d9f448080f9980ad",
+          "raw_sha256": "00dfb84d7bb7512dfe4f3ec651142a3e3438b0c688f6a4cdeb0413657989fb78",
+          "fetched_at": "2026-10-28T06:53:49Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF"
+        }
+      }
+    },
+    {
+      "id": "local-sm-v",
+      "number": "V",
+      "title": {
+        "text": "Bond Measure",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "San Mateo County Community College District"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure V: Resolution, Full Text and Tax Rate Statement (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M307-Contest%20Code-Reso-SMCCD%20Bond_Redacted.pdf"
+        },
+        {
+          "label": "Measure V: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MV-ImpartialAnalysis-SMCCD-Bond.pdf"
+        },
+        {
+          "label": "Measure V: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M307-Contest%20Code-5ArgInFavor-SMCCD%20Bond_Redacted.pdf"
+        },
+        {
+          "label": "Measure V: Rebuttal to Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MV-RebutArgInFavor-SMCCD-Bond_Redacted.pdf"
+        },
+        {
+          "label": "Measure V: Primary Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M307-Contest%20Code-6ArgAgainst-SMCCD%20Bond_Redacted.pdf"
+        },
+        {
+          "label": "Measure V: Rebuttal to Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MV-RebutArgAgainst-SMCCD-Bond_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "55% Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "San Mateo County Community College District",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "Without increasing current tax rates and to protect affordable higher education at College of San Mateo, Cañada College, and Skyline College by repairing/constructing science, engineering, math, technology, skilled trades, and career-training classrooms that prepare students for in-demand careers; and repairing roofs, plumbing, electrical, shall San Mateo County Community College District's measure authorizing $848,000,000 in bonds at legal rates be adopted, levying approximately $18 per $100,000 assessed value ($75,000,000 annually) while bonds are outstanding, with independent audits, oversight, and all money locally controlled?",
+          "source_url": "https://smcacre.gov/system/files/2026-08/52-ENG-M307-Contest%20Code-Reso-SMCCD%20Bond_Redacted.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure V, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/e4/e4444e5bde32abd48c93e44007e5c44f3a895eb7e8703d2fc7ec4ffcb2b0a227",
+          "raw_sha256": "2a44e4aec2b7613fd7c69583e39a7ef2211fba465c221eb9b2dceafd1a0993b7",
+          "fetched_at": "2026-10-28T06:53:52Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF",
+          "corrected": [
+            {
+              "ocr": "Cafiada",
+              "corrected": "Cañada",
+              "reason": "Measure V, page 7: the page reads \"Cañada College\"; the English OCR model has no ñ and reads it as \"fi\" at every resolution tried."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "local-sm-w",
+      "number": "W",
+      "title": {
+        "text": "Bond Measure",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "San Mateo-Foster City School District"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure W: Resolution, Full Text and Tax Rate Statement (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M306-Contest%20Code-Reso-SMFCSD%20Bond_Redacted.pdf"
+        },
+        {
+          "label": "Measure W: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MW-ImpartialAnalysis-SMFCSD-Bond.pdf"
+        },
+        {
+          "label": "Measure W: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M306-Contest%20Code-5ArgInFavor-SMFCSD%20Bond_Redacted.pdf"
+        },
+        {
+          "label": "Measure W: Rebuttal to Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MW-RebutArgInFavor-SMFCSD-Bond_Redacted.pdf"
+        },
+        {
+          "label": "Measure W: Primary Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M306-Contest%20Code-7ArgAgainst-SMFCSD%20Bond_Redacted.pdf"
+        },
+        {
+          "label": "Measure W: Rebuttal to Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MW-RebutArgAgainst-SMFCSD-Bond_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "55% Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "San Mateo-Foster City School District",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "To improve elementary and middle school classrooms for skilled trades, science, technology, engineering, and math; replace leaky roofs, old windows, fire alarms and emergency communications systems; provide affordable housing to attract/retain quality teachers/staff; acquire, construct, repair facilities, equipment, sites; shall San Mateo-Foster City School District’s measure be adopted, authorizing $498,000,000 in bonds at legal interest rates, levying $29 per $100,000 assessed value, averaging $35,000,000 annually while bonds are outstanding, with audits, independent oversight, and funds used locally?",
+          "source_url": "https://smcacre.gov/system/files/2026-08/52-ENG-M306-Contest%20Code-Reso-SMFCSD%20Bond_Redacted.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure W, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/89/89219d28d4b56b16c4f78fd20ab69954d08a560c69c5cda6136975cdfb6502a2",
+          "raw_sha256": "df14dc287302eaa24029ee4664988e8161fac276a58d8afa757c24508ab39ba5",
+          "fetched_at": "2026-10-28T06:53:54Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF"
+        }
+      }
+    },
+    {
+      "id": "local-sm-y",
+      "number": "Y",
+      "title": {
+        "text": "Special Tax Measure",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "City of Belmont"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure Y: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M308-Contest%20Code-Reso-Belmont%20Special%20Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure Y: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MY-ImpartialAnalysis-Belmont-Special-Tax.pdf"
+        },
+        {
+          "label": "Measure Y: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M308-Contest%20Code-ArgInFavor-Belmont%20Special%20Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure Y: Rebuttal to Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MY-RebutArgInFavor-Belmont-Special-Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure Y: Primary Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M308-Contest%20Code-7ArgAgainst-Belmont%20Special%20Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure Y: Rebuttal to Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MY-RebutArgAgainst-Belmont-Special-Tax_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "Majority Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "City of Belmont",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "Shall the ordinance providing funding for and maintaining supervised children's play, youth, teen and adult programs, childcare, afterschool and senior programs in a disabled accessible, fire and earthquake resistant community center, usable as an emergency health and disaster relief facility, levying 33¢ per square foot of residential improvements and 54¢ per square foot of nonresidential improvements, providing $7,100,000 annually until ended by voters, with senior exemptions and independent audits, increasing the appropriation limit, be adopted?",
+          "source_url": "https://smcacre.gov/system/files/2026-08/52-ENG-M308-Contest%20Code-Reso-Belmont%20Special%20Tax_Redacted.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure Y, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/8c/8c7577e5a993f792eb2cbda16648890185b3601a4c54170d00c0c432e8b257c4",
+          "raw_sha256": "aaf00fbc8562ce0f8fac11c587d3b8c03a5875d270cc28ff0a59d66fffe99854",
+          "fetched_at": "2026-10-28T06:53:57Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF"
+        }
+      }
+    },
+    {
+      "id": "local-sm-x",
+      "number": "X",
+      "title": {
+        "text": "Business License Tax Measure",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "City of Brisbane"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure X: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M302-Contest%20Code-Reso-City%20of%20Brisbane%20Business%20License%20Tax_Redacted_1.pdf"
+        },
+        {
+          "label": "Measure X: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MX-ImpartialAnalysis-City-of-Brisbane-Business-License-Tax.pdf"
+        },
+        {
+          "label": "Measure X: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M302-Contest%20Code-4ArgInFavor-City%20of%20Brisbane%20Business%20License%20Tax_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "Majority Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "City of Brisbane",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "Shall the measure updating the City's Business License Tax by replacing the current tiered structure with a $50 tax for businesses with annual gross receipts of $25,000 or less and $50 plus $1.00 per $1,000 of gross receipts above $25,000 for most other businesses; establishing a minimum tax base equal to the cost of operations for businesses whose operating costs exceed gross receipts; and raising approximately $1,000,000 annually, until repealed by voters, be adopted?",
+          "source_url": "https://smcacre.gov/system/files/2026-07/52-ENG-M302-Contest%20Code-Reso-City%20of%20Brisbane%20Business%20License%20Tax_Redacted_1.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure X, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/f3/f3f11a8503216eac38e56f30ba46cba3e9f0acce34231ebaeb07ddd1d53d712f",
+          "raw_sha256": "dd2389d19c9923ae4af1be749cf7b50a3bc685714ca31b8849f7b8aa133ce3ef",
+          "fetched_at": "2026-10-28T06:53:59Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF"
+        }
+      }
+    },
+    {
+      "id": "local-sm-d",
+      "number": "D",
+      "title": {
+        "text": "Transient Occupancy Tax Measure",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "City of Burlingame"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure D: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M107-Contest%20Code-Reso-Burlingame%20Occupancy%20Tax_Redacted_0.pdf"
+        },
+        {
+          "label": "Measure D: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MD-ImpartialAnalysis-Burlingame-Occupancy-Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure D: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M107-Contest%20Code-4ArgInFavor-Burlingame%20Occupancy%20Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure D: Rebuttal to Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MD-RebutArgInFavor-Burlingame-Occupancy-Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure D: Primary Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M107-Contest%20Code-7ArgAgainst-Burlingame%20Occupancy%20Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure D: Rebuttal to Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MD-RebutArgAgainst-Burlingame-Occupancy-Tax_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "Majority Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "City of Burlingame",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "To support city services such as: maintaining city streets/sidewalks and repairing potholes; maintaining parks and trees; enhancing emergency response, preparedness, and wildfire prevention; and for general government use; shall the City of Burlingame measure be adopted raising the transient occupancy (hotel) tax from 12% to 15%, paid only by hotel and lodging guests, until ended by voters, providing an estimated $5,700,000 annually, all funds locally controlled, with independent citizen oversight?",
+          "source_url": "https://smcacre.gov/system/files/2026-07/52-ENG-M107-Contest%20Code-Reso-Burlingame%20Occupancy%20Tax_Redacted_0.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure D, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/e8/e86eba2594ef9ebf2b4ec1d171e59b2ace58eb13a8afd14836d7d10c8bee7683",
+          "raw_sha256": "71f422c7783479f57b833453179ba103c32053aa934d560492a906f4026e7169",
+          "fetched_at": "2026-10-28T06:54:03Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF"
+        }
+      }
+    },
+    {
+      "id": "local-sm-o",
+      "number": "O",
+      "title": {
+        "text": "Bond Measure",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "City of East Palo Alto"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure O: Resolution, Full Text and Tax Rate Statement (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M207-Contest%20Code-Reso-City%20of%20East%20Palo%20Alto%20Bond_Redacted.pdf"
+        },
+        {
+          "label": "Measure O: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MO-ImpartialAnalysis-City-of-East-Palo-Alto-Bond.pdf"
+        },
+        {
+          "label": "Measure O: Primary Argument In Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MO-ArgInFavor-City-of-East-Palo-Alto-Bond_Redacted.pdf"
+        },
+        {
+          "label": "Measure O: Primary Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MO-ArgAgainst-City-of-East-Palo-Alto-Bond_Redacted.pdf"
+        },
+        {
+          "label": "Measure O: Rebuttal to Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MO-RebutArgAgainst-City-of-East-Palo-Alto-Bond_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "2/3 Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "City of East Palo Alto",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "East Palo Alto Community/Water/Public Safety Infrastructure Measure. Shall the measure constructing a Library, Emergency Command Center, civic center, youth sports park; replacing deteriorating water pipes to provide safe/ clean drinking water; repairing storm drains to prevent flooding; addressing earthquake safety, by authorizing East Palo Alto to issue $125,000,000 in general obligation bonds, with annual levies averaging $105.26 per $100,000 of assessed value (raising approximately $8,940,000 annually) while bonds are outstanding, with independent audits/ public disclosure, be adopted?",
+          "source_url": "https://smcacre.gov/system/files/2026-07/52-ENG-M207-Contest%20Code-Reso-City%20of%20East%20Palo%20Alto%20Bond_Redacted.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure O, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/e5/e5c7cd1fe1b1caaddc760f433f2143bcc7dfac6ae5aaeb252035ef05bb6ca02b",
+          "raw_sha256": "2a4cbc33915d3b03626cac9c068c6bca0441fdd251e8fc1a31965ef1b4e25d2e",
+          "fetched_at": "2026-10-28T06:54:06Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF"
+        }
+      }
+    },
+    {
+      "id": "local-sm-cc",
+      "number": "CC",
+      "title": {
+        "text": "Term Limits Measure",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "City of East Palo Alto"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure CC: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M207-Contest%20-Code-Reso-EPA%20Term%20Limits_Redacted.pdf"
+        },
+        {
+          "label": "Measure CC: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MCC-ImpartialAnalysis-EPA-Term-Limits_Redacted.pdf"
+        },
+        {
+          "label": "Measure CC: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M207-Contest%20-Code-5ArgInFavor-EPA%20Term%20Limits_Redacted.pdf"
+        },
+        {
+          "label": "Measure CC: Rebuttal to Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MCC-RebutArgInFavor-EPA-Term-Limits_Redacted.pdf"
+        },
+        {
+          "label": "Measure CC: Primary Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M207-Contest%20-Code-7ArgAgainst-EPA%20Term%20Limits_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "Majority Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "City of East Palo Alto",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "Shall the measure providing that no person shall be eligible to serve for more than three (3) consecutive full terms on the City Council be adopted, with service of partial terms exceeding two years qualifying as a full term?",
+          "source_url": "https://smcacre.gov/system/files/2026-07/52-ENG-M207-Contest%20-Code-Reso-EPA%20Term%20Limits_Redacted.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure CC, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/6f/6fd9dcfcbdceaee1a64c54fade69339e863b7f7fa1110cdd68b8423c3245982d",
+          "raw_sha256": "daef22a2faeadd173026c342f400b8257b7de61600b359bcc9eb97c75ac9af1a",
+          "fetched_at": "2026-10-28T06:54:08Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF"
+        }
+      }
+    },
+    {
+      "id": "local-sm-i",
+      "number": "I",
+      "title": {
+        "text": "Coastal Land Use Measure",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "City of Half Moon Bay"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure I: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M309-Contest%20Code-Reso-Half%20Moon%20Bay%20Coastal%20Land_Redacted_0.pdf"
+        },
+        {
+          "label": "Measure I: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MI-ImpartialAnalysis-Half-Moon-Bay-Coastal-Land_Redacted.pdf"
+        },
+        {
+          "label": "Measure I: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M309-Contest%20Code-4ArgInFavor-Half%20Moon%20Bay%20Coastal%20Land_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "Majority Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "City of Half Moon Bay",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "Shall the Measure, amending the City of Half Moon Bay Local Coastal Land Use Plan, Title 17 (Subdivisions) and Title 18 (Zoning) of the Half Moon Bay Municipal Code, and other conforming edits so that the Measure D “Downtown Area” is redefined as the area designated as the “Town Center” (Figure 2-2) of the Local Coastal Land Use Plan, be adopted?",
+          "source_url": "https://smcacre.gov/system/files/2026-08/52-ENG-M309-Contest%20Code-Reso-Half%20Moon%20Bay%20Coastal%20Land_Redacted_0.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure I, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/f8/f8c090fd9bea3a20958c1aa426f9269b5c99c300c7e0d046bd86f1ff0c68d973",
+          "raw_sha256": "f9b8e79352f36d499bfa86ee55d00a4b9ec73bf33a90bf82cd04122685ca5338",
+          "fetched_at": "2026-10-28T06:54:11Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF"
+        }
+      }
+    },
+    {
+      "id": "local-sm-q",
+      "number": "Q",
+      "title": {
+        "text": "Housing Initiative Measure",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "City of Half Moon Bay"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure Q: Resolution (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M401-Contest%20Code-Reso-Half%20Moon%20Bay%20Housing%20Initiative_Redacted.pdf"
+        },
+        {
+          "label": "Measure Q: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MQ-ImpartialAnalysis-Half-Moon-Bay-Housing_Redacted.pdf"
+        },
+        {
+          "label": "Measure Q: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M401-Contest%20Code-4ArgInFavor-Half%20Moon%20Bay%20Housing%20Initiative_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "Majority Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "City of Half Moon Bay",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "Shall Ordinance No. 2026-01, approving agreements with Mercy Housing California 110, L.P. (including a Ground Lease of Real Property for 99 years at a rate of $1/year, which is customary, and Affordable Housing and Property Disposition Agreement) providing for the development/operation of a Senior Affordable 40-Unit Residential Project for Agricultural Workers, which includes 2,653-square foot Community Space, at 535-555 Kelly Avenue in the City of Half Moon Bay, and authorizing other related actions, be adopted?",
+          "source_url": "https://smcacre.gov/system/files/2026-08/52-ENG-M401-Contest%20Code-Reso-Half%20Moon%20Bay%20Housing%20Initiative_Redacted.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure Q, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/2b/2b6ab7b8e0bccdaa3960df0b2fcdf68dbc07c123607146fe0b38bba6faa6b150",
+          "raw_sha256": "3b2ae9f9f12745043027c5b386aa34bf9fe972b5b17e522b424e5c7d7d515083",
+          "fetched_at": "2026-10-28T06:54:13Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF"
+        }
+      }
+    },
+    {
+      "id": "local-sm-p",
+      "number": "P",
+      "title": {
+        "text": "Citizen Initiative to Amend Municipal Code",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "City of Menlo Park"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure P: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-05/52-ENG-M102-Contest%20Code-Reso-Menlo%20Park%20Muni%20Amendment_Redacted.pdf"
+        },
+        {
+          "label": "Measure P: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MP-ImpartialAnalysis-MenloPark-Muni-Amendment.pdf"
+        },
+        {
+          "label": "Measure P: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M102-ContestCode-7ArgInFavor-Menlo%20Park%20Muni%20Amendment_Redacted.pdf"
+        },
+        {
+          "label": "Measure P: Rebuttal to Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MP-RebutArgInFavor-Menlo-Park-Muni-Amendment-Redacted.pdf"
+        },
+        {
+          "label": "Measure P: Primary Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M102-Contest%20Code-6ArgAgainst-Menlo%20Park%20Muni%20Amendment_Redacted_0.pdf"
+        },
+        {
+          "label": "Measure P: Rebuttal to Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MP-RebutAgainst-Menlo-Park-Muni-Amendment_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "Majority Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "City of Menlo Park",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "Should the measure, which prohibits the City of Menlo Park from making changes to City-owned downtown parking lot properties, including selling, leasing, or conveying any of the properties, authorizing a new use such as housing development on any of the properties, or modifying, altering, or constructing improvements on any of the properties, if such change would diminish parking availability, access or convenience, unless the voters pass another ballot measure to approve the change, be adopted?",
+          "source_url": "https://smcacre.gov/system/files/2026-05/52-ENG-M102-Contest%20Code-Reso-Menlo%20Park%20Muni%20Amendment_Redacted.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure P, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/ab/ab84285b5fe6b03485d6d1573a3fdf7cfa0c3b687f0d5a4d2362abe32697d017",
+          "raw_sha256": "b4c7febfe4a4e77b32ffc71090a69e8f1bd9291fbaee6f718a28faab9fcb4282",
+          "fetched_at": "2026-10-28T06:54:16Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF"
+        }
+      }
+    },
+    {
+      "id": "local-sm-bb",
+      "number": "BB",
+      "title": {
+        "text": "Transactions and Use Tax Measure",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "City of Pacifica"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure BB: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M402-Contest%20Code-Reso-Pacifica%20Transactions%20and%20Use%20Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure BB: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MBB-ImpartialAnalysis-Pacifica-Transactions-and-Use-Tax.pdf"
+        },
+        {
+          "label": "Measure BB: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MBB-ArgInFavor-Pacifica-Transactions-and-Use-Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure BB: Rebuttal to Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MBB-RebutArgInFavor-Pacifica-Transactions-and-Use-Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure BB: Primary Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M402-Contest%20Code-7ArgAgainst-Pacifica%20Transactions%20and%20Use%20Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure BB: Rebuttal to Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MBB-RebutArgAgainst-Pacifica-Transactions-and-Use-Tax_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "Majority Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "City of Pacifica",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "Pacifica City Services Measure. To protect Pacifica’s long-term financial stability; fund police, fire, 911 emergency response; prioritize paving streets in the worst conditions; keep parks, beaches and public spaces safe and maintained; and for general government use, shall the City of Pacifica’s measure establishing a 1% (1¢) transactions and use (sales) tax, generating approximately $5,000,000 annually until ended by voters, with public disclosure and local control of funds, and independent annual audits, be adopted?",
+          "source_url": "https://smcacre.gov/system/files/2026-08/52-ENG-M402-Contest%20Code-Reso-Pacifica%20Transactions%20and%20Use%20Tax_Redacted.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure BB, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/2e/2e9c9df8cb556fa95a9b2169f6ef83548f6c84beffb6c7410cfaae5ded483a0c",
+          "raw_sha256": "b1649da5de4e951043e388cbbf18c7b83130e6edff6914f999dc12c832a2f087",
+          "fetched_at": "2026-10-28T06:54:19Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF"
+        }
+      }
+    },
+    {
+      "id": "local-sm-n",
+      "number": "N",
+      "title": {
+        "text": "Town Charter and Property Transfer Tax Measure",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "Town of Portola Valley"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure N: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M205-Contest%20Code-Reso-Portola%20Valley%20Transfer%20Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure N: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MN-ImpartialAnalysis-PortolaValley-Transfer-Tax.pdf"
+        },
+        {
+          "label": "Measure N: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M205-Contest%20Code-5ArgInFavor-Portola%20Valley%20Transfer%20Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure N: Rebuttal to Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MN-RebutArgInFavor-Portola%20Valley-Transfer-Tax_Redacted_.pdf"
+        },
+        {
+          "label": "Measure N: Primary Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M205-Contest%20Code-6ArgAgainst-Portola%20Valley%20Transfer%20Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure N: Rebuttal to Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MN-RebutArgAgainst-PortolaValley-Transfer-Tax_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "Majority Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "Town of Portola Valley",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "Town of Portola Valley Autonomy Measure. Shall the measure maintaining Portola Valley’s independent status be adopted, providing: wildfire prevention/vegetation management; 911 emergency response/police patrols; local zoning/planning services; storm drain repair; and general government services; by adopting a charter for the Town of Portola Valley solely for, and establishing a real property transfer tax of $10 per $1,000, paid by buyers or sellers of property, until ended by voters, providing approximately $2,000,000 in locally controlled funding annually, with independent oversight?",
+          "source_url": "https://smcacre.gov/system/files/2026-07/52-ENG-M205-Contest%20Code-Reso-Portola%20Valley%20Transfer%20Tax_Redacted.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure N, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/d5/d584e5c213889f301bb353d0ba7251930ee58f69cd4cbb6b8ddc13c8a4d1e004",
+          "raw_sha256": "dee8e20e8db3f7a5a273d6923a5da9e494383ba98a26a0ffdd3b6917a4199ede",
+          "fetched_at": "2026-10-28T06:54:21Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF"
+        }
+      }
+    },
+    {
+      "id": "local-sm-e",
+      "number": "E",
+      "title": {
+        "text": "Rent Control and Eviction Limits Initiative",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "City of Redwood City"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure E: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M108-Contest%20Code-Reso-RWC%20Housing_Redacted.pdf"
+        },
+        {
+          "label": "Measure E: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-ME-ImpartialAnalysis-RWC-Housing_Redacted.pdf"
+        },
+        {
+          "label": "Measure E: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M108-Contest%20Code-5ArgInFavor-RWC%20Housing_Redacted_0.pdf"
+        },
+        {
+          "label": "Measure E: Rebuttal to Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-ME-RebutArgInFavor-RWC-Housing_Redacted.pdf"
+        },
+        {
+          "label": "Measure E: Primary Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M108-Contest%20Code-7ArgAgainst-RWC%20Housing_Redacted.pdf"
+        },
+        {
+          "label": "Measure E: Rebuttal to Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-ME-RebutArgAgainst-RWC-Housing_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "Majority Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "City of Redwood City",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "Shall the measure repealing Redwood City Municipal Code Chapter 42 and replacing it with a new Chapter 42 that (1) limits rent increases on multifamily housing built before February 1, 1995; (2) expands just-cause eviction protections to most rental housing, including single-family homes, ADUs, and affordable housing; (3) requires new City administration estimated to cost $5 million to $11 million annually, funded by annual rental property owner fees; and (4) increases relocation assistance for no-fault evictions, be adopted?",
+          "source_url": "https://smcacre.gov/system/files/2026-07/52-ENG-M108-Contest%20Code-Reso-RWC%20Housing_Redacted.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure E, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/ac/ac850601e78503d25f1af498a65a8874888bd0af714db705d8b1054733c1eb1b",
+          "raw_sha256": "00f25b487f050792dadb03d7762213d36d190105efd4e695875b62f333259291",
+          "fetched_at": "2026-10-28T06:54:24Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-text"
+        }
+      }
+    },
+    {
+      "id": "local-sm-s",
+      "number": "S",
+      "title": {
+        "text": "Housing Permits and Developments Measure",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "City of San Bruno"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure S: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M303-Contest%20Code-Reso-San%20Bruno%20Hosuing%20Permit%20and%20Development_Redacted.pdf"
+        },
+        {
+          "label": "Measure S: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MS-ImpartialAnalysis-San-Bruno-Hosuing-Permit-and-Development.pdf"
+        },
+        {
+          "label": "Measure S: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MS-ArgInFavor-San-Bruno-Housing-Permit-and-Development_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "Majority Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "City of San Bruno",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "Shall City of San Bruno Ordinance No. 1284, the 1977 zoning initiative that requires voter approval before the City Council can approve buildings exceeding specified height limits, residential density increases beyond 1974 zoning, multi-story parking structures, and certain roadway changes, be repealed given that State housing laws supersede local height limits and the ordinance interacts with current City economic development goals?",
+          "source_url": "https://smcacre.gov/system/files/2026-07/52-ENG-M303-Contest%20Code-Reso-San%20Bruno%20Hosuing%20Permit%20and%20Development_Redacted.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure S, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/3d/3df65733c23964d1596e936dcfafc24957d076e819a230f9a40b9b1a53010b3d",
+          "raw_sha256": "eb4e70296f4e7abb53937614c33bf88c643138039a521495c8f8064e588278a2",
+          "fetched_at": "2026-10-28T06:54:26Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF"
+        }
+      }
+    },
+    {
+      "id": "local-sm-dd",
+      "number": "DD",
+      "title": {
+        "text": "Fireworks Ban Measure",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "City of San Bruno"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure DD: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M304-Contest%20Code-Reso-San%20Bruno%20Fireworks%20Ban_Redacted.pdf"
+        },
+        {
+          "label": "Measure DD: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MDD-ImpartialAnalysis-San-Bruno-Fireworks-Ban.pdf"
+        },
+        {
+          "label": "Measure DD: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MDD-ArgInFavor-San-Bruno-Fireworks-Ban_Redacted.pdf"
+        },
+        {
+          "label": "Measure DD: Rebuttal to Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MDD-RebutArgInFavor-San-Bruno-Fireworks-Ban-Redacted.pdf"
+        },
+        {
+          "label": "Measure DD: Primary Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M304-Contest%20Code-6ArgAgainst-San%20Bruno%20Fireworks%20Ban_Redacted.pdf"
+        },
+        {
+          "label": "Measure DD: Rebuttal to Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MDD-RebutArgAgainst-San-Bruno-Fireworks-Ban_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "Majority Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "City of San Bruno",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "Shall the City of San Bruno Safe and Sane Fireworks Ordinance be repealed to prohibit the sale, use, and discharge of safe and sane fireworks in the City of San Bruno?",
+          "source_url": "https://smcacre.gov/system/files/2026-07/52-ENG-M304-Contest%20Code-Reso-San%20Bruno%20Fireworks%20Ban_Redacted.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure DD, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/ea/eae09f0d2857d84a0b3aa61667bb661e05ed7e4e019cb3df30819afe93205372",
+          "raw_sha256": "c04e2f5e8f672195d9bd3e7b90415bd0c39c76282f4c091c9573e08e2e4400c6",
+          "fetched_at": "2026-10-28T06:54:29Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF"
+        }
+      }
+    },
+    {
+      "id": "local-sm-ee",
+      "number": "EE",
+      "title": {
+        "text": "Business License Tax Measure",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "City of San Bruno"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure EE: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M305-Contest%20Code-Reso-San%20Bruno%20Business%20License%20Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure EE: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MEE-ImpartialAnalysis-San-Bruno-Business-License-Tax.pdf"
+        },
+        {
+          "label": "Measure EE: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MEE-ArgInFavor-Argument-San-Bruno-Business-License-Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure EE: Rebuttal to Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MEE-RebutArgInFavor-San-Bruno-Business-License-Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure EE: Primary Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M305-Contest%20Code-7ArgAgainst-San%20Bruno%20Business%20License%20Tax_Redacted%20%281%29.pdf"
+        },
+        {
+          "label": "Measure EE: Rebuttal to Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MEE-RebutArgAgainst-San-Bruno-Business-License-Tax-Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "Majority Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "City of San Bruno",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "San Bruno Essential Services Protection Measure. To protect essential services such as: fixing potholes/city streets; providing rapid response to 9-1-1 emergency calls; maintaining library programs for children, teens, adults/seniors; maintaining parks/open space; and general city services, shall the measure be adopted simplifying/modernizing San Bruno’s business license ordinance, making rates more equitable/equal, updating the tax rate schedule as described in the ordinance, until ended by voters, raising $4,000,000 annually, with annual independent audits?",
+          "source_url": "https://smcacre.gov/system/files/2026-08/52-ENG-M305-Contest%20Code-Reso-San%20Bruno%20Business%20License%20Tax_Redacted.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure EE, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/2f/2f02180f660d5ca254747187baa248b7f3aa6ce52da80332197432316225c196",
+          "raw_sha256": "7ca6b593aa3f383b3e875059b2967b3a0fb8f6d9fa049b6f6c48f63c0e7a04da",
+          "fetched_at": "2026-10-28T06:54:32Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF",
+          "corrected": [
+            {
+              "ocr": "raising ©",
+              "corrected": "raising",
+              "reason": "Measure EE, page 2: the page reads \"raising $4,000,000 annually\"; a speck of scan noise after \"raising\" is read as \"©\"."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "local-sm-g",
+      "number": "G",
+      "title": {
+        "text": "Transactions and Use Tax Measure",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "City of San Carlos"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure G: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M104-Contest%20Code-Reso-City%20of%20San%20Carlos%20Use%20Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure G: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MG-ImpartialAnalysis-City-of-San-Carlos-Use-Tax.pdf"
+        },
+        {
+          "label": "Measure G: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MG-ArgInFavor-City-of-San-Carlos-Use-Tax-Redacted.pdf"
+        },
+        {
+          "label": "Measure G: Rebuttal to Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MG-RebutArgInFavor-City-of-San-Carlos-Use-Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure G: Primary Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M104-Contest%20Code-7ArgAgainst-City%20of%20San%20Carlos%20Use%20Tax_Redacted%20%281%29.pdf"
+        },
+        {
+          "label": "Measure G: Rebuttal to Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MG-RebutArgAgainst-City-of-San-Carlos-Use-Tax_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "Majority Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "City of San Carlos",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "To provide funding for San Carlos city services, such as keeping local streets, sidewalks, storm drains, parks, and community facilities safe, clean, and well-maintained; fixing streets and potholes; relieving traffic congestion; repairing aging infrastructure; and supporting fire protection, paramedic, crime prevention, and 911 emergency response; shall City of San Carlos’ ordinance establishing a one-half cent sales tax be adopted, providing $6,000,000 annually for general government use for 14 years, with independent audits and all funds locally-controlled?",
+          "source_url": "https://smcacre.gov/system/files/2026-07/52-ENG-M104-Contest%20Code-Reso-City%20of%20San%20Carlos%20Use%20Tax_Redacted.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure G, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/a4/a422ef168567dbb9736c2b586b6175b10f99a463b17a36135d7c364fc6046cdc",
+          "raw_sha256": "b4f9ac9d5c302bd9a6f386fbb128c979c20c02a9b0e28bb4142790f38b62052a",
+          "fetched_at": "2026-10-28T06:54:35Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF"
+        }
+      }
+    },
+    {
+      "id": "local-sm-h",
+      "number": "H",
+      "title": {
+        "text": "Transactions and Use Tax Measure",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "City of San Mateo"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure H: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M301-Contest%20Code-Reso-San%20Mateo%20Transactions%20and%20Use%20Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure H: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MH-ImpartialAnalysis-San-Mateo-Transactions-and-Use-Tax-Redacted.pdf"
+        },
+        {
+          "label": "Measure H: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M301-Contest%20Code-5ArgInFavor-San%20Mateo%20Transactions%20and%20Use%20Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure H: Rebuttal to Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MH-RebutArgInFavor-San-Mateo-Transactions-and-Use-Tax_Redacted.pdf"
+        },
+        {
+          "label": "Measure H: Primary Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M301-Contest%20Code-7ArgAgainst-San%20Mateo%20Transactions%20and%20Use%20Tax_Redacted%20%282%29%20%281%29_Redacted.pdf"
+        },
+        {
+          "label": "Measure H: Rebuttal to Argument Against (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MH-RebutArgAgainst-San-Mateo-Transactions-and-Use-Tax_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "Majority Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "City of San Mateo",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "To provide funding for San Mateo city services, such as keeping local streets, sidewalks, parks, infrastructure, and community facilities safe, clean, and well-maintained, fixing potholes, providing fire protection, paramedic, crime prevention, and 9-1-1 emergency response, and improvements to traffic safety/traffic management, shall the City of San Mateo’s ordinance establishing a one-quarter cent sales tax be adopted, providing 7 million dollars annually for general government use until ended by voters, with independent audits and all funds locally-controlled?",
+          "source_url": "https://smcacre.gov/system/files/2026-07/52-ENG-M301-Contest%20Code-Reso-San%20Mateo%20Transactions%20and%20Use%20Tax_Redacted.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure H, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/aa/aa26cace3db334c6a9045a3afa51255ebff56f764e5956dd08f1ef01a6add0e4",
+          "raw_sha256": "ea78342cd4ac0d4a01221735631c39a861ad4c9da65df49e10d21a55b4c1858f",
+          "fetched_at": "2026-10-28T06:54:37Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF"
+        }
+      }
+    },
+    {
+      "id": "local-sm-f",
+      "number": "F",
+      "title": {
+        "text": "Charter Amendment Measure",
+        "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+        "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+        "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+        "fetched_at": "2026-10-28T06:52:38Z",
+        "fetched_by": "crawl"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "San Mateo",
+        "name": "City of San Mateo"
+      },
+      "topics": [],
+      "notes": [],
+      "arguments_url": null,
+      "documents": [
+        {
+          "label": "Measure F: Resolution and Full Text (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M209-Contest%20Code-Reso-San%20Mateo%20Charter%20Amendment_Redacted.pdf"
+        },
+        {
+          "label": "Measure F: Impartial Analysis (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MF-ImpartialAnalysis-San-Mateo-Charter-Amendment-Redacted.pdf"
+        },
+        {
+          "label": "Measure F: Primary Argument in Favor (PDF)",
+          "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M209-Contest%20Code-5ArgInFavor-San%20Mateo%20Charter%20Amendment_Redacted.pdf"
+        }
+      ],
+      "fields": {
+        "measure_type": {
+          "text": "Majority Voter Approval Required",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "district": {
+          "text": "City of San Mateo",
+          "source_url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+          "source_label": "San Mateo County Registrar of Voters: November 3, 2026 Statewide General Election",
+          "source_snapshot": "data/raw/objects/c1/c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "raw_sha256": "c1306f46e8a26c3af9ec01aa1710e0875e71734ac0a6191ef145c2a2215d8be7",
+          "fetched_at": "2026-10-28T06:52:38Z",
+          "fetched_by": "crawl"
+        },
+        "ballot_question": {
+          "text": "Shall the measure amending the City of San Mateo’s Charter to reflect the City’s current district-based election system, update the process for scheduling Council meetings and filling Council vacancies, update or remove obsolete provisions, and make other technical and conforming changes, be adopted?",
+          "source_url": "https://smcacre.gov/system/files/2026-07/52-ENG-M209-Contest%20Code-Reso-San%20Mateo%20Charter%20Amendment_Redacted.pdf",
+          "source_label": "San Mateo County Registrar of Voters: Measure F, Resolution and Full Text (PDF)",
+          "source_snapshot": "data/raw/objects/47/47d44ef88b011b27370be6bc8d8117eddd77668686914a0c5f1ba73919c95c24",
+          "raw_sha256": "edbd9d96bf61015a10f6ec87fbc68d4958cd24b57f7a43a18cbb6675d5f6657d",
+          "fetched_at": "2026-10-28T06:54:40Z",
+          "fetched_by": "crawl",
+          "snapshot_kind": "pdf-ocr",
+          "source_note": "Text read from a scanned official PDF"
+        }
+      }
     }
   ]
 }
