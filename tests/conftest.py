@@ -20,6 +20,14 @@ def server(tmp_path_factory):
     config.COMMUNITY_DB_PATH = tmp / "community.sqlite3"
     config.RATE_DB_PATH = tmp / "ratelimit.sqlite3"
     config.ASK_CACHE_PATH = tmp / "ask_cache.sqlite3"
+    config.RESULTS_DB_PATH = tmp / "results.sqlite3"
+    config.RESULTS_FIXTURE = ""
+
+    from thinkballot.services.results import app as results_app
+
+    def no_network():  # tests never call the Secretary of State
+        raise results_app.FetchError("offline in tests")
+    results_app.http_fetch = no_network
     srv = make_server("127.0.0.1", 0, lambda e, s: app(e, s), threaded=True)
     base = f"http://127.0.0.1:{srv.server_port}"
     config.PUBLIC_BASE = base
