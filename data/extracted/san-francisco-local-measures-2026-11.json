@@ -1,0 +1,342 @@
+[
+  {
+    "id": "local-sf-a",
+    "number": "A",
+    "title": {
+      "text": "Charter Changes Affecting Various City Departments and Commissions",
+      "source_url": "https://www.sf.gov/qualified-ballot-measures",
+      "source_label": "San Francisco Department of Elections: Qualified ballot measures",
+      "source_snapshot": "data/raw/objects/45/452bd384a0eb9e153385e92f50d25f9b6c9f37f6959c041a11b700cb079ba29e",
+      "raw_sha256": "452bd384a0eb9e153385e92f50d25f9b6c9f37f6959c041a11b700cb079ba29e",
+      "fetched_at": "2026-10-28T06:14:28Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Francisco",
+      "name": "City and County of San Francisco"
+    },
+    "topics": [],
+    "documents": [],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "ballot_question": {
+        "text": "Shall the City amend the Charter to align it with how some City departments currently operate, change some processes, eliminate or reorganize certain commissions and advisory bodies, and require the Board of Supervisors to amend voter-approved laws to enact some of these changes?",
+        "source_url": "https://api.sf.gov/documents/61682/Ballot_Questions_November_2026.pdf",
+        "source_label": "San Francisco City Attorney: November 3, 2026 Ballot Questions",
+        "source_snapshot": "data/raw/objects/30/30f444b4655c77fdb7221907852115c9ff19684933e0a0bf03be0cec792ee4aa",
+        "raw_sha256": "9b2ea8145475b99f65f32e062ee8bf328a58996b10ea496a1ce2acc83c6d3753",
+        "fetched_at": "2026-10-28T06:06:54Z",
+        "fetched_by": "capture",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sf-b",
+    "number": "B",
+    "title": {
+      "text": "Establishing a Municipal Finance Corporation and a Public Bank",
+      "source_url": "https://www.sf.gov/qualified-ballot-measures",
+      "source_label": "San Francisco Department of Elections: Qualified ballot measures",
+      "source_snapshot": "data/raw/objects/45/452bd384a0eb9e153385e92f50d25f9b6c9f37f6959c041a11b700cb079ba29e",
+      "raw_sha256": "452bd384a0eb9e153385e92f50d25f9b6c9f37f6959c041a11b700cb079ba29e",
+      "fetched_at": "2026-10-28T06:14:28Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Francisco",
+      "name": "City and County of San Francisco"
+    },
+    "topics": [],
+    "documents": [],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "ballot_question": {
+        "text": "Shall the City amend the Charter to authorize the City to establish a municipal finance corporation and a public bank?",
+        "source_url": "https://api.sf.gov/documents/61682/Ballot_Questions_November_2026.pdf",
+        "source_label": "San Francisco City Attorney: November 3, 2026 Ballot Questions",
+        "source_snapshot": "data/raw/objects/30/30f444b4655c77fdb7221907852115c9ff19684933e0a0bf03be0cec792ee4aa",
+        "raw_sha256": "9b2ea8145475b99f65f32e062ee8bf328a58996b10ea496a1ce2acc83c6d3753",
+        "fetched_at": "2026-10-28T06:06:54Z",
+        "fetched_by": "capture",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sf-c",
+    "number": "C",
+    "title": {
+      "text": "Contributions to the Housing Fund",
+      "source_url": "https://www.sf.gov/qualified-ballot-measures",
+      "source_label": "San Francisco Department of Elections: Qualified ballot measures",
+      "source_snapshot": "data/raw/objects/45/452bd384a0eb9e153385e92f50d25f9b6c9f37f6959c041a11b700cb079ba29e",
+      "raw_sha256": "452bd384a0eb9e153385e92f50d25f9b6c9f37f6959c041a11b700cb079ba29e",
+      "fetched_at": "2026-10-28T06:14:28Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Francisco",
+      "name": "City and County of San Francisco"
+    },
+    "topics": [],
+    "documents": [],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "ballot_question": {
+        "text": "Shall the City amend the Charter to change how the City’s annual contributions to the Housing Trust Fund are set, increase funding and expand programs for affordable housing, and extend the Fund to 2058?",
+        "source_url": "https://api.sf.gov/documents/61682/Ballot_Questions_November_2026.pdf",
+        "source_label": "San Francisco City Attorney: November 3, 2026 Ballot Questions",
+        "source_snapshot": "data/raw/objects/30/30f444b4655c77fdb7221907852115c9ff19684933e0a0bf03be0cec792ee4aa",
+        "raw_sha256": "9b2ea8145475b99f65f32e062ee8bf328a58996b10ea496a1ce2acc83c6d3753",
+        "fetched_at": "2026-10-28T06:06:54Z",
+        "fetched_by": "capture",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sf-d",
+    "number": "D",
+    "title": {
+      "text": "Changes to Ballot Measure Process",
+      "source_url": "https://www.sf.gov/qualified-ballot-measures",
+      "source_label": "San Francisco Department of Elections: Qualified ballot measures",
+      "source_snapshot": "data/raw/objects/45/452bd384a0eb9e153385e92f50d25f9b6c9f37f6959c041a11b700cb079ba29e",
+      "raw_sha256": "452bd384a0eb9e153385e92f50d25f9b6c9f37f6959c041a11b700cb079ba29e",
+      "fetched_at": "2026-10-28T06:14:28Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Francisco",
+      "name": "City and County of San Francisco"
+    },
+    "topics": [],
+    "documents": [],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "ballot_question": {
+        "text": "Shall the City amend the Charter to increase the requirements for signature initiatives from 2% to 8% of registered voters in San Francisco (currently from about 10,600 to about 42,500 signatures), increase the requirements for calling special elections, allow signature initiatives to be withdrawn before an election, and remove the ability of a minority of Board of Supervisors members or the Mayor to place measures on the ballot?",
+        "source_url": "https://api.sf.gov/documents/61682/Ballot_Questions_November_2026.pdf",
+        "source_label": "San Francisco City Attorney: November 3, 2026 Ballot Questions",
+        "source_snapshot": "data/raw/objects/30/30f444b4655c77fdb7221907852115c9ff19684933e0a0bf03be0cec792ee4aa",
+        "raw_sha256": "9b2ea8145475b99f65f32e062ee8bf328a58996b10ea496a1ce2acc83c6d3753",
+        "fetched_at": "2026-10-28T06:06:54Z",
+        "fetched_by": "capture",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sf-e",
+    "number": "E",
+    "title": {
+      "text": "City Administrator’s Authority and Changes to City Contracting",
+      "source_url": "https://www.sf.gov/qualified-ballot-measures",
+      "source_label": "San Francisco Department of Elections: Qualified ballot measures",
+      "source_snapshot": "data/raw/objects/45/452bd384a0eb9e153385e92f50d25f9b6c9f37f6959c041a11b700cb079ba29e",
+      "raw_sha256": "452bd384a0eb9e153385e92f50d25f9b6c9f37f6959c041a11b700cb079ba29e",
+      "fetched_at": "2026-10-28T06:14:28Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Francisco",
+      "name": "City and County of San Francisco"
+    },
+    "topics": [],
+    "documents": [],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "ballot_question": {
+        "text": "Shall the City amend the Charter to give the City Administrator more authority by centralizing the City’s purchasing rules and processes, changing how the City approves purchasing rules, changing when contracts and leases require Board of Supervisors approval, and extending the City Administrator’s term?",
+        "source_url": "https://api.sf.gov/documents/61682/Ballot_Questions_November_2026.pdf",
+        "source_label": "San Francisco City Attorney: November 3, 2026 Ballot Questions",
+        "source_snapshot": "data/raw/objects/30/30f444b4655c77fdb7221907852115c9ff19684933e0a0bf03be0cec792ee4aa",
+        "raw_sha256": "9b2ea8145475b99f65f32e062ee8bf328a58996b10ea496a1ce2acc83c6d3753",
+        "fetched_at": "2026-10-28T06:06:54Z",
+        "fetched_by": "capture",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sf-f",
+    "number": "F",
+    "title": {
+      "text": "Changes to Executive Branch Management",
+      "source_url": "https://www.sf.gov/qualified-ballot-measures",
+      "source_label": "San Francisco Department of Elections: Qualified ballot measures",
+      "source_snapshot": "data/raw/objects/45/452bd384a0eb9e153385e92f50d25f9b6c9f37f6959c041a11b700cb079ba29e",
+      "raw_sha256": "452bd384a0eb9e153385e92f50d25f9b6c9f37f6959c041a11b700cb079ba29e",
+      "fetched_at": "2026-10-28T06:14:28Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Francisco",
+      "name": "City and County of San Francisco"
+    },
+    "topics": [],
+    "documents": [],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "ballot_question": {
+        "text": "Shall the City amend the Charter to expand the Mayor’s authority to transfer responsibilities between departments, hire deputy mayors, and hire some and fire most department heads; and to allow City officials to remove members of boards and commissions without cause?",
+        "source_url": "https://api.sf.gov/documents/61682/Ballot_Questions_November_2026.pdf",
+        "source_label": "San Francisco City Attorney: November 3, 2026 Ballot Questions",
+        "source_snapshot": "data/raw/objects/30/30f444b4655c77fdb7221907852115c9ff19684933e0a0bf03be0cec792ee4aa",
+        "raw_sha256": "9b2ea8145475b99f65f32e062ee8bf328a58996b10ea496a1ce2acc83c6d3753",
+        "fetched_at": "2026-10-28T06:06:54Z",
+        "fetched_by": "capture",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sf-g",
+    "number": "G",
+    "title": {
+      "text": "Allowing Private Vehicles on the Great Highway in Sunset Dunes Park",
+      "source_url": "https://www.sf.gov/qualified-ballot-measures",
+      "source_label": "San Francisco Department of Elections: Qualified ballot measures",
+      "source_snapshot": "data/raw/objects/45/452bd384a0eb9e153385e92f50d25f9b6c9f37f6959c041a11b700cb079ba29e",
+      "raw_sha256": "452bd384a0eb9e153385e92f50d25f9b6c9f37f6959c041a11b700cb079ba29e",
+      "fetched_at": "2026-10-28T06:14:28Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Francisco",
+      "name": "City and County of San Francisco"
+    },
+    "topics": [],
+    "documents": [],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "ballot_question": {
+        "text": "Shall the City close Sunset Dunes Park from Monday at 4:00 a.m. through Friday at 6:00 p.m., unless a holiday falls on a weekday, in order to reopen the roadway known as the Upper Great Highway to private vehicles during that time?",
+        "source_url": "https://api.sf.gov/documents/61682/Ballot_Questions_November_2026.pdf",
+        "source_label": "San Francisco City Attorney: November 3, 2026 Ballot Questions",
+        "source_snapshot": "data/raw/objects/30/30f444b4655c77fdb7221907852115c9ff19684933e0a0bf03be0cec792ee4aa",
+        "raw_sha256": "9b2ea8145475b99f65f32e062ee8bf328a58996b10ea496a1ce2acc83c6d3753",
+        "fetched_at": "2026-10-28T06:06:54Z",
+        "fetched_by": "capture",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sf-h",
+    "number": "H",
+    "title": {
+      "text": "Parcel Tax to Fund Public Muni Operations",
+      "source_url": "https://www.sf.gov/qualified-ballot-measures",
+      "source_label": "San Francisco Department of Elections: Qualified ballot measures",
+      "source_snapshot": "data/raw/objects/45/452bd384a0eb9e153385e92f50d25f9b6c9f37f6959c041a11b700cb079ba29e",
+      "raw_sha256": "452bd384a0eb9e153385e92f50d25f9b6c9f37f6959c041a11b700cb079ba29e",
+      "fetched_at": "2026-10-28T06:14:28Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Francisco",
+      "name": "City and County of San Francisco"
+    },
+    "topics": [],
+    "documents": [],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "ballot_question": {
+        "text": "Shall the City fund Muni service through a new annual parcel tax on real estate at rates ranging from $129 per parcel up to a maximum of $400,000 per parcel, depending on the type of property and its size and adjusted annually for inflation, for estimated revenue of $177 million a year for 15 years?",
+        "source_url": "https://api.sf.gov/documents/61682/Ballot_Questions_November_2026.pdf",
+        "source_label": "San Francisco City Attorney: November 3, 2026 Ballot Questions",
+        "source_snapshot": "data/raw/objects/30/30f444b4655c77fdb7221907852115c9ff19684933e0a0bf03be0cec792ee4aa",
+        "raw_sha256": "9b2ea8145475b99f65f32e062ee8bf328a58996b10ea496a1ce2acc83c6d3753",
+        "fetched_at": "2026-10-28T06:06:54Z",
+        "fetched_by": "capture",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sf-i",
+    "number": "I",
+    "title": {
+      "text": "Changes to Real Property Transfer Tax",
+      "source_url": "https://www.sf.gov/qualified-ballot-measures",
+      "source_label": "San Francisco Department of Elections: Qualified ballot measures",
+      "source_snapshot": "data/raw/objects/45/452bd384a0eb9e153385e92f50d25f9b6c9f37f6959c041a11b700cb079ba29e",
+      "raw_sha256": "452bd384a0eb9e153385e92f50d25f9b6c9f37f6959c041a11b700cb079ba29e",
+      "fetched_at": "2026-10-28T06:14:28Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Francisco",
+      "name": "City and County of San Francisco"
+    },
+    "topics": [],
+    "documents": [],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "ballot_question": {
+        "text": "Shall the City permanently dedicate half of the transfer tax revenues collected when certain real estate with a value or sales price of more than $10,000,000 changes hands, which will continue to be taxed at rates of 5.5% to 6%, to be spent only on affordable housing, including social housing developments and housing assistance, and exempt certain sales from the dedicated portion of the tax, for an estimated annual revenue decrease of approximately $1 million?",
+        "source_url": "https://api.sf.gov/documents/61682/Ballot_Questions_November_2026.pdf",
+        "source_label": "San Francisco City Attorney: November 3, 2026 Ballot Questions",
+        "source_snapshot": "data/raw/objects/30/30f444b4655c77fdb7221907852115c9ff19684933e0a0bf03be0cec792ee4aa",
+        "raw_sha256": "9b2ea8145475b99f65f32e062ee8bf328a58996b10ea496a1ce2acc83c6d3753",
+        "fetched_at": "2026-10-28T06:06:54Z",
+        "fetched_by": "capture",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-sf-j",
+    "number": "J",
+    "title": {
+      "text": "Removal of Foreclosure Exemption for Real Property Transfer Tax",
+      "source_url": "https://www.sf.gov/qualified-ballot-measures",
+      "source_label": "San Francisco Department of Elections: Qualified ballot measures",
+      "source_snapshot": "data/raw/objects/45/452bd384a0eb9e153385e92f50d25f9b6c9f37f6959c041a11b700cb079ba29e",
+      "raw_sha256": "452bd384a0eb9e153385e92f50d25f9b6c9f37f6959c041a11b700cb079ba29e",
+      "fetched_at": "2026-10-28T06:14:28Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "San Francisco",
+      "name": "City and County of San Francisco"
+    },
+    "topics": [],
+    "documents": [],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "ballot_question": {
+        "text": "Shall the City permanently apply a transfer tax of between 0.5% and 6% of a property’s fair market value, on the transfer of properties such as commercial, industrial, and large residential properties, that are transferred to a lender because of foreclosure or to avoid foreclosure, for estimated annual revenue of $100 million to $150 million?",
+        "source_url": "https://api.sf.gov/documents/61682/Ballot_Questions_November_2026.pdf",
+        "source_label": "San Francisco City Attorney: November 3, 2026 Ballot Questions",
+        "source_snapshot": "data/raw/objects/30/30f444b4655c77fdb7221907852115c9ff19684933e0a0bf03be0cec792ee4aa",
+        "raw_sha256": "9b2ea8145475b99f65f32e062ee8bf328a58996b10ea496a1ce2acc83c6d3753",
+        "fetched_at": "2026-10-28T06:06:54Z",
+        "fetched_by": "capture",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  }
+]
