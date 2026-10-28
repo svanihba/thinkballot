@@ -27,6 +27,7 @@ SERVICE_URLS = {
     "bias": _env("TB_BIAS_URL", INTERNAL_BASE + "/svc/bias"),
     "search": _env("TB_SEARCH_URL", INTERNAL_BASE + "/svc/search"),
     "community": _env("TB_COMMUNITY_URL", INTERNAL_BASE + "/svc/community"),
+    "results": _env("TB_RESULTS_URL", INTERNAL_BASE + "/svc/results"),
 }
 
 # Services that only other ThinkBallot services may call (they need this shared token).
@@ -58,3 +59,12 @@ SERVICE_TIMEOUT_SECONDS = float(_env("TB_SERVICE_TIMEOUT", "120"))
 # AI questions: per client, and site-wide so one person cannot use up the model quota for everyone.
 ASK_LIMITS_PER_CLIENT = [(6, 60), (60, 86400)]
 ASK_LIMITS_SITEWIDE = [(40, 60), (int(_env("TB_ASK_DAILY_CAP", "800")), 86400)]
+
+# Election results from the Secretary of State's official feed (thinkballot/services/results).
+# The last good copy lives next to the other writable state.
+RESULTS_DB_PATH = Path(_env("TB_RESULTS_DB_PATH", str(RATE_DB_PATH.parent / "results.sqlite3")))
+RESULTS_MAX_AGE_SECONDS = 300  # fetch the feed at most once every five minutes
+# Set to 1 only after the Secretary of State certifies the results; until then they say "Unofficial".
+RESULTS_CERTIFIED = _env("TB_RESULTS_CERTIFIED", "") == "1"
+# Local preview only: serve a recorded feed file instead of fetching (labelled as test data on the page).
+RESULTS_FIXTURE = _env("TB_RESULTS_FIXTURE", "")

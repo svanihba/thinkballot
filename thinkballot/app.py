@@ -1,4 +1,4 @@
-"""Builds the whole ThinkBallot process: seven services, each mounted under its own path.
+"""Builds the whole ThinkBallot process: eight services, each mounted under its own path.
 
 The services only talk to each other over HTTP, so any of them can move to its own process later
 by changing its URL in config.
@@ -14,6 +14,7 @@ from .services.ballot.app import create_app as ballot_app
 from .services.bias.app import create_app as bias_app
 from .services.community.app import create_app as community_app
 from .services.geo.app import create_app as geo_app
+from .services.results.app import create_app as results_app
 from .services.search.app import create_app as search_app
 from .services.web.app import create_app as web_app
 from .servicekit import register_inproc_app
@@ -30,6 +31,7 @@ def create_app():
         "/svc/bias": bias_app(),
         "/svc/search": search_app(),
         "/svc/community": community_app(),
+        "/svc/results": results_app(),
     })
     register_inproc_app(services)  # for TB_INTERNAL_URL=inproc
     return ProxyFix(services, x_for=1, x_proto=1, x_host=1)  # trust one proxy: Caddy
