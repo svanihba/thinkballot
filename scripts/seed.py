@@ -34,8 +34,10 @@ def page_text(entry, cache, live=False):
     """Text of the source page for a field: the live page with --live, else the saved snapshot if any."""
     # Pages captured in a supervised browser session come from sites that block automated clients:
     # they are verified against that capture, never re-fetched by a script.
-    # PDFs are verified against the text extracted from the saved PDF (the server has no PDF reader).
-    captured = entry.get("fetched_by") == "capture" or entry.get("snapshot_kind") == "pdf-text"
+    # PDFs are verified against the text extracted from the saved PDF (the server has no PDF reader),
+    # scanned PDFs against the saved OCR reading of the page.
+    from_pdf = entry.get("snapshot_kind") in ("pdf-text", "pdf-ocr")
+    captured = entry.get("fetched_by") == "capture" or from_pdf
     use_snapshot = entry.get("source_snapshot") and (captured or not (live and entry["source_url"].startswith("https://")))
     key = entry["source_snapshot"] if use_snapshot else entry["source_url"]
     if key not in cache:
@@ -45,7 +47,7 @@ def page_text(entry, cache, live=False):
             resp = requests.get(entry["source_url"], timeout=30, headers={"User-Agent": "ThinkBallot seed"})
             resp.raise_for_status()
             raw = resp.content.decode("utf-8")  # the guide is UTF-8; its headers don't say so
-        is_html = "<" in raw and ">" in raw and entry.get("snapshot_kind") != "pdf-text"
+        is_html = "<" in raw and ">" in raw and not from_pdf
         cache[key] = html_to_text(raw) if is_html else raw
     return cache[key]
 
@@ -87,6 +89,7 @@ def main(path, live=False):
             report["verify"].append({"measure": m["id"], "field": name, "verdict": v["verdict"],
                                      "against": "browser capture" if entry.get("fetched_by") == "capture"
                                      else "saved PDF text" if entry.get("snapshot_kind") == "pdf-text"
+                                     else "OCR of a scanned PDF" if entry.get("snapshot_kind") == "pdf-ocr"
                                      else ("live page" if live else "saved copy")})
             if v["verdict"] != "pass":
                 failures += 1
@@ -118,7 +121,8 @@ def main(path, live=False):
         "verified_against": "live official pages" if live else "saved copies of the official pages",
         "fields_verified_against_browser_captures": sum(1 for v in report["verify"]
                                                         if v["against"] == "browser capture"),
-        "fields_verified": sum(1 for v in report["verify"] if v["verdict"] == "pass"),
+        "fields_verified_against_ocr": sum(1 for v in report["verify"] if v["against"] == "OCR of a scanned PDF"),
+        "fields_verified":sum(1 for v in report["verify"] if v["verdict"] == "pass"),
         "fields_failed": sum(1 for v in report["verify"] if v["verdict"] != "pass"),
         "labels_checked": len(labels),
         "audit_findings": len(report["audit"]),
