@@ -342,7 +342,7 @@ h2 {
   .card .summary { font-size: 1rem; }
 }
 @media (max-width: 640px), (pointer: coarse) {
-  .card h3 a { display: block; padding: 0.6rem 0; margin: -0.6rem 0; } /* taller touch target, same layout */
+  .card h3 a { display: block; padding: 0.7rem 0; margin: -0.7rem 0; } /* taller touch target, same layout */
 }
 
 .notice {
@@ -396,7 +396,7 @@ h2 {
   .side-jump a {
     flex: 1 1 0; display: flex; align-items: center; justify-content: center; min-height: var(--tap);
     border: 1.5px solid var(--ink); border-radius: 3px; background: #fffdf8;
-    color: var(--ink); font-weight: 700; font-size: 0.9rem; text-decoration: none;
+    padding: 0.4rem 0.6rem; text-align: center; color: var(--ink); font-weight: 700; font-size: 0.95rem; text-decoration: none;
   }
   .side-jump .lead { flex-basis: 100%; }
   .args .col { scroll-margin-top: 0.8rem; }
@@ -485,6 +485,16 @@ h2 {
   .filters { gap: 0.5rem; }
   .filter-chip { min-height: var(--tap); display: inline-flex; align-items: center; font-size: 0.8rem; }
 }
+/* Phones: topics as one sideways-scrolling strip, so results start on the first screen. The chip cut
+   off at the right edge shows there is more. */
+@media (max-width: 640px) {
+  .filters {
+    flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none;
+    margin-right: calc(-1 * var(--pad)); padding-right: var(--pad); margin-bottom: 1.2rem;
+  }
+  .filters::-webkit-scrollbar { display: none; }
+  .filter-chip { flex: 0 0 auto; white-space: nowrap; }
+}
 .result-count { font-family: var(--mono); font-weight: 400; font-size: 0.75rem; color: var(--ink-soft); margin: 0 0 1rem; }
 
 /* ---------- Q&A ---------- */
@@ -515,6 +525,17 @@ pre.code .k { color: #f0a35e; }
 .pipeline .step:last-child::after { content: ""; }
 .pipeline .step h3 { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.3rem; color: var(--poppy-deep); }
 .pipeline .step p { font-size: 0.78rem; color: var(--ink-soft); }
+/* Phones: the steps stack, so the arrows point down between them. */
+@media (max-width: 640px) {
+  .pipeline { flex-direction: column; }
+  .pipeline .step { flex-basis: auto; margin: 0 0 1.7rem; }
+  .pipeline .step:last-child { margin-bottom: 0; }
+  .pipeline .step::after { content: "↓"; right: auto; top: auto; left: 50%; bottom: -1.55rem; transform: translateX(-50%); }
+  .pipeline .step p { font-size: 0.95rem; }
+  .pipeline .step h3 { font-size: 0.75rem; }
+  .doc-table { font-size: 0.95rem; }
+  .doc-table th, .doc-table td { padding-left: 0.4rem; padding-right: 0.4rem; }
+}
 
 .status-pill { font-family: var(--mono); font-size: 0.64rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.14rem 0.5rem; border-radius: 999px; color: var(--paper); }
 .status-pill.published { background: var(--good); }

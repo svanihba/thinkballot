@@ -213,6 +213,9 @@ function initAsk() {
 document.addEventListener("DOMContentLoaded", () => {
   // Choosing a proposition on the Ask page reloads it for that proposition (no inline handlers: CSP).
   document.querySelectorAll("select.autosubmit").forEach((s) => s.addEventListener("change", () => s.form.submit()));
+  // Phones show the topics as a sideways strip: keep the chosen topic in view.
+  const strip = document.querySelector(".filters"), chosen = strip && strip.querySelector(".on");
+  if (chosen && strip.scrollWidth > strip.clientWidth) strip.scrollLeft = chosen.offsetLeft - strip.offsetLeft - 16;
   markRead();
   initStars();
   paintProgress();
