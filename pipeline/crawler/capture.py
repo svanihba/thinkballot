@@ -29,7 +29,8 @@ def main(argv):
     run = store.start_run(a.source, "capture", a.by, notes="saved from a real browser; site blocks crawlers")
     prev = store.last_good(a.source, a.url)
     sha = store.put(body)
-    content_type = "application/pdf" if body[:5] == b"%PDF-" else "text/html; charset=utf-8"
+    content_type = ("application/pdf" if body[:5] == b"%PDF-" else "application/json" if body[:1] in b"{["
+                    else "text/html; charset=utf-8")
     store.record(run, a.source, a.url, final_url=a.url, http_status=200, content_type=content_type,
                  sha256=sha, size=len(body), unchanged=int(bool(prev and prev["sha256"] == sha)))
     store.finish_run(run, "ok")
