@@ -3,6 +3,7 @@
 import pytest
 
 from pipeline.extract import los_angeles_measures as la
+from pipeline.extract import orange_measures as oc
 
 LA_LAYOUT = """\
 COUNTY MEASURES – (1)
@@ -63,3 +64,29 @@ def test_los_angeles_refuses_a_missing_measure():
     with pytest.raises(ValueError):
         la.parse(LA_LAYOUT.replace("LOCAL JURISDICTION MEASURES – (2)\n", "LOCAL JURISDICTION MEASURES – (3)\n"),
                  LA_TEXT)
+
+
+OC_SECTION = """\
+Ballot Measures-H
+H
+Section
+11
+City of Newport Beach, City of Newport Beach General
+Plan - Amendment
+Shall the measure to amend the City of Newport Beach's General Plan Land Use Element allowing new housing
+units, be adopted?
+What your vote means
+YES
+"""
+
+
+def test_orange_section_splits_title_from_question():
+    letter, jurisdiction, title, question = oc.parse_section(
+        OC_SECTION, "City of Newport Beach, City of Newport Beach General Plan – Amendment")
+    assert (letter, jurisdiction, title) == ("H", "City of Newport Beach", "City of Newport Beach General Plan - Amendment")
+    assert question.startswith("Shall the measure") and question.endswith("be adopted?")
+
+
+def test_orange_refuses_a_section_for_another_measure():
+    with pytest.raises(ValueError):
+        oc.parse_section(OC_SECTION, "City of Orange, Proposed Charter for the City of Orange")
