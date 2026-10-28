@@ -141,8 +141,10 @@ details.composer summary { list-style: none; display: inline-block; margin-top: 
 .analysis { margin: 1.4rem 0; border: 1px solid var(--line); background: #fffdf8; padding: 0.8rem 1rem; }
 .analysis summary { cursor: pointer; font-family: var(--serif); font-weight: 600; font-size: 1.05rem; }
 .analysis-text { white-space: pre-line; font-size: 0.9rem; margin: 0.8rem 0; max-width: 46rem; }
+@media (max-width: 640px), (pointer: coarse) {
+  .analysis summary { min-height: var(--tap); padding: 0.4rem 0; }
+}
 @media (max-width: 640px) {
-  .analysis summary { min-height: var(--tap); padding: 0.3rem 0; }
   .analysis-text, .args .col p { font-size: 1rem; }
   .equal-note { font-size: 0.88rem; }
 }

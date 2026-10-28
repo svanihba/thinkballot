@@ -82,3 +82,21 @@ def test_measure_ids_are_validated(server):
     r = requests.post(server + "/api/ask", json={"measure_id": "../../community/moderation?user_id=1",
                                                  "question": "hi"})
     assert r.status_code == 400
+
+
+def test_phone_friendly_form_attributes(server):
+    landing = requests.get(server + "/").text
+    address = re.search(r'<input type="text" name="address"[^>]*>', landing).group(0)
+    assert 'enterkeyhint="go"' in address
+    assert 'autocomplete="off"' in address  # takes a full address or a ZIP code: not postal-code
+    ask = requests.get(server + "/prop/prop-a").text
+    question = re.search(r'<input type="text" name="question"[^>]*>', ask).group(0)
+    assert 'enterkeyhint="send"' in question
+    assert 'enterkeyhint="search"' in requests.get(server + "/search").text
+
+
+def test_stacked_arguments_announce_both_sides_in_order(server):
+    html = requests.get(server + "/prop/prop-a").text
+    jump = re.search(r'<nav class="side-jump".*?</nav>', html, re.S).group(0)
+    assert jump.index('href="#argument-for"') < jump.index('href="#argument-against"')
+    assert html.index('id="argument-for"') < html.index('id="argument-against"')

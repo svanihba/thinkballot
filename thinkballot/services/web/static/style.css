@@ -122,6 +122,14 @@ main:focus { outline: none; }
 .site-nav a:hover { color: var(--ink); border-bottom-color: var(--poppy); }
 .site-nav a.active { color: var(--ink); border-bottom-color: var(--ink); }
 
+/* Touch screens wider than a phone (tablets): same layout, 44 px tall targets. */
+@media (pointer: coarse) and (min-width: 641px) {
+  .site-header .inner { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+  .brand { min-height: var(--tap); align-items: center; }
+  .site-nav { gap: 0.6rem; }
+  .site-nav a { display: inline-flex; align-items: center; justify-content: center; min-height: var(--tap); min-width: var(--tap); padding: 0 0.3rem; }
+}
+
 /* Phones: the brand on one line, the nav as one full-width row of 44 px targets under it. The row
    scrolls sideways rather than wrapping if it ever gets longer (sign-in, moderation). */
 @media (max-width: 640px) {
@@ -565,11 +573,14 @@ pre.code .k { color: #f0a35e; }
 .site-footer a { color: var(--ink-soft); }
 .site-footer a:hover { color: var(--poppy-deep); }
 .site-footer .spacer { flex: 1; }
+@media (max-width: 640px), (pointer: coarse) {
+  .site-footer .inner { align-items: center; }
+  .site-footer a { min-height: var(--tap); min-width: var(--tap); display: inline-flex; align-items: center; }
+}
 @media (max-width: 640px) {
   .site-footer .inner { gap: 0 1.4rem; font-size: 0.85rem; }
   .site-footer .inner > span:first-child { flex-basis: 100%; margin-bottom: 0.2rem; }
   .site-footer .spacer { display: none; }
-  .site-footer a { min-height: var(--tap); min-width: var(--tap); display: inline-flex; align-items: center; }
 }
 
 /* ---------- instance theme (Santa Clara demo) ---------- */
