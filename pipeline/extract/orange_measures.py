@@ -4,7 +4,8 @@ The "Contests Qualified for the Ballot" page lists every measure as "A – <juri
 "Assigned Measure Letters" page links one PDF per measure: that measure's section of the county voter
 guide ("Ballot Measures-A"), which starts with the jurisdiction and title, then the ballot question,
 then "What your vote means". The question and the title are cut from the PDF text; the contests page
-says where the title ends. Anything unexpected raises ValueError.
+says where the title ends. Anything unexpected raises ValueError, except a question whose text came out
+of the PDF damaged (spaces lost): that measure is skipped, logged and listed in SKIPPED.
 """
 
 import re
@@ -18,8 +19,17 @@ COUNTY = "Orange"
 CODE = "oc"
 
 ENTRY_RE = re.compile(r"^([A-Z]{1,2}) – (.+)$")
-HEAD_RE = re.compile(r"^Ballot Measures-(?P<letter>[A-Z]{1,2})\n(?P=letter)\nSection\n11\n(?P<head>.+?)\nWhat your vote means\n",
-                     re.S)
+# The page header ("Ballot Measures-A", section number 11, the big letter) comes out of pdftotext in a few
+# orders; all of them are accepted, nothing else is.
+HEAD_RE = re.compile(r"^Ballot Measures-(?P<letter>[A-Z]{1,2})(?: 11)?\n(?:Section\n)?(?P=letter)[ \n]"
+                     r"(?P<head>.+?)\nWhat your vote means\n", re.S)
+LETTER_RE = re.compile(r"^Ballot Measures-([A-Z]{1,2})\b")
+SQUASHED = 30  # a "word" this long is a line whose spaces the PDF text lost
+SKIPPED = []  # measures left out because their question is unreadable in the PDF text: {letter, jurisdiction, url, reason}
+
+
+class Unreadable(ValueError):
+    """The section has the expected layout, but its question text came out of the PDF damaged."""
 _FOLD = str.maketrans({"‘": "'", "’": "'", "“": '"', "”": '"', "–": "-", "—": "-"})
 
 
@@ -72,6 +82,8 @@ def parse_section(text, entry):
     question = " ".join(words[len(want):])
     if not (jurisdiction and title) or not question.endswith("?") or len(question.split()) < 8:
         raise ValueError(f"section {m.group('letter')}: no ballot question after the title")
+    if any(len(w) > SQUASHED for w in question.split()):
+        raise Unreadable(f"section {m.group('letter')}: the PDF text lost the spaces in part of the question")
     return m.group("letter"), jurisdiction, title, question
 
 
@@ -84,16 +96,24 @@ def extract(pages, field):
     for url in measure_pdfs(pages[LETTERS_URL]["body"].decode("utf-8")):
         if url not in pages or "text" not in pages[url]:
             raise ValueError(f"measure PDF missing from the raw store: {url}")
-        letter = pages[url]["text"].split("\n", 1)[0].removeprefix("Ballot Measures-")
+        found = LETTER_RE.match(pages[url]["text"])
+        letter = found.group(1) if found else None
         if letter not in entries or letter in by_letter:
             raise ValueError(f"{url}: measure {letter!r} is not listed once on the contests page")
         by_letter[letter] = url
     if set(by_letter) != set(entries):
         raise ValueError(f"no PDF for measures {sorted(set(entries) - set(by_letter))}")
     measures = []
+    SKIPPED.clear()
     for letter in sorted(entries):
         url = by_letter[letter]
-        got, jurisdiction, title, question = parse_section(pages[url]["text"], entries[letter])
+        try:
+            _, jurisdiction, title, question = parse_section(pages[url]["text"], entries[letter])
+        except Unreadable as exc:
+            SKIPPED.append({"letter": letter, "jurisdiction": entries[letter].partition(", ")[0], "url": url,
+                            "reason": str(exc)})
+            print(f"orange_measures: SKIPPED measure {letter} ({url}): {exc}")
+            continue
         label = LABEL.format(letter=letter)
         measures.append({
             "id": f"local-{CODE}-{letter.lower()}", "number": letter,
