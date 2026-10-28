@@ -6985,6 +6985,18 @@
       "against": "browser capture"
     },
     {
+      "measure": "local-sf-rtm",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sf-rtm",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
       "measure": "local-sm-l",
       "field": "title",
       "verdict": "pass",
@@ -8106,12 +8118,12 @@
     }
   ],
   "summary": {
-    "checked_at": "2026-10-28 07:26 UTC",
+    "checked_at": "2026-10-28 07:34 UTC",
     "data_file": "data/measures.json",
     "verified_against": "saved copies of the official pages",
-    "fields_verified_against_browser_captures": 130,
+    "fields_verified_against_browser_captures": 131,
     "fields_verified_against_ocr": 25,
-    "fields_verified": 1280,
+    "fields_verified": 1282,
     "fields_failed": 0,
     "labels_checked": 37,
     "audit_findings": 34
