@@ -47,6 +47,8 @@ def test_santa_clara_local_measures():
 def test_local_measure_fields(m):
     f = m["fields"]
     assert f["ballot_question"]["text"].rstrip().endswith("?")
-    assert "Vote Required" in f["measure_type"]["text"]
-    assert f["ballot_question"]["fetched_by"] == "capture"  # Santa Clara blocks crawlers
-    assert all(d["url"].startswith("https://files.santaclaracounty.gov/") for d in m["documents"])
+    assert f["ballot_question"]["source_url"].startswith("https://")
+    if m["jurisdiction"]["county"] == "Santa Clara":
+        assert "Vote Required" in f["measure_type"]["text"]
+        assert f["ballot_question"]["fetched_by"] == "capture"  # Santa Clara blocks crawlers
+        assert all(d["url"].startswith("https://files.santaclaracounty.gov/") for d in m["documents"])

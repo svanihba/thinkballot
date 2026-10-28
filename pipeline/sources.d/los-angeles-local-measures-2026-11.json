@@ -1,0 +1,10 @@
+{
+  "id": "los-angeles-local-measures-2026-11",
+  "jurisdiction": {"level": "county", "name": "Los Angeles"},
+  "election": "2026-11-03",
+  "seeds": ["https://content.lavote.gov/docs/rrcc/documents/final-measures-appearing-on-the-ballot-9-22-2026.pdf"],
+  "allow": [],
+  "max_depth": 0,
+  "delay_seconds": 2,
+  "extractor": "los_angeles_measures"
+}
