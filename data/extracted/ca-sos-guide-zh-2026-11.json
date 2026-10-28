@@ -1,0 +1,1542 @@
+[
+  {
+    "translation_of": "prop-1",
+    "language": "zh",
+    "title": {
+      "text": "授權發行用於住房負擔能力方案的債券。",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+      "source_label": "官方選民資訊指南: 快速參考指南",
+      "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+      "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+      "fetched_at": "2026-10-28T07:25:41Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "立法法規。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "授權發行 112.5 億美元的州政府一般責任債券，用於住房負擔能力方案，包括多戶出租房、退伍軍人抵押貸款、支持性住房、保留現有的可負擔住房和首付援助。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "州政府每年增加 5 到 6 億美元的成本，用於償還住房債券，持續約25 年。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "US Vets; CA Federation of Teachers; Self-Help for the Elderly; Habitat for Humanity CA; CA Alliance of Child & Family Services",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "未提交",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "投票贊成本議案表示：州政府將可舉債 112.5 億美元，支援退伍軍人及可負擔住宅。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "投票反對本議案表示：州政府將不得舉債 112.5 億美元，支援退伍軍人及可負擔住宅。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "提案 1 將為退伍軍人、高齡者、身心障礙者、中低收入勞工家庭、弱勢 California 居民，以及教師、消防員和護士等維持必要服務的工作者興建可負擔住宅。增加擁有自有住宅的機會，加速推動已具備動工條件的可負擔住宅建案，並協助一旦遭遇危機便可能無家可歸的人。要求落實嚴格的財政問責及公眾監督，且不新增稅負。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "未有人提交對提案 1 反對的論點。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop1-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop1-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-2",
+    "language": "zh",
+    "title": {
+      "text": "增加州政府的雨天資金。",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+      "source_label": "官方選民資訊指南: 快速參考指南",
+      "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+      "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+      "fetched_at": "2026-10-28T07:25:41Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "立法憲法修正案。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "增加選民於 2014 年批准的 California雨天資金，在經濟下行期間為教育、醫療、公共安全和其他關鍵服務提供資金。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "州政府的預算儲備金會更高。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "CA Professional Firefighters; LA Chamber of Commerce; Gavin Newsom; Xavier Becerra; Assemblymember Jesse Gabriel",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "未提交",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "投票贊成本議案表示：州政府累積預算準備金及額外償還州債的規定將有所改變。因此，州預算準備金將會增加。州政府也必須在更長的期間內額外償還債務。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "投票反對本議案表示：州政府累積預算準備金及額外償還州債的規定將維持不變。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "請對提案 2 投贊成投票，保障學校、醫療及公共安全經費。提案 2 將使州政府的應急儲備資金規模增至原來的 2 倍，防止政治人物在預算有盈餘時過度支出，並確保經濟衰退期間繼續提供教育經費。此案獲得消防員、醫院、診所及教育工作者的跨黨派支持。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "提案 2 保證增加的是支出，而非儲蓄；此案將存入準備金的款項排除於 California 憲法的規定支出上限之外，製造漏洞，降低納稅人獲得退稅的可能性。此案並未為教育、醫療或公共安全提供任何新增資金。請投票反對，保障納稅人的退稅權益及憲法的規定支出上限。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop2-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop2-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-3",
+    "language": "zh",
+    "title": {
+      "text": "通過延長現行針對高收入群體的稅收向學校與醫療保健提供永久資金。",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+      "source_label": "官方選民資訊指南: 快速參考指南",
+      "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+      "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+      "fetched_at": "2026-10-28T07:25:41Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "倡議憲法修正案。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "將年收入超過 371,000 美元 (每年根據通貨膨脹率進行調整) 的個人現行、經選民批准的稅率永久化。將稅收收入分配給公共教育。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "對高收入群體的臨時加稅將在 2031 年到期，通過將其改為永久稅率，保障每年 50 億到 150 億美元的州政府所得稅。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "California Teachers Association; CA School Nurses Organization; California State PTA; Planned Parenthood Affiliates of CA",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "California Taxpayers Association; Family Business Association of California; California Hispanic Chambers of Commerce",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "投票贊成本議案表示：自 2012 年起實施、針對高所得者的所得稅加徵措施將永久施行，不再於 2031 年到期。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "投票反對本議案表示：自 2012 年起實施、針對高所得者的所得稅加徵措施將於 2031 年到期。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "提案 3 保障我們的學校及醫療服務，不會增加您的稅負。提案 3 維持最富有的 2% 人口在過去 15 年間適用的現行稅率，防止百萬富翁及億萬富豪獲得大幅減稅，並要求落實嚴格的問責及審計，確保學校資金真正用於課堂教學。投贊成票。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "California 居民已承擔全國最高的所得稅、銷售稅及汽油稅，生活成本也居全國之冠。提案 3 將臨時性的所得稅措施永久化，但 Sacramento 卻在失敗的計畫上浪費數十億美元，而非優先處理選民關切的事項。別再獎勵失敗。在讓稅制永久化之前，應先解決支出問題。反對提案 3。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop3-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop3-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-4",
+    "language": "zh",
+    "title": {
+      "text": "廢除禁止公共資金資助選舉活動的禁令。",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+      "source_label": "官方選民資訊指南: 快速參考指南",
+      "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+      "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+      "fetched_at": "2026-10-28T07:25:41Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "立法法規。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "廢除禁止州和當地政府向候選人競選活動提供公共資金的禁令。公共資金方案不得使用專項教育、交通或公共安全資金。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "州政府每年持續產生數十萬美元的成本，用於公平政治實踐委員會回答州和當地政府有關公共競選資金方案的問題。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "League of Women Voters of CA; California Nurses Association; Mental Health Advocacy; Social Security Works; Consumer Watchdog",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "California Taxpayers Assn; Howard Jarvis Taxpayers Assn; Family Business Assn of California; United Latinos Action",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "投票贊成本議案表示：州政府及地方政府將可設立以公共資金補助公職候選人競選活動的計畫，但可使用的公共資金來源、使用方式及補助對象均須受到限制。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "投票反對本議案表示：州政府及大多數地方政府將繼續不得設立以公共資金補助公職候選人競選活動的計畫。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "請對提案 4 投贊成投票。California 是唯一禁止以公共資金資助競選活動的州，其他 49 州的社區都享有這項權利。特殊利益團體希望保留這項禁令，以維護自身權勢。提案 4 將廢除這項禁令。設有嚴格的納稅人保障措施。請投贊成投票：選舉應靠實力贏得，而非靠金錢買下。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "提案 4 允許政治人物用您繳納的稅款，用作資金資助他們攻擊對手的競選活動。提案 4 既未限制可取得納稅人資金的候選人人數，也未限制他們可取得的金額。更糟的是，提案 4 允許特殊利益資金介入政治。請否決提案 4。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop4-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop4-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-5",
+    "language": "zh",
+    "title": {
+      "text": "更改全州官員的罷免選舉流程。",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+      "source_label": "官方選民資訊指南: 快速參考指南",
+      "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+      "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+      "fetched_at": "2026-10-28T07:25:41Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "立法憲法修正案。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "根據目前的法律，選民要在罷免選舉的同時選出替代的候選人。這項議案改為通過後續的特殊選舉或任命來填補罷免空缺職位。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "淨財政影響未知。在罷免時，辦理選舉是節省還是花費數百萬美元來管理選舉取決於被罷免的職位。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "未提交",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "未提交",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "投票贊成本議案表示：罷免選舉將不再同時詢問應由誰接任出缺職位。出缺職位通常將依公職類別及出缺時間，透過特殊選舉或任命方式補實。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "投票反對本議案表示：罷免選舉將繼續讓選民同時決定應由誰接任出缺職位。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "提案 5 讓罷免回歸原本目的：撤換貪腐官員。此案堵住接任者只需取得極小比例投票即可當選的漏洞，減少未來罷免的政治角力及成本。獲得 California 女性選民聯盟及 California 共同利益組織支持。請投贊成投票",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "提案 5 限制選民為遭罷免官員選擇接任者的權利，改變了 California 行之百年的罷免制度。當全州性民選官員遭罷免時，將改由其他政治人物選擇接任者。至於較低層級的公職，則須等到數月後，再由納稅人出資金舉辦另一場耗資高昂的選舉，期間職位懸缺，民眾也無人代表。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop5-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop5-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-37",
+    "language": "zh",
+    "title": {
+      "text": "為符合資格新住宅的中等收入買方制訂貸款方案。",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+      "source_label": "官方選民資訊指南: 快速參考指南",
+      "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+      "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+      "fetched_at": "2026-10-28T07:25:41Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "倡議法規。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "授權 250 億美元的債券，用於向符合資格的買方提供固定利率的抵押貸款，對於價格低於 150 萬美元的新建住宅，貸款最多可達其購買價格的 17%。借款人必須是 California 居民，使用住宅，滿足收入條件且支付至少3%的首付。債券由抵押貸款還款，而不是由州政府償付。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "無直接的州政府或地方政府成本。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "United Nurses Associations of California; California Conference of Carpenters; California State Treasurer Fiona Ma",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "未提交",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "投票贊成本議案表示：州政府將設立新的購屋協助計畫。州政府將可發行最高 250 億美元的收入債券，為該計畫籌措資金。債券將以屋主償還房貸的款項償付。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "投票反對本議案表示：州政府將不必設立新的購屋協助計畫。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "納稅人無須負擔費用，也無須承擔風險。提案 37 透過由私人債券投資者、而非納稅人出資金的低利率房貸，降低購屋負擔，讓 California 的辛勤工作者及中產階級仍有機會擁有自己的住宅。申請人必須為 CA 居民、符合所得要求、將住宅用於自住、按月繳款並償還貸款，才具備資格。嚴格的問責∕審計。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "未有人提交反對提案 37 的論點。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop37-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop37-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-38",
+    "language": "zh",
+    "title": {
+      "text": "授權用於免疫醫學研究的債券。",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+      "source_label": "官方選民資訊指南: 快速參考指南",
+      "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+      "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+      "fetched_at": "2026-10-28T07:25:41Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "倡議法規。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "授權 84 億美元的一般責任債券，用於免疫和免疫療法研究，一半分配給隸屬 California 大學的一家非營利醫學研究機構，另一半分配給研究撥款。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "州政府的成本每年增加 5 到 6 億美元，持續大約 20 年，用於償還研究債券，如果資助的研究帶來收入，則用來抵扣部份或所有成本。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "Michael J. Fox Foundation; Alzheimer’s Los Angeles; Kidney Cancer Assoc; American Nurses Assoc\\CA",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "Robert M Kaplan Ph.D.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "投票贊成本議案表示：州政府將可舉債 84 億美元，支持 California 研究機構及大學進行免疫學與免疫療法的醫學研究。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "投票反對本議案表示：州政府將不得舉債 84 億美元，支持 California 研究機構及大學進行免疫學與免疫療法的醫學研究。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "支持提案 38，就是支持能挽救生命的免疫學研究，以治癒及預防癌症、心臟病、Alzheimer 等疾病。設有嚴格的問責機制，包括獨立審計。規定處方藥須提供 20% 的折扣。制度設計旨在確保納稅人無須負擔費用。支持提案 38，可能挽救您及摯愛之人的生命。Alzheimer 協會、Michael J. Fox Pakinson's 研究基金會呼籲支持提案 38！www.YESon38.com",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "California 應繼續支持生物醫學研究，但提案 38 的做法並不恰當。此案將使納稅人承擔長達數十年的新增債券債務，同時限制 California 因應健康領域優先事項變化的彈性。研究資金應透過正常的預算程序安排，而非由公民選票決定。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop38-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop38-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-39",
+    "language": "zh",
+    "title": {
+      "text": "禁止公民在未出示政府簽發身份證明的情況下投票。",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+      "source_label": "官方選民資訊指南: 快速參考指南",
+      "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+      "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+      "fetched_at": "2026-10-28T07:25:41Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "倡議憲法修正案。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "如果信封上未寫出指定政府簽發身份證明號碼的最後四位，則郵寄選票作廢。禁止在未出示政府簽發的身份證明的情況下，親自到場投票。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "要實施新的投票要求，每年的成本在數千萬美元到數億美元之間。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "The Transparency Foundation; Latino American Political Assn; Howard Jarvis Taxpayers Assn; CA Women’s Leadership Assn",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "ACLU California Action; Common Cause; League of Women Voters of California",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "投票贊成本議案表示：選民每次投票時，都必須向選舉官員提供額外的身份識別資訊。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "投票反對本議案表示：選民的身份將繼續透過簽名確認。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "支持提案 39，將為 California 提供兩黨支持的選民身份驗證方案。此案獲得大多數民主黨、無黨派及共和黨選民支持。提升民眾對選舉的信任與信心。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "反對第 39 號提案。此案將推進 Trump 壓制選民投票的計畫，增設成本高昂且不必要的障礙，可能阻止符合資格的 California 選民投票，使個人資訊面臨遭冒用的風險，並浪費數億美元的納稅人資金。別讓 MAGA 億萬富豪決定哪些選民的選票才算數。投票反對。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop39-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop39-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-40",
+    "language": "zh",
+    "title": {
+      "text": "對某些特定的納稅人徵收一次性稅。",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+      "source_label": "官方選民資訊指南: 快速參考指南",
+      "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+      "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+      "fetched_at": "2026-10-28T07:25:41Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "倡議憲法修正案和法規。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "對某些資產超過 10 億美元的納稅人徵收5%的稅；收入主要用於醫療保健。將該收入排除在憲法的關於學校經費和支出限額的規定之外。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "通過對億萬富翁徵收財富稅，在幾年內可臨時增加數百億美元的收入。來自億萬富翁的所得稅可能每年持續下降不到10億美元。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "US Senator Bernie Sanders; SEIU United Healthcare Workers West",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "California Primary Care Association; California School Boards Association; California Taxpayers Association",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "投票贊成本議案表示：州政府將向億萬富豪課徵一次性稅款，金額相當於其財富的 5%。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "投票反對本議案表示：州政府將不會向億萬富豪課徵相當於其財富 5% 的一次性稅款。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "對提案 40 投贊成投票，向億萬富豪課稅。Trump 為了替億萬富豪減稅，大幅削減醫療經費資金，導致超過一百萬名 California 居民失去醫療保障，另有數百萬人的健康保險保費增加 1 倍。是時候讓億萬富豪公平分擔稅負，別再讓中產階級買單。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "提案 40 是一項有缺陷的一次性課稅方案，將傷害經濟、衝擊州預算，還存在漏洞，使所有 California 居民都可能面臨難以負擔的稅負，卻無助於降低醫療費用。沒有保障措施，也沒有問責機制。請與 California 教師協會、California 醫學會、California 兒童醫院協會、California 職業消防員協會、California 州建築與營造業工會理事會，以及民主黨和共和黨人士共同反對提案 40。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop40-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop40-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-41",
+    "language": "zh",
+    "title": {
+      "text": "禁止新州稅項將其收入排除於州支出限制之外。要求對新的州政府特別稅進行審計。",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+      "source_label": "官方選民資訊指南: 快速參考指南",
+      "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+      "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+      "fetched_at": "2026-10-28T07:25:41Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "倡議憲法修正案。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "廢除 2026 年 1 月 1 日後頒佈的、將其收入排除於選民批准的州政府支出限制的州稅。要求對由新的特別稅來資助的項目進行選舉前和定期審計。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "淨財政影響取決於選民、立法機構和其他決策者未來所做的決定，所以目前未知。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "CA Society of Certified Public Accountants (CalCPAs); CalAsian Chamber of Commerce; California Taxpayers Association (CalTax)",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "US Senator Bernie Sanders; SEIU United Healthcare Workers West",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "投票贊成本議案表示：若公民提案提出課徵特別稅，California 州稽核員將在該提案列入選票前，審查由該稅款資助資金的計畫。California 州稽核員也將定期審查由選民或立法機構通過的特別稅所資助資金的計畫。此外，州政府可能不得將任何新增特別稅的支出排除於支出上限之外。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "投票反對本議案表示：California 州稽核員審查政府計畫的職責將維持不變。州支出上限的相關規定將維持不變。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "California 居民繳納的稅款，理應帶來更好的成果。數十億美元已投入無家可歸問題等相關計畫，成效卻十分有限。提案 41 要求有獨立的州稽核員，對新增稅款資助資金的計畫進行公開審計，以提高透明度、強化問責，並為納稅人帶來更好的成果。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "提案 41 的真正目的並非審計，而是億萬富豪出資金策劃、旨在推翻 California 億萬富豪稅的騙局。億萬富豪寧願讓數百萬名 California 居民失去醫療保障，也不願為其龐大財富繳納少量稅款。別被億萬富豪的謊言欺騙。請投票反對提案 41。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop41-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop41-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-42",
+    "language": "zh",
+    "title": {
+      "text": "禁止新的州個人財產稅和某些追溯性的州稅。",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+      "source_label": "官方選民資訊指南: 快速參考指南",
+      "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+      "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+      "fetched_at": "2026-10-28T07:25:41Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "倡議憲法修正案。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "禁止任何以下的新州稅 (1) 以個人財產所有權 (除不動產外的所有個人財產) 徵稅，或 (2) 根據納稅人過去的活動追溯徵收。廢除 2026 年 1 月 1 日之後頒佈且與此議案有衝突的稅收。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "未來稅收收入增加可能不如原先預期那麼多。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "CA Professional Firefighters; State Building & Construction Trades Council of CA; AMVETS Department of CA",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "US Senator Bernie Sanders; SEIU United Healthcare Workers West",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "投票贊成本議案表示：州政府將不得對持有金融資產或其他私人財產課徵新稅。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "投票反對本議案表示：州政府將繼續保有對持有金融資產或其他私人財產課徵新稅的權限。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "California 憲法目前允許州議會對退休金及存款課稅，即使您在賺取這些收入時就已經繳過稅！提案 42 禁止對包括退休金及存款在內的動產課徵新增及具追溯效力的稅款，保護 California 居民免於雙重課稅。這是您辛苦賺來的。提案 42 將予以保障。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "這不過是另一個由億萬富豪出資策劃的騙局。提案 42 的並非真要保障您的退休積蓄，它唯一的真正目的，就是推翻 California 億萬富豪稅。億萬富豪寧願讓數百萬名 California 居民失去醫療保障，也不願為其龐大財富繳納少量稅款。請投票反對提案 42。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop42-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop42-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-43",
+    "language": "zh",
+    "title": {
+      "text": "限制選民提高用於當地政府服務之收入的能力。",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+      "source_label": "官方選民資訊指南: 快速參考指南",
+      "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+      "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+      "fetched_at": "2026-10-28T07:25:41Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "立法憲法修正案。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "限制選民通過選民提議的地方特別稅的能力，自 2027 年 1 月 1 日起，將批准此類選票議案所需的投票比例從多數（超過 50%)提高到三分之二。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "由於某些稅種的投票門檻加高，所以未來當地政府的稅收收入增加可能不如原先預期那麼多。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "California Taxpayers Association; Family Business Association of California; California Hispanic Chambers of Commerce",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "California Professional Firefighters; California Federation of Teachers; Nurse Alliance of SEIU CA.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "投票贊成本議案表示：部分地方政府稅案必須獲得三分之二選民同意，才能通過。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "投票反對本議案表示：部分地方政府稅案將繼續只須獲得過半數選民同意，即可通過。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "提案 43 恢復提案 13 的規定，要求地方特別稅，包括銷售稅、不動產稅及公用事業稅，必須獲得三分之二選票同意才能通過，以保護納稅人。法院已允許特殊利益團體以較少的贊成投票，通過指定用途的增稅案。提案 43 將堵住這項漏洞，保護納稅人、屋主及租屋族。請投票贊成。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "提案 43 限制選民為地方必要服務提供資金的能力，包括消防、911 緊急應變、學校、道路、醫院及可負擔住宅。此案不會減輕您的稅負，卻讓僅占 33.4% 的選民得以否決近 67%選民的意願。捍衛您的投票權與多數決原則。請投票反對提案 43。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop43-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop43-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-44",
+    "language": "zh",
+    "title": {
+      "text": "要求社區醫療診所將收入的 90% 用於方案服務。",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+      "source_label": "官方選民資訊指南: 快速參考指南",
+      "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+      "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+      "fetched_at": "2026-10-28T07:25:41Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "倡議法規。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "如果非營利聯邦合格醫療中心（向醫療資源不足的地區和人群提供基本照護的社區診所）未能將收入的90%用於慈善目的之「方案服務」，包括但不限於病患服務，則對其予以處罰。在某些特殊情況下，公共衛生部可能會免除開銷要求。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "州政府的成本每年增加數千萬美元，由相應費用承擔。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "未提交",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "American Academy of Pediatrics CA; CA School Nurses Org; CA Academy of Family Physicians; CA Medical Assoc.",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "投票贊成本議案表示：部分私立非營利醫療診所必須每年將至少 90% 的收入用於提供醫療照護服務。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "投票反對本議案表示：醫療診所支出的新規定將不會生效。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "提案 44 要求社區診所及其主管承擔責任，規定診所必須將 90% 的收入用於其公益使命：病患照護及支援照護所需的服務。此案將提高透明度、減少高階主管的浪費性支出，並確保醫療資金用於應有的用途：照護有需要的 California 居民。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "提案 44 是一項危險的措施，將導致數百家社區醫療診所關閉，讓數百萬名 California 居民失去重要的病患服務。美國兒科學會 CA 分會、California 醫學會、California 家庭醫生學會、California 學校護士組織，以及醫生、護士和病患呼籲反對第 44 號提案！www.NOProp44.com",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop44-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop44-arg-rebuttals.pdf"
+    }
+  },
+  {
+    "translation_of": "prop-45",
+    "language": "zh",
+    "title": {
+      "text": "修改對某些項目的環境審核。",
+      "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+      "source_label": "官方選民資訊指南: 快速參考指南",
+      "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+      "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+      "fetched_at": "2026-10-28T07:25:41Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "fields": {
+      "measure_type": {
+        "text": "倡議法規。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "summary": {
+        "text": "修改《California 環境質量法》(CEQA)，規定完成環境審核的截止日期並解決質疑項目批准的訴訟，加快某些項目的環境審核（包括大部份住房、交通、水務和衛生項目）。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "fiscal_effect": {
+        "text": "州和當地政府每年的初始成本可能達到數千萬美元的高位區間，甚至可能超過 1億美元，部份由相應費用承擔。長期的影響不確定，有可能存在更顯著的長期正面或負面財政影響。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "supporters": {
+        "text": "California Children’s Hospital Association; California Water Association; California Council for Affordable Housing",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "opponents": {
+        "text": "Coalition for Clean Air; CA Environmental Voters; Physicians for Social Responsibility, LA; National Wildlife Federation",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "yes_means": {
+        "text": "投票贊成本議案表示：部分公共及私有開發案將可適用新的開發案審查及司法爭訟程序。例如，新程序將縮短環境審查的時限，並限縮法院審理相關訴訟時可審酌的範圍。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "no_means": {
+        "text": "投票反對本議案表示：公共及私有開發案將繼續適用現行的開發案審查及司法爭訟程序。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_for": {
+        "text": "失靈的現行制度，正讓 California 的生活成本變得難以負擔。提案 45 將在維持 California 嚴格環境保護標準的同時，減少繁文縟節，加速推動住宅、供水、學校、醫院、潔淨能源及野火防治建設，修正失靈的制度，降低高昂的生活成本。請投票贊成，讓 California 的生活負擔更小一些。YESonProp45.com",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "argument_against": {
+        "text": "提案 45 限制對您社區內建設項目進行的環境審查及公眾審查。此案掏空《California 環境品質法》，扭轉了 California 法律的保護重點，讓企業利潤凌駕公共衛生、空氣與水質之上。提案 45 不會降低您的負擔：資助此案的公用事業與企業資金提供方將從中獲利，納稅人卻得付出更多。請投票反對。",
+        "source_url": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/quick-reference-guide.pdf",
+        "source_label": "官方選民資訊指南: 快速參考指南",
+        "source_snapshot": "data/raw/objects/f7/f756a9a194ed1364b4033f5c1dc94a5d3f55d4db4da8d8c4497ed33b9f346aae",
+        "raw_sha256": "0222b1a6246d79b227096a8715d93190ff6233b999bcd667bf4b20bc5b745c2a",
+        "fetched_at": "2026-10-28T07:25:41Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    },
+    "documents": {
+      "analysis": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop45-title-summ-analysis.pdf",
+      "arguments": "https://vig.cdn.sos.ca.gov/2026/general/ch/pdf/prop45-arg-rebuttals.pdf"
+    }
+  }
+]
