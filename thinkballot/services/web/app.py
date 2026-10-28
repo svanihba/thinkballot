@@ -54,6 +54,7 @@ def create_app():
     bias = ServiceClient("bias")
     search_svc = ServiceClient("search")
     community = ServiceClient("community")
+    results_svc = ServiceClient("results")
 
     # ---------- sign-in state and form protection ----------
     def current_user():
@@ -93,6 +94,14 @@ def create_app():
         if not election:  # no data loaded yet
             abort(503)
         return election, listing["measures"]
+
+    def load_results():
+        """Official results, or None (before election night, or if the results service is down)."""
+        try:
+            res = results_svc.get("/results")
+        except ServiceError:
+            return None
+        return res if res and res.get("available") else None
 
     @app.get("/api/health")
     def health():
@@ -134,7 +143,8 @@ def create_app():
                          or "county" in m["district"].lower() or "transit" in m["district"].lower()]
                 local = {"county": place["county"], "yours": yours,
                          "maybe": [m for m in rows if m not in yours]}
-        return render_template("ballot.html", election=election, measures=measures, place=place, local=local)
+        return render_template("ballot.html", election=election, measures=measures, place=place, local=local,
+                               results=load_results())
 
     @app.url_value_preprocessor
     def check_measure_id(_endpoint, values):
@@ -162,8 +172,9 @@ def create_app():
             zone = community.get(f"/measures/{measure_id}", viewer=u["id"] if u else None)
         except ServiceError:
             zone = None  # the official card still works if the community service is down
+        results = load_results() if measure["level"] == "state" else None
         return render_template("measure.html", election=election, m=measure, sources=sources, chip=chip,
-                               zone=zone)
+                               zone=zone, results=results)
 
     @app.post("/api/ask")
     def api_ask():
