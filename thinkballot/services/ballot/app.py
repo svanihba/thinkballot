@@ -29,15 +29,15 @@ def create_app(db_path=None):
 
     @app.get("/measures")
     def measures():
-        """?level=state|local and ?county=Santa Clara filter the list."""
-        rows = db.list_measures(conn())
+        """?level=state|local and ?county=Santa Clara filter the list; ?lang=es|zh gives official translations."""
+        rows = db.list_measures(conn(), request.args.get("lang"))
         level, county = request.args.get("level"), request.args.get("county")
         rows = [m for m in rows if (not level or m["level"] == level) and (not county or m["county"] == county)]
         return jsonify(measures=rows)
 
     @app.get("/measures/<measure_id>")
     def measure(measure_id):
-        m = db.get_measure(conn(), measure_id)
+        m = db.get_measure(conn(), measure_id, request.args.get("lang"))
         if not m:
             abort(404, "Unknown measure.")
         return jsonify(m)

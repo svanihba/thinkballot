@@ -39,7 +39,28 @@ CREATE TABLE IF NOT EXISTS field (
     note TEXT,                     -- e.g. "Text read from a scanned official PDF"
     PRIMARY KEY (measure_id, name)
 );
+-- Official translations (the Secretary of State's Spanish and Chinese guides): the same fields, word for
+-- word from the translated guide, plus the translated title and links to its PDFs. A field with no
+-- official translation is simply absent and the page shows the English text with a note.
+CREATE TABLE IF NOT EXISTS translation (
+    measure_id TEXT NOT NULL REFERENCES measure(id),
+    lang TEXT NOT NULL,            -- "es", "zh"
+    name TEXT NOT NULL,            -- "title" or a field name
+    text TEXT NOT NULL,
+    source_url TEXT NOT NULL,
+    source_label TEXT NOT NULL,
+    PRIMARY KEY (measure_id, lang, name)
+);
+CREATE TABLE IF NOT EXISTS translation_doc (
+    measure_id TEXT NOT NULL REFERENCES measure(id),
+    lang TEXT NOT NULL,
+    kind TEXT NOT NULL,            -- "analysis", "arguments": the translated guide's PDF for that section
+    url TEXT NOT NULL,
+    PRIMARY KEY (measure_id, lang, kind)
+);
 """
+
+LANGS = ("es", "zh")
 
 
 def connect(path=None):
@@ -66,6 +87,8 @@ def connect_readonly(path=None):
 def replace_all(conn, election, measures):
     """Replace the whole dataset in one transaction (used by the seed script)."""
     with conn:
+        conn.execute("DELETE FROM translation")
+        conn.execute("DELETE FROM translation_doc")
         conn.execute("DELETE FROM field")
         conn.execute("DELETE FROM measure")
         conn.execute("DELETE FROM election")
@@ -87,6 +110,14 @@ def replace_all(conn, election, measures):
                         "INSERT INTO field (measure_id, name, text, source_url, source_label, note) "
                         "VALUES (?, ?, ?, ?, ?, ?)",
                         (m["id"], name, f["text"], f["source_url"], f["source_label"], f.get("source_note")))
+            for lang, tr in m.get("translations", {}).items():
+                for name, f in [("title", tr["title"])] + [(n, tr["fields"][n]) for n in FIELDS if n in tr["fields"]]:
+                    conn.execute(
+                        "INSERT INTO translation (measure_id, lang, name, text, source_url, source_label) "
+                        "VALUES (?, ?, ?, ?, ?, ?)", (m["id"], lang, name, f["text"], f["source_url"], f["source_label"]))
+                for kind, url in tr.get("documents", {}).items():
+                    conn.execute("INSERT INTO translation_doc (measure_id, lang, kind, url) VALUES (?, ?, ?, ?)",
+                                 (m["id"], lang, kind, url))
 
 
 def election(conn):
@@ -94,17 +125,43 @@ def election(conn):
     return dict(row) if row else None
 
 
-def list_measures(conn):
+def _translations(conn, lang, measure_id=None):
+    """{measure_id: {name: field}} of the official translation into lang (empty for English)."""
+    if lang not in LANGS:
+        return {}
+    sql, args = "SELECT * FROM translation WHERE lang = ?", [lang]
+    if measure_id:
+        sql, args = sql + " AND measure_id = ?", args + [measure_id]
+    out = {}
+    for r in conn.execute(sql, args):
+        out.setdefault(r["measure_id"], {})[r["name"]] = {
+            "text": r["text"], "source_url": r["source_url"], "source_label": r["source_label"], "lang": lang}
+    return out
+
+
+def list_measures(conn, lang=None):
+    tr = _translations(conn, lang)
     rows = conn.execute(
         "SELECT m.id, m.number, m.title, m.topics, m.level, m.county, m.district, "
         "COALESCE(f.text, q.text) AS summary, t.text AS measure_type FROM measure m "
         "LEFT JOIN field q ON q.measure_id = m.id AND q.name = 'ballot_question' "
         "LEFT JOIN field f ON f.measure_id = m.id AND f.name = 'summary' "
         "LEFT JOIN field t ON t.measure_id = m.id AND t.name = 'measure_type' ORDER BY m.position").fetchall()
-    return [dict(r, topics=json.loads(r["topics"])) for r in rows]
+    out = []
+    for r in rows:
+        m = dict(r, topics=json.loads(r["topics"]))
+        t = tr.get(m["id"], {})
+        m["translated"] = sorted(n for n in ("title", "summary", "measure_type") if n in t)
+        for name in m["translated"]:  # official translation where there is one; English otherwise
+            m[name] = t[name]["text"]
+        out.append(m)
+    return out
 
 
-def get_measure(conn, measure_id):
+def get_measure(conn, measure_id, lang=None):
+    """A measure with its official fields. With lang ("es", "zh"), each field that has an official
+    translation is replaced by it (marked "lang"); the others stay English. "translation" lists the
+    translated field names and the translated guide's PDFs."""
     row = conn.execute("SELECT * FROM measure WHERE id = ?", (measure_id,)).fetchone()
     if not row:
         return None
@@ -113,11 +170,21 @@ def get_measure(conn, measure_id):
                     "note": r["note"]}
         for r in conn.execute("SELECT * FROM field WHERE measure_id = ?", (measure_id,))
     }
+    tr = _translations(conn, lang, measure_id).get(measure_id, {})
+    title, title_url = row["title"], row["title_source_url"]
+    if "title" in tr:
+        title, title_url = tr["title"]["text"], tr["title"]["source_url"]
+    for name, f in tr.items():
+        if name in fields:
+            fields[name] = f
+    docs = {r["kind"]: r["url"] for r in conn.execute(
+        "SELECT kind, url FROM translation_doc WHERE measure_id = ? AND lang = ?", (measure_id, lang))} if tr else {}
     return {
+        "translation": {"lang": lang, "fields": sorted(tr), "documents": docs} if lang in LANGS else None,
         "id": row["id"],
         "number": row["number"],
-        "title": row["title"],
-        "title_source_url": row["title_source_url"],
+        "title": title,
+        "title_source_url": title_url,
         "topics": json.loads(row["topics"]),
         "arguments_url": row["arguments_url"],
         "level": row["level"], "county": row["county"], "district": row["district"],
