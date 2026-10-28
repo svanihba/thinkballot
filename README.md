@@ -79,6 +79,36 @@ echo "OPENROUTER_API_KEY=your-key" > .env      # for Ask; use TB_AI_PROVIDER=stu
 
 To make an account a moderator: `.venv/bin/python scripts/make_moderator.py <email>`.
 
+### Prepared answers to the suggested questions
+
+The suggested questions under every Ask box are answered in advance, so they come back at once. Only those
+fixed questions are ever stored (in `ask_cache.sqlite3`, next to the community database); a question a
+voter types is never stored. Each prepared answer is keyed by the measure, the question, a SHA-256 of the
+official text sent to the model, and both models; the Bias Buster version is stored with it. When any of
+these change, the old answer is simply not used. Every time one is shown, Bias Buster re-checks its quotes
+word for word against the current official text (no AI), and the page says it was prepared in advance.
+A prepared answer counts against the per-visitor limit, but not against the site-wide AI limit.
+
+Answers are kept as voters ask, and `scripts/warm_ask_cache.py` prepares the rest: one question at a time,
+in-process (no HTTP, no rate limits), skipping those already prepared, so it can be stopped and re-run.
+Blocked answers and errors are not kept. It stops after 5 errors in a row (e.g. the model's daily limit);
+run it again later. Locally: `.venv/bin/python scripts/warm_ask_cache.py`.
+
+On the server, after a deploy that changes official text or models, run it as the service account, with the
+release's venv and the service's env file (the same `/path/to/service.env` that systemd loads, so it reads
+the same API key, never printed). From your laptop:
+
+```
+ssh the deploy account@the server 'cd / && sudo -n -u thinkballot bash -c "cd /opt/thinkballot/current && nohup .venv/bin/python scripts/warm_ask_cache.py --env-file /path/to/service.env >> /var/lib/thinkballot/warm_ask_cache.log 2>&1 &"'
+ssh the deploy account@the server 'sudo -n -u thinkballot tail -n 5 /var/lib/thinkballot/warm_ask_cache.log'
+```
+
+Expected: one line per question, `warm measure=<id> q=<n> status=answered|refused|blocked|cached <s> s`,
+ending with `warm done: 0 question(s) still without a prepared answer` (about 1 to 2 hours for every
+measure; a non-zero count means run it again). Stop it:
+`ssh the deploy account@the server 'sudo -n -u thinkballot pkill -f warm_ask_cache.py'`. Undo (the site then answers
+every question live): `ssh the deploy account@the server 'sudo -n -u thinkballot rm -f /var/lib/thinkballot/ask_cache.sqlite3 /var/lib/thinkballot/ask_cache.sqlite3-wal /var/lib/thinkballot/ask_cache.sqlite3-shm'`.
+
 ## Data sources
 
 - California Secretary of State, Official Voter Information Guide, November 3, 2026:
