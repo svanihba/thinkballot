@@ -19,9 +19,9 @@ from pathlib import Path
 from markupsafe import Markup
 
 LANGS = {
-    "en": {"html": "en", "name": "English", "og": "en_US", "hreflang": "en"},
-    "es": {"html": "es", "name": "Español", "og": "es_US", "hreflang": "es"},
-    "zh": {"html": "zh-Hant", "name": "中文", "og": "zh_TW", "hreflang": "zh-Hant"},
+    "en": {"html": "en", "name": "English", "short": "EN", "og": "en_US", "hreflang": "en"},
+    "es": {"html": "es", "name": "Español", "short": "ES", "og": "es_US", "hreflang": "es"},
+    "zh": {"html": "zh-Hant", "name": "中文", "short": "中文", "og": "zh_TW", "hreflang": "zh-Hant"},
 }
 DEFAULT = "en"
 PREFIX_RE = re.compile(r"^/(es|zh)(/.*)?$")

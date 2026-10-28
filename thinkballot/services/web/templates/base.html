@@ -43,7 +43,7 @@
     {% endif %}
   </nav>
   <nav class="lang-switch" aria-label="{{ _a('Language') }}">
-    {% for l in languages %}{% if not loop.first %}<span class="sep" aria-hidden="true">·</span>{% endif %}<a href="{{ l.href }}" hreflang="{{ l.hreflang }}" lang="{{ l.html }}"{% if l.current %} aria-current="true"{% endif %}>{{ l.name }}</a>{% endfor %}
+    {% for l in languages %}{% if not loop.first %}<span class="sep" aria-hidden="true">·</span>{% endif %}<a href="{{ l.href }}" hreflang="{{ l.hreflang }}" lang="{{ l.html }}"{% if l.current %} aria-current="true"{% endif %} aria-label="{{ l.name }}"><span class="lang-full">{{ l.name }}</span><span class="lang-short" aria-hidden="true">{{ l.short }}</span></a>{% endfor %}
   </nav>
 </div></header>
 
