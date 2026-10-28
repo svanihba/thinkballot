@@ -50,6 +50,7 @@ JS_STRINGS = {
     "working_label": "Processing your question", "processing": "Processing…", "seconds": "s",
     "too_long": "That took too long. Please try again.",
     "offline": "Couldn't reach ThinkBallot. Check your connection.",
+    "zip_unknown": "Please choose a California ZIP code from the list.",
 }
 
 
@@ -273,6 +274,16 @@ def create_app():
         results = load_results() if measure["level"] == "state" else None
         return render_template("measure.html", election=election, m=measure, sources=sources, chip=chip,
                                zone=zone, results=results)
+
+    @app.get("/api/zips")
+    def api_zips():
+        try:
+            result = geo.get("/zips")
+        except ServiceError:
+            abort(503)
+        resp = jsonify(result)
+        resp.headers["Cache-Control"] = "public, max-age=86400"
+        return resp
 
     @app.post("/api/ask")
     def api_ask():

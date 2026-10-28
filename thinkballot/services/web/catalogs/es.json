@@ -263,6 +263,7 @@
   "veterans": "veteranos",
   "voter ID": "identificación del votante",
   "libraries": "bibliotecas",
-  "parks": "parques"
+  "parks": "parques",
+  "Please choose a California ZIP code from the list.": "Elige un código postal de California de la lista."
  }
 }

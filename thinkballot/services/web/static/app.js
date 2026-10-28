@@ -221,6 +221,48 @@ function initAsk() {
   }));
 }
 
+/* ---------- ZIP code box ---------- */
+/* Suggests the ZIP codes ThinkBallot has districts for (loaded on first use) and accepts only those.
+   The server checks again, so the box still works without this code. */
+function initZipBox() {
+  const input = document.querySelector("input[name=zip][list]");
+  if (!input) return;
+  const list = document.getElementById(input.getAttribute("list"));
+  let known = null, loading = null;
+  const load = () => loading || (loading = fetch(input.dataset.zips)
+    .then((r) => (r.ok ? r.json() : Promise.reject()))
+    .then((data) => {
+      known = new Set(data.zips.map(([zip]) => zip));
+      const frag = document.createDocumentFragment();
+      data.zips.forEach(([zip, city]) => {
+        const o = document.createElement("option");
+        o.value = zip;
+        o.label = city;
+        frag.appendChild(o);
+      });
+      list.appendChild(frag);
+    })
+    .catch(() => { loading = null; }));  // leave checking to the server; try again next time
+  const check = () => {
+    const v = input.value.trim();
+    input.setCustomValidity(known && v.length === 5 && !known.has(v) ? t("zip_unknown") : "");
+  };
+  input.addEventListener("focus", load, { once: true });
+  input.addEventListener("input", () => {
+    input.value = input.value.replace(/\D/g, "").slice(0, 5);
+    load();
+    check();
+  });
+  input.form.addEventListener("submit", (e) => {
+    const v = input.value.trim();
+    if (known && !known.has(v)) {
+      e.preventDefault();
+      input.setCustomValidity(t("zip_unknown"));
+      input.reportValidity();
+    }
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   // Choosing a proposition on the Ask page reloads it for that proposition (no inline handlers: CSP).
   document.querySelectorAll("select.autosubmit").forEach((s) => s.addEventListener("change", () => s.form.submit()));
@@ -232,4 +274,5 @@ document.addEventListener("DOMContentLoaded", () => {
   paintProgress();
   initShare();
   initAsk();
+  initZipBox();
 });

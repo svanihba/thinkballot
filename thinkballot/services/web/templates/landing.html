@@ -9,7 +9,8 @@
     <input type="hidden" name="csrf" value="{{ csrf_token() }}">
     <input type="text" name="zip" placeholder="{{ _a('California ZIP code') }}" aria-label="{{ _a('Your California ZIP code') }}"
       inputmode="numeric" pattern="[0-9]{5}" maxlength="5" autocomplete="postal-code" enterkeyhint="go"
-      title="{{ _a('5 digits, like 94087') }}" required>
+      title="{{ _a('5 digits, like 94087') }}" list="zip-list" data-zips="{{ lp('/api/zips') }}" required>
+    <datalist id="zip-list"></datalist>
     <button class="btn" type="submit">{{ _("See my ballot") }}</button>
   </form>
   <form method="post" action="{{ lp('/ballot') }}" class="sample-form">
