@@ -8,12 +8,24 @@ fetched, and whether the crawler or a supervised browser capture fetched it.
 
 import importlib
 import json
+import subprocess
 import sys
 
 from ..rawstore import ROOT, RawStore, load_sources
 
 ELECTION = {"id": "ca-2026-11-03", "name": "November 3, 2026 California General Election", "date": "2026-11-03"}
 OUT_DIR = ROOT / "data" / "extracted"
+
+
+def is_pdf(page):
+    return "pdf" in (page["content_type"] or "") or page["body"][:5] == b"%PDF-"
+
+
+def pdf_text(body):
+    """Text of a PDF in reading order (poppler's pdftotext), one line per line, single spaces."""
+    out = subprocess.run(["pdftotext", "-enc", "UTF-8", "-", "-"], input=body, capture_output=True, check=True)
+    lines = (" ".join(line.split()) for line in out.stdout.decode("utf-8").split("\n"))
+    return "\n".join(line for line in lines if line)
 
 
 def main(argv):
@@ -28,13 +40,21 @@ def main(argv):
             print(f"{sid}: nothing in the raw store yet - skipped")
             continue
         pages = {url: dict(row, body=store.read(row["sha256"])) for url, row in rows.items()}
+        for page in pages.values():  # PDFs: extract and verify against one saved text version
+            if is_pdf(page):
+                page["text"] = pdf_text(page["body"])
+                page["text_sha256"] = store.put(page["text"].encode("utf-8"))
 
         def field(text, url, label, _pages=pages):
             row = _pages[url]
-            return {"text": text, "source_url": url, "source_label": label,
-                    "source_snapshot": str(store.object_path(row["sha256"]).relative_to(ROOT)),
-                    "raw_sha256": row["sha256"], "fetched_at": row["fetched_at"],
-                    "fetched_by": row["run_kind"]}
+            snapshot = row.get("text_sha256") or row["sha256"]
+            entry = {"text": text, "source_url": url, "source_label": label,
+                     "source_snapshot": str(store.object_path(snapshot).relative_to(ROOT)),
+                     "raw_sha256": row["sha256"], "fetched_at": row["fetched_at"],
+                     "fetched_by": row["run_kind"]}
+            if row.get("text_sha256"):
+                entry["snapshot_kind"] = "pdf-text"
+            return entry
 
         module = importlib.import_module(f"pipeline.extract.{src['extractor']}")
         try:

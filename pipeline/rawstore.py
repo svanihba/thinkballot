@@ -117,5 +117,10 @@ class RawStore:
 
 
 def load_sources(path=None):
+    """pipeline/sources.json plus one file per source in pipeline/sources.d/ (so sources can be added
+    without editing a shared file)."""
     data = json.loads(Path(path or ROOT / "pipeline" / "sources.json").read_text())
-    return {s["id"]: s for s in data["sources"]}
+    sources = list(data["sources"])
+    if path is None:
+        sources += [json.loads(f.read_text()) for f in sorted((ROOT / "pipeline" / "sources.d").glob("*.json"))]
+    return {s["id"]: s for s in sources}

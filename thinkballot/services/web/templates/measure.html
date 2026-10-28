@@ -27,11 +27,13 @@
   {% if m.level == "local" %}
   <h2>{{ headings.ballot_question }}</h2>
   <blockquote class="ballot-question">{{ m.fields.ballot_question.text }} {{ src(m.fields.ballot_question) }}</blockquote>
-  <p class="hint">Vote YES or NO on the question exactly as printed. {{ m.fields.measure_type.text }}.</p>
+  <p class="hint">Vote YES or NO on the question exactly as printed.{% if m.fields.measure_type %} {{ m.fields.measure_type.text }}.{% endif %}</p>
+  {% if m.documents %}
   <h2>Official documents</h2>
   <p class="hint">The county publishes the impartial analysis and the arguments for and against as PDFs. ThinkBallot
     links them as published; it doesn't summarize them.</p>
   <ul class="docs">{% for d in m.documents %}<li><a href="{{ d.url }}" target="_blank" rel="noopener">{{ d.label }}</a></li>{% endfor %}</ul>
+  {% endif %}
   {% else %}
   <div class="yesno">
     <div><h4>{{ headings.yes_means }}</h4>{{ field("yes_means") }}</div>
