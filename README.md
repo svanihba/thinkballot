@@ -81,6 +81,58 @@ echo "OPENROUTER_API_KEY=your-key" > .env      # for Ask; use TB_AI_PROVIDER=stu
 
 To make an account a moderator: `.venv/bin/python scripts/make_moderator.py <email>`.
 
+### Email verification
+
+A new account stays disabled until its owner confirms the email address. Sign-up sends one plain-text email
+with a link (`/verify?t=...`) and a 6-digit passcode; the link opens a page that asks for the passcode, and
+only the two together confirm the account and sign the person in. They work once, for 30 minutes, and five
+wrong passcodes end the link. Until then the account can't sign in, comment, flag, submit or rate facts;
+signing in with the right password offers "Send a new verification email" instead. Only hashes are stored:
+SHA-256 of the link's token, and an HMAC of the passcode keyed with that token (never stored), so a copy
+of the database can't be used to guess passcodes offline. Accounts never confirmed are removed after two
+days. Accounts created before verification existed count as verified.
+
+Sign-up answers the same whether or not the email already has an account, and in that case sends nothing
+(no mail to someone who didn't ask for it; the owner can simply sign in). Limits: 5 sign-ups per hour per
+visitor, 3 verification emails per hour per account and per visitor, and `TB_MAIL_HOURLY_CAP` emails per
+hour for the whole site.
+
+Settings (environment variables; values never go in the repository):
+
+| Variable | Meaning |
+|---|---|
+| `TB_MAIL_BACKEND` | `smtp` to send; `file` for development (writes each message to `TB_MAIL_DIR`, default `instance/mail/`, so you can open the link); `none` (default) sends nothing and sign-up says "Sign-up is temporarily unavailable" |
+| `TB_SMTP_HOST`, `TB_SMTP_PORT` | The provider's SMTP server; port 587 (STARTTLS, required) or 465 (TLS) |
+| `TB_SMTP_USER`, `TB_SMTP_PASSWORD` | The provider's SMTP credentials (the password is never logged) |
+| `TB_MAIL_FROM` | Sender, e.g. `ThinkBallot <noreply@your-domain>`; must be a domain the provider is set up to send for |
+| `TB_MAIL_TIMEOUT`, `TB_MAIL_HOURLY_CAP` | Optional: seconds per SMTP attempt (default 15), site-wide emails per hour (default 100) |
+
+The link uses `TB_PUBLIC_URL`. Each send logs one line with the recipient masked (`a***@example.com`),
+never the link, the passcode or the password. A failed send is retried once.
+
+Locally: `TB_MAIL_BACKEND=file` in `.env`, sign up, then open the newest file in `instance/mail/`.
+
+To turn it on for the live site (operator only; the site keeps sign-up closed until this is done):
+
+1. Choose an email provider that offers SMTP and set it up to send for the site's domain. In the domain's
+   DNS, add the records the provider gives you: an SPF record (a TXT record on the sending domain that
+   includes the provider), the DKIM record(s) (usually TXT or CNAME under `<selector>._domainkey`), and
+   ideally a DMARC record (`_dmarc` TXT, starting with `p=none`). Wait until the provider shows the domain
+   as verified. Undo: remove those records.
+2. Add the settings to the service's environment file yourself (never paste them into chat):
+
+   ```
+   ssh -t the deploy account@the server 'sudoedit /path/to/service.env'
+   # add: TB_MAIL_BACKEND=smtp, TB_SMTP_HOST=..., TB_SMTP_PORT=587, TB_SMTP_USER=...,
+   #      TB_SMTP_PASSWORD=..., TB_MAIL_FROM=ThinkBallot <noreply@...>
+   ssh the deploy account@the server 'sudo -n /usr/bin/systemctl restart thinkballot-web.service'
+   ```
+
+   Expected: `curl -fsS https://demo.thinkballot.com/api/health` prints `{"status":"ok"}`; signing up with
+   your own address brings the email within a minute, and `the service log` shows a
+   `mail backend=smtp to=x***@... sent` line. Undo: set `TB_MAIL_BACKEND=none` (or remove the lines) and
+   restart; sign-up closes again and existing accounts keep working.
+
 ### Prepared answers to the suggested questions
 
 The suggested questions under every Ask box are answered in advance, so they come back at once. Only those
@@ -135,7 +187,7 @@ every question live): `ssh the deploy account@the server 'sudo -n -u thinkballot
 - County, city and school district measures, starting with Santa Clara County.
 - Candidate races with equal, sourced candidate cards.
 - Exact districts from an official address lookup instead of ZIP codes.
-- Email verification and notifications for starred propositions.
+- Email notifications for starred propositions.
 - More languages: the official guide is published in ten.
 
 ## License
