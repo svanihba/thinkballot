@@ -39,6 +39,9 @@ REPORT_PATH = Path(_env("TB_REPORT_PATH", str(ROOT / "reports" / "bias-report.js
 RATE_DB_PATH = Path(_env("TB_RATE_DB_PATH", str(ROOT / "instance" / "ratelimit.sqlite3")))
 # The community service keeps its own database, so it can never change the official data.
 COMMUNITY_DB_PATH = Path(_env("TB_COMMUNITY_DB_PATH", str(ROOT / "instance" / "community.sqlite3")))
+# Answers to the suggested questions, prepared in advance (never typed questions). Writable state,
+# so it lives next to the community database.
+ASK_CACHE_PATH = Path(_env("TB_ASK_CACHE_PATH", str(COMMUNITY_DB_PATH.parent / "ask_cache.sqlite3")))
 ZIP_TABLE_PATH = Path(_env("TB_ZIP_TABLE", str(ROOT / "data" / "zip_districts.json")))
 
 # AI provider: "openrouter" for real calls, "stub" for offline development and tests.

@@ -7,6 +7,7 @@ from flask import Flask, abort, flash, jsonify, redirect, render_template, reque
 
 from ... import config, ratelimit
 from ...servicekit import ServiceClient, ServiceError
+from ...suggested import SUGGESTED_QUESTIONS
 
 SAMPLE_ADDRESS = "Mango Park, Sunnyvale, 94087"
 MEASURE_ID_RE = re.compile(r"^(prop|local)-[a-z0-9-]{1,24}$")
@@ -27,14 +28,6 @@ FIELD_HEADINGS = {
     "district": "Jurisdiction",
     "ballot_question": "The question on your ballot",
 }
-
-
-# Starter questions shown as buttons next to every Ask box. Checked by Bias Buster in the seed script.
-SUGGESTED_QUESTIONS = [
-    "What would change if this passes?",
-    "What does it cost the state?",
-    "What do supporters and opponents say?",
-]
 
 
 CSP = ("default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; "

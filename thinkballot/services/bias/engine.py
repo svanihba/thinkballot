@@ -18,6 +18,10 @@ from . import checks
 
 log = logging.getLogger("thinkballot.bias")
 
+# Bump when the checks or the review prompt change: answers prepared in advance under an older
+# version are then no longer used.
+BIAS_VERSION = "1"
+
 REVIEW_SYSTEM = """You are the neutrality reviewer for ThinkBallot, a nonpartisan California ballot guide.
 You receive OFFICIAL SOURCE passages and an ANSWER made of points. Each point has a "claim" and the
 "quote" from the official source that supports it.
