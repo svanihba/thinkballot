@@ -15,6 +15,7 @@ import tempfile
 from pathlib import Path
 
 from ..rawstore import ROOT, RawStore, load_sources
+from . import pdf_cid
 
 ELECTION = {"id": "ca-2026-11-03", "name": "November 3, 2026 California General Election", "date": "2026-11-03"}
 OUT_DIR = ROOT / "data" / "extracted"
@@ -121,7 +122,7 @@ def main(argv):
     store = RawStore()
     sources = load_sources()
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    all_measures, failures = [], 0
+    all_measures, translations, failures = [], [], 0
     for sid in argv or list(sources):
         src = sources[sid]
         rows = store.latest_pages(sid)
@@ -146,6 +147,11 @@ def main(argv):
                 page["text"], page["corrections"] = apply_corrections(text, url, corrections)
                 page["text_sha256"] = store.put(page["text"].encode("utf-8"))
                 page["ocr"] = True
+            elif is_pdf(page) and src.get("pdf_reader") == "content":
+                # Read from the content stream by pdf_cid (fonts without Unicode tables, e.g. the Chinese
+                # guide); the saved text is that reading.
+                page["text"] = pdf_cid.pdf_text(page["body"])
+                page["text_sha256"] = store.put(page["text"].encode("utf-8"))
             elif is_pdf(page):
                 page["text"] = pdf_text(page["body"])
                 saved = page["text"]
@@ -185,8 +191,19 @@ def main(argv):
             failures += 1
             continue
         (OUT_DIR / f"{sid}.json").write_text(json.dumps(measures, indent=2, ensure_ascii=False) + "\n")
+        if src.get("translation_of"):  # official translations attach to the measures they translate
+            print(f"{sid}: {len(measures)} translated measures from {len(pages)} raw pages")
+            translations += measures
+            continue
         print(f"{sid}: {len(measures)} measures from {len(pages)} raw pages")
         all_measures += measures
+    by_id = {m["id"]: m for m in all_measures}
+    for t in translations:
+        if t["translation_of"] not in by_id:
+            print(f"translation of unknown measure {t['translation_of']} - skipped")
+            continue
+        by_id[t["translation_of"]].setdefault("translations", {})[t["language"]] = {
+            k: v for k, v in t.items() if k not in ("translation_of", "language")}
     if failures:
         print("Not writing data/measures.json: an extractor failed.")
         return 1

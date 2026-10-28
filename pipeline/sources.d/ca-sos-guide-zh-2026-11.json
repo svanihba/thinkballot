@@ -1,0 +1,14 @@
+{
+  "id": "ca-sos-guide-zh-2026-11",
+  "jurisdiction": {"level": "state", "name": "California"},
+  "election": "2026-11-03",
+  "language": "zh-Hant",
+  "translation_of": "ca-sos-guide-2026-11",
+  "seeds": ["https://voterguide.sos.ca.gov/ch/pdf/"],
+  "allow": ["^https://vig\\.cdn\\.sos\\.ca\\.gov/2026/general/ch/pdf/(prop\\d+-(title-summ-analysis|arg-rebuttals)|quick-reference-guide)\\.pdf$"],
+  "max_depth": 1,
+  "delay_seconds": 1,
+  "extractor": "ca_sos_guide_translated",
+  "pdf_reader": "content",
+  "note": "The Secretary of State's official Chinese translation of the Official Voter Information Guide. The web guide is English only; the translation is published as one PDF per proposition section, linked from /ch/pdf/."
+}

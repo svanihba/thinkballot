@@ -83,6 +83,8 @@ def main(path, live=False):
 
     for m in data["measures"]:
         entries = [("title", m["title"])] + list(m["fields"].items())
+        for lang, tr in sorted(m.get("translations", {}).items()):  # official translations: verified the same way
+            entries += [(f"{lang}:title", tr["title"])] + [(f"{lang}:{k}", v) for k, v in tr["fields"].items()]
         for name, entry in entries:
             source = page_text(entry, cache, live)
             v = bias.post("/check/text", {"text": entry["text"], "sources": [source], "mode": "verify"})
@@ -94,7 +96,7 @@ def main(path, live=False):
             if v["verdict"] != "pass":
                 failures += 1
                 print(f"VERIFY FAIL {m['id']}.{name}: not found word for word on {entry['source_url']}")
-            if name == "title":
+            if name == "title" or ":" in name:  # the audit's word lists are English
                 continue
             sides = None
             if name == "yes_means":

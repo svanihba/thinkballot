@@ -19,9 +19,20 @@ _QUOTES = str.maketrans({"‘": "'", "’": "'", "“": '"', "”": '"',
                          "–": "-", "—": "-", " ": " "})
 
 
+# CJK characters (ideographs, kana, CJK and full-width punctuation) are written without spaces, so a line
+# break or space next to one carries no meaning and is dropped when comparing text.
+_CJK = ("\u2e80-\u2fff\u3000-\u303f\u3040-\u30ff\u3100-\u312f\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff"
+        "\ufe30-\ufe4f\uff00-\uffef")
+_CJK_SPACE = re.compile(f"\\s+(?=[{_CJK}])|(?<=[{_CJK}])\\s+")
+_CJK_CHAR = re.compile(f"[{_CJK}]")
+_NOT_AFTER_WORD = f"(?<![^\\W{_CJK}])(?<!\\$)"
+_NOT_BEFORE_WORD = f"(?![^\\W{_CJK}])"
+
+
 def normalize(text):
-    """Lower-case, straighten quotes and dashes, collapse whitespace."""
-    return re.sub(r"\s+", " ", (text or "").translate(_QUOTES)).strip().lower()
+    """Lower-case, straighten quotes and dashes, collapse whitespace (none next to CJK characters)."""
+    text = re.sub(r"\s+", " ", (text or "").translate(_QUOTES)).strip().lower()
+    return _CJK_SPACE.sub("", text) if _CJK_CHAR.search(text) else text
 
 
 # A quote must be long enough to actually support a claim ("the" is in every source).
@@ -75,7 +86,13 @@ def quote_found(quote, sources):
 def text_on_page(text, page):
     """Seed verification: the whole field appears on its page word for word (any length)."""
     t = normalize(text)
-    return bool(t) and re.search(r"(?<![\w$])" + re.escape(t) + r"(?!\w)", _padded(page)) is not None
+    if not t:
+        return False
+    # Whole words only. CJK text has no word spaces: a CJK character next to the field doesn't count as
+    # part of a word, and a field that starts or ends with a CJK character starts or ends a word there.
+    before = "" if _CJK_CHAR.match(t[0]) else _NOT_AFTER_WORD
+    after = "" if _CJK_CHAR.match(t[-1]) else _NOT_BEFORE_WORD
+    return re.search(before + re.escape(t) + after, _padded(page)) is not None
 
 
 _SCALES = ("thousand", "million", "billion", "trillion")
