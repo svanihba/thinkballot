@@ -4145,6 +4145,126 @@
       "field": "ballot_question",
       "verdict": "pass",
       "against": "saved copy"
+    },
+    {
+      "measure": "local-sf-a",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sf-a",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sf-b",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sf-b",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sf-c",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sf-c",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sf-d",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sf-d",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sf-e",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sf-e",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sf-f",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sf-f",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sf-g",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sf-g",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sf-h",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sf-h",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sf-i",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sf-i",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
+    },
+    {
+      "measure": "local-sf-j",
+      "field": "title",
+      "verdict": "pass",
+      "against": "saved copy"
+    },
+    {
+      "measure": "local-sf-j",
+      "field": "ballot_question",
+      "verdict": "pass",
+      "against": "browser capture"
     }
   ],
   "audit": [
@@ -4347,6 +4467,13 @@
       "check": "loaded_words",
       "detail": "persuasive wording: \"disaster\"",
       "word": "disaster"
+    },
+    {
+      "measure": "local-sf-g",
+      "field": "ballot_question",
+      "check": "loaded_words",
+      "detail": "persuasive wording: \"great\"",
+      "word": "great"
     }
   ],
   "labels": [
@@ -4537,13 +4664,13 @@
     }
   ],
   "summary": {
-    "checked_at": "2026-10-28 06:11 UTC",
+    "checked_at": "2026-10-28 06:14 UTC",
     "data_file": "data/measures.json",
     "verified_against": "saved copies of the official pages",
-    "fields_verified_against_browser_captures": 80,
-    "fields_verified": 691,
+    "fields_verified_against_browser_captures": 90,
+    "fields_verified": 711,
     "fields_failed": 0,
     "labels_checked": 37,
-    "audit_findings": 29
+    "audit_findings": 30
   }
 }
