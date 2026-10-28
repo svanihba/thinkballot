@@ -1,0 +1,23 @@
+{
+  "id": "san-diego-local-measures-2026-11",
+  "jurisdiction": {"level": "county", "name": "San Diego"},
+  "election": "2026-11-03",
+  "_note": "County sample ballot and voter information pamphlets, one PDF per ballot type (100-753). These 13 ballot types together carry all 20 local measures; chosen from a survey of the ballot pages of every type.",
+  "seeds": ["https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-161.pdf",
+            "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-235.pdf",
+            "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-259.pdf",
+            "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-286.pdf",
+            "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-310.pdf",
+            "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-318.pdf",
+            "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-364.pdf",
+            "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-480.pdf",
+            "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-542.pdf",
+            "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-581.pdf",
+            "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-615.pdf",
+            "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-640.pdf",
+            "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-642.pdf"],
+  "allow": [],
+  "max_depth": 0,
+  "delay_seconds": 2,
+  "extractor": "san_diego_measures"
+}

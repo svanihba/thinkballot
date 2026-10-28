@@ -46,7 +46,7 @@ Grossmont-Cuyamaca District Bond With funds that cannot be taken, shall the Dist
 • improve/expand classrooms
 • remove asbestos/mold
 be adopted, authorizing $624 million of bonds?
-Bonds – Yes Bonds – No
+Bonds—Yes Bonds—No
 This measure requires 55% of those voting on the measure.
 """
 
