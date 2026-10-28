@@ -5,6 +5,7 @@ import re
 import pytest
 import requests
 
+from thinkballot import config
 from thinkballot.servicekit import ServiceClient, ServiceError
 
 
@@ -100,7 +101,18 @@ def test_bridging_needs_helpful_ratings_from_both_leanings(svc):
     assert fact["status"] == "vetted" and fact["official_source"] is True
 
 
-def test_web_sign_in_flow_and_csrf(server):
+def test_community_closed_by_default_hides_accounts_and_posting(server, monkeypatch):
+    monkeypatch.setattr(config, "COMMUNITY_OPEN", False)
+    page = requests.get(server + "/signin").text
+    assert "opens after the election" in page and 'name="password"' not in page
+    assert requests.post(server + "/signin", data={"action": "signup"}, allow_redirects=False).status_code == 404
+    assert requests.post(server + "/prop/prop-a/comment", data={"text": "hi"}, allow_redirects=False).status_code == 404
+    html = requests.get(server + "/prop/prop-a").text
+    assert "Community discussion opens after the election." in html and "sign in</a>" not in html
+
+
+def test_web_sign_in_flow_and_csrf(server, monkeypatch):
+    monkeypatch.setattr(config, "COMMUNITY_OPEN", True)
     s = requests.Session()
     page = s.get(server + "/signin").text
     token = re.search(r'name="csrf" value="([^"]+)"', page).group(1)

@@ -43,6 +43,9 @@ COMMUNITY_DB_PATH = Path(_env("TB_COMMUNITY_DB_PATH", str(ROOT / "instance" / "c
 # Answers to the suggested questions, prepared in advance (never typed questions). Writable state,
 # so it lives next to the community database.
 ASK_CACHE_PATH = Path(_env("TB_ASK_CACHE_PATH", str(COMMUNITY_DB_PATH.parent / "ask_cache.sqlite3")))
+# Accounts, sign-in and the community zone. Closed by default: they open only when there are people to
+# moderate them (set TB_COMMUNITY_OPEN=1). Closing hides them; no community data is deleted.
+COMMUNITY_OPEN = _env("TB_COMMUNITY_OPEN", "0") == "1"
 ZIP_TABLE_PATH = Path(_env("TB_ZIP_TABLE", str(ROOT / "data" / "zip_districts.json")))
 
 # AI provider: "openrouter" for real calls, "stub" for offline development and tests.

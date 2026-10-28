@@ -58,7 +58,20 @@ def create_app():
 
     # ---------- sign-in state and form protection ----------
     def current_user():
+        if not config.COMMUNITY_OPEN:
+            return None
         return session.get("user")  # {"id", "username", "is_mod"} or None
+
+    COMMUNITY_ENDPOINTS = {"signin", "signout", "post_comment", "submit_fact", "flag_comment", "rate_fact",
+                           "moderation"}
+
+    @app.before_request
+    def community_closed():
+        # While the community is closed, every account and posting route is off.
+        if not config.COMMUNITY_OPEN and request.endpoint in COMMUNITY_ENDPOINTS:
+            if request.endpoint == "signin" and request.method == "GET":
+                return render_template("community_closed.html")
+            abort(404)
 
     def csrf_token():
         if "csrf" not in session:
@@ -84,7 +97,8 @@ def create_app():
     @app.context_processor
     def globals_():
         return {"base_url": config.PUBLIC_BASE, "headings": FIELD_HEADINGS,
-                "suggested_questions": SUGGESTED_QUESTIONS, "user": current_user(), "csrf_token": csrf_token}
+                "suggested_questions": SUGGESTED_QUESTIONS, "user": current_user(), "csrf_token": csrf_token,
+                "community_open": config.COMMUNITY_OPEN}
 
     def load_ballot():
         try:

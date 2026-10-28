@@ -83,6 +83,7 @@
 
   <p class="gap"><a class="btn ghost small" href="/ballot">← All propositions</a></p>
 
-  {% include "_community.html" %}
+  {% if community_open %}{% include "_community.html" %}
+  {% else %}<p class="hint gap" id="community">Community discussion opens after the election.</p>{% endif %}
 </article>
 {% endblock %}
