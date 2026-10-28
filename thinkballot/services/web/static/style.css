@@ -14,12 +14,22 @@
   --community-bg: #ece2cf;
   --good: #2e6b34;
   --warn: #a03d12;
-  --serif: "Fraunces", "Georgia", serif;
-  --sans: "Public Sans", "Helvetica Neue", "Segoe UI", sans-serif;
+  --serif: "Fraunces", "Fraunces Fallback", "Georgia", serif;
+  --sans: "Public Sans", "Public Sans Fallback", "Helvetica Neue", "Segoe UI", sans-serif;
   --mono: "IBM Plex Mono", "SFMono-Regular", "Menlo", monospace;
   --pad: clamp(1rem, 4vw, 2.5rem);
   --tap: 44px; /* smallest touch target on phones and touch screens */
 }
+
+/* Fallback faces sized to the web fonts' widths, so text wraps the same before and after the web
+   fonts arrive (display=swap) and the page doesn't jump. Ratios measured per weight against Georgia
+   and Helvetica Neue; IBM Plex Mono already matches SF Mono and Menlo. */
+@font-face { font-family: "Fraunces Fallback"; font-weight: 100 450; src: local("Georgia"); size-adjust: 104.9%; }
+@font-face { font-family: "Fraunces Fallback"; font-weight: 451 650; src: local("Georgia Bold"), local("Georgia-Bold"); size-adjust: 93%; }
+@font-face { font-family: "Fraunces Fallback"; font-weight: 651 900; src: local("Georgia Bold"), local("Georgia-Bold"); size-adjust: 95.9%; }
+@font-face { font-family: "Fraunces Fallback"; font-style: italic; font-weight: 451 900; src: local("Georgia Bold Italic"), local("Georgia-BoldItalic"); size-adjust: 84.5%; }
+@font-face { font-family: "Public Sans Fallback"; font-weight: 100 550; src: local("Helvetica Neue"), local("HelveticaNeue"), local("Arial"), local("ArialMT"); size-adjust: 103.8%; }
+@font-face { font-family: "Public Sans Fallback"; font-weight: 551 900; src: local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"), local("Arial Bold"), local("Arial-BoldMT"); size-adjust: 100.9%; }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
