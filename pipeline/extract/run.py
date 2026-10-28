@@ -8,6 +8,7 @@ fetched, and whether the crawler or a supervised browser capture fetched it.
 
 import importlib
 import json
+import re
 import subprocess
 import sys
 
@@ -22,10 +23,21 @@ def is_pdf(page):
 
 
 def pdf_text(body):
-    """Text of a PDF in reading order (poppler's pdftotext), one line per line, single spaces."""
-    out = subprocess.run(["pdftotext", "-enc", "UTF-8", "-", "-"], input=body, capture_output=True, check=True)
-    lines = (" ".join(line.split()) for line in out.stdout.decode("utf-8").split("\n"))
-    return "\n".join(line for line in lines if line)
+    """Text of a PDF in reading order (poppler's pdftotext -raw), one line per line, single spaces.
+
+    -raw keeps every printed character: the default mode drops hyphens at line ends, which turns
+    official words like "non-payment" into "nonpayment". A line ending in "letter-" is joined to the
+    next line with no space, so a hyphenated word stays whole and keeps its hyphen."""
+    out = subprocess.run(["pdftotext", "-raw", "-enc", "UTF-8", "-", "-"], input=body, capture_output=True,
+                         check=True)
+    lines = [" ".join(line.split()) for line in out.stdout.decode("utf-8").split("\n")]
+    joined = []
+    for line in (line for line in lines if line):
+        if joined and re.search(r"[A-Za-z]-$", joined[-1]) and line[:1].isalpha():
+            joined[-1] += line
+        else:
+            joined.append(line)
+    return "\n".join(joined)
 
 
 def main(argv):
