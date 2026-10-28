@@ -19,7 +19,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 log = logging.getLogger("thinkballot.warm")
 
 
-def warm(ballot, bias, pause=10, max_errors=5):
+def warm(ballot, bias, pause=10, max_errors=5, level=None):
     """Returns the number of questions still without a prepared answer."""
     from werkzeug.exceptions import HTTPException
 
@@ -27,7 +27,8 @@ def warm(ballot, bias, pause=10, max_errors=5):
     from thinkballot.suggested import SUGGESTED_QUESTIONS
 
     missing, errors_in_a_row = 0, 0
-    for row in ballot.get("/measures")["measures"]:
+    rows = ballot.get("/measures")["measures"]
+    for row in (r for r in rows if not level or r["level"] == level):
         measure = load_measure(ballot, row["id"])
         for i, question in enumerate(SUGGESTED_QUESTIONS):
             if prepared_answer(measure, question, bias):
@@ -55,6 +56,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--env-file", help="the service's env file, e.g. /path/to/service.env")
     parser.add_argument("--pause", type=float, default=10, help="seconds between AI requests")
+    parser.add_argument("--level", choices=["state", "local"], help="only statewide or only local measures")
     args = parser.parse_args()
     if args.env_file:  # before thinkballot.config is imported, so it sees the same settings as the site
         from dotenv import load_dotenv
@@ -69,7 +71,7 @@ def main():
         return 2
     log.info("warm cache=%s answer=%s review=%s", config.ASK_CACHE_PATH, config.ANSWER_MODEL, config.REVIEW_MODEL)
     missing = warm(ServiceClient("ballot", "inproc/svc/ballot"), ServiceClient("bias", "inproc/svc/bias"),
-                   pause=args.pause)
+                   pause=args.pause, level=args.level)
     log.info("warm done: %d question(s) still without a prepared answer", missing)
     return 1 if missing else 0
 
