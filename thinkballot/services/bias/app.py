@@ -34,8 +34,9 @@ def create_app():
         points = [p for p in points if isinstance(p, dict)]
         budget = body.get("budget_seconds")
         deadline = time.monotonic() + min(float(budget), 120) if isinstance(budget, (int, float)) else None
-        return jsonify(engine.check_answer(points, _sources(body), use_ai=body.get("ai_review", True),
-                                           deadline=deadline))
+        result = engine.check_answer(points, _sources(body), use_ai=body.get("ai_review", True),
+                                     deadline=deadline)
+        return jsonify(dict(result, bias_version=engine.BIAS_VERSION))
 
     @app.post("/check/text")
     def check_text():
