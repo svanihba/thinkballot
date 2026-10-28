@@ -1,0 +1,10 @@
+{
+  "id": "sacramento-local-measures-2026-11",
+  "jurisdiction": {"level": "county", "name": "Sacramento"},
+  "election": "2026-11-03",
+  "seeds": ["https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html"],
+  "allow": [],
+  "max_depth": 0,
+  "delay_seconds": 2,
+  "extractor": "sacramento_measures"
+}
