@@ -44,7 +44,7 @@ Built by Abhinav Shirbhate in Sunnyvale, California.
 
 ## How it's built
 
-Seven small services in one Python process. They talk to each other only over HTTP, so any of them can move
+Eight small services in one Python process. They talk to each other only over HTTP, so any of them can move
 to its own server later.
 
 | Service | Job |
@@ -56,12 +56,14 @@ to its own server later.
 | `ask` | Grounded Q&A through OpenRouter |
 | `bias` | Bias Buster |
 | `community` | Accounts, discussion and community facts, with its own separate database |
+| `results` | Official election results from the Secretary of State, from election night on |
 
 ```
 Browser → web ─┬→ ballot → SQLite (official data, verified)
                ├→ geo, search
                ├→ ask → ballot, OpenRouter, bias
-               └→ community → its own SQLite, bias
+               ├→ community → its own SQLite, bias
+               └→ results → Secretary of State results feed, last good copy in its own SQLite
 ```
 
 ## Run it
@@ -116,6 +118,13 @@ every question live): `ssh the deploy account@the server 'sudo -n -u thinkballot
 - Analyses by the Legislative Analyst's Office, published in the same guide.
 - Santa Clara County Registrar of Voters, List of Local Measures (November 3, 2026).
 - Every source page used is stored byte for byte in `data/raw/` with its crawl metadata.
+- Election results: the California Secretary of State's results feed,
+  https://api.sos.ca.gov/returns/ballot-measures (the data behind https://electionresults.sos.ca.gov/).
+  ThinkBallot fetches it at most once every five minutes, only after the polls close on November 3, and
+  shows YES and NO side by side, labelled "Unofficial results" until they are certified. Set
+  `TB_RESULTS_CERTIFIED=1` once the Secretary of State certifies them. To preview the results block with
+  test data: `TB_RESULTS_FIXTURE=tests/fixtures/sos_ballot_measures_preview.json .venv/bin/python run.py`
+  (labelled as test data on the page, kept in its own database).
 
 ## What I learned
 
