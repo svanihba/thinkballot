@@ -168,6 +168,12 @@ every question live): `ssh the deploy account@the server 'sudo -n -u thinkballot
 - California Secretary of State, Official Voter Information Guide, November 3, 2026:
   https://voterguide.sos.ca.gov/propositions/
 - Analyses by the Legislative Analyst's Office, published in the same guide.
+- The Secretary of State's official Spanish and Chinese translations of the guide (PDFs under
+  https://voterguide.sos.ca.gov/es/pdf/ and /ch/pdf/), for the Spanish (/es/) and Chinese (/zh/) pages. The
+  Chinese PDFs' font has no Unicode table, so `pipeline/extract/pdf_cid.py` reads each page's content with qpdf
+  and decodes the font's character IDs through its published CMap (a table lookup, not OCR). Fields with no
+  official translation (the Legislative Analyst's analysis, local measures) are shown in English, marked.
+  Interface text is translated by ThinkBallot in `thinkballot/services/web/catalogs/`.
 - Santa Clara County Registrar of Voters, List of Local Measures (November 3, 2026).
 - Every source page used is stored byte for byte in `data/raw/` with its crawl metadata.
 - Election results: the California Secretary of State's results feed,
