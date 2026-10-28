@@ -1,0 +1,11 @@
+{
+  "id": "orange-local-measures-2026-11",
+  "jurisdiction": {"level": "county", "name": "Orange"},
+  "election": "2026-11-03",
+  "seeds": ["https://ocvote.gov/elections/assigned-measure-letters-november-3-2026",
+            "https://ocvote.gov/elections/contests-qualified-for-the-ballot-for-the-2026-general-election"],
+  "allow": ["^https://ocvote\\.gov/sites/default/files/2026-(09|10)/[^/]*(LAYOUT|Layout)[^/]*\\.pdf$"],
+  "max_depth": 1,
+  "delay_seconds": 2,
+  "extractor": "orange_measures"
+}
