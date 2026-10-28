@@ -9,7 +9,9 @@ Two official sources:
 Questions are matched to letters by their titles. The two documents word a few titles slightly
 differently ("Contributions to the Housing Fund" / "... Housing Trust Fund"), so a title matches the
 page title sharing the most words; every match must be clear and one to one, or extraction fails.
-The Regional Transit Measure is listed on the page but has no question in the letter, so it is left out.
+The Regional Transit Measure (RTM) is listed on the page with no letter, and has no question in the letter.
+Its question is the regional question printed in its resolution PDF (a scan, read by OCR: pdf_ocr in the
+source file), cut from the text starting at RTM_QUESTION_START to the first "?".
 """
 
 import re
@@ -20,6 +22,11 @@ PAGE_URL = "https://www.sf.gov/qualified-ballot-measures"
 PDF_URL = "https://api.sf.gov/documents/61682/Ballot_Questions_November_2026.pdf"
 PAGE_LABEL = "San Francisco Department of Elections: Qualified ballot measures"
 PDF_LABEL = "San Francisco City Attorney: November 3, 2026 Ballot Questions"
+RTM_PDF_URL = "https://api.sf.gov/documents/61300/Nov2026_Resolution_RegionalTransitMeasure.pdf"
+RTM_LABEL = "Public Transit Revenue Measure District: Regional Transit Measure resolution (PDF)"
+RTM_TITLE = "Regional Transit Measure"
+RTM_QUESTION_START = "To prevent major service cuts"
+RTM_JURISDICTION = "Public Transit Revenue Measure District"
 COUNTY = "San Francisco"
 JURISDICTION = "City and County of San Francisco"
 PAGE_HEADER_LINES = {"CITY AND COUNTY OF SAN FRANCISCO OFFICE OF THE CITY ATTORNEY", "Letter to John Arntz",
@@ -69,11 +76,26 @@ def letter_questions(text):
     return out
 
 
+def rtm_question(text):
+    """The regional question from the OCR text of the RTM resolution: from RTM_QUESTION_START to the first "?"."""
+    flat = " ".join(text.split())
+    starts = [m.start() for m in re.finditer(re.escape(RTM_QUESTION_START), flat)]
+    if len(starts) != 1:
+        raise ValueError(f"expected one RTM ballot question starting {RTM_QUESTION_START!r}, found {len(starts)}")
+    end = flat.find("?", starts[0])
+    if end < 0:
+        raise ValueError("the RTM ballot question has no closing question mark")
+    return flat[starts[0]:end + 1]
+
+
 def extract(pages, field):
-    for url in (PAGE_URL, PDF_URL):
+    for url in (PAGE_URL, PDF_URL, RTM_PDF_URL):
         if url not in pages:
             raise ValueError(f"missing from the raw store: {url}")
     listed = page_measures(pages[PAGE_URL]["body"].decode("utf-8"))
+    rtm = [title for letter, title in listed if letter == "RTM"]
+    if rtm != [RTM_TITLE]:
+        raise ValueError(f"expected one {RTM_TITLE!r} entry on the qualified ballot measures page, found {rtm}")
     letters = [(letter, title) for letter, title in listed if letter != "RTM"]
     if not letters:
         raise ValueError("no lettered measures on the qualified ballot measures page")
@@ -99,4 +121,12 @@ def extract(pages, field):
             "topics": [], "documents": [], "notes": [], "arguments_url": None,
             "fields": {"ballot_question": field(question, PDF_URL, PDF_LABEL)},
         })
+    measures.append({
+        "id": "local-sf-rtm", "number": "RTM",
+        "title": field(RTM_TITLE, PAGE_URL, PAGE_LABEL),
+        "jurisdiction": {"level": "local", "county": COUNTY, "name": RTM_JURISDICTION},
+        "topics": [], "notes": [], "arguments_url": None,
+        "documents": [{"label": "Regional Transit Measure resolution (PDF)", "url": RTM_PDF_URL}],
+        "fields": {"ballot_question": field(rtm_question(pages[RTM_PDF_URL]["text"]), RTM_PDF_URL, RTM_LABEL)},
+    })
     return measures
