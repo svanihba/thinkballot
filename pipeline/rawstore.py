@@ -93,6 +93,13 @@ class RawStore:
             "SELECT * FROM fetch WHERE source_id = ? AND url = ? AND sha256 IS NOT NULL "
             "ORDER BY fetched_at DESC, id DESC LIMIT 1", (source_id, url)).fetchone()
 
+    def stored_content_type(self, source_id, url, sha):
+        """The content type recorded with these bytes (a 304 Not Modified response carries none)."""
+        row = self.db.execute(
+            "SELECT content_type FROM fetch WHERE source_id = ? AND url = ? AND sha256 = ? AND content_type IS NOT NULL "
+            "ORDER BY fetched_at DESC, id DESC LIMIT 1", (source_id, url, sha)).fetchone()
+        return row["content_type"] if row else None
+
     # ---------- reading (extraction side) ----------
     def object_path(self, sha):
         return self.dir / "objects" / sha[:2] / sha
