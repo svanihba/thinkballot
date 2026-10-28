@@ -1,0 +1,690 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="pingback" href="https://www.contracostavote.gov/xmlrpc.php" />
+<!--[if IE]><link href="https://www.contracostavote.gov/wp-content/themes/contracosta-ca_3.1.22/favicon.ico" rel="icon" /><![endif]-->
+<link rel="icon" href="https://www.contracostavote.gov/wp-content/themes/contracosta-ca_3.1.22/favicon.ico" />
+
+
+
+
+<title>Measure P &#8211; Contra Costa County</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" hreflang="en" href="https://www.contracostavote.gov/m9008-en-2/" />
+<link rel="alternate" hreflang="x-default" href="https://www.contracostavote.gov/m9008-en-2/" />
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+	(function(){dataLayer.push(arguments);})('set', 'developer_id.dNGJiYT', true);
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.contracostavote.gov/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.contracostavote.gov%2Fm9008-en-2%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.contracostavote.gov/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.contracostavote.gov%2Fm9008-en-2%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='elected-officials-styles-css' href='https://www.contracostavote.gov/wp-content/plugins/2.0.0_Release/assets/css/styles.css?ver=7.1.3' media='' />
+<link rel='stylesheet' id='precinct-finder-styles-css' href='https://www.contracostavote.gov/wp-content/plugins/soe-precinct-finder-2.0/assets/css/styles.css?ver=7.1.3' media='' />
+<link rel='stylesheet' id='pb-datepicker-css' href='https://www.contracostavote.gov/wp-content/plugins/soe_absentee_ballot_1.0.3/date-picker/css/jquery-ui-1.10.2.custom.min.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='voter-eligibility-styles-css' href='https://www.contracostavote.gov/wp-content/plugins/soe_voter_eligibility_2.0.5/assets/css/styles.css?ver=7.1.3' media='' />
+<link rel='stylesheet' id='theme-style-css' href='https://www.contracostavote.gov/wp-content/themes/connectLite/assets/css/main.css?ver=2.2.8' media='all' />
+<link rel='stylesheet' id='print-styles-css' href='https://www.contracostavote.gov/wp-content/themes/connectLite/assets/css/print.css?ver=2.2.8' media='print' />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='theme.css-css' href='https://www.contracostavote.gov/wp-content/plugins/popup-builder/public/css/theme.css?ver=4.4.5' media='all' />
+<link rel='stylesheet' id='pr_public-css' href='https://www.contracostavote.gov/wp-content/plugins/soe_accordion_1.1.0_Release/assets/css/public.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='calendar_css-css' href='https://www.contracostavote.gov/wp-content/plugins/soe_event_calendar_1.3.0/assets/css/event.public.css?ver=7.1.3' media='' />
+<link rel='stylesheet' id='quick_link_icons_gallery_css-css' href='https://www.contracostavote.gov/wp-content/plugins/soe_quick_links-1.5.0/assets/css/ql_icons_gallery.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='slideshow_css-css' href='https://www.contracostavote.gov/wp-content/plugins/soe_slideshow_2.1.1_Release/assets/css/orbit.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='whatsnew_css-css' href='https://www.contracostavote.gov/wp-content/plugins/soe_whats_new_1.11/assets/css/whatsnew.public.css?ver=7.1.3' media='' />
+<link rel='stylesheet' id='widgetopts-styles-css' href='https://www.contracostavote.gov/wp-content/plugins/widget-options/assets/css/widget-options.css?ver=4.2.5' media='all' />
+<link rel='stylesheet' id='wpml-legacy-dropdown-0-css' href='https://www.contracostavote.gov/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/style.min.css?ver=510000' media='all' />
+<link rel='stylesheet' id='cms-navigation-style-base-css' href='https://www.contracostavote.gov/wp-content/plugins/wpml-cms-nav/res/css/cms-navigation-base.css?ver=5.1.0' media='screen' />
+<link rel='stylesheet' id='cms-navigation-style-css' href='https://www.contracostavote.gov/wp-content/plugins/wpml-cms-nav/res/css/cms-navigation.css?ver=5.1.0' media='screen' />
+<link rel='stylesheet' id='child-theme-style-css' href='https://www.contracostavote.gov/wp-content/themes/contracosta-ca_3.1.22/assets/css/main.css?ver=1771417196' media='all' />
+
+<!--[if lte IE 8]>
+<style type="text/css" media="screen">
+
+	.ie7 form *,
+	.ie7 .widget_search,
+	.ie7 nav.main-nav > ul > li > a,
+	.ie7 nav#quicklinks ul li,
+    .ie7 nav#quicklinks ul li a,
+	.ie7 .calendar *,
+	.ie7 .orbit-wrapper .orbit-caption,
+	.ie7 #content #secondary .widget_quick_links a .outerContainer{
+		behavior: url(https://www.contracostavote.gov/wp-content/themes/contracosta-ca_3.1.22/assets/polyfill/boxsizing.htc) !important;
+	}
+
+</style>
+
+<![endif]-->
+<script id="jquery-js" src="https://www.contracostavote.gov/wp-content/themes/connectLite/assets/js/vendor/jquery-1.9.1.min.js?ver=7.1.3"></script>
+<script id="radio-js" src="https://www.contracostavote.gov/wp-content/themes/connectLite/assets/js/radio.js?ver=2.2.8"></script>
+<script id="main-js-extra">
+var object_name = {"templateUrl":"https://www.contracostavote.gov/wp-content/themes/connectLite","doStickyMenu":null,"menuSealMiddle":"1"};
+//# sourceURL=main-js-extra
+</script>
+<script type="module" src="https://www.contracostavote.gov/wp-content/themes/connectLite/assets/js/main.js?ver=2.2.8"></script><script id="wpml-cookie-js-extra">
+var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":"Thu, 29 Oct 2026 06:38:22 GMT","path":"/"}};
+//# sourceURL=wpml-cookie-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="wpml-cookie-js" src="https://www.contracostavote.gov/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js?ver=510000"></script>
+<script id="Popup.js-js-before">
+var sgpbPublicUrl = "https:\/\/www.contracostavote.gov\/wp-content\/plugins\/popup-builder\/public\/";
+var SGPB_JS_LOCALIZATION = {"imageSupportAlertMessage":"Only image files supported","pdfSupportAlertMessage":"Only pdf files supported","areYouSure":"Are you sure?","addButtonSpinner":"L","audioSupportAlertMessage":"Only audio files supported (e.g.: mp3, wav, m4a, ogg)","publishPopupBeforeElementor":"Please, publish the popup before starting to use Elementor with it!","publishPopupBeforeDivi":"Please, publish the popup before starting to use Divi Builder with it!","closeButtonAltText":"Close"};
+//# sourceURL=Popup.js-js-before
+</script>
+<script id="Popup.js-js" src="https://www.contracostavote.gov/wp-content/plugins/popup-builder/public/js/Popup.js?ver=4.4.5"></script>
+<script id="PopupConfig.js-js" src="https://www.contracostavote.gov/wp-content/plugins/popup-builder/public/js/PopupConfig.js?ver=4.4.5"></script>
+<script id="PopupBuilder.js-js-before">
+var SGPB_POPUP_PARAMS = {"popupTypeAgeRestriction":"ageRestriction","defaultThemeImages":{"1":"https:\/\/www.contracostavote.gov\/wp-content\/plugins\/popup-builder\/public\/img\/theme_1\/close.png","2":"https:\/\/www.contracostavote.gov\/wp-content\/plugins\/popup-builder\/public\/img\/theme_2\/close.png","3":"https:\/\/www.contracostavote.gov\/wp-content\/plugins\/popup-builder\/public\/img\/theme_3\/close.png","5":"https:\/\/www.contracostavote.gov\/wp-content\/plugins\/popup-builder\/public\/img\/theme_5\/close.png","6":"https:\/\/www.contracostavote.gov\/wp-content\/plugins\/popup-builder\/public\/img\/theme_6\/close.png"},"homePageUrl":"https:\/\/www.contracostavote.gov\/","isPreview":false,"convertedIdsReverse":[],"dontShowPopupExpireTime":365,"conditionalJsClasses":[],"disableAnalyticsGeneral":"0"};
+var SGPB_JS_PACKAGES = {"packages":{"current":1,"free":1,"silver":2,"gold":3,"platinum":4},"extensions":{"geo-targeting":false,"advanced-closing":false}};
+var SGPB_JS_PARAMS = {"ajaxUrl":"https:\/\/www.contracostavote.gov\/wp-admin\/admin-ajax.php","nonce":"e0610d64a5"};
+//# sourceURL=PopupBuilder.js-js-before
+</script>
+<script id="PopupBuilder.js-js" src="https://www.contracostavote.gov/wp-content/plugins/popup-builder/public/js/PopupBuilder.js?ver=4.4.5"></script>
+<script id="jquery-ui-1.10.2_autocomplete_datepicker_menu.custom.min.js-js" src="https://www.contracostavote.gov/js/soe_component_scripts/jquery-ui-1.10.2_autocomplete_datepicker_menu.custom.min.js?ver=7.1.3"></script>
+<script id="pr_public-js" src="https://www.contracostavote.gov/wp-content/plugins/soe_accordion_1.1.0_Release/assets/js/public.js?ver=7.1.3"></script>
+<script id="wpml-legacy-dropdown-0-js" src="https://www.contracostavote.gov/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/script.min.js?ver=510000"></script>
+<script id="archless-modernizr-js" src="https://www.contracostavote.gov/wp-content/themes/connectLite/assets/js/modernizr.min.js?ver=7.1.3"></script>
+
+<!-- Google tag (gtag.js) snippet added by Site Kit -->
+<!-- Google Analytics snippet added by Site Kit -->
+<script id="google_gtagjs-js" src="https://www.googletagmanager.com/gtag/js?id=GT-5MGB99R" async></script>
+<script id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["www.contracostavote.gov"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-5MGB99R");
+//# sourceURL=google_gtagjs-js-after
+</script>
+<link rel="canonical" href="https://www.contracostavote.gov/m9008-en-2/" />
+<link rel='shortlink' href='https://www.contracostavote.gov/?p=31711' />
+<meta name="generator" content="WPML ver:5.1.0 stt:62,1,2;" />
+<meta name="generator" content="Site Kit by Google 1.189.0" /><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script async src="https://docaccess.com/docbox.js"></script>
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- GTM Container placement set to automatic -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+	var dataLayer_content = {"pagePostType":"page","pagePostType2":"single-page","pagePostAuthor":"ohernandez"};
+	dataLayer.push( dataLayer_content );
+</script>
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N95HKQ95');
+</script>
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NVBP9XW5');
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-264455MLSY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-264455MLSY');
+</script>
+
+<style id="wp-custom-css">
+/* CSS For making a url embedded in a Candidate Statement appear as plain unclickable text rather than a live web link to external page */
+.unclickable-link {
+  pointer-events: none; /* Disable mouse clicks */
+	text-decoration: none !important; /* Take out underline of link */
+	color: #4d4d4d;            /* Sets text color to body text class */
+}
+</style>
+</head>
+
+
+	<body class="wp-singular page-template-default page page-id-31711 wp-theme-connectLite wp-child-theme-contracosta-ca_3122 font-size-small styles-default">
+
+				<div id="content-slide">
+		<div id="page-wrap" class="sub-page">
+			<header class="header-wrapper" role="banner">
+				<div class="header">
+					<a id="#skip-to-main-content" class="skip-to-content-link" href="#primary">Skip to main content</a>
+					<a class="skip-to-content-link" href="sitemap">Sitemap</a>
+					<div class="top-bar stickyarea sticky">
+						
+						<a class="home-link sticky" href="https://www.contracostavote.gov">
+							<img src="https://www.contracostavote.gov/wp-content/themes/contracosta-ca_3.1.22/assets/img/logo.jpg" srcset="https://www.contracostavote.gov/wp-content/themes/contracosta-ca_3.1.22/assets/img/logo.png 1x, https://www.contracostavote.gov/wp-content/themes/contracosta-ca_3.1.22/assets/img/logo@2x.png 2x" alt="Contra Costa, CA logo">
+							<div class="home-link-text">
+								<span class="site-title">Contra Costa County</span>
+								<span class="site-description">County Clerk Recorder  - Kristin B. Connelly</span>
+							</div>
+						</a>
+						<button class="toggle-mobile-menu mobile-only" aria-label="Main Menu" aria-expanded="false">
+							<span class="open-menu ci-menu"></span>
+							<span class="button button-toggle"></span>
+						</button>
+						<div class="main-menu-wrapper">
+							<nav role="navigation" aria-label="Main Menu" id="main-nav" class="main-nav regular sticky"><div class="mobile-only mobile-menu-meta">Main Menu</div><ul class="parent-menu"><li class="home-icon"><a href="https://www.contracostavote.gov"><span class="ci-home"></span></a></li><li class="megamenu parent"><a href="#" class="services"><span>Services</span></a><ul class="child"><li class="parent"><a href="https://www.contracostavote.gov/elections/" class="elections"><span>Elections</span></a><ul class="child"><li><a href="https://www.contracostavote.gov/elections/voter-registration/" class="voter_registration"><span>Voter Registration</span></a></li><li><a href="https://www.contracostavote.gov/elections/wheres-my-ballot/" class="where’s_my_ballot"><span>Where’s My Ballot</span></a></li><li><a href="https://www.contracostavote.gov/elections/voter-registration/my-voting-information/" class="my_voting_information"><span>My Voting Information</span></a></li><li><a href="https://www.contracostavote.gov/elections/how-to-vote/" class="how_to_vote"><span>How to Vote</span></a></li><li><a href="https://www.contracostavote.gov/elections/poll-worker-center/" class="poll_worker_center"><span>Poll Worker Center</span></a></li><li><a href="https://www.contracostavote.gov/elections/voter-outreach-education/" class="voter_outreach_&#038;_education"><span>Voter Outreach &#038; Education</span></a></li><li><a href="https://www.contracostavote.gov/elections/candidates-campaigns-measures/" class="candidates,_campaigns,_&#038;_measures"><span>Candidates, Campaigns, &#038; Measures</span></a></li><li><a href="https://www.contracostavote.gov/elections/candidates-campaigns-measures/district-precinct-maps/" class="district_&#038;_precinct_maps"><span>District &#038; Precinct Maps</span></a></li><li class="parent"><a href="https://www.contracostavote.gov/upcoming-elections/" class="<b>upcoming_elections</b>"><span><b>Upcoming Elections</b></span></a><ul class="child"><li><a href="https://www.contracostavote.gov/election/november-3-2026-general-election/" class="november_3,_2026,_general_election"><span>November 3, 2026, General Election</span></a></li></ul></li><li class="parent"><a href="https://pastresults.contracostavote.gov/eng/" class="<b>past_elections</b>"><span><b>Past Elections</b></span></a><ul class="child"><li><a href="https://www.contracostavote.gov/june-2-2026-election-results/" class="june_2,_2026_–_election_results"><span>June 2, 2026 – Election Results</span></a></li><li><a href="https://www.contracostavote.gov/november-4-2025-election-results/" class="   november_4,_2025_–_election_results"><span>   November 4, 2025 – Election Results</span></a></li><li><a href="https://www.contracostavote.gov/june-17-2025-election-results/" class="   june_17,_2025_–_election_results"><span>   June 17, 2025 – Election Results</span></a></li><li><a href="https://www.contracostavote.gov/may-6-2025-election-results/" class="   may_6,_2025_–_election_results"><span>   May 6, 2025 – Election Results</span></a></li><li><a href="https://www.contracostavote.gov/november-5-2024-election-results/" class="   november_5,_2024_–_election_results"><span>   November 5, 2024 – Election Results</span></a></li></ul></li><li><a href="https://www.secure-election.org" class="safe_and_secure_elections"><span>Safe and Secure Elections</span></a></li><li><a href="https://www.contracostavote.gov/elections/candidates-campaigns-measures/observer-rules-and-regulations/" class="observer_rules_&#038;_regulations"><span>Observer Rules &#038; Regulations</span></a></li></ul></li><li class="parent"><a href="https://www.contracostavote.gov/recorder/" class="recorder"><span>Recorder</span></a><ul class="child"><li><a href="https://www.contracostavote.gov/recorder/search-property-documents-disclaimer-page/" class="search_property_documents"><span>Search Property Documents</span></a></li><li><a href="https://www.contracostavote.gov/recorder/recording-fees/" class="recording_fees"><span>Recording Fees</span></a></li><li><a href="https://www.contracostavote.gov/recorder/recording-requirements/" class="recording_requirements"><span>Recording Requirements</span></a></li><li><a href="https://www.contracostavote.gov/recorder/military-discharge/" class="military_discharge"><span>Military Discharge</span></a></li><li><a href="https://www.contracostavote.gov/recorder/mapping-prejudice-project/" class="mapping_prejudice_project"><span>Mapping Prejudice Project</span></a></li><li><a href="https://www.contracostavote.gov/recorder/recorder-forms/" class="recorder_forms"><span>Recorder Forms</span></a></li><li><a href="https://www.contracostavote.gov/recorder/fraud-protection/" class="fraud_protection"><span>Fraud Protection</span></a></li><li><a href="https://www.contracostavote.gov/natural-disaster-notices/" class="natural_disaster_notices"><span>Natural Disaster Notices</span></a></li><li><a href="https://www.contracostavote.gov/recorder/recorder-faqs/" class="recorder_faqs"><span>Recorder FAQs</span></a></li><li><a href="https://www.contracostavote.gov/recorder/recorder-about-us/" class="recorder_about_us_-_<br>including_2026_updated_fee_schedule"><span>Recorder About Us &#8211; <br>Including 2026 Updated Fee Schedule</span></a></li></ul></li><li class="parent"><a href="https://www.contracostavote.gov/countyclerk/" class="county_clerk"><span>County Clerk</span></a><ul class="child"><li><a href="https://www.contracostavote.gov/countyclerk/birth-certificate-ordering-page/" class="birth_certificates"><span>Birth Certificates</span></a></li><li><a href="https://www.contracostavote.gov/countyclerk/marriage/" class="marriage_certificates"><span>Marriage Certificates</span></a></li><li><a href="https://www.contracostavote.gov/countyclerk/death-certificate-ordering-page/" class="death_certificates"><span>Death Certificates</span></a></li><li><a href="https://www.contracostavote.gov/countyclerk/ceremony-information/" class="marriage_license_and_ceremony_information"><span>Marriage License and Ceremony Information</span></a></li><li><a href="https://www.contracostavote.gov/countyclerk/fictitious-business-name/" class="fictitious_business_name"><span>Fictitious Business Name</span></a></li><li><a href="https://www.contracostavote.gov/countyclerk/environmental-filings-requirements/" class="environmental_filings_(ceqa)"><span>Environmental Filings (CEQA)</span></a></li><li><a href="https://www.contracostavote.gov/countyclerk/notaries-public-filing/" class="notary_public_filing"><span>Notary Public Filing</span></a></li><li><a href="https://www.contracostavote.gov/countyclerk/professional-registrations/" class="professional_registrations"><span>Professional Registrations</span></a></li><li><a href="https://www.contracostavote.gov/countyclerk/clerk-about-us/" class="clerk_about_us_–_including_2026_new_fee_schedule"><span>Clerk About Us – Including 2026 NEW Fee Schedule</span></a></li><li><a href="https://www.contracostavote.gov/clerk-recorder-extended-hours/" class="clerk-recorder_extended_hours"><span>Clerk-Recorder Extended Hours</span></a></li></ul></li></ul></li><li class="parent"><a href="#" class="newsroom"><span>Newsroom</span></a><ul class="child"><li><a href="https://www.contracostavote.gov/elections/voter-outreach-education/whats-new-press-releases/" class="what’s_new/press_releases"><span>What’s New/Press Releases</span></a></li><li><a href="https://www.contracostavote.gov/cre-calendar/" class="clerk,_recorder,_and_elections_calendar"><span>Clerk, Recorder, and Elections Calendar</span></a></li><li><a href="https://www.contracostavote.gov/elections/additional-election-links/" class="additional_election_links"><span>Additional Election Links</span></a></li></ul></li><li class="parent"><a href="#" class="current_elections"><span>Current Elections</span></a><ul class="child"><li><a href="https://www.contracostavote.gov/election/november-3-2026-general-election/" class="november_3,_2026,_general_election"><span>November 3, 2026, General Election</span></a></li><li><a href="https://www.contracostavote.gov/november-3-2026-election-results/" class="november_3,_2026_&#8211;_election_results"><span>November 3, 2026 &#8211; Election Results</span></a></li></ul></li></ul></nav>							<form role="search" method="get" class="search-form hide-clear always-open search-hidden desktop-only" action="https://www.contracostavote.gov/">
+								<div class="search-widget-wrapper">
+									<input type="text" placeholder="Search..." name="s" class="s" aria-label="Search" />
+									<button type="submit" class="ccicons-search" value="Search" aria-label="Search"> </button>
+								</div>
+							</form>
+							<div id="mobile-menu-complementary-area" class="mobile-menu-complementary-area mobile-only">
+								<form role="search" method="get" class="search-form hide-clear always-open" action="https://www.contracostavote.gov/">
+									<div class="search-widget-wrapper">
+										<input type="text" placeholder="Search..." name="s" class="s" aria-label="Search" />
+										<button type="submit" class="ccicons-search" value="Search" aria-label="Search"> </button>
+									</div>
+								</form>
+								<a href=""  class="top-bar-option top-bar-option-accessibility desktop-only"><span class="ccicons-accessibility"></span><span class="accessibility-text">Accessibility</span></a>
+								<div class="top-bar-option top-bar-languaje-option">
+<div
+	 role="navigation" aria-label="Language Switcher" class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-dropdown js-wpml-ls-legacy-dropdown">
+	<ul>
+		<li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-dropdown">
+									<a href="#" hreflang="en" lang="en" class="js-wpml-ls-item-toggle wpml-ls-item-toggle" aria-current="page" aria-expanded="false" aria-controls="wpml-ls-submenu-default" aria-label="English – Language switcher, press tab to navigate to other languages" title="Switch to English">
+				<span class="wpml-ls-native">English</span></a>
+
+			<ul id="wpml-ls-submenu-default" class="wpml-ls-sub-menu">
+				
+					<li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-es">
+						<a href="https://www.contracostavote.gov/traducciones-no-disponibles/?lang=es" hreflang="es" lang="es" class="wpml-ls-link" aria-label="Switch to Español" title="Switch to Español">
+							<span class="wpml-ls-native">Español</span></a>
+					</li>
+
+				
+					<li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-zh-hant wpml-ls-last-item">
+						<a href="https://www.contracostavote.gov/%e7%bf%bb%e8%ad%af%e4%b8%8d%e5%8f%af%e7%94%a8/?lang=zh-hant" hreflang="zh-hant" lang="zh-hant" class="wpml-ls-link" aria-label="Switch to 繁體中文" title="Switch to 繁體中文">
+							<span class="wpml-ls-native">繁體中文</span></a>
+					</li>
+
+							</ul>
+
+		</li>
+
+	</ul>
+</div>
+</div>
+							</div>
+						</div>
+						<button class="top-bar-option search-toggler desktop-only">
+							<span class="search-icon"><span class="ccicons-search"></span><span class="sr-only">Expand Search</span></span>
+							<span class="search-close-icon hidden"><span class="ci ci-close_noCircle"></span><span class="sr-only">Collapse search</span></span>
+						</button>
+						<a href=""  class="top-bar-option top-bar-option-accessibility desktop-only"><span class="ccicons-accessibility"></span><span class="sr-only">Accessibility</span></a>
+						<div class="top-bar-option top-bar-languaje-option desktop-only">
+<div
+	 role="navigation" aria-label="Language Switcher" class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-dropdown js-wpml-ls-legacy-dropdown">
+	<ul>
+		<li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-dropdown">
+									<a href="#" hreflang="en" lang="en" class="js-wpml-ls-item-toggle wpml-ls-item-toggle" aria-current="page" aria-expanded="false" aria-controls="wpml-ls-submenu-default" aria-label="English – Language switcher, press tab to navigate to other languages" title="Switch to English">
+				<span class="wpml-ls-native">English</span></a>
+
+			<ul id="wpml-ls-submenu-default" class="wpml-ls-sub-menu">
+				
+					<li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-es">
+						<a href="https://www.contracostavote.gov/traducciones-no-disponibles/?lang=es" hreflang="es" lang="es" class="wpml-ls-link" aria-label="Switch to Español" title="Switch to Español">
+							<span class="wpml-ls-native">Español</span></a>
+					</li>
+
+				
+					<li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-zh-hant wpml-ls-last-item">
+						<a href="https://www.contracostavote.gov/%e7%bf%bb%e8%ad%af%e4%b8%8d%e5%8f%af%e7%94%a8/?lang=zh-hant" hreflang="zh-hant" lang="zh-hant" class="wpml-ls-link" aria-label="Switch to 繁體中文" title="Switch to 繁體中文">
+							<span class="wpml-ls-native">繁體中文</span></a>
+					</li>
+
+							</ul>
+
+		</li>
+
+	</ul>
+</div>
+</div>
+					</div>
+				</div>
+
+				
+								
+													
+								
+			</header>
+
+			
+			<div class="page-wrap-inner">
+
+						
+			<section id="content" class="content">
+
+								
+				
+				<div id="secondary"></div>
+
+				
+				<div id="primary" role="main">
+					<div class="fluid">
+						<article class="post post-31711 page type-page status-publish hentry">
+
+						    <h1 class="page-title ">
+        Measure P    </h1>
+
+							
+							
+<div class="entry-content">
+	<p style="text-align: center;"><strong>MEASURE P</strong><br />
+<strong>CITY OF HERCULES</strong></p>
+<p>Shall the measure providing Hercules with locally controlled funding to maintain financial stability/general city services, such as fast 911 response; neighborhood police patrols; water quality standards; keeping public areas/parks safe/ clean; repairing deteriorating streets/potholes; and retaining/attracting local businesses, by establishing a one-cent (1%) sales tax generating approximately $4,000,000 annually until ended by voters; requiring audits, public disclosure, and funds only for Hercules, be adopted?</p>
+<hr />
+<p style="text-align: center;"><strong>CITY ATTORNEY’S IMPARTIAL ANALYSIS OF</strong><br />
+<strong>MEASURE P</strong></p>
+<p>This measure (the “Hercules Public Safety/ Financial Stability Measure”) would add Chapter 11 to Title 8 to the Hercules Municipal Code and would impose a transactions and use tax, commonly known as a sales tax, of up to 1% in the City of Hercules.</p>
+<p>The tax would be imposed on the sale or use of tangible personal property in the City. The tax would be administered by the California Department of Tax and Fee Administration, which administers all sales and use taxes and transactions and use taxes in California.</p>
+<p>The tax would be collected in addition to the existing sales and use and transactions and use taxes already imposed by the State of California, Contra Costa County, and BART in the City of Hercules. It would also be collected in addition to the City’s existing transactions and use tax in Chapter 9 of Title 8 of the Hercules Municipal Code. The current combined rate for all sales and use and transactions and use taxes in Hercules is 9.25%.</p>
+<p>Groceries and prescription medicines would be exempt from the tax.</p>
+<p>The proposed tax is estimated to generate $4,000,000 per year, and the California Constitution prohibits the State from taking this revenue from the City.</p>
+<p>The proposed tax is a general tax, which means the revenues could be used by the City for any lawful municipal purpose, such as 911 response, neighborhood police patrols, water quality standards, keeping public areas and parks safe and clean, repairing deteriorating streets and fixing potholes, and retaining and attracting local businesses.</p>
+<p>If approved, the tax would begin to be collected on April 1, 2027 and would continue to be collected until repealed.</p>
+<p>The tax would be imposed at a rate of 1%, unless state law limits the tax rate to a lower rate, in which case it would be imposed at the maximum rate allowed under the law, but no more than 1%</p>
+<p>Revenues collected under this tax will be subject to an independent financial audit conducted annually by a certified public accountant, and the expenditure of the revenues will be stated in the annual budget. Both the annual audit and the budget will be presented and reviewed by the Hercules City Council in an open public meeting.</p>
+<p>The measure was placed on the ballot by the Hercules City Council. The measure will take effect if a majority (50% plus 1) of voters voting on the measure vote “Yes.”</p>
+<p>s/Christine Crowl, City Attorney, City of Hercules</p>
+<p>The above statement is an impartial analysis of Measure P. If you desire a copy of the measure, please call the office of the Hercules City Clerk at (510) 799-8208 and a copy will be mailed at no cost to you.</p>
+<hr />
+<p style="text-align: center;"><strong>ARGUMENT IN FAVOR OF</strong><br />
+<strong>MEASURE P</strong></p>
+<p><strong>If you care about Public Safety and Health in Hercules, vote Yes on P!</strong></p>
+<p>Hercules is finally a place where people want to live and raise their families. Voting Yes on P maintains our community momentum and the essential City services that make Hercules a safe, well-maintained place to live during a time of economic and national uncertainty.</p>
+<p>Yes on P maintains a healthy, safe and vibrant Hercules community.</p>
+<p>Yes on P maintains fast 911 response and the police officers patrolling our neighborhoods.</p>
+<p>Yes on P helps our City meet current water quality standards.</p>
+<p>Yes on P keeps public areas and parks safe and clean.</p>
+<p>Yes on P retains and attracts local businesses.</p>
+<p>With the State facing its own major budget deficit and declining federal funding, Measure P is a critical strategy to continue to maintain Hercules’s long-term financial stability. Measure P is fiscally accountable with mandatory financial audits, yearly reports, and public disclosure to ensure its funds are spent on the community’s priorities, responsibly.</p>
+<p>All Measure P funding must stay here in Hercules for our own local needs. Not a dime can be taken by Sacramento politicians, the County, or federal government.</p>
+<p>Here’s what Yes on P Won’t do:</p>
+<p>Measure P is Not a tax on your property or home.</p>
+<p>Measure P is Not applied to food purchased as groceries or prescription medication.</p>
+<p><strong>Join the majority of the Hercules City Council and community leaders: Vote Yes on P: Protect our Public Safety and our Safe, Healthy Hercules!</strong></p>
+<p>To read the official Measure P documents, visit herculesca.gov</p>
+<p>Hercules Police Officer’s Association, Chris Costa, President<br />
+Darrel “Jay” Tucker, President, Hercules Historical Society, Former Hercules Mayor and Council Member<br />
+Richard Mitchell, Former Hercules Planning Commissioner<br />
+Jo Ellen Marcotte, Member, Hercules Library Foundation</p>
+<hr />
+<p style="text-align: center;"><strong>REBUTTAL TO ARGUMENT IN FAVOR OF</strong><br />
+<strong>MEASURE P</strong></p>
+<p>Public safety deserves reliable funding, but supporters use police and 911 response to sell another tax without explaining why existing revenues are not enough.</p>
+<p>Hercules already has a half-cent Measure B sales tax that was extended indefinitely, plus an 8% utility users tax continued indefinitely by Measure N. Before asking families, seniors, and local businesses to pay more, City Hall should show what changed, what savings were pursued, and exactly how much additional police staffing Measure P will buy.</p>
+<p>The State Controller reports that in 2025 Hercules had 34 Public Safety employees receiving $5,158,622 in wages plus $1,195,041 in benefits.</p>
+<p>Some employees receive over $300,000 in total compensation, and retired police officers can get up to $6000 per year for health insurance on top of their pensions.</p>
+<p>This is not an argument against police officers. It is a reason to demand a clear compensation, staffing, and long-term cost plan before approving another tax.</p>
+<p>Supporters also point to audits and annual reports. Audits tell voters whether money was accounted for; they do not prove a tax is necessary, prevent future spending increases, or guarantee faster 911 response.</p>
+<p>Exemptions for unprepared food and prescriptions do not make the tax painless. Working families still pay more for gas, clothes, school supplies, and new cars.</p>
+<p>Remember, if both Measure P and the transit tax pass, we will be looking at a 10.75% total rate. How much is too much?</p>
+<p>Protect public safety with responsible budgeting, not another tax increase.</p>
+<p><strong>Vote No on Measure P.</strong></p>
+<p>Contra Costa Taxpayers Association, Marc D. Joffe, President<br />
+Michael Hernandez, Hercules Resident<br />
+Michael Letcher, Hercules Resident<br />
+Kent Rummelhart, Hercules Resident</p>
+<hr />
+<p style="text-align: center;"><strong>ARGUMENT AGAINST</strong><br />
+<strong>MEASURE P</strong></p>
+<p><strong>Vote No on the Measure P tax hike!</strong></p>
+<p>Everything in and around Hercules costs more, and now the City Council wants to add another 1% to the price of gas, school supplies, clothes, and other essentials.</p>
+<p><strong>A higher tax on nearly everything you buy:</strong></p>
+<p>• Measure P raises Hercules’ sales tax from 9.25% to 10.25%. Your ballot also carries a separate 0.5% regional transit tax. If both pass, Hercules shoppers will pay 10.75%, tying El<br />
+Cerrito and Pinole for the highest sales tax in Contra Costa County, and well above the national and California averages.</p>
+<p>• It even raises the price of a new car. California charges vehicle tax at the buyer’s home address, so Hercules residents would pay 10.75% no matter where they buy, e.g., $5,375 on a<br />
+$50,000 vehicle. You can’t escape it by shopping out of town.</p>
+<p>• Sales taxes hit low- and middle-income families hardest. If Hercules truly values equity, why penalize those who can least afford it? If Measure P passes, shoppers can save 1.5%<br />
+on necessities simply by buying in unincorporated Rodeo or El Sobrante.</p>
+<p><strong>The real problem is spending, not revenue:</strong></p>
+<p>• Hercules’ own audited statements show General Fund spending more than doubled in a decade, from $10.2 million in 2015 to $20.7 million in 2025. Where is the money going?</p>
+<p>• Nine city employees each received more than $200,000 in wages in 2025 according to State Controller data.</p>
+<p>• Staff admit the retail tax base is “not robust enough to fund anything more than basic service levels.” If spending can double while services stay “basic,” the problem isn’t too little<br />
+tax money; it’s how the money is managed.</p>
+<p><strong>Before charging residents the highest sales tax in the county, the Council should show real spending restraint.</strong></p>
+<p><strong>The sales tax in Hercules is high enough already.</strong></p>
+<p><strong>Vote No on Measure P.</strong></p>
+<p>Contra Costa Taxpayers Association, Marc D. Joffe, President<br />
+Michael Hernandez, Hercules Resident<br />
+Michael Letcher, Hercules Resident</p>
+<hr />
+<p style="text-align: center;"><strong>REBUTTAL TO ARGUMENT AGAINST</strong><br />
+<strong>MEASURE P</strong></p>
+<p>What does an organization led by a Walnut Creek resident know about Hercules? Nothing.</p>
+<p>What did the Contra Costa Taxpayers’ Association do over the past decade, to reform and stabilize Hercules? Nothing.</p>
+<p>Don’t be fooled!</p>
+<p>The truth is, Hercules is now a place where our residents want to live and raise families because over the last 15 years, the people of Hercules fought past corruption, demanded local control, established a budget watchdog committee to monitor city spending, and approved voter measures designed to protect and maintain neighborhood police patrols, 911 response, parks, youth and senior services.</p>
+<p>Measure P was developed after nearly a year of community input from hundreds of Hercules residents.</p>
+<p>We all know bigger cities like San José and San Francisco get all the funding!</p>
+<p>With federal and state governments reducing the funding small cities like Hercules rely on, our ongoing fiscal stability is at risk again.</p>
+<p>Yes on P keeps funds local to protect Hercules’s long-term fiscal sustainability, water quality, public safety, parks youth and senior services during a time of economic and national uncertainty.</p>
+<p>Again:</p>
+<p>Measure P isn’t a tax on your home or property</p>
+<p>Measure P doesn’t apply to groceries or prescription medications</p>
+<p>Please make an informed decision before you vote!</p>
+<p>Join us &#8211;vote Yes on P for Hercules’s Public Safety, Parks and People.</p>
+<p>Hercules Police Officer’s Association, Chris Costa, President<br />
+Richard Mitchell, Former Hercules Planning Commissioner<br />
+Jo Ellen Marcotte, Member, Hercules Library Foundation</p>
+<hr />
+<p style="text-align: center;"><strong>FULL TEXT OF</strong><br />
+<strong>MEASURE P</strong></p>
+<p style="text-align: center;"><strong>ORDINANCE NO._________</strong></p>
+<p style="text-align: center;">AN ORDINANCE OF THE CITY OF HERCULES ADDING CHAPTER 11, ENTITLED “2026 TRANSACTIONS AND USE TAX” TO TITLE 8 OF<br />
+THE HERCULES MUNICIPAL CODE TO IMPOSE A TRANSACTIONS AND USE TAX WITH A MAXIMUM TAX RATE OF ONE PERCENT<br />
+(1%), TO BE ADMINISTERED BY THE CALIFORNIA DEPARTMENT OF TAX AND FEE ADMINISTRATION</p>
+<p><strong>THE PEOPLE OF THE CITY OF HERCULES DO ORDAIN AS FOLLOWS:</strong></p>
+<p><span style="text-decoration: underline;"><strong>SECTION </strong><strong>1</strong>.</span> Title 8, Chapter 11, of the Hercules Municipal Code is hereby added to read as follows:</p>
+<p style="text-align: left;"><strong>CHAPTER 11. 2026 TRANSACTIONS AND USE TAX.</strong></p>
+<p><strong>8-11.01 <span style="text-decoration: underline;">Title and Operative Date.</span></strong></p>
+<p>(a) This Chapter shall be known as the 2026 Transactions and Use Tax Ordinance. The city of Hercules hereinafter shall be called “City.” This ordinance shall be applicable in the incorporated territory of the City.</p>
+<p>(b) “Operative Date” means the first day of the first calendar quarter commencing more than 110 days after the adoption of this ordinance. For purposes of Revenue and Taxation Code section 7265, this ordinance shall be considered adopted on the date of the election in which it is approved by the qualified voters of the City.</p>
+<p><strong>8-11.02 <span style="text-decoration: underline;">Purpose.</span></strong></p>
+<p>This Chapter is adopted to achieve the following, among other purposes, and directs that the provisions hereof be interpreted in order to accomplish those purposes:<br />
+(a) To impose a retail transactions and use tax in accordance with the provisions of Part 1.6 (commencing with section 7251) of Division 2 of the Revenue and Taxation Code and section 7285.9 of Part 1.7 of Division 2, which authorizes the City to adopt this tax ordinance which shall be operative if a majority of the electors voting on the measure vote to approve the imposition of the tax at an election called for that purpose.</p>
+<p>(b) To adopt a retail transactions and use tax ordinance that incorporates provisions identical to those of the Sales and Use Tax Law of the State of California insofar as those provisions are not inconsistent with the requirements and limitations contained in Part 1.6 of Division 2 of the Revenue and Taxation Code.</p>
+<p>(c) To adopt a retail transactions and use tax ordinance that imposes a tax and provides a measure therefore that can be administered and collected by the California Department of Tax and Fee Administration in a manner that adapts itself as fully as practicable to, and requires the least possible deviation from, the existing statutory and administrative procedures followed by the California Department of Tax and Fee Administration in administering and collecting the California State Sales and Use Taxes.</p>
+<p>(d) To adopt a retail transactions and use tax ordinance that can be administered in a manner that will be, to the greatest degree possible, consistent with the provisions of Part 1.6 of Division 2 of the Revenue and Taxation Code, minimize the cost of collecting the transactions and use taxes, and at the same time, minimize the burden of record keeping upon persons subject to taxation under the provisions of this Chapter.</p>
+<p><strong>8-11.03 <span style="text-decoration: underline;">Contract with State.</span></strong></p>
+<p>Prior to the operative date, the City shall contract with the California Department of Tax and Fee Administration to perform all functions incident to the administration and operation of this transactions and use tax ordinance; provided, that if the City shall not have contracted with the California Department of Tax and Fee<br />
+Administration prior to the operative date, it shall nevertheless so contract and in such a case the operative date shall be the first day of<br />
+the first calendar quarter following the execution of such a contract.</p>
+<p><strong>8-11.04 <span style="text-decoration: underline;">Transactions Tax Rate.</span></strong></p>
+<p>For the privilege of selling tangible personal property at retail, a tax is hereby imposed upon all retailers in the incorporated territory of the City at the rate of one percent (1%) of the gross receipts of any retailer from the sale of all tangible personal property sold at retail in said territory on and after the operative date of this Chapter. Such tax shall be in addition to any other transaction (sales) tax imposed by this Code or applicable State law.</p>
+<p><strong>8-11.05 <span style="text-decoration: underline;">Place of Sale.</span></strong></p>
+<p>For the purposes of this Chapter, all retail sales are consummated at the place of business of the retailer unless the tangible personal property sold is delivered by the retailer or his agent to an out-of-state destination or to a common carrier for delivery to an out-of-state destination. The gross receipts from such sales shall include delivery charges, when such charges are subject to the state sales and use tax, regardless of the place to which delivery is made. In the event a retailer has no permanent place of business in the State or has more<br />
+than one place of business, the place or places at which the retail sales are consummated shall be determined under rules and regulations to be prescribed and adopted by the California Department of Tax and Fee Administration.</p>
+<p><strong>8-11.06 <span style="text-decoration: underline;">Use Tax Rate.</span></strong></p>
+<p>An excise tax is hereby imposed on the storage, use or other consumption in the City of tangible personal property purchased from any retailer on and after the operative date of this Chapter for storage, use or other consumption in said territory at the rate of one percent (1%) of the sales price of the property. The sales price shall include delivery charges when such charges are subject to state sales or use tax regardless of the place to which delivery is made. Such tax shall be in addition to any other use tax imposed by this Code or applicable to State law.</p>
+<p><strong>8-11.07 <span style="text-decoration: underline;">Adoption of Provisions of State Law.</span></strong></p>
+<p>Except as otherwise provided in this Chapter and except insofar as they are inconsistent with the provisions of Part 1.6 of Division 2 of the Revenue and Taxation Code, all of the provisions of Part 1 (commencing with section 6001) of Division 2 of the Revenue and Taxation Code are hereby adopted and made a part of this Chapter as though fully set forth herein.</p>
+<p><strong>8-11.08 <span style="text-decoration: underline;">Collection of Tax at Less Than the Maximum Rate.</span></strong></p>
+<p>If at any time the full one percent (1%) tax authorized in sections 8-11.04 and 8-11.06 cannot be imposed or collected because of the application of section 7251.1 of the Revenue and Taxation Code which provides that the combined rate of all taxes imposed in accordance with Division 2, Part 1.6 of the Revenue and Taxation Code in any county may not exceed two percent (2%), then the rate of the tax authorized in sections 8-11.04 and 8-11.06 shall be reduced to the maximum rate allowed under section 7251.1 of the Revenue and Taxation Code for such time as, and only for so long as, the full one percent (1%) tax cannot be imposed or collected. Whenever the full one percent (1%) tax authorized in sections 8-11.04 and 8-11.06 can be imposed and collected under section 7251.1 of the Revenue and Taxation Code, whether due to the reduction, rescission, or elimination of another transactions and use tax or due to special legislation allowing the full one percent (1%) tax to be imposed and collected, it shall be.</p>
+<p><strong>8-11.09 <span style="text-decoration: underline;">Limitations on Adoption of State Law and Collection of Use Taxes.</span></strong></p>
+<p>In adopting the provisions of Part 1 of Division 2 of the Revenue and Taxation Code:</p>
+<p>(a) Wherever the State of California is named or referred to as the taxing agency, the name of this City shall be substituted therefor.<br />
+However, the substitution shall not be made when:</p>
+<p>(1) The word “State” is used as a part of the title of the State Controller, State Treasurer, State Treasury, or the Constitution of the State of California;</p>
+<p>(2) The result of that substitution would require action to be taken by or against this City or any agency, officer, or employee thereof rather than by or against the California Department of Tax and Fee Administration, in performing the functions incident to the administration or operation of this Chapter.</p>
+<p>(3) In those sections, including, but not necessarily limited to sections referring to the exterior boundaries of the State of California, where the result of the substitution would be to:</p>
+<p>A. Provide an exemption from this tax with respect to certain sales, storage, use or other consumption of tangible personal property which would not otherwise be exempt from this tax<br />
+while such sales, storage, use or other consumption remain subject to tax by the State under the provisions of Part 1 of Division 2 of the Revenue and Taxation Code, or;</p>
+<p>B. Impose this tax with respect to certain sales, storage, use or other consumption of tangible personal property which would not be subject to tax by the state under the said provision of that code.</p>
+<p>(4) In Sections 6701, 6702 (except in the last sentence thereof), 6711, 6715, 6737, 6797 or 6828 of the Revenue and Taxation Code.</p>
+<p>(b) The word “City” shall be substituted for the word “State” in the phrase “retailer engaged in business in this State” in Section 6203 and in the definition of that phrase in Section 6203.</p>
+<p>(1) “A retailer engaged in business in the District” shall also include any retailer that, in the preceding calendar year or the current calendar year, has total combined sales of tangible personal property in this state or for delivery in the State by the retailer and all persons related to the retailer that exceeds five hundred thousand dollars ($500,000). For purposes of this section, a person is related to another person if both persons are related to each other pursuant to Section 267(b) of Title 26 of the United States Code and the regulations thereunder.</p>
+<p><strong>8-11.10 <span style="text-decoration: underline;">Permit Not Required.</span></strong></p>
+<p>If a seller’s permit has been issued to a retailer under Section 6067 of the Revenue and Taxation Code, an additional transactor’s permit shall not be required by this Chapter.</p>
+<p><strong>8-11.11 <span style="text-decoration: underline;">Exemptions and Exclusions.</span></strong></p>
+<p>(a) There shall be excluded from the measure of the transactions tax and the use tax the amount of any sales tax or use tax imposed by the State of California or by any city, city and county, or county pursuant to the Bradley-Burns Uniform Local Sales and Use Tax Law or the amount of any state-administered transactions or use tax.</p>
+<p>(b) There are exempted from the computation of the amount of transactions tax the gross receipts from:</p>
+<p>(1) Sales of tangible personal property, other than fuel or petroleum products, to operators of aircraft to be used or consumed principally outside the county in which the sale is made and directly and exclusively in the use of such aircraft as common carriers of persons or property under the authority of the laws of this State, the United States, or any foreign government.</p>
+<p>(2) Sales of property to be used outside the City which is shipped to a point outside the City, pursuant to the contract of sale, by delivery to such point by the retailer or his agent, or by delivery by the retailer to a carrier for shipment to a consignee at such point. For the purposes of this paragraph, delivery to a point outside the City shall be satisfied:</p>
+<p>A. With respect to vehicles (other than<br />
+commercial vehicles) subject to registration pursuant to Chapter 1 (commencing with Section 4000) of Division 3 of the Vehicle Code, aircraft licensed in compliance with Section 21411 of the Public Utilities Code, and undocumented vessels registered under Division 3.5 (commencing with Section 9840) of the Vehicle Code by registration to an out-of-City address and by a declaration under penalty of perjury, signed by the buyer, stating that such address is, in fact, his or her principal place of residence; and</p>
+<p>B. With respect to commercial vehicles, by registration to a place of business out-of-City and declaration under penalty of perjury, signed by the buyer, that the vehicle will be operated from that address.</p>
+<p>(3) The sale of tangible personal property if the seller is obligated to furnish the property for a fixed price pursuant to a contract entered into prior to the operative date of this Chapter.</p>
+<p>(4) A lease of tangible personal property which is a continuing sale of such property, for any period of time for which the lessor is obligated to lease the property for an amount fixed by the lease prior to the operative date of this Chapter.</p>
+<p>(5) For the purposes of subparagraphs (3) and (4) of this section, the sale or lease of tangible personal property shall be deemed not to be obligated pursuant to a contract or lease for any period of time for which any party to the contract or lease has the unconditional right to terminate the contract or lease upon notice, whether or not such<br />
+right is exercised.</p>
+<p>(c) There are exempted from the use tax imposed by this Chapter, the storage, use or other consumption in this City of tangible personal property:</p>
+<p>(1) The gross receipts from the sale of which have been subject to a transactions tax under any state-administered transactions and use tax ordinance.</p>
+<p>(2) Other than fuel or petroleum products purchased by operators of aircraft and used or consumed by such operators directly and exclusively in the use of such aircraft as common carriers of persons or property for hire or compensation under a certificate of public convenience and necessity issued pursuant to the laws of this State, the United States, or any foreign government. This exemption is in addition to the exemptions provided in Sections 6366 and 6366.1 of the Revenue and Taxation Code of the State of California.</p>
+<p>(3) If the purchaser is obligated to purchase the property for a fixed price pursuant to a contract entered into prior to the operative date of this Chapter.</p>
+<p>(4) If the possession of, or the exercise of any right or power over, the tangible personal property arises under a lease which is a continuing purchase of such property for any period of time for which the lessee is obligated to lease the property for an amount fixed by a lease prior to the operative date of this Chapter.</p>
+<p>(5) For the purposes of subparagraphs (3) and (4) of this section, storage, use, or other consumption, or possession of, or exercise of any right or power over, tangible personal property shall be deemed not to be obligated pursuant to a contract or lease for any period of time for which any party to the contract or lease has the unconditional right to terminate the contract or lease upon notice, whether or not such right is exercised.</p>
+<p>(6) Except as provided in subparagraph (7), a retailer engaged in business in the City shall not be required to collect use tax from the purchaser of tangible personal property, unless the retailer ships or delivers the property into the City or participates within the City in making the sale of the property, including, but not limited to, soliciting or receiving the order, either directly or indirectly, at a place of business of the retailer in the City or through any representative, agent, canvasser, solicitor, subsidiary, or person in the City under the authority of the retailer.</p>
+<p>(7) “A retailer engaged in business in the City” shall also include any retailer of any of the following: vehicles subject to registration pursuant to Chapter 1 (commencing with Section 4000) of Division 3 of the Vehicle Code, aircraft licensed in compliance with Section 21411 of the Public Utilities Code, or undocumented vessels registered under Division 3.5 (commencing with Section 9840) of the Vehicle Code. That retailer shall be required to collect use tax from any purchaser who registers or licenses the vehicle, vessel, or aircraft at an address in the City.</p>
+<p>(d) Any person subject to use tax under this Chapter may credit against that tax any transactions tax or reimbursement for transactions tax paid to a district imposing, or retailer liable for a transactions tax pursuant to Part 1.6 of Division 2 of the Revenue and Taxation Code with respect to the sale to the person of the property the storage, use or other consumption of which is subject to the use tax.</p>
+<p><strong>8-11.12 <span style="text-decoration: underline;">Amendments to the Revenue and Taxation Code.</span></strong></p>
+<p>All amendments subsequent to the effective date of this Chapter to Part 1 of Division 2 of the Revenue and Taxation Code relating to sales and use taxes and which are not inconsistent with Part 1.6 and Part 1.7 of Division 2 of the Revenue and Taxation Code, and all amendments to Part 1.6 and Part 1.7 of Division 2 of the Revenue and Taxation Code, shall automatically become a part of this Chapter, provided however, that no such amendment shall operate so as to affect the rate of tax imposed by this Chapter.</p>
+<p><strong>8-11.13 <span style="text-decoration: underline;">Amendments by the City Council.</span></strong></p>
+<p>The voters of the City of Hercules give the City Council of the City of Hercules the power to amend any provision of this Chapter, provided such amendment does not impose a new tax or increase or extend an existing tax, in which case such amendment must be approved by the City’s electorate.</p>
+<p><strong>8-11.14 <span style="text-decoration: underline;">Enjoining Collection Forbidden.</span></strong></p>
+<p>No injunction or writ of mandate or other legal or equitable process shall issue in any suit, action or proceeding in any court against the State or the City, or against any officer of the State or the City, to prevent or enjoin the collection under this Chapter, or Part 1.6 of Division 2 of the Revenue and Taxation Code, of any tax or any amount of tax required to be collected.</p>
+<p><strong>8-11.15 <span style="text-decoration: underline;">Severability.</span></strong></p>
+<p>If any provision of this Chapter or the application thereof to any person or circumstance is held invalid, the remainder of the ordinance and the application of such provision to other persons or circumstances shall not be affected thereby.</p>
+<p><strong>8-11.15 <span style="text-decoration: underline;">Use of Tax Proceeds.</span></strong></p>
+<p>All proceeds of the tax levied and imposed under this Chapter shall be paid into the general fund for use by the City of Hercules.</p>
+<p><strong><span style="text-decoration: underline;">SECTION 2.</span> California Environmental Quality Act.</strong></p>
+<p>This Ordinance is exempt from the California Environmental Quality Act (“CEQA”), Public Resources Code section 21000 et seq., under, including without limitation, Public Resources Code section 21065 and CEQA Guidelines sections 15378(b)(4) and 15061(b)(3), as it can be seen with certainty that there is no possibility that the activity authorized herein may have a significant effect on the environment and pursuant to Public Resources Code section 21080, subdivision (b)(8), and CEQA Guidelines section 15273 as the approval of government revenues to fund existing services.</p>
+<p><strong><span style="text-decoration: underline;">SECTION 3.</span> Effective Date.</strong></p>
+<p>This Ordinance relates to the levying and collection of the City transactions and use tax and is a valid and binding ordinance of the City upon passage and approval by the electorate of the City of Hercules. This Ordinance shall be considered adopted upon the date that the vote is declared by the City Council and shall go into effect ten (10) days after declaration of the election results by the City Council pursuant to Elections Code section 9217.</p>
+</div>
+
+						</article>
+					</div>
+				</div>
+
+			</section>
+
+		
+	</div><!-- end #page-wrap -->
+	
+		
+		<footer class="page-footer">
+			<div class="footer_content">
+				<div id="custom_html-5" class="widget_text widget widget_custom_html"><h2 class="widget-title">Contact Us</h2><div class="textwidget custom-html-widget"><div class="mbm">
+	<b>Registrar of Voters</b>
+	<div>925-335-7800</div>
+	<div>TTY:Call 711</div>
+</div>
+
+<div class="mbm">
+	<b>Recorder/County Clerk</b>
+	<div>925-335-7900</div>
+	<div>TTY:Call 711</div>
+	</div>
+<div class="mbm">
+	<div>555 Escobar Street,</div>
+	<div>Martinez, CA 94553</div>
+</div>
+
+</div></div><div id="custom_html-2" class="widget_text widget widget_custom_html"><h2 class="widget-title">Registrar of Voters</h2><div class="textwidget custom-html-widget"><div>
+	<a href="https://twitter.com/cocoelections" class="ccicons2-twitter">
+		<span class="sr-only">Twitter-Elections</span>
+	</a>
+	<a href="https://www.youtube.com/channel/UCUf7tX4Pfm_d5MgROB9JX-w" class="ccicons-youtube">
+		<span class="sr-only">Youtube-Elections</span>
+	</a>
+	<a href="https://www.facebook.com/ContraCostaElections/" class="ccicons-facebook">
+		<span class="sr-only">Facebook-Elections</span>
+	</a>
+	<a href="https://www.linkedin.com/company/contra-costa-county-clerk-recorder/" class="ccicons-linkedin">
+		<span class="sr-only">LinkedIn-Elections</span>
+	</a>
+	<a href="https://www.instagram.com/contra_costa_elections/" class="ccicons-instagram">
+		<span class="sr-only">Instagram-Elections</span>
+	</a>
+	
+</div></div></div><div id="custom_html-4" class="widget_text widget widget_custom_html"><h2 class="widget-title">Recorder</h2><div class="textwidget custom-html-widget"><div>
+	<a href="https://twitter.com/CCClerkRecorder" class="ccicons2-twitter">
+		<span class="sr-only">Twitter-Recorder</span>
+	</a>
+	<a href="https://www.youtube.com/channel/UCUf7tX4Pfm_d5MgROB9JX-w" class="ccicons-youtube">
+		<span class="sr-only">Youtube-Recorder</span>
+	</a>
+	<a href="https://www.facebook.com/ContraCostaClerkRecorder/" class="ccicons-facebook">
+		<span class="sr-only">Facebook-Recorder</span>
+	</a>
+	<a href="https://www.linkedin.com/company/contra-costa-county-clerk-recorder/" class="ccicons-linkedin">
+		<span class="sr-only">LinkedIn-Recorder</span>
+	</a>
+	<a href="https://www.instagram.com/clerk_recorder/" class="ccicons-instagram">
+		<span class="sr-only">Instagram-Recorder</span>
+	</a>
+	
+</div>
+<br><br>
+<div class="mbm">
+	<span style="color: white; font-size:20px"><b>Fees</b></span>
+
+	<p><a href="https://www.contracostavote.gov/wp-content/uploads/Clerk-Fee-Schedule-2026-UPDATED.pdf" target="blank" rel="noopener noreferrer">Clerk Fees</a></p>
+	<p><a href="https://www.contracostavote.gov/wp-content/uploads/Recorder-Fee-Schedule-2026-UPDATED-2.pdf" target="blank" rel="noopener noreferrer">Recorder Fees</a></p>
+	<p><a href="https://www.contracostavote.gov/wp-content/uploads/Elections-Fee-Schedule-2026.pdf" target="blank" rel="noopener noreferrer">Elections Fees</a></p>
+	
+</div></div></div><div id="custom_html-3" class="widget_text widget widget_custom_html"><h2 class="widget-title">County Clerk</h2><div class="textwidget custom-html-widget"><div>
+	<a href="https://twitter.com/CCClerkRecorder" class="ccicons2-twitter">
+		<span class="sr-only">Twitter-County Clerk</span>
+	</a>
+	<a href="https://www.youtube.com/channel/UCUf7tX4Pfm_d5MgROB9JX-w" class="ccicons-youtube">
+		<span class="sr-only">Youtube-County Clerk</span>
+	</a>
+	<a href="https://www.facebook.com/ContraCostaClerkRecorder/" class="ccicons-facebook">
+		<span class="sr-only">Facebook-County Clerk</span>
+	</a>
+	<a href="https://www.linkedin.com/company/contra-costa-county-clerk-recorder/" class="ccicons-linkedin">
+		<span class="sr-only">LinkedIn-County Clerk</span>
+	</a>
+	<a href="https://www.instagram.com/clerk_recorder/" class="ccicons-instagram">
+		<span class="sr-only">Instagram-County Clerk</span>
+	</a>
+	
+</div></div></div>			</div>
+			<div class="copyright_content">
+				<div id="text-5" class="widget widget_text">			<div class="textwidget"><div class="social-media-content-policy"><a href="https://www.contracostavote.gov/social-media-comment-policy/" target="_blank" rel="noopener">Social Media Content Policy</a></div>
+
+</div>
+		</div><div id="text-4" class="widget widget_text">			<div class="textwidget"><div class="footer-menu">
+<div>
+	<ul>
+		<li><a href="https://www.contracostavote.gov/elections/voter-registration/my-voting-information/#VoterLookupandSampleBallotSearch" target="blank" rel="noopener noreferrer">My Voting Information</a></li>
+		<li><a href="https://www.contracostavote.gov/elections/voter-registration/" target="blank" rel="noopener noreferrer">Voter Registration</a></li>
+		<li><a href="https://www.contracostavote.gov/elections/how-to-vote/" target="blank" rel="noopener noreferrer">How to Vote</a></li>
+	</ul>
+</div>
+
+<div>
+	<ul>
+		<li><a href="https://www.contracostavote.gov/elections/poll-worker-center/" target="blank" rel="noopener noreferrer">Poll Worker Center</a></li>
+		<li><a href="https://www.contracostavote.gov/elections/voter-outreach-education/" target="blank" rel="noopener noreferrer">Voter Outreach & Education</a></li>
+		<li><a href="https://www.contracostavote.gov/elections/candidates-campaigns-measures/" target="blank" rel="noopener noreferrer">Candidate, Campaigns, & Measures</a></li>
+	</ul>
+</div>
+
+<div>
+	<ul>
+		<li><a href="https://www.fppc.ca.gov/" target="blank" rel="noopener noreferrer">Fair Political Practices Commission</a></li>
+		<li><a href="https://www.vote411.org/" target="blank" rel="noopener noreferrer">Vote411</a></li>
+		<li><a href="https://www.fvap.gov/" target="blank" rel="noopener noreferrer">Federal Voting Assistance Program</a></li>
+	</ul>
+</div>
+
+<div>
+	<ul>
+		<li><a href="https://www.sos.ca.gov/elections" target="blank" rel="noopener noreferrer">California Secretary of State</a></li>
+		<li><a href="https://sccvote.sccgov.org/coalition-bay-area-election-officials" target="blank" rel="noopener noreferrer">Coalition of Bay Area Election Officials</a></li>
+	</ul>
+</div>
+</div></div>
+		</div><div id="custom_html-11" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget">&nbsp;<div style="text-align: center;">
+<br/>For PRA requests please contact:<br/>Clerk-Recorder: <a href="mailto:webmaster@cr.cccounty.us">webmaster@cr.cccounty.us</a><br/>
+Elections: <a href="mailto:voter.services@vote.cccounty.us">voter.services@vote.cccounty.us</a></div></div></div><div id="text-3" class="widget widget_text">			<div class="textwidget">&nbsp;
+<div style="text-align: center;"></br>© 2026 • <a href="https://www.contracostavote.gov/" alt="Contra Costa County">Home</a> • Powered by <a href="https://soesoftware.com/" target="_blank" title="SOE Software">SOE Software</a>
+</br>
+<a href="https://www.contracosta.ca.gov/" target="_blank" rel="noopener noreferrer"><b>ContraCosta.ca.gov</b></a>
+</div></div>
+		</div>			</div>
+		</footer>
+		</div>
+</div><!-- end #content-slide -->
+
+
+		
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/contracosta-ca_3.1.22/*","/wp-content/themes/connectLite/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="elected-officials-scripts-js" src="https://www.contracostavote.gov/wp-content/plugins/2.0.0_Release/assets/js/scripts.js?ver=7.1.3"></script>
+<script id="precinct-finder-scripts-js" src="https://www.contracostavote.gov/wp-content/plugins/soe-precinct-finder-2.0/assets/js/scripts.js?ver=7.1.3"></script>
+<script id="calendar_js-js-extra">
+var AjaxURL = {"ajaxurl":"https://www.contracostavote.gov/wp-admin/admin-ajax.php"};
+//# sourceURL=calendar_js-js-extra
+</script>
+<script id="calendar_js-js" src="https://www.contracostavote.gov/wp-content/plugins/soe_event_calendar_1.3.0/assets/js/soe.event.calendar.js?ver=7.1.3"></script>
+<script id="slideshow_orbit-js" src="https://www.contracostavote.gov/wp-content/plugins/soe_slideshow_2.1.1_Release/assets/js/jquery.orbit-1.3.0.js?ver=1.0.0"></script>
+<script id="slideshow_public_js-js-extra">
+var slideshow = {"autoScroll":"true","animationType":"fade","animationSpeed":"0.5","advanceSpeed":"5","showCaptions":"true","showCaptionsHTML":"","showBullets":"true","showArrows":"true","captionLength":"1000","learnMoreText":""};
+//# sourceURL=slideshow_public_js-js-extra
+</script>
+<script id="slideshow_public_js-js" src="https://www.contracostavote.gov/wp-content/plugins/soe_slideshow_2.1.1_Release/assets/js/public.js?ver=1.0.0"></script>
+<script id="voter-eligibility-scripts-js" src="https://www.contracostavote.gov/wp-content/plugins/soe_voter_eligibility_2.0.5/assets/js/scripts.js?ver=7.1.3"></script>
+<script id="archless-base-js" src="https://www.contracostavote.gov/wp-content/themes/connectLite/assets/js/base.js?ver=7.1.3"></script>
+<script id="child-theme-main-js-extra">
+var translatableStrings = {"more":"More...","expand":"Expand","collapse":"Collapse","sticky_main_menu":"Sticky Main Menu","pdf_document":"PDF document","opens_in_a_new_window":"Opens in a new window","next":"Next","previous":"Previous","current_language":"Current Language","available_languages":"Available Languages","breadcrumbs":"Breadcrumbs"};
+//# sourceURL=child-theme-main-js-extra
+</script>
+<script id="child-theme-main-js" src="https://www.contracostavote.gov/wp-content/themes/contracosta-ca_3.1.22/assets/js/main.js?ver=1786309178"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.contracostavote.gov/wp-includes/js/wp-emoji-release.min.js?ver=7.1.3"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://www.contracostavote.gov/wp-includes/js/wp-emoji-loader.min.js
+</script>
+</body>
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin
+
+Page Caching using Memcached 
+
+Served from: www.contracostavote.gov @ 2026-10-27 23:38:22 by W3 Total Cache
+-->

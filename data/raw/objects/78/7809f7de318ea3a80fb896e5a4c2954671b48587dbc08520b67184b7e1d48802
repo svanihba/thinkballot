@@ -1,0 +1,666 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="pingback" href="https://www.contracostavote.gov/xmlrpc.php" />
+<!--[if IE]><link href="https://www.contracostavote.gov/wp-content/themes/contracosta-ca_3.1.22/favicon.ico" rel="icon" /><![endif]-->
+<link rel="icon" href="https://www.contracostavote.gov/wp-content/themes/contracosta-ca_3.1.22/favicon.ico" />
+
+
+
+
+<title>Measure W &#8211; Contra Costa County</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" hreflang="en" href="https://www.contracostavote.gov/m9002-en-2/" />
+<link rel="alternate" hreflang="x-default" href="https://www.contracostavote.gov/m9002-en-2/" />
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+	(function(){dataLayer.push(arguments);})('set', 'developer_id.dNGJiYT', true);
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.contracostavote.gov/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.contracostavote.gov%2Fm9002-en-2%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.contracostavote.gov/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.contracostavote.gov%2Fm9002-en-2%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='elected-officials-styles-css' href='https://www.contracostavote.gov/wp-content/plugins/2.0.0_Release/assets/css/styles.css?ver=7.1.3' media='' />
+<link rel='stylesheet' id='precinct-finder-styles-css' href='https://www.contracostavote.gov/wp-content/plugins/soe-precinct-finder-2.0/assets/css/styles.css?ver=7.1.3' media='' />
+<link rel='stylesheet' id='pb-datepicker-css' href='https://www.contracostavote.gov/wp-content/plugins/soe_absentee_ballot_1.0.3/date-picker/css/jquery-ui-1.10.2.custom.min.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='voter-eligibility-styles-css' href='https://www.contracostavote.gov/wp-content/plugins/soe_voter_eligibility_2.0.5/assets/css/styles.css?ver=7.1.3' media='' />
+<link rel='stylesheet' id='theme-style-css' href='https://www.contracostavote.gov/wp-content/themes/connectLite/assets/css/main.css?ver=2.2.8' media='all' />
+<link rel='stylesheet' id='print-styles-css' href='https://www.contracostavote.gov/wp-content/themes/connectLite/assets/css/print.css?ver=2.2.8' media='print' />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='theme.css-css' href='https://www.contracostavote.gov/wp-content/plugins/popup-builder/public/css/theme.css?ver=4.4.5' media='all' />
+<link rel='stylesheet' id='pr_public-css' href='https://www.contracostavote.gov/wp-content/plugins/soe_accordion_1.1.0_Release/assets/css/public.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='calendar_css-css' href='https://www.contracostavote.gov/wp-content/plugins/soe_event_calendar_1.3.0/assets/css/event.public.css?ver=7.1.3' media='' />
+<link rel='stylesheet' id='quick_link_icons_gallery_css-css' href='https://www.contracostavote.gov/wp-content/plugins/soe_quick_links-1.5.0/assets/css/ql_icons_gallery.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='slideshow_css-css' href='https://www.contracostavote.gov/wp-content/plugins/soe_slideshow_2.1.1_Release/assets/css/orbit.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='whatsnew_css-css' href='https://www.contracostavote.gov/wp-content/plugins/soe_whats_new_1.11/assets/css/whatsnew.public.css?ver=7.1.3' media='' />
+<link rel='stylesheet' id='widgetopts-styles-css' href='https://www.contracostavote.gov/wp-content/plugins/widget-options/assets/css/widget-options.css?ver=4.2.5' media='all' />
+<link rel='stylesheet' id='wpml-legacy-dropdown-0-css' href='https://www.contracostavote.gov/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/style.min.css?ver=510000' media='all' />
+<link rel='stylesheet' id='cms-navigation-style-base-css' href='https://www.contracostavote.gov/wp-content/plugins/wpml-cms-nav/res/css/cms-navigation-base.css?ver=5.1.0' media='screen' />
+<link rel='stylesheet' id='cms-navigation-style-css' href='https://www.contracostavote.gov/wp-content/plugins/wpml-cms-nav/res/css/cms-navigation.css?ver=5.1.0' media='screen' />
+<link rel='stylesheet' id='child-theme-style-css' href='https://www.contracostavote.gov/wp-content/themes/contracosta-ca_3.1.22/assets/css/main.css?ver=1771417196' media='all' />
+
+<!--[if lte IE 8]>
+<style type="text/css" media="screen">
+
+	.ie7 form *,
+	.ie7 .widget_search,
+	.ie7 nav.main-nav > ul > li > a,
+	.ie7 nav#quicklinks ul li,
+    .ie7 nav#quicklinks ul li a,
+	.ie7 .calendar *,
+	.ie7 .orbit-wrapper .orbit-caption,
+	.ie7 #content #secondary .widget_quick_links a .outerContainer{
+		behavior: url(https://www.contracostavote.gov/wp-content/themes/contracosta-ca_3.1.22/assets/polyfill/boxsizing.htc) !important;
+	}
+
+</style>
+
+<![endif]-->
+<script id="jquery-js" src="https://www.contracostavote.gov/wp-content/themes/connectLite/assets/js/vendor/jquery-1.9.1.min.js?ver=7.1.3"></script>
+<script id="radio-js" src="https://www.contracostavote.gov/wp-content/themes/connectLite/assets/js/radio.js?ver=2.2.8"></script>
+<script id="main-js-extra">
+var object_name = {"templateUrl":"https://www.contracostavote.gov/wp-content/themes/connectLite","doStickyMenu":null,"menuSealMiddle":"1"};
+//# sourceURL=main-js-extra
+</script>
+<script type="module" src="https://www.contracostavote.gov/wp-content/themes/connectLite/assets/js/main.js?ver=2.2.8"></script><script id="wpml-cookie-js-extra">
+var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":"Thu, 29 Oct 2026 06:38:16 GMT","path":"/"}};
+//# sourceURL=wpml-cookie-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="wpml-cookie-js" src="https://www.contracostavote.gov/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js?ver=510000"></script>
+<script id="Popup.js-js-before">
+var sgpbPublicUrl = "https:\/\/www.contracostavote.gov\/wp-content\/plugins\/popup-builder\/public\/";
+var SGPB_JS_LOCALIZATION = {"imageSupportAlertMessage":"Only image files supported","pdfSupportAlertMessage":"Only pdf files supported","areYouSure":"Are you sure?","addButtonSpinner":"L","audioSupportAlertMessage":"Only audio files supported (e.g.: mp3, wav, m4a, ogg)","publishPopupBeforeElementor":"Please, publish the popup before starting to use Elementor with it!","publishPopupBeforeDivi":"Please, publish the popup before starting to use Divi Builder with it!","closeButtonAltText":"Close"};
+//# sourceURL=Popup.js-js-before
+</script>
+<script id="Popup.js-js" src="https://www.contracostavote.gov/wp-content/plugins/popup-builder/public/js/Popup.js?ver=4.4.5"></script>
+<script id="PopupConfig.js-js" src="https://www.contracostavote.gov/wp-content/plugins/popup-builder/public/js/PopupConfig.js?ver=4.4.5"></script>
+<script id="PopupBuilder.js-js-before">
+var SGPB_POPUP_PARAMS = {"popupTypeAgeRestriction":"ageRestriction","defaultThemeImages":{"1":"https:\/\/www.contracostavote.gov\/wp-content\/plugins\/popup-builder\/public\/img\/theme_1\/close.png","2":"https:\/\/www.contracostavote.gov\/wp-content\/plugins\/popup-builder\/public\/img\/theme_2\/close.png","3":"https:\/\/www.contracostavote.gov\/wp-content\/plugins\/popup-builder\/public\/img\/theme_3\/close.png","5":"https:\/\/www.contracostavote.gov\/wp-content\/plugins\/popup-builder\/public\/img\/theme_5\/close.png","6":"https:\/\/www.contracostavote.gov\/wp-content\/plugins\/popup-builder\/public\/img\/theme_6\/close.png"},"homePageUrl":"https:\/\/www.contracostavote.gov\/","isPreview":false,"convertedIdsReverse":[],"dontShowPopupExpireTime":365,"conditionalJsClasses":[],"disableAnalyticsGeneral":"0"};
+var SGPB_JS_PACKAGES = {"packages":{"current":1,"free":1,"silver":2,"gold":3,"platinum":4},"extensions":{"geo-targeting":false,"advanced-closing":false}};
+var SGPB_JS_PARAMS = {"ajaxUrl":"https:\/\/www.contracostavote.gov\/wp-admin\/admin-ajax.php","nonce":"e0610d64a5"};
+//# sourceURL=PopupBuilder.js-js-before
+</script>
+<script id="PopupBuilder.js-js" src="https://www.contracostavote.gov/wp-content/plugins/popup-builder/public/js/PopupBuilder.js?ver=4.4.5"></script>
+<script id="jquery-ui-1.10.2_autocomplete_datepicker_menu.custom.min.js-js" src="https://www.contracostavote.gov/js/soe_component_scripts/jquery-ui-1.10.2_autocomplete_datepicker_menu.custom.min.js?ver=7.1.3"></script>
+<script id="pr_public-js" src="https://www.contracostavote.gov/wp-content/plugins/soe_accordion_1.1.0_Release/assets/js/public.js?ver=7.1.3"></script>
+<script id="wpml-legacy-dropdown-0-js" src="https://www.contracostavote.gov/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/script.min.js?ver=510000"></script>
+<script id="archless-modernizr-js" src="https://www.contracostavote.gov/wp-content/themes/connectLite/assets/js/modernizr.min.js?ver=7.1.3"></script>
+
+<!-- Google tag (gtag.js) snippet added by Site Kit -->
+<!-- Google Analytics snippet added by Site Kit -->
+<script id="google_gtagjs-js" src="https://www.googletagmanager.com/gtag/js?id=GT-5MGB99R" async></script>
+<script id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["www.contracostavote.gov"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-5MGB99R");
+//# sourceURL=google_gtagjs-js-after
+</script>
+<link rel="canonical" href="https://www.contracostavote.gov/m9002-en-2/" />
+<link rel='shortlink' href='https://www.contracostavote.gov/?p=31757' />
+<meta name="generator" content="WPML ver:5.1.0 stt:62,1,2;" />
+<meta name="generator" content="Site Kit by Google 1.189.0" /><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script async src="https://docaccess.com/docbox.js"></script>
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- GTM Container placement set to automatic -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+	var dataLayer_content = {"pagePostType":"page","pagePostType2":"single-page","pagePostAuthor":"ohernandez"};
+	dataLayer.push( dataLayer_content );
+</script>
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N95HKQ95');
+</script>
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NVBP9XW5');
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-264455MLSY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-264455MLSY');
+</script>
+
+<style id="wp-custom-css">
+/* CSS For making a url embedded in a Candidate Statement appear as plain unclickable text rather than a live web link to external page */
+.unclickable-link {
+  pointer-events: none; /* Disable mouse clicks */
+	text-decoration: none !important; /* Take out underline of link */
+	color: #4d4d4d;            /* Sets text color to body text class */
+}
+</style>
+</head>
+
+
+	<body class="wp-singular page-template-default page page-id-31757 wp-theme-connectLite wp-child-theme-contracosta-ca_3122 font-size-small styles-default">
+
+				<div id="content-slide">
+		<div id="page-wrap" class="sub-page">
+			<header class="header-wrapper" role="banner">
+				<div class="header">
+					<a id="#skip-to-main-content" class="skip-to-content-link" href="#primary">Skip to main content</a>
+					<a class="skip-to-content-link" href="sitemap">Sitemap</a>
+					<div class="top-bar stickyarea sticky">
+						
+						<a class="home-link sticky" href="https://www.contracostavote.gov">
+							<img src="https://www.contracostavote.gov/wp-content/themes/contracosta-ca_3.1.22/assets/img/logo.jpg" srcset="https://www.contracostavote.gov/wp-content/themes/contracosta-ca_3.1.22/assets/img/logo.png 1x, https://www.contracostavote.gov/wp-content/themes/contracosta-ca_3.1.22/assets/img/logo@2x.png 2x" alt="Contra Costa, CA logo">
+							<div class="home-link-text">
+								<span class="site-title">Contra Costa County</span>
+								<span class="site-description">County Clerk Recorder  - Kristin B. Connelly</span>
+							</div>
+						</a>
+						<button class="toggle-mobile-menu mobile-only" aria-label="Main Menu" aria-expanded="false">
+							<span class="open-menu ci-menu"></span>
+							<span class="button button-toggle"></span>
+						</button>
+						<div class="main-menu-wrapper">
+							<nav role="navigation" aria-label="Main Menu" id="main-nav" class="main-nav regular sticky"><div class="mobile-only mobile-menu-meta">Main Menu</div><ul class="parent-menu"><li class="home-icon"><a href="https://www.contracostavote.gov"><span class="ci-home"></span></a></li><li class="megamenu parent"><a href="#" class="services"><span>Services</span></a><ul class="child"><li class="parent"><a href="https://www.contracostavote.gov/elections/" class="elections"><span>Elections</span></a><ul class="child"><li><a href="https://www.contracostavote.gov/elections/voter-registration/" class="voter_registration"><span>Voter Registration</span></a></li><li><a href="https://www.contracostavote.gov/elections/wheres-my-ballot/" class="where’s_my_ballot"><span>Where’s My Ballot</span></a></li><li><a href="https://www.contracostavote.gov/elections/voter-registration/my-voting-information/" class="my_voting_information"><span>My Voting Information</span></a></li><li><a href="https://www.contracostavote.gov/elections/how-to-vote/" class="how_to_vote"><span>How to Vote</span></a></li><li><a href="https://www.contracostavote.gov/elections/poll-worker-center/" class="poll_worker_center"><span>Poll Worker Center</span></a></li><li><a href="https://www.contracostavote.gov/elections/voter-outreach-education/" class="voter_outreach_&#038;_education"><span>Voter Outreach &#038; Education</span></a></li><li><a href="https://www.contracostavote.gov/elections/candidates-campaigns-measures/" class="candidates,_campaigns,_&#038;_measures"><span>Candidates, Campaigns, &#038; Measures</span></a></li><li><a href="https://www.contracostavote.gov/elections/candidates-campaigns-measures/district-precinct-maps/" class="district_&#038;_precinct_maps"><span>District &#038; Precinct Maps</span></a></li><li class="parent"><a href="https://www.contracostavote.gov/upcoming-elections/" class="<b>upcoming_elections</b>"><span><b>Upcoming Elections</b></span></a><ul class="child"><li><a href="https://www.contracostavote.gov/election/november-3-2026-general-election/" class="november_3,_2026,_general_election"><span>November 3, 2026, General Election</span></a></li></ul></li><li class="parent"><a href="https://pastresults.contracostavote.gov/eng/" class="<b>past_elections</b>"><span><b>Past Elections</b></span></a><ul class="child"><li><a href="https://www.contracostavote.gov/june-2-2026-election-results/" class="june_2,_2026_–_election_results"><span>June 2, 2026 – Election Results</span></a></li><li><a href="https://www.contracostavote.gov/november-4-2025-election-results/" class="   november_4,_2025_–_election_results"><span>   November 4, 2025 – Election Results</span></a></li><li><a href="https://www.contracostavote.gov/june-17-2025-election-results/" class="   june_17,_2025_–_election_results"><span>   June 17, 2025 – Election Results</span></a></li><li><a href="https://www.contracostavote.gov/may-6-2025-election-results/" class="   may_6,_2025_–_election_results"><span>   May 6, 2025 – Election Results</span></a></li><li><a href="https://www.contracostavote.gov/november-5-2024-election-results/" class="   november_5,_2024_–_election_results"><span>   November 5, 2024 – Election Results</span></a></li></ul></li><li><a href="https://www.secure-election.org" class="safe_and_secure_elections"><span>Safe and Secure Elections</span></a></li><li><a href="https://www.contracostavote.gov/elections/candidates-campaigns-measures/observer-rules-and-regulations/" class="observer_rules_&#038;_regulations"><span>Observer Rules &#038; Regulations</span></a></li></ul></li><li class="parent"><a href="https://www.contracostavote.gov/recorder/" class="recorder"><span>Recorder</span></a><ul class="child"><li><a href="https://www.contracostavote.gov/recorder/search-property-documents-disclaimer-page/" class="search_property_documents"><span>Search Property Documents</span></a></li><li><a href="https://www.contracostavote.gov/recorder/recording-fees/" class="recording_fees"><span>Recording Fees</span></a></li><li><a href="https://www.contracostavote.gov/recorder/recording-requirements/" class="recording_requirements"><span>Recording Requirements</span></a></li><li><a href="https://www.contracostavote.gov/recorder/military-discharge/" class="military_discharge"><span>Military Discharge</span></a></li><li><a href="https://www.contracostavote.gov/recorder/mapping-prejudice-project/" class="mapping_prejudice_project"><span>Mapping Prejudice Project</span></a></li><li><a href="https://www.contracostavote.gov/recorder/recorder-forms/" class="recorder_forms"><span>Recorder Forms</span></a></li><li><a href="https://www.contracostavote.gov/recorder/fraud-protection/" class="fraud_protection"><span>Fraud Protection</span></a></li><li><a href="https://www.contracostavote.gov/natural-disaster-notices/" class="natural_disaster_notices"><span>Natural Disaster Notices</span></a></li><li><a href="https://www.contracostavote.gov/recorder/recorder-faqs/" class="recorder_faqs"><span>Recorder FAQs</span></a></li><li><a href="https://www.contracostavote.gov/recorder/recorder-about-us/" class="recorder_about_us_-_<br>including_2026_updated_fee_schedule"><span>Recorder About Us &#8211; <br>Including 2026 Updated Fee Schedule</span></a></li></ul></li><li class="parent"><a href="https://www.contracostavote.gov/countyclerk/" class="county_clerk"><span>County Clerk</span></a><ul class="child"><li><a href="https://www.contracostavote.gov/countyclerk/birth-certificate-ordering-page/" class="birth_certificates"><span>Birth Certificates</span></a></li><li><a href="https://www.contracostavote.gov/countyclerk/marriage/" class="marriage_certificates"><span>Marriage Certificates</span></a></li><li><a href="https://www.contracostavote.gov/countyclerk/death-certificate-ordering-page/" class="death_certificates"><span>Death Certificates</span></a></li><li><a href="https://www.contracostavote.gov/countyclerk/ceremony-information/" class="marriage_license_and_ceremony_information"><span>Marriage License and Ceremony Information</span></a></li><li><a href="https://www.contracostavote.gov/countyclerk/fictitious-business-name/" class="fictitious_business_name"><span>Fictitious Business Name</span></a></li><li><a href="https://www.contracostavote.gov/countyclerk/environmental-filings-requirements/" class="environmental_filings_(ceqa)"><span>Environmental Filings (CEQA)</span></a></li><li><a href="https://www.contracostavote.gov/countyclerk/notaries-public-filing/" class="notary_public_filing"><span>Notary Public Filing</span></a></li><li><a href="https://www.contracostavote.gov/countyclerk/professional-registrations/" class="professional_registrations"><span>Professional Registrations</span></a></li><li><a href="https://www.contracostavote.gov/countyclerk/clerk-about-us/" class="clerk_about_us_–_including_2026_new_fee_schedule"><span>Clerk About Us – Including 2026 NEW Fee Schedule</span></a></li><li><a href="https://www.contracostavote.gov/clerk-recorder-extended-hours/" class="clerk-recorder_extended_hours"><span>Clerk-Recorder Extended Hours</span></a></li></ul></li></ul></li><li class="parent"><a href="#" class="newsroom"><span>Newsroom</span></a><ul class="child"><li><a href="https://www.contracostavote.gov/elections/voter-outreach-education/whats-new-press-releases/" class="what’s_new/press_releases"><span>What’s New/Press Releases</span></a></li><li><a href="https://www.contracostavote.gov/cre-calendar/" class="clerk,_recorder,_and_elections_calendar"><span>Clerk, Recorder, and Elections Calendar</span></a></li><li><a href="https://www.contracostavote.gov/elections/additional-election-links/" class="additional_election_links"><span>Additional Election Links</span></a></li></ul></li><li class="parent"><a href="#" class="current_elections"><span>Current Elections</span></a><ul class="child"><li><a href="https://www.contracostavote.gov/election/november-3-2026-general-election/" class="november_3,_2026,_general_election"><span>November 3, 2026, General Election</span></a></li><li><a href="https://www.contracostavote.gov/november-3-2026-election-results/" class="november_3,_2026_&#8211;_election_results"><span>November 3, 2026 &#8211; Election Results</span></a></li></ul></li></ul></nav>							<form role="search" method="get" class="search-form hide-clear always-open search-hidden desktop-only" action="https://www.contracostavote.gov/">
+								<div class="search-widget-wrapper">
+									<input type="text" placeholder="Search..." name="s" class="s" aria-label="Search" />
+									<button type="submit" class="ccicons-search" value="Search" aria-label="Search"> </button>
+								</div>
+							</form>
+							<div id="mobile-menu-complementary-area" class="mobile-menu-complementary-area mobile-only">
+								<form role="search" method="get" class="search-form hide-clear always-open" action="https://www.contracostavote.gov/">
+									<div class="search-widget-wrapper">
+										<input type="text" placeholder="Search..." name="s" class="s" aria-label="Search" />
+										<button type="submit" class="ccicons-search" value="Search" aria-label="Search"> </button>
+									</div>
+								</form>
+								<a href=""  class="top-bar-option top-bar-option-accessibility desktop-only"><span class="ccicons-accessibility"></span><span class="accessibility-text">Accessibility</span></a>
+								<div class="top-bar-option top-bar-languaje-option">
+<div
+	 role="navigation" aria-label="Language Switcher" class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-dropdown js-wpml-ls-legacy-dropdown">
+	<ul>
+		<li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-dropdown">
+									<a href="#" hreflang="en" lang="en" class="js-wpml-ls-item-toggle wpml-ls-item-toggle" aria-current="page" aria-expanded="false" aria-controls="wpml-ls-submenu-default" aria-label="English – Language switcher, press tab to navigate to other languages" title="Switch to English">
+				<span class="wpml-ls-native">English</span></a>
+
+			<ul id="wpml-ls-submenu-default" class="wpml-ls-sub-menu">
+				
+					<li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-es">
+						<a href="https://www.contracostavote.gov/traducciones-no-disponibles/?lang=es" hreflang="es" lang="es" class="wpml-ls-link" aria-label="Switch to Español" title="Switch to Español">
+							<span class="wpml-ls-native">Español</span></a>
+					</li>
+
+				
+					<li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-zh-hant wpml-ls-last-item">
+						<a href="https://www.contracostavote.gov/%e7%bf%bb%e8%ad%af%e4%b8%8d%e5%8f%af%e7%94%a8/?lang=zh-hant" hreflang="zh-hant" lang="zh-hant" class="wpml-ls-link" aria-label="Switch to 繁體中文" title="Switch to 繁體中文">
+							<span class="wpml-ls-native">繁體中文</span></a>
+					</li>
+
+							</ul>
+
+		</li>
+
+	</ul>
+</div>
+</div>
+							</div>
+						</div>
+						<button class="top-bar-option search-toggler desktop-only">
+							<span class="search-icon"><span class="ccicons-search"></span><span class="sr-only">Expand Search</span></span>
+							<span class="search-close-icon hidden"><span class="ci ci-close_noCircle"></span><span class="sr-only">Collapse search</span></span>
+						</button>
+						<a href=""  class="top-bar-option top-bar-option-accessibility desktop-only"><span class="ccicons-accessibility"></span><span class="sr-only">Accessibility</span></a>
+						<div class="top-bar-option top-bar-languaje-option desktop-only">
+<div
+	 role="navigation" aria-label="Language Switcher" class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-dropdown js-wpml-ls-legacy-dropdown">
+	<ul>
+		<li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-dropdown">
+									<a href="#" hreflang="en" lang="en" class="js-wpml-ls-item-toggle wpml-ls-item-toggle" aria-current="page" aria-expanded="false" aria-controls="wpml-ls-submenu-default" aria-label="English – Language switcher, press tab to navigate to other languages" title="Switch to English">
+				<span class="wpml-ls-native">English</span></a>
+
+			<ul id="wpml-ls-submenu-default" class="wpml-ls-sub-menu">
+				
+					<li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-es">
+						<a href="https://www.contracostavote.gov/traducciones-no-disponibles/?lang=es" hreflang="es" lang="es" class="wpml-ls-link" aria-label="Switch to Español" title="Switch to Español">
+							<span class="wpml-ls-native">Español</span></a>
+					</li>
+
+				
+					<li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-zh-hant wpml-ls-last-item">
+						<a href="https://www.contracostavote.gov/%e7%bf%bb%e8%ad%af%e4%b8%8d%e5%8f%af%e7%94%a8/?lang=zh-hant" hreflang="zh-hant" lang="zh-hant" class="wpml-ls-link" aria-label="Switch to 繁體中文" title="Switch to 繁體中文">
+							<span class="wpml-ls-native">繁體中文</span></a>
+					</li>
+
+							</ul>
+
+		</li>
+
+	</ul>
+</div>
+</div>
+					</div>
+				</div>
+
+				
+								
+													
+								
+			</header>
+
+			
+			<div class="page-wrap-inner">
+
+						
+			<section id="content" class="content">
+
+								
+				
+				<div id="secondary"></div>
+
+				
+				<div id="primary" role="main">
+					<div class="fluid">
+						<article class="post post-31757 page type-page status-publish hentry">
+
+						    <h1 class="page-title ">
+        Measure W    </h1>
+
+							
+							
+<div class="entry-content">
+	<p style="text-align: center;"><strong>MEASURE W</strong><br />
+<strong>ACALANES UNION HIGH SCHOOL DISTRICT</strong></p>
+<p>Shall the measure supporting high-quality education in local high schools by:<br />
+• Attracting/retaining highly qualified teachers<br />
+• continuing advanced academic programs in science, technology, engineering, math, and arts that prepare students for success in college and careers<br />
+• maintaining manageable class sizes<br />
+with Acalanes Union High School District levying a $168 parcel tax for eight years, with senior exemptions, citizens’ oversight and independent audits, providing $6,000,000 annually in local school funding that cannot be taken by the State, be adopted?</p>
+<hr />
+<p style="text-align: center;"><strong>COUNTY COUNSEL’S IMPARTIAL ANALYSIS OF</strong><br />
+<strong>MEASURE W</strong></p>
+<p>The governing board of the Acalanes Union High School District has adopted a resolution proposing a parcel tax (a qualified special tax).</p>
+<p>If this measure passes, beginning on July 1, 2027, the current parcel tax would be increased by $168 annually on parcels of taxable real property within the District for eight years, expiring on June 30, 2035. Based on information from the County Auditor-Controller’s Office, there are two existing parcel taxes totaling $301 per parcel annually. If this measure passes, the total amount of annual parcel taxes would be $469 per parcel.</p>
+<p>The parcel tax would apply to each parcel of taxable real property in the District. A parcel of taxable real property is any unit of real property in the District that receives a separate tax bill for property taxes from the Contra Costa County Treasurer-Tax Collector’s Office.</p>
+<p>The ballot measure includes certain exemptions. Upon proper application to the District, the District may exempt any parcel from the parcel tax that is owned and occupied as a principal residence by (1) a person 65 years of age or older; (2) a person receiving Supplemental Security Income for a disability; or (3) a person receiving Social Security Disability Insurance benefits, whose yearly income does not exceed 250 percent of the 2012 federal poverty guidelines issued by the United States Department of Health and Human Services. Additionally, property that is otherwise exempt from property taxes shall also be exempt from the parcel tax.</p>
+<p>The ballot measure states that the proceeds of the parcel tax will be used to support “high-quality education in local high schools by attracting/retaining highly qualified teachers; continuing advanced academic programs in science, technology, engineering, math and arts that prepare students for success in college and careers; [and] maintaining manageable class sizes.” Proceeds from the parcel tax may be used only for the specific purposes set forth in the ballot measure and according to constitutional and statutory provisions.</p>
+<p>State law requires the District’s chief fiscal officer to file an annual report with the District’s governing board that states the amount of funds received and expended in each year and the status of any projects required or authorized to be funded from the parcel tax proceeds. State law also requires the proceeds from the parcel tax to be deposited into a separate designated account. The measure also would require the District to have an appointed citizens’ oversight committee to oversee the use of parcel tax proceeds.</p>
+<p>Of those voting on the measure, two-thirds must approve the measure for it to pass.</p>
+<p>A ”yes” vote is in favor of authorizing the parcel tax for an eight-year period.</p>
+<p>A “no” vote is against authorizing the parcel tax for an eight-year period.</p>
+<hr />
+<p style="text-align: center;"><strong>ARGUMENT IN FAVOR OF</strong><br />
+<strong>MEASURE W</strong></p>
+<p><strong>Vote Yes on Measure W</strong> to protect the outstanding quality of education local high school students receive from Acalanes Union High School District schools.</p>
+<p>Today’s high school graduates must be prepared to compete in a highly technical and competitive global workforce. <strong>Our four public high schools</strong>—Acalanes High School, Campolindo High School, Las Lomas High School, and Miramonte High School—have answered the educational call, <strong>today ranking among the top 5% of all high schools nationwide.</strong></p>
+<p><strong>Here’s the problem:</strong> years of inadequate state funding have taken their toll. <span style="text-decoration: underline;"><strong>This is not an expense problem; it’s a revenue problem.</strong></span></p>
+<p>AUHSD’s last new funding measure was <strong>16 years ago.</strong> While educational costs continue rising, AUHSD has cut $4.2M in the last 2 years alone! <strong><span style="text-decoration: underline;">Without Measure W, drastic cuts will continue.</span> Our students will suffer in academic program losses, increasing class sizes, and layoffs of valued teachers, counselors, and support staff.</strong></p>
+<p><strong>Measure W will:</strong><br />
+● <strong>Protect</strong> advanced science, technology, engineering, and math programs that help students get into college<br />
+● <strong>Retain/attract</strong> highly-qualified teachers<br />
+● <strong>Maintain</strong> manageable class sizes<br />
+● <strong>Preserve</strong> high-quality music, visual, and performing arts programs<br />
+● <strong>Continue</strong> Career Technical Education for in-demand fields like auto mechanics, fabrication, skilled trades, biotech, medical and health sciences<br />
+● <strong>Keep</strong> classroom technology/instructional materials current<br />
+● <strong>Provide</strong> academic intervention for students in need<br />
+● <strong>Restore</strong> positions lost to budget cuts &#8211; especially teachers, counselors, and school librarians.</p>
+<p><span style="text-decoration: underline;">Senior Citizens are eligible for exemption.</span></p>
+<p><strong><span style="text-decoration: underline;">Mandatory Taxpayer Protections:</span> </strong>No funds for administrators’ salaries; Citizens’ Oversight and independent audits ensure proper spending; Measure W lasts 8 years only; <strong>all funds stay local, benefitting AUHSD only.</strong></p>
+<p>Maintaining high-quality schools is a wise investment. Great schools protect property values and quality of life.</p>
+<p>Teachers, parents, seniors, civic leaders and residents across our community are <strong>voting Yes</strong>. They know, as we do, <strong><span style="text-decoration: underline;">the need is great and our kids are worth it!</span></strong></p>
+<p><strong>Join us! Vote Yes on W!</strong></p>
+<p>www.YesForOurHighSchools.com</p>
+<p>Matt Francois, Parent of Las Lomas Grads, Attorney, Walnut Creek City Councilmember &amp; Former Mayor<br />
+Connie Collier, Local Business Owner, Diablo Foods, 58-yr. Lafayette Resident, Past PTA Pres.<br />
+Fred Weil, Taxation/Corp. Attorney, School Trustee (’79-2000), Co-Founder, Moraga Ed Found., 54-yr. Homeowner<br />
+Amy Worth, Former Orinda Mayor, 24-yr City Councilmember, 44-yr. Orinda Homeowner, Parent of Miramonte Grads<br />
+Dennis Fay, Rossmoor Resident, Former Orinda Mayor/Civic Leader, Retired Transportation Executive</p>
+<hr />
+<p style="text-align: center;"><strong>REBUTTAL TO ARGUMENT IN FAVOR OF</strong><br />
+<strong>MEASURE W</strong></p>
+<p>Proponents say Measure W solves a revenue problem. It’s a spending problem.</p>
+<p>• Acalanes Union High School District already collects $301 on top of our regular property tax. While paying off AUHSD bonds, we also pay parcel taxes to each TK-8 “feeder” district.</p>
+<p>• Voters already rejected a smaller version of this tax last year.</p>
+<p>• The district itself spent $834,000 on the standalone special election it lost, plus opinion surveys and consultants. Now, over $68,000 has already gone to Measure W polling and consulting.</p>
+<p>• The separate “Yes” committee selling you Measure T raised $210,000 — money that could have been spent in classrooms. A majority of that “Yes on T” funding came from tax-exempt, AUHSD school-related organizations.</p>
+<p>• During 2025-26 the Acalanes board approved $2.1 million in special education contracts with Utah residential facilities, including $436,360 for a single placement at Crimson Heights, a program decertified by Utah regulators.</p>
+<p>• Taxpayers already pay $378,000 per AUHSD teacher; yet only about $150,000 (on average) reaches the teacher in the form of salary and benefits. Where does the rest go?</p>
+<p>By proponents’ own account, AUHSD schools rank in the nation’s top 5 percent — on the taxes we pay now. Yet their historic academic focus is now often eclipsed by politically driven, nonacademic priorities.</p>
+<p>Fewer than one in ten District households has a child enrolled in AUHSD. A parcel tax ignores ability to pay: a small condo is charged the same as a mansion. Combined with other new and proposed taxes, Measure W makes our area even more unaffordable.</p>
+<p><strong>Vote No on Measure W.</strong> StopMeasureW.com.</p>
+<p>Contra Costa Taxpayers Association, Marc D. Joffe, President<br />
+Mark Lonergan, 29 year Lafayette resident and parent of five<br />
+Robert Lavoie, Parent of Campo Graduate, 36 year resident, CPA, Consultant<br />
+Adrian Malagon, Moraga Taxpayer<br />
+David Loofbourrow, Walnut Creek Parent</p>
+<hr />
+<p style="text-align: center;"><strong>ARGUMENT AGAINST</strong><br />
+<strong>MEASURE W</strong></p>
+<p><strong>Just last year, the Acalanes Union High School District (AUHSD) spent $834,000 of taxpayer money on Measure T, a special election for a $130 parcel tax.</strong></p>
+<p>We rejected it.</p>
+<p>The board’s response? Return to the ballot with a bigger tax, $168 per parcel for eight years, adding to the <span style="text-decoration: underline;">existing $301 parcel tax</span>: same district, eighteen months later, demanding nearly 30% more than in Measure T.</p>
+<p><strong>But AUHSD doesn’t have a revenue problem; AUHSD has a spending problem.</strong></p>
+<p>State data show the District’s cost per student <span style="text-decoration: underline;">essentially doubling</span> from 2012-13 to 2024-25, from $10,305 to $20,508 — a 99% jump, while Bay Area CPI inflation was only 45%. That’s unsustainable, and much of the increase never reached the classroom.</p>
+<p>Where did it go?<br />
+• <strong>Wellness Centers</strong> on each high-school campus;<br />
+• A <strong>costly Central Administration;</strong><br />
+• Non-academic <strong>Diversity, Equity, Inclusion and Belonging</strong> programming.<br />
+• AUHSD teaches seniors an elective <strong>Deconstructing Race</strong> course, grounded in <strong>Critical Race Theory</strong>, that could put federal funding at risk. And AUHSD voluntarily requires <strong>Ethnic Studies</strong> for graduation, though it is neither funded nor required by the state.</p>
+<p>Such choices are unrelated to math, science, or teacher pay.</p>
+<p>AUHSD is financed mainly by local property taxes that keep climbing with home values.</p>
+<p>And California’s new budget handed AUHSD a one-time grant of nearly $5 million.</p>
+<p><strong>The money is there. The priorities are wrong.</strong></p>
+<p>AUHSD already collects <span style="text-decoration: underline;">two permanent parcel taxes</span>, atop the <span style="text-decoration: underline;">hefty TK-8 parcel taxes we also pay.</span></p>
+<p>Adding a third AUHSD tax rewards the same runaway spending.</p>
+<p>Rather than cut administrative overhead or consolidate high schools with AUHSD’s feeder districts (as other communities have done to reduce spending), AUHSD’s Board is doubling down on duplicate bureaucracy.</p>
+<p>Homeowner budgets are stressed enough already.</p>
+<p><strong>Don’t reward AUHSD’s runaway spending. Vote No on Measure W.</strong></p>
+<p>See <strong>StopMeasureW.com.</strong></p>
+<p>Contra Costa Taxpayers Association, Marc D. Joffe, President<br />
+Sarah Lind, Activist Mom and Small Business Owner, Lafayette<br />
+Jeff Frese, Father and Candidate for U.S. Congress, Moraga<br />
+Frank Darling, Father and Grandfather, Orinda<br />
+Kathleen Young, Mother and Grandmother, Walnut Creek</p>
+<hr />
+<p style="text-align: center;"><strong>REBUTTAL TO ARGUMENT AGAINST</strong><br />
+<strong>MEASURE W</strong></p>
+<p>The Measure W opponents are angry at economic and societal issues they can’t control.</p>
+<p><strong>Don’t buy into it.</strong> They deliberately take facts and figures out of context and use them to mislead voters.</p>
+<p><strong>Instead, weigh Measure W against these facts:</strong></p>
+<p>• Voting no <strong>won’t</strong> fix society’s problems; it only punishes residents and families <strong>invested here, in Walnut Creek and Lamorinda</strong>, who rely on great schools for their children and high quality of life.</p>
+<p>• <strong>AUHSD is one of the most fiscally conservative school districts in our county and state.</strong> Known for financial prudence and responsible business practices, <span style="text-decoration: underline;">its current Moody’s credit rating is Aaa, the highest rating possible.</span></p>
+<p>• <strong>AUHSD schools perform in the top 5% nationwide. Measure W is most importantly about protecting our local quality of education.</strong></p>
+<p>• <strong>This need is real;</strong> it’s significant, and not going away. <span style="text-decoration: underline;">Without Measure W, drastic cuts will continue, beyond the $4.2M already cut the past 2 years.</span> <strong>Our students and high schools will suffer the most</strong> &#8211; in academic program losses, increasing class sizes, and layoffs of valued teachers, counselors, and support staff.</p>
+<p>• Measure W provides a responsible solution. At $168 per year, it’s worth the investment.</p>
+<p>• <span style="text-decoration: underline;"><strong>Senior Citizens are eligible for exemption.</strong></span></p>
+<p>• <strong>Mandatory Taxpayer Protections:</strong> Citizens’ Oversight, independent financial audits, public reporting, no funds for administrator salaries, and <span style="text-decoration: underline;"><strong>all </strong>funds (100%) go to AUHSD.</span></p>
+<p><strong>These and other Measure W facts have convinced homeowners, seniors, taxpayers <span style="text-decoration: underline;">and voters from all parties</span> to vote yes.</strong></p>
+<p><span style="text-decoration: underline;">Measure W deserves <strong>your</strong> support too.</span> Help protect our local quality of education. <strong>Vote Yes on W!</strong></p>
+<p>www.YesForOurHighSchools.com</p>
+<p>Jim Cervantes, Retired Investment Banker, Fmr. Chair, California Public Securities Association, 14-yr. Lafayette Homeowner<br />
+Susan Hildreth, 11-yr. Rossmoor Resident, Former California State Librarian<br />
+Brian Rogers, Chair, Finance &amp; Investment Committee, Orinda Network for Education, 16-yr. Homeowner<br />
+Kristina Lawson, Fmr. Walnut Creek Mayor, Fmr. Citizens’ Oversight Committee Member, 22-yr. Homeowner<br />
+Tim Cecchin, RBC Wealth Management, Managing Director/ Financial Advisor, 16-yr. Moraga Homeowner</p>
+<hr />
+<p style="text-align: center;"><strong>FULL TEXT OF</strong><br />
+<strong>MEASURE W</strong></p>
+<p>Shall the measure supporting high-quality education in local high schools by:</p>
+<p>• Attracting/retaining highly qualified teachers<br />
+• continuing advanced academic programs in science, technology, engineering, math, and arts that prepare students for success in college and careers<br />
+• maintaining manageable class sizes</p>
+<p>with Acalanes Union High School District levying a $168 parcel tax for<br />
+eight years, with senior exemptions, citizens’ oversight and independent<br />
+audits, providing $6,000,000 annually in local school funding that<br />
+cannot be taken by the State, be adopted?</p>
+<p><strong>PARCEL TAX AUTHORIZATION</strong></p>
+<p>By approval of this proposition (the “Measure”) by at least two-thirds of the registered voters voting on the proposition, the District will be authorized to levy an education parcel tax of $168 per parcel for eight years, to maintain a high-quality education in District schools, subject to the accountability requirements specified below.</p>
+<p><strong>PURPOSES</strong></p>
+<p>To provide local revenue that cannot be taken by the State and to aid in preserving and improving academic programs in our schools, the Acalanes Union High School District proposes to levy and collect a qualified special parcel tax for a period of eight years, beginning in fiscal year 2027-28, in the amount of $168 per parcel and to implement accountability measures to provide oversight and accountability to ensure that funds are used to:</p>
+<p>• Attract and retain highly qualified teachers;</p>
+<p>• Prepare students for college and in-demand careers;</p>
+<p>• Maintain manageable class sizes;</p>
+<p>• Maintain advanced academic programs, including math, science, engineering and the arts;</p>
+<p>• Provide library services, academic counseling, and career training;</p>
+<p>• Provide career and technical education for indemand fields including biotech, medical and health sciences, auto mechanics, fabrication, and other skilled trades;</p>
+<p>• Keep technology up to date to provide for modern student learning;</p>
+<p>• Provide instructional equipment, materials and supplies to support the District’s programs;</p>
+<p>The Governing Board will utilize parcel tax proceeds for the purposes listed above, unless the Governing Board determines in any given year that changes in student population, fiscal constraints, or other changes in state or federal funding make doing so infeasible or inadvisable. In any event, the parcel tax revenues will be used only for lawful educational purposes and shall not be used for administrators’ salaries or benefits.</p>
+<p><strong>EDUCATION PARCEL TAX AND PROCEDURES</strong></p>
+<p>Amount of Education Parcel Tax. Subject to two-thirds approval of the voters, the education parcel tax of $168 per parcel (except exempt parcels, as described below) shall become effective commencing with fiscal year 2027-28 and be collected by the Contra Costa County Tax Collector at the same time as and along with, and shall be subject to the same penalties as general ad valorem taxes collected by said tax collector.</p>
+<p>This Measure shall not impact the continued levy of any existing special tax previously adopted by District voters</p>
+<p>Definition of Parcel. A “parcel” shall be defined as any unit of land in the District that receives a separate tax bill from the Contra Costa County Tax Collector.</p>
+<p>Exemptions. The following exemptions shall apply to the levy of the qualified special tax.</p>
+<p>(a) <span style="text-decoration: underline;">Otherwise Exempt Property.</span> All property that would otherwise be exempt from property taxes shall also be exempt from the education parcel tax.</p>
+<p>(b) <span style="text-decoration: underline;">Senior Citizen Exemption.</span> An exemption shall be available to persons who are 65 years or older and own and occupy as a principal residence a parcel (as defined above) and apply to the District for such exemption under procedures established by the District or otherwise as required by law or by the Contra Costa County Tax Collector.</p>
+<p>(c) <span style="text-decoration: underline;">SSI Exemption.</span> Persons receiving Supplemental Security Income for a disability, regardless of age, and occupying said parcel as a principal residence.</p>
+<p>(d) <span style="text-decoration: underline;">SSDI Exemption.</span> Persons receiving Social Security Disability Insurance benefits, regardless of age, with a yearly income that does not exceed 250 percent of the 2012 federal poverty guidelines issued by the U.S. Department of Health and Human Services and occupying said parcel as a principal residence.</p>
+<p>Property owners seeking a senior, SSI or SSDI exemption must apply to the District for such exemption under procedures established by the District or otherwise as required by law or by the Contra Costa County Tax Collector. However, property owners who have already qualified for such an exemption under either of the District’s current parcel tax measures will be automatically qualified for the same exemption under this Measure. The District’s voters previously approved two parcel tax measures, totaling $301, annually, per parcel. This Measure does not impact the existing parcel taxes.</p>
+<p>Exclusive Procedures. The procedures described herein with respect to the levy and collection of the education parcel tax and exemptions, and any additional procedures established by the Governing Board of the District, shall be the exclusive claims procedure for claimants seeking an exemption, refund, reduction, or re-computation of the qualified special tax. Whether any particular claim is to be resolved by the District or by Contra Costa County shall be determined by the District, in coordination with Contra Costa County as necessary. The District’s Governing Board may adopt such additional or supplemental procedures as it deems necessary or convenient for the administration of the education parcel tax.</p>
+<p><strong>ACCOUNTABILITY MEASURES</strong></p>
+<p>Government Code Accountability. In accordance with the requirements of California Government Code sections 50075.1 and 50075.3, the following accountability measures, among others, shall apply to the qualified special taxes levied in accordance with this Measure:</p>
+<p>• the proceeds of the education parcel tax shall be applied only to those specific purposes identified above under the heading “PURPOSES,”</p>
+<p>• a separate, special account shall be created into which the proceeds of the education parcel tax must be deposited; and</p>
+<p>• the chief fiscal officer of the District shall file an annual written report with the Governing Board of the District showing (a) the amount of funds collected and expended from the proceeds of the education parcel tax and (b) the status of any projects, programs, or purposes identified above under the heading “PURPOSES.”</p>
+<p>Citizens’ Oversight Committee. In addition to the accountability measures required by the Government Code, an independent Citizens’ Oversight Committee shall be appointed by the Governing Board to advise the Board on the expenditures funded by the measure in order to ensure that said funds are spent for the purposes approved by the voters. The Citizens’ Oversight Committee will monitor the expenditures of these funds by the District and will report on an annual basis to the Board and community on how these funds have been spent.</p>
+<p><strong>PROTECTION OF FUNDING</strong></p>
+<p>Current law forbids any decrease in State or Federal funding to the District because of the District’s adoption of an education parcel tax. However, if any such funds are reduced because of the adoption of this education parcel tax, then the amount of the education parcel tax will be reduced annually as necessary in order to restore such State or Federal funding.</p>
+<p><strong>SEVERABILITY</strong></p>
+<p>The Governing Board of the District hereby declares, and the voters by approving this measure concur, that every section, paragraph, sentence and clause of this measure has independent value, and the Governing Board and the voters would have adopted each provision hereof regardless of every other provision hereof. Upon approval of this measure by the voters, should any part be found by a court of competent jurisdiction to be invalid for any reason, all remaining parts hereof shall remain in full force and effect to the fullest extent allowed by law.</p>
+</div>
+
+						</article>
+					</div>
+				</div>
+
+			</section>
+
+		
+	</div><!-- end #page-wrap -->
+	
+		
+		<footer class="page-footer">
+			<div class="footer_content">
+				<div id="custom_html-5" class="widget_text widget widget_custom_html"><h2 class="widget-title">Contact Us</h2><div class="textwidget custom-html-widget"><div class="mbm">
+	<b>Registrar of Voters</b>
+	<div>925-335-7800</div>
+	<div>TTY:Call 711</div>
+</div>
+
+<div class="mbm">
+	<b>Recorder/County Clerk</b>
+	<div>925-335-7900</div>
+	<div>TTY:Call 711</div>
+	</div>
+<div class="mbm">
+	<div>555 Escobar Street,</div>
+	<div>Martinez, CA 94553</div>
+</div>
+
+</div></div><div id="custom_html-2" class="widget_text widget widget_custom_html"><h2 class="widget-title">Registrar of Voters</h2><div class="textwidget custom-html-widget"><div>
+	<a href="https://twitter.com/cocoelections" class="ccicons2-twitter">
+		<span class="sr-only">Twitter-Elections</span>
+	</a>
+	<a href="https://www.youtube.com/channel/UCUf7tX4Pfm_d5MgROB9JX-w" class="ccicons-youtube">
+		<span class="sr-only">Youtube-Elections</span>
+	</a>
+	<a href="https://www.facebook.com/ContraCostaElections/" class="ccicons-facebook">
+		<span class="sr-only">Facebook-Elections</span>
+	</a>
+	<a href="https://www.linkedin.com/company/contra-costa-county-clerk-recorder/" class="ccicons-linkedin">
+		<span class="sr-only">LinkedIn-Elections</span>
+	</a>
+	<a href="https://www.instagram.com/contra_costa_elections/" class="ccicons-instagram">
+		<span class="sr-only">Instagram-Elections</span>
+	</a>
+	
+</div></div></div><div id="custom_html-4" class="widget_text widget widget_custom_html"><h2 class="widget-title">Recorder</h2><div class="textwidget custom-html-widget"><div>
+	<a href="https://twitter.com/CCClerkRecorder" class="ccicons2-twitter">
+		<span class="sr-only">Twitter-Recorder</span>
+	</a>
+	<a href="https://www.youtube.com/channel/UCUf7tX4Pfm_d5MgROB9JX-w" class="ccicons-youtube">
+		<span class="sr-only">Youtube-Recorder</span>
+	</a>
+	<a href="https://www.facebook.com/ContraCostaClerkRecorder/" class="ccicons-facebook">
+		<span class="sr-only">Facebook-Recorder</span>
+	</a>
+	<a href="https://www.linkedin.com/company/contra-costa-county-clerk-recorder/" class="ccicons-linkedin">
+		<span class="sr-only">LinkedIn-Recorder</span>
+	</a>
+	<a href="https://www.instagram.com/clerk_recorder/" class="ccicons-instagram">
+		<span class="sr-only">Instagram-Recorder</span>
+	</a>
+	
+</div>
+<br><br>
+<div class="mbm">
+	<span style="color: white; font-size:20px"><b>Fees</b></span>
+
+	<p><a href="https://www.contracostavote.gov/wp-content/uploads/Clerk-Fee-Schedule-2026-UPDATED.pdf" target="blank" rel="noopener noreferrer">Clerk Fees</a></p>
+	<p><a href="https://www.contracostavote.gov/wp-content/uploads/Recorder-Fee-Schedule-2026-UPDATED-2.pdf" target="blank" rel="noopener noreferrer">Recorder Fees</a></p>
+	<p><a href="https://www.contracostavote.gov/wp-content/uploads/Elections-Fee-Schedule-2026.pdf" target="blank" rel="noopener noreferrer">Elections Fees</a></p>
+	
+</div></div></div><div id="custom_html-3" class="widget_text widget widget_custom_html"><h2 class="widget-title">County Clerk</h2><div class="textwidget custom-html-widget"><div>
+	<a href="https://twitter.com/CCClerkRecorder" class="ccicons2-twitter">
+		<span class="sr-only">Twitter-County Clerk</span>
+	</a>
+	<a href="https://www.youtube.com/channel/UCUf7tX4Pfm_d5MgROB9JX-w" class="ccicons-youtube">
+		<span class="sr-only">Youtube-County Clerk</span>
+	</a>
+	<a href="https://www.facebook.com/ContraCostaClerkRecorder/" class="ccicons-facebook">
+		<span class="sr-only">Facebook-County Clerk</span>
+	</a>
+	<a href="https://www.linkedin.com/company/contra-costa-county-clerk-recorder/" class="ccicons-linkedin">
+		<span class="sr-only">LinkedIn-County Clerk</span>
+	</a>
+	<a href="https://www.instagram.com/clerk_recorder/" class="ccicons-instagram">
+		<span class="sr-only">Instagram-County Clerk</span>
+	</a>
+	
+</div></div></div>			</div>
+			<div class="copyright_content">
+				<div id="text-5" class="widget widget_text">			<div class="textwidget"><div class="social-media-content-policy"><a href="https://www.contracostavote.gov/social-media-comment-policy/" target="_blank" rel="noopener">Social Media Content Policy</a></div>
+
+</div>
+		</div><div id="text-4" class="widget widget_text">			<div class="textwidget"><div class="footer-menu">
+<div>
+	<ul>
+		<li><a href="https://www.contracostavote.gov/elections/voter-registration/my-voting-information/#VoterLookupandSampleBallotSearch" target="blank" rel="noopener noreferrer">My Voting Information</a></li>
+		<li><a href="https://www.contracostavote.gov/elections/voter-registration/" target="blank" rel="noopener noreferrer">Voter Registration</a></li>
+		<li><a href="https://www.contracostavote.gov/elections/how-to-vote/" target="blank" rel="noopener noreferrer">How to Vote</a></li>
+	</ul>
+</div>
+
+<div>
+	<ul>
+		<li><a href="https://www.contracostavote.gov/elections/poll-worker-center/" target="blank" rel="noopener noreferrer">Poll Worker Center</a></li>
+		<li><a href="https://www.contracostavote.gov/elections/voter-outreach-education/" target="blank" rel="noopener noreferrer">Voter Outreach & Education</a></li>
+		<li><a href="https://www.contracostavote.gov/elections/candidates-campaigns-measures/" target="blank" rel="noopener noreferrer">Candidate, Campaigns, & Measures</a></li>
+	</ul>
+</div>
+
+<div>
+	<ul>
+		<li><a href="https://www.fppc.ca.gov/" target="blank" rel="noopener noreferrer">Fair Political Practices Commission</a></li>
+		<li><a href="https://www.vote411.org/" target="blank" rel="noopener noreferrer">Vote411</a></li>
+		<li><a href="https://www.fvap.gov/" target="blank" rel="noopener noreferrer">Federal Voting Assistance Program</a></li>
+	</ul>
+</div>
+
+<div>
+	<ul>
+		<li><a href="https://www.sos.ca.gov/elections" target="blank" rel="noopener noreferrer">California Secretary of State</a></li>
+		<li><a href="https://sccvote.sccgov.org/coalition-bay-area-election-officials" target="blank" rel="noopener noreferrer">Coalition of Bay Area Election Officials</a></li>
+	</ul>
+</div>
+</div></div>
+		</div><div id="custom_html-11" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget">&nbsp;<div style="text-align: center;">
+<br/>For PRA requests please contact:<br/>Clerk-Recorder: <a href="mailto:webmaster@cr.cccounty.us">webmaster@cr.cccounty.us</a><br/>
+Elections: <a href="mailto:voter.services@vote.cccounty.us">voter.services@vote.cccounty.us</a></div></div></div><div id="text-3" class="widget widget_text">			<div class="textwidget">&nbsp;
+<div style="text-align: center;"></br>© 2026 • <a href="https://www.contracostavote.gov/" alt="Contra Costa County">Home</a> • Powered by <a href="https://soesoftware.com/" target="_blank" title="SOE Software">SOE Software</a>
+</br>
+<a href="https://www.contracosta.ca.gov/" target="_blank" rel="noopener noreferrer"><b>ContraCosta.ca.gov</b></a>
+</div></div>
+		</div>			</div>
+		</footer>
+		</div>
+</div><!-- end #content-slide -->
+
+
+		
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/contracosta-ca_3.1.22/*","/wp-content/themes/connectLite/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="elected-officials-scripts-js" src="https://www.contracostavote.gov/wp-content/plugins/2.0.0_Release/assets/js/scripts.js?ver=7.1.3"></script>
+<script id="precinct-finder-scripts-js" src="https://www.contracostavote.gov/wp-content/plugins/soe-precinct-finder-2.0/assets/js/scripts.js?ver=7.1.3"></script>
+<script id="calendar_js-js-extra">
+var AjaxURL = {"ajaxurl":"https://www.contracostavote.gov/wp-admin/admin-ajax.php"};
+//# sourceURL=calendar_js-js-extra
+</script>
+<script id="calendar_js-js" src="https://www.contracostavote.gov/wp-content/plugins/soe_event_calendar_1.3.0/assets/js/soe.event.calendar.js?ver=7.1.3"></script>
+<script id="slideshow_orbit-js" src="https://www.contracostavote.gov/wp-content/plugins/soe_slideshow_2.1.1_Release/assets/js/jquery.orbit-1.3.0.js?ver=1.0.0"></script>
+<script id="slideshow_public_js-js-extra">
+var slideshow = {"autoScroll":"true","animationType":"fade","animationSpeed":"0.5","advanceSpeed":"5","showCaptions":"true","showCaptionsHTML":"","showBullets":"true","showArrows":"true","captionLength":"1000","learnMoreText":""};
+//# sourceURL=slideshow_public_js-js-extra
+</script>
+<script id="slideshow_public_js-js" src="https://www.contracostavote.gov/wp-content/plugins/soe_slideshow_2.1.1_Release/assets/js/public.js?ver=1.0.0"></script>
+<script id="voter-eligibility-scripts-js" src="https://www.contracostavote.gov/wp-content/plugins/soe_voter_eligibility_2.0.5/assets/js/scripts.js?ver=7.1.3"></script>
+<script id="archless-base-js" src="https://www.contracostavote.gov/wp-content/themes/connectLite/assets/js/base.js?ver=7.1.3"></script>
+<script id="child-theme-main-js-extra">
+var translatableStrings = {"more":"More...","expand":"Expand","collapse":"Collapse","sticky_main_menu":"Sticky Main Menu","pdf_document":"PDF document","opens_in_a_new_window":"Opens in a new window","next":"Next","previous":"Previous","current_language":"Current Language","available_languages":"Available Languages","breadcrumbs":"Breadcrumbs"};
+//# sourceURL=child-theme-main-js-extra
+</script>
+<script id="child-theme-main-js" src="https://www.contracostavote.gov/wp-content/themes/contracosta-ca_3.1.22/assets/js/main.js?ver=1786309178"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.contracostavote.gov/wp-includes/js/wp-emoji-release.min.js?ver=7.1.3"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://www.contracostavote.gov/wp-includes/js/wp-emoji-loader.min.js
+</script>
+</body>
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin
+
+Page Caching using Memcached 
+
+Served from: www.contracostavote.gov @ 2026-10-27 23:38:17 by W3 Total Cache
+-->

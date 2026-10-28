@@ -1,0 +1,28 @@
+{
+  "id": "contra-costa-local-measures-2026-11",
+  "jurisdiction": {
+    "level": "county",
+    "name": "Contra Costa"
+  },
+  "election": "2026-11-03",
+  "seeds": [
+    "https://www.contracostavote.gov/m9001-en-2/",
+    "https://www.contracostavote.gov/m9005-en/",
+    "https://www.contracostavote.gov/m9002-en-2/",
+    "https://www.contracostavote.gov/m9003-en-2/",
+    "https://www.contracostavote.gov/m9004-en-2/",
+    "https://www.contracostavote.gov/m9006-en-2/",
+    "https://www.contracostavote.gov/m9007-en/",
+    "https://www.contracostavote.gov/m9008-en-2/",
+    "https://www.contracostavote.gov/m9009-en-2/",
+    "https://www.contracostavote.gov/m9010-en-2/",
+    "https://www.contracostavote.gov/m9011-en-2/",
+    "https://www.contracostavote.gov/m9012-en-2/",
+    "https://www.contracostavote.gov/m9013-en/"
+  ],
+  "allow": [],
+  "max_depth": 0,
+  "delay_seconds": 2,
+  "extractor": "contra_costa_measures",
+  "note": "Site answers automated clients with a bot challenge (HTTP 202). Each measure's page on contracostavote.gov was captured in a supervised browser session; its election data feed (getQuestion) was captured too and used to find the 13 local measures."
+}
