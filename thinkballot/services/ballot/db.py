@@ -26,7 +26,8 @@ CREATE TABLE IF NOT EXISTS measure (
     level TEXT NOT NULL DEFAULT 'state',   -- 'state' or 'local'
     county TEXT,                   -- local measures: county whose registrar publishes it
     district TEXT,                 -- local measures: city / school / special district
-    documents TEXT NOT NULL DEFAULT '[]',  -- JSON [{label, url}]: official PDFs, linked not parsed          -- JSON list of ThinkBallot topic labels (checked by Bias Buster)
+    documents TEXT NOT NULL DEFAULT '[]',  -- JSON [{label, url}]: official PDFs, linked not parsed
+    notes TEXT NOT NULL DEFAULT '[]',      -- JSON list of plain notes about the source (e.g. "from a resolution")
     position INTEGER NOT NULL      -- ballot order
 );
 CREATE TABLE IF NOT EXISTS field (
@@ -35,6 +36,7 @@ CREATE TABLE IF NOT EXISTS field (
     text TEXT NOT NULL,
     source_url TEXT NOT NULL,
     source_label TEXT NOT NULL,
+    note TEXT,                     -- e.g. "Text read from a scanned official PDF"
     PRIMARY KEY (measure_id, name)
 );
 """
@@ -47,6 +49,9 @@ def connect(path=None):
     conn = sqlite3.connect(path)
     conn.row_factory = sqlite3.Row
     conn.executescript(SCHEMA)
+    for table, column, decl in (("measure", "notes", "TEXT NOT NULL DEFAULT '[]'"), ("field", "note", "TEXT")):
+        if column not in {r["name"] for r in conn.execute(f"PRAGMA table_info({table})")}:
+            conn.execute(f"ALTER TABLE {table} ADD COLUMN {column} {decl}")  # databases made before the column
     return conn
 
 
@@ -70,18 +75,18 @@ def replace_all(conn, election, measures):
             jur = m.get("jurisdiction") or {"level": "state"}
             conn.execute(
                 "INSERT INTO measure (id, election_id, number, title, title_source_url, topics, arguments_url, "
-                "level, county, district, documents, position) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                "level, county, district, documents, notes, position) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
                 (m["id"], election["id"], m["number"], m["title"]["text"], m["title"]["source_url"],
                  json.dumps(m.get("topics", [])), m.get("arguments_url"), jur.get("level", "state"),
                  jur.get("county"), jur.get("name") if jur.get("level") == "local" else None,
-                 json.dumps(m.get("documents", [])), pos))
+                 json.dumps(m.get("documents", [])), json.dumps(m.get("notes", [])), pos))
             for name in FIELDS:
                 f = m["fields"].get(name)
                 if f:  # unsourced fields are simply absent
                     conn.execute(
-                        "INSERT INTO field (measure_id, name, text, source_url, source_label) "
-                        "VALUES (?, ?, ?, ?, ?)",
-                        (m["id"], name, f["text"], f["source_url"], f["source_label"]))
+                        "INSERT INTO field (measure_id, name, text, source_url, source_label, note) "
+                        "VALUES (?, ?, ?, ?, ?, ?)",
+                        (m["id"], name, f["text"], f["source_url"], f["source_label"], f.get("source_note")))
 
 
 def election(conn):
@@ -104,7 +109,8 @@ def get_measure(conn, measure_id):
     if not row:
         return None
     fields = {
-        r["name"]: {"text": r["text"], "source_url": r["source_url"], "source_label": r["source_label"]}
+        r["name"]: {"text": r["text"], "source_url": r["source_url"], "source_label": r["source_label"],
+                    "note": r["note"]}
         for r in conn.execute("SELECT * FROM field WHERE measure_id = ?", (measure_id,))
     }
     return {
@@ -116,6 +122,7 @@ def get_measure(conn, measure_id):
         "arguments_url": row["arguments_url"],
         "level": row["level"], "county": row["county"], "district": row["district"],
         "documents": json.loads(row["documents"]),
+        "notes": json.loads(row["notes"]),
         "fields": fields,
         "missing": [name for name in FIELDS if name not in fields],
     }

@@ -29,6 +29,8 @@
   {% if m.level == "local" %}
   <h2>{{ headings.ballot_question }}</h2>
   <blockquote class="ballot-question">{{ m.fields.ballot_question.text }} {{ src(m.fields.ballot_question) }}</blockquote>
+  {% if m.fields.ballot_question.note %}<p class="hint">{{ m.fields.ballot_question.note }}.</p>{% endif %}
+  {% for n in m.notes %}<p class="hint">{{ n }}</p>{% endfor %}
   <p class="hint">Vote YES or NO on the question exactly as printed.{% if m.fields.measure_type %} {{ m.fields.measure_type.text }}.{% endif %}</p>
   {% if m.documents %}
   <h2>Official documents</h2>
