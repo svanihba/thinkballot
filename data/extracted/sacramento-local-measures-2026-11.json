@@ -1,0 +1,425 @@
+[
+  {
+    "id": "local-sa-d",
+    "number": "D",
+    "title": {
+      "text": "Natomas Unified School District",
+      "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+      "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+      "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+      "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+      "fetched_at": "2026-10-28T06:11:00Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Sacramento",
+      "name": "Natomas Unified School District"
+    },
+    "topics": [],
+    "documents": [],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "55% Vote Required",
+        "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+        "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+        "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "fetched_at": "2026-10-28T06:11:00Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "Natomas Unified School District",
+        "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+        "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+        "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "fetched_at": "2026-10-28T06:11:00Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "Natomas Schools Repair, Safety, Education Measure. To continue providing quality education/ career training; repair aging infrastructure/ electrical systems/ classrooms/ leaky roofs; improve school safety/ security/ access for students with disabilities/ safe play areas, by repairing, constructing, acquiring classrooms/ facilities, shall Natomas Unified School District's measure authorizing $300,000,000 in bonds at legal rates; levying $60 per $100,000 of assessed valuation; raising approximately $22,000,000 annually while bonds are outstanding; requiring oversight, disclosure, audits, no money for administrators' salaries, be adopted?",
+        "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+        "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+        "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "fetched_at": "2026-10-28T06:11:00Z",
+        "fetched_by": "crawl"
+      }
+    }
+  },
+  {
+    "id": "local-sa-e",
+    "number": "E",
+    "title": {
+      "text": "Center Joint Unified School District",
+      "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+      "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+      "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+      "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+      "fetched_at": "2026-10-28T06:11:00Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Sacramento",
+      "name": "Center Joint Unified School District"
+    },
+    "topics": [],
+    "documents": [],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "55% Vote Required",
+        "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+        "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+        "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "fetched_at": "2026-10-28T06:11:00Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "Center Joint Unified School District",
+        "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+        "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+        "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "fetched_at": "2026-10-28T06:11:00Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "To upgrade local schools; improve school and student safety; replace leaky roofs and decaying pipes; replace failing heating and cooling systems; and update hands-on science and early job training classrooms and accommodate growing enrollment, shall Center Joint Unified School District’s measure authorizing $197 million in bonds, at legal rates, levying approximately $60 per $100,000 assessed value, (averaging $12,300,000 annually) while bonds are outstanding, with citizen oversight and audits, all funds staying local and none for administrator salaries, be adopted?",
+        "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+        "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+        "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "fetched_at": "2026-10-28T06:11:00Z",
+        "fetched_by": "crawl"
+      }
+    }
+  },
+  {
+    "id": "local-sa-g",
+    "number": "G",
+    "title": {
+      "text": "Galt Joint Union High School District",
+      "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+      "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+      "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+      "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+      "fetched_at": "2026-10-28T06:11:00Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Sacramento",
+      "name": "Galt Joint Union High School District"
+    },
+    "topics": [],
+    "documents": [],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "55% Vote Required",
+        "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+        "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+        "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "fetched_at": "2026-10-28T06:11:00Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "Galt Joint Union High School District",
+        "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+        "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+        "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "fetched_at": "2026-10-28T06:11:00Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "Galt Joint Union High School District, Repair/Safety and Vocational Training Measure. To upgrade classrooms to maintain quality education/school safety by preparing students for skilled trades including welding/construction/plumbing; repairing leaky roofs; removing asbestos/mold; shall Galt Joint Union High School District’s measure be adopted, authorizing $43,000,000 in bonds at legal rates, levying $30 per $100,000 of assessed valuation, generating $3,100,000 annually, while bonds are outstanding, prohibiting funds for administrators salaries/pensions, requiring independent citizens’ oversight, audits, all funds locally controlled?",
+        "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+        "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+        "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "fetched_at": "2026-10-28T06:11:00Z",
+        "fetched_by": "crawl"
+      }
+    }
+  },
+  {
+    "id": "local-sa-h",
+    "number": "H",
+    "title": {
+      "text": "Los Rios Community College District School Facilities Improvement District No. 1",
+      "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+      "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+      "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+      "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+      "fetched_at": "2026-10-28T06:11:00Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Sacramento",
+      "name": "Los Rios Community College District School Facilities Improvement District No. 1"
+    },
+    "topics": [],
+    "documents": [],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "55% Vote Required",
+        "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+        "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+        "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "fetched_at": "2026-10-28T06:11:00Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "Los Rios Community College District School Facilities Improvement District No. 1",
+        "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+        "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+        "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "fetched_at": "2026-10-28T06:11:00Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "With funds that cannot be taken by the State, public disclosure of all spending, and no increase in tax rates, shall Los Rios Community College District's measure to prepare students, workers, veterans for jobs with affordable college and career training facilities; provide safe drinking water; and repair leaky roofs be adopted authorizing $1.1 billion in bonds with legal rates, average levies below $17 per $100,000 assessed valuation ($74,500,000 annually while outstanding), independent audits, oversight, and all funds staying local?",
+        "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+        "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+        "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "fetched_at": "2026-10-28T06:11:00Z",
+        "fetched_by": "crawl"
+      }
+    }
+  },
+  {
+    "id": "local-sa-i",
+    "number": "I",
+    "title": {
+      "text": "City of Folsom",
+      "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+      "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+      "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+      "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+      "fetched_at": "2026-10-28T06:11:00Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Sacramento",
+      "name": "City of Folsom"
+    },
+    "topics": [],
+    "documents": [],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "district": {
+        "text": "City of Folsom",
+        "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+        "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+        "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "fetched_at": "2026-10-28T06:11:00Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "Shall the measure amending the Adopted Charter of the City of Folsom to have the City Council appoint and direct the City Attorney and to make related operational changes, be adopted?",
+        "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+        "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+        "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "fetched_at": "2026-10-28T06:11:00Z",
+        "fetched_by": "crawl"
+      }
+    }
+  },
+  {
+    "id": "local-sa-j",
+    "number": "J",
+    "title": {
+      "text": "City of Folsom",
+      "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+      "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+      "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+      "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+      "fetched_at": "2026-10-28T06:11:00Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Sacramento",
+      "name": "City of Folsom"
+    },
+    "topics": [],
+    "documents": [],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "district": {
+        "text": "City of Folsom",
+        "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+        "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+        "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "fetched_at": "2026-10-28T06:11:00Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "Shall the measure amending the Adopted Charter of the City of Folsom to confirm the City Council may grant decision making authority to Boards and Commissions by ordinance, be adopted?",
+        "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+        "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+        "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "fetched_at": "2026-10-28T06:11:00Z",
+        "fetched_by": "crawl"
+      }
+    }
+  },
+  {
+    "id": "local-sa-k",
+    "number": "K",
+    "title": {
+      "text": "City of Folsom",
+      "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+      "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+      "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+      "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+      "fetched_at": "2026-10-28T06:11:00Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Sacramento",
+      "name": "City of Folsom"
+    },
+    "topics": [],
+    "documents": [],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "district": {
+        "text": "City of Folsom",
+        "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+        "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+        "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "fetched_at": "2026-10-28T06:11:00Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "Shall the measure increasing the campaign contribution limit from $150 to $500 per donor per election on campaigns for Folsom City Council be adopted?",
+        "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+        "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+        "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "fetched_at": "2026-10-28T06:11:00Z",
+        "fetched_by": "crawl"
+      }
+    }
+  },
+  {
+    "id": "local-sa-l",
+    "number": "L",
+    "title": {
+      "text": "City of Galt",
+      "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+      "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+      "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+      "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+      "fetched_at": "2026-10-28T06:11:00Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Sacramento",
+      "name": "City of Galt"
+    },
+    "topics": [],
+    "documents": [],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "district": {
+        "text": "City of Galt",
+        "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+        "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+        "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "fetched_at": "2026-10-28T06:11:00Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "Shall the offices of Galt Treasurer and Galt City Clerk be appointive?",
+        "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+        "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+        "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "fetched_at": "2026-10-28T06:11:00Z",
+        "fetched_by": "crawl"
+      }
+    }
+  },
+  {
+    "id": "local-sa-m",
+    "number": "M",
+    "title": {
+      "text": "Sacramento City Unified School District",
+      "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+      "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+      "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+      "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+      "fetched_at": "2026-10-28T06:11:00Z",
+      "fetched_by": "crawl"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Sacramento",
+      "name": "Sacramento City Unified School District"
+    },
+    "topics": [],
+    "documents": [],
+    "notes": [],
+    "arguments_url": null,
+    "fields": {
+      "measure_type": {
+        "text": "2/3 Vote Required",
+        "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+        "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+        "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "fetched_at": "2026-10-28T06:11:00Z",
+        "fetched_by": "crawl"
+      },
+      "district": {
+        "text": "Sacramento City Unified School District",
+        "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+        "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+        "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "fetched_at": "2026-10-28T06:11:00Z",
+        "fetched_by": "crawl"
+      },
+      "ballot_question": {
+        "text": "To address the decline in Federal funding for Special Education and to expand early intervention programs to every school, shall Sacramento City Unified School District adopt a $95 per year Special Education tax on each parcel of property until repealed or replaced by voters, raising $10 million annually, with exemptions for seniors, including Social Security recipients, and recipients of Supplemental Security and Social Security Disability and annual inflation adjustments, providing funds exclusively for Special Education and intervention programs, be adopted?",
+        "source_url": "https://elections.saccounty.gov/content/vre/us/en/election-information/current-measure-information.html",
+        "source_label": "Sacramento County Voter Registration and Elections: Current Measure Information",
+        "source_snapshot": "data/raw/objects/ac/acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "raw_sha256": "acef9a001d533f8a7eb2e99aa2e12dc30c0c2505c87cee6d445ddb6d501a837d",
+        "fetched_at": "2026-10-28T06:11:00Z",
+        "fetched_by": "crawl"
+      }
+    }
+  }
+]

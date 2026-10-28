@@ -1,0 +1,702 @@
+[
+  {
+    "id": "local-oc-a",
+    "number": "A",
+    "title": {
+      "text": "Safe, Modern Laguna Beach Unified School District School Bond Measure",
+      "source_url": "https://ocvote.gov/sites/default/files/2026-09/A-LBUSD%20-%20LAYOUT%20(1).pdf",
+      "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure A",
+      "source_snapshot": "data/raw/objects/51/51c2a65a57cffd6041e9ad8e6aca0ea2c432c73a57b769bf42ebdbc921dcc7f6",
+      "raw_sha256": "b17106695e619dfe1e26cde338fecd5f4a01b0aa4c082dc6e94f3c6ad72d1046",
+      "fetched_at": "2026-10-28T06:10:24Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Orange",
+      "name": "Laguna Beach Unified School District"
+    },
+    "topics": [],
+    "notes": [],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure A: county voter guide section (PDF)",
+        "url": "https://ocvote.gov/sites/default/files/2026-09/A-LBUSD%20-%20LAYOUT%20(1).pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "Laguna Beach Unified School District",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/A-LBUSD%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure A",
+        "source_snapshot": "data/raw/objects/51/51c2a65a57cffd6041e9ad8e6aca0ea2c432c73a57b769bf42ebdbc921dcc7f6",
+        "raw_sha256": "b17106695e619dfe1e26cde338fecd5f4a01b0aa4c082dc6e94f3c6ad72d1046",
+        "fetched_at": "2026-10-28T06:10:24Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "To repair and upgrade aging classrooms, science labs, career technology and school facilities to support college/career readiness in math, science, technology, arts, engineering, and skilled trades; and fix deteriorating roofs, plumbing, and electrical systems; shall Laguna Beach Unified School District’s measure be adopted authorizing $83 million in bonds at legal rates (without increasing current tax rates), levying $8.85 per $100,000 assessed value ($5 million annually) while bonds are outstanding, with independent audits, citizen oversight, all money locally controlled?",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/A-LBUSD%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure A",
+        "source_snapshot": "data/raw/objects/51/51c2a65a57cffd6041e9ad8e6aca0ea2c432c73a57b769bf42ebdbc921dcc7f6",
+        "raw_sha256": "b17106695e619dfe1e26cde338fecd5f4a01b0aa4c082dc6e94f3c6ad72d1046",
+        "fetched_at": "2026-10-28T06:10:24Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-oc-c",
+    "number": "C",
+    "title": {
+      "text": "The Costa Mesa Fair Business License Reform, Small Business Protection Measure",
+      "source_url": "https://ocvote.gov/sites/default/files/2026-09/C-CMES%20-%20LAYOUT%20(1).pdf",
+      "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure C",
+      "source_snapshot": "data/raw/objects/fd/fdec0c5f8287ca7d12460fd8566847519f94a60a3b38e656d44f80863ffbfeef",
+      "raw_sha256": "de48859e0d0c92d3872405dd2d401443e00f7f143da5efb1f11a0267d7bbfaa6",
+      "fetched_at": "2026-10-28T06:10:29Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Orange",
+      "name": "City of Costa Mesa"
+    },
+    "topics": [],
+    "notes": [],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure C: county voter guide section (PDF)",
+        "url": "https://ocvote.gov/sites/default/files/2026-09/C-CMES%20-%20LAYOUT%20(1).pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "City of Costa Mesa",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/C-CMES%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure C",
+        "source_snapshot": "data/raw/objects/fd/fdec0c5f8287ca7d12460fd8566847519f94a60a3b38e656d44f80863ffbfeef",
+        "raw_sha256": "de48859e0d0c92d3872405dd2d401443e00f7f143da5efb1f11a0267d7bbfaa6",
+        "fetched_at": "2026-10-28T06:10:29Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Without taxing residents, shall the measure be adopted, updating Costa Mesa’s 41-year-old business license tax, ensuring large businesses pay their proportionate share and helping fund general city services including keeping public areas safe/clean; preventing crime/burglaries; addressing homelessness; maintaining Costa Mesa’s financial stability; revising the tax rate to 50¢ per $1,000 gross receipts, with no increase for small businesses; generating approximately $5,600,000 annually until ended by voters, requiring audits, spending disclosure, funds locally controlled?",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/C-CMES%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure C",
+        "source_snapshot": "data/raw/objects/fd/fdec0c5f8287ca7d12460fd8566847519f94a60a3b38e656d44f80863ffbfeef",
+        "raw_sha256": "de48859e0d0c92d3872405dd2d401443e00f7f143da5efb1f11a0267d7bbfaa6",
+        "fetched_at": "2026-10-28T06:10:29Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-oc-d",
+    "number": "D",
+    "title": {
+      "text": "Measure Directing the Use of Ranked Choice Voting for City Council Member and Mayoral Elections After January 1, 2028",
+      "source_url": "https://ocvote.gov/sites/default/files/2026-09/D-IRVI%20-%20LAYOUT%20(2).pdf",
+      "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure D",
+      "source_snapshot": "data/raw/objects/b1/b18e6bc7a054fbc94fa37604822a9dce7160e0837e62c70bdb585687a94b5087",
+      "raw_sha256": "1d0151d897b25db8914ba12611aeeaa90d9531f28237cdebbef52cde74f3264a",
+      "fetched_at": "2026-10-28T06:10:31Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Orange",
+      "name": "City of Irvine"
+    },
+    "topics": [],
+    "notes": [],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure D: county voter guide section (PDF)",
+        "url": "https://ocvote.gov/sites/default/files/2026-09/D-IRVI%20-%20LAYOUT%20(2).pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "City of Irvine",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/D-IRVI%20-%20LAYOUT%20(2).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure D",
+        "source_snapshot": "data/raw/objects/b1/b18e6bc7a054fbc94fa37604822a9dce7160e0837e62c70bdb585687a94b5087",
+        "raw_sha256": "1d0151d897b25db8914ba12611aeeaa90d9531f28237cdebbef52cde74f3264a",
+        "fetched_at": "2026-10-28T06:10:31Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Shall a measure that directs, to the extent technically and financially feasible, the use of ranked choice voting for City Council Member and Mayoral Elections occurring after January 1, 2028, be adopted?",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/D-IRVI%20-%20LAYOUT%20(2).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure D",
+        "source_snapshot": "data/raw/objects/b1/b18e6bc7a054fbc94fa37604822a9dce7160e0837e62c70bdb585687a94b5087",
+        "raw_sha256": "1d0151d897b25db8914ba12611aeeaa90d9531f28237cdebbef52cde74f3264a",
+        "fetched_at": "2026-10-28T06:10:31Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-oc-e",
+    "number": "E",
+    "title": {
+      "text": "An Ordinance of the People of the City of Laguna Beach, California, Adding Section 2.04.080 to the Laguna Beach Municipal Code to Establish Term Limits for City Council Members",
+      "source_url": "https://ocvote.gov/sites/default/files/2026-09/E-LBEA%20-%20LAYOUT%20(1).pdf",
+      "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure E",
+      "source_snapshot": "data/raw/objects/6b/6b861d01d37249d82dcba6eb868cd51e36ba663fe24a52adbda01c35f6af601b",
+      "raw_sha256": "0a28034aa91934b8f3d7ff4aab4fc8a9cd3aa3e9e51285449e519bf3265775c5",
+      "fetched_at": "2026-10-28T06:10:33Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Orange",
+      "name": "City of Laguna Beach"
+    },
+    "topics": [],
+    "notes": [],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure E: county voter guide section (PDF)",
+        "url": "https://ocvote.gov/sites/default/files/2026-09/E-LBEA%20-%20LAYOUT%20(1).pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "City of Laguna Beach",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/E-LBEA%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure E",
+        "source_snapshot": "data/raw/objects/6b/6b861d01d37249d82dcba6eb868cd51e36ba663fe24a52adbda01c35f6af601b",
+        "raw_sha256": "0a28034aa91934b8f3d7ff4aab4fc8a9cd3aa3e9e51285449e519bf3265775c5",
+        "fetched_at": "2026-10-28T06:10:33Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Shall an ordinance to amend the Laguna Beach Municipal Code by enacting a limit on consecutive years of service by members of the City Council to a combined total of two four-year consecutive terms, with the ability to again serve as a Councilmember after a lapse of service of at least two years, be adopted?",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/E-LBEA%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure E",
+        "source_snapshot": "data/raw/objects/6b/6b861d01d37249d82dcba6eb868cd51e36ba663fe24a52adbda01c35f6af601b",
+        "raw_sha256": "0a28034aa91934b8f3d7ff4aab4fc8a9cd3aa3e9e51285449e519bf3265775c5",
+        "fetched_at": "2026-10-28T06:10:33Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-oc-f",
+    "number": "F",
+    "title": {
+      "text": "Lake Forest Election Reform and Voter Choice Measure",
+      "source_url": "https://ocvote.gov/sites/default/files/2026-09/F-LFOR%20-%20LAYOUT%20(1).pdf",
+      "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure F",
+      "source_snapshot": "data/raw/objects/55/55492280ff2c74a9d2b6ba9cece2e0218d59c1a18d40b5812c442ee4693d2af6",
+      "raw_sha256": "b209bcb819b8a14618a1924d29380827297863116a79adc3441b898dc65fd97c",
+      "fetched_at": "2026-10-28T06:10:35Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Orange",
+      "name": "City of Lake Forest"
+    },
+    "topics": [],
+    "notes": [],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure F: county voter guide section (PDF)",
+        "url": "https://ocvote.gov/sites/default/files/2026-09/F-LFOR%20-%20LAYOUT%20(1).pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "City of Lake Forest",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/F-LFOR%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure F",
+        "source_snapshot": "data/raw/objects/55/55492280ff2c74a9d2b6ba9cece2e0218d59c1a18d40b5812c442ee4693d2af6",
+        "raw_sha256": "b209bcb819b8a14618a1924d29380827297863116a79adc3441b898dc65fd97c",
+        "fetched_at": "2026-10-28T06:10:35Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Shall the measure limiting city council members to two consecutive terms in office with a mandatory four-year out of office period before being eligible to serve for another two consecutive terms in office, be adopted?",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/F-LFOR%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure F",
+        "source_snapshot": "data/raw/objects/55/55492280ff2c74a9d2b6ba9cece2e0218d59c1a18d40b5812c442ee4693d2af6",
+        "raw_sha256": "b209bcb819b8a14618a1924d29380827297863116a79adc3441b898dc65fd97c",
+        "fetched_at": "2026-10-28T06:10:35Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-oc-g",
+    "number": "G",
+    "title": {
+      "text": "Los Alamitos Hotel Tax (TOT Measure)",
+      "source_url": "https://ocvote.gov/sites/default/files/2026-09/G-LALA%20-%20LAYOUT%20(2).pdf",
+      "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure G",
+      "source_snapshot": "data/raw/objects/2c/2cc1c07f23ec52dc477ca680e64c8cc5c4be71cf399c8c141c6f8c93f62d4396",
+      "raw_sha256": "c661fbf51dcf5c132273b10e5e91f12cc55864390602c5bab2e38eaac45acad2",
+      "fetched_at": "2026-10-28T06:10:38Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Orange",
+      "name": "City of Los Alamitos"
+    },
+    "topics": [],
+    "notes": [],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure G: county voter guide section (PDF)",
+        "url": "https://ocvote.gov/sites/default/files/2026-09/G-LALA%20-%20LAYOUT%20(2).pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "City of Los Alamitos",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/G-LALA%20-%20LAYOUT%20(2).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure G",
+        "source_snapshot": "data/raw/objects/2c/2cc1c07f23ec52dc477ca680e64c8cc5c4be71cf399c8c141c6f8c93f62d4396",
+        "raw_sha256": "c661fbf51dcf5c132273b10e5e91f12cc55864390602c5bab2e38eaac45acad2",
+        "fetched_at": "2026-10-28T06:10:38Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Shall the ordinance providing funding for City of Los Alamitos’ general services such as maintaining 911 emergency response and police services; providing neighborhood police patrols; maintaining parks; supporting youth, afterschool, and senior programs; repairing streets and potholes; by increasing the City of Los Alamitos’ transient occupancy tax, paid only by hotel/motel and short-term rental guests, from 8% to 12%, providing approximately $300,000 annually be adopted?",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/G-LALA%20-%20LAYOUT%20(2).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure G",
+        "source_snapshot": "data/raw/objects/2c/2cc1c07f23ec52dc477ca680e64c8cc5c4be71cf399c8c141c6f8c93f62d4396",
+        "raw_sha256": "c661fbf51dcf5c132273b10e5e91f12cc55864390602c5bab2e38eaac45acad2",
+        "fetched_at": "2026-10-28T06:10:38Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-oc-h",
+    "number": "H",
+    "title": {
+      "text": "City of Newport Beach General Plan - Amendment",
+      "source_url": "https://ocvote.gov/sites/default/files/2026-09/H-NBEA%20-%20LAYOUT%20(1).pdf",
+      "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure H",
+      "source_snapshot": "data/raw/objects/60/6004c56a4e42949d4ab75709694f252d6ea31e93fcc77ffe8612d8886af1bc42",
+      "raw_sha256": "17381d39fc708662c87d08ad0d340e76725fa400512061d81f4b468d9d745bde",
+      "fetched_at": "2026-10-28T06:10:40Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Orange",
+      "name": "City of Newport Beach"
+    },
+    "topics": [],
+    "notes": [],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure H: county voter guide section (PDF)",
+        "url": "https://ocvote.gov/sites/default/files/2026-09/H-NBEA%20-%20LAYOUT%20(1).pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "City of Newport Beach",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/H-NBEA%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure H",
+        "source_snapshot": "data/raw/objects/60/6004c56a4e42949d4ab75709694f252d6ea31e93fcc77ffe8612d8886af1bc42",
+        "raw_sha256": "17381d39fc708662c87d08ad0d340e76725fa400512061d81f4b468d9d745bde",
+        "fetched_at": "2026-10-28T06:10:40Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Shall the measure to amend the City of Newport Beach’s General Plan Land Use Element allowing 2,900 new affordable housing units (2,160 reserved for extremely low-, very low-, and low-income households; and 740 for moderate-income households) with densities of 20 - 50 dwelling units per acre, plus State of California allowed housing density bonuses, in Dover/Westcliff (174), Newport Center (870), West Newport Mesa (406), Airport Area (929), and Coyote Canyon (521), be adopted?",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/H-NBEA%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure H",
+        "source_snapshot": "data/raw/objects/60/6004c56a4e42949d4ab75709694f252d6ea31e93fcc77ffe8612d8886af1bc42",
+        "raw_sha256": "17381d39fc708662c87d08ad0d340e76725fa400512061d81f4b468d9d745bde",
+        "fetched_at": "2026-10-28T06:10:40Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-oc-i",
+    "number": "I",
+    "title": {
+      "text": "City of Orange Public Safety/Essential Services Measure",
+      "source_url": "https://ocvote.gov/sites/default/files/2026-09/I-ORAN%20Sales%20Tax%20-%20LAYOUT%20(1).pdf",
+      "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure I",
+      "source_snapshot": "data/raw/objects/2c/2c131bce996a7a91699d6215cb418a87a71e0b0649d55d3b77280d8e4ac31b6a",
+      "raw_sha256": "c98eadb7139e1a260f86d163d62df6549b3585e8e9f88921ccc0e924b40787d6",
+      "fetched_at": "2026-10-28T06:10:42Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Orange",
+      "name": "City of Orange"
+    },
+    "topics": [],
+    "notes": [],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure I: county voter guide section (PDF)",
+        "url": "https://ocvote.gov/sites/default/files/2026-09/I-ORAN%20Sales%20Tax%20-%20LAYOUT%20(1).pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "City of Orange",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/I-ORAN%20Sales%20Tax%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure I",
+        "source_snapshot": "data/raw/objects/2c/2c131bce996a7a91699d6215cb418a87a71e0b0649d55d3b77280d8e4ac31b6a",
+        "raw_sha256": "c98eadb7139e1a260f86d163d62df6549b3585e8e9f88921ccc0e924b40787d6",
+        "fetched_at": "2026-10-28T06:10:42Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "To maintain City of Orange’s quality of life, such as 9-1-1 response; maintaining police/fire protection; preventing crimes/thefts; retaining/attracting well-trained police officers/firefighters; keeping public parks safe/clean; addressing homelessness; wildfire protection/prevention; repairing streets/potholes; critical infrastructure improvements; shall a measure establishing a 1¢ sales tax, providing approximately $37,000,000 annually for general revenue/government purposes, expiring after 13 years, with independent oversight committee, all funds benefiting Orange residents, be adopted?",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/I-ORAN%20Sales%20Tax%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure I",
+        "source_snapshot": "data/raw/objects/2c/2c131bce996a7a91699d6215cb418a87a71e0b0649d55d3b77280d8e4ac31b6a",
+        "raw_sha256": "c98eadb7139e1a260f86d163d62df6549b3585e8e9f88921ccc0e924b40787d6",
+        "fetched_at": "2026-10-28T06:10:42Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-oc-j",
+    "number": "J",
+    "title": {
+      "text": "City of Orange Hotel Guest Tax Modification Measure",
+      "source_url": "https://ocvote.gov/sites/default/files/2026-09/J-ORAN%20TOT%20-%20LAYOUT%20(1).pdf",
+      "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure J",
+      "source_snapshot": "data/raw/objects/7a/7af4e9ecd2b21d0f2435c37c4a357f6964f3d3a6ce633dbea44ae22d44181ebb",
+      "raw_sha256": "fc8d8823cdfa030b85bb4e3d61e124b1ed99dbb7136f3cffca06e06e6efdd542",
+      "fetched_at": "2026-10-28T06:10:44Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Orange",
+      "name": "City of Orange"
+    },
+    "topics": [],
+    "notes": [],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure J: county voter guide section (PDF)",
+        "url": "https://ocvote.gov/sites/default/files/2026-09/J-ORAN%20TOT%20-%20LAYOUT%20(1).pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "City of Orange",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/J-ORAN%20TOT%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure J",
+        "source_snapshot": "data/raw/objects/7a/7af4e9ecd2b21d0f2435c37c4a357f6964f3d3a6ce633dbea44ae22d44181ebb",
+        "raw_sha256": "fc8d8823cdfa030b85bb4e3d61e124b1ed99dbb7136f3cffca06e06e6efdd542",
+        "fetched_at": "2026-10-28T06:10:44Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Shall the measure updating the City of Orange’s existing Transient Occupancy Tax, a tax on persons occupying hotel rooms by increasing the tax rate from 10% to 14% for hotels with 11 or more rooms and applying the tax to online and other travel companies, generating approximately $3,000,000 annually for general City purposes including police, fire and emergency response, parks, and street and infrastructure maintenance, until ended by voters, be adopted?",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/J-ORAN%20TOT%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure J",
+        "source_snapshot": "data/raw/objects/7a/7af4e9ecd2b21d0f2435c37c4a357f6964f3d3a6ce633dbea44ae22d44181ebb",
+        "raw_sha256": "fc8d8823cdfa030b85bb4e3d61e124b1ed99dbb7136f3cffca06e06e6efdd542",
+        "fetched_at": "2026-10-28T06:10:44Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-oc-k",
+    "number": "K",
+    "title": {
+      "text": "Proposed Charter for the City of Orange",
+      "source_url": "https://ocvote.gov/sites/default/files/2026-10/Orange%20Charter%20-%20Layout.pdf",
+      "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure K",
+      "source_snapshot": "data/raw/objects/8c/8c8330e0452afb5edfa7fd80478d2fc556ff07fdd00bace4f4eaba36476732fb",
+      "raw_sha256": "08dfd9c63143d92de0770ffe5e96238f02608765f30f76e951cdd1a13e21dd4f",
+      "fetched_at": "2026-10-28T06:10:46Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Orange",
+      "name": "City of Orange"
+    },
+    "topics": [],
+    "notes": [],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure K: county voter guide section (PDF)",
+        "url": "https://ocvote.gov/sites/default/files/2026-10/Orange%20Charter%20-%20Layout.pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "City of Orange",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-10/Orange%20Charter%20-%20Layout.pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure K",
+        "source_snapshot": "data/raw/objects/8c/8c8330e0452afb5edfa7fd80478d2fc556ff07fdd00bace4f4eaba36476732fb",
+        "raw_sha256": "08dfd9c63143d92de0770ffe5e96238f02608765f30f76e951cdd1a13e21dd4f",
+        "fetched_at": "2026-10-28T06:10:46Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Shall the proposed Charter for the City of Orange, establishing the City as a charter city under the California Constitution and providing the City’s governing document for municipal affairs, be adopted?",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-10/Orange%20Charter%20-%20Layout.pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure K",
+        "source_snapshot": "data/raw/objects/8c/8c8330e0452afb5edfa7fd80478d2fc556ff07fdd00bace4f4eaba36476732fb",
+        "raw_sha256": "08dfd9c63143d92de0770ffe5e96238f02608765f30f76e951cdd1a13e21dd4f",
+        "fetched_at": "2026-10-28T06:10:46Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-oc-l",
+    "number": "L",
+    "title": {
+      "text": "Placentia Hotel Tax Measure",
+      "source_url": "https://ocvote.gov/sites/default/files/2026-09/L-PLAC%20-%20LAYOUT%20(1).pdf",
+      "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure L",
+      "source_snapshot": "data/raw/objects/52/5251e8d172cdb4038459b509137e78e2e4e1ce82a3505fc616984de5a83fe636",
+      "raw_sha256": "6945d156edb523dfa1a7438e58abd34fe7afe4aa588d0d79f82c689e247726ad",
+      "fetched_at": "2026-10-28T06:10:49Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Orange",
+      "name": "City of Placentia"
+    },
+    "topics": [],
+    "notes": [],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure L: county voter guide section (PDF)",
+        "url": "https://ocvote.gov/sites/default/files/2026-09/L-PLAC%20-%20LAYOUT%20(1).pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "City of Placentia",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/L-PLAC%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure L",
+        "source_snapshot": "data/raw/objects/52/5251e8d172cdb4038459b509137e78e2e4e1ce82a3505fc616984de5a83fe636",
+        "raw_sha256": "6945d156edb523dfa1a7438e58abd34fe7afe4aa588d0d79f82c689e247726ad",
+        "fetched_at": "2026-10-28T06:10:49Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Shall the measure increasing the rate of the City of Placentia’s existing transient occupancy tax (hotel tax), paid only by hotel guests, to 14%, funding city services such as police patrols, fire protection, 911 response, and road repairs; requiring citizen oversight and annual audits, generating about $715,000 annually, until ended by voters, be adopted?",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/L-PLAC%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure L",
+        "source_snapshot": "data/raw/objects/52/5251e8d172cdb4038459b509137e78e2e4e1ce82a3505fc616984de5a83fe636",
+        "raw_sha256": "6945d156edb523dfa1a7438e58abd34fe7afe4aa588d0d79f82c689e247726ad",
+        "fetched_at": "2026-10-28T06:10:49Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-oc-m",
+    "number": "M",
+    "title": {
+      "text": "San Clemente Natural Hazards Sales Tax Citizens Initiative",
+      "source_url": "https://ocvote.gov/sites/default/files/2026-09/M-SCLE%20-%20LAYOUT%20(1).pdf",
+      "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure M",
+      "source_snapshot": "data/raw/objects/f7/f76da2aa8963b37e950288d43e84de495e3869d44e53d434bf671936d6bf4fd2",
+      "raw_sha256": "c5caf8951520a2d329a8b639b5b28af7acba7f7146e7199ebefe4fa061b3d28a",
+      "fetched_at": "2026-10-28T06:10:51Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Orange",
+      "name": "City of San Clemente"
+    },
+    "topics": [],
+    "notes": [],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure M: county voter guide section (PDF)",
+        "url": "https://ocvote.gov/sites/default/files/2026-09/M-SCLE%20-%20LAYOUT%20(1).pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "City of San Clemente",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/M-SCLE%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure M",
+        "source_snapshot": "data/raw/objects/f7/f76da2aa8963b37e950288d43e84de495e3869d44e53d434bf671936d6bf4fd2",
+        "raw_sha256": "c5caf8951520a2d329a8b639b5b28af7acba7f7146e7199ebefe4fa061b3d28a",
+        "fetched_at": "2026-10-28T06:10:51Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "Shall the measure establishing two funds dedicated to protecting San Clemente from natural hazards of beach erosion and fires and a 1% sales tax increase, providing approximately $15,000,000 annually for 10 years, requiring public spending disclosure, independent audits, all funds used locally for specified purposes only, including sand replenishment/ nourishment/ retention, beach erosion control, maintaining/ restoring beach access/ water quality and supporting fire protection/ prevention programs/ services, be adopted?",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/M-SCLE%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure M",
+        "source_snapshot": "data/raw/objects/f7/f76da2aa8963b37e950288d43e84de495e3869d44e53d434bf671936d6bf4fd2",
+        "raw_sha256": "c5caf8951520a2d329a8b639b5b28af7acba7f7146e7199ebefe4fa061b3d28a",
+        "fetched_at": "2026-10-28T06:10:51Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-oc-n",
+    "number": "N",
+    "title": {
+      "text": "Santa Ana Streets, Public Safety, Essential City Services Measure",
+      "source_url": "https://ocvote.gov/sites/default/files/2026-09/N-SANA%20-%20LAYOUT%20(1).pdf",
+      "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure N",
+      "source_snapshot": "data/raw/objects/12/121d5071fff0af959909cfbdc07d6911daf14508c34667362030669ae68522cd",
+      "raw_sha256": "66e41bda2bba12fedf6cf3bc143cfb94a7dc340ed32e64b105c1acd496f90fe7",
+      "fetched_at": "2026-10-28T06:10:53Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Orange",
+      "name": "City of Santa Ana"
+    },
+    "topics": [],
+    "notes": [],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure N: county voter guide section (PDF)",
+        "url": "https://ocvote.gov/sites/default/files/2026-09/N-SANA%20-%20LAYOUT%20(1).pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "City of Santa Ana",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/N-SANA%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure N",
+        "source_snapshot": "data/raw/objects/12/121d5071fff0af959909cfbdc07d6911daf14508c34667362030669ae68522cd",
+        "raw_sha256": "66e41bda2bba12fedf6cf3bc143cfb94a7dc340ed32e64b105c1acd496f90fe7",
+        "fetched_at": "2026-10-28T06:10:53Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "To maintain city services, such as fixing potholes; keeping streets, sidewalks, parks, and playgrounds safe and clean; removing graffiti and litter; providing fire protection, paramedic, crime prevention, and 911 emergency response, shall City of Santa Ana’s ordinance be amended to maintain the 1.5 cent sales tax without sunset providing approximately $84,000,000 annually for services until ended by voters, with independent audits, resident oversight, and all money locally controlled?",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/N-SANA%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure N",
+        "source_snapshot": "data/raw/objects/12/121d5071fff0af959909cfbdc07d6911daf14508c34667362030669ae68522cd",
+        "raw_sha256": "66e41bda2bba12fedf6cf3bc143cfb94a7dc340ed32e64b105c1acd496f90fe7",
+        "fetched_at": "2026-10-28T06:10:53Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  },
+  {
+    "id": "local-oc-o",
+    "number": "O",
+    "title": {
+      "text": "Westminster City Services Measure",
+      "source_url": "https://ocvote.gov/sites/default/files/2026-09/O-WEST%20-%20LAYOUT%20(1).pdf",
+      "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure O",
+      "source_snapshot": "data/raw/objects/5e/5e166931527f703d84b60c25e0fcb99107398799cdd7f87c7bea7b6ed04eeb99",
+      "raw_sha256": "1b689dd5c0a1e4060791697e65fbcf18849603f75e9cf14d1f86a40200055f71",
+      "fetched_at": "2026-10-28T06:10:55Z",
+      "fetched_by": "crawl",
+      "snapshot_kind": "pdf-text"
+    },
+    "jurisdiction": {
+      "level": "local",
+      "county": "Orange",
+      "name": "City of Westminster"
+    },
+    "topics": [],
+    "notes": [],
+    "arguments_url": null,
+    "documents": [
+      {
+        "label": "Measure O: county voter guide section (PDF)",
+        "url": "https://ocvote.gov/sites/default/files/2026-09/O-WEST%20-%20LAYOUT%20(1).pdf"
+      }
+    ],
+    "fields": {
+      "district": {
+        "text": "City of Westminster",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/O-WEST%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure O",
+        "source_snapshot": "data/raw/objects/5e/5e166931527f703d84b60c25e0fcb99107398799cdd7f87c7bea7b6ed04eeb99",
+        "raw_sha256": "1b689dd5c0a1e4060791697e65fbcf18849603f75e9cf14d1f86a40200055f71",
+        "fetched_at": "2026-10-28T06:10:55Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      },
+      "ballot_question": {
+        "text": "To fund general city services such as fire, paramedic, police, 911 emergency response, disaster preparedness, keeping public areas safe/clean; addressing homelessness; maintaining parks, and addressing speeding/unsafe driving; shall the measure increasing Westminster’s tax paid by hotel/motel guests (transient occupancy tax), from 8% to 12%, providing approximately $452,000 annually in new funds until ended by voters, requiring audits, spending disclosures, funds controlled locally, be adopted?",
+        "source_url": "https://ocvote.gov/sites/default/files/2026-09/O-WEST%20-%20LAYOUT%20(1).pdf",
+        "source_label": "Orange County Registrar of Voters: Voter Information Guide, Measure O",
+        "source_snapshot": "data/raw/objects/5e/5e166931527f703d84b60c25e0fcb99107398799cdd7f87c7bea7b6ed04eeb99",
+        "raw_sha256": "1b689dd5c0a1e4060791697e65fbcf18849603f75e9cf14d1f86a40200055f71",
+        "fetched_at": "2026-10-28T06:10:55Z",
+        "fetched_by": "crawl",
+        "snapshot_kind": "pdf-text"
+      }
+    }
+  }
+]
