@@ -14,6 +14,7 @@ CREATE TABLE IF NOT EXISTS user (
     username TEXT NOT NULL UNIQUE COLLATE NOCASE,  -- public display name
     pw_hash TEXT NOT NULL,
     is_mod INTEGER NOT NULL DEFAULT 0,
+    verified INTEGER NOT NULL DEFAULT 0,           -- 1 = the owner confirmed the email; 0 = disabled
     created_at TEXT NOT NULL DEFAULT (datetime('now'))
 );
 CREATE TABLE IF NOT EXISTS comment (
@@ -46,7 +47,34 @@ CREATE TABLE IF NOT EXISTS rating (
     leaning TEXT NOT NULL,                  -- the rater's own leaning on this measure: yes, no, undecided
     PRIMARY KEY (fact_id, user_id)
 );
+-- Email verification: one live link + passcode per account. Only hashes are stored: SHA-256 of the
+-- link's token, and an HMAC of the passcode keyed with that token (which is never stored), so the
+-- 6-digit passcode can't be guessed offline from a copy of this database.
+CREATE TABLE IF NOT EXISTS email_token (
+    id INTEGER PRIMARY KEY,
+    user_id INTEGER NOT NULL REFERENCES user(id) ON DELETE CASCADE,
+    token_hash TEXT NOT NULL UNIQUE,
+    code_hash TEXT NOT NULL,
+    tries INTEGER NOT NULL DEFAULT 0,       -- wrong passcodes so far
+    expires_at TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS email_token_user ON email_token (user_id);
 """
+
+
+def _migrate(conn):
+    """Bring an older database up to the current schema."""
+    if "verified" not in {r["name"] for r in conn.execute("PRAGMA table_info(user)")}:
+        # Accounts from before email verification keep working: they count as verified.
+        conn.execute("BEGIN IMMEDIATE")  # two workers may start at once; only one adds the column
+        try:
+            if "verified" not in {r["name"] for r in conn.execute("PRAGMA table_info(user)")}:
+                conn.execute("ALTER TABLE user ADD COLUMN verified INTEGER NOT NULL DEFAULT 0")
+                conn.execute("UPDATE user SET verified = 1")
+            conn.execute("COMMIT")
+        except BaseException:
+            conn.execute("ROLLBACK")
+            raise
 
 
 def connect(path=None):
@@ -56,4 +84,5 @@ def connect(path=None):
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA foreign_keys = ON")
     conn.executescript(SCHEMA)
+    _migrate(conn)
     return conn

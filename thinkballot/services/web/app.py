@@ -2,6 +2,7 @@
 
 import re
 import secrets
+import time
 
 from flask import Flask, abort, flash, jsonify, redirect, render_template, request, session, url_for
 
@@ -222,6 +223,17 @@ def create_app():
         return render_template("ask.html", election=election, measures=measures, chosen=chosen)
 
     # ---------- accounts ----------
+    CHECK_EMAIL = ("Almost done: we've emailed you a link and a passcode. Open the link and enter the passcode "
+                   "within 30 minutes to finish creating your account. Nothing there? Sign in to get a new email.")
+
+    def pending_account():
+        """The unverified account whose password was just entered here, if still recent."""
+        p = session.get("verify_pending")
+        if p and p.get("until", 0) > time.time():
+            return p
+        session.pop("verify_pending", None)
+        return None
+
     @app.route("/signin", methods=["GET", "POST"])
     def signin():
         next_url = request.values.get("next") or "/"
@@ -229,24 +241,76 @@ def create_app():
             next_url = "/"  # only redirect to a path on this site
         if request.method == "POST":
             form = request.form
+            action = form.get("action")
             client = ratelimit.client_key(request.remote_addr)
-            limits = [(5, 3600)] if form.get("action") == "signup" else [(10, 600)]
-            if not ratelimit.allow("signin-" + str(form.get("action")), client, limits):
-                flash("Too many attempts. Please wait a few minutes and try again.")
+            limits = {"signup": [(5, 3600)], "resend": [(3, 3600)]}.get(action, [(10, 600)])
+            if not ratelimit.allow("signin-" + str(action), client, limits):
+                flash("Too many attempts. Please wait a few minutes and try again."
+                      if action != "resend" else "Too many emails. Please wait an hour and try again.")
                 return redirect(url_for("signin", next=next_url))
             try:
-                if form.get("action") == "signup":
-                    u = community.post("/users", {"email": form.get("email"), "username": form.get("username"),
-                                                  "password": form.get("password")})
-                else:
-                    u = community.post("/login", {"email": form.get("email"), "password": form.get("password")})
+                if action == "resend":
+                    pending = pending_account()
+                    if pending:
+                        community.post("/users/resend", {"user_id": pending["id"]})
+                        flash("We've sent a new email with a link and a passcode. It works for 30 minutes.")
+                    else:
+                        flash("Please sign in again to get a new email.")
+                    return redirect(url_for("signin", next=next_url))
+                if action == "signup":
+                    community.post("/users", {"email": form.get("email"), "username": form.get("username"),
+                                              "password": form.get("password")})
+                    flash(CHECK_EMAIL)  # the same whether or not the email already had an account
+                    return redirect(url_for("signin", next=next_url))
+                u = community.post("/login", {"email": form.get("email"), "password": form.get("password")})
             except ServiceError as exc:
-                flash(exc.detail if exc.status < 500 else "Sign-in is unavailable right now.")
+                if exc.status == 503 and action in ("signup", "resend"):
+                    flash(exc.detail)
+                else:
+                    flash(exc.detail if exc.status < 500 else "Sign-in is unavailable right now.")
                 return redirect(url_for("signin", next=next_url))
             session.clear()
+            if u.get("verified") is not True:
+                session["verify_pending"] = {"id": u["id"], "until": time.time() + 1800}
+                flash("Please confirm your email before signing in. Use the link and passcode we emailed you, "
+                      "or get a new email below.")
+                return redirect(url_for("signin", next=next_url))
             session["user"] = {"id": u["id"], "username": u["username"], "is_mod": u["is_mod"]}
             return redirect(next_url)
-        return render_template("signin.html", next=next_url)
+        return render_template("signin.html", next=next_url, pending=pending_account())
+
+    @app.route("/verify", methods=["GET", "POST"])
+    def verify():
+        token = request.values.get("t", "")
+        if request.method == "POST":
+            client = ratelimit.client_key(request.remote_addr)
+            if not ratelimit.allow("verify", client, [(20, 3600)]):
+                flash("Too many attempts. Please wait a few minutes and try again.")
+                return verify_page(token, valid=True)
+            try:
+                u = community.post("/verify", {"token": token, "code": request.form.get("code", "")})
+            except ServiceError as exc:
+                if exc.status >= 500:
+                    flash("Verification is unavailable right now. Please try again shortly.")
+                    return verify_page(token, valid=True)
+                flash(exc.detail)
+                return verify_page(token, valid=exc.status != 410)
+            session.clear()
+            session["user"] = {"id": u["id"], "username": u["username"], "is_mod": u["is_mod"]}
+            flash("Your email is confirmed and you're signed in. Welcome!")
+            return redirect("/")
+        try:
+            valid = bool(token) and community.post("/verify/check", {"token": token})["valid"]
+        except ServiceError:
+            valid = True  # let them try; the passcode step checks the link again
+        return verify_page(token, valid)
+
+    def verify_page(token, valid):
+        resp = app.make_response(render_template("verify.html", token=token if valid else "", valid=valid))
+        # The link's token is in this page's URL: keep it out of Referer headers and caches.
+        resp.headers["Referrer-Policy"] = "no-referrer"
+        resp.headers["Cache-Control"] = "no-store"
+        return resp
 
     @app.post("/signout")
     def signout():
