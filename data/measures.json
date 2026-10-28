@@ -4341,6 +4341,552 @@
       }
     },
     {
+      "id": "local-cc-m",
+      "number": "M",
+      "title": {
+        "text": "CITY OF CLAYTON SALES TAX MEASURE.",
+        "source_url": "https://www.contracostavote.gov/m9005-en/",
+        "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+        "source_snapshot": "data/raw/objects/5e/5e8db98f7ade18805882688806e2d7d77a0ae0b8c6140e7f903737f50fb8f7d2",
+        "raw_sha256": "5e8db98f7ade18805882688806e2d7d77a0ae0b8c6140e7f903737f50fb8f7d2",
+        "fetched_at": "2026-10-28T06:38:36Z",
+        "fetched_by": "capture"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "Contra Costa",
+        "name": "City of Clayton"
+      },
+      "topics": [],
+      "documents": [],
+      "notes": [],
+      "arguments_url": null,
+      "fields": {
+        "district": {
+          "text": "CITY OF CLAYTON",
+          "source_url": "https://www.contracostavote.gov/m9005-en/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/5e/5e8db98f7ade18805882688806e2d7d77a0ae0b8c6140e7f903737f50fb8f7d2",
+          "raw_sha256": "5e8db98f7ade18805882688806e2d7d77a0ae0b8c6140e7f903737f50fb8f7d2",
+          "fetched_at": "2026-10-28T06:38:36Z",
+          "fetched_by": "capture"
+        },
+        "ballot_question": {
+          "text": "To provide local funding to maintain City of Clayton programs, services, and facilities, including: police services, traffic enforcement and road safety, road and sidewalk improvements, enhance library and recreation opportunities, park maintenance, recruitment and retention of city employees and other city services, shall the City of Clayton levy a 1% sales tax until ended by voters generating approximately $1,000,000 annually, subject to public review, the annual audit and all funds benefitting Clayton?",
+          "source_url": "https://www.contracostavote.gov/m9005-en/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/5e/5e8db98f7ade18805882688806e2d7d77a0ae0b8c6140e7f903737f50fb8f7d2",
+          "raw_sha256": "5e8db98f7ade18805882688806e2d7d77a0ae0b8c6140e7f903737f50fb8f7d2",
+          "fetched_at": "2026-10-28T06:38:36Z",
+          "fetched_by": "capture"
+        }
+      }
+    },
+    {
+      "id": "local-cc-n",
+      "number": "N",
+      "title": {
+        "text": "CITYWIDE LANDSCAPE MAINTENANCE EXTENSION AND ALTERATION OF RATE OF EXISTING SPECIAL TAX",
+        "source_url": "https://www.contracostavote.gov/m9006-en-2/",
+        "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+        "source_snapshot": "data/raw/objects/be/be1a2bae0f340c1de3f5b29dbd09f7ce248b69bbc796fe6fa01b1078580adbbb",
+        "raw_sha256": "be1a2bae0f340c1de3f5b29dbd09f7ce248b69bbc796fe6fa01b1078580adbbb",
+        "fetched_at": "2026-10-28T06:38:37Z",
+        "fetched_by": "capture"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "Contra Costa",
+        "name": "City of Clayton"
+      },
+      "topics": [],
+      "documents": [],
+      "notes": [],
+      "arguments_url": null,
+      "fields": {
+        "district": {
+          "text": "CITY OF CLAYTON",
+          "source_url": "https://www.contracostavote.gov/m9006-en-2/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/be/be1a2bae0f340c1de3f5b29dbd09f7ce248b69bbc796fe6fa01b1078580adbbb",
+          "raw_sha256": "be1a2bae0f340c1de3f5b29dbd09f7ce248b69bbc796fe6fa01b1078580adbbb",
+          "fetched_at": "2026-10-28T06:38:37Z",
+          "fetched_by": "capture"
+        },
+        "ballot_question": {
+          "text": "Shall the measure to fund on-going trail system operations and maintenance, roadway landscaping, open space weed abatement, and related services of the Clayton Community Facility District No. 2007-1 (Citywide Landscape Maintenance) by extending the special tax for ten years and amending its rate and methodology to $354.45/year per residential parcel and $354.45/year per non-residential acre, including annual inflationary adjustments, subject to citizen’s committee oversight, be approved?",
+          "source_url": "https://www.contracostavote.gov/m9006-en-2/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/be/be1a2bae0f340c1de3f5b29dbd09f7ce248b69bbc796fe6fa01b1078580adbbb",
+          "raw_sha256": "be1a2bae0f340c1de3f5b29dbd09f7ce248b69bbc796fe6fa01b1078580adbbb",
+          "fetched_at": "2026-10-28T06:38:37Z",
+          "fetched_by": "capture"
+        }
+      }
+    },
+    {
+      "id": "local-cc-o",
+      "number": "O",
+      "title": {
+        "text": "CITY OF CONCORD",
+        "source_url": "https://www.contracostavote.gov/m9007-en/",
+        "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+        "source_snapshot": "data/raw/objects/b5/b5bbe88653c595cccad79603f47b6fbec009aa7b34908c6b404cd5c6a6842bdb",
+        "raw_sha256": "b5bbe88653c595cccad79603f47b6fbec009aa7b34908c6b404cd5c6a6842bdb",
+        "fetched_at": "2026-10-28T06:38:37Z",
+        "fetched_by": "capture"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "Contra Costa",
+        "name": "City of Concord"
+      },
+      "topics": [],
+      "documents": [],
+      "notes": [],
+      "arguments_url": null,
+      "fields": {
+        "district": {
+          "text": "CITY OF CONCORD",
+          "source_url": "https://www.contracostavote.gov/m9007-en/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/b5/b5bbe88653c595cccad79603f47b6fbec009aa7b34908c6b404cd5c6a6842bdb",
+          "raw_sha256": "b5bbe88653c595cccad79603f47b6fbec009aa7b34908c6b404cd5c6a6842bdb",
+          "fetched_at": "2026-10-28T06:38:37Z",
+          "fetched_by": "capture"
+        },
+        "ballot_question": {
+          "text": "To protect City of Concord services/ensure smaller businesses pay less than larger businesses, shall the measure be adopted to: repair potholes on neighborhood and major streets; maintain 9-1-1 emergency response; keep parks/playgrounds safe/clean; relieve traffic congestion along major corridors; maintain senior/youth programs; for general government use; by updating Concord’s 37-year-old business license rates to 0.1% of gross receipts until ended by voters, providing an additional $2,900,000 annually, requiring independent citizen oversight?",
+          "source_url": "https://www.contracostavote.gov/m9007-en/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/b5/b5bbe88653c595cccad79603f47b6fbec009aa7b34908c6b404cd5c6a6842bdb",
+          "raw_sha256": "b5bbe88653c595cccad79603f47b6fbec009aa7b34908c6b404cd5c6a6842bdb",
+          "fetched_at": "2026-10-28T06:38:37Z",
+          "fetched_by": "capture"
+        }
+      }
+    },
+    {
+      "id": "local-cc-p",
+      "number": "P",
+      "title": {
+        "text": "CITY OF HERCULES",
+        "source_url": "https://www.contracostavote.gov/m9008-en-2/",
+        "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+        "source_snapshot": "data/raw/objects/dc/dcdbe66c877b0d27991e925c53c1c039cf893d00814a25a9ce0ab35ca209156b",
+        "raw_sha256": "dcdbe66c877b0d27991e925c53c1c039cf893d00814a25a9ce0ab35ca209156b",
+        "fetched_at": "2026-10-28T06:38:37Z",
+        "fetched_by": "capture"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "Contra Costa",
+        "name": "City of Hercules"
+      },
+      "topics": [],
+      "documents": [],
+      "notes": [],
+      "arguments_url": null,
+      "fields": {
+        "district": {
+          "text": "CITY OF HERCULES",
+          "source_url": "https://www.contracostavote.gov/m9008-en-2/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/dc/dcdbe66c877b0d27991e925c53c1c039cf893d00814a25a9ce0ab35ca209156b",
+          "raw_sha256": "dcdbe66c877b0d27991e925c53c1c039cf893d00814a25a9ce0ab35ca209156b",
+          "fetched_at": "2026-10-28T06:38:37Z",
+          "fetched_by": "capture"
+        },
+        "ballot_question": {
+          "text": "Shall the measure providing Hercules with locally controlled funding to maintain financial stability/general city services, such as fast 911 response; neighborhood police patrols; water quality standards; keeping public areas/parks safe/ clean; repairing deteriorating streets/potholes; and retaining/attracting local businesses, by establishing a one-cent (1%) sales tax generating approximately $4,000,000 annually until ended by voters; requiring audits, public disclosure, and funds only for Hercules, be adopted?",
+          "source_url": "https://www.contracostavote.gov/m9008-en-2/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/dc/dcdbe66c877b0d27991e925c53c1c039cf893d00814a25a9ce0ab35ca209156b",
+          "raw_sha256": "dcdbe66c877b0d27991e925c53c1c039cf893d00814a25a9ce0ab35ca209156b",
+          "fetched_at": "2026-10-28T06:38:37Z",
+          "fetched_by": "capture"
+        }
+      }
+    },
+    {
+      "id": "local-cc-q",
+      "number": "Q",
+      "title": {
+        "text": "CITY OF RICHMOND",
+        "source_url": "https://www.contracostavote.gov/m9009-en-2/",
+        "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+        "source_snapshot": "data/raw/objects/07/072de09be364cd13e4ef36ac5193a132fa6f184b60826bb5d94993efea4969e7",
+        "raw_sha256": "072de09be364cd13e4ef36ac5193a132fa6f184b60826bb5d94993efea4969e7",
+        "fetched_at": "2026-10-28T06:38:37Z",
+        "fetched_by": "capture"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "Contra Costa",
+        "name": "City of Richmond"
+      },
+      "topics": [],
+      "documents": [],
+      "notes": [],
+      "arguments_url": null,
+      "fields": {
+        "district": {
+          "text": "CITY OF RICHMOND",
+          "source_url": "https://www.contracostavote.gov/m9009-en-2/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/07/072de09be364cd13e4ef36ac5193a132fa6f184b60826bb5d94993efea4969e7",
+          "raw_sha256": "072de09be364cd13e4ef36ac5193a132fa6f184b60826bb5d94993efea4969e7",
+          "fetched_at": "2026-10-28T06:38:37Z",
+          "fetched_by": "capture"
+        },
+        "ballot_question": {
+          "text": "To support rapid, 911 emergency medical response, modernize and rehabilitate unsafe/deteriorating firefighter housing and facilities, including mold/asbestos abatement/removal, replace electrical systems, leaky pipes/roofs, and improve structure resiliency during disasters, shall the City of Richmond’s measure authorizing $120,000,000 in bonds at legal rates, levying an estimated average tax rate of $22.15/$100,000 of assessed valuation, averaging $7,568,158 annually while bonds are outstanding, requiring citizen oversight, audits, and spending only on approved projects, be adopted?",
+          "source_url": "https://www.contracostavote.gov/m9009-en-2/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/07/072de09be364cd13e4ef36ac5193a132fa6f184b60826bb5d94993efea4969e7",
+          "raw_sha256": "072de09be364cd13e4ef36ac5193a132fa6f184b60826bb5d94993efea4969e7",
+          "fetched_at": "2026-10-28T06:38:37Z",
+          "fetched_by": "capture"
+        }
+      }
+    },
+    {
+      "id": "local-cc-r",
+      "number": "R",
+      "title": {
+        "text": "CITY OF SAN PABLO",
+        "source_url": "https://www.contracostavote.gov/m9010-en-2/",
+        "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+        "source_snapshot": "data/raw/objects/57/5765d658cc5f10e010fd49bb455fbb4494b71e43a6a5dba0a29c1ea47355e148",
+        "raw_sha256": "5765d658cc5f10e010fd49bb455fbb4494b71e43a6a5dba0a29c1ea47355e148",
+        "fetched_at": "2026-10-28T06:38:37Z",
+        "fetched_by": "capture"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "Contra Costa",
+        "name": "City of San Pablo"
+      },
+      "topics": [],
+      "documents": [],
+      "notes": [],
+      "arguments_url": null,
+      "fields": {
+        "district": {
+          "text": "CITY OF SAN PABLO",
+          "source_url": "https://www.contracostavote.gov/m9010-en-2/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/57/5765d658cc5f10e010fd49bb455fbb4494b71e43a6a5dba0a29c1ea47355e148",
+          "raw_sha256": "5765d658cc5f10e010fd49bb455fbb4494b71e43a6a5dba0a29c1ea47355e148",
+          "fetched_at": "2026-10-28T06:38:37Z",
+          "fetched_by": "capture"
+        },
+        "ballot_question": {
+          "text": "To provide funding to maintain City services, including crime prevention, police protection, reducing illegal dumping, the City’s daily senior meal program, youth scholarship programs, assisting the homeless, street maintenance, and other general services, shall San Pablo enact a temporary ½-cent sales tax for 5 years, generating approximately $2,000,000 annually, then reduced to ¼-cent for 5 years, generating approximately $1,000,000 annually, then terminate; with all funds staying in San Pablo, citizen oversight, and mandated annual audits?",
+          "source_url": "https://www.contracostavote.gov/m9010-en-2/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/57/5765d658cc5f10e010fd49bb455fbb4494b71e43a6a5dba0a29c1ea47355e148",
+          "raw_sha256": "5765d658cc5f10e010fd49bb455fbb4494b71e43a6a5dba0a29c1ea47355e148",
+          "fetched_at": "2026-10-28T06:38:37Z",
+          "fetched_by": "capture"
+        }
+      }
+    },
+    {
+      "id": "local-cc-rtm",
+      "number": "RTM",
+      "title": {
+        "text": "REGIONAL TRANSIT MEASURE",
+        "source_url": "https://www.contracostavote.gov/m9001-en-2/",
+        "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+        "source_snapshot": "data/raw/objects/29/29acf273abe386b89906832ef37c4d1d6024225a1ba526801ba380366ceb88ad",
+        "raw_sha256": "29acf273abe386b89906832ef37c4d1d6024225a1ba526801ba380366ceb88ad",
+        "fetched_at": "2026-10-28T06:38:36Z",
+        "fetched_by": "capture"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "Contra Costa",
+        "name": "Public Transit Revenue Measure District"
+      },
+      "topics": [],
+      "documents": [],
+      "notes": [],
+      "arguments_url": null,
+      "fields": {
+        "district": {
+          "text": "PUBLIC TRANSIT REVENUE MEASURE DISTRICT",
+          "source_url": "https://www.contracostavote.gov/m9001-en-2/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/29/29acf273abe386b89906832ef37c4d1d6024225a1ba526801ba380366ceb88ad",
+          "raw_sha256": "29acf273abe386b89906832ef37c4d1d6024225a1ba526801ba380366ceb88ad",
+          "fetched_at": "2026-10-28T06:38:36Z",
+          "fetched_by": "capture"
+        },
+        "ballot_question": {
+          "text": "To prevent major service cuts to BART and other transit, avoid increased traffic, and reduce pollution by: Preserving BART, Caltrain, VTA, SamTrans, AC Transit, Muni, other transit for everyone, including workers, students, seniors, persons with disabilities; Supporting transit safety, cleanliness, affordability, reliability; Repairing targeted roads/ potholes; Requiring financial transparency, oversight, accountability; shall the measure enacting a 0.5% (Alameda, Contra Costa, San Mateo, Santa Clara counties), and 1% (San Francisco) sales tax for 14 years generating approximately $980,000,000 annually, be adopted?",
+          "source_url": "https://www.contracostavote.gov/m9001-en-2/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/29/29acf273abe386b89906832ef37c4d1d6024225a1ba526801ba380366ceb88ad",
+          "raw_sha256": "29acf273abe386b89906832ef37c4d1d6024225a1ba526801ba380366ceb88ad",
+          "fetched_at": "2026-10-28T06:38:36Z",
+          "fetched_by": "capture"
+        }
+      }
+    },
+    {
+      "id": "local-cc-s",
+      "number": "S",
+      "title": {
+        "text": "CITY OF SAN PABLO",
+        "source_url": "https://www.contracostavote.gov/m9011-en-2/",
+        "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+        "source_snapshot": "data/raw/objects/34/3484aa16a6879a3b2e7830c5347dc199c7f83111e36e5e619c2f7336827926f1",
+        "raw_sha256": "3484aa16a6879a3b2e7830c5347dc199c7f83111e36e5e619c2f7336827926f1",
+        "fetched_at": "2026-10-28T06:38:36Z",
+        "fetched_by": "capture"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "Contra Costa",
+        "name": "City of San Pablo"
+      },
+      "topics": [],
+      "documents": [],
+      "notes": [],
+      "arguments_url": null,
+      "fields": {
+        "district": {
+          "text": "CITY OF SAN PABLO",
+          "source_url": "https://www.contracostavote.gov/m9011-en-2/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/34/3484aa16a6879a3b2e7830c5347dc199c7f83111e36e5e619c2f7336827926f1",
+          "raw_sha256": "3484aa16a6879a3b2e7830c5347dc199c7f83111e36e5e619c2f7336827926f1",
+          "fetched_at": "2026-10-28T06:38:36Z",
+          "fetched_by": "capture"
+        },
+        "ballot_question": {
+          "text": "Shall the proposed ordinance, prohibiting residential real property rental rate increases for some rental units that exceed sixty percent of the Consumer Price Index increase or three percent, whichever is lower, establishing a process for consideration of additional rent increases, requiring City administration estimated to cost approximately $1,080,000 to $2,360,000 annually, funded by annual rental property owner fees, limiting the grounds for evicting tenants of some rental units, and enacting additional housing regulations, be adopted?",
+          "source_url": "https://www.contracostavote.gov/m9011-en-2/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/34/3484aa16a6879a3b2e7830c5347dc199c7f83111e36e5e619c2f7336827926f1",
+          "raw_sha256": "3484aa16a6879a3b2e7830c5347dc199c7f83111e36e5e619c2f7336827926f1",
+          "fetched_at": "2026-10-28T06:38:36Z",
+          "fetched_by": "capture"
+        }
+      }
+    },
+    {
+      "id": "local-cc-t",
+      "number": "T",
+      "title": {
+        "text": "CITY OF WALNUT CREEK",
+        "source_url": "https://www.contracostavote.gov/m9012-en-2/",
+        "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+        "source_snapshot": "data/raw/objects/db/db033ae0b9eacd8b05c01a9ba9a9f273e8b9c5eadb18cf0e8ae26d355621f446",
+        "raw_sha256": "db033ae0b9eacd8b05c01a9ba9a9f273e8b9c5eadb18cf0e8ae26d355621f446",
+        "fetched_at": "2026-10-28T06:38:36Z",
+        "fetched_by": "capture"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "Contra Costa",
+        "name": "City of Walnut Creek"
+      },
+      "topics": [],
+      "documents": [],
+      "notes": [],
+      "arguments_url": null,
+      "fields": {
+        "district": {
+          "text": "CITY OF WALNUT CREEK",
+          "source_url": "https://www.contracostavote.gov/m9012-en-2/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/db/db033ae0b9eacd8b05c01a9ba9a9f273e8b9c5eadb18cf0e8ae26d355621f446",
+          "raw_sha256": "db033ae0b9eacd8b05c01a9ba9a9f273e8b9c5eadb18cf0e8ae26d355621f446",
+          "fetched_at": "2026-10-28T06:38:36Z",
+          "fetched_by": "capture"
+        },
+        "ballot_question": {
+          "text": "Shall the office of the City Treasurer be appointive?",
+          "source_url": "https://www.contracostavote.gov/m9012-en-2/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/db/db033ae0b9eacd8b05c01a9ba9a9f273e8b9c5eadb18cf0e8ae26d355621f446",
+          "raw_sha256": "db033ae0b9eacd8b05c01a9ba9a9f273e8b9c5eadb18cf0e8ae26d355621f446",
+          "fetched_at": "2026-10-28T06:38:36Z",
+          "fetched_by": "capture"
+        }
+      }
+    },
+    {
+      "id": "local-cc-u",
+      "number": "U",
+      "title": {
+        "text": "CITY OF WALNUT CREEK",
+        "source_url": "https://www.contracostavote.gov/m9013-en/",
+        "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+        "source_snapshot": "data/raw/objects/53/53a42e44fea2664c2aa03ab43d2f96ad83e33fb9b45bdbac9debca2cc7a42ebf",
+        "raw_sha256": "53a42e44fea2664c2aa03ab43d2f96ad83e33fb9b45bdbac9debca2cc7a42ebf",
+        "fetched_at": "2026-10-28T06:38:36Z",
+        "fetched_by": "capture"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "Contra Costa",
+        "name": "City of Walnut Creek"
+      },
+      "topics": [],
+      "documents": [],
+      "notes": [],
+      "arguments_url": null,
+      "fields": {
+        "district": {
+          "text": "CITY OF WALNUT CREEK",
+          "source_url": "https://www.contracostavote.gov/m9013-en/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/53/53a42e44fea2664c2aa03ab43d2f96ad83e33fb9b45bdbac9debca2cc7a42ebf",
+          "raw_sha256": "53a42e44fea2664c2aa03ab43d2f96ad83e33fb9b45bdbac9debca2cc7a42ebf",
+          "fetched_at": "2026-10-28T06:38:36Z",
+          "fetched_by": "capture"
+        },
+        "ballot_question": {
+          "text": "Shall the measure amending the City of Walnut Creek General Plan, the North Downtown Specific Plan, and the Municipal Code to redesignate a 2.4 acre site at the northeast corner of North California Boulevard and Ygnacio Valley Road from office uses to mixed use residential uses, and to create a new Mixed Use Residential Senior & Commercial zoning district to limit allowable uses on the site to multifamily senior housing (primarily 55 years of age or older) and commercial uses compatible with senior housing, be adopted?",
+          "source_url": "https://www.contracostavote.gov/m9013-en/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/53/53a42e44fea2664c2aa03ab43d2f96ad83e33fb9b45bdbac9debca2cc7a42ebf",
+          "raw_sha256": "53a42e44fea2664c2aa03ab43d2f96ad83e33fb9b45bdbac9debca2cc7a42ebf",
+          "fetched_at": "2026-10-28T06:38:36Z",
+          "fetched_by": "capture"
+        }
+      }
+    },
+    {
+      "id": "local-cc-v",
+      "number": "V",
+      "title": {
+        "text": "WEST CONTRA COSTA UNIFIED SCHOOL DISTRICT",
+        "source_url": "https://www.contracostavote.gov/m9004-en-2/",
+        "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+        "source_snapshot": "data/raw/objects/0b/0b290463f0b853eae7e563882ec10deaaf12b14029d6e1478acf54ec00e9771c",
+        "raw_sha256": "0b290463f0b853eae7e563882ec10deaaf12b14029d6e1478acf54ec00e9771c",
+        "fetched_at": "2026-10-28T06:38:37Z",
+        "fetched_by": "capture"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "Contra Costa",
+        "name": "West Contra Costa Unified School District"
+      },
+      "topics": [],
+      "documents": [],
+      "notes": [],
+      "arguments_url": null,
+      "fields": {
+        "district": {
+          "text": "WEST CONTRA COSTA UNIFIED SCHOOL DISTRICT",
+          "source_url": "https://www.contracostavote.gov/m9004-en-2/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/0b/0b290463f0b853eae7e563882ec10deaaf12b14029d6e1478acf54ec00e9771c",
+          "raw_sha256": "0b290463f0b853eae7e563882ec10deaaf12b14029d6e1478acf54ec00e9771c",
+          "fetched_at": "2026-10-28T06:38:37Z",
+          "fetched_by": "capture"
+        },
+        "ballot_question": {
+          "text": "Shall the measure supporting local quality education in West Contra Costa Unified School District, protecting core academics, science, music, arts, and career technical programs that prepare students for the changing economy; attracting and retaining qualified teachers; and maintaining mental health services and counselors to support student success; by renewing the parcel tax at the existing rate of 7.2¢/building square foot, raising approximately $10,238,737 annually for nine years, with senior exemptions, independent citizen oversight, audits, and local control, be adopted?",
+          "source_url": "https://www.contracostavote.gov/m9004-en-2/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/0b/0b290463f0b853eae7e563882ec10deaaf12b14029d6e1478acf54ec00e9771c",
+          "raw_sha256": "0b290463f0b853eae7e563882ec10deaaf12b14029d6e1478acf54ec00e9771c",
+          "fetched_at": "2026-10-28T06:38:37Z",
+          "fetched_by": "capture"
+        }
+      }
+    },
+    {
+      "id": "local-cc-w",
+      "number": "W",
+      "title": {
+        "text": "ACALANES UNION HIGH SCHOOL DISTRICT",
+        "source_url": "https://www.contracostavote.gov/m9002-en-2/",
+        "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+        "source_snapshot": "data/raw/objects/78/7809f7de318ea3a80fb896e5a4c2954671b48587dbc08520b67184b7e1d48802",
+        "raw_sha256": "7809f7de318ea3a80fb896e5a4c2954671b48587dbc08520b67184b7e1d48802",
+        "fetched_at": "2026-10-28T06:38:36Z",
+        "fetched_by": "capture"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "Contra Costa",
+        "name": "Acalanes Union High School District"
+      },
+      "topics": [],
+      "documents": [],
+      "notes": [],
+      "arguments_url": null,
+      "fields": {
+        "district": {
+          "text": "ACALANES UNION HIGH SCHOOL DISTRICT",
+          "source_url": "https://www.contracostavote.gov/m9002-en-2/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/78/7809f7de318ea3a80fb896e5a4c2954671b48587dbc08520b67184b7e1d48802",
+          "raw_sha256": "7809f7de318ea3a80fb896e5a4c2954671b48587dbc08520b67184b7e1d48802",
+          "fetched_at": "2026-10-28T06:38:36Z",
+          "fetched_by": "capture"
+        },
+        "ballot_question": {
+          "text": "Shall the measure supporting high-quality education in local high schools by:\n• Attracting/retaining highly qualified teachers\n• continuing advanced academic programs in science, technology, engineering, math, and arts that prepare students for success in college and careers\n• maintaining manageable class sizes\nwith Acalanes Union High School District levying a $168 parcel tax for eight years, with senior exemptions, citizens’ oversight and independent audits, providing $6,000,000 annually in local school funding that cannot be taken by the State, be adopted?",
+          "source_url": "https://www.contracostavote.gov/m9002-en-2/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/78/7809f7de318ea3a80fb896e5a4c2954671b48587dbc08520b67184b7e1d48802",
+          "raw_sha256": "7809f7de318ea3a80fb896e5a4c2954671b48587dbc08520b67184b7e1d48802",
+          "fetched_at": "2026-10-28T06:38:36Z",
+          "fetched_by": "capture"
+        }
+      }
+    },
+    {
+      "id": "local-cc-x",
+      "number": "X",
+      "title": {
+        "text": "LIBERTY UNION HIGH SCHOOL DISTRICT",
+        "source_url": "https://www.contracostavote.gov/m9003-en-2/",
+        "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+        "source_snapshot": "data/raw/objects/b2/b2b20eb466d9d00d9c0a647e77752c5894820355639faa6b51d706e81bb2c417",
+        "raw_sha256": "b2b20eb466d9d00d9c0a647e77752c5894820355639faa6b51d706e81bb2c417",
+        "fetched_at": "2026-10-28T06:38:36Z",
+        "fetched_by": "capture"
+      },
+      "jurisdiction": {
+        "level": "local",
+        "county": "Contra Costa",
+        "name": "Liberty Union High School District"
+      },
+      "topics": [],
+      "documents": [],
+      "notes": [],
+      "arguments_url": null,
+      "fields": {
+        "district": {
+          "text": "LIBERTY UNION HIGH SCHOOL DISTRICT",
+          "source_url": "https://www.contracostavote.gov/m9003-en-2/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/b2/b2b20eb466d9d00d9c0a647e77752c5894820355639faa6b51d706e81bb2c417",
+          "raw_sha256": "b2b20eb466d9d00d9c0a647e77752c5894820355639faa6b51d706e81bb2c417",
+          "fetched_at": "2026-10-28T06:38:36Z",
+          "fetched_by": "capture"
+        },
+        "ballot_question": {
+          "text": "In order to repair and improve aging classrooms, fix deteriorating roofs, plumbing, heating, ventilation and electrical systems, remove asbestos/ lead pipes, upgrade science labs, libraries, technology and other facilities to support college/ career readiness in math, science, health, engineering, arts and skilled trades; shall Liberty Union High School District’s measure be adopted authorizing $165,000,000 in bonds at legal rates, levying $20 per $100,000 assessed value (raising $11,300,000 annually) while bonds are outstanding and all funds benefiting local schools?",
+          "source_url": "https://www.contracostavote.gov/m9003-en-2/",
+          "source_label": "Contra Costa County Clerk-Recorder-Elections: measure page",
+          "source_snapshot": "data/raw/objects/b2/b2b20eb466d9d00d9c0a647e77752c5894820355639faa6b51d706e81bb2c417",
+          "raw_sha256": "b2b20eb466d9d00d9c0a647e77752c5894820355639faa6b51d706e81bb2c417",
+          "fetched_at": "2026-10-28T06:38:36Z",
+          "fetched_by": "capture"
+        }
+      }
+    },
+    {
       "id": "local-la-a",
       "number": "A",
       "title": {
