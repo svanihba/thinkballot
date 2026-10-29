@@ -3,9 +3,9 @@
     autocomplete="off" enterkeyhint="send" required>
   <button class="btn" type="submit">{{ _("Ask") }}</button>
 </form>
-{# The suggested questions are asked in English (their answers are prepared in advance); the buttons show
-   them in the page's language. #}
+{# The suggested questions are asked in English, with their number (their answers are prepared in advance,
+   and translated for other pages); the buttons show them in the page's language. #}
 <div class="canned" role="group" aria-label="{{ _a('Suggested questions') }}">
-  {% for q in suggested_questions %}<button type="button" class="suggest" data-question="{{ q }}">{{ _(q) }}</button>{% endfor %}
+  {% for q in suggested_questions %}<button type="button" class="suggest" data-question="{{ q }}" data-index="{{ loop.index0 }}">{{ _(q) }}</button>{% endfor %}
 </div>
 <div class="ask-result" aria-live="polite"></div>

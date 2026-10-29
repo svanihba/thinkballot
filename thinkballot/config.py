@@ -58,6 +58,10 @@ OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")  # never printed or lo
 # Paid models: no free-tier daily cap or queueing (owner's choice, 28-Oct-2026).
 ANSWER_MODEL = _env("TB_ANSWER_MODEL", "nvidia/nemotron-3.5-super-vl")
 REVIEW_MODEL = _env("TB_REVIEW_MODEL", "nvidia/nemotron-3-ultra-550b-a55b")
+# Spanish and Chinese versions of the prepared answers (scripts/warm_ask_cache.py --lang): one model
+# translates the checked English answer, a second checks each translated sentence against the English.
+TRANSLATE_MODEL = _env("TB_TRANSLATE_MODEL", "nvidia/nemotron-3.5-super-vl")
+TRANSLATE_CHECK_MODEL = _env("TB_TRANSLATE_CHECK_MODEL", "nvidia/nemotron-3-ultra-550b-a55b")
 AI_TIMEOUT_SECONDS = float(_env("TB_AI_TIMEOUT", "45"))
 AI_RETRIES = int(_env("TB_AI_RETRIES", "2"))
 # Total time one question may take (answer + Bias Buster review); past it the voter gets "try again".

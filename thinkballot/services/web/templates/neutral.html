@@ -20,6 +20,8 @@
   <div class="step"><h3>{{ _("Answer") }}</h3><p>{{ _("Shown with its quotes, its sources and Bias Buster's result.") }}</p></div>
 </div>
 
+<p>{{ _("Answers to the suggested questions are prepared in advance. For the Spanish and Chinese pages, ThinkBallot translates only an English answer that has passed Bias Buster; it never writes a new one. Every number must match the English, and a second AI checks each translated sentence against the English: same meaning, nothing added or left out, no persuasive wording. A translation that fails any check isn't shown; you get the English answer instead. Quotes stay official text: the Secretary of State's official translation where it has the same passage word for word, otherwise the English original.") }}</p>
+
 <h2>{{ _("The rules") }}</h2>
 <table class="doc-table">
   <tr><th>{{ _("Rule") }}</th><th>{{ _("What it means") }}</th></tr>
@@ -28,7 +30,7 @@
   <tr><td>{{ _("Both sides, equally") }}</td><td>{{ _("YES always comes before NO, in the same layout, style and colour. The official arguments for and against sit side by side.") }}</td></tr>
   <tr><td>{{ _("Quote it or skip it") }}</td><td>{{ _("A field we can't source says \"Not available in the official guide.\" An answer we can't ground is held back.") }}</td></tr>
   <tr><td>{{ _("Your ZIP code is never stored") }}</td><td>{{ _("We use only the ZIP code to find your likely districts, then discard it. Questions aren't logged. Stars and reading progress stay in your own browser.") }}</td></tr>
-  {% if lang != "en" %}<tr><td>{{ _("Official translations only") }}</td><td>{{ _("In Spanish and Chinese, official text comes word for word from the Secretary of State's official translation of the voter guide, checked the same way. Where there is no official translation, the English original is shown. ThinkBallot never machine-translates official text; it translates only its own interface.") }}</td></tr>{% endif %}
+  {% if lang != "en" %}<tr><td>{{ _("Official translations only") }}</td><td>{{ _("In Spanish and Chinese, official text comes word for word from the Secretary of State's official translation of the voter guide, checked the same way. Where there is no official translation, the English original is shown. ThinkBallot never machine-translates official text; it translates only its own words: the interface, and its checked answers to the suggested questions.") }}</td></tr>{% endif %}
 </table>
 
 <h2 id="bias-buster">{{ _("Bias Buster") }}</h2>

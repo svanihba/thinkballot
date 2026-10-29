@@ -4,7 +4,7 @@
 <div class="eyebrow">{{ _("Ask · answered only from the official text") }}</div>
 <h1>{{ _("Ask about your ballot") }}</h1>
 <p class="lede">{{ _("Every answer quotes the official voter guide, and every answer is checked by <a href='{url}'>Bias Buster</a>. If the official text doesn't answer it, we say so instead of guessing. <strong>Quote it or skip it.</strong>", url=lp('/neutral') ~ '#bias-buster') }}</p>
-{% if lang != "en" %}<p class="notice calm lang-note">{{ _("For now, answers are in English and quote the English official text.") }}</p>{% endif %}
+{% if lang != "en" %}<p class="notice calm lang-note">{{ _("Answers to the suggested questions are shown translated once a checked translation is ready. Other answers are in English and quote the English official text.") }}</p>{% endif %}
 
 <form class="pick" method="get" action="{{ lp('/ask') }}">
   <label for="measure">{{ _("Proposition") }}</label>
