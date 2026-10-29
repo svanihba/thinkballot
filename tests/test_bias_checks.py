@@ -148,10 +148,23 @@ def test_ai_call_that_trickles_past_its_timeout_is_cut_off(monkeypatch):
 
 def test_recommendations_are_removed_unless_the_quote_says_them():
     for claim in ["Vote yes on this one.", "Voters should approve it.", "No is the best choice.",
-                  "We recommend this measure.", "The measure must pass."]:
+                  "We recommend a yes vote.", "We urge voters to vote on the side of parks.",
+                  "We endorse passing the measure."]:
         point = {"claim": claim, "quote": "the state could sell $1.5 billion in bonds"}
         assert "recommendation" in [f["check"] for f in checks.check_point(point, [SOURCE])], claim
     source = "Argument in favor: for these reasons, vote yes on this measure to fund parks across the state."
     point = {"claim": "The argument in favor says to vote yes.", "quote": "for these reasons, vote yes on this measure to fund parks"}
     assert checks.check_point(point, [source]) == []
     assert checks.check_point(dict(point, claim="A YES vote means the state sells bonds."), [source]) == []
+
+
+def test_neutral_claims_that_use_vote_words_are_kept():
+    quote = "the state could sell $1.5 billion in bonds"
+    for claim in ["A vote for the measure authorizes $1.5 billion in bonds",
+                  "A vote against the measure keeps the current rules",
+                  "People who vote for Proposition 1 would raise taxes",
+                  "The measure must pass by a majority of votes cast",
+                  "If the measure should fail, the bonds are not sold",
+                  "We recommend reading the full text"]:
+        assert "recommendation" not in [f["check"] for f in checks.check_point(
+            {"claim": claim, "quote": quote}, [SOURCE])], claim
