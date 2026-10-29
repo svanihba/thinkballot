@@ -279,7 +279,7 @@ def create_app():
         question = question.strip()[:MAX_QUESTION_CHARS]
         client = ratelimit.client_key(body.get("client") or request.remote_addr)
         if not ratelimit.allow("ask", client, config.ASK_LIMITS_PER_CLIENT):
-            abort(429, "Too many questions. Please wait a moment.")
+            abort(429, "client_limit")  # a code, not text: the web service words it
 
         if HOW_TO_VOTE_RE.search(question):
             return jsonify(status="refused", reason=HOW_TO_VOTE_REPLY, points=[], findings=[])
@@ -292,7 +292,7 @@ def create_app():
         if result:
             return jsonify(result)
         if not ratelimit.allow("ask", None, config.ASK_LIMITS_SITEWIDE):  # protects the AI quota
-            abort(429, "ThinkBallot is answering a lot of questions right now. Please try again later.")
+            abort(429, "site_limit")
         return jsonify(live_answer(measure, question, bias))
 
     return app
