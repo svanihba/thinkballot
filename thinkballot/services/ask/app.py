@@ -206,8 +206,11 @@ def prepare_translation(measure, question, lang, bias, ballot):
     return "translated"
 
 
-def live_answer(measure, question, bias):
-    """Ask the answer model, then Bias Buster. Answers to suggested questions are kept for next time."""
+def live_answer(measure, question, bias, store_refusals=False):
+    """Ask the answer model, then Bias Buster. Answers to suggested questions are kept for next time.
+
+    A refusal is kept only when store_refusals is set (the warm script) and the model refuses twice;
+    a visitor's request never stores one, so one odd refusal can't be served to everyone."""
     names, sources, text = source_text(measure)
     user = f"{text}\n\nQUESTION: {question}"
     key = _cache_key(measure, question)
@@ -216,12 +219,17 @@ def live_answer(measure, question, bias):
     try:  # the answer may use at most ~60% of the budget, leaving time for the Bias Buster review
         draft = ai.chat_json(config.ANSWER_MODEL, ANSWER_SYSTEM, user, stub=_stub_answer,
                              deadline=time.monotonic() + 0.6 * config.ASK_BUDGET_SECONDS)
+        if draft.get("refused") and store_refusals:  # ask again: a refusal is kept only if repeated
+            second = ai.chat_json(config.ANSWER_MODEL, ANSWER_SYSTEM, user, stub=_stub_answer,
+                                  deadline=time.monotonic() + 0.6 * config.ASK_BUDGET_SECONDS)
+            if not second.get("refused"):
+                draft, store_refusals = second, False
     except ai.AIError:
         abort(503, "The question service is busy right now. Please try again in a minute.")
     if draft.get("refused"):
         # Fixed wording: the model's own explanation is never shown to voters.
         result = {"status": "refused", "reason": NOT_COVERED_REPLY, "points": [], "findings": []}
-        if key:
+        if key and store_refusals:
             cache.put(key, measure["id"], "", result)  # no Bias Buster check runs on a refusal
         return result
 
