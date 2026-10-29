@@ -146,10 +146,9 @@ def check_balance(yes_text, no_text):
 # words only when its own quote does (it is then reporting what the argument says).
 RECOMMENDATION_PATTERNS = [re.compile(p) for p in (
     r"\b(yes|no) is the (right|best|better|smart|only)\b",
-    r"\bvote (yes|no|for|against)\b",
+    r"\bvote (yes|no)\b",
     r"\b(you|voters|people|citizens) (should|must|ought to) (vote|support|oppose|approve|reject)\b",
-    r"\bwe (recommend|urge|endorse)\b",
-    r"\b(should|must) (pass|fail)\b",
+    r"\bwe (recommend|urge|endorse) (that )?(you |voters |everyone )?(to )?(a )?(vote|voting|yes|no|passing|the measure|prop)",
 )]
 
 
