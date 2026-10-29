@@ -148,7 +148,7 @@ def test_ai_call_that_trickles_past_its_timeout_is_cut_off(monkeypatch):
 
 def test_recommendations_are_removed_unless_the_quote_says_them():
     for claim in ["Vote yes on this one.", "Voters should approve it.", "No is the best choice.",
-                  "We recommend a yes vote.", "We urge voters to vote on the side of parks.",
+                  "We recommend a yes vote.", "We urge voters to vote on the side of parks.", "We urge everyone to support it.",
                   "We endorse passing the measure."]:
         point = {"claim": claim, "quote": "the state could sell $1.5 billion in bonds"}
         assert "recommendation" in [f["check"] for f in checks.check_point(point, [SOURCE])], claim
