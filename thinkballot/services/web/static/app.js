@@ -143,7 +143,7 @@ function renderAnswer(r, suggested) {
     // Other answers are written in English from the English official text: mark them so on other pages.
     return `<div class="answer"><ul class="points"${PREFIX && !translated ? ' lang="en"' : ""}>${points}</ul>
       <div class="verdict ${esc(r.verdict)}">${esc(VERDICT_TEXT[r.verdict] || t("bias"))}
-        ${r.findings.length ? `· ${esc(r.findings.length > 1 ? t("changes", { n: r.findings.length }) : t("change"))}` : ""}</div>${findings}${langNote}${preparedNote(r)}</div>`;
+        ${r.findings.length ? `· ${esc(r.findings.length > 1 ? t("changes", { n: r.findings.length }) : t("change"))}` : ""}</div>${findings}${langNote}<p class="prepared-note">${esc(t("ai_label"))}</p>${preparedNote(r)}</div>`;
   }
   if (r.status === "blocked") {
     return `<div class="answer held"><p>${esc(r.reason)}</p><div class="verdict blocked">${esc(t("held"))}</div></div>`;

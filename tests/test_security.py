@@ -72,3 +72,13 @@ def test_search_and_sitemap_read_the_ballot_data_once(server, monkeypatch):
         assert requests.get(server + "/svc/search/search", params={"q": "parks"}, headers=token).status_code == 200
         assert requests.get(server + "/sitemap.xml").text == first
     assert calls == []
+
+
+def test_ai_label_and_privacy_text_are_on_the_pages_in_every_language(server):
+    for prefix, label, privacy in [("", "Written by an AI model", "OpenRouter"), ("/es", "Escrito por un modelo de IA", "OpenRouter"),
+                                   ("/zh", "由 AI 模型根據官方文字撰寫", "OpenRouter")]:
+        assert label in requests.get(f"{server}{prefix}/prop/prop-a").text, prefix
+        assert privacy in requests.get(f"{server}{prefix}/neutral").text, prefix
+        assert label in requests.get(f"{server}{prefix}/ask").text, prefix
+    js = requests.get(server + "/static/app.js").text
+    assert 't("ai_label")' in js
