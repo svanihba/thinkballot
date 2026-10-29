@@ -20,7 +20,7 @@ log = logging.getLogger("thinkballot.bias")
 
 # Bump when the checks or the review prompt change: answers prepared in advance under an older
 # version are then no longer used.
-BIAS_VERSION = "1"
+BIAS_VERSION = "2"
 
 REVIEW_SYSTEM = """You are the neutrality reviewer for ThinkBallot, a nonpartisan California ballot guide.
 You receive OFFICIAL SOURCE passages and an ANSWER made of points. Each point has a "claim" and the
@@ -32,6 +32,8 @@ Check every point against this rubric:
 3. Implied recommendation: hints how to vote, or that one side is right.
 4. Emotional or loaded wording, or adjectives not used by the source.
 5. Missing side: a question about effects is answered for YES only or NO only.
+6. Unattributed claim: a goal, benefit or prediction from the measure's own text (e.g. its ballot
+   question or an argument) stated as a fact instead of attributed ("The ballot question says ...").
 
 Fix problems with the smallest possible edit, using the source's own wording. Never add facts, numbers
 or quotes that are not in the source. Remove a point you cannot fix. Keep each point's quote exactly as
