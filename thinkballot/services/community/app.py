@@ -86,7 +86,7 @@ def _with_official(rows):
 
 
 def create_app(db_path=None):
-    app = make_service("community", internal=True)
+    app = make_service("community")
     bias = ServiceClient("bias")
 
     def conn():

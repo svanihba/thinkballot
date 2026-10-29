@@ -22,7 +22,7 @@ def _sources(body):
 
 
 def create_app():
-    app = make_service("bias", internal=True)
+    app = make_service("bias")
 
     @app.post("/check/answer")
     def check_answer():

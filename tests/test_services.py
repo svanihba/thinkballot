@@ -4,7 +4,11 @@ import re
 
 import requests
 
+from thinkballot import config
 from thinkballot.services.geo.app import extract_zip
+
+
+TOKEN = {"X-TB-Internal": config.INTERNAL_TOKEN}
 
 
 def test_extract_zip():
@@ -71,9 +75,9 @@ def test_ask_never_says_how_to_vote(server):
 
 
 def test_search_matches_text_and_filters_by_topic(server):
-    r = requests.get(server + "/svc/search/search", params={"q": "bonds"}).json()
+    r = requests.get(server + "/svc/search/search", params={"q": "bonds"}, headers=TOKEN).json()
     assert [m["id"] for m in r["results"]] == ["prop-b"]
-    r = requests.get(server + "/svc/search/search", params={"topic": "libraries"}).json()
+    r = requests.get(server + "/svc/search/search", params={"topic": "libraries"}, headers=TOKEN).json()
     assert [m["id"] for m in r["results"]] == ["prop-a"]
     assert "parks" in r["topics"]
 
@@ -137,3 +141,15 @@ def test_production_is_indexable_with_a_sitemap(server, monkeypatch):
     assert "<loc>https://www.thinkballot.com/prop/prop-a</loc>" in xml
     assert "<loc>https://www.thinkballot.com/es/prop/prop-a</loc>" in xml
     assert 'hreflang="zh-Hant" href="https://www.thinkballot.com/zh/prop/prop-a"' in xml
+
+
+def test_every_service_needs_the_internal_token(server):
+    for name, path in [("ballot", "/measures"), ("geo", "/zips"), ("search", "/search"), ("results", "/results"),
+                       ("ask", "/ask"), ("bias", "/review"), ("community", "/comments")]:
+        assert requests.get(f"{server}/svc/{name}{path}").status_code == 403, name
+        assert requests.get(f"{server}/svc/{name}/health").status_code == 200, name
+
+
+def test_services_cap_body_size(server):
+    r = requests.post(server + "/svc/ask/ask", json={"question": "x" * 70000}, headers=TOKEN)
+    assert r.status_code == 413
