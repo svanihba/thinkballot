@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{%- for path in paths %}{% for code, _hl in langs %}
+<url><loc>{{ base }}{{ lang_path(code, path) }}</loc>
+{%- for other, hreflang in langs %}<xhtml:link rel="alternate" hreflang="{{ hreflang }}" href="{{ base }}{{ lang_path(other, path) }}"/>{% endfor %}</url>
+{%- endfor %}{% endfor %}
+</urlset>

@@ -115,3 +115,25 @@ def test_stacked_arguments_announce_both_sides_in_order(server):
     jump = re.search(r'<nav class="side-jump".*?</nav>', html, re.S).group(0)
     assert jump.index('href="#argument-for"') < jump.index('href="#argument-against"')
     assert html.index('id="argument-for"') < html.index('id="argument-against"')
+
+
+def test_test_copies_say_so_and_stay_out_of_search(server):
+    r = requests.get(server + "/")
+    assert "test site" in r.text and 'href="https://www.thinkballot.com/"' in r.text
+    assert '<meta name="robots" content="noindex">' in r.text and r.headers["X-Robots-Tag"] == "noindex"
+    assert '<link rel="canonical" href="https://www.thinkballot.com/">' in r.text
+    assert requests.get(server + "/robots.txt").text == "User-agent: *\nDisallow: /\n"
+    assert requests.get(server + "/sitemap.xml").status_code == 404
+
+
+def test_production_is_indexable_with_a_sitemap(server, monkeypatch):
+    from thinkballot import config
+    monkeypatch.setattr(config, "IS_PRODUCTION", True)
+    r = requests.get(server + "/prop/prop-a")
+    assert "test site" not in r.text and "noindex" not in r.text and "X-Robots-Tag" not in r.headers
+    assert '<link rel="canonical" href="https://www.thinkballot.com/prop/prop-a">' in r.text
+    assert "Sitemap: https://www.thinkballot.com/sitemap.xml" in requests.get(server + "/robots.txt").text
+    xml = requests.get(server + "/sitemap.xml").text
+    assert "<loc>https://www.thinkballot.com/prop/prop-a</loc>" in xml
+    assert "<loc>https://www.thinkballot.com/es/prop/prop-a</loc>" in xml
+    assert 'hreflang="zh-Hant" href="https://www.thinkballot.com/zh/prop/prop-a"' in xml

@@ -16,6 +16,10 @@ def _env(name, default):
 
 # The site's public address (share links, preview cards, secure cookies).
 PUBLIC_BASE = _env("TB_PUBLIC_URL", "http://127.0.0.1:8000")
+# The production address. Every copy names it as the canonical page; any other copy (the demo/staging
+# site, a laptop) says it is a test site and asks search engines not to index it.
+CANONICAL_BASE = _env("TB_CANONICAL_URL", "https://www.thinkballot.com")
+IS_PRODUCTION = PUBLIC_BASE.rstrip("/") == CANONICAL_BASE.rstrip("/")
 # Where the services find each other: "inproc" (HTTP requests handed straight to this process's
 # WSGI app, used on the server), http://host:port, or unix:/path.sock. Each service can later move
 # to its own process or host by changing only its URL.

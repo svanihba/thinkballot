@@ -20,7 +20,7 @@ import requests
 
 from ..rawstore import RawStore, load_sources
 
-USER_AGENT = "ThinkBallotBot/0.1 (+https://demo.thinkballot.com/about; nonpartisan voter guide)"
+USER_AGENT = "ThinkBallotBot/0.1 (+https://www.thinkballot.com/about; nonpartisan voter guide)"
 TIMEOUT = 30
 TRIES = 3
 HREF_RE = re.compile(r"""href\s*=\s*["']([^"'#]+)""", re.IGNORECASE)

@@ -640,3 +640,13 @@ main a { color: var(--poppy-deep); }
   .results-label { font-size: 0.8rem; }
   .results-status, .results-compact .results-status { font-size: 0.82rem; }
 }
+
+/* Test copies (demo/staging, laptops) say so on every page; production never shows this. */
+.test-site {
+  background: var(--ink, #1f1b16);
+  color: var(--paper, #f7f1e6);
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 0.45rem 16px;
+}
+.test-site a { color: inherit; font-weight: 700; }

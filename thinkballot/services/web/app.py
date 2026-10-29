@@ -72,6 +72,8 @@ def create_app():
         # CSP and anti-framing belong to the app (the shared proxy sets HSTS, nosniff, Referrer-Policy).
         resp.headers.setdefault("Content-Security-Policy", CSP)
         resp.headers.setdefault("X-Frame-Options", "DENY")
+        if not config.IS_PRODUCTION:  # test copies stay out of search results
+            resp.headers.setdefault("X-Robots-Tag", "noindex")
         return resp
     ballot = ServiceClient("ballot")
     geo = ServiceClient("geo")
@@ -172,7 +174,8 @@ def create_app():
     def globals_():
         here = request.path  # without the language prefix
         query = request.query_string.decode("latin-1")
-        return {"base_url": config.PUBLIC_BASE, "headings": FIELD_HEADINGS,
+        return {"base_url": config.PUBLIC_BASE, "canonical_base": config.CANONICAL_BASE,
+                "is_production": config.IS_PRODUCTION, "headings": FIELD_HEADINGS,
                 "suggested_questions": SUGGESTED_QUESTIONS, "user": current_user(), "csrf_token": csrf_token,
                 "community_open": config.COMMUNITY_OPEN,
                 "lang": lang(), "html_lang": i18n.LANGS[lang()]["html"], "og_locale": i18n.LANGS[lang()]["og"],
@@ -274,6 +277,29 @@ def create_app():
         results = load_results() if measure["level"] == "state" else None
         return render_template("measure.html", election=election, m=measure, sources=sources, chip=chip,
                                zone=zone, results=results)
+
+    @app.get("/robots.txt")
+    def robots():
+        if config.IS_PRODUCTION:
+            body = f"User-agent: *\nDisallow: /api/\nSitemap: {config.CANONICAL_BASE}/sitemap.xml\n"
+        else:
+            body = "User-agent: *\nDisallow: /\n"
+        return app.response_class(body, mimetype="text/plain")
+
+    @app.get("/sitemap.xml")
+    def sitemap():
+        """Every public page in every language, with its translations listed (production only)."""
+        if not config.IS_PRODUCTION:
+            abort(404)
+        try:
+            ids = [m["id"] for m in ballot.get("/measures")["measures"]]
+        except ServiceError:
+            abort(503)
+        paths = ["/", "/ballot", "/search", "/ask", "/neutral", "/about"] + [f"/prop/{i}" for i in ids]
+        xml = render_template("sitemap.xml", paths=paths, base=config.CANONICAL_BASE,
+                              langs=[(code, info["hreflang"]) for code, info in i18n.LANGS.items()],
+                              lang_path=i18n.lang_path)
+        return app.response_class(xml, mimetype="application/xml")
 
     @app.get("/api/zips")
     def api_zips():
