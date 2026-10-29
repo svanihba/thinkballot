@@ -1,6 +1,7 @@
 """Hardening: login timing and limits, the two kinds of 429, same-origin JSON posts."""
 
 import re
+import threading
 
 import pytest
 import requests
@@ -82,3 +83,30 @@ def test_ai_label_and_privacy_text_are_on_the_pages_in_every_language(server):
         assert label in requests.get(f"{server}{prefix}/ask").text, prefix
     js = requests.get(server + "/static/app.js").text
     assert 't("ai_label")' in js
+
+
+def test_bias_accepts_a_big_source_but_other_bodies_stay_capped(server):
+    token = {"X-TB-Internal": config.INTERNAL_TOKEN}
+    big = "The state could sell bonds for parks. " * 5500  # about 200 KB
+    r = requests.post(server + "/svc/bias/check/text", json={"text": "The state could sell bonds for parks.", "mode": "verify", "sources": [big]}, headers=token)
+    assert r.status_code == 200, r.text
+    assert requests.post(server + "/svc/bias/check/text", json={"text": big * 30, "mode": "verify", "sources": [big]},
+                         headers=token).status_code == 413
+    assert requests.post(server + "/svc/ask/ask", json={"question": big}, headers=token).status_code == 413
+
+
+def test_search_corpus_is_built_once_under_concurrent_first_requests(server):
+    from thinkballot.services.search.app import create_app
+    app = create_app()
+    barrier, results = threading.Barrier(4), []
+
+    def go():
+        barrier.wait()
+        r = app.test_client().get("/search", headers={"X-TB-Internal": config.INTERNAL_TOKEN})
+        results.append([m["id"] for m in r.get_json()["results"]])
+    threads = [threading.Thread(target=go) for _ in range(4)]
+    [t.start() for t in threads]
+    [t.join() for t in threads]
+    assert len(results) == 4
+    for ids in results:
+        assert len(ids) == len(set(ids)) and ids  # no measure listed twice

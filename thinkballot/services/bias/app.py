@@ -22,7 +22,7 @@ def _sources(body):
 
 
 def create_app():
-    app = make_service("bias")
+    app = make_service("bias", max_body=4 * 1024 * 1024)  # seeding posts whole saved source pages
 
     @app.post("/check/answer")
     def check_answer():
