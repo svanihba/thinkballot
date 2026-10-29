@@ -47,6 +47,8 @@ def chat_json(model, system, user, stub=None, deadline=None):
         "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
         "temperature": 0,
         "response_format": {"type": "json_object"},
+        # OpenRouter's default routing favours the cheapest provider, which can take minutes; a voter waits.
+        "provider": {"sort": config.AI_PROVIDER_SORT},
     }
     headers = {"Authorization": "Bearer " + config.OPENROUTER_API_KEY, "X-Title": "ThinkBallot"}
     last_error = "no attempt"

@@ -152,7 +152,7 @@ function renderAnswer(r, suggested) {
 }
 
 // The server doesn't report its steps, so the bar follows the clock: it eases toward 95% over the
-// ~85 s time budget and the answer replaces it as soon as it arrives.
+// ~100 s time budget and the answer replaces it as soon as it arrives.
 function showAskProgress(out) {
   out.innerHTML = `<div class="ask-progress" role="status">
     <p class="hint">${esc(t("working"))}</p>
@@ -204,7 +204,7 @@ function initAsk() {
     const stopProgress = showAskProgress(out);
     revealIfHidden(out);
     const ctrl = new AbortController();
-    const timer = setTimeout(() => ctrl.abort(), 110000);
+    const timer = setTimeout(() => ctrl.abort(), 125000);
     try {
       const resp = await fetch(PREFIX + "/api/ask", {
         method: "POST",
