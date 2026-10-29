@@ -158,7 +158,7 @@ _WORDS = {
            "百": 100, "千": 1000, "萬": 10 ** 4, "万": 10 ** 4, "億": 10 ** 8, "亿": 10 ** 8, "半": Fraction(1, 2),
            "倍": None},
 }
-_ZH_NOT_NUMBERS = ["三藩市", "十分", "百姓", "萬一", "千萬不", "四處", "四周", "兩者", "兩邊", "兩方", "第"]
+_ZH_NOT_NUMBERS = ["三藩市", "十分", "百姓", "萬一", "千萬不", "四處", "四周", "兩者", "兩邊", "兩方", "兩黨", "兩院", "兩年制", "第"]
 # "two thirds", "a third of": fractions; "a third term": an ordinal
 _ENGLISH_FRACTION = (r"\b(?:(?:two|three|four|five|six|seven|eight|nine|ten)[\s-]+(third|fourth)s\b"
                      r"|(?:a|one)[\s-]+(third|fourth)\s+of\b)")

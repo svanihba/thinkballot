@@ -93,6 +93,7 @@ def fresh(server, monkeypatch):
     ("Members serve on the board.", "Los miembros sirven tres años en la junta.", "es", False),  # tres added
     ("Members serve a third term.", "Los miembros cumplen un tercer mandato.", "es", True),  # ordinals not counted
     ("It applies in San Francisco.", "適用於三藩市。", "zh", True),  # a place name, not a number
+    ("A bipartisan board of 7 members.", "由 7 名成員組成的兩黨委員會。", "zh", True),  # 兩黨 is not "two"
     ("Half of the money goes to schools.", "一半的資金用於學校。", "zh", True),
     # a month becomes a number only in a real date
     ("The vote is on November 3, 2026.", "投票日期是 2026 年 11 月 3 日。", "zh", True),
