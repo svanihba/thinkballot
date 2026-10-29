@@ -49,6 +49,7 @@ JS_STRINGS = {
                "60 seconds.",
     "translated": "Translated by ThinkBallot from the English answer and checked. Quotes are official text.",
     "in_english": "This answer is in English.",
+    "ai_label": "Written by an AI model from the official text and checked by Bias Buster. Quotes are official text.",
     "working_label": "Processing your question", "processing": "Processing…", "seconds": "s",
     "too_long": "That took too long. Please try again.",
     "offline": "Couldn't reach ThinkBallot. Check your connection.",

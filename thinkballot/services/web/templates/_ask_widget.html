@@ -8,4 +8,5 @@
 <div class="canned" role="group" aria-label="{{ _a('Suggested questions') }}">
   {% for q in suggested_questions %}<button type="button" class="suggest" data-question="{{ q }}" data-index="{{ loop.index0 }}">{{ _(q) }}</button>{% endfor %}
 </div>
+<p class="hint">{{ _("Written by an AI model from the official text and checked by Bias Buster. Quotes are official text.") }}</p>
 <div class="ask-result" aria-live="polite"></div>
