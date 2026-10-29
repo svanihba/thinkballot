@@ -109,8 +109,12 @@ def create_app():
 
     @app.before_request
     def check_csrf():
-        # Every HTML form carries a per-session token; JSON calls are same-origin by browser rules.
-        if request.method == "POST" and not request.is_json:
+        # Every HTML form carries a per-session token. JSON calls carry none: browsers send
+        # Sec-Fetch-Site, and anything but same-origin (or no header: non-browser callers) is refused.
+        if request.method == "POST" and request.is_json:
+            if request.headers.get("Sec-Fetch-Site", "same-origin") != "same-origin":
+                abort(403)
+        elif request.method == "POST":
             expected = session.get("csrf")
             sent = request.form.get("csrf", "").encode()
             if not expected or not secrets.compare_digest(sent, expected.encode()):
@@ -328,11 +332,14 @@ def create_app():
         try:
             result = ask_svc.post("/ask", payload)
         except ServiceError as exc:
-            messages = {429: T("Too many questions in a minute. Please wait a moment."),
-                        400: T("Please type a question.")}
-            return jsonify(status="error",
-                           reason=messages.get(exc.status, T("The question service is busy. Please try again."))), \
-                exc.status if exc.status in messages else 503
+            if exc.status == 429:
+                site = exc.detail == "site_limit"  # the site-wide cap, not this visitor's own limit
+                reason = (T("ThinkBallot is answering a lot of questions right now. Please try again later.") if site
+                          else T("Too many questions in a minute. Please wait a moment."))
+                return jsonify(status="error", reason=reason), 429
+            if exc.status == 400:
+                return jsonify(status="error", reason=T("Please type a question.")), 400
+            return jsonify(status="error", reason=T("The question service is busy. Please try again.")), 503
         if suggested is not None and result.get("status") == "refused":
             result["reason"] = T(result["reason"])  # a fixed reply: its catalog translation (no AI)
         if result.get("translated"):  # an English quote's source, named in the page's language
@@ -386,7 +393,10 @@ def create_app():
             action = form.get("action")
             client = ratelimit.client_key(request.remote_addr)
             limits = {"signup": [(5, 3600)], "resend": [(3, 3600)]}.get(action, [(10, 600)])
-            if not ratelimit.allow("signin-" + str(action), client, limits):
+            # Sign-in attempts are also limited per email, so many addresses can't guess one password.
+            email = (form.get("email") or "").strip().lower()[:254]
+            if not (ratelimit.allow("signin-" + str(action), client, limits)
+                    and (action in ("signup", "resend") or ratelimit.allow("signin-email", email, [(10, 900)]))):
                 flash("Too many attempts. Please wait a few minutes and try again."
                       if action != "resend" else "Too many emails. Please wait an hour and try again.")
                 return redirect(url_for("signin", next=next_url))

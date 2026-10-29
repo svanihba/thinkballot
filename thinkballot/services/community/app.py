@@ -43,6 +43,7 @@ UNVERIFIED_KEEP = "-2 days"
 # Verification emails per account (sign-up and resends together).
 MAILS_PER_ACCOUNT = [(3, 3600), (10, 86400)]
 CODE_RE = re.compile(r"^[0-9]{6}$")
+DUMMY_PW_HASH = generate_password_hash(secrets.token_hex(16))  # checked when an email is unknown
 LINK_DEAD = "This link has expired or was already used. Sign in to get a new email."
 
 
@@ -243,7 +244,9 @@ def create_app(db_path=None):
         b = body()
         email = (b.get("email") or "").strip().lower()
         row = conn().execute("SELECT * FROM user WHERE email = ?", (email,)).fetchone()
-        if not row or not check_password_hash(row["pw_hash"], b.get("password") or ""):
+        # An unknown email costs the same time as a wrong password, so timing doesn't reveal accounts.
+        pw_hash = row["pw_hash"] if row else DUMMY_PW_HASH
+        if not check_password_hash(pw_hash, b.get("password") or "") or not row:
             abort(401, "Wrong email or password.")
         return jsonify(id=row["id"], username=row["username"], is_mod=bool(row["is_mod"]),
                        verified=bool(row["verified"]))
