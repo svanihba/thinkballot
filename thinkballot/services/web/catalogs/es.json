@@ -264,6 +264,8 @@
   "voter ID": "identificación del votante",
   "libraries": "bibliotecas",
   "parks": "parques",
-  "Please choose a California ZIP code from the list.": "Elige un código postal de California de la lista."
+  "Please choose a California ZIP code from the list.": "Elige un código postal de California de la lista.",
+  "This is ThinkBallot's test site.": "Este es el sitio de prueba de ThinkBallot.",
+  "The public site is:": "El sitio público es:"
  }
 }

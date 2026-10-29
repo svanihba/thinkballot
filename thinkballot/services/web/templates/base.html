@@ -9,13 +9,15 @@
 <meta property="og:title" content="{{ self.title() }}">
 <meta property="og:description" content="{{ self.description() }}">
 <meta property="og:type" content="website">
-<meta property="og:url" content="{{ base_url }}{{ lang_prefix }}{{ request.path }}">
+<meta property="og:url" content="{{ canonical_base }}{{ lang_prefix }}{{ request.path }}">
 <meta property="og:locale" content="{{ og_locale }}">
 <meta property="og:image" content="{{ base_url }}{{ url_for('static', filename='og-card.png') }}">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="{{ base_url }}{% for l in languages if l.current %}{{ l.path }}{% endfor %}">
-{% for l in languages %}<link rel="alternate" hreflang="{{ l.hreflang }}" href="{{ base_url }}{{ l.path }}">
-{% endfor %}<link rel="alternate" hreflang="x-default" href="{{ base_url }}{{ request.path }}">
+<link rel="canonical" href="{{ canonical_base }}{% for l in languages if l.current %}{{ l.path }}{% endfor %}">
+{% for l in languages %}<link rel="alternate" hreflang="{{ l.hreflang }}" href="{{ canonical_base }}{{ l.path }}">
+{% endfor %}<link rel="alternate" hreflang="x-default" href="{{ canonical_base }}{{ request.path }}">
+{% if not is_production %}<meta name="robots" content="noindex">
+{% endif %}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Public+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -25,6 +27,8 @@
 </head>
 <body data-prefix="{{ lang_prefix }}" data-i18n='{{ js_strings|tojson }}'>
 <a class="skip-link" href="#main">{{ _("Skip to content") }}</a>
+{% if not is_production %}<div class="test-site" role="note">{{ _("This is ThinkBallot's test site.") }} {{ _("The public site is:") }} <a href="{{ canonical_base }}{{ lang_prefix }}{{ request.path }}">www.thinkballot.com</a></div>
+{% endif %}
 <header class="site-header"><div class="inner">
   <a class="brand" href="{{ lp('/') }}"><span class="mark">✓</span>ThinkBallot</a>
   <nav class="site-nav" aria-label="{{ _a('Main') }}">

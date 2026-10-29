@@ -264,6 +264,8 @@
   "voter ID": "選民身分證明",
   "libraries": "圖書館",
   "parks": "公園",
-  "Please choose a California ZIP code from the list.": "請從清單中選擇一個加州郵遞區號。"
+  "Please choose a California ZIP code from the list.": "請從清單中選擇一個加州郵遞區號。",
+  "This is ThinkBallot's test site.": "這是 ThinkBallot 的測試網站。",
+  "The public site is:": "正式網站是："
  }
 }

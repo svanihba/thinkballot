@@ -23,7 +23,7 @@ from . import feed
 
 log = logging.getLogger("thinkballot.results")
 
-USER_AGENT = "ThinkBallotBot/0.1 (+https://demo.thinkballot.com/about; nonpartisan voter guide)"
+USER_AGENT = "ThinkBallotBot/0.1 (+https://www.thinkballot.com/about; nonpartisan voter guide)"
 CONNECT_TIMEOUT, READ_TIMEOUT = 3.05, 8
 ATTEMPTS, BACKOFF_SECONDS, DEADLINE_SECONDS = 3, 1.0, 20
 
