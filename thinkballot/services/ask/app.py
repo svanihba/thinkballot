@@ -243,7 +243,7 @@ def live_answer(measure, question, bias):
 
 
 def create_app():
-    app = make_service("ask", internal=True)
+    app = make_service("ask")
     ballot = ServiceClient("ballot")
     bias = ServiceClient("bias")
 

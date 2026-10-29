@@ -141,23 +141,23 @@ class ServiceClient:
         return resp.json()
 
 
-def make_service(name, internal=False):
+def make_service(name):
     """A Flask app for one JSON service, with errors always returned as JSON.
 
-    internal=True: only other ThinkBallot services may call it (shared token), because it spends AI
-    credits or acts on behalf of signed-in users.
+    Every service is internal: only other ThinkBallot services may call it (shared token). The
+    public site is the web service, which calls the others in-process with the token.
     """
     app = Flask(f"thinkballot.{name}")
+    app.config["MAX_CONTENT_LENGTH"] = 64 * 1024
 
-    if internal:
-        @app.before_request
-        def require_internal_token():
-            if request.path == "/health":
-                return None
-            sent = request.headers.get("X-TB-Internal", "")
-            if not hmac.compare_digest(sent, config.INTERNAL_TOKEN):
-                abort(403, "internal service")
+    @app.before_request
+    def require_internal_token():
+        if request.path == "/health":
             return None
+        sent = request.headers.get("X-TB-Internal", "")
+        if not hmac.compare_digest(sent, config.INTERNAL_TOKEN):
+            abort(403, "internal service")
+        return None
 
     @app.errorhandler(HTTPException)
     def http_error(exc):

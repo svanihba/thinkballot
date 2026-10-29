@@ -148,12 +148,15 @@ class Stub:
         return r
 
 
+TOKEN = {"X-TB-Internal": config.INTERNAL_TOKEN}
+
+
 def make(tmp_path, fetch, now):
     clock = {"now": now}
     app = results_app.create_app(db_path=tmp_path / "results.sqlite3", fetch=fetch,
                                  catalog=lambda: (ELECTION, TITLES), clock=lambda: clock["now"])
     client = app.test_client()
-    return (lambda: client.get("/results").get_json()), clock
+    return (lambda: client.get("/results", headers=TOKEN).get_json()), clock
 
 
 def test_nothing_is_fetched_or_shown_before_the_polls_close(tmp_path):
@@ -204,7 +207,7 @@ def test_a_copy_for_another_election_is_not_served(tmp_path):
     assert get()["available"]
     app = results_app.create_app(db_path=tmp_path / "results.sqlite3", fetch=Stub(),
                                  catalog=lambda: ("2028-03-07", TITLES), clock=lambda: NIGHT)
-    assert app.test_client().get("/results").get_json() == {"available": False}
+    assert app.test_client().get("/results", headers=TOKEN).get_json() == {"available": False}
 
 
 def test_certified_status(tmp_path, monkeypatch):
@@ -217,7 +220,7 @@ def test_preview_uses_the_fixture_and_its_own_database(tmp_path, monkeypatch):
     monkeypatch.setattr(config, "RESULTS_FIXTURE", str(FIXTURES / "sos_ballot_measures_preview.json"))
     app = results_app.create_app(db_path=tmp_path / "results.sqlite3", catalog=lambda: (ELECTION, TITLES),
                                  clock=lambda: dt.datetime(2026, 10, 27, tzinfo=UTC))
-    r = app.test_client().get("/results").get_json()
+    r = app.test_client().get("/results", headers=TOKEN).get_json()
     assert r["available"] and r["preview"] and len(r["measures"]) == 14
     assert (tmp_path / "results-preview.sqlite3").exists() and not (tmp_path / "results.sqlite3").exists()
 
@@ -308,7 +311,7 @@ def test_pages_without_results_have_no_results_block(server):
     for path in ["/ballot", "/prop/prop-a"]:
         html = requests.get(server + path).text
         assert 'class="results' not in html
-    assert requests.get(server + "/svc/results/results").json() == {"available": False}
+    assert requests.get(server + "/svc/results/results", headers={"X-TB-Internal": config.INTERNAL_TOKEN}).json() == {"available": False}
 
 
 def test_only_one_worker_claims_each_fetch(tmp_path):
