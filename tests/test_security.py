@@ -53,3 +53,22 @@ def test_json_posts_must_be_same_origin(server):
     r = requests.post(server + "/api/ask", json=ASK, headers={"Sec-Fetch-Site": "same-origin"})
     assert r.status_code == 200
     assert requests.post(server + "/api/ask", json=ASK).status_code == 200  # no header: not a browser
+
+
+def _count_ballot_calls(monkeypatch):
+    calls = []
+    real = ServiceClient.get
+    monkeypatch.setattr(ServiceClient, "get", lambda self, path, **kw: calls.append(path) or real(self, path, **kw))
+    return calls
+
+
+def test_search_and_sitemap_read_the_ballot_data_once(server, monkeypatch):
+    token = {"X-TB-Internal": config.INTERNAL_TOKEN}
+    requests.get(server + "/svc/search/search", params={"q": "bonds"}, headers=token)  # loads the corpus
+    monkeypatch.setattr(config, "IS_PRODUCTION", True)
+    first = requests.get(server + "/sitemap.xml").text
+    calls = _count_ballot_calls(monkeypatch)
+    for _ in range(3):
+        assert requests.get(server + "/svc/search/search", params={"q": "parks"}, headers=token).status_code == 200
+        assert requests.get(server + "/sitemap.xml").text == first
+    assert calls == []

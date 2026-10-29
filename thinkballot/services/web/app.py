@@ -292,11 +292,15 @@ def create_app():
             body = "User-agent: *\nDisallow: /\n"
         return app.response_class(body, mimetype="text/plain")
 
+    sitemap_body = []
+
     @app.get("/sitemap.xml")
     def sitemap():
         """Every public page in every language, with its translations listed (production only)."""
         if not config.IS_PRODUCTION:
             abort(404)
+        if sitemap_body:  # built once per process: the measures only change with a release
+            return app.response_class(sitemap_body[0], mimetype="application/xml")
         try:
             ids = [m["id"] for m in ballot.get("/measures")["measures"]]
         except ServiceError:
@@ -305,6 +309,7 @@ def create_app():
         xml = render_template("sitemap.xml", paths=paths, base=config.CANONICAL_BASE,
                               langs=[(code, info["hreflang"]) for code, info in i18n.LANGS.items()],
                               lang_path=i18n.lang_path)
+        sitemap_body.append(xml)
         return app.response_class(xml, mimetype="application/xml")
 
     @app.get("/api/zips")
