@@ -41,7 +41,7 @@ def warm(ballot, bias, pause=10, max_errors=5, level=None):
                 if prepared_answer(measure, question, bias):
                     log.info("warm measure=%s q=%d status=cached", row["id"], i)
                     continue
-                status = live_answer(measure, question, bias)["status"]
+                status = live_answer(measure, question, bias, store_refusals=True)["status"]
             except HTTPException as exc:
                 status = f"error-{exc.code}"
             log.info("warm measure=%s q=%d status=%s %.1f s", row["id"], i, status, time.monotonic() - started)

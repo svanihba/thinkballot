@@ -63,11 +63,36 @@ def test_blocked_answer_is_not_stored(server, monkeypatch):
     assert rows() == []
 
 
-def test_refusal_is_prepared_too(server, monkeypatch):
+def test_a_visitors_refusal_is_never_stored(server, monkeypatch):
     monkeypatch.setattr(ask_app, "_stub_answer", lambda user: {"refused": True, "reason": "x"})
+    assert ask(server, QUESTION)["status"] == "refused"
+    assert rows() == []
     assert "prepared" not in ask(server, QUESTION)
+
+
+def _warm(monkeypatch, replies):
+    """live_answer as the warm script calls it, with the model replying from the list in turn."""
+    from thinkballot.servicekit import ServiceClient
+    calls = iter(replies)
+    monkeypatch.setattr(ask_app, "_stub_answer", lambda user: next(calls))
+    measure = ask_app.load_measure(ServiceClient("ballot"), "prop-a")
+    return ask_app.live_answer(measure, QUESTION, ServiceClient("bias"), store_refusals=True)
+
+
+def test_warm_stores_a_refusal_only_after_two_refusals(server, monkeypatch):
+    refusal = {"refused": True, "reason": "x"}
+    assert _warm(monkeypatch, [refusal, refusal])["status"] == "refused"
+    assert len(rows()) == 1
     again = ask(server, QUESTION)
     assert again["status"] == "refused" and again["prepared"] and again["reason"] == ask_app.NOT_COVERED_REPLY
+
+
+def test_warm_does_not_store_a_refusal_the_model_then_answers(server, monkeypatch):
+    refusal = {"refused": True, "reason": "x"}
+    answer = {"refused": False, "points": [{"claim": "The official text says it.", "quote": "official"}]}
+    result = _warm(monkeypatch, [refusal, answer])
+    assert result["status"] != "refused"
+    assert all(json.loads(r[1])["status"] != "refused" for r in rows())
 
 
 def test_changed_official_text_is_not_served_from_cache(server):
