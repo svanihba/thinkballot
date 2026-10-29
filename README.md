@@ -119,19 +119,11 @@ To turn it on for the live site (operator only; the site keeps sign-up closed un
    includes the provider), the DKIM record(s) (usually TXT or CNAME under `<selector>._domainkey`), and
    ideally a DMARC record (`_dmarc` TXT, starting with `p=none`). Wait until the provider shows the domain
    as verified. Undo: remove those records.
-2. Add the settings to the service's environment file yourself (never paste them into chat):
-
-   ```
-   ssh -t the deploy account@the server 'sudoedit /path/to/service.env'
-   # add: TB_MAIL_BACKEND=smtp, TB_SMTP_HOST=..., TB_SMTP_PORT=587, TB_SMTP_USER=...,
-   #      TB_SMTP_PASSWORD=..., TB_MAIL_FROM=ThinkBallot <noreply@...>
-   ssh the deploy account@the server 'sudo -n /usr/bin/systemctl restart thinkballot-web.service'
-   ```
-
-   Expected: `curl -fsS https://demo.thinkballot.com/api/health` prints `{"status":"ok"}`; signing up with
-   your own address brings the email within a minute, and `the service log` shows a
-   `mail backend=smtp to=x***@... sent` line. Undo: set `TB_MAIL_BACKEND=none` (or remove the lines) and
-   restart; sign-up closes again and existing accounts keep working.
+2. Add the settings above to the service's environment file yourself (never paste them into chat or a
+   commit), then restart the service. Expected: signing up with your own address brings the email within a
+   minute, and the service log shows a `mail backend=smtp to=x***@... sent` line. Undo: set
+   `TB_MAIL_BACKEND=none` (or remove the lines) and restart; sign-up closes again and existing accounts keep
+   working.
 
 ### Prepared answers to the suggested questions
 
@@ -148,20 +140,12 @@ in-process (no HTTP, no rate limits), skipping those already prepared, so it can
 Blocked answers and errors are not kept. It stops after 5 errors in a row (e.g. the model's daily limit);
 run it again later. Locally: `.venv/bin/python scripts/warm_ask_cache.py`.
 
-On the server, after a deploy that changes official text or models, run it as the service account, with the
-release's venv and the service's env file (the same `/path/to/service.env` that systemd loads, so it reads
-the same API key, never printed). From your laptop:
-
-```
-ssh the deploy account@the server 'cd / && sudo -n -u thinkballot bash -c "cd /opt/thinkballot/current && nohup .venv/bin/python scripts/warm_ask_cache.py --env-file /path/to/service.env >> /var/lib/thinkballot/warm_ask_cache.log 2>&1 &"'
-ssh the deploy account@the server 'sudo -n -u thinkballot tail -n 5 /var/lib/thinkballot/warm_ask_cache.log'
-```
-
+On a server, after a release that changes official text or models, run it as the service's own account,
+with the release's virtual environment and the service's environment file (so it reads the same API key,
+never printed): `.venv/bin/python scripts/warm_ask_cache.py --env-file <the service's env file>`.
 Expected: one line per question, `warm measure=<id> q=<n> status=answered|refused|blocked|cached <s> s`,
-ending with `warm done: 0 question(s) still without a prepared answer` (about 1 to 2 hours for every
-measure; a non-zero count means run it again). Stop it:
-`ssh the deploy account@the server 'sudo -n -u thinkballot pkill -f warm_ask_cache.py'`. Undo (the site then answers
-every question live): `ssh the deploy account@the server 'sudo -n -u thinkballot rm -f /var/lib/thinkballot/ask_cache.sqlite3 /var/lib/thinkballot/ask_cache.sqlite3-wal /var/lib/thinkballot/ask_cache.sqlite3-shm'`.
+ending with `warm done: 0 question(s) still without a prepared answer` (a non-zero count means run it
+again). Deleting `ask_cache.sqlite3` undoes it: the site then answers every question live.
 
 ## Data sources
 

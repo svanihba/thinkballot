@@ -34,4 +34,4 @@ def create_app():
         "/svc/results": results_app(),
     })
     register_inproc_app(services)  # for TB_INTERNAL_URL=inproc
-    return ProxyFix(services, x_for=1, x_proto=1, x_host=1)  # trust one proxy: Caddy
+    return ProxyFix(services, x_for=1, x_proto=1, x_host=1)  # trust one reverse proxy in front
