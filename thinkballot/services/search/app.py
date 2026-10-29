@@ -50,9 +50,13 @@ def create_app():
     app = make_service("search")
     ballot = ServiceClient("ballot")
 
+    corpus = []  # the ballot data does not change while the process runs (a release restarts it)
+
     def all_measures():
-        listing = ballot.get("/measures")["measures"]
-        return [ballot.get(f"/measures/{m['id']}") for m in listing]
+        if not corpus:
+            listing = ballot.get("/measures")["measures"]
+            corpus.extend(ballot.get(f"/measures/{m['id']}") for m in listing)
+        return corpus
 
     @app.get("/search")
     def search():
@@ -61,6 +65,7 @@ def create_app():
         try:
             measures = all_measures()
         except ServiceError:
+            corpus.clear()  # never keep a half-loaded corpus
             abort(503, "Ballot data is unavailable.")
         topics = sorted({t for m in measures for t in m["topics"]})
         terms = _words(q)
