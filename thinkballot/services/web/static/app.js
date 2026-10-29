@@ -24,7 +24,7 @@ function t(key, vars) {
 function esc(s) {
   const d = document.createElement("div");
   d.textContent = s == null ? "" : String(s);
-  return d.innerHTML;
+  return d.innerHTML.replace(/"/g, "&quot;").replace(/'/g, "&#39;");  // also safe inside attributes
 }
 
 /* ---------- stars ---------- */
@@ -125,18 +125,25 @@ function preparedNote(r) {
   return `<p class="prepared-note">${note}</p>`;
 }
 
-function renderAnswer(r) {
+// suggested: the answer is to a suggested question (on other pages it may come translated).
+function renderAnswer(r, suggested) {
   if (r.status === "answered") {
+    // A translated answer: claims in the page's language; each quote is official text, in the page's
+    // language where the official translation has it, otherwise the English original (marked so).
+    const translated = !!(PREFIX && r.translated);
     const points = r.points.map((p) => `
       <li><p>${esc(p.claim)}</p>
-        <blockquote>“${esc(p.quote)}” <a class="src" href="${esc(p.source_url)}" target="_blank" rel="noopener">${esc(p.source_label)}</a></blockquote>
+        <blockquote${translated && p.quote_lang === "en" ? ' lang="en"' : ""}>“${esc(p.quote)}” <a class="src" href="${esc(p.source_url)}" target="_blank" rel="noopener">${esc(p.source_label)}</a></blockquote>
       </li>`).join("");
     const findings = r.findings.length
       ? `<ul class="findings">${r.findings.map((f) => `<li>${esc(f.detail)}</li>`).join("")}</ul>` : "";
-    // Answers are written in English from the English official text: mark them so on other pages.
-    return `<div class="answer"><ul class="points"${PREFIX ? ' lang="en"' : ""}>${points}</ul>
+    let langNote = "";
+    if (translated) langNote = `<p class="prepared-note">${esc(t("translated"))}</p>`;
+    else if (PREFIX && suggested) langNote = `<p class="prepared-note">${esc(t("in_english"))}</p>`;
+    // Other answers are written in English from the English official text: mark them so on other pages.
+    return `<div class="answer"><ul class="points"${PREFIX && !translated ? ' lang="en"' : ""}>${points}</ul>
       <div class="verdict ${esc(r.verdict)}">${esc(VERDICT_TEXT[r.verdict] || t("bias"))}
-        ${r.findings.length ? `· ${esc(r.findings.length > 1 ? t("changes", { n: r.findings.length }) : t("change"))}` : ""}</div>${findings}${preparedNote(r)}</div>`;
+        ${r.findings.length ? `· ${esc(r.findings.length > 1 ? t("changes", { n: r.findings.length }) : t("change"))}` : ""}</div>${findings}${langNote}${preparedNote(r)}</div>`;
   }
   if (r.status === "blocked") {
     return `<div class="answer held"><p>${esc(r.reason)}</p><div class="verdict blocked">${esc(t("held"))}</div></div>`;
@@ -181,10 +188,14 @@ function initAsk() {
   const out = document.querySelector(".ask-result");
   const measureId = form.dataset.measure;
   const suggestions = document.querySelectorAll(".suggest");
+  let suggested = null;  // number of the suggested question being asked; null for a typed question
+  form.question.addEventListener("input", () => { suggested = null; });
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
     const question = form.question.value.trim();
     if (!question) return;
+    const which = suggested;
+    suggested = null;
     const button = form.querySelector("button");
     button.disabled = true;
     suggestions.forEach((b) => { b.disabled = true; });
@@ -198,10 +209,11 @@ function initAsk() {
       const resp = await fetch(PREFIX + "/api/ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ measure_id: measureId, question }),
+        body: JSON.stringify(which === null ? { measure_id: measureId, question }
+          : { measure_id: measureId, question, suggested: which }),
         signal: ctrl.signal,
       });
-      out.innerHTML = renderAnswer(await resp.json());
+      out.innerHTML = renderAnswer(await resp.json(), which !== null);
     } catch (err) {
       out.innerHTML = renderAnswer({ status: "error", reason: err.name === "AbortError"
         ? t("too_long") : t("offline") });
@@ -215,8 +227,10 @@ function initAsk() {
     }
   });
   // Suggested questions: fill the box and ask straight away.
+  // The server finds the prepared answer by the question's number; the box shows the English question.
   document.querySelectorAll(".suggest").forEach((b) => b.addEventListener("click", () => {
     form.question.value = b.dataset.question || b.textContent;  // suggested questions are asked in English
+    suggested = Number(b.dataset.index);
     form.requestSubmit();
   }));
 }

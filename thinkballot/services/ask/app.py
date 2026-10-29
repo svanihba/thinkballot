@@ -4,8 +4,11 @@ Flow: fetch the measure from the ballot service -> answer model drafts points, e
 the bias service checks every point -> verdict and final answer go back to the caller.
 Question text is never logged. Answers to the fixed suggested questions are prepared in advance
 (cache.py) and re-checked by Bias Buster each time they are used; typed questions are never stored.
+On Spanish and Chinese pages, a suggested question gets the checked translation of its prepared answer
+(translate.py) when there is one.
 """
 
+import logging
 import re
 import time
 
@@ -13,7 +16,10 @@ from flask import abort, jsonify, request
 
 from ... import ai, config, ratelimit
 from ...servicekit import ServiceClient, ServiceError, make_service
-from . import cache
+from ...suggested import SUGGESTED_QUESTIONS
+from . import cache, translate
+
+log = logging.getLogger("thinkballot.ask")
 
 FIELD_LABELS = {
     "measure_type": "Measure type",
@@ -41,6 +47,7 @@ NOT_COVERED_REPLY = ("The official guide doesn't answer that question, so ThinkB
                      "Try asking about what a YES or NO vote does, the cost, or who supports or opposes it.")
 MAX_QUESTION_CHARS = 300
 MEASURE_ID_RE = re.compile(r"^(prop|local)-[a-z0-9-]{1,24}$")
+ANSWER_LANGS = ("es", "zh")  # prepared answers to the suggested questions also come in these
 
 ANSWER_SYSTEM = """You answer a voter's question about one California ballot measure for ThinkBallot,
 a nonpartisan guide. Use ONLY the OFFICIAL SOURCE passages given. Never use outside knowledge.
@@ -98,14 +105,15 @@ def load_measure(ballot, measure_id):
     return measure
 
 
-def prepared_answer(measure, question, bias):
-    """The answer prepared in advance for a suggested question, re-checked word for word against the
-    current official text (no AI). None if there is none or it no longer passes."""
+def _prepared(measure, question, bias):
+    """(cache key, the stored English points, the answer as served) for a suggested question whose
+    prepared answer still passes the word-for-word re-check against the current official text (no AI)."""
     key = _cache_key(measure, question)
     entry = cache.get(key) if key else None
     if not entry:
         return None
     result, bias_version, prepared = entry
+    stored = result.get("points", [])
     if result["status"] == "answered":
         names, sources, _ = source_text(measure)
         try:
@@ -117,7 +125,83 @@ def prepared_answer(measure, question, bias):
                 or len(check["points"]) != len(result["points"])):
             return None
         result = dict(result, points=_with_sources(check["points"], measure, names))
-    return dict(result, prepared=prepared)
+    return key, stored, dict(result, prepared=prepared)
+
+
+def prepared_answer(measure, question, bias):
+    """The answer prepared in advance for a suggested question, re-checked word for word against the
+    current official text (no AI). None if there is none or it no longer passes."""
+    found = _prepared(measure, question, bias)
+    return found[2] if found else None
+
+
+def official_translation(ballot, measure, lang):
+    """{field name: field} of the Secretary of State's official translation into lang (statewide only)."""
+    if measure.get("level") == "local":
+        return {}
+    try:
+        translated = ballot.get(f"/measures/{measure['id']}", lang=lang) or {}
+    except ServiceError:
+        return {}
+    return {n: f for n, f in translated.get("fields", {}).items() if f.get("lang") == lang}
+
+
+def translated_answer(measure, question, lang, bias, ballot):
+    """The prepared answer in lang ("es", "zh"): its checked translation if there is a valid one, else the
+    English answer marked translated=False. A translation counts only if the English answer it was made
+    from is still the one served, unchanged. None if there is no prepared English answer."""
+    found = _prepared(measure, question, bias)
+    if not found:
+        return None
+    key, stored, result = found
+    if result["status"] != "answered":
+        return result  # a fixed reply; the web service shows it in the page's language
+    entry = cache.get_translation(key, lang, translate.RULES)
+    if not entry or entry[1] != cache.points_hash(stored) or len(entry[0]) != len(result["points"]):
+        return dict(result, translated=False)
+    names = source_text(measure)[0]
+    official = official_translation(ballot, measure, lang)
+    points = []
+    for en, tr in zip(result["points"], entry[0]):
+        name = names[en["source_index"]]  # the web service labels the source in the page's language
+        field = official.get(name)
+        if tr["quote_lang"] == lang and field and translate.official_quote_ok(tr["quote"], field["text"]):
+            points.append({"claim": tr["claim"], "quote": tr["quote"], "quote_lang": lang, "source_field": name,
+                           "source_label": field["source_label"], "source_url": field["source_url"]})
+        else:  # the English quote, with the English field and link
+            points.append({"claim": tr["claim"], "quote": en["quote"], "quote_lang": "en", "source_field": name,
+                           "source_label": en["source_label"], "source_url": en["source_url"]})
+    return dict(result, points=points, translated=True, lang=lang)
+
+
+def prepare_translation(measure, question, lang, bias, ballot):
+    """Translate the prepared English answer into lang and store it if both checks pass (warm script).
+
+    Returns a status: "translated", "cached", "refused" (a fixed reply: nothing to translate),
+    "no-english" or "rejected-<check>". Raises ai.AIError if a model can't be reached. Never calls the
+    answer model.
+    """
+    found = _prepared(measure, question, bias)
+    if not found:
+        return "no-english"
+    key, stored, result = found
+    if result["status"] != "answered":
+        return "refused"
+    english_hash = cache.points_hash(stored)
+    entry = cache.get_translation(key, lang, translate.RULES)
+    if entry and entry[1] == english_hash and len(entry[0]) == len(stored):
+        return "cached"
+    names = source_text(measure)[0]
+    official = official_translation(ballot, measure, lang)
+    texts = [official[names[p["source_index"]]]["text"] if names[p["source_index"]] in official else None
+             for p in result["points"]]
+    try:
+        points = translate.translate_points(stored, lang, texts)
+    except translate.Rejected as exc:
+        log.info("translate measure=%s lang=%s rejected=%s %s", measure["id"], lang, exc.reason, exc.detail)
+        return "rejected-" + exc.reason
+    cache.put_translation(key, measure["id"], lang, translate.RULES, english_hash, points)
+    return "translated"
 
 
 def live_answer(measure, question, bias):
@@ -167,6 +251,15 @@ def create_app():
         measure_id, question = body.get("measure_id"), body.get("question")
         if not isinstance(measure_id, str) or not MEASURE_ID_RE.match(measure_id):
             abort(400, "unknown measure")
+        # A suggested-question button also sends its number: the English question is the cache key,
+        # whatever language the button shows.
+        # Anything else (a bool, a number out of range, a string) is treated as a typed question.
+        suggested = body.get("suggested")
+        suggested = type(suggested) is int and 0 <= suggested < len(SUGGESTED_QUESTIONS)
+        if suggested:
+            question = SUGGESTED_QUESTIONS[body["suggested"]]
+        lang = body.get("lang") if suggested and isinstance(body.get("lang"), str) and body["lang"] in ANSWER_LANGS \
+            else None
         if not isinstance(question, str) or not question.strip():
             abort(400, "question is required")
         question = question.strip()[:MAX_QUESTION_CHARS]
@@ -178,7 +271,10 @@ def create_app():
             return jsonify(status="refused", reason=HOW_TO_VOTE_REPLY, points=[], findings=[])
         measure = load_measure(ballot, measure_id)
         # A prepared answer makes no AI call, so it counts only against the per-client limit above.
-        result = prepared_answer(measure, question, bias)
+        if lang:  # a suggested-question button on a Spanish or Chinese page
+            result = translated_answer(measure, question, lang, bias, ballot)
+        else:
+            result = prepared_answer(measure, question, bias)
         if result:
             return jsonify(result)
         if not ratelimit.allow("ask", None, config.ASK_LIMITS_SITEWIDE):  # protects the AI quota

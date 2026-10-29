@@ -95,7 +95,7 @@
   <section class="ask" id="ask">
     <h2>{{ _("Ask about {label}", label=label) }}</h2>
     <p class="hint">{{ _('Answers come only from the official text above, with quotes, and are checked by <a href="{url}">Bias Buster</a> before you see them.', url=lp('/neutral') ~ '#bias-buster') }}</p>
-    {% if lang != "en" %}<p class="hint lang-note">{{ _("For now, answers are in English and quote the English official text.") }}</p>{% endif %}
+    {% if lang != "en" %}<p class="hint lang-note">{{ _("Answers to the suggested questions are shown translated once a checked translation is ready. Other answers are in English and quote the English official text.") }}</p>{% endif %}
     {% with measure_id = m.id %}{% include "_ask_widget.html" %}{% endwith %}
   </section>
 

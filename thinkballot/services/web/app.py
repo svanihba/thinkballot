@@ -47,6 +47,8 @@ JS_STRINGS = {
     "prepared_checked": "Prepared in advance from the official text on {day} and re-checked by Bias Buster just now.",
     "working": "Reading the official text, writing an answer, then Bias Buster checks it. This usually takes 30 to "
                "60 seconds.",
+    "translated": "Translated by ThinkBallot from the English answer and checked. Quotes are official text.",
+    "in_english": "This answer is in English.",
     "working_label": "Processing your question", "processing": "Processing…", "seconds": "s",
     "too_long": "That took too long. Please try again.",
     "offline": "Couldn't reach ThinkBallot. Check your connection.",
@@ -316,8 +318,13 @@ def create_app():
         body = request.get_json(silent=True) or {}
         if not isinstance(body.get("measure_id"), str) or not MEASURE_ID_RE.match(body["measure_id"]):
             return jsonify(status="error", reason=T("Unknown proposition.")), 400
+        # The page's language comes from the address (/es/api/ask); a suggested-question button sends
+        # its number, so the prepared answer is found whatever language the button shows.
+        suggested = body.get("suggested") if type(body.get("suggested")) is int else None
         payload = {"measure_id": body.get("measure_id"), "question": body.get("question"),
                    "client": request.remote_addr}
+        if suggested is not None:
+            payload.update(suggested=suggested, lang=api_lang())
         try:
             result = ask_svc.post("/ask", payload)
         except ServiceError as exc:
@@ -326,6 +333,12 @@ def create_app():
             return jsonify(status="error",
                            reason=messages.get(exc.status, T("The question service is busy. Please try again."))), \
                 exc.status if exc.status in messages else 503
+        if suggested is not None and result.get("status") == "refused":
+            result["reason"] = T(result["reason"])  # a fixed reply: its catalog translation (no AI)
+        if result.get("translated"):  # an English quote's source, named in the page's language
+            for p in result.get("points", []):
+                if p.get("quote_lang") == "en" and p.get("source_field") in FIELD_HEADINGS:
+                    p["source_label"] = _d(FIELD_HEADINGS[p["source_field"]]).unescape()
         return jsonify(result)
 
     @app.get("/search")

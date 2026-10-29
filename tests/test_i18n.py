@@ -142,12 +142,14 @@ def _template_strings():
 
 
 def _all_strings():
+    from thinkballot.services.ask.app import HOW_TO_VOTE_REPLY, NOT_COVERED_REPLY
     from thinkballot.services.web.app import FIELD_HEADINGS, JS_STRINGS
     from thinkballot.suggested import SUGGESTED_QUESTIONS
     from pipeline.extract.ca_sos_guide import TOPICS
     dummy = json.loads((ROOT / "data" / "dummy" / "measures.json").read_text())
     return (_template_strings() | set(JS_STRINGS.values()) | set(FIELD_HEADINGS.values())
             | set(SUGGESTED_QUESTIONS) | {t for ts in TOPICS.values() for t in ts}
+            | {HOW_TO_VOTE_REPLY, NOT_COVERED_REPLY}  # fixed Ask replies, shown translated
             | {t for m in dummy["measures"] for t in m.get("topics", [])}
             | {dummy["election"]["name"], "California Secretary of State"})
 
@@ -257,7 +259,7 @@ def test_ballot_list_uses_translated_titles(with_translations):
 
 def test_ask_box_says_answers_are_in_english(with_translations):
     html = requests.get(with_translations + "/es/prop/prop-a").text
-    assert "las respuestas están en inglés" in html
+    assert "Las demás respuestas están en inglés" in html
     # suggested questions are sent in English (their answers are prepared in advance)
     assert 'data-question="What does it cost the state?"' in html and "¿Cuánto le cuesta al estado?" in html
 

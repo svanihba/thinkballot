@@ -39,7 +39,7 @@
   "Ask · answered only from the official text": "提問 · 只根據官方文字回答",
   "Ask about your ballot": "詢問你的選票內容",
   "Every answer quotes the official voter guide, and every answer is checked by <a href='{url}'>Bias Buster</a>. If the official text doesn't answer it, we say so instead of guessing. <strong>Quote it or skip it.</strong>": "每個回答都會引用官方選民指南，並由 <a href='{url}'>Bias Buster</a> 檢查。如果官方文字沒有答案，我們會直接說明，不會猜測。<strong>能引用才說，否則不說。</strong>",
-  "For now, answers are in English and quote the English official text.": "目前，回答是英文的，並引用英文官方文字。",
+  "Answers to the suggested questions are shown translated once a checked translation is ready. Other answers are in English and quote the English official text.": "建議問題的回答在完成經檢查的翻譯後會以中文顯示。其他回答是英文的，並引用英文官方文字。",
   "Proposition": "提案",
   "Prop {n}": "提案 {n}",
   "Choose": "選擇",
@@ -174,7 +174,7 @@
   "Your ZIP code is never stored": "你的郵遞區號絕不會被儲存",
   "We use only the ZIP code to find your likely districts, then discard it. Questions aren't logged. Stars and reading progress stay in your own browser.": "我們只用郵遞區號找出你可能的選區，之後就丟棄。問題不會被記錄。星號和閱讀進度只保存在你自己的瀏覽器裡。",
   "Official translations only": "只用官方翻譯",
-  "In Spanish and Chinese, official text comes word for word from the Secretary of State's official translation of the voter guide, checked the same way. Where there is no official translation, the English original is shown. ThinkBallot never machine-translates official text; it translates only its own interface.": "在西班牙文和中文版本中，官方文字逐字取自州務卿選民指南的官方翻譯，並用同樣的方式核對。沒有官方翻譯的地方，則顯示英文原文。ThinkBallot 從不使用機器翻譯官方文字，只翻譯自己的介面。",
+  "In Spanish and Chinese, official text comes word for word from the Secretary of State's official translation of the voter guide, checked the same way. Where there is no official translation, the English original is shown. ThinkBallot never machine-translates official text; it translates only its own words: the interface, and its checked answers to the suggested questions.": "在西班牙文和中文版本中，官方文字逐字取自州務卿選民指南的官方翻譯，並用同樣的方式核對。沒有官方翻譯的地方，則顯示英文原文。ThinkBallot 從不使用機器翻譯官方文字，只翻譯自己的文字：介面，以及經過檢查的建議問題回答。",
   "Bias Buster checks every piece of text we write and every AI answer before you see it. Two jobs: <strong>no bias</strong> and <strong>no made-up facts</strong>.": "Bias Buster 會在你看到之前，檢查我們寫的每一段文字和每一個 AI 回答。它有兩項任務：<strong>沒有偏見</strong>，以及<strong>沒有捏造的事實</strong>。",
   "<strong>Quote check.</strong> Every point in an answer must quote the official text, and the quote must be found there word for word. If it isn't, the point is removed.": "<strong>引文檢查。</strong>回答中的每一點都必須引用官方文字，而且引文必須能在其中逐字找到。找不到的話，那一點就會被刪除。",
   "<strong>Number check.</strong> Every number, dollar amount, percentage or date must appear in the official text.": "<strong>數字檢查。</strong>每一個數字、金額、百分比或日期都必須出現在官方文字中。",
@@ -266,6 +266,11 @@
   "parks": "公園",
   "Please choose a California ZIP code from the list.": "請從清單中選擇一個加州郵遞區號。",
   "This is ThinkBallot's test site.": "這是 ThinkBallot 的測試網站。",
-  "The public site is:": "正式網站是："
+  "The public site is:": "正式網站是：",
+  "Answers to the suggested questions are prepared in advance. For the Spanish and Chinese pages, ThinkBallot translates only an English answer that has passed Bias Buster; it never writes a new one. Every number must match the English, and a second AI checks each translated sentence against the English: same meaning, nothing added or left out, no persuasive wording. A translation that fails any check isn't shown; you get the English answer instead. Quotes stay official text: the Secretary of State's official translation where it has the same passage word for word, otherwise the English original.": "建議問題的回答是事先準備的。在西班牙文和中文頁面上，ThinkBallot 只翻譯已通過 Bias Buster 檢查的英文回答，從不另寫新的回答。每個數字都必須與英文相同，並由第二個 AI 逐句將譯文與英文對照：意思相同、沒有增加或遺漏、沒有帶有說服性的用詞。任何一項檢查不通過的翻譯都不會顯示，你會看到英文回答。引文仍是官方文字：州務卿的官方翻譯中有逐字相同的段落時使用該段落，否則使用英文原文。",
+  "Translated by ThinkBallot from the English answer and checked. Quotes are official text.": "由 ThinkBallot 根據英文回答翻譯並經過檢查。引文為官方文字。",
+  "This answer is in English.": "這個回答是英文的。",
+  "ThinkBallot never tells anyone how to vote. Read what a YES vote and a NO vote mean, and both official arguments, then decide for yourself.": "ThinkBallot 從不告訴任何人該怎麼投票。請閱讀投票贊成和投票反對各代表什麼，以及雙方的官方論點，然後自己決定。",
+  "The official guide doesn't answer that question, so ThinkBallot won't guess. Try asking about what a YES or NO vote does, the cost, or who supports or opposes it.": "官方指南沒有回答這個問題，所以 ThinkBallot 不會猜測。可以試著問投票贊成或反對會帶來什麼、費用多少，或是誰支持、誰反對。"
  }
 }
