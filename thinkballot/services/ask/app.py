@@ -50,6 +50,9 @@ Rules:
   supports the claim (copy it character for character; keep it under 40 words).
 - Plain, neutral language a 16-year-old understands. No adjectives the source does not use.
 - If the question is about effects, cover what YES means and what NO means, equally.
+- A measure's own statements of its purpose or expected benefits (for example a ballot question's
+  "to prevent service cuts" or "to improve safety") are claims, not facts: attribute them, e.g. "The
+  ballot question says the measure would ...". Never state a goal or prediction as a fact.
 - Never say or hint how to vote.
 - If the source does not answer the question, refuse.
 
