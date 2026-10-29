@@ -43,6 +43,7 @@ MESSAGES = {
     "quote": "Removed a point whose quote could not be found word for word in the official text.",
     "number": "Removed a point with a number that does not appear in the official text.",
     "loaded_words": "Removed a point that used persuasive wording not found in its quote.",
+    "recommendation": "Removed a point that tells voters how to vote.",
     "balance": "YES and NO are not covered equally.",
     "ai_review": "The neutrality review reworded a point.",
 }
@@ -141,6 +142,24 @@ def check_balance(yes_text, no_text):
     return []
 
 
+# Wording that recommends a vote. The official arguments do say "vote yes", so a claim may use such
+# words only when its own quote does (it is then reporting what the argument says).
+RECOMMENDATION_PATTERNS = [re.compile(p) for p in (
+    r"\b(yes|no) is the (right|best|better|smart|only)\b",
+    r"\bvote (yes|no|for|against)\b",
+    r"\b(you|voters|people|citizens) (should|must|ought to) (vote|support|oppose|approve|reject)\b",
+    r"\bwe (recommend|urge|endorse)\b",
+    r"\b(should|must) (pass|fail)\b",
+)]
+
+
+def check_recommendation(claim, quote):
+    c, q = normalize(claim), normalize(quote)
+    return [{"check": "recommendation", "detail": MESSAGES["recommendation"]}
+            for pattern in RECOMMENDATION_PATTERNS
+            for m in pattern.finditer(c) if not re.search(re.escape(m.group(0)), q)][:1]
+
+
 def check_point(point, sources):
     """All deterministic checks for one claim of an answer.
 
@@ -152,4 +171,4 @@ def check_point(point, sources):
     if problems:
         return problems
     words = [dict(f, detail=MESSAGES["loaded_words"]) for f in check_loaded_words(claim, [quote])]
-    return check_numbers(claim, sources) + words
+    return check_numbers(claim, sources) + words + check_recommendation(claim, quote)

@@ -235,7 +235,8 @@ def test_fixed_refusal_is_shown_from_the_catalog(fresh, monkeypatch):
     with cache._connect() as conn:
         conn.execute("DELETE FROM answer")
     monkeypatch.setattr(ask_app, "_stub_answer", lambda user: {"refused": True, "reason": "x"})
-    ask(fresh)
+    measure = ask_app.load_measure(ServiceClient("ballot"), "prop-a")
+    ask_app.live_answer(measure, QUESTION, ServiceClient("bias"), store_refusals=True)  # as the warm script does
     r = requests.post(fresh + "/zh/api/ask", json={"measure_id": "prop-a", "question": QUESTION, "suggested": 0}).json()
     assert r["status"] == "refused" and r["reason"].startswith("官方指南沒有回答這個問題")
     assert prepare("zh") == "refused" and translations() == []

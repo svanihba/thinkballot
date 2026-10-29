@@ -144,3 +144,14 @@ def test_ai_call_that_trickles_past_its_timeout_is_cut_off(monkeypatch):
         engine.ai.chat_json("m", "s", "u", deadline=time.monotonic() + 0.5)
     release.set()
     assert time.monotonic() - started < 2
+
+
+def test_recommendations_are_removed_unless_the_quote_says_them():
+    for claim in ["Vote yes on this one.", "Voters should approve it.", "No is the best choice.",
+                  "We recommend this measure.", "The measure must pass."]:
+        point = {"claim": claim, "quote": "the state could sell $1.5 billion in bonds"}
+        assert "recommendation" in [f["check"] for f in checks.check_point(point, [SOURCE])], claim
+    source = "Argument in favor: for these reasons, vote yes on this measure to fund parks across the state."
+    point = {"claim": "The argument in favor says to vote yes.", "quote": "for these reasons, vote yes on this measure to fund parks"}
+    assert checks.check_point(point, [source]) == []
+    assert checks.check_point(dict(point, claim="A YES vote means the state sells bonds."), [source]) == []
