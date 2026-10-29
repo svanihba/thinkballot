@@ -60,7 +60,7 @@ def create_app():
                 if not corpus:  # built in full, then published in one step
                     listing = ballot.get("/measures")["measures"]
                     loaded = [ballot.get(f"/measures/{m['id']}") for m in listing]
-                    corpus.extend(m for m in loaded if m)  # a measure that vanished (404) is skipped
+                    corpus.extend([m for m in loaded if m])  # a measure that vanished (404) is skipped
         return corpus
 
     @app.get("/search")

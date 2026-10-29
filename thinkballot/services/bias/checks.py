@@ -148,7 +148,7 @@ RECOMMENDATION_PATTERNS = [re.compile(p) for p in (
     r"\b(yes|no) is the (right|best|better|smart|only)\b",
     r"\bvote (yes|no)\b",
     r"\b(you|voters|people|citizens) (should|must|ought to) (vote|support|oppose|approve|reject)\b",
-    r"\bwe (recommend|urge|endorse) (that )?(you |voters |everyone )?(to )?(a )?(vote|voting|yes|no|passing|the measure|prop)",
+    r"\bwe (recommend|urge|endorse) (that )?(you |voters |everyone )?(to )?(a )?(vote|voting|support|oppose|approve|reject|yes|no|passing|the measure|prop)",
 )]
 
 
