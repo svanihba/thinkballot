@@ -5,6 +5,7 @@ It reads measures only through the ballot service's API, so the search method ca
 """
 
 import re
+import threading
 
 from flask import abort, jsonify, request
 
@@ -51,11 +52,15 @@ def create_app():
     ballot = ServiceClient("ballot")
 
     corpus = []  # the ballot data does not change while the process runs (a release restarts it)
+    lock = threading.Lock()
 
     def all_measures():
         if not corpus:
-            listing = ballot.get("/measures")["measures"]
-            corpus.extend(ballot.get(f"/measures/{m['id']}") for m in listing)
+            with lock:
+                if not corpus:  # built in full, then published in one step
+                    listing = ballot.get("/measures")["measures"]
+                    loaded = [ballot.get(f"/measures/{m['id']}") for m in listing]
+                    corpus.extend(m for m in loaded if m)  # a measure that vanished (404) is skipped
         return corpus
 
     @app.get("/search")
@@ -65,7 +70,6 @@ def create_app():
         try:
             measures = all_measures()
         except ServiceError:
-            corpus.clear()  # never keep a half-loaded corpus
             abort(503, "Ballot data is unavailable.")
         topics = sorted({t for m in measures for t in m["topics"]})
         terms = _words(q)

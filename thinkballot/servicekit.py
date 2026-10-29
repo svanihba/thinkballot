@@ -141,14 +141,14 @@ class ServiceClient:
         return resp.json()
 
 
-def make_service(name):
+def make_service(name, max_body=64 * 1024):
     """A Flask app for one JSON service, with errors always returned as JSON.
 
     Every service is internal: only other ThinkBallot services may call it (shared token). The
     public site is the web service, which calls the others in-process with the token.
     """
     app = Flask(f"thinkballot.{name}")
-    app.config["MAX_CONTENT_LENGTH"] = 64 * 1024
+    app.config["MAX_CONTENT_LENGTH"] = max_body  # checked after the token, so only our own services send big ones
 
     @app.before_request
     def require_internal_token():
