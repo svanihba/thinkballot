@@ -1,5 +1,8 @@
 """One place for all AI calls (OpenRouter), with timeouts, retries and a log line per request.
 
+Each attempt is also an `ai` analytics event (purpose, model, provider, latency, tokens, cost; never the
+prompt or the reply), named with the visitor's page load when a tracked visitor caused it.
+
 With TB_AI_PROVIDER=stub, no network call is made; a fixed stand-in replies instead, so the services and
 tests can run offline. The stub is never used in production.
 """
@@ -12,7 +15,7 @@ from concurrent.futures import ThreadPoolExecutor, TimeoutError as FutureTimeout
 
 import requests
 
-from . import config
+from . import config, eventlog
 
 log = logging.getLogger("thinkballot.ai")
 
@@ -28,11 +31,26 @@ class AIError(Exception):
     """The model could not be reached or did not return usable JSON."""
 
 
-def chat_json(model, system, user, stub=None, deadline=None):
+def _record(purpose, meta, model, attempt, status, ms, body=None):
+    usage = (body or {}).get("usage") or {}
+    props = {"purpose": purpose, "model": model, "provider": (body or {}).get("provider"), "attempt": attempt,
+             "status": status, "ms": int(ms), "in_tok": usage.get("prompt_tokens"),
+             "out_tok": usage.get("completion_tokens"),
+             "cached_tok": (usage.get("prompt_tokens_details") or {}).get("cached_tokens"), "cost": usage.get("cost")}
+    props.update({k: (meta or {}).get(k) for k in ("measure", "lang")})
+    try:
+        eventlog.log_event({"type": "ai", "rid": eventlog.current_rid.get(), "props": props})
+    except Exception:  # noqa: BLE001 - analytics never breaks an answer
+        pass
+
+
+def chat_json(model, system, user, stub=None, deadline=None, purpose=None, meta=None):
     """Send one chat request and return the reply parsed as a JSON object.
 
     `stub` is a function(user) -> dict used when the provider is "stub".
     `deadline` (time.monotonic() value): no attempt starts or runs past it.
+    `purpose` ("answer", "review", "translate", "translate_check") and `meta` ({"measure", "lang"}) label the
+    analytics event.
     """
     if config.AI_PROVIDER == "stub":
         if stub is None:
@@ -49,6 +67,7 @@ def chat_json(model, system, user, stub=None, deadline=None):
         "response_format": {"type": "json_object"},
         # OpenRouter's default routing favours the cheapest provider, which can take minutes; a voter waits.
         "provider": {"sort": config.AI_PROVIDER_SORT},
+        "usage": {"include": True},  # token counts and cost in the reply, for the analytics event
     }
     headers = {"Authorization": "Bearer " + config.OPENROUTER_API_KEY, "X-Title": "ThinkBallot"}
     last_error = "no attempt"
@@ -65,14 +84,22 @@ def chat_json(model, system, user, stub=None, deadline=None):
             resp = _post(payload, headers, timeout)
             ms = (time.monotonic() - started) * 1000
             log.info("ai model=%s attempt=%d status=%s %.0f ms", model, attempt + 1, resp.status_code, ms)
+            body = None
             if resp.status_code == 200:
-                content = resp.json()["choices"][0]["message"]["content"]
+                try:
+                    body = resp.json()
+                finally:
+                    _record(purpose, meta, model, attempt + 1, 200, ms, body if isinstance(body, dict) else None)
+                content = body["choices"][0]["message"]["content"]
                 return parse_json_object(content)
+            _record(purpose, meta, model, attempt + 1, resp.status_code, ms)
             last_error = f"HTTP {resp.status_code}"
             if resp.status_code not in (408, 429, 500, 502, 503, 504):
                 break  # not worth retrying
         except (requests.RequestException, FutureTimeout, KeyError, IndexError, ValueError) as exc:
             log.info("ai model=%s attempt=%d error=%s", model, attempt + 1, type(exc).__name__)
+            if not isinstance(exc, (KeyError, IndexError, ValueError)):  # those were recorded with the 200 above
+                _record(purpose, meta, model, attempt + 1, type(exc).__name__, (time.monotonic() - started) * 1000)
             last_error = type(exc).__name__
         pause = min(2 ** attempt, 8)
         if deadline is not None:

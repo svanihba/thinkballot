@@ -76,6 +76,12 @@ ASK_LIMITS_SITEWIDE = [(40, 60), (int(_env("TB_ASK_DAILY_CAP", "800")), 86400)]
 # Election results from the Secretary of State's official feed (thinkballot/services/results).
 # The last good copy lives next to the other writable state.
 RESULTS_DB_PATH = Path(_env("TB_RESULTS_DB_PATH", str(RATE_DB_PATH.parent / "results.sqlite3")))
+
+# Visitor analytics: append-only event files (thinkballot/eventlog.py). "1" logs on the production copy only,
+# "0" turns it off, "force" logs anywhere (local checks).
+ANALYTICS = _env("TB_ANALYTICS", "1")
+EVENT_LOG_DIR = Path(_env("TB_EVENT_LOG_DIR", str(RATE_DB_PATH.parent / "events")))
+SESSION_DAYS = 60  # the site cookie, and the visitor number inside it, last at most this long
 RESULTS_MAX_AGE_SECONDS = 300  # fetch the feed at most once every five minutes
 # Set to 1 only after the Secretary of State certifies the results; until then they say "Unofficial".
 RESULTS_CERTIFIED = _env("TB_RESULTS_CERTIFIED", "") == "1"

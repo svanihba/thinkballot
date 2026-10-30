@@ -53,7 +53,7 @@ def ai_review(points, sources, deadline=None):
     points = [{"claim": p["claim"], "quote": p["quote"]} for p in points]
     user = ("OFFICIAL SOURCE:\n" + "\n---\n".join(sources)
             + "\n\nANSWER:\n" + json.dumps({"points": points}, ensure_ascii=False))
-    reply = ai.chat_json(config.REVIEW_MODEL, REVIEW_SYSTEM, user, stub=_stub_review, deadline=deadline)
+    reply = ai.chat_json(config.REVIEW_MODEL, REVIEW_SYSTEM, user, stub=_stub_review, deadline=deadline, purpose="review")
     new_points = [p for p in reply.get("points", []) if isinstance(p, dict) and p.get("claim")]
     # The reviewer's own words are logged, never shown: voters see only fixed messages.
     for f in reply.get("findings", []):

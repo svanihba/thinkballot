@@ -11,7 +11,7 @@ from flask import Flask, abort, flash, g, jsonify, redirect, render_template, re
 from ... import config, ratelimit
 from ...servicekit import ServiceClient, ServiceError
 from ...suggested import SUGGESTED_QUESTIONS
-from . import i18n
+from . import analytics, i18n
 
 SAMPLE_ZIP = "94087"
 MEASURE_ID_RE = re.compile(r"^(prop|local)-[a-z0-9-]{1,24}$")
@@ -78,6 +78,7 @@ def create_app():
         if not config.IS_PRODUCTION:  # test copies stay out of search results
             resp.headers.setdefault("X-Robots-Tag", "noindex")
         return resp
+    analytics.init_analytics(app)
     ballot = ServiceClient("ballot")
     geo = ServiceClient("geo")
     ask_svc = ServiceClient("ask")
@@ -240,6 +241,7 @@ def create_app():
                     place = geo.post("/lookup", {"address": zip_code})
                 except ServiceError:
                     place = {"found": False, "zip": None, "error": True}
+                analytics.note_zip(place.get("zip"), place.get("found"))
         local = None
         if place and place.get("found"):
             try:
@@ -326,6 +328,7 @@ def create_app():
     @app.post("/api/ask")
     def api_ask():
         body = request.get_json(silent=True) or {}
+        analytics.adopt_token(body.get("t"))
         if not isinstance(body.get("measure_id"), str) or not MEASURE_ID_RE.match(body["measure_id"]):
             return jsonify(status="error", reason=T("Unknown proposition.")), 400
         # The page's language comes from the address (/es/api/ask); a suggested-question button sends
@@ -472,7 +475,9 @@ def create_app():
 
     @app.post("/signout")
     def signout():
+        visitor = {k: session[k] for k in ("aid", "aid_t") if k in session}  # analytics was never tied to the account
         session.clear()
+        session.update(visitor)
         return redirect("/")
 
     # ---------- community ----------

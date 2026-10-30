@@ -255,7 +255,8 @@ def translate_points(points, lang, official, deadline=None):
         for p, o in zip(points, official)]}
     system = TRANSLATE_SYSTEM.format(language=LANG_NAMES[lang], numbers=NUMBER_RULES[lang])
     reply = ai.chat_json(config.TRANSLATE_MODEL, system, json.dumps(request, ensure_ascii=False),
-                         stub=_stub_translate, deadline=deadline)
+                         stub=_stub_translate, deadline=deadline, purpose="translate",
+                         meta={"lang": lang})
     drafts = reply.get("points")
     if not isinstance(drafts, list) or len(drafts) != len(points) \
             or not all(isinstance(d, dict) and isinstance(d.get("claim"), str) and d["claim"].strip() for d in drafts):
@@ -278,7 +279,8 @@ def translate_points(points, lang, official, deadline=None):
              **({"english_quote": p["quote"], "official_quote": q} if q else {}))
         for p, c, q in zip(points, claims, quotes)]}
     review = ai.chat_json(config.TRANSLATE_CHECK_MODEL, CHECK_SYSTEM.format(language=LANG_NAMES[lang]),
-                          json.dumps(pairs, ensure_ascii=False), stub=_stub_check, deadline=deadline)
+                          json.dumps(pairs, ensure_ascii=False), stub=_stub_check, deadline=deadline, purpose="translate_check",
+                          meta={"lang": lang})
     verdicts = review.get("points")
     if not isinstance(verdicts, list) or len(verdicts) != len(points):
         got = f"{len(verdicts)} verdicts" if isinstance(verdicts, list) else f"keys {sorted(review)[:5]}"

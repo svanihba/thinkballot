@@ -25,7 +25,7 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
 <script src="{{ url_for('static', filename='app.js') }}" defer></script>
 </head>
-<body data-prefix="{{ lang_prefix }}" data-i18n='{{ js_strings|tojson }}'>
+<body data-prefix="{{ lang_prefix }}" data-i18n='{{ js_strings|tojson }}'{% if analytics_token %} data-et="{{ analytics_token }}"{% endif %}>
 <a class="skip-link" href="#main">{{ _("Skip to content") }}</a>
 {% if not is_production %}<div class="test-site" role="note">{{ _("This is ThinkBallot's test site.") }} {{ _("The public site is:") }} <a href="{{ canonical_base }}{{ lang_prefix }}{{ request.path }}">www.thinkballot.com</a></div>
 {% endif %}

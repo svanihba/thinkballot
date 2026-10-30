@@ -222,10 +222,10 @@ def live_answer(measure, question, bias, store_refusals=False):
     deadline = time.monotonic() + config.ASK_BUDGET_SECONDS
     try:  # the answer may use at most ~60% of the budget, leaving time for the Bias Buster review
         draft = ai.chat_json(config.ANSWER_MODEL, ANSWER_SYSTEM, user, stub=_stub_answer,
-                             deadline=time.monotonic() + 0.6 * config.ASK_BUDGET_SECONDS)
+                             purpose="answer", meta={"measure": measure.get("id")}, deadline=time.monotonic() + 0.6 * config.ASK_BUDGET_SECONDS)
         if draft.get("refused") and store_refusals:  # ask again: a refusal is kept only if repeated
             second = ai.chat_json(config.ANSWER_MODEL, ANSWER_SYSTEM, user, stub=_stub_answer,
-                                  deadline=time.monotonic() + 0.6 * config.ASK_BUDGET_SECONDS)
+                                  purpose="answer", meta={"measure": measure.get("id")}, deadline=time.monotonic() + 0.6 * config.ASK_BUDGET_SECONDS)
             if not second.get("refused"):
                 draft, store_refusals = second, False
     except ai.AIError:
