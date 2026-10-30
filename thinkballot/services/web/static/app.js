@@ -1,5 +1,7 @@
-/* ThinkBallot browser code: stars, reading progress, share links, and the Ask box.
-   Stars and "read" ticks live only in this browser (localStorage); nothing is sent to the server. */
+/* ThinkBallot browser code: stars, reading progress, share links, the Ask box, and visitor analytics.
+   Stars and "read" ticks live only in this browser (localStorage). On www, page and button use is sent to
+   ThinkBallot's own server (see Privacy on the methodology page), unless the browser sends Global Privacy
+   Control or Do Not Track. */
 
 const store = {
   get(key) {
@@ -25,6 +27,49 @@ function esc(s) {
   const d = document.createElement("div");
   d.textContent = s == null ? "" : String(s);
   return d.innerHTML.replace(/"/g, "&quot;").replace(/'/g, "&#39;");  // also safe inside attributes
+}
+
+/* ---------- analytics ----------
+   Events go to our own server with the page's signed token (body data-et), in small batches: every 5 s,
+   at 20 events, and when the page is hidden or closed. Failures are ignored; nothing is retried. */
+const ET = document.body.dataset.et || "";
+const OPTED_OUT = typeof navigator === "undefined"
+  || navigator.globalPrivacyControl === true || navigator.doNotTrack === "1";
+const PAGE = (typeof location === "undefined" ? "" : location.pathname.slice(PREFIX.length)) || "/";
+let queue = [];
+
+function flush(leaving) {
+  if (!queue.length) return;
+  const body = JSON.stringify({ t: ET, p: PAGE, events: queue.splice(0, 20) });
+  try {
+    if (leaving && navigator.sendBeacon) {
+      navigator.sendBeacon(PREFIX + "/api/e", new Blob([body], { type: "application/json" }));
+    } else {
+      fetch(PREFIX + "/api/e", { method: "POST", headers: { "Content-Type": "application/json" }, body,
+        keepalive: true }).catch(() => {});
+    }
+  } catch { /* analytics never gets in the way */ }
+  if (queue.length) flush(leaving);
+}
+
+function track(type, props) {
+  if (!ET || OPTED_OUT) return;
+  queue.push({ type, ts: Date.now(), props: props || {} });
+  if (queue.length >= 20) flush(false);
+}
+
+function initAnalytics() {
+  if (!ET || OPTED_OUT) return;
+  setInterval(() => flush(false), 5000);
+  addEventListener("pagehide", () => flush(true));
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") flush(true); });
+  const timing = () => setTimeout(() => {  // after load has finished, so loadEventEnd is set
+    const nav = performance.getEntriesByType && performance.getEntriesByType("navigation")[0];
+    const ms = (v) => Math.max(0, Math.round(v || 0));
+    track("timing", { ttfb: ms(nav && nav.responseStart), dom: ms(nav && nav.domContentLoadedEventEnd),
+      load: ms(nav && nav.loadEventEnd), vw: innerWidth, vh: innerHeight });
+  }, 0);
+  if (document.readyState === "complete") timing(); else addEventListener("load", timing);
 }
 
 /* ---------- stars ---------- */
@@ -209,8 +254,8 @@ function initAsk() {
       const resp = await fetch(PREFIX + "/api/ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(which === null ? { measure_id: measureId, question }
-          : { measure_id: measureId, question, suggested: which }),
+        body: JSON.stringify(Object.assign(which === null ? { measure_id: measureId, question }
+          : { measure_id: measureId, question, suggested: which }, ET ? { t: ET } : {})),
         signal: ctrl.signal,
       });
       out.innerHTML = renderAnswer(await resp.json(), which !== null);
@@ -289,4 +334,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initShare();
   initAsk();
   initZipBox();
+  initAnalytics();
 });
