@@ -22,7 +22,7 @@
 <article class="card measure">
   <div class="top"><span class="tag">{{ _("Prop {n}", n=m.number) if m.id.startswith("prop-") else _("Measure {n}", n=m.number) }}</span>
     {% for t in m.topics %}<span class="chip">{{ _d(t) }}</span>{% endfor %}</div>
-  <h3{% if lang != "en" and not m.title_lang %} lang="en"{% endif %}><a href="{{ lp('/prop/' ~ m.id) }}">{{ m.title }}</a></h3>
+  <h3{% if lang != "en" and not m.title_lang %} lang="en"{% endif %}><a href="{{ lp('/prop/' ~ m.id) }}" data-track="search-result" data-rank="{{ loop.index }}">{{ m.title }}</a></h3>
   <p class="summary"{% if lang != "en" %} lang="en"{% endif %}>{{ m.snippet }}</p>
 </article>
 {% else %}

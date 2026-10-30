@@ -29,8 +29,8 @@
   <p class="lede missing">{{ _("Summary not available in the official guide.") }}</p>
   {% endif %}
   <div class="actions">
-    <button class="star btn ghost small" type="button" aria-pressed="false">{{ _("☆ Star") }}</button>
-    <button class="share btn ghost small" type="button">{{ _("Share link") }}</button>
+    <button class="star btn ghost small" type="button" data-track="star" aria-pressed="false">{{ _("☆ Star") }}</button>
+    <button class="share btn ghost small" type="button" data-track="share">{{ _("Share link") }}</button>
     <span class="share-done hint" hidden>{{ _("Link copied") }}</span>
   </div>
   {% if results %}{{ results_block(results.measures.get(m.number), results) }}{% endif %}
@@ -74,7 +74,7 @@
 
   {% if m.fields.analysis %}
   <details class="analysis">
-    <summary>{{ _(headings.analysis) }} <span class="hint">{{ _("(the nonpartisan Legislative Analyst's full explanation)") }}</span>{{ en_flag(m.fields.analysis) }}</summary>
+    <summary data-track="analysis-more">{{ _(headings.analysis) }} <span class="hint">{{ _("(the nonpartisan Legislative Analyst's full explanation)") }}</span>{{ en_flag(m.fields.analysis) }}</summary>
     {% if lang != "en" and not m.fields.analysis.lang and m.translation and m.translation.documents.analysis %}
     <p class="hint lang-note">{{ _("The official translation of this analysis is in the Secretary of State's <a href='{url}' target='_blank' rel='noopener'>PDF of this proposition</a>. Below is the English original.", url=m.translation.documents.analysis) }}</p>
     {% endif %}

@@ -327,8 +327,15 @@ def create_app():
 
     @app.post("/api/ask")
     def api_ask():
-        body = request.get_json(silent=True) or {}
+        started = time.monotonic()
+        body = request.get_json(silent=True)
+        body = body if isinstance(body, dict) else {}
         analytics.adopt_token(body.get("t"))
+        resp = app.make_response(answer_question(body))
+        analytics.note_ask(body, resp.status_code, resp.get_json(silent=True), started)
+        return resp
+
+    def answer_question(body):
         if not isinstance(body.get("measure_id"), str) or not MEASURE_ID_RE.match(body["measure_id"]):
             return jsonify(status="error", reason=T("Unknown proposition.")), 400
         # The page's language comes from the address (/es/api/ask); a suggested-question button sends
@@ -363,6 +370,9 @@ def create_app():
             result = search_svc.get("/search", q=request.args.get("q", ""), topic=request.args.get("topic", ""))
         except ServiceError:
             abort(503)
+        if request.args.get("q") or request.args.get("topic"):
+            analytics.log("search", {"q": request.args.get("q", "")[:100], "topic": request.args.get("topic", "")[:40],
+                                     "results": len(result.get("results") or [])})
         if api_lang() and result.get("results"):  # official translated titles where there are some
             try:
                 titles = {m["id"]: m["title"] for m in ballot.get("/measures", lang=api_lang())["measures"]

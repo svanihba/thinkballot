@@ -37,6 +37,12 @@ SYSTEMS = [("iOS", re.compile(r"iPhone|iPad|iPod")), ("Android", re.compile("And
 CLIENT_EVENTS = {
     "timing": {"ttfb": (int, 600_000), "dom": (int, 600_000), "load": (int, 600_000), "vw": (int, 20_000),
                "vh": (int, 20_000)},
+    "click": {"name": (str, 40), "kind": (str, 16), "label": (str, 80), "measure": (str, 40), "href": (str, 120),
+              "rank": (int, 1000), "on": (bool, None)},
+    "select": {"name": (str, 40), "value": (str, 80), "label": (str, 80), "measure": (str, 40)},
+    "scroll": {"depth": frozenset({25, 50, 75, 100})},
+    "engaged": {"ms": (int, 86_400_000)},
+    "error": {"message": (str, 200), "source": (str, 120), "line": (int, 10_000_000)},
 }
 
 
@@ -109,6 +115,31 @@ def adopt_token(token):
             if rid:
                 g.rid = rid
                 eventlog.current_rid.set(rid)
+    except Exception:  # noqa: BLE001 - analytics never breaks an answer
+        pass
+
+
+def note_ask(body, status, result, started):
+    """The outcome of one Ask request (never the question's text)."""
+    try:
+        question = body.get("question") if isinstance(body, dict) else None
+        suggested = body.get("suggested") if isinstance(body, dict) and type(body.get("suggested")) is int else None
+        result = result if isinstance(result, dict) else {}
+        if status == 400:
+            outcome = "bad_request"
+        elif status == 429:
+            outcome = "limited"
+        elif status != 200:
+            outcome = "error"
+        elif result.get("status") == "answered" and result.get("prepared"):
+            outcome = "prepared"
+        else:
+            outcome = str(result.get("status") or "error")[:16]
+        measure = body.get("measure_id") if isinstance(body, dict) and isinstance(body.get("measure_id"), str) else None
+        log("ask", {"measure": (measure or "")[:40] or None, "suggested": suggested,
+                    "length": 0 if suggested is not None or not isinstance(question, str) else len(question),
+                    "outcome": outcome, "status": status, "server_ms": int((time.monotonic() - started) * 1000),
+                    "translated": bool(result.get("translated")), "verdict": result.get("verdict")})
     except Exception:  # noqa: BLE001 - analytics never breaks an answer
         pass
 

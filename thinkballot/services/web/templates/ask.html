@@ -8,7 +8,7 @@
 
 <form class="pick" method="get" action="{{ lp('/ask') }}">
   <label for="measure">{{ _("Proposition") }}</label>
-  <select id="measure" name="measure" class="autosubmit">
+  <select id="measure" name="measure" class="autosubmit" data-track="measure-select">
     {% for m in measures %}<option value="{{ m.id }}" {% if m.id == chosen %}selected{% endif %}>{{ _a("{label}: {title}", label=_a("Prop {n}", n=m.number), title=m.title) }}</option>{% endfor %}
   </select>
   <noscript><button class="btn small" type="submit">{{ _("Choose") }}</button></noscript>
