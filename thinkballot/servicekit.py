@@ -2,6 +2,7 @@
 
 import hmac
 import logging
+import re
 import socket
 import time
 
@@ -13,9 +14,10 @@ from urllib3.connectionpool import HTTPConnectionPool
 from flask import Flask, abort, jsonify, request
 from werkzeug.exceptions import HTTPException
 
-from . import config
+from . import config, eventlog
 
 log = logging.getLogger("thinkballot")
+RID_RE = re.compile(r"[A-Za-z0-9_-]{1,16}")
 
 
 class ServiceError(Exception):
@@ -125,6 +127,8 @@ class ServiceClient:
         url = self.base_url + path
         started = time.monotonic()
         headers = {"X-TB-Internal": config.INTERNAL_TOKEN}
+        if eventlog.current_rid.get():  # the visitor's page load, for analytics of work it causes downstream
+            headers["X-TB-Rid"] = eventlog.current_rid.get()
         try:
             resp = self.session.request(method, url, timeout=self.timeout, headers=headers, **kwargs)
         except requests.RequestException as exc:
@@ -152,6 +156,8 @@ def make_service(name, max_body=64 * 1024):
 
     @app.before_request
     def require_internal_token():
+        rid = request.headers.get("X-TB-Rid", "")
+        eventlog.current_rid.set(rid if RID_RE.fullmatch(rid) else None)
         if request.path == "/health":
             return None
         sent = request.headers.get("X-TB-Internal", "")
