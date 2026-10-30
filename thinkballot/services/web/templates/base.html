@@ -33,15 +33,15 @@
   <a class="brand" href="{{ lp('/') }}"><span class="mark">✓</span>ThinkBallot</a>
   <nav class="site-nav" aria-label="{{ _a('Main') }}">
     {% set p = request.path %}
-    <a href="{{ lp('/ballot') }}" {% if p.startswith('/ballot') or p.startswith('/prop') %}class="active"{% endif %}>{{ _("My ballot") }}</a>
-    <a href="{{ lp('/search') }}" {% if p == '/search' %}class="active"{% endif %}>{{ _("Search") }}</a>
-    <a href="{{ lp('/ask') }}" {% if p == '/ask' %}class="active"{% endif %}>{{ _("Ask") }}</a>
-    <a href="{{ lp('/neutral') }}" {% if p == '/neutral' %}class="active"{% endif %}>{{ _("Methodology") }}</a>
-    <a href="{{ lp('/about') }}" {% if p == '/about' %}class="active"{% endif %}>{{ _("About") }}</a>
+    <a href="{{ lp('/ballot') }}" data-track="nav-ballot" {% if p.startswith('/ballot') or p.startswith('/prop') %}class="active"{% endif %}>{{ _("My ballot") }}</a>
+    <a href="{{ lp('/search') }}" data-track="nav-search" {% if p == '/search' %}class="active"{% endif %}>{{ _("Search") }}</a>
+    <a href="{{ lp('/ask') }}" data-track="nav-ask" {% if p == '/ask' %}class="active"{% endif %}>{{ _("Ask") }}</a>
+    <a href="{{ lp('/neutral') }}" data-track="nav-methodology" {% if p == '/neutral' %}class="active"{% endif %}>{{ _("Methodology") }}</a>
+    <a href="{{ lp('/about') }}" data-track="nav-about" {% if p == '/about' %}class="active"{% endif %}>{{ _("About") }}</a>
     {% if user %}
       {% if user.is_mod %}<a href="/moderation" {% if p == '/moderation' %}class="active"{% endif %}>Moderation</a>{% endif %}
       <form method="post" action="/signout" class="signout"><input type="hidden" name="csrf" value="{{ csrf_token() }}">
-        <button class="auth-chip signed-in" type="submit">@{{ user.username }} · {{ _("sign out") }}</button></form>
+        <button class="auth-chip signed-in" type="submit" data-track="sign-out" data-track-label="sign out">@{{ user.username }} · {{ _("sign out") }}</button></form>
     {% elif community_open %}
       <a class="auth-chip" href="/signin?next={{ (lang_prefix ~ request.path)|urlencode }}">{{ _("sign in") }}</a>
     {% endif %}

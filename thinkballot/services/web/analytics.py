@@ -23,7 +23,7 @@ from ... import config, eventlog, ratelimit
 PAGE_ENDPOINTS = {"landing", "ballot_page", "measure_page", "search_page", "ask_page", "neutral", "about"}
 TOKEN_SECONDS = 12 * 3600
 MAX_EVENTS, MAX_BODY = 20, 16 * 1024
-BATCHES_PER_PAGE, BATCHES_PER_NETWORK_HOUR = 60, 600
+BATCHES_PER_PAGE, BATCHES_PER_NETWORK_HOUR = 240, 600  # 240 x 15 s = an hour of steady use
 
 TOKEN_RE = re.compile(r"[A-Za-z0-9_-]{1,16}\.[0-9]{1,12}\.[A-Za-z0-9_-]{22}")
 BOT_RE = re.compile(r"bot|crawl|spider|slurp|preview|monitor|curl|wget|python-requests|httpclient|headless", re.I)
@@ -139,7 +139,8 @@ def note_ask(body, status, result, started):
         log("ask", {"measure": (measure or "")[:40] or None, "suggested": suggested,
                     "length": 0 if suggested is not None or not isinstance(question, str) else len(question),
                     "outcome": outcome, "status": status, "server_ms": int((time.monotonic() - started) * 1000),
-                    "translated": bool(result.get("translated")), "verdict": result.get("verdict")})
+                    "translated": bool(result.get("translated")),
+                    "verdict": str(result["verdict"])[:16] if result.get("verdict") else None})
     except Exception:  # noqa: BLE001 - analytics never breaks an answer
         pass
 
