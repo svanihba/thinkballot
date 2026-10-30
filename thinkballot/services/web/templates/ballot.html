@@ -44,7 +44,7 @@
     <span class="tag">{{ label }}</span>
     {% if m.measure_type %}<span class="chip">{{ m.measure_type }}</span>{% endif %}
     <span class="read-tick" hidden>{{ _("read ✓") }}</span>
-    <button class="star" type="button" aria-pressed="false" aria-label="{{ _a('Star {label}', label=label) }}">{{ _("☆ Star") }}</button>
+    <button class="star" type="button" data-track="star" aria-pressed="false" aria-label="{{ _a('Star {label}', label=label) }}">{{ _("☆ Star") }}</button>
   </div>
   <h3{% if lang != "en" and "title" not in m.translated %} lang="en"{% endif %}><a href="{{ lp('/prop/' ~ m.id) }}">{{ m.title }}</a></h3>
   {% if m.summary %}<p class="summary"{% if lang != "en" and "summary" not in m.translated %} lang="en"{% endif %}>{{ m.summary }}</p>{% endif %}
@@ -62,7 +62,7 @@
 <article class="card measure local" data-measure="{{ m.id }}" data-title="{{ _a('{label}: {title}', label=label, title=m.title) }}">
   <div class="top"><span class="tag">{{ label }}</span>{% if m.district != m.title %}<span class="chip"{{ en }}>{{ m.district }}</span>{% endif %}
     <span class="read-tick" hidden>{{ _("read ✓") }}</span>
-    <button class="star" type="button" aria-pressed="false" aria-label="{{ _a('Star {label}', label=label) }}">{{ _("☆ Star") }}</button></div>
+    <button class="star" type="button" data-track="star" aria-pressed="false" aria-label="{{ _a('Star {label}', label=label) }}">{{ _("☆ Star") }}</button></div>
   <h3{{ en }}><a href="{{ lp('/prop/' ~ m.id) }}">{{ m.title }}</a></h3>
   <p class="summary"{{ en }}>{{ m.summary|truncate(220) }}</p>
   <div class="foot"><a class="btn ghost small" href="{{ lp('/prop/' ~ m.id) }}">{{ _("Read the full question →") }}</a>
@@ -75,7 +75,7 @@
   {% if lang != "en" %}<p class="hint lang-note" lang="{{ html_lang }}">{{ _("Local measures are shown in English: the official text is shown as the county publishes it.") }}</p>{% endif %}
   {% if local.yours %}<h3 class="subhead">{{ _("Likely on your ballot") }}</h3>{% for m in local.yours %}{{ local_card(m) }}{% endfor %}{% endif %}
   <details class="maybe">
-    <summary>{{ _("<strong>{n} more {county} County measures</strong> (school and special districts or other cities). Your ZIP code alone can't tell which apply; your sample ballot can.", n=local.maybe|length, county=local.county) }}</summary>
+    <summary data-track="local-more">{{ _("<strong>{n} more {county} County measures</strong> (school and special districts or other cities). Your ZIP code alone can't tell which apply; your sample ballot can.", n=local.maybe|length, county=local.county) }}</summary>
     {% for m in local.maybe %}{{ local_card(m) }}{% endfor %}
   </details>
 {% else %}

@@ -212,7 +212,7 @@ def test_pages_render_in_each_language_with_switcher(with_translations, prefix, 
     html = resp.text
     assert _html_lang(html) == lang
     switch = re.search(r'<nav class="lang-switch" aria-label="[^"]+">(.*?)</nav>', html, re.S).group(1)
-    links = re.findall(r'<a href="([^"]+)" hreflang="([^"]+)" lang="([^"]+)"( aria-current="true")? aria-label="([^"]+)">'
+    links = re.findall(r'<a href="([^"]+)" data-track="lang-[a-z]+" hreflang="([^"]+)" lang="([^"]+)"( aria-current="true")? aria-label="([^"]+)">'
                        r'<span class="lang-full">\5</span>', switch)
     assert [(h, n) for _, h, _, _, n in links] == [("en", "English"), ("es", "Español"), ("zh-Hant", "中文")]
     assert [bool(c) for _, _, _, c, _ in links] == [lang == "en", lang == "es", lang == "zh-Hant"]

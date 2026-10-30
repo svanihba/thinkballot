@@ -11,13 +11,13 @@
       inputmode="numeric" pattern="[0-9]{5}" maxlength="5" autocomplete="postal-code" enterkeyhint="go"
       title="{{ _a('5 digits, like 94087') }}" list="zip-list" data-zips="{{ lp('/api/zips') }}" required>
     <datalist id="zip-list"></datalist>
-    <button class="btn" type="submit">{{ _("See my ballot") }}</button>
+    <button class="btn" type="submit" data-track="zip-submit">{{ _("See my ballot") }}</button>
   </form>
   <form method="post" action="{{ lp('/ballot') }}" class="sample-form">
     <input type="hidden" name="csrf" value="{{ csrf_token() }}">
     <input type="hidden" name="zip" value="{{ sample_zip }}">
     <span class="hint">{{ _("Just exploring?") }}</span>
-    <button class="linklike" type="submit">{{ _("Try a sample ZIP code: {zip}", zip=sample_zip) }}</button>
+    <button class="linklike" type="submit" data-track="zip-sample">{{ _("Try a sample ZIP code: {zip}", zip=sample_zip) }}</button>
   </form>
   <p class="hint">{{ _("We use your ZIP code only to find your likely districts. It is never stored.") }}</p>
 </section>

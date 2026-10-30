@@ -58,11 +58,91 @@ function track(type, props) {
   if (queue.length >= 20) flush(false);
 }
 
+/* Every control a visitor uses is logged by what it is (name, kind, visible label), never by what was typed:
+   text boxes are not logged at all. data-track gives the important controls stable names. */
+const CONTROLS = "a, button, summary, select, input[type=checkbox], input[type=radio], [role=button], [role=tab], "
+  + "[data-track]";
+const cut = (v, n) => String(v == null ? "" : v).replace(/\s+/g, " ").trim().slice(0, n);
+
+function measureOf(el, href) {
+  const card = el.closest("[data-measure]");
+  const m = (card && card.dataset.measure) || ((href || "").match(/\/prop\/([a-z0-9-]+)/) || [])[1]
+    || (PAGE.match(/^\/prop\/([a-z0-9-]+)/) || [])[1];
+  return m || undefined;
+}
+
+function describe(el) {
+  const kind = el.tagName === "INPUT" ? el.type : el.tagName.toLowerCase();
+  const p = { name: cut(el.dataset.track || el.id || (el.className || "").split(" ")[0] || kind, 40), kind: cut(kind, 16) };
+  const label = el.dataset.trackLabel || el.getAttribute("aria-label")
+    || (el.tagName === "INPUT" ? el.labels && el.labels[0] && el.labels[0].textContent : el.textContent);
+  if (cut(label, 80)) p.label = cut(label, 80);
+  let href;
+  if (el.tagName === "A" && el.href) {
+    try {
+      const u = new URL(el.href, location.href);
+      href = u.origin === location.origin ? (u.pathname.replace(/^\/(es|zh)(?=\/|$)/, "") || "/") + u.hash : u.hostname;
+    } catch { /* not a URL */ }
+  }
+  const measure = measureOf(el, href);
+  if (measure) p.measure = measure;
+  if (href) p.href = cut(href, 120);
+  const rank = parseInt(el.dataset.rank || el.dataset.index, 10);
+  if (rank >= 0) p.rank = rank;
+  if (el.tagName === "INPUT") p.on = !!el.checked;
+  else if (el.tagName === "SUMMARY" && el.parentElement) p.on = !!el.parentElement.open;
+  else if (el.getAttribute("aria-pressed") != null) p.on = el.getAttribute("aria-pressed") === "true";
+  return p;
+}
+
+function initControlTracking() {
+  document.addEventListener("click", (e) => {
+    const el = e.target && e.target.closest && e.target.closest(CONTROLS);
+    if (!el || el.tagName === "SELECT") return;  // dropdowns are logged when a choice is made
+    setTimeout(() => track("click", describe(el)), 0);  // after the control's own handler (star, open/close)
+  }, true);
+  document.addEventListener("change", (e) => {
+    const el = e.target;
+    if (!el || el.tagName !== "SELECT") return;
+    const p = { name: cut(el.dataset.track || el.id || el.name || "select", 40) };
+    if (el.dataset.track) {  // the choice itself only for named dropdowns (never, e.g., a political leaning)
+      const opt = el.options && el.options[el.selectedIndex];
+      p.value = cut(el.value, 80);
+      if (opt && cut(opt.text, 80)) p.label = cut(opt.text, 80);
+    }
+    const measure = measureOf(el);
+    if (measure) p.measure = measure;
+    track("select", p);
+  }, true);
+  const seen = new Set();
+  addEventListener("scroll", () => {
+    const total = document.documentElement.scrollHeight || 1;
+    const pct = ((window.scrollY || 0) + innerHeight) / total * 100;
+    [25, 50, 75, 100].forEach((d) => { if (pct >= d && !seen.has(d)) { seen.add(d); track("scroll", { depth: d }); } });
+  }, { passive: true });
+  let errors = 0;
+  const report = (message, source, line) => {
+    if (errors++ >= 5) return;
+    track("error", { message: cut(message, 200), source: cut(String(source || "").replace(location.origin, ""), 120),
+      line: Math.max(0, Math.min(line | 0, 10000000)) });
+  };
+  addEventListener("error", (e) => report(e.message, e.filename, e.lineno));
+  addEventListener("unhandledrejection", (e) => report(e.reason && (e.reason.message || e.reason), "promise", 0));
+}
+
 function initAnalytics() {
   if (!ET || OPTED_OUT) return;
   setInterval(() => flush(false), 5000);
-  addEventListener("pagehide", () => flush(true));
-  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") flush(true); });
+  initControlTracking();
+  let shownAt = Date.now(), shown = 0;
+  const engaged = () => {
+    if (shownAt) { shown += Date.now() - shownAt; shownAt = 0; }
+    if (shown > 0) { track("engaged", { ms: Math.min(shown, 86400000) }); shown = 0; }
+  };
+  addEventListener("pagehide", () => { engaged(); flush(true); });
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "hidden") { engaged(); flush(true); } else shownAt = Date.now();
+  });
   const timing = () => setTimeout(() => {  // after load has finished, so loadEventEnd is set
     const nav = performance.getEntriesByType && performance.getEntriesByType("navigation")[0];
     const ms = (v) => Math.max(0, Math.round(v || 0));

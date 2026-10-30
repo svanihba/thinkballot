@@ -371,3 +371,182 @@ def test_turning_on_gpc_never_sets_a_cookie_on_a_cached_response(tracked):
     assert "Set-Cookie" not in s.get(tracked + "/api/zips").headers
     s.get(tracked + "/about")
     assert "aid" not in cookie_session(s)
+
+
+# ---------- phase 2 ----------
+
+def ask(s, server, token, **body):
+    return s.post(server + "/api/ask", json=dict(body, t=token), headers={"Sec-Fetch-Site": "same-origin"})
+
+
+def test_ask_event_never_has_question_text(tracked):
+    s = requests.Session()
+    token = page_token(s.get(tracked + "/prop/prop-a").text)
+    ask(s, tracked, token, measure_id="prop-a", question="my secret words")
+    (e,) = of("ask")
+    assert e["props"]["length"] == 15 and e["props"]["measure"] == "prop-a" and e["props"]["suggested"] is None
+    assert e["props"]["status"] == 200 and e["props"]["outcome"] in ("answered", "refused", "held")
+    assert isinstance(e["props"]["server_ms"], int)
+    assert e["rid"] == of("pageview")[0]["rid"]
+    assert not any("secret" in json.dumps(x) for x in events())
+
+
+def test_suggested_ask_event(tracked):
+    s = requests.Session()
+    token = page_token(s.get(tracked + "/prop/prop-a").text)
+    ask(s, tracked, token, measure_id="prop-a", question="What does it cost?", suggested=0)
+    (e,) = of("ask")
+    assert e["props"]["suggested"] == 0 and e["props"]["length"] == 0
+
+
+def test_ask_event_on_bad_request(tracked):
+    s = requests.Session()
+    token = page_token(s.get(tracked + "/prop/prop-a").text)
+    ask(s, tracked, token, measure_id="../etc", question="x")
+    (e,) = of("ask")
+    assert e["props"]["status"] == 400 and e["props"]["outcome"] == "bad_request"
+
+
+def test_search_event_truncates_query(tracked):
+    requests.get(tracked + "/search", params={"q": "b" * 300, "topic": "parks"})
+    (e,) = of("search")
+    assert e["props"]["q"] == "b" * 100 and e["props"]["topic"] == "parks" and isinstance(e["props"]["results"], int)
+
+
+PHASE2 = [
+    ({"type": "click", "props": {"name": "star", "kind": "button", "label": "☆ Star", "measure": "prop-a",
+                                 "href": "/prop/prop-a", "rank": 3, "on": True}}, None),
+    ({"type": "click", "props": {"name": "x" * 99, "kind": 5, "on": "yes", "rank": -1}}, {"name": "x" * 40}),
+    ({"type": "select", "props": {"name": "measure-select", "value": "prop-b", "label": "Prop B", "measure": "prop-b"}}, None),
+    ({"type": "scroll", "props": {"depth": 50}}, None),
+    ({"type": "scroll", "props": {"depth": 33}}, {}),
+    ({"type": "engaged", "props": {"ms": 12345}}, None),
+    ({"type": "error", "props": {"message": "m" * 500, "source": "/static/app.js", "line": 12}},
+     {"message": "m" * 200, "source": "/static/app.js", "line": 12}),
+]
+
+
+@pytest.mark.parametrize("raw,expected", PHASE2)
+def test_phase2_client_events_cleaned(tracked, raw, expected):
+    s = requests.Session()
+    token = page_token(s.get(tracked + "/prop/prop-a").text)
+    send(s, tracked, token, [raw])
+    (e,) = of(raw["type"])
+    assert e["props"] == (raw["props"] if expected is None else expected)
+
+
+def test_track_names_present(tracked):
+    s = requests.Session()
+    measure = s.get(tracked + "/prop/prop-a").text
+    for name in ["ask-submit", "suggest", "star", "share"]:
+        assert f'data-track="{name}"' in measure, name
+    assert 'data-track="lang-es"' in measure
+    assert 'data-track="zip-submit"' in s.get(tracked + "/").text
+    assert 'data-track="measure-select"' in s.get(tracked + "/ask").text
+    results = s.get(tracked + "/search", params={"q": "bond"}).text
+    assert 'data-track="search-result"' in results and 'data-rank="1"' in results
+
+
+# ---------- browser side (static/app.js in Node, with a small stand-in page) ----------
+
+TRACK_HARNESS = r"""
+const fs = require("fs"), vm = require("vm");
+const docListeners = {}, winListeners = {};
+function node(tag, attrs, extra) {
+  const n = Object.assign({ tagName: tag.toUpperCase(), dataset: {}, attributes: attrs || {}, textContent: "",
+    parent: null, className: "", id: "",
+    getAttribute(k) { return this.attributes[k] == null ? null : this.attributes[k]; },
+    closest(sel) {
+      const want = sel.split(",").map((s) => s.trim());
+      for (let n = this; n; n = n.parent) if (want.some((w) => matches(n, w))) return n;
+      return null;
+    } }, extra || {});
+  return n;
+}
+function matches(n, w) {
+  const m = w.match(/^([a-z]+)?(?:\[([a-z-]+)(?:=([a-z]+))?\])?$/);
+  if (!m) return false;
+  if (m[1] && n.tagName !== m[1].toUpperCase()) return false;
+  if (m[2]) {
+    const v = m[2].startsWith("data-") ? n.dataset[m[2].slice(5).replace(/-([a-z])/g, (_, c) => c.toUpperCase())]
+      : n.attributes[m[2]];
+    if (v == null) return false;
+    if (m[3] && v !== m[3]) return false;
+  }
+  return true;
+}
+const body = { dataset: { prefix: "/es", et: "rid.1.sig", i18n: "{}" } };
+const document = {
+  body, visibilityState: "visible", documentElement: { scrollHeight: 2000 }, readyState: "loading",
+  addEventListener(t, f) { (docListeners[t] = docListeners[t] || []).push(f); },
+  querySelector() { return null; }, querySelectorAll() { return []; },
+  createElement() { return { set textContent(v) {}, get innerHTML() { return ""; } }; },
+};
+const ctx = {
+  document, console, JSON, Math, Date, String, Number, URL, setTimeout, clearTimeout, setInterval: () => 0,
+  navigator: {}, location: { pathname: "/es/prop/prop-a", href: "https://www.example.org/es/prop/prop-a",
+                             origin: "https://www.example.org" },
+  localStorage: { getItem() {}, setItem() {} }, performance: { getEntriesByType: () => [] },
+  innerWidth: 390, innerHeight: 800, scrollY: 0,
+  addEventListener(t, f) { (winListeners[t] = winListeners[t] || []).push(f); },
+  fetch: async () => ({}),
+};
+ctx.window = ctx;
+vm.createContext(ctx);
+vm.runInContext(fs.readFileSync(process.argv[2], "utf8"), ctx);
+vm.runInContext("initAnalytics()", ctx);
+const fire = (t, target) => (docListeners[t] || []).forEach((f) => f({ target }));
+const card = node("article", {}, { dataset: { measure: "prop-b" } });
+const star = node("button", { "aria-pressed": "true" }, { dataset: { track: "star" }, className: "star", textContent: "  ★ Starred " , parent: card });
+const out = node("a", { href: "https://www.sos.ca.gov/guide?x=1" }, { href: "https://www.sos.ca.gov/guide?x=1", className: "src", textContent: "[1]" });
+const inner = node("a", { href: "/es/prop/prop-c#argument-for" }, { href: "https://www.example.org/es/prop/prop-c#argument-for", textContent: "Prop C" });
+const span = node("span", {}, { parent: inner });
+const sel = node("select", {}, { dataset: { track: "measure-select" }, value: "prop-d", selectedIndex: 0,
+  options: [{ text: "Prop D: Parks" }] });
+const box = node("input", { type: "checkbox" }, { type: "checkbox", checked: true, id: "agree", labels: [{ textContent: "I agree" }] });
+const text = node("input", { type: "text" }, { type: "text", value: "my secret", className: "q" });
+const sug = node("button", {}, { dataset: { track: "suggest", index: "2" }, className: "suggest", textContent: "Who pays?" });
+fire("click", star); fire("click", out); fire("click", span); fire("click", box); fire("click", text); fire("click", sug);
+const lean = node("select", {}, { name: "leaning", value: "left", selectedIndex: 0, options: [{ text: "Left" }] });
+fire("change", sel); fire("change", text); fire("change", lean);
+ctx.scrollY = 1300; (winListeners.scroll || []).forEach((f) => f());
+(winListeners.error || []).forEach((f) => f({ message: "boom", filename: "https://www.example.org/static/app.js", lineno: 7 }));
+setTimeout(() => console.log(JSON.stringify(vm.runInContext("queue", ctx))), 10);
+"""
+
+
+@pytest.fixture(scope="module")
+def tracked_js(tmp_path_factory):
+    import shutil
+    import subprocess
+    if not shutil.which("node"):
+        pytest.skip("Node.js is not installed")
+    harness = tmp_path_factory.mktemp("js") / "track.js"
+    harness.write_text(TRACK_HARNESS)
+    app_js = config.ROOT / "thinkballot" / "services" / "web" / "static" / "app.js"
+    run = subprocess.run(["node", str(harness), str(app_js)], capture_output=True, text=True, timeout=30)
+    assert run.returncode == 0, run.stderr
+    return [(e["type"], e["props"]) for e in json.loads(run.stdout)]
+
+
+def test_browser_logs_every_control(tracked_js):
+    clicks = [p for t, p in tracked_js if t == "click"]
+    assert clicks[0] == {"name": "star", "kind": "button", "label": "★ Starred", "measure": "prop-b", "on": True}
+    assert clicks[1] == {"name": "src", "kind": "a", "label": "[1]", "measure": "prop-a", "href": "www.sos.ca.gov"}
+    assert clicks[2] == {"name": "a", "kind": "a", "label": "Prop C", "measure": "prop-c",
+                         "href": "/prop/prop-c#argument-for"}
+    assert clicks[3] == {"name": "agree", "kind": "checkbox", "label": "I agree", "measure": "prop-a", "on": True}
+    assert clicks[4] == {"name": "suggest", "kind": "button", "label": "Who pays?", "measure": "prop-a", "rank": 2}
+    assert len(clicks) == 5  # the click in the text box is not logged
+    assert ("select", {"name": "measure-select", "value": "prop-d", "label": "Prop D: Parks", "measure": "prop-a"}) \
+        in tracked_js
+    assert [p["depth"] for t, p in tracked_js if t == "scroll"] == [25, 50, 75, 100]
+    assert ("error", {"message": "boom", "source": "/static/app.js", "line": 7}) in tracked_js
+    assert ("select", {"name": "leaning", "measure": "prop-a"}) in tracked_js  # no value for unnamed dropdowns
+    assert "my secret" not in json.dumps(tracked_js) and "Left" not in json.dumps(tracked_js)
+
+
+def test_privacy_text_covers_phase2(server):
+    html = requests.get(server + "/neutral").text
+    for phrase in ["how far you scroll", "menus and other controls", "never what you type into them", "errors"]:
+        assert phrase in html
