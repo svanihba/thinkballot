@@ -168,7 +168,7 @@ checkboxes — are logged automatically; `data-track` only gives stable names to
 (`api_ask`, `search_page`), `static/app.js`, templates (`data-track`, `data-rank`), `tests/test_analytics.py`, a JS
 harness test in `tests/test_analytics.py` (Node, like the Ask harness).
 
-**Interfaces:**
+**Interfaces:** (after review: flush every 15 s, 240 batches per page load; a label containing `@` is never logged; nav links carry `data-track="nav-<name>"`)
 - Browser `click` (capture-phase listener on `document`) for the closest `a, button, summary, select, label,
   input[type=checkbox], input[type=radio], [role=button], [role=tab], [data-track]` of the target; text inputs and
   textareas are never logged. Props: `name` (≤40: `data-track`, else id, else first class, else tag), `kind` (≤16: tag
@@ -180,7 +180,7 @@ harness test in `tests/test_analytics.py` (Node, like the Ask harness).
 - `scroll` {`depth` ∈ {25, 50, 75, 100}} once per threshold per page; `engaged` {`ms` int ≤ 86,400,000} visible time,
   sent when hidden; `error` {`message` ≤200, `source` ≤120, `line` int ≤10^7}, at most 5 per page.
 - Server `ask` (from `api_ask`, every return path): `measure`, `suggested` (int|null), `length` (typed question
-  length, 0 for suggested), `outcome` (`prepared`/`answered`/`refused`/`held`/`error`/`limited`/`bad_request`),
+  length, 0 for suggested), `outcome` (`prepared`/`answered`/`refused`/`blocked` (Bias Buster held it back)/`error`/`limited`/`bad_request`),
   `status` (HTTP), `server_ms`, `translated` (bool), `verdict` (Bias Buster verdict or null). Never the text.
 - Server `search` (from `search_page`): `q` (≤100), `topic` (≤40), `results` (int).
 - `data-track` names: `zip-submit`, `zip-sample`, `ask-submit`, `suggest`, `star`, `share`, `measure-select`,

@@ -30,7 +30,7 @@ function esc(s) {
 }
 
 /* ---------- analytics ----------
-   Events go to our own server with the page's signed token (body data-et), in small batches: every 5 s,
+   Events go to our own server with the page's signed token (body data-et), in small batches: every 15 s,
    at 20 events, and when the page is hidden or closed. Failures are ignored; nothing is retried. */
 const ET = document.body.dataset.et || "";
 const OPTED_OUT = typeof navigator === "undefined"
@@ -73,10 +73,12 @@ function measureOf(el, href) {
 
 function describe(el) {
   const kind = el.tagName === "INPUT" ? el.type : el.tagName.toLowerCase();
-  const p = { name: cut(el.dataset.track || el.id || (el.className || "").split(" ")[0] || kind, 40), kind: cut(kind, 16) };
+  const cls = (el.getAttribute("class") || "").split(" ")[0];  // getAttribute: SVG's className is not a string
+  const p = { name: cut(el.dataset.track || el.id || cls || kind, 40), kind: cut(kind, 16) };
   const label = el.dataset.trackLabel || el.getAttribute("aria-label")
     || (el.tagName === "INPUT" ? el.labels && el.labels[0] && el.labels[0].textContent : el.textContent);
-  if (cut(label, 80)) p.label = cut(label, 80);
+  // A label naming a person (@username) is never logged: analytics is never tied to an account.
+  if (cut(label, 80) && !cut(label, 80).includes("@")) p.label = cut(label, 80);
   let href;
   if (el.tagName === "A" && el.href) {
     try {
@@ -115,11 +117,13 @@ function initControlTracking() {
     track("select", p);
   }, true);
   const seen = new Set();
-  addEventListener("scroll", () => {
+  const depth = () => {
     const total = document.documentElement.scrollHeight || 1;
     const pct = ((window.scrollY || 0) + innerHeight) / total * 100;
     [25, 50, 75, 100].forEach((d) => { if (pct >= d && !seen.has(d)) { seen.add(d); track("scroll", { depth: d }); } });
-  }, { passive: true });
+  };
+  addEventListener("scroll", depth, { passive: true });
+  setTimeout(depth, 0);  // a page that fits the screen is read to the end without scrolling
   let errors = 0;
   const report = (message, source, line) => {
     if (errors++ >= 5) return;
@@ -132,9 +136,9 @@ function initControlTracking() {
 
 function initAnalytics() {
   if (!ET || OPTED_OUT) return;
-  setInterval(() => flush(false), 5000);
+  setInterval(() => flush(false), 15000);  // leaving the page flushes at once
   initControlTracking();
-  let shownAt = Date.now(), shown = 0;
+  let shownAt = document.visibilityState === "hidden" ? 0 : Date.now(), shown = 0;  // a background tab isn't read
   const engaged = () => {
     if (shownAt) { shown += Date.now() - shownAt; shownAt = 0; }
     if (shown > 0) { track("engaged", { ms: Math.min(shown, 86400000) }); shown = 0; }

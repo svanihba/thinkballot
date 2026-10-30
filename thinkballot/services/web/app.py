@@ -331,7 +331,11 @@ def create_app():
         body = request.get_json(silent=True)
         body = body if isinstance(body, dict) else {}
         analytics.adopt_token(body.get("t"))
-        resp = app.make_response(answer_question(body))
+        try:
+            resp = app.make_response(answer_question(body))
+        except Exception:
+            analytics.note_ask(body, 500, None, started)  # an unexpected failure still counts as an error
+            raise
         analytics.note_ask(body, resp.status_code, resp.get_json(silent=True), started)
         return resp
 

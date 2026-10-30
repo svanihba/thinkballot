@@ -173,9 +173,9 @@ def test_event_token_must_verify(tracked):
 def test_event_batches_capped_per_page_load(tracked):
     s = requests.Session()
     token = page_token(s.get(tracked + "/about").text)
-    for _ in range(61):
+    for _ in range(analytics.BATCHES_PER_PAGE + 1):
         send(s, tracked, token, [{"type": "timing", "props": {"ttfb": 1}}])
-    assert len(of("timing")) == 60
+    assert len(of("timing")) == analytics.BATCHES_PER_PAGE
 
 
 def test_signout_keeps_visitor_id(tracked):
@@ -455,7 +455,10 @@ const docListeners = {}, winListeners = {};
 function node(tag, attrs, extra) {
   const n = Object.assign({ tagName: tag.toUpperCase(), dataset: {}, attributes: attrs || {}, textContent: "",
     parent: null, className: "", id: "",
-    getAttribute(k) { return this.attributes[k] == null ? null : this.attributes[k]; },
+    getAttribute(k) {
+      if (k === "class") return typeof this.className === "string" ? this.className || null : this.className.baseVal;
+      return this.attributes[k] == null ? null : this.attributes[k];
+    },
     closest(sel) {
       const want = sel.split(",").map((s) => s.trim());
       for (let n = this; n; n = n.parent) if (want.some((w) => matches(n, w))) return n;
@@ -506,6 +509,11 @@ const sel = node("select", {}, { dataset: { track: "measure-select" }, value: "p
 const box = node("input", { type: "checkbox" }, { type: "checkbox", checked: true, id: "agree", labels: [{ textContent: "I agree" }] });
 const text = node("input", { type: "text" }, { type: "text", value: "my secret", className: "q" });
 const sug = node("button", {}, { dataset: { track: "suggest", index: "2" }, className: "suggest", textContent: "Who pays?" });
+const signout = node("button", {}, { dataset: { track: "sign-out", trackLabel: "sign out" }, className: "auth-chip signed-in",
+  textContent: "@alice_smith · sign out" });
+const icon = node("svg", {}, { className: { baseVal: "icon" }, parent: node("button", {}, { dataset: { track: "share" }, textContent: "Share" }) });
+const named = node("button", {}, { className: "auth-chip", textContent: "@bob · sign out" });
+fire("click", signout); fire("click", icon); fire("click", named);
 fire("click", star); fire("click", out); fire("click", span); fire("click", box); fire("click", text); fire("click", sug);
 const lean = node("select", {}, { name: "leaning", value: "left", selectedIndex: 0, options: [{ text: "Left" }] });
 fire("change", sel); fire("change", text); fire("change", lean);
@@ -531,6 +539,11 @@ def tracked_js(tmp_path_factory):
 
 def test_browser_logs_every_control(tracked_js):
     clicks = [p for t, p in tracked_js if t == "click"]
+    assert clicks[0] == {"name": "sign-out", "kind": "button", "label": "sign out", "measure": "prop-a"}
+    assert clicks[1] == {"name": "share", "kind": "button", "label": "Share", "measure": "prop-a"}  # via the SVG
+    assert "@" not in json.dumps(tracked_js) and not any(t == "error" and "split" in p["message"] for t, p in tracked_js)
+    assert clicks[2] == {"name": "auth-chip", "kind": "button", "measure": "prop-a"}  # a label with @ is dropped
+    clicks = clicks[3:]
     assert clicks[0] == {"name": "star", "kind": "button", "label": "★ Starred", "measure": "prop-b", "on": True}
     assert clicks[1] == {"name": "src", "kind": "a", "label": "[1]", "measure": "prop-a", "href": "www.sos.ca.gov"}
     assert clicks[2] == {"name": "a", "kind": "a", "label": "Prop C", "measure": "prop-c",
@@ -541,6 +554,7 @@ def test_browser_logs_every_control(tracked_js):
     assert ("select", {"name": "measure-select", "value": "prop-d", "label": "Prop D: Parks", "measure": "prop-a"}) \
         in tracked_js
     assert [p["depth"] for t, p in tracked_js if t == "scroll"] == [25, 50, 75, 100]
+    assert not any(t == "engaged" for t, _ in tracked_js)  # still visible: nothing sent yet
     assert ("error", {"message": "boom", "source": "/static/app.js", "line": 7}) in tracked_js
     assert ("select", {"name": "leaning", "measure": "prop-a"}) in tracked_js  # no value for unnamed dropdowns
     assert "my secret" not in json.dumps(tracked_js) and "Left" not in json.dumps(tracked_js)
@@ -550,3 +564,70 @@ def test_privacy_text_covers_phase2(server):
     html = requests.get(server + "/neutral").text
     for phrase in ["how far you scroll", "menus and other controls", "never what you type into them", "errors"]:
         assert phrase in html
+
+
+HIDDEN_TAB = r"""
+const fs = require("fs"), vm = require("vm");
+const docL = {}, winL = {};
+const document = { body: { dataset: { prefix: "", et: "r.1.s", i18n: "{}" } }, visibilityState: "hidden",
+  documentElement: { scrollHeight: 500 }, readyState: "loading",
+  addEventListener(t, f) { (docL[t] = docL[t] || []).push(f); }, querySelector() { return null; },
+  querySelectorAll() { return []; }, createElement() { return { set textContent(v) {}, get innerHTML() { return ""; } }; } };
+const ctx = { document, console, JSON, Math, Date, String, URL, setTimeout, clearTimeout, setInterval: () => 0, navigator: {},
+  location: { pathname: "/about", href: "https://x.org/about", origin: "https://x.org" }, localStorage: { getItem() {}, setItem() {} },
+  performance: { getEntriesByType: () => [] }, innerWidth: 390, innerHeight: 800, scrollY: 0,
+  addEventListener(t, f) { (winL[t] = winL[t] || []).push(f); },
+  fetch: async (_u, o) => { sent.push(...JSON.parse(o.body).events); return {}; } };
+const sent = [];
+ctx.window = ctx;
+vm.createContext(ctx);
+vm.runInContext(fs.readFileSync(process.argv[2], "utf8"), ctx);
+vm.runInContext("initAnalytics()", ctx);
+setTimeout(() => {
+  (winL.pagehide || []).forEach((f) => f());  // closed without ever being shown
+  console.log(JSON.stringify(sent));
+}, 30);
+"""
+
+
+def test_hidden_tab_has_no_engaged_time_and_short_page_counts_as_read(tmp_path):
+    import shutil
+    import subprocess
+    if not shutil.which("node"):
+        pytest.skip("Node.js is not installed")
+    harness = tmp_path / "hidden.js"
+    harness.write_text(HIDDEN_TAB)
+    app_js = config.ROOT / "thinkballot" / "services" / "web" / "static" / "app.js"
+    run = subprocess.run(["node", str(harness), str(app_js)], capture_output=True, text=True, timeout=30)
+    assert run.returncode == 0, run.stderr
+    sent = [(e["type"], e["props"]) for e in json.loads(run.stdout)]
+    assert not any(t == "engaged" for t, _ in sent)
+    assert [p["depth"] for t, p in sent if t == "scroll"] == [25, 50, 75, 100]  # the page fits the screen
+
+
+def test_blocked_answer_outcome_and_crash_are_logged(tracked, monkeypatch):
+    from thinkballot.services.web import app as web_app  # noqa: F401
+    s = requests.Session()
+    token = page_token(s.get(tracked + "/prop/prop-a").text)
+    from thinkballot import servicekit
+    real = servicekit.ServiceClient.post
+
+    def boom(self, path, payload):
+        if path == "/ask":
+            raise RuntimeError("unexpected")
+        return real(self, path, payload)
+    monkeypatch.setattr(servicekit.ServiceClient, "post", boom)
+    r = ask(s, tracked, token, measure_id="prop-a", question="anything")
+    assert r.status_code == 500
+    (e,) = of("ask")
+    assert e["props"]["outcome"] == "error" and e["props"]["status"] == 500
+
+
+def test_batch_budget_covers_a_long_active_page():
+    assert analytics.BATCHES_PER_PAGE >= 240
+
+
+def test_nav_links_have_stable_names(tracked):
+    html = requests.get(tracked + "/about").text
+    for name in ["nav-ballot", "nav-search", "nav-ask", "nav-methodology", "nav-about"]:
+        assert f'data-track="{name}"' in html, name
