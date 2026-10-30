@@ -159,28 +159,37 @@ of at most 10,000 lines, gzip of complete files, 60-day deletion, disk guard). `
 - [ ] **Step 3:** On www, walk home → ZIP → ballot → measure in the browser with `?src=test`; confirm the lines on the server (as the service account) and that a GPC browser adds none. Then delete those test lines' file only if it holds nothing else (or leave them; they carry `src=test`).
 - [ ] **Step 4:** Update the ops handoff with: the event directory, file naming, retention, and that analytics-system read access is a future sitting item.
 
-### Task 5: Phase 2 events
+### Task 5: Phase 2 events (revised 30 Oct: every control, not only tagged ones)
 
-**Files:**
-- Modify: `thinkballot/services/web/analytics.py` (`CLIENT_EVENTS` phase-2 types)
-- Modify: `thinkballot/services/web/app.py` (`api_ask`, `search_page` server events)
-- Modify: `thinkballot/services/web/static/app.js`
-- Modify: templates with interactive elements (`data-track="<name>"` attributes)
-- Test: `tests/test_analytics.py`
+Owner ruling (30 Oct): clicks on all visual controls — buttons, links, dropdowns, tabs, expandable sections,
+checkboxes — are logged automatically; `data-track` only gives stable names to the important ones.
+
+**Files:** `services/web/analytics.py` (CLIENT_EVENTS, server `ask`/`search` events), `services/web/app.py`
+(`api_ask`, `search_page`), `static/app.js`, templates (`data-track`, `data-rank`), `tests/test_analytics.py`, a JS
+harness test in `tests/test_analytics.py` (Node, like the Ask harness).
 
 **Interfaces:**
-- Consumes: `analytics.log`, `clean_client_event`, `track` (Tasks 2–3).
-- Produces:
-  - Server `ask` event from `api_ask`: props `measure`, `suggested` (int or null), `length` (len of question, 0 for suggested), `outcome` (`prepared` / `live` / `refused` / `error` / `limited`), `status` (HTTP), `server_ms`, `translated` (bool). Never the question.
-  - Server `search` event from `search_page`: `q` (≤100 chars), `topic` (≤40), `results` (int).
-  - `CLIENT_EVENTS` additions: `click` {`name` str≤40, `measure` str≤40, `label` str≤80, `href_host` str≤80}; `scroll` {`depth` int in 25/50/75/100}; `engaged` {`ms` int}; `star` {`measure`, `on` bool}; `read` {`measure`}; `share` {`measure`, `method` str≤20}; `search_click` {`measure`, `rank` int}; `error` {`message` str≤200, `source` str≤120, `line` int}.
-  - JS: one delegated click listener sending `click` for any element with `data-track` (label = the attribute `data-track-label` or trimmed text ≤80; `href_host` for links leaving the site); scroll thresholds once per page; `engaged` visible time on hide; `star`/`read`/`share` from the existing handlers; `window.onerror` and `unhandledrejection` → `error` (max 5 per page).
-  - `data-track` names (minimum): `tab-<field>`, `ask-submit`, `suggest-<n>`, `star`, `share`, `lang-<code>`, `source-link`, `measure-link`, `search-result`, `zip-submit`, `results-link`, `nav-<name>`.
-- [ ] **Step 1: Write the failing tests:** `test_ask_event_never_has_question_text` (typed question "my secret words" → `ask` line with `length == 15` and no line contains "secret"); `test_suggested_ask_event` (suggested=0 → `suggested == 0`, outcome set); `test_search_event_truncates_query` (q of 300 chars → 100 stored); `test_phase2_client_events_cleaned` (each new type with valid and invalid props; `scroll` depth 33 dropped); `test_track_names_present` (measure page HTML contains `data-track="ask-submit"`, `data-track="star"`, `data-track="share"`; ballot page contains `data-track="measure-link"`).
-- [ ] **Step 2: Run** — fail.
-- [ ] **Step 3: Implement.**
-- [ ] **Step 4: Run** `.venv/bin/pytest -q` — all pass; local browser journey with `TB_ANALYTICS=force` shows click, scroll, engaged, ask, search, star, share lines and no question text.
-- [ ] **Step 5: Commit** `git commit -m "Analytics phase 2: clicks on tagged elements, Ask outcomes (never the question), search, scroll, time on page, script errors"`
+- Browser `click` (capture-phase listener on `document`) for the closest `a, button, summary, select, label,
+  input[type=checkbox], input[type=radio], [role=button], [role=tab], [data-track]` of the target; text inputs and
+  textareas are never logged. Props: `name` (≤40: `data-track`, else id, else first class, else tag), `kind` (≤16: tag
+  or input type), `label` (≤80: `data-track-label`, `aria-label`, or trimmed text; never an input's value), `measure`
+  (≤40: closest `[data-measure]`, else `/prop/<id>` in the href, else the page's), `href` (≤120: same-site path
+  without query and language prefix, or the host only for other sites), `rank` (int ≤1000, from `data-rank` or
+  `data-index`), `on` (bool: checkbox state or `aria-pressed` after the click, `open` for a summary).
+- Browser `select` on `change` of a `<select>`: `name`, `value` (≤80, the option value), `label` (≤80, option text), `measure`.
+- `scroll` {`depth` ∈ {25, 50, 75, 100}} once per threshold per page; `engaged` {`ms` int ≤ 86,400,000} visible time,
+  sent when hidden; `error` {`message` ≤200, `source` ≤120, `line` int ≤10^7}, at most 5 per page.
+- Server `ask` (from `api_ask`, every return path): `measure`, `suggested` (int|null), `length` (typed question
+  length, 0 for suggested), `outcome` (`prepared`/`answered`/`refused`/`held`/`error`/`limited`/`bad_request`),
+  `status` (HTTP), `server_ms`, `translated` (bool), `verdict` (Bias Buster verdict or null). Never the text.
+- Server `search` (from `search_page`): `q` (≤100), `topic` (≤40), `results` (int).
+- `data-track` names: `zip-submit`, `zip-sample`, `ask-submit`, `suggest`, `star`, `share`, `measure-select`,
+  `local-more`, `analysis-more`, `lang-<code>`, `search-result` (+ `data-rank`).
+- [ ] Tests first: server-side cleaning of every new type (valid/invalid props; `scroll` depth 33 dropped);
+  `test_ask_event_never_has_question_text`; `test_suggested_ask_event`; `test_ask_event_on_rate_limit`;
+  `test_search_event_truncates_query`; `test_track_names_present`; Node harness: a click on a button, a link to
+  another site, a select change and a checkbox produce the expected queued events; typing in a text box queues nothing.
+- [ ] Implement; whole suite; local browser journey; commit.
 
 ### Task 6: Review and deploy phase 2
 
