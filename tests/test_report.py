@@ -151,3 +151,53 @@ def test_fonts_come_from_the_site_itself(server):
         assert font.status_code == 200 and font.content[:4] == b"wOF2", name
     for family in ("Fraunces", "Public Sans", "IBM Plex Mono"):
         assert f"font-family: '{family}'" in css.text
+
+
+def test_line_breaks_count_once_like_the_browser_counts_them(fresh):
+    s, _, csrf = form(fresh)
+    message = "\r\n".join(["x" * 99] * 20)  # 2,000 characters as the browser counts them
+    r = s.post(fresh + "/report", data={"csrf": csrf, "kind": "error", "page": "/", "message": message})
+    assert r.status_code == 200
+    assert rows()[0]["message"] == message.replace("\r\n", "\n")
+
+
+def test_control_characters_are_removed_before_saving(fresh):
+    s, _, csrf = form(fresh)
+    s.post(fresh + "/report", data={"csrf": csrf, "kind": "error", "page": "/",
+                                    "message": "hello \x1b[2J\x1b]0;pwn\x07 world\n\tnext line",
+                                    "contact": "a\x1b[31m@example.com"})
+    row = rows()[0]
+    assert row["message"] == "hello [2J]0;pwn world\n\tnext line" and row["contact"] == "a[31m@example.com"
+
+
+def test_security_reports_get_through_when_the_site_wide_cap_is_full(fresh, monkeypatch):
+    monkeypatch.setattr(reports, "SITEWIDE_HOUR", 0)
+    s, _, csrf = form(fresh)
+    data = {"csrf": csrf, "page": "/", "message": "A real sentence about a problem."}
+    assert s.post(fresh + "/report", data={**data, "kind": "error"}).status_code == 429
+    assert s.post(fresh + "/report", data={**data, "kind": "security"}).status_code == 200
+
+
+def test_a_failed_save_keeps_the_text_and_asks_to_try_again(fresh, monkeypatch):
+    def broken(*a, **k):
+        raise sqlite3.OperationalError("database is locked")
+    monkeypatch.setattr(reports, "save", broken)
+    s, _, csrf = form(fresh)
+    r = s.post(fresh + "/report", data={"csrf": csrf, "kind": "error", "page": "/",
+                                        "message": "Keep this text for me please."})
+    assert r.status_code == 503 and "Keep this text for me please." in r.text
+
+
+def test_old_reports_are_deleted_even_without_new_ones(fresh):
+    reports.save("error", "/", "An old report about something.", "", "en",
+                 now=datetime.now(timezone.utc) - timedelta(days=61))
+    reports.purge()
+    assert rows() == []
+
+
+def test_report_page_is_not_indexed_and_has_no_link_to_itself(fresh, monkeypatch):
+    monkeypatch.setattr(config, "IS_PRODUCTION", True)
+    assert 'name="robots"' not in requests.get(fresh + "/about").text
+    _, page, _ = form(fresh, "/report")
+    assert 'name="robots" content="noindex"' in page.text
+    assert 'data-track="report-error"' not in page.text

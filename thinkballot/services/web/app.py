@@ -3,6 +3,7 @@
 import datetime as dt
 import re
 import secrets
+import sqlite3
 import time
 from zoneinfo import ZoneInfo
 
@@ -576,12 +577,16 @@ def create_app():
             value = (value or "").strip()[:reports.PAGE_MAX]
             return value if REPORT_PAGE_RE.fullmatch(value) else ""
         if request.method == "GET":
+            try:
+                reports.purge()
+            except sqlite3.Error:
+                pass  # the next save or visit deletes them
             kind = request.args.get("kind")
             return render_template("report.html", page=clean_page(request.args.get("page")),
                                    kind=kind if kind in reports.KINDS else "error")
         form = request.form
-        kind, page = form.get("kind"), clean_page(form.get("page"))
-        message, contact = (form.get("message") or "").strip(), (form.get("contact") or "").strip()
+        kind, page = form.get("kind"), clean_page(reports.clean(form.get("page")))
+        message, contact = reports.clean(form.get("message")), reports.clean(form.get("contact"))
         if form.get("website"):  # a field people never see: only form-filling bots fill it in
             return render_template("report.html", sent=True)
         if (kind not in reports.KINDS or len(contact) > reports.CONTACT_MAX
@@ -591,10 +596,15 @@ def create_app():
                                    error=_("Please describe the problem in 10 to 2,000 characters.")), 400
         if not (ratelimit.allow("report", ratelimit.client_key(request.remote_addr),
                                 [(reports.PER_NETWORK_HOUR, 3600)])
-                and ratelimit.allow("report", None, [(reports.SITEWIDE_HOUR, 3600)])):
+                and (ratelimit.allow("report-security", None, [(reports.SECURITY_SITEWIDE_HOUR, 3600)])
+                     if kind == "security" else ratelimit.allow("report", None, [(reports.SITEWIDE_HOUR, 3600)]))):
             return render_template("report.html", page=page, kind=kind, message=message, contact=contact,
                                    error=_("Too many reports right now. Please try again in an hour.")), 429
-        reports.save(kind, page, message, contact, g.lang)
+        try:
+            reports.save(kind, page, message, contact, g.lang)
+        except sqlite3.Error:
+            return render_template("report.html", page=page, kind=kind, message=message, contact=contact,
+                                   error=_("Your report couldn't be saved. Please try again in a minute.")), 503
         analytics.log("report", {"kind": kind})
         return render_template("report.html", sent=True)
 

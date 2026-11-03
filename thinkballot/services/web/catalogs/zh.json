@@ -293,6 +293,7 @@
   "Send report": "送出報告",
   "Reports are kept for 60 days and are never shown on the site.": "報告會保留 60 天，且絕不會顯示在網站上。",
   "Please describe the problem in 10 to 2,000 characters.": "請用 10 到 2,000 個字元描述問題。",
-  "Too many reports right now. Please try again in an hour.": "目前的報告太多了。請在一小時後再試一次。"
+  "Too many reports right now. Please try again in an hour.": "目前的報告太多了。請在一小時後再試一次。",
+  "Your report couldn't be saved. Please try again in a minute.": "無法儲存你的報告。請在一分鐘後再試一次。"
  }
 }

@@ -16,7 +16,7 @@
 <link rel="canonical" href="{{ canonical_base }}{% for l in languages if l.current %}{{ l.path }}{% endfor %}">
 {% for l in languages %}<link rel="alternate" hreflang="{{ l.hreflang }}" href="{{ canonical_base }}{{ l.path }}">
 {% endfor %}<link rel="alternate" hreflang="x-default" href="{{ canonical_base }}{{ request.path }}">
-{% if not is_production %}<meta name="robots" content="noindex">
+{% if not is_production or request.endpoint == "report_page" %}<meta name="robots" content="noindex">
 {% endif %}
 <link rel="preload" href="{{ url_for('static', filename='fonts/public-sans-latin.woff2') }}" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ url_for('static', filename='fonts/fraunces-latin.woff2') }}" as="font" type="font/woff2" crossorigin>
@@ -60,7 +60,7 @@
   <span class="spacer"></span>
   <a href="{{ lp('/neutral') }}">{{ _("How we stay neutral") }}</a>
   <a href="{{ lp('/about') }}">{{ _("About") }}</a>
-  <a href="{{ lp('/report') }}?page={{ (lang_prefix ~ request.path)|urlencode }}" data-track="report-error">{{ _("Report an error") }}</a>
+  {% if request.endpoint != "report_page" %}<a href="{{ lp('/report') }}?page={{ (lang_prefix ~ request.path)|urlencode }}" data-track="report-error">{{ _("Report an error") }}</a>{% endif %}
   {% if lang != "en" %}<p class="translation-note">{{ _("Interface text is translated by ThinkBallot. Official measure text comes word for word from the Secretary of State's official translation of the voter guide, or is shown in English where there is none.") }}</p>{% endif %}
 </div></footer>
 </body>

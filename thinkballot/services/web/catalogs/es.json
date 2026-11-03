@@ -292,7 +292,8 @@
   "optional": "opcional",
   "Send report": "Enviar reporte",
   "Reports are kept for 60 days and are never shown on the site.": "Los reportes se guardan 60 días y nunca se muestran en el sitio.",
-  "Please describe the problem in 10 to 2,000 characters.": "Describe el problema en 10 a 2,000 caracteres.",
-  "Too many reports right now. Please try again in an hour.": "Hay demasiados reportes en este momento. Inténtalo de nuevo en una hora."
+  "Please describe the problem in 10 to 2,000 characters.": "Describe el problema con entre 10 y 2000 caracteres.",
+  "Too many reports right now. Please try again in an hour.": "Hay demasiados reportes en este momento. Inténtalo de nuevo en una hora.",
+  "Your report couldn't be saved. Please try again in a minute.": "No se pudo guardar tu reporte. Inténtalo de nuevo en un minuto."
  }
 }
