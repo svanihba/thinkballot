@@ -218,3 +218,9 @@ details.maybe summary strong { color: var(--ink); font-size: 1rem; }
 :root:lang(zh-Hant) body { line-height: 1.75; }
 /* Spanish runs about a quarter longer than English: long words may break rather than overflow. */
 :root:lang(es) main { overflow-wrap: break-word; }
+.report-form { background: #fffdf8; border: 1.5px solid var(--ink); padding: 1.3rem; margin-top: 1.6rem; max-width: 40rem; }
+.report-form label { display: block; font-family: var(--sans); font-size: 0.9rem; font-weight: 600; letter-spacing: normal; text-transform: none; margin: 0.8rem 0; }
+.report-form .hint { font-weight: 400; }
+.report-form input, .report-form select, .report-form textarea { display: block; width: 100%; margin-top: 0.3rem; font: inherit; font-weight: 400; font-size: 1rem; min-height: var(--tap); padding: 0.6rem 0.8rem; border: 2px solid var(--ink); border-radius: 3px; background: #fff; }
+.report-form textarea { min-height: 8rem; }
+.report-form .trap { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }

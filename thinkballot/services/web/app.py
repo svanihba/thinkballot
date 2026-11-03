@@ -11,10 +11,11 @@ from flask import Flask, abort, flash, g, jsonify, redirect, render_template, re
 from ... import config, ratelimit
 from ...servicekit import ServiceClient, ServiceError
 from ...suggested import SUGGESTED_QUESTIONS
-from . import analytics, i18n
+from . import analytics, i18n, reports
 
 SAMPLE_ZIP = "94087"
 MEASURE_ID_RE = re.compile(r"^(prop|local)-[a-z0-9-]{1,24}$")
+REPORT_PAGE_RE = re.compile(r"^/(?![/\\])[A-Za-z0-9._~%/-]*$")  # the page a report is about: a path here
 SAFE_NEXT_RE = re.compile(r"^/(?![/\\])[A-Za-z0-9._~!$&'()*+,;=:@%/?-]*$")  # same-site path, no //host
 
 # Card field headings, in display order. YES and NO always use the same layout.
@@ -57,8 +58,8 @@ JS_STRINGS = {
 }
 
 
-CSP = ("default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; "
-       "font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; form-action 'self'; "
+CSP = ("default-src 'self'; script-src 'self'; style-src 'self'; "
+       "font-src 'self'; img-src 'self' data:; connect-src 'self'; form-action 'self'; "
        "frame-ancestors 'none'; base-uri 'none'; object-src 'none'")
 
 
@@ -568,6 +569,44 @@ def create_app():
     @app.get("/about")
     def about():
         return render_template("about.html")
+
+    @app.route("/report", methods=["GET", "POST"])
+    def report_page():
+        def clean_page(value):
+            value = (value or "").strip()[:reports.PAGE_MAX]
+            return value if REPORT_PAGE_RE.fullmatch(value) else ""
+        if request.method == "GET":
+            kind = request.args.get("kind")
+            return render_template("report.html", page=clean_page(request.args.get("page")),
+                                   kind=kind if kind in reports.KINDS else "error")
+        form = request.form
+        kind, page = form.get("kind"), clean_page(form.get("page"))
+        message, contact = (form.get("message") or "").strip(), (form.get("contact") or "").strip()
+        if form.get("website"):  # a field people never see: only form-filling bots fill it in
+            return render_template("report.html", sent=True)
+        if (kind not in reports.KINDS or len(contact) > reports.CONTACT_MAX
+                or not reports.MESSAGE_MIN <= len(message) <= reports.MESSAGE_MAX):
+            return render_template("report.html", page=page, kind=kind if kind in reports.KINDS else "error",
+                                   message=message[:reports.MESSAGE_MAX], contact=contact[:reports.CONTACT_MAX],
+                                   error=_("Please describe the problem in 10 to 2,000 characters.")), 400
+        if not (ratelimit.allow("report", ratelimit.client_key(request.remote_addr),
+                                [(reports.PER_NETWORK_HOUR, 3600)])
+                and ratelimit.allow("report", None, [(reports.SITEWIDE_HOUR, 3600)])):
+            return render_template("report.html", page=page, kind=kind, message=message, contact=contact,
+                                   error=_("Too many reports right now. Please try again in an hour.")), 429
+        reports.save(kind, page, message, contact, g.lang)
+        analytics.log("report", {"kind": kind})
+        return render_template("report.html", sent=True)
+
+    @app.get("/.well-known/security.txt")
+    def security_txt():
+        base = config.CANONICAL_BASE if config.IS_PRODUCTION else config.PUBLIC_BASE
+        expires = (dt.datetime.now(dt.timezone.utc) + dt.timedelta(days=180)).strftime("%Y-%m-%dT00:00:00Z")
+        body = (f"Contact: {base}/report?kind=security\n"
+                f"Expires: {expires}\n"
+                "Preferred-Languages: en, es, zh\n"
+                f"Canonical: {base}/.well-known/security.txt\n")
+        return app.response_class(body, mimetype="text/plain")
 
     @app.errorhandler(404)
     def not_found(_exc):

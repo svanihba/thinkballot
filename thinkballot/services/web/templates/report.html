@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}{{ _a("Report an error") }} · ThinkBallot{% endblock %}
+{% block main %}
+<div class="eyebrow">{{ _("Report an error") }}</div>
+{% if sent %}
+<h1>{{ _("Thank you") }}</h1>
+<p class="lede">{{ _("Your report was sent. If you left an email address, we may write back.") }}</p>
+<p><a class="btn ghost" href="{{ lp('/') }}">{{ _("Back to ThinkBallot") }}</a></p>
+{% else %}
+<h1>{{ _("Tell us what's wrong") }}</h1>
+<p class="lede">{{ _("Spotted a mistake, a broken page or something that doesn't look neutral? Tell us and we'll fix it.") }}</p>
+<form method="post" class="report-form panel">
+  {% if error %}<div class="notice" role="alert">{{ error }}</div>{% endif %}
+  <input type="hidden" name="csrf" value="{{ csrf_token() }}">
+  <label>{{ _("What kind of problem?") }}
+    <select name="kind" data-track="report-kind">
+      <option value="error"{% if kind == "error" %} selected{% endif %}>{{ _("Something on a page is wrong") }}</option>
+      <option value="security"{% if kind == "security" %} selected{% endif %}>{{ _("A security problem") }}</option>
+      <option value="other"{% if kind == "other" %} selected{% endif %}>{{ _("Something else") }}</option>
+    </select></label>
+  <label>{{ _("Which page?") }}
+    <input type="text" name="page" value="{{ page }}" maxlength="300" autocomplete="off"></label>
+  <label>{{ _("What's wrong?") }}
+    <textarea name="message" minlength="10" maxlength="2000" required>{{ message }}</textarea></label>
+  <label>{{ _("Your email, if you'd like a reply") }} <span class="hint">({{ _("optional") }})</span>
+    <input type="email" name="contact" value="{{ contact }}" maxlength="200" autocomplete="email"></label>
+  <label class="trap" aria-hidden="true">Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+  <button class="btn" type="submit" data-track="report-submit">{{ _("Send report") }}</button>
+  <p class="hint">{{ _("Reports are kept for 60 days and are never shown on the site.") }}</p>
+</form>
+{% endif %}
+{% endblock %}

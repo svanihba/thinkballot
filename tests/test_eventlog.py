@@ -198,3 +198,16 @@ def test_a_late_thread_never_moves_back_an_hour(tmp_path):
     log.write({"type": "b"}, now=at(2026, 10, 30, 13, 59))  # stamped just before the hour, written after
     log.write({"type": "c"}, now=at(2026, 10, 30, 14, 0, 1))
     assert sorted(p.name for p in tmp_path.glob("*.jsonl")) == [f"events-2026-10-30-14-{PID}-0.jsonl"]
+
+
+def test_an_existing_folder_keeps_its_group_setup_and_files_are_group_readable(tmp_path):
+    # The operator makes the folder setgid with a read-only group for the analytics copier; the log
+    # must not change the folder's mode, and its files must stay readable by that group.
+    folder = tmp_path / "events"
+    folder.mkdir()
+    os.chmod(folder, 0o2750)
+    log = EventLog(folder)
+    log.write({"type": "pageview"}, now=NOW)
+    assert folder.stat().st_mode & 0o7777 == 0o2750
+    [f] = folder.glob("events-*.jsonl")
+    assert f.stat().st_mode & 0o777 == 0o640

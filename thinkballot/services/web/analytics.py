@@ -20,7 +20,8 @@ from flask import g, jsonify, request, session
 
 from ... import config, eventlog, ratelimit
 
-PAGE_ENDPOINTS = {"landing", "ballot_page", "measure_page", "search_page", "ask_page", "neutral", "about"}
+PAGE_ENDPOINTS = {"landing", "ballot_page", "measure_page", "search_page", "ask_page", "neutral", "about",
+                  "report_page"}
 TOKEN_SECONDS = 12 * 3600
 MAX_EVENTS, MAX_BODY = 20, 16 * 1024
 BATCHES_PER_PAGE, BATCHES_PER_NETWORK_HOUR = 240, 600  # 240 x 15 s = an hour of steady use

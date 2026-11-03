@@ -20,6 +20,7 @@ def server(tmp_path_factory):
     config.COMMUNITY_DB_PATH = tmp / "community.sqlite3"
     config.RATE_DB_PATH = tmp / "ratelimit.sqlite3"
     config.ASK_CACHE_PATH = tmp / "ask_cache.sqlite3"
+    config.PROBLEM_REPORTS_DB_PATH = tmp / "problem_reports.sqlite3"
     config.RESULTS_DB_PATH = tmp / "results.sqlite3"
     config.RESULTS_FIXTURE = ""
 
