@@ -40,7 +40,9 @@ Built by Abhinav Shirbhate in Sunnyvale, California.
 5. **Bias Buster** checks every AI answer and every label ThinkBallot writes: quote check (every point must
    quote the official text), number check, loaded-word check, YES/NO balance check, then an AI neutrality
    review whose edits go through the same checks again. If the review can't run, the answer is held back.
-6. **Privacy:** only the ZIP code is used for districts; addresses and questions are never stored or logged.
+6. **Privacy:** only the ZIP code is used for districts; addresses and questions are never stored or logged. The
+   ZIP code is kept for 60 days for site statistics, never linked to an account, and not at all when the browser
+   sends Global Privacy Control or Do Not Track.
 
 ## How it's built
 

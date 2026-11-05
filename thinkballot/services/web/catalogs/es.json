@@ -292,15 +292,16 @@
   "Please describe the problem in 10 to 2,000 characters.": "Describe el problema con entre 10 y 2000 caracteres.",
   "Too many reports right now. Please try again in an hour.": "Hay demasiados reportes en este momento. Inténtalo de nuevo en una hora.",
   "Your report couldn't be saved. Please try again in a minute.": "No se pudo guardar tu reporte. Inténtalo de nuevo en un minuto.",
-  "Counting the votes": "Así se cuentan los votos",
   "Voted by mail?": "¿Votaste por correo?",
-  "Ballots postmarked on or before November 3 are counted if they arrive by November 10.": "Las boletas con matasellos del 3 de noviembre o antes se cuentan si llegan a más tardar el 10 de noviembre.",
   "Results:": "Resultados:",
-  "Counties keep counting valid ballots for weeks after election day, so totals change. Results on this site are unofficial until the Secretary of State certifies the results, by December 11.": "Los condados siguen contando las boletas válidas durante semanas después del día de las elecciones, así que los totales cambian. Los resultados en este sitio no son oficiales hasta que la Secretaría de Estado los certifique, a más tardar el 11 de diciembre.",
   "See the official results": "Ver los resultados oficiales",
   "The Secretary of State has certified the results.": "La Secretaría de Estado certificó los resultados.",
-  "We use your ZIP code to find your likely districts. It is kept for 60 days for site statistics, never linked to an account.": "Usamos tu código postal para encontrar tus distritos probables. Se guarda 60 días para las estadísticas del sitio y nunca se vincula a una cuenta.",
   "Your ZIP code is used for districts and statistics only": "Tu código postal se usa solo para los distritos y las estadísticas",
-  "We use only the ZIP code to find your likely districts. It is kept for 60 days for site statistics, never linked to an account. Questions aren't logged. Stars and reading progress stay in your own browser.": "Solo usamos el código postal para encontrar tus distritos probables. Se guarda 60 días para las estadísticas del sitio y nunca se vincula a una cuenta. No registramos las preguntas. Las marcas y tu progreso de lectura se quedan en tu propio navegador."
+  "After election day": "Después del día de las elecciones",
+  "Ballots postmarked on or before November 3 can be counted if they arrive by November 10.": "Las boletas con matasellos del 3 de noviembre o antes pueden contarse si llegan a más tardar el 10 de noviembre.",
+  "Counties keep counting valid ballots for weeks after election day, so totals change. Results on this site are unofficial until the Secretary of State certifies the results, by December 11.": "Los condados siguen contando las boletas válidas durante semanas después del día de las elecciones, así que los totales cambian. Los resultados en este sitio no son oficiales hasta que la Secretaría de Estado los certifique, a más tardar el 11 de diciembre.",
+  "We use your ZIP code to find your likely districts. Unless your browser sends Global Privacy Control or Do Not Track, it is kept for 60 days for site statistics, never linked to an account.": "Usamos tu código postal para encontrar tus distritos probables. Salvo que tu navegador envíe Global Privacy Control o Do Not Track, se guarda 60 días para las estadísticas del sitio y nunca se vincula a una cuenta.",
+  "We use only the ZIP code to find your likely districts. Unless your browser sends Global Privacy Control or Do Not Track, it is kept for 60 days for site statistics, never linked to an account. Questions aren't logged. Stars and reading progress stay in your own browser.": "Solo usamos el código postal para encontrar tus distritos probables. Salvo que tu navegador envíe Global Privacy Control o Do Not Track, se guarda 60 días para las estadísticas del sitio y nunca se vincula a una cuenta. No registramos las preguntas. Las marcas y tu progreso de lectura se quedan en tu propio navegador.",
+  "No results reported yet.": "Aún no se han reportado resultados."
  }
 }

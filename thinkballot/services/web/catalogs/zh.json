@@ -292,15 +292,16 @@
   "Please describe the problem in 10 to 2,000 characters.": "請用 10 到 2,000 個字元描述問題。",
   "Too many reports right now. Please try again in an hour.": "目前的報告太多了。請在一小時後再試一次。",
   "Your report couldn't be saved. Please try again in a minute.": "無法儲存你的報告。請在一分鐘後再試一次。",
-  "Counting the votes": "計票進行中",
   "Voted by mail?": "已郵寄投票？",
-  "Ballots postmarked on or before November 3 are counted if they arrive by November 10.": "郵戳日期為11月3日或之前的選票，只要在11月10日之前寄達就會被計入。",
   "Results:": "結果：",
-  "Counties keep counting valid ballots for weeks after election day, so totals change. Results on this site are unofficial until the Secretary of State certifies the results, by December 11.": "選舉日之後，各縣會繼續計算有效選票達數週，因此總數會變動。在州務卿於12月11日之前認證結果以前，本網站上的結果都是非官方結果。",
   "See the official results": "查看官方結果",
   "The Secretary of State has certified the results.": "州務卿已認證選舉結果。",
-  "We use your ZIP code to find your likely districts. It is kept for 60 days for site statistics, never linked to an account.": "我們用你的郵遞區號找出你可能的選區。它會為網站統計保存60天，絕不會與帳戶連結。",
   "Your ZIP code is used for districts and statistics only": "你的郵遞區號只用於選區和統計",
-  "We use only the ZIP code to find your likely districts. It is kept for 60 days for site statistics, never linked to an account. Questions aren't logged. Stars and reading progress stay in your own browser.": "我們只用郵遞區號找出你可能的選區。它會為網站統計保存60天，絕不會與帳戶連結。問題不會被記錄。星號和閱讀進度只保存在你自己的瀏覽器裡。"
+  "After election day": "選舉日之後",
+  "Ballots postmarked on or before November 3 can be counted if they arrive by November 10.": "郵戳日期為11月3日或之前的選票，最晚於11月10日寄達即可計入。",
+  "Counties keep counting valid ballots for weeks after election day, so totals change. Results on this site are unofficial until the Secretary of State certifies the results, by December 11.": "選舉日之後，各縣會繼續計算有效選票達數週，因此總數會變動。在州務卿最晚於12月11日認證結果以前，本網站上的結果都是非官方結果。",
+  "We use your ZIP code to find your likely districts. Unless your browser sends Global Privacy Control or Do Not Track, it is kept for 60 days for site statistics, never linked to an account.": "我們用你的郵遞區號找出你可能的選區。除非你的瀏覽器發送 Global Privacy Control 或 Do Not Track，它會為網站統計保存60天，絕不會與帳戶連結。",
+  "We use only the ZIP code to find your likely districts. Unless your browser sends Global Privacy Control or Do Not Track, it is kept for 60 days for site statistics, never linked to an account. Questions aren't logged. Stars and reading progress stay in your own browser.": "我們只用郵遞區號找出你可能的選區。除非你的瀏覽器發送 Global Privacy Control 或 Do Not Track，它會為網站統計保存60天，絕不會與帳戶連結。問題不會被記錄。星號和閱讀進度只保存在你自己的瀏覽器裡。",
+  "No results reported yet.": "尚未公布結果。"
  }
 }

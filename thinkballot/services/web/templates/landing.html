@@ -20,7 +20,7 @@
     <span class="hint">{{ _("Just exploring?") }}</span>
     <button class="linklike" type="submit" data-track="zip-sample">{{ _("Try a sample ZIP code: {zip}", zip=sample_zip) }}</button>
   </form>
-  <p class="hint">{{ _("We use your ZIP code to find your likely districts. It is kept for 60 days for site statistics, never linked to an account.") }}</p>
+  <p class="hint">{{ _("We use your ZIP code to find your likely districts. Unless your browser sends Global Privacy Control or Do Not Track, it is kept for 60 days for site statistics, never linked to an account.") }}</p>
 </section>
 
 {% if results and results.available %}
@@ -29,11 +29,12 @@
   <div class="section-head"><span class="sec-num">{{ _("STATEWIDE") }}</span><h2 id="home-results-h">{{ _("Certified results") if results.status == "certified" else _("Unofficial results") }}</h2></div>
   {# One status line for the whole list (the same text each card would repeat). #}
   <p class="hint home-results-status">{% if results.preview %}<strong>{{ _("Preview with test data, not real results.") }}</strong> {% endif %}
-    {% if results.status == "certified" %}{{ _('Certified results as of {time}, from the <a href="{url}" target="_blank" rel="noopener">{source}</a>.', time=results|results_time, url=results.source_page, source=_a(results.source_name)) }}{% else %}{{ _('Unofficial results as of {time}, from the <a href="{url}" target="_blank" rel="noopener">{source}</a>.', time=results|results_time, url=results.source_page, source=_a(results.source_name)) }} {{ _("Counting continues after election day; totals change until the results are certified.") }}{% endif %}</p>
+    {% if results.status == "certified" %}{{ _('Certified results as of {time}, from the <a href="{url}" target="_blank" rel="noopener">{source}</a>.', time=results|results_time, url=results.source_page, source=_a(results.source_name)) }}{% else %}{{ _('Unofficial results as of {time}, from the <a href="{url}" target="_blank" rel="noopener">{source}</a>.', time=results|results_time, url=results.source_page, source=_a(results.source_name)) }} {{ _("Counting continues after election day; totals change until the results are certified.") }}{% endif %}{% if results.reporting %}
+    {% if lang == "en" %}{{ results.reporting.text }}.{% else %}{{ _("{pct}% ({done} of {total}) precincts reporting.", pct=results.reporting.percent, done="{:,}".format(results.reporting.precincts), total="{:,}".format(results.reporting.precincts_total)) }}{% endif %}{% endif %}</p>
   <ul class="home-results-list">
     {% for m in measures %}
     <li><a href="{{ lp('/prop/' ~ m.id) }}"><span class="tag">{{ _a("Prop {n}", n=m.number) }}</span> <span{% if lang != "en" and "title" not in m.translated %} lang="en"{% endif %}>{{ m.title }}</span></a>
-      {{ results_block(results.measures.get(m.number), results, compact=True) }}</li>
+      {% if results.measures.get(m.number) %}{{ results_block(results.measures.get(m.number), results, compact=True) }}{% else %}<p class="hint">{{ _("No results reported yet.") }}</p>{% endif %}</li>
     {% endfor %}
   </ul>
 </section>

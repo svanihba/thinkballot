@@ -5,14 +5,17 @@
 {% if after_polls %}
 {# After the polls close (8 p.m. Pacific): what happens to ballots now. Mail ballots postmarked by election day
    count if they arrive within 7 days (Elections Code 3020); the Secretary of State certifies on the 38th day. #}
+{# Certified: the results service's own status when there are results (as the results box shows), so the
+   page never says both; the web service's setting only when there are none. #}
+{% set certified = (results.status == "certified") if (results and results.available) else results_certified %}
 <section class="howto" aria-labelledby="howto-h">
-  <h2 id="howto-h">{{ _("Counting the votes") }}</h2>
+  <h2 id="howto-h">{{ _("After election day") }}</h2>
   <ul>
-    {% if results_certified %}
+    {% if certified %}
     <li><strong>{{ _("Results:") }}</strong> {{ _("The Secretary of State has certified the results.") }}
       <a href="https://electionresults.sos.ca.gov/">{{ _("See the official results") }}</a></li>
     {% else %}
-    <li><strong>{{ _("Voted by mail?") }}</strong> {{ _("Ballots postmarked on or before November 3 are counted if they arrive by November 10.") }}
+    <li><strong>{{ _("Voted by mail?") }}</strong> {{ _("Ballots postmarked on or before November 3 can be counted if they arrive by November 10.") }}
       <a href="https://california.ballottrax.net/voter/">{{ _("Track your ballot") }}</a></li>
     <li><strong>{{ _("Results:") }}</strong> {{ _("Counties keep counting valid ballots for weeks after election day, so totals change. Results on this site are unofficial until the Secretary of State certifies the results, by December 11.") }}
       <a href="https://electionresults.sos.ca.gov/">{{ _("See the official results") }}</a></li>

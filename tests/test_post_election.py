@@ -30,7 +30,7 @@ def test_how_to_vote_until_the_polls_close(server, monkeypatch, path):
     monkeypatch.setattr(web_app, "utcnow", lambda: BEFORE)
     html = requests.get(server + path).text
     assert "How to vote by November 3" in html
-    assert "Counting the votes" not in html
+    assert "After election day" not in html
 
 
 @pytest.mark.parametrize("path", ["/", "/ballot", "/es/", "/zh/ballot"])
@@ -43,8 +43,8 @@ def test_counting_the_votes_after_the_polls_close(server, monkeypatch, path):
     assert "https://california.ballottrax.net/voter/" in html  # track your ballot still helps
     assert "https://electionresults.sos.ca.gov/" in html
     if path in ("/", "/ballot"):
-        assert "Counting the votes" in html
-        assert "postmarked on or before November 3 are counted if they arrive by November 10" in html
+        assert "After election day" in html
+        assert "postmarked on or before November 3 can be counted if they arrive by November 10" in html
         assert "unofficial until the Secretary of State certifies the results, by December 11" in html
 
 
@@ -60,7 +60,17 @@ def test_zip_note_is_accurate_everywhere(server):
     for path in ["/", "/es/", "/zh/", "/neutral", "/es/neutral", "/zh/neutral"]:
         html = requests.get(server + path).text
         assert "never stored" not in html and "then discard it" not in html, path
-    assert "It is kept for 60 days for site statistics, never linked to an account." in requests.get(server + "/").text
+    assert ("Unless your browser sends Global Privacy Control or Do Not Track, it is kept for 60 days for site "
+            "statistics, never linked to an account.") in requests.get(server + "/").text
+
+
+def test_counting_text_is_translated(server, monkeypatch):
+    monkeypatch.setattr(web_app, "utcnow", lambda: AFTER)
+    es = requests.get(server + "/es/").text
+    assert "Después del día de las elecciones" in es and "a más tardar el 10 de noviembre" in es
+    zh = requests.get(server + "/zh/").text
+    assert "最晚於11月10日寄達" in zh and "最晚於12月11日" in zh
+    assert "之前寄達" not in zh
 
 
 def render_landing(results, now=AFTER):
@@ -96,3 +106,34 @@ def test_certified_heading_on_home_page():
     html = render_landing(sample_results(status="certified"))
     s = re.search(r'<section class="home-results".*', html, re.S).group(0)
     assert "Certified results" in s and "Unofficial" not in s[: s.index("</h2>")]
+
+
+@pytest.mark.parametrize("status, flag", [("certified", False), ("unofficial", True)])
+def test_one_source_decides_certified(monkeypatch, status, flag):
+    # The results service's status wins when there are results, so the page never contradicts itself.
+    monkeypatch.setattr(config, "RESULTS_CERTIFIED", flag)
+    html = render_landing(sample_results(status=status))
+    if status == "certified":
+        assert "The Secretary of State has certified the results." in html and "unofficial until" not in html
+    else:
+        assert "unofficial until the Secretary of State certifies" in html and "has certified" not in html
+
+
+def test_measure_missing_from_the_feed_says_so():
+    res = sample_results()
+    del res["measures"]["45"]
+    s = render_landing(res).split('class="home-results"')[1]
+    item = s[s.index("prop-45"):]
+    assert "No results reported yet." in item[:item.index("</li>")]
+
+
+def test_home_status_line_says_how_complete_the_count_is():
+    res = sample_results()
+    s = render_landing(res).split('home-results-status"')[1].split("</p>")[0]
+    assert res["reporting"]["text"] in s
+
+
+def test_compact_results_are_not_repeated_landmarks():
+    html = render_landing(sample_results())
+    assert '<section class="results results-compact"' not in html
+    assert html.count('class="results results-compact"') == 2

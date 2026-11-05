@@ -5,7 +5,7 @@
 {% set lang = page_lang() %}
 {% if r and res and res.available %}
 {% set certified = res.status == "certified" %}
-<section class="results{% if compact %} results-compact{% endif %}" aria-label="{{ _a('Certified results') if certified else _a('Unofficial results') }}">
+{% if compact %}<div class="results results-compact">{% else %}<section class="results" aria-label="{{ _a('Certified results') if certified else _a('Unofficial results') }}">{% endif %}
   {% if not compact %}<div class="eyebrow results-title">{{ _("Certified results") if certified else _("Unofficial results") }}</div>{% endif %}
   <div class="results-pair">
     {% for side, votes, pct, bar in [(_a("YES"), r.yes_votes, r.yes_percent, r.yes_bar), (_a("NO"), r.no_votes, r.no_percent, r.no_bar)] %}
@@ -19,6 +19,6 @@
   <p class="results-status">{% if res.preview %}<strong>{{ _("Preview with test data, not real results.") }}</strong> {% endif %}
     {% if certified %}{{ _('Certified results as of {time}, from the <a href="{url}" target="_blank" rel="noopener">{source}</a>.', time=res|results_time, url=res.source_page, source=_a(res.source_name)) }}{% else %}{{ _('Unofficial results as of {time}, from the <a href="{url}" target="_blank" rel="noopener">{source}</a>.', time=res|results_time, url=res.source_page, source=_a(res.source_name)) }}{% endif %}{% if res.reporting and not compact %}
     {% if lang == "en" %}{{ res.reporting.text }}.{% else %}{{ _("{pct}% ({done} of {total}) precincts reporting.", pct=res.reporting.percent, done="{:,}".format(res.reporting.precincts), total="{:,}".format(res.reporting.precincts_total)) }}{% endif %}{% endif %}{% if res.status != "certified" and not compact %} {{ _("Counting continues after election day; totals change until the results are certified.") }}{% endif %}</p>
-</section>
+{% if compact %}</div>{% else %}</section>{% endif %}
 {% endif %}
 {% endmacro %}
