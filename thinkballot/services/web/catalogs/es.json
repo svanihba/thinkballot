@@ -109,7 +109,6 @@
   "See my ballot": "Ver mi boleta",
   "Just exploring?": "¿Solo estás explorando?",
   "Try a sample ZIP code: {zip}": "Prueba un código postal de ejemplo: {zip}",
-  "We use your ZIP code only to find your likely districts. It is never stored.": "Usamos tu código postal solo para encontrar tus distritos probables. Nunca lo guardamos.",
   "Plain English": "Lenguaje sencillo",
   "Every proposition on one short card: what it does, what YES means, what NO means, and what it costs.": "Cada propuesta en una ficha corta: qué hace, qué significa SÍ, qué significa NO y cuánto cuesta.",
   "Both sides, equally": "Los dos lados, por igual",
@@ -171,8 +170,6 @@
   "YES always comes before NO, in the same layout, style and colour. The official arguments for and against sit side by side.": "SÍ siempre va antes que NO, con el mismo diseño, estilo y color. Los argumentos oficiales a favor y en contra están uno al lado del otro.",
   "Quote it or skip it": "Se cita o no se dice",
   "A field we can't source says \"Not available in the official guide.\" An answer we can't ground is held back.": "Un dato sin fuente dice «No está disponible en la guía oficial». Una respuesta que no se puede respaldar no se muestra.",
-  "Your ZIP code is never stored": "Nunca guardamos tu código postal",
-  "We use only the ZIP code to find your likely districts, then discard it. Questions aren't logged. Stars and reading progress stay in your own browser.": "Solo usamos el código postal para encontrar tus distritos probables y luego lo descartamos. No registramos las preguntas. Las marcas y tu progreso de lectura se quedan en tu propio navegador.",
   "Official translations only": "Solo traducciones oficiales",
   "In Spanish and Chinese, official text comes word for word from the Secretary of State's official translation of the voter guide, checked the same way. Where there is no official translation, the English original is shown. ThinkBallot never machine-translates official text; it translates only its own words: the interface, and its checked answers to the suggested questions.": "En español y en chino, el texto oficial viene palabra por palabra de la traducción oficial de la guía para el votante de la Secretaría de Estado, y se revisa de la misma manera. Cuando no hay traducción oficial, se muestra el original en inglés. ThinkBallot nunca traduce texto oficial con traducción automática; solo traduce sus propias palabras: la interfaz y sus respuestas revisadas a las preguntas sugeridas.",
   "Bias Buster checks every piece of text we write and every AI answer before you see it. Two jobs: <strong>no bias</strong> and <strong>no made-up facts</strong>.": "Bias Buster revisa cada texto que escribimos y cada respuesta de la IA antes de que lo veas. Tiene dos tareas: <strong>nada de sesgo</strong> y <strong>nada de datos inventados</strong>.",
@@ -294,6 +291,16 @@
   "Reports are kept for 60 days and are never shown on the site.": "Los reportes se guardan 60 días y nunca se muestran en el sitio.",
   "Please describe the problem in 10 to 2,000 characters.": "Describe el problema con entre 10 y 2000 caracteres.",
   "Too many reports right now. Please try again in an hour.": "Hay demasiados reportes en este momento. Inténtalo de nuevo en una hora.",
-  "Your report couldn't be saved. Please try again in a minute.": "No se pudo guardar tu reporte. Inténtalo de nuevo en un minuto."
+  "Your report couldn't be saved. Please try again in a minute.": "No se pudo guardar tu reporte. Inténtalo de nuevo en un minuto.",
+  "Counting the votes": "Así se cuentan los votos",
+  "Voted by mail?": "¿Votaste por correo?",
+  "Ballots postmarked on or before November 3 are counted if they arrive by November 10.": "Las boletas con matasellos del 3 de noviembre o antes se cuentan si llegan a más tardar el 10 de noviembre.",
+  "Results:": "Resultados:",
+  "Counties keep counting valid ballots for weeks after election day, so totals change. Results on this site are unofficial until the Secretary of State certifies the results, by December 11.": "Los condados siguen contando las boletas válidas durante semanas después del día de las elecciones, así que los totales cambian. Los resultados en este sitio no son oficiales hasta que la Secretaría de Estado los certifique, a más tardar el 11 de diciembre.",
+  "See the official results": "Ver los resultados oficiales",
+  "The Secretary of State has certified the results.": "La Secretaría de Estado certificó los resultados.",
+  "We use your ZIP code to find your likely districts. It is kept for 60 days for site statistics, never linked to an account.": "Usamos tu código postal para encontrar tus distritos probables. Se guarda 60 días para las estadísticas del sitio y nunca se vincula a una cuenta.",
+  "Your ZIP code is used for districts and statistics only": "Tu código postal se usa solo para los distritos y las estadísticas",
+  "We use only the ZIP code to find your likely districts. It is kept for 60 days for site statistics, never linked to an account. Questions aren't logged. Stars and reading progress stay in your own browser.": "Solo usamos el código postal para encontrar tus distritos probables. Se guarda 60 días para las estadísticas del sitio y nunca se vincula a una cuenta. No registramos las preguntas. Las marcas y tu progreso de lectura se quedan en tu propio navegador."
  }
 }

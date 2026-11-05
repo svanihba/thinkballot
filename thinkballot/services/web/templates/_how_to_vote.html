@@ -2,6 +2,26 @@
    return 200: the Spanish pages under sos.ca.gov/es/, the Chinese "Voting in California" page);
    the lookup tools (registration status, ballot tracking, voting locations) have one address. #}
 {% set sos = "https://www.sos.ca.gov/es" if lang == "es" else "https://www.sos.ca.gov" %}
+{% if after_polls %}
+{# After the polls close (8 p.m. Pacific): what happens to ballots now. Mail ballots postmarked by election day
+   count if they arrive within 7 days (Elections Code 3020); the Secretary of State certifies on the 38th day. #}
+<section class="howto" aria-labelledby="howto-h">
+  <h2 id="howto-h">{{ _("Counting the votes") }}</h2>
+  <ul>
+    {% if results_certified %}
+    <li><strong>{{ _("Results:") }}</strong> {{ _("The Secretary of State has certified the results.") }}
+      <a href="https://electionresults.sos.ca.gov/">{{ _("See the official results") }}</a></li>
+    {% else %}
+    <li><strong>{{ _("Voted by mail?") }}</strong> {{ _("Ballots postmarked on or before November 3 are counted if they arrive by November 10.") }}
+      <a href="https://california.ballottrax.net/voter/">{{ _("Track your ballot") }}</a></li>
+    <li><strong>{{ _("Results:") }}</strong> {{ _("Counties keep counting valid ballots for weeks after election day, so totals change. Results on this site are unofficial until the Secretary of State certifies the results, by December 11.") }}
+      <a href="https://electionresults.sos.ca.gov/">{{ _("See the official results") }}</a></li>
+    {% endif %}
+    <li><strong>{{ _("Questions?") }}</strong> <a href="{{ sos }}/elections/voting-resources/county-elections-offices">{{ _("Contact your county elections office") }}</a></li>
+  </ul>
+  <p class="hint">{{ _('From the <a href="{url}">California Secretary of State</a>. Every link goes to an official government site.', url=sos ~ "/elections/upcoming-elections/general-election-november-3-2026") }}</p>
+</section>
+{% else %}
 <section class="howto" aria-labelledby="howto-h">
   <h2 id="howto-h">{{ _("How to vote by November 3") }}</h2>
   <ul>
@@ -17,3 +37,4 @@
   </ul>
   <p class="hint">{{ _('From the <a href="{url}">California Secretary of State</a>. Every link goes to an official government site.', url=sos ~ "/elections/upcoming-elections/general-election-november-3-2026") }}</p>
 </section>
+{% endif %}

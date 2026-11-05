@@ -39,6 +39,19 @@ FIELD_HEADINGS = {
 PACIFIC = ZoneInfo("America/Los_Angeles")
 SPANISH_MONTHS = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre",
                   "noviembre", "diciembre"]
+POLLS_CLOSE = dt.time(20, 0)  # 8 p.m. Pacific on election day
+
+
+def utcnow():
+    return dt.datetime.now(dt.timezone.utc)
+
+
+def polls_closed(election, now=None):
+    """True once the polls have closed on election day: the site then talks about counting, not voting."""
+    if not election or not election.get("date"):
+        return False
+    close = dt.datetime.combine(dt.date.fromisoformat(election["date"]), POLLS_CLOSE, tzinfo=PACIFIC)
+    return (now or utcnow()) >= close
 
 # Strings the browser code shows (static/app.js), handed to it in the page's language.
 JS_STRINGS = {
@@ -187,7 +200,7 @@ def create_app():
         return {"base_url": config.PUBLIC_BASE, "canonical_base": config.CANONICAL_BASE,
                 "is_production": config.IS_PRODUCTION, "headings": FIELD_HEADINGS,
                 "suggested_questions": SUGGESTED_QUESTIONS, "user": current_user(), "csrf_token": csrf_token,
-                "community_open": config.COMMUNITY_OPEN,
+                "community_open": config.COMMUNITY_OPEN, "results_certified": config.RESULTS_CERTIFIED,
                 "lang": lang(), "html_lang": i18n.LANGS[lang()]["html"], "og_locale": i18n.LANGS[lang()]["og"],
                 "_": _, "_a": T, "_d": _d,  # _a: plain text for attributes; _d: data labels
                 "lp": lp, "lang_prefix": "" if lang() == i18n.DEFAULT else "/" + lang(),
@@ -229,8 +242,8 @@ def create_app():
     @app.get("/")
     def landing():
         election, measures = load_ballot()
-        return render_template("landing.html", election=election, count=len(measures),
-                               sample_zip=SAMPLE_ZIP)
+        return render_template("landing.html", election=election, count=len(measures), measures=measures,
+                               sample_zip=SAMPLE_ZIP, results=load_results(), after_polls=polls_closed(election))
 
     @app.route("/ballot", methods=["GET", "POST"])
     def ballot_page():
@@ -257,7 +270,7 @@ def create_app():
                 local = {"county": place["county"], "yours": yours,
                          "maybe": [m for m in rows if m not in yours]}
         return render_template("ballot.html", election=election, measures=measures, place=place, local=local,
-                               results=load_results())
+                               results=load_results(), after_polls=polls_closed(election))
 
     @app.url_value_preprocessor
     def check_measure_id(_endpoint, values):

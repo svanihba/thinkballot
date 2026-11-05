@@ -109,7 +109,6 @@
   "See my ballot": "查看我的選票",
   "Just exploring?": "只是看看？",
   "Try a sample ZIP code: {zip}": "試試範例郵遞區號：{zip}",
-  "We use your ZIP code only to find your likely districts. It is never stored.": "我們只用你的郵遞區號來找出你可能的選區，絕不會儲存它。",
   "Plain English": "簡單易懂",
   "Every proposition on one short card: what it does, what YES means, what NO means, and what it costs.": "每項提案一張簡短卡片：它做什麼、投贊成代表什麼、投反對代表什麼，以及要花多少錢。",
   "Both sides, equally": "雙方平等",
@@ -171,8 +170,6 @@
   "YES always comes before NO, in the same layout, style and colour. The official arguments for and against sit side by side.": "贊成永遠排在反對之前，使用相同的版面、樣式和顏色。官方的支持和反對論點並排呈現。",
   "Quote it or skip it": "能引用才說",
   "A field we can't source says \"Not available in the official guide.\" An answer we can't ground is held back.": "找不到來源的項目會標示「官方指南中沒有這項資料。」沒有根據的回答會被擋下。",
-  "Your ZIP code is never stored": "你的郵遞區號絕不會被儲存",
-  "We use only the ZIP code to find your likely districts, then discard it. Questions aren't logged. Stars and reading progress stay in your own browser.": "我們只用郵遞區號找出你可能的選區，之後就丟棄。問題不會被記錄。星號和閱讀進度只保存在你自己的瀏覽器裡。",
   "Official translations only": "只用官方翻譯",
   "In Spanish and Chinese, official text comes word for word from the Secretary of State's official translation of the voter guide, checked the same way. Where there is no official translation, the English original is shown. ThinkBallot never machine-translates official text; it translates only its own words: the interface, and its checked answers to the suggested questions.": "在西班牙文和中文版本中，官方文字逐字取自州務卿選民指南的官方翻譯，並用同樣的方式核對。沒有官方翻譯的地方，則顯示英文原文。ThinkBallot 從不使用機器翻譯官方文字，只翻譯自己的文字：介面，以及經過檢查的建議問題回答。",
   "Bias Buster checks every piece of text we write and every AI answer before you see it. Two jobs: <strong>no bias</strong> and <strong>no made-up facts</strong>.": "Bias Buster 會在你看到之前，檢查我們寫的每一段文字和每一個 AI 回答。它有兩項任務：<strong>沒有偏見</strong>，以及<strong>沒有捏造的事實</strong>。",
@@ -294,6 +291,16 @@
   "Reports are kept for 60 days and are never shown on the site.": "報告會保留 60 天，且絕不會顯示在網站上。",
   "Please describe the problem in 10 to 2,000 characters.": "請用 10 到 2,000 個字元描述問題。",
   "Too many reports right now. Please try again in an hour.": "目前的報告太多了。請在一小時後再試一次。",
-  "Your report couldn't be saved. Please try again in a minute.": "無法儲存你的報告。請在一分鐘後再試一次。"
+  "Your report couldn't be saved. Please try again in a minute.": "無法儲存你的報告。請在一分鐘後再試一次。",
+  "Counting the votes": "計票進行中",
+  "Voted by mail?": "已郵寄投票？",
+  "Ballots postmarked on or before November 3 are counted if they arrive by November 10.": "郵戳日期為11月3日或之前的選票，只要在11月10日之前寄達就會被計入。",
+  "Results:": "結果：",
+  "Counties keep counting valid ballots for weeks after election day, so totals change. Results on this site are unofficial until the Secretary of State certifies the results, by December 11.": "選舉日之後，各縣會繼續計算有效選票達數週，因此總數會變動。在州務卿於12月11日之前認證結果以前，本網站上的結果都是非官方結果。",
+  "See the official results": "查看官方結果",
+  "The Secretary of State has certified the results.": "州務卿已認證選舉結果。",
+  "We use your ZIP code to find your likely districts. It is kept for 60 days for site statistics, never linked to an account.": "我們用你的郵遞區號找出你可能的選區。它會為網站統計保存60天，絕不會與帳戶連結。",
+  "Your ZIP code is used for districts and statistics only": "你的郵遞區號只用於選區和統計",
+  "We use only the ZIP code to find your likely districts. It is kept for 60 days for site statistics, never linked to an account. Questions aren't logged. Stars and reading progress stay in your own browser.": "我們只用郵遞區號找出你可能的選區。它會為網站統計保存60天，絕不會與帳戶連結。問題不會被記錄。星號和閱讀進度只保存在你自己的瀏覽器裡。"
  }
 }
